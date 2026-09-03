@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rave Scanner — Montréal</title>
+<meta name="description" content="Le planning des soirées house, techno et électroniques à Montréal. Mis à jour automatiquement.">
+<meta name="color-scheme" content="dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="brand">
+    <h1>RAVE<em>SCANNER</em></h1>
+    <p class="city" id="city-label">Montréal</p>
+  </div>
+
+  <dl class="stats">
+    <div><dt>Soirées</dt><dd id="stat-events">—</dd></div>
+    <div><dt>Lieux</dt><dd id="stat-venues">—</dd></div>
+    <div><dt>À ne pas manquer</dt><dd id="stat-highlights" class="hot">—</dd></div>
+    <div><dt>Dernier scan</dt><dd id="stat-updated">—</dd></div>
+  </dl>
+</header>
+
+<div class="notice notice--demo" id="demo-banner" hidden>
+  <strong>Données de démonstration.</strong>
+  Ces soirées sont fictives, générées pour valider l'affichage et le scoring.
+  Aucune n'est une vraie annonce.
+</div>
+
+<div class="notice notice--error" id="error-banner" hidden></div>
+
+<nav class="filters" aria-label="Filtres">
+  <div class="filter filter--range" role="group" aria-label="Fenêtre">
+    <button type="button" data-days="7">7 jours</button>
+    <button type="button" data-days="14" class="is-active">14 jours</button>
+    <button type="button" data-days="21">21 jours</button>
+  </div>
+
+  <div class="filter filter--tier" role="group" aria-label="Niveau d'intérêt minimum">
+    <button type="button" data-tier="0" class="is-active">Tout</button>
+    <button type="button" data-tier="1">★</button>
+    <button type="button" data-tier="2">★★</button>
+    <button type="button" data-tier="3">★★★</button>
+  </div>
+
+  <div class="filter filter--search">
+    <input type="search" id="search" placeholder="Artiste, soirée, lieu…" autocomplete="off" spellcheck="false">
+  </div>
+
+  <details class="filter filter--drop" id="genre-drop">
+    <summary>Genres <span class="badge" id="genre-count" hidden></span></summary>
+    <div class="drop-panel" id="genre-list"></div>
+  </details>
+
+  <details class="filter filter--drop" id="venue-drop">
+    <summary>Lieux <span class="badge" id="venue-count" hidden></span></summary>
+    <div class="drop-panel" id="venue-list"></div>
+  </details>
+
+  <div class="filter filter--view" role="group" aria-label="Affichage">
+    <button type="button" data-view="grid" class="is-active">Grille</button>
+    <button type="button" data-view="list">Liste</button>
+  </div>
+
+  <button type="button" class="filter-reset" id="reset">Réinitialiser</button>
+</nav>
+
+<main>
+  <div class="scroller" id="grid-view">
+    <div class="grid" id="grid"></div>
+  </div>
+  <div class="agenda" id="list-view" hidden></div>
+  <p class="empty" id="empty" hidden>Rien ne correspond à ces filtres.</p>
+</main>
+
+<footer class="legend">
+  <div class="legend-scale">
+    <span class="legend-item"><i class="swatch swatch--t0"></i>Soirée régulière</span>
+    <span class="legend-item"><i class="swatch swatch--t1"></i>★ Notable</span>
+    <span class="legend-item"><i class="swatch swatch--t2"></i>★★ Grosse affiche</span>
+    <span class="legend-item"><i class="swatch swatch--t3"></i>★★★ Incontournable</span>
+  </div>
+  <p class="legend-note">
+    Le score d'intérêt combine la notoriété de la tête d'affiche, la profondeur du plateau
+    et le poids du lieu. Survole une case pour voir le détail.
+    Les lignes sont ordonnées par intensité de la programmation sur la fenêtre affichée.
+  </p>
+  <p class="legend-sources" id="sources-line"></p>
+</footer>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>
