@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-03T18:31:03Z",
+ "generated_at": "2026-09-03T19:42:04Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
@@ -25,26 +25,26 @@
  "venue_order": [
   "piknic-electronik",
   "new-city-gas",
-  "bar-datcha",
   "stereo-bar",
+  "bar-datcha",
   "stereo",
   "sat",
   "newspeak",
   "warehouse",
+  "village-au-pied-du-courant",
   "belvedere-du-centre-des-sciences-de-montreal",
+  "le-red-room",
   "tba-theatre-outremont",
   "salon-daome",
-  "village-au-pied-du-courant",
   "breakglass-studios",
   "blue-room",
-  "le-red-room",
   "theatre-fairmount",
   "systeme",
+  "esc",
   "tba-le-bateau-mouche",
   "vino-disco",
   "cabaret-berlin",
   "bazart",
-  "esc",
   "nwhr",
   "foufounes",
   "white-wall-studio",
@@ -187,7 +187,7 @@
    "id": "esc",
    "name": "ESC",
    "type": "club",
-   "tier": 1,
+   "tier": 2,
    "capacity": null,
    "address": "",
    "url": "",
@@ -301,7 +301,7 @@
    "id": "le-red-room",
    "name": "Le Red Room",
    "type": "club",
-   "tier": 1,
+   "tier": 2,
    "capacity": null,
    "address": "",
    "url": "",
@@ -419,7 +419,7 @@
    "id": "stereo-bar",
    "name": "Stereo Bar",
    "type": "bar",
-   "tier": 2,
+   "tier": 3,
    "capacity": 200,
    "address": "858 Rue Sainte-Catherine E",
    "url": "https://stereonightclub.net",
@@ -505,8 +505,8 @@
   {
    "id": "village-au-pied-du-courant",
    "name": "Village au Pied-du-Courant",
-   "type": "club",
-   "tier": 1,
+   "type": "venue",
+   "tier": 2,
    "capacity": null,
    "address": "",
    "url": "",
@@ -3798,11 +3798,11 @@
     }
    ],
    "interest": {
-    "score": 24,
+    "score": 30,
     "tier": 0,
     "reasons": [
      "tete d'affiche : Awwful (27)",
-     "lieu : Village au Pied-du-Courant (palier 1)"
+     "lieu : Village au Pied-du-Courant (palier 2)"
     ]
    }
   },
@@ -4090,6 +4090,47 @@
    }
   },
   {
+   "id": "8b043406fac9",
+   "title": "Village au Pied-du-Courant - FLTK & Friends",
+   "venue_id": "village-au-pied-du-courant",
+   "night": "2026-09-04",
+   "start": "2026-09-04T17:00:00.000",
+   "end": "2026-09-04T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "village-au-pied-du-courant-fltk",
+     "name": "Village au Pied-du-Courant - FLTK",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "friends",
+     "name": "Friends",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2522779",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2522779"
+    }
+   ],
+   "interest": {
+    "score": 39,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Village au Pied-du-Courant - FLTK (43)",
+     "lieu : Village au Pied-du-Courant (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "ab75ea283c08",
    "title": "Quest - Mike Larry",
    "venue_id": "stereo",
@@ -4213,47 +4254,6 @@
    }
   },
   {
-   "id": "8b043406fac9",
-   "title": "Village au Pied-du-Courant - FLTK & Friends",
-   "venue_id": "village-au-pied-du-courant",
-   "night": "2026-09-04",
-   "start": "2026-09-04T17:00:00.000",
-   "end": "2026-09-04T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "village-au-pied-du-courant-fltk",
-     "name": "Village au Pied-du-Courant - FLTK",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "friends",
-     "name": "Friends",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2522779",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2522779"
-    }
-   ],
-   "interest": {
-    "score": 33,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Village au Pied-du-Courant - FLTK (43)",
-     "lieu : Village au Pied-du-Courant (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "ecc875bda77e",
    "title": "ALL NIGHT x T.I.T.S. - D. Tiffany - Ma Sha",
    "venue_id": "sat",
@@ -4309,6 +4309,88 @@
     "reasons": [
      "tete d'affiche : D. Tiffany (28)",
      "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "3fbc54b0b217",
+   "title": "Marsolo - Manuel Falardeau",
+   "venue_id": "stereo-bar",
+   "night": "2026-09-04",
+   "start": "2026-09-04T22:00:00.000",
+   "end": "2026-09-05T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "marsolo",
+     "name": "Marsolo",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "manuel-falardeau",
+     "name": "Manuel Falardeau",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2518588",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2518588"
+    }
+   ],
+   "interest": {
+    "score": 29,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Marsolo (17)",
+     "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "d82d1d712272",
+   "title": "JOUST (USA) + more",
+   "venue_id": "le-red-room",
+   "night": "2026-09-04",
+   "start": "2026-09-04T22:00:00.000",
+   "end": "2026-09-05T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "joust",
+     "name": "JOUST (USA)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "more",
+     "name": "more",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2510896",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2510896"
+    }
+   ],
+   "interest": {
+    "score": 27,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : JOUST (USA) (23)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -4482,88 +4564,6 @@
    }
   },
   {
-   "id": "3fbc54b0b217",
-   "title": "Marsolo - Manuel Falardeau",
-   "venue_id": "stereo-bar",
-   "night": "2026-09-04",
-   "start": "2026-09-04T22:00:00.000",
-   "end": "2026-09-05T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "marsolo",
-     "name": "Marsolo",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "manuel-falardeau",
-     "name": "Manuel Falardeau",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2518588",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2518588"
-    }
-   ],
-   "interest": {
-    "score": 23,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Marsolo (17)",
-     "lieu : Stereo Bar (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "d82d1d712272",
-   "title": "JOUST (USA) + more",
-   "venue_id": "le-red-room",
-   "night": "2026-09-04",
-   "start": "2026-09-04T22:00:00.000",
-   "end": "2026-09-05T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "joust",
-     "name": "JOUST (USA)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "more",
-     "name": "more",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2510896",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2510896"
-    }
-   ],
-   "interest": {
-    "score": 21,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : JOUST (USA) (23)",
-     "lieu : Le Red Room (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "617a53025d8c",
    "title": "Succubus Ball",
    "venue_id": "cabaret-berlin",
@@ -4596,6 +4596,47 @@
     "reasons": [
      "tete d'affiche : DJ FAITH (21)",
      "lieu : Cabaret Berlin (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "78797ef8c5c5",
+   "title": "KØRE avec un K",
+   "venue_id": "esc",
+   "night": "2026-09-04",
+   "start": "2026-09-04T22:00:00.000",
+   "end": "2026-09-05T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "kre",
+     "name": "KØRE",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "un-k",
+     "name": "un K",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2511881",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2511881"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : KØRE (8)",
+     "lieu : ESC (palier 2)"
     ]
    }
   },
@@ -4805,47 +4846,6 @@
     "reasons": [
      "tete d'affiche : RICO RICA (8)",
      "lieu : TBA - Cyberlove Garden (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "78797ef8c5c5",
-   "title": "KØRE avec un K",
-   "venue_id": "esc",
-   "night": "2026-09-04",
-   "start": "2026-09-04T22:00:00.000",
-   "end": "2026-09-05T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "kre",
-     "name": "KØRE",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "un-k",
-     "name": "un K",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2511881",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2511881"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : KØRE (8)",
-     "lieu : ESC (palier 1)"
     ]
    }
   },
@@ -5129,11 +5129,52 @@
     }
    ],
    "interest": {
-    "score": 19,
+    "score": 25,
     "tier": 0,
     "reasons": [
      "tete d'affiche : Walji (20)",
-     "lieu : Le Red Room (palier 1)"
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "bcb50b1eb81e",
+   "title": "IDEMI - Shirlee",
+   "venue_id": "stereo-bar",
+   "night": "2026-09-05",
+   "start": "2026-09-05T22:00:00.000",
+   "end": "2026-09-06T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "idemi",
+     "name": "IDEMI",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "shirlee",
+     "name": "Shirlee",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2518591",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2518591"
+    }
+   ],
+   "interest": {
+    "score": 23,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : IDEMI (8)",
+     "lieu : Stereo Bar (palier 3)"
     ]
    }
   },
@@ -5373,21 +5414,62 @@
    }
   },
   {
-   "id": "bcb50b1eb81e",
-   "title": "IDEMI - Shirlee",
-   "venue_id": "stereo-bar",
+   "id": "4a4980c39a7b",
+   "title": "1460BPM x ESC : NOA - ALL NIGHT LONG",
+   "venue_id": "esc",
    "night": "2026-09-05",
    "start": "2026-09-05T22:00:00.000",
-   "end": "2026-09-06T03:00:00.000",
+   "end": "2026-09-06T06:00:00.000",
    "lineup": [
     {
-     "artist_id": "idemi",
-     "name": "IDEMI",
+     "artist_id": "1460bpm",
+     "name": "1460BPM",
      "billing": "headliner"
     },
     {
-     "artist_id": "shirlee",
-     "name": "Shirlee",
+     "artist_id": "esc-noa",
+     "name": "ESC : NOA - ALL NIGHT LONG",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2506582",
+   "event_url": "https://ra.co/events/2506582",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2506582"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : 1460BPM (8)",
+     "lieu : ESC (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "420e6a81250e",
+   "title": "Village au Pied-du-Courant - DISCOÑO",
+   "venue_id": "village-au-pied-du-courant",
+   "night": "2026-09-05",
+   "start": "2026-09-05T17:00:00.000",
+   "end": "2026-09-05T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "aniika",
+     "name": "ANIIKA",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mcherry",
+     "name": "mCherry",
      "billing": "support"
     }
    ],
@@ -5395,21 +5477,21 @@
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
-   "event_url": "https://ra.co/events/2518591",
+   "event_url": "https://ra.co/events/2522791",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2518591"
+     "url": "https://ra.co/events/2522791"
     }
    ],
    "interest": {
     "score": 17,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : IDEMI (8)",
-     "lieu : Stereo Bar (palier 2)"
+     "tete d'affiche : ANIIKA (8)",
+     "lieu : Village au Pied-du-Courant (palier 2)"
     ]
    }
   },
@@ -5639,88 +5721,6 @@
    }
   },
   {
-   "id": "4a4980c39a7b",
-   "title": "1460BPM x ESC : NOA - ALL NIGHT LONG",
-   "venue_id": "esc",
-   "night": "2026-09-05",
-   "start": "2026-09-05T22:00:00.000",
-   "end": "2026-09-06T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "1460bpm",
-     "name": "1460BPM",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "esc-noa",
-     "name": "ESC : NOA - ALL NIGHT LONG",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2506582",
-   "event_url": "https://ra.co/events/2506582",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2506582"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : 1460BPM (8)",
-     "lieu : ESC (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "420e6a81250e",
-   "title": "Village au Pied-du-Courant - DISCOÑO",
-   "venue_id": "village-au-pied-du-courant",
-   "night": "2026-09-05",
-   "start": "2026-09-05T17:00:00.000",
-   "end": "2026-09-05T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "aniika",
-     "name": "ANIIKA",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "mcherry",
-     "name": "mCherry",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2522791",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2522791"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : ANIIKA (8)",
-     "lieu : Village au Pied-du-Courant (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "e5cc07884c1f",
    "title": "Vino Disco SATURDAY",
    "venue_id": "vino-disco",
@@ -5828,12 +5828,14 @@
     {
      "artist_id": "max-dean",
      "name": "Max Dean",
-     "billing": "headliner"
+     "billing": "headliner",
+     "b2b_with": "luke-dean"
     },
     {
      "artist_id": "luke-dean",
      "name": "Luke Dean_",
-     "billing": "support"
+     "billing": "support",
+     "b2b_with": "max-dean"
     },
     {
      "artist_id": "tommy-phillips",
@@ -5900,6 +5902,42 @@
    }
   },
   {
+   "id": "c5e04a57051f",
+   "title": "LBD: Monitors (All Night Long)",
+   "venue_id": "stereo-bar",
+   "night": "2026-09-06",
+   "start": "2026-09-06T22:00:00.000",
+   "end": "2026-09-07T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "monitors",
+     "name": "Monitors",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2518595",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2518595"
+    }
+   ],
+   "interest": {
+    "score": 23,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Monitors (8)",
+     "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "3b0be4381f0c",
    "title": "DAHOMEY — T-DANCE",
    "venue_id": "salon-daome",
@@ -5941,38 +5979,38 @@
    }
   },
   {
-   "id": "c5e04a57051f",
-   "title": "LBD: Monitors (All Night Long)",
-   "venue_id": "stereo-bar",
+   "id": "2d6f60a395df",
+   "title": "Electro Oasis (every Sunday) *Free with RSVP ticket*",
+   "venue_id": "le-red-room",
    "night": "2026-09-06",
    "start": "2026-09-06T22:00:00.000",
    "end": "2026-09-07T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "monitors",
-     "name": "Monitors",
+     "artist_id": "sam-chef",
+     "name": "SAM CHEF",
      "billing": "headliner"
     }
    ],
    "genres": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2518595",
+   "ticket_url": "https://ra.co/events/2525266",
+   "event_url": "https://ra.co/events/2525266",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2518595"
+     "url": "https://ra.co/events/2525266"
     }
    ],
    "interest": {
     "score": 17,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Monitors (8)",
-     "lieu : Stereo Bar (palier 2)"
+     "tete d'affiche : SAM CHEF (8)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -6147,42 +6185,6 @@
     "reasons": [
      "tete d'affiche : DJ Davidé (8)",
      "lieu : Cabaret Berlin (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "2d6f60a395df",
-   "title": "Electro Oasis (every Sunday) *Free with RSVP ticket*",
-   "venue_id": "le-red-room",
-   "night": "2026-09-06",
-   "start": "2026-09-06T22:00:00.000",
-   "end": "2026-09-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sam-chef",
-     "name": "SAM CHEF",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2525266",
-   "event_url": "https://ra.co/events/2525266",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2525266"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : SAM CHEF (8)",
-     "lieu : Le Red Room (palier 1)"
     ]
    }
   },
@@ -6506,11 +6508,11 @@
     }
    ],
    "interest": {
-    "score": 11,
+    "score": 17,
     "tier": 0,
     "reasons": [
      "tete d'affiche : Hardest Frequencies - Free (8)",
-     "lieu : Le Red Room (palier 1)"
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -6599,11 +6601,11 @@
     }
    ],
    "interest": {
-    "score": 29,
+    "score": 35,
     "tier": 0,
     "reasons": [
      "tete d'affiche : Aegis (37)",
-     "lieu : Le Red Room (palier 1)"
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -6641,6 +6643,47 @@
      "tete d'affiche : Grouper (53)",
      "lieu : TBA - Théâtre Outremont (palier 1)",
      "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "bd34c02b487a",
+   "title": "BLEEDER",
+   "venue_id": "le-red-room",
+   "night": "2026-09-10",
+   "start": "2026-09-10T22:00:00.000",
+   "end": "2026-09-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mowie-2",
+     "name": "Mowie (2)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "fangsie",
+     "name": "fangsie",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2506605",
+   "event_url": "https://ra.co/events/2506605",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2506605"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Mowie (2) (8)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -6727,47 +6770,6 @@
    }
   },
   {
-   "id": "bd34c02b487a",
-   "title": "BLEEDER",
-   "venue_id": "le-red-room",
-   "night": "2026-09-10",
-   "start": "2026-09-10T22:00:00.000",
-   "end": "2026-09-11T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "mowie-2",
-     "name": "Mowie (2)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "fangsie",
-     "name": "fangsie",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2506605",
-   "event_url": "https://ra.co/events/2506605",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2506605"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Mowie (2) (8)",
-     "lieu : Le Red Room (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "0d5320cf40a4",
    "title": "Village au Pied-du-Courant - MUTEK",
    "venue_id": "village-au-pied-du-courant",
@@ -6805,11 +6807,11 @@
     }
    ],
    "interest": {
-    "score": 11,
+    "score": 17,
     "tier": 0,
     "reasons": [
      "tete d'affiche : Breakcheck (8)",
-     "lieu : Village au Pied-du-Courant (palier 1)"
+     "lieu : Village au Pied-du-Courant (palier 2)"
     ]
    }
   },
@@ -7004,6 +7006,42 @@
    }
   },
   {
+   "id": "46821ccf496c",
+   "title": "Opposite Direktion (All Night Long)",
+   "venue_id": "stereo-bar",
+   "night": "2026-09-11",
+   "start": "2026-09-11T22:00:00.000",
+   "end": "2026-09-12T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "opposite-direktion",
+     "name": "Opposite Direktion",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2518597",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2518597"
+    }
+   ],
+   "interest": {
+    "score": 23,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Opposite Direktion (8)",
+     "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "dcd66b2cd934",
    "title": "Destination 160 vol II: Traxman",
    "venue_id": "la-recre",
@@ -7061,6 +7099,52 @@
     "reasons": [
      "tete d'affiche : Traxman (21)",
      "lieu : La Récré (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "142363c0a696",
+   "title": "//Cloud9\\\\ Purgatory",
+   "venue_id": "esc",
+   "night": "2026-09-11",
+   "start": "2026-09-11T22:00:00.000",
+   "end": "2026-09-12T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "fangsie",
+     "name": "fangsie",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "the-bald-girl",
+     "name": "the bald girl",
+     "billing": "support"
+    },
+    {
+     "artist_id": "alexx7",
+     "name": "ALEXX7",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2525932",
+   "event_url": "https://ra.co/events/2525932",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2525932"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : fangsie (8)",
+     "lieu : ESC (palier 2)"
     ]
    }
   },
@@ -7142,16 +7226,16 @@
    }
   },
   {
-   "id": "46821ccf496c",
-   "title": "Opposite Direktion (All Night Long)",
-   "venue_id": "stereo-bar",
+   "id": "83cc9f9b32ac",
+   "title": "Village au Pied-du-Courant - Blast From The Past",
+   "venue_id": "village-au-pied-du-courant",
    "night": "2026-09-11",
-   "start": "2026-09-11T22:00:00.000",
-   "end": "2026-09-12T03:00:00.000",
+   "start": "2026-09-11T17:00:00.000",
+   "end": "2026-09-11T23:00:00.000",
    "lineup": [
     {
-     "artist_id": "opposite-direktion",
-     "name": "Opposite Direktion",
+     "artist_id": "grandhuit",
+     "name": "GrandHuit",
      "billing": "headliner"
     }
    ],
@@ -7159,67 +7243,21 @@
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
-   "event_url": "https://ra.co/events/2518597",
+   "event_url": "https://ra.co/events/2522801",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2518597"
-    }
-   ],
-   "interest": {
-    "score": 17,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Opposite Direktion (8)",
-     "lieu : Stereo Bar (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "142363c0a696",
-   "title": "//Cloud9\\\\ Purgatory",
-   "venue_id": "esc",
-   "night": "2026-09-11",
-   "start": "2026-09-11T22:00:00.000",
-   "end": "2026-09-12T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "fangsie",
-     "name": "fangsie",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "the-bald-girl",
-     "name": "the bald girl",
-     "billing": "support"
-    },
-    {
-     "artist_id": "alexx7",
-     "name": "ALEXX7",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2525932",
-   "event_url": "https://ra.co/events/2525932",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2525932"
+     "url": "https://ra.co/events/2522801"
     }
    ],
    "interest": {
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : fangsie (8)",
-     "lieu : ESC (palier 1)"
+     "tete d'affiche : GrandHuit (0)",
+     "lieu : Village au Pied-du-Courant (palier 2)"
     ]
    }
   },
@@ -7429,42 +7467,6 @@
    }
   },
   {
-   "id": "83cc9f9b32ac",
-   "title": "Village au Pied-du-Courant - Blast From The Past",
-   "venue_id": "village-au-pied-du-courant",
-   "night": "2026-09-11",
-   "start": "2026-09-11T17:00:00.000",
-   "end": "2026-09-11T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "grandhuit",
-     "name": "GrandHuit",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2522801",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2522801"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : GrandHuit (0)",
-     "lieu : Village au Pied-du-Courant (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "5d64bd4df98b",
    "title": "Hicky & Kalo (All Night Long)",
    "venue_id": "stereo-bar",
@@ -7497,11 +7499,11 @@
     }
    ],
    "interest": {
-    "score": 36,
-    "tier": 0,
+    "score": 42,
+    "tier": 1,
     "reasons": [
      "tete d'affiche : Hicky (38)",
-     "lieu : Stereo Bar (palier 2)"
+     "lieu : Stereo Bar (palier 3)"
     ]
    }
   },
@@ -7707,6 +7709,42 @@
     "reasons": [
      "tete d'affiche : Laurence Matte (8)",
      "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "c4244e5cf157",
+   "title": "Village au Pied-du-Courant - Fermeture - FRIKITON",
+   "venue_id": "village-au-pied-du-courant",
+   "night": "2026-09-12",
+   "start": "2026-09-12T17:00:00.000",
+   "end": "2026-09-12T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "village-au-pied-du-courant-fermeture-frikiton",
+     "name": "Village au Pied-du-Courant - Fermeture - FRIKITON",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2522808",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2522808"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Village au Pied-du-Courant - Fermeture - FRIKITON (8)",
+     "lieu : Village au Pied-du-Courant (palier 2)"
     ]
    }
   },
@@ -7967,42 +8005,6 @@
    }
   },
   {
-   "id": "c4244e5cf157",
-   "title": "Village au Pied-du-Courant - Fermeture - FRIKITON",
-   "venue_id": "village-au-pied-du-courant",
-   "night": "2026-09-12",
-   "start": "2026-09-12T17:00:00.000",
-   "end": "2026-09-12T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "village-au-pied-du-courant-fermeture-frikiton",
-     "name": "Village au Pied-du-Courant - Fermeture - FRIKITON",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2522808",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2522808"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Village au Pied-du-Courant - Fermeture - FRIKITON (8)",
-     "lieu : Village au Pied-du-Courant (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "d739766aaa4c",
    "title": "Piknic Électronik MTL #16: Dean Turnley, Julian Fijma / Roche Musique: Didi Han, Cezaire",
    "venue_id": "piknic-electronik",
@@ -8162,11 +8164,47 @@
     }
    ],
    "interest": {
-    "score": 12,
+    "score": 18,
     "tier": 0,
     "reasons": [
      "tete d'affiche : Brian Cuta (0)",
-     "lieu : Stereo Bar (palier 2)"
+     "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "5cc85cfe2a13",
+   "title": "Electro Oasis (every Sunday) *Free with RSVP ticket*",
+   "venue_id": "le-red-room",
+   "night": "2026-09-13",
+   "start": "2026-09-13T22:00:00.000",
+   "end": "2026-09-14T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ratchet",
+     "name": "Ratchet",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2525378",
+   "event_url": "https://ra.co/events/2525378",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2525378"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Ratchet (5)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -8207,42 +8245,6 @@
    }
   },
   {
-   "id": "5cc85cfe2a13",
-   "title": "Electro Oasis (every Sunday) *Free with RSVP ticket*",
-   "venue_id": "le-red-room",
-   "night": "2026-09-13",
-   "start": "2026-09-13T22:00:00.000",
-   "end": "2026-09-14T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ratchet",
-     "name": "Ratchet",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2525378",
-   "event_url": "https://ra.co/events/2525378",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2525378"
-    }
-   ],
-   "interest": {
-    "score": 9,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Ratchet (5)",
-     "lieu : Le Red Room (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "e93ac15f7815",
    "title": "5:14 Sessions with PEC [All Night Long]",
    "venue_id": "le-red-room",
@@ -8275,11 +8277,11 @@
     }
    ],
    "interest": {
-    "score": 11,
+    "score": 17,
     "tier": 0,
     "reasons": [
      "tete d'affiche : 5:14 Sessions (8)",
-     "lieu : Le Red Room (palier 1)"
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -8321,11 +8323,11 @@
     }
    ],
    "interest": {
-    "score": 13,
+    "score": 19,
     "tier": 0,
     "reasons": [
      "tete d'affiche : Vamana (10)",
-     "lieu : Le Red Room (palier 1)"
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -8494,6 +8496,43 @@
    }
   },
   {
+   "id": "7264017b939b",
+   "title": "Claude VonStroke - Ced Ullberg",
+   "venue_id": "stereo-bar",
+   "night": "2026-09-18",
+   "start": "2026-09-18T22:00:00.000",
+   "end": "2026-09-19T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "claude-vonstroke",
+     "name": "Claude VonStroke",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2518604",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2518604"
+    }
+   ],
+   "interest": {
+    "score": 60,
+    "tier": 2,
+    "reasons": [
+     "tete d'affiche : Claude VonStroke (55)",
+     "lieu : Stereo Bar (palier 3)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
    "id": "e479ac64de8c",
    "title": "ALL NIGHT: Batu - Clara D - Raef b2b Lia Plutonic",
    "venue_id": "sat",
@@ -8536,43 +8575,6 @@
     "reasons": [
      "tete d'affiche : Batu (53)",
      "lieu : SAT (palier 2)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
-   "id": "7264017b939b",
-   "title": "Claude VonStroke - Ced Ullberg",
-   "venue_id": "stereo-bar",
-   "night": "2026-09-18",
-   "start": "2026-09-18T22:00:00.000",
-   "end": "2026-09-19T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "claude-vonstroke",
-     "name": "Claude VonStroke",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2518604",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2518604"
-    }
-   ],
-   "interest": {
-    "score": 54,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : Claude VonStroke (55)",
-     "lieu : Stereo Bar (palier 2)",
      "premier passage en ville depuis 12 mois"
     ]
    }
@@ -8849,6 +8851,47 @@
    }
   },
   {
+   "id": "f3593fc4b722",
+   "title": "SWEAT VOL 6",
+   "venue_id": "le-red-room",
+   "night": "2026-09-18",
+   "start": "2026-09-18T22:00:00.000",
+   "end": "2026-09-19T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "babaganouschka",
+     "name": "Babaganouschka",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "shadya",
+     "name": "Shadya",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2525542",
+   "event_url": "https://ra.co/events/2525542",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2525542"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Babaganouschka (8)",
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "429772bac328",
    "title": "BARON (FR) at Nuits Bazart",
    "venue_id": "bazart",
@@ -9035,47 +9078,6 @@
     "reasons": [
      "tete d'affiche : Flleur (8)",
      "lieu : Le Ritz PDB (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "f3593fc4b722",
-   "title": "SWEAT VOL 6",
-   "venue_id": "le-red-room",
-   "night": "2026-09-18",
-   "start": "2026-09-18T22:00:00.000",
-   "end": "2026-09-19T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "babaganouschka",
-     "name": "Babaganouschka",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "shadya",
-     "name": "Shadya",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2525542",
-   "event_url": "https://ra.co/events/2525542",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2525542"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Babaganouschka (8)",
-     "lieu : Le Red Room (palier 1)"
     ]
    }
   },
@@ -9423,47 +9425,11 @@
     }
    ],
    "interest": {
-    "score": 21,
+    "score": 27,
     "tier": 0,
     "reasons": [
      "tete d'affiche : KAVARI (20)",
-     "lieu : ESC (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "e4900387f925",
-   "title": "Linska - Montréal",
-   "venue_id": "newspeak",
-   "night": "2026-09-19",
-   "start": "2026-09-19T22:00:00.000",
-   "end": "2026-09-20T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "linska",
-     "name": "Linska",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2485972",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2485972"
-    }
-   ],
-   "interest": {
-    "score": 17,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Linska (8)",
-     "lieu : Newspeak (palier 2)"
+     "lieu : ESC (palier 2)"
     ]
    }
   },
@@ -9505,11 +9471,47 @@
     }
    ],
    "interest": {
-    "score": 12,
+    "score": 18,
     "tier": 0,
     "reasons": [
      "tete d'affiche : Prïa (0)",
-     "lieu : Stereo Bar (palier 2)"
+     "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "e4900387f925",
+   "title": "Linska - Montréal",
+   "venue_id": "newspeak",
+   "night": "2026-09-19",
+   "start": "2026-09-19T22:00:00.000",
+   "end": "2026-09-20T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "linska",
+     "name": "Linska",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2485972",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2485972"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Linska (8)",
+     "lieu : Newspeak (palier 2)"
     ]
    }
   },
@@ -9664,11 +9666,11 @@
     }
    ],
    "interest": {
-    "score": 58,
-    "tier": 1,
+    "score": 64,
+    "tier": 2,
     "reasons": [
      "tete d'affiche : Napo Lugo (60)",
-     "lieu : Stereo Bar (palier 2)",
+     "lieu : Stereo Bar (palier 3)",
      "premier passage en ville depuis 12 mois"
     ]
    }
@@ -9800,11 +9802,11 @@
     }
    ],
    "interest": {
-    "score": 11,
+    "score": 17,
     "tier": 0,
     "reasons": [
      "tete d'affiche : Boomy (8)",
-     "lieu : Le Red Room (palier 1)"
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -9985,11 +9987,11 @@
     }
    ],
    "interest": {
-    "score": 11,
+    "score": 17,
     "tier": 0,
     "reasons": [
      "tete d'affiche : 5:14 Sessions (8)",
-     "lieu : Le Red Room (palier 1)"
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -10021,11 +10023,11 @@
     }
    ],
    "interest": {
-    "score": 11,
+    "score": 17,
     "tier": 0,
     "reasons": [
      "tete d'affiche : DOWN2TECHNO: Every Wednesday (8)",
-     "lieu : Le Red Room (palier 1)"
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
