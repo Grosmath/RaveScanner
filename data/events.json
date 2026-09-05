@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-05T12:27:42Z",
+ "generated_at": "2026-09-05T22:44:37Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 158
+   "events": 159
   },
   {
    "id": "piknic",
@@ -35,8 +35,8 @@
   "belvedere-du-centre-des-sciences-de-montreal",
   "tba-theatre-outremont",
   "salon-daome",
-  "breakglass-studios",
   "esc",
+  "breakglass-studios",
   "theatre-fairmount",
   "systeme",
   "nwhr",
@@ -879,6 +879,16 @@
    "known": false
   },
   {
+   "id": "billy-dalessandro",
+   "name": "Billy Dalessandro",
+   "tier": 0,
+   "score": 9,
+   "popularity": 9,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/2415e89821bdb69460fc998cdde2d1bc/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "bisoubizou",
    "name": "BisouBizou",
    "tier": 0,
@@ -1166,6 +1176,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "cristobal-urbina",
+   "name": "Cristobal Urbina",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/3e6df70e72284928c1b1a051414a81a9/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2409,6 +2429,16 @@
    "known": false
   },
   {
+   "id": "mightykat",
+   "name": "MightyKat",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "mike-chidiac",
    "name": "Mike Chidiac",
    "tier": 0,
@@ -2416,6 +2446,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "mike-shannon",
+   "name": "Mike Shannon",
+   "tier": 0,
+   "score": 29,
+   "popularity": 29,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/1c1809f90813b0e5b798ade742af2878/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3352,6 +3392,16 @@
    "popularity": 13,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/65cf7510c962a5146c9b378bb6853117/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "trevor-kiernander",
+   "name": "Trevor Kiernander",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7570,6 +7620,62 @@
     "reasons": [
      "tete d'affiche : ULTRA SUNN (42)",
      "lieu : Theatre Fairmount (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "eba1b7ddbbea",
+   "title": "ON THE HOUSE - VOL 006",
+   "venue_id": "esc",
+   "night": "2026-09-18",
+   "start": "2026-09-18T22:00:00.000",
+   "end": "2026-09-19T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mightykat",
+     "name": "MightyKat",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "billy-dalessandro",
+     "name": "Billy Dalessandro",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mike-shannon",
+     "name": "Mike Shannon",
+     "billing": "support"
+    },
+    {
+     "artist_id": "cristobal-urbina",
+     "name": "Cristobal Urbina",
+     "billing": "support"
+    },
+    {
+     "artist_id": "trevor-kiernander",
+     "name": "Trevor Kiernander",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2511069",
+   "event_url": "https://ra.co/events/2511069",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2511069"
+    }
+   ],
+   "interest": {
+    "score": 32,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : MightyKat (29)",
+     "lieu : ESC (palier 2)"
     ]
    }
   },
