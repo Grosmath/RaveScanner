@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-06T12:40:53Z",
+ "generated_at": "2026-09-06T22:50:10Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 142
+   "events": 145
   },
   {
    "id": "piknic",
@@ -32,6 +32,7 @@
   "newspeak",
   "warehouse",
   "stereo",
+  "barbossa",
   "tba-theatre-outremont",
   "salon-daome",
   "esc",
@@ -48,8 +49,8 @@
   "red-roof-church",
   "sala-rossa-la",
   "tba-outdoors",
+  "blue-room",
   "bazart",
-  "barbossa",
   "le-ritz",
   "clebard",
   "tba-near-villeray",
@@ -62,7 +63,6 @@
   "le-ministere",
   "tba-mile-ex",
   "vino-disco",
-  "blue-room",
   "cafe-social-b-hive",
   "jardins-gamelin",
   "waterfront-4"
@@ -744,6 +744,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/14e4f402ffbedcf87b3e4a7f278d22ce/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "ayeenb",
+   "name": "AYEENB",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1947,6 +1957,16 @@
    "known": false
   },
   {
+   "id": "kolophane",
+   "name": "Kolophane",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/4aa5ac6ad6bcb75bd6138f2c6c717893/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "kontravoid",
    "name": "Kontravoid",
    "tier": 0,
@@ -2467,6 +2487,16 @@
    "known": false
   },
   {
+   "id": "onlyhans",
+   "name": "onlyhans",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "opposite-direktion",
    "name": "Opposite Direktion",
    "tier": 0,
@@ -2680,6 +2710,16 @@
    "known": false
   },
   {
+   "id": "rekless-behavior",
+   "name": "Rekless Behavior",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "rhys-fulber",
    "name": "Rhys Fulber",
    "tier": 0,
@@ -2857,6 +2897,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "shame",
+   "name": "SHAME",
+   "tier": 0,
+   "score": 56,
+   "popularity": 56,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/a0bd02ad8d1221f084bc6c7818daf873/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3127,6 +3177,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "underthebed",
+   "name": "Underthebed",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/044215e1470a15b9afee3c6b701798df/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4135,6 +4195,48 @@
    }
   },
   {
+   "id": "7669c416ef5e",
+   "title": "mana",
+   "venue_id": "barbossa",
+   "night": "2026-09-10",
+   "start": "2026-09-10T20:00:00.000",
+   "end": "2026-09-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "onlyhans",
+     "name": "onlyhans",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "shame",
+     "name": "SHAME",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2530332",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2530332"
+    }
+   ],
+   "interest": {
+    "score": 49,
+    "tier": 1,
+    "reasons": [
+     "tete d'affiche : onlyhans (56)",
+     "lieu : Barbossa (palier 1)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
    "id": "68167bb4f6f1",
    "title": "Grouper | Montréal, Théâtre Outremont",
    "venue_id": "tba-theatre-outremont",
@@ -4870,6 +4972,47 @@
     "reasons": [
      "tete d'affiche : CUERPOS (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "557460d889c8",
+   "title": "CrisseMarqueur / Racil",
+   "venue_id": "blue-room",
+   "night": "2026-09-11",
+   "start": "2026-09-11T22:00:00.000",
+   "end": "2026-09-12T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "crissemarqueur",
+     "name": "CrisseMarqueur",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "racil",
+     "name": "Racil",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2530345",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2530345"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : CrisseMarqueur (8)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -8415,6 +8558,57 @@
     "reasons": [
      "tete d'affiche : Barbara Boeing (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "57d3da33caeb",
+   "title": "Mindspace Collective presents: Underthebed / Kolophane Rekless Behavior b2b AYEENB",
+   "venue_id": "blue-room",
+   "night": "2026-09-25",
+   "start": "2026-09-25T22:00:00.000",
+   "end": "2026-09-26T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "underthebed",
+     "name": "Underthebed",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "kolophane",
+     "name": "Kolophane",
+     "billing": "support"
+    },
+    {
+     "artist_id": "rekless-behavior",
+     "name": "Rekless Behavior",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ayeenb",
+     "name": "AYEENB",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2530444",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2530444"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Underthebed (8)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
