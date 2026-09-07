@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-06T22:50:10Z",
+ "generated_at": "2026-09-07T14:52:00Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-09-06",
-  "end": "2026-09-27"
+  "start": "2026-09-07",
+  "end": "2026-09-28"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 145
+   "events": 134
   },
   {
    "id": "piknic",
@@ -28,6 +28,7 @@
   "stereo-bar",
   "bar-datcha",
   "sat",
+  "blue-room",
   "le-red-room",
   "newspeak",
   "warehouse",
@@ -35,35 +36,30 @@
   "barbossa",
   "tba-theatre-outremont",
   "salon-daome",
-  "esc",
   "breakglass-studios",
+  "esc",
   "theatre-fairmount",
   "systeme",
-  "nwhr",
   "foufounes",
+  "nwhr",
   "salon-badin",
   "village-au-pied-du-courant",
-  "white-wall-studio",
   "la-recre",
-  "cabaret-berlin",
+  "white-wall-studio",
   "red-roof-church",
   "sala-rossa-la",
   "tba-outdoors",
-  "blue-room",
   "bazart",
+  "cabaret-berlin",
   "le-ritz",
-  "clebard",
   "tba-near-villeray",
-  "cappella",
   "entrepots-dominion-les",
-  "grand-quai-du-port-de-montreal",
   "la-sotterenea",
-  "le-bar-baby",
   "le-livart",
   "le-ministere",
   "tba-mile-ex",
-  "vino-disco",
   "cafe-social-b-hive",
+  "clebard",
   "jardins-gamelin",
   "waterfront-4"
  ],
@@ -143,16 +139,6 @@
    "genres": []
   },
   {
-   "id": "cappella",
-   "name": "Cappella",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "clebard",
    "name": "Clebard",
    "type": "club",
@@ -197,16 +183,6 @@
    ]
   },
   {
-   "id": "grand-quai-du-port-de-montreal",
-   "name": "Grand Quai du Port de Montreal",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "jardins-gamelin",
    "name": "Jardins Gamelin",
    "type": "club",
@@ -229,16 +205,6 @@
   {
    "id": "la-sotterenea",
    "name": "La Sotterenea",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "le-bar-baby",
-   "name": "Le Bar Baby",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -502,16 +468,6 @@
    "genres": []
   },
   {
-   "id": "vino-disco",
-   "name": "Vino Disco",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "warehouse",
    "name": "Lieu secret / Warehouse",
    "type": "warehouse",
@@ -667,6 +623,16 @@
    "known": false
   },
   {
+   "id": "allea",
+   "name": "Alléa",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/365d09d9589807cb87a013d6d08e84ef/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "also-cool-presents-drink-n-draw",
    "name": "Also Cool presents: Drink n' Draw",
    "tier": 0,
@@ -714,16 +680,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/226581b9f8857cc30c317ae2e8b0c6bc/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "aram",
-   "name": "Aram",
-   "tier": 0,
-   "score": 7,
-   "popularity": 7,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1047,16 +1003,6 @@
    "known": false
   },
   {
-   "id": "clochette",
-   "name": "Clochette",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "cloudy",
    "name": "Cloudy",
    "tier": 0,
@@ -1064,6 +1010,16 @@
    "popularity": 26,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/b5732a88c6e853451d7471fb880806d6/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "club-babies",
+   "name": "Club Babies",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1157,16 +1113,6 @@
    "known": false
   },
   {
-   "id": "dameer",
-   "name": "Dameer",
-   "tier": 0,
-   "score": 13,
-   "popularity": 13,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/54c48ae53dbf8e40acfc44971046fe71/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "dani-rev",
    "name": "Dani Rev",
    "tier": 0,
@@ -1174,6 +1120,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "dea",
+   "name": "Déa",
+   "tier": 0,
+   "score": 7,
+   "popularity": 7,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/f9bc7fb0ab2169845fb55082b9cc386e/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1227,26 +1183,6 @@
    "known": false
   },
   {
-   "id": "dj-davide",
-   "name": "DJ Davidé",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "dj-dial-on",
-   "name": "DJ Dial-on",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "dj-frog",
    "name": "DJ Frog",
    "tier": 0,
@@ -1279,16 +1215,6 @@
   {
    "id": "dj-michael-terzian",
    "name": "DJ Michael Terzian",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "dj-mushin",
-   "name": "DJ Mushin",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -1334,6 +1260,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "duchesse",
+   "name": "Duchesse",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/25549fbd10d7ca6b9fc80b2b0d990a29/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1397,6 +1333,16 @@
    "known": false
   },
   {
+   "id": "eldi",
+   "name": "Eldi",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/970b81504fb608681bfbf031b231f846/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "eli-escobar",
    "name": "Eli Escobar",
    "tier": 0,
@@ -1424,16 +1370,6 @@
    "popularity": 8,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/ee4805fd5fdb7902b68902c999f636e6/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "elyes-2",
-   "name": "Elyēs (2)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1474,6 +1410,16 @@
    "popularity": 29,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/9d3b7cfbdd2b2b4ef93f978268ac21f8/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "famu",
+   "name": "Famü",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/774e36026f51e1c0e1eeb74dddcdf4db/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2047,8 +1993,8 @@
    "known": false
   },
   {
-   "id": "last-summer-party",
-   "name": "Last Summer Party",
+   "id": "lara-bee",
+   "name": "Lara Bee",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2084,6 +2030,16 @@
    "popularity": 8,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/38c6727349d58e9caa06c04b97e042b5/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "lio",
+   "name": "Lio",
+   "tier": 0,
+   "score": 63,
+   "popularity": 63,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/f8deec5ba5c9f969c1ff34b2d499f752/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2124,16 +2080,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/6851b32d7573aae512f5b13a4c13688a/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "luke-dean",
-   "name": "Luke Dean_",
-   "tier": 0,
-   "score": 27,
-   "popularity": 27,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/13993df812cb0458c490da9bfce3aae4/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2197,6 +2143,16 @@
    "known": false
   },
   {
+   "id": "marjaba",
+   "name": "Marjaba",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "martyn-bootyspoon",
    "name": "Martyn Bootyspoon",
    "tier": 0,
@@ -2204,36 +2160,6 @@
    "popularity": 1,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/0c2afda605d87c46656494e6cc5c9834/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "marycee",
-   "name": "Marycee",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "max-dean",
-   "name": "Max Dean",
-   "tier": 0,
-   "score": 31,
-   "popularity": 31,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/03844bcb7273970954e4362da91c6906/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "mayalabae",
-   "name": "mayalabae",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2287,16 +2213,6 @@
    "known": false
   },
   {
-   "id": "misstress-barbara",
-   "name": "Misstress Barbara",
-   "tier": 0,
-   "score": 42,
-   "popularity": 42,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/b1fc5f60ea9fafc0641985eeafa6fd5f/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "mistingo",
    "name": "MISTINGO",
    "tier": 0,
@@ -2324,26 +2240,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/67df24118f79c2933dde0d90c0902bed/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "monitors",
-   "name": "Monitors",
-   "tier": 0,
-   "score": 8,
-   "popularity": 8,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/b53d5a0c893b430677a7d0d19b5a0c96/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "montreal-reggae-nation-festival",
-   "name": "Montreal Reggae Nation Festival",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2417,16 +2313,6 @@
    "known": false
   },
   {
-   "id": "nathan-burns",
-   "name": "Nathan Burns",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/c17e20e720c12970682d49ac7b4597d2/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "neo-edo",
    "name": "Neo Edo",
    "tier": 0,
@@ -2487,6 +2373,16 @@
    "known": false
   },
   {
+   "id": "oli-vez",
+   "name": "Oli Vez",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "onlyhans",
    "name": "onlyhans",
    "tier": 0,
@@ -2514,16 +2410,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/a980fbd3d45bac52146a23b50d463a10/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "ossifer",
-   "name": "Ossifer",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/62f16aa386900d80157ab19b979467af/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2564,6 +2450,16 @@
    "popularity": 33,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/7e9bccf7421a5c769287db9b75ed1a5e/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "pinch",
+   "name": "Pinch",
+   "tier": 0,
+   "score": 34,
+   "popularity": 34,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/b2f55b9efddcfc731fa3027073cef9d9/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2677,16 +2573,6 @@
    "popularity": 51,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/9520500ef4566a32c36c79c54dead473/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "raf-reza",
-   "name": "Raf Reza",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/c6b622040e8baa8c1b2567fa6fd1cf28/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2842,16 +2728,6 @@
   {
    "id": "salon-badin-stephane-lavoie",
    "name": "Salon Badin: Stephane Lavoie",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "sam-chef",
-   "name": "SAM CHEF",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3020,26 +2896,6 @@
    "known": false
   },
   {
-   "id": "soundshaper",
-   "name": "Soundshaper",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "speakeasy",
-   "name": "Speakeasy",
-   "tier": 0,
-   "score": 16,
-   "popularity": 16,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/2a50a48a4c1a33bbda304bb83cae2055/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "special-guests",
    "name": "Special Guests",
    "tier": 0,
@@ -3110,26 +2966,6 @@
    "known": false
   },
   {
-   "id": "the-neighbors-labour-day-sunday-cappella-montreal",
-   "name": "The Neighbors  Labour day Sunday @ Cappella Montreal",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "tommy-phillips",
-   "name": "Tommy Phillips",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/1b868f6f2ac5c584fd6d8fe42835629f/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "traxman",
    "name": "Traxman",
    "tier": 0,
@@ -3190,28 +3026,8 @@
    "known": false
   },
   {
-   "id": "uzi-soulmeka",
-   "name": "UZI (Soulmeka)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "vamana",
    "name": "Vamana",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "vasimolo",
-   "name": "Vasimolo",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3242,26 +3058,6 @@
   {
    "id": "village-au-pied-du-courant-fermeture-frikiton",
    "name": "Village au Pied-du-Courant - Fermeture - FRIKITON",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "vincent-lemieux",
-   "name": "Vincent Lemieux",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "vino-disco-special-sunday",
-   "name": "Vino Disco SPECIAL SUNDAY",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3341,659 +3137,6 @@
   }
  ],
  "events": [
-  {
-   "id": "398ac1f02eda",
-   "title": "Piknic Électronik MTL #14: Misstress Barbara / Dameer",
-   "venue_id": "piknic-electronik",
-   "night": "2026-09-06",
-   "start": "2026-09-06T16:00:00.000",
-   "end": "2026-09-06T22:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "misstress-barbara",
-     "name": "Misstress Barbara",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ossifer",
-     "name": "Ossifer",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dameer",
-     "name": "Dameer",
-     "billing": "support"
-    },
-    {
-     "artist_id": "mayalabae",
-     "name": "mayalabae",
-     "billing": "support"
-    },
-    {
-     "artist_id": "raf-reza",
-     "name": "Raf Reza",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://billets.piknicelectronik.com/mul/go/80d96f73-d0e3-4b50-93ea-906a7eee34bd?fac=PIKNIC&locale=fr-CA&skin=piknic&ec=PIKNIC260906",
-   "event_url": "https://ra.co/events/2413783",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2413783"
-    },
-    {
-     "id": "piknic",
-     "url": "https://piknicelectronik.com/fr/prog-complete"
-    }
-   ],
-   "interest": {
-    "score": 50,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : Misstress Barbara (42)",
-     "lieu : Piknic Electronik (palier 3)",
-     "format festival"
-    ]
-   }
-  },
-  {
-   "id": "6a6d7c12de69",
-   "title": "Max Dean b2b Luke Dean, Tommy Phillips, Simon Fitch at Produktworld",
-   "venue_id": "new-city-gas",
-   "night": "2026-09-06",
-   "start": "2026-09-06T22:00:00.000",
-   "end": "2026-09-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "max-dean",
-     "name": "Max Dean",
-     "billing": "headliner",
-     "b2b_with": "luke-dean"
-    },
-    {
-     "artist_id": "luke-dean",
-     "name": "Luke Dean_",
-     "billing": "support",
-     "b2b_with": "max-dean"
-    },
-    {
-     "artist_id": "tommy-phillips",
-     "name": "Tommy Phillips",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2517848",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2517848"
-    }
-   ],
-   "interest": {
-    "score": 39,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Max Dean (31)",
-     "lieu : New City Gas (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "cf2e52c849ae",
-   "title": "Ilan Bluestone - Alpha 9 - Marycee",
-   "venue_id": "stereo",
-   "night": "2026-09-06",
-   "start": "2026-09-06T23:59:00.000",
-   "end": "2026-09-07T09:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "marycee",
-     "name": "Marycee",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2513712",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2513712"
-    }
-   ],
-   "interest": {
-    "score": 23,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Marycee (8)",
-     "lieu : Stereo (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "c5e04a57051f",
-   "title": "LBD: Monitors (All Night Long)",
-   "venue_id": "stereo-bar",
-   "night": "2026-09-06",
-   "start": "2026-09-06T22:00:00.000",
-   "end": "2026-09-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "monitors",
-     "name": "Monitors",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2518595",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2518595"
-    }
-   ],
-   "interest": {
-    "score": 23,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Monitors (8)",
-     "lieu : Stereo Bar (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "3b0be4381f0c",
-   "title": "DAHOMEY — T-DANCE",
-   "venue_id": "salon-daome",
-   "night": "2026-09-06",
-   "start": "2026-09-06T18:00:00.000",
-   "end": "2026-09-06T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "uzi-soulmeka",
-     "name": "UZI (Soulmeka)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "don-barbarino",
-     "name": "Don Barbarino",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2510795",
-   "event_url": "https://ra.co/events/2510795",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2510795"
-    }
-   ],
-   "interest": {
-    "score": 17,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : UZI (Soulmeka) (8)",
-     "lieu : Salon Daome (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "2d6f60a395df",
-   "title": "Electro Oasis (every Sunday) *Free with RSVP ticket*",
-   "venue_id": "le-red-room",
-   "night": "2026-09-06",
-   "start": "2026-09-06T22:00:00.000",
-   "end": "2026-09-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sam-chef",
-     "name": "SAM CHEF",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2525266",
-   "event_url": "https://ra.co/events/2525266",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2525266"
-    }
-   ],
-   "interest": {
-    "score": 17,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : SAM CHEF (8)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "a00ed311cd7f",
-   "title": "Soundshaper, Nathan Burns, Clochette",
-   "venue_id": "salon-daome",
-   "night": "2026-09-06",
-   "start": "2026-09-06T22:30:00.000",
-   "end": "2026-09-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "soundshaper",
-     "name": "Soundshaper",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "nathan-burns",
-     "name": "Nathan Burns",
-     "billing": "support"
-    },
-    {
-     "artist_id": "clochette",
-     "name": "Clochette",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2526565",
-   "event_url": "https://ra.co/events/2526565",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2526565"
-    }
-   ],
-   "interest": {
-    "score": 17,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Soundshaper (8)",
-     "lieu : Salon Daome (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "94aa57c6ba6c",
-   "title": "Speakeasy",
-   "venue_id": "nwhr",
-   "night": "2026-09-06",
-   "start": "2026-09-06T22:00:00.000",
-   "end": "2026-09-07T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "speakeasy",
-     "name": "Speakeasy",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2527497",
-   "event_url": "https://ra.co/events/2527497",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2527497"
-    }
-   ],
-   "interest": {
-    "score": 16,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Speakeasy (16)",
-     "lieu : NWHR (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "b50e180394ab",
-   "title": "La Rama x Système Sunday",
-   "venue_id": "systeme",
-   "night": "2026-09-06",
-   "start": "2026-09-06T21:00:00.000",
-   "end": "2026-09-07T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "vasimolo",
-     "name": "Vasimolo",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "aram",
-     "name": "Aram",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dj-dial-on",
-     "name": "DJ Dial-on",
-     "billing": "support"
-    },
-    {
-     "artist_id": "the-lyonz",
-     "name": "THe LYONZ",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2513932",
-   "event_url": "https://ra.co/events/2513932",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2513932"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Vasimolo (8)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "1d2b318f4c77",
-   "title": "BERLIN TECHNO - LABOUR DAY WEEKEND 2026",
-   "venue_id": "cabaret-berlin",
-   "night": "2026-09-06",
-   "start": "2026-09-06T22:00:00.000",
-   "end": "2026-09-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dj-davide",
-     "name": "DJ Davidé",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "dj-mushin",
-     "name": "DJ Mushin",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2511859",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2511859"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : DJ Davidé (8)",
-     "lieu : Cabaret Berlin (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "4f404dbbf856",
-   "title": "FERMĒ X Le Bar Baby",
-   "venue_id": "le-bar-baby",
-   "night": "2026-09-06",
-   "start": "2026-09-06T21:00:00.000",
-   "end": "2026-09-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "elyes-2",
-     "name": "Elyēs (2)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "vincent-lemieux",
-     "name": "Vincent Lemieux",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2522041",
-   "event_url": "https://ra.co/events/2522041",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2522041"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Elyēs (2) (8)",
-     "lieu : Le Bar Baby (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "f21a826f5b6e",
-   "title": "Last Summer Party",
-   "venue_id": "clebard",
-   "night": "2026-09-06",
-   "start": "2026-09-06T22:00:00.000",
-   "end": "2026-09-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "last-summer-party",
-     "name": "Last Summer Party",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2521147",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2521147"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Last Summer Party (8)",
-     "lieu : Clebard (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "ff78f0cb2bef",
-   "title": "Montreal Reggae Nation Festival",
-   "venue_id": "grand-quai-du-port-de-montreal",
-   "night": "2026-09-06",
-   "start": "2026-09-06T13:00:00.000",
-   "end": "2026-09-06T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "montreal-reggae-nation-festival",
-     "name": "Montreal Reggae Nation Festival",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2498572",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2498572"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Montreal Reggae Nation Festival (8)",
-     "lieu : Grand Quai du Port de Montreal (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "fbbdf2dc65a8",
-   "title": "The Neighbors Labour day Sunday @ Cappella Montreal",
-   "venue_id": "cappella",
-   "night": "2026-09-06",
-   "start": "2026-09-06T21:00:00.000",
-   "end": "2026-09-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "the-neighbors-labour-day-sunday-cappella-montreal",
-     "name": "The Neighbors  Labour day Sunday @ Cappella Montreal",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2510529",
-   "event_url": "https://ra.co/events/2510529",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2510529"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : The Neighbors  Labour day Sunday @ Cappella Montreal (8)",
-     "lieu : Cappella (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "64faf5c7abeb",
-   "title": "Vino Disco SPECIAL SUNDAY",
-   "venue_id": "vino-disco",
-   "night": "2026-09-06",
-   "start": "2026-09-06T20:00:00.000",
-   "end": "2026-09-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "vino-disco-special-sunday",
-     "name": "Vino Disco SPECIAL SUNDAY",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2528090",
-   "event_url": "https://ra.co/events/2528090",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2528090"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Vino Disco SPECIAL SUNDAY (8)",
-     "lieu : Vino Disco (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "a28083a23859",
-   "title": "Motion Lab: FX, Automation & Arrangement with Jordan Gardner",
-   "venue_id": "breakglass-studios",
-   "night": "2026-09-06",
-   "start": "2026-09-06T18:00:00.000",
-   "end": "2026-09-06T21:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "jordan-gardner",
-     "name": "Jordan Gardner",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2523096",
-   "event_url": "https://ra.co/events/2523096",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2523096"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Jordan Gardner (0)",
-     "lieu : Breakglass Studios (palier 1)"
-    ]
-   }
-  },
   {
    "id": "17fbc7a8ae3c",
    "title": "Piknic Électronik MTL #15: Cloudy / No Diploma Records",
@@ -4997,7 +4140,7 @@
    "genres": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2530345",
    "event_url": "https://ra.co/events/2530345",
    "image": "",
    "status": "confirmed",
@@ -5714,6 +4857,47 @@
    }
   },
   {
+   "id": "53dd99220a43",
+   "title": "Marjaba & Famü",
+   "venue_id": "blue-room",
+   "night": "2026-09-12",
+   "start": "2026-09-12T22:00:00.000",
+   "end": "2026-09-13T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "marjaba",
+     "name": "Marjaba",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "famu",
+     "name": "Famü",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2530350",
+   "event_url": "https://ra.co/events/2530350",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2530350"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Marjaba (8)",
+     "lieu : Blue Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "666ea023cc44",
    "title": "NWHR invites Kris Tin // Manolow // MISTINGO",
    "venue_id": "nwhr",
@@ -6360,6 +5544,47 @@
     "reasons": [
      "tete d'affiche : Vayia (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "5124cdb01ec4",
+   "title": "Eldi & Alléa",
+   "venue_id": "blue-room",
+   "night": "2026-09-17",
+   "start": "2026-09-17T22:00:00.000",
+   "end": "2026-09-18T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "eldi",
+     "name": "Eldi",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "allea",
+     "name": "Alléa",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2530408",
+   "event_url": "https://ra.co/events/2530408",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2530408"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Eldi (0)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -7228,6 +6453,53 @@
    }
   },
   {
+   "id": "d2d1e65b607a",
+   "title": "Lio / Duchesse / Lara Bee",
+   "venue_id": "blue-room",
+   "night": "2026-09-19",
+   "start": "2026-09-19T22:00:00.000",
+   "end": "2026-09-20T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lio",
+     "name": "Lio",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "duchesse",
+     "name": "Duchesse",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lara-bee",
+     "name": "Lara Bee",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2530426",
+   "event_url": "https://ra.co/events/2530426",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2530426"
+    }
+   ],
+   "interest": {
+    "score": 54,
+    "tier": 1,
+    "reasons": [
+     "tete d'affiche : Lio (63)",
+     "lieu : Blue Room (palier 1)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
    "id": "859438fc99ee",
    "title": "Act of Rage [NL] - Hardstyle & Rawstyle Master Returns",
    "venue_id": "warehouse",
@@ -7528,6 +6800,42 @@
     "reasons": [
      "tete d'affiche : Linska (8)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "d8db65554a33",
+   "title": "Club Babies",
+   "venue_id": "la-recre",
+   "night": "2026-09-19",
+   "start": "2026-09-19T22:00:00.000",
+   "end": "2026-09-20T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "club-babies",
+     "name": "Club Babies",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2529870",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2529870"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Club Babies (8)",
+     "lieu : La Récré (palier 1)"
     ]
    }
   },
@@ -8593,7 +7901,7 @@
    "genres": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2530444",
    "event_url": "https://ra.co/events/2530444",
    "image": "",
    "status": "confirmed",
@@ -8889,6 +8197,52 @@
     "reasons": [
      "tete d'affiche : Soul Button (35)",
      "lieu : Stereo (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "373082afa612",
+   "title": "Déa / Pinch / Oli Vez",
+   "venue_id": "blue-room",
+   "night": "2026-09-26",
+   "start": "2026-09-26T22:00:00.000",
+   "end": "2026-09-27T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dea",
+     "name": "Déa",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "pinch",
+     "name": "Pinch",
+     "billing": "support"
+    },
+    {
+     "artist_id": "oli-vez",
+     "name": "Oli Vez",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2530455",
+   "event_url": "https://ra.co/events/2530455",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2530455"
+    }
+   ],
+   "interest": {
+    "score": 28,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Déa (34)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
