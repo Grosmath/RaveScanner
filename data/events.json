@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-07T23:23:32Z",
+ "generated_at": "2026-09-08T13:22:18Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-09-07",
-  "end": "2026-09-28"
+  "start": "2026-09-08",
+  "end": "2026-09-29"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 135
+   "events": 144
   },
   {
    "id": "piknic",
@@ -23,15 +23,16 @@
   }
  ],
  "venue_order": [
-  "piknic-electronik",
   "new-city-gas",
+  "piknic-electronik",
   "stereo-bar",
   "bar-datcha",
+  "mtelus",
   "sat",
   "blue-room",
   "le-red-room",
-  "newspeak",
   "warehouse",
+  "newspeak",
   "stereo",
   "barbossa",
   "tba-theatre-outremont",
@@ -40,6 +41,7 @@
   "esc",
   "theatre-fairmount",
   "systeme",
+  "sans-soleil",
   "foufounes",
   "nwhr",
   "salon-badin",
@@ -256,6 +258,20 @@
    ]
   },
   {
+   "id": "mtelus",
+   "name": "MTELUS",
+   "type": "venue",
+   "tier": 3,
+   "capacity": 2300,
+   "address": "59 Rue Sainte-Catherine E",
+   "url": "https://mtelus.com",
+   "genres": [
+    "electronic",
+    "mainstream",
+    "bass"
+   ]
+  },
+  {
    "id": "new-city-gas",
    "name": "New City Gas",
    "type": "club",
@@ -351,6 +367,16 @@
     "techno",
     "minimal"
    ]
+  },
+  {
+   "id": "sans-soleil",
+   "name": "Sans Soleil",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "sat",
@@ -813,6 +839,16 @@
    "known": false
   },
   {
+   "id": "boogaloo-jones",
+   "name": "Boogaloo Jones",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "boomy",
    "name": "Boomy",
    "tier": 0,
@@ -820,6 +856,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "boy-harsher",
+   "name": "Boy Harsher",
+   "tier": 0,
+   "score": 62,
+   "popularity": 62,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/a6dbe6032f169e9b2a8c29b1871dbf12/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1000,16 +1046,6 @@
    "popularity": 55,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/39e189aae2ae5705e96b9ffbf021402f/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "cloudy",
-   "name": "Cloudy",
-   "tier": 0,
-   "score": 26,
-   "popularity": 26,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/b5732a88c6e853451d7471fb880806d6/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1233,6 +1269,16 @@
    "known": false
   },
   {
+   "id": "dj-ruru",
+   "name": "DJ RURU",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "don-barbarino",
    "name": "Don Barbarino",
    "tier": 0,
@@ -1400,6 +1446,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "evanora-unlimited",
+   "name": "Evanora Unlimited",
+   "tier": 0,
+   "score": 19,
+   "popularity": 19,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/92b5e1f57f2325d1a16277c94de7087d/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1610,16 +1666,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/8257b1a908cb382dc01a69f3a4f3f5fd/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "hardest-frequencies-free",
-   "name": "Hardest Frequencies - Free",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1850,16 +1896,6 @@
    "popularity": 20,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/6e48eeea11133bc7845eff05b81480ab/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "kay-b",
-   "name": "Kay B",
-   "tier": 0,
-   "score": 18,
-   "popularity": 18,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/da3467845f83b63379fb737219fbf043/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2293,6 +2329,16 @@
    "known": false
   },
   {
+   "id": "mx-blaire",
+   "name": "Mx. Blaire",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "namanariii",
    "name": "namanariii",
    "tier": 0,
@@ -2323,6 +2369,16 @@
    "known": false
   },
   {
+   "id": "narcy",
+   "name": "Narcy",
+   "tier": 0,
+   "score": 28,
+   "popularity": 28,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/f995191c8c3ee2294ae78f763e17190a/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "neo-edo",
    "name": "Neo Edo",
    "tier": 0,
@@ -2330,16 +2386,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "nether",
-   "name": "Nether",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/b03766cfb8c8165b3eb9111a8bb6bdaf/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2503,6 +2549,16 @@
    "known": false
   },
   {
+   "id": "plo-man",
+   "name": "PLO Man",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "pria",
    "name": "Prïa",
    "tier": 0,
@@ -2524,16 +2580,6 @@
    ],
    "image": "https://cdn-images.dzcdn.net/images/artist/450d8979fe8e522e69b96aa4a365495b/250x250-000000-80-0-0.jpg",
    "known": true
-  },
-  {
-   "id": "pyromane",
-   "name": "Pyromane",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/ef96bda54957c9f61f3cff194483ac71/250x250-000000-80-0-0.jpg",
-   "known": false
   },
   {
    "id": "queenie",
@@ -2686,16 +2732,6 @@
    "known": false
   },
   {
-   "id": "rsvp",
-   "name": "RSVP",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/91619c7fe8525e23c12280420c496e0f/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "rupaul",
    "name": "RuPaul (DJ SET)",
    "tier": 0,
@@ -2773,6 +2809,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/57b6a49322bc8b2cf491d47e78a0b2d4/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "seb-fauteux",
+   "name": "Seb Fauteux",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -2946,16 +2992,6 @@
    "known": false
   },
   {
-   "id": "teo2k",
-   "name": "Teo2k",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "the-bald-girl",
    "name": "the bald girl",
    "tier": 0,
@@ -2973,6 +3009,26 @@
    "popularity": 7,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/275b2ca83ac4cbc0e8dee67869e209c7/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "the-rawsoul",
+   "name": "The Rawsoul",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "trance-sunset-vol-iii",
+   "name": "Trance Sunset Vol. III",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3076,6 +3132,16 @@
    "known": false
   },
   {
+   "id": "vincent-lemieux",
+   "name": "Vincent Lemieux",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "virginia",
    "name": "Virginia",
    "tier": 0,
@@ -3126,6 +3192,16 @@
    "known": false
   },
   {
+   "id": "wnlq",
+   "name": "WNLQ",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "yume",
    "name": "Yume",
    "tier": 0,
@@ -3148,109 +3224,38 @@
  ],
  "events": [
   {
-   "id": "17fbc7a8ae3c",
-   "title": "Piknic Électronik MTL #15: Cloudy / No Diploma Records",
-   "venue_id": "piknic-electronik",
-   "night": "2026-09-07",
-   "start": "2026-09-07T16:00:00.000",
-   "end": "2026-09-07T21:30:00.000",
+   "id": "74df936e71c0",
+   "title": "Sans Soleil w/ WNLQ",
+   "venue_id": "sans-soleil",
+   "night": "2026-09-08",
+   "start": "2026-09-08T20:00:00.000",
+   "end": "2026-09-09T01:00:00.000",
    "lineup": [
     {
-     "artist_id": "cloudy",
-     "name": "Cloudy",
+     "artist_id": "wnlq",
+     "name": "WNLQ",
      "billing": "headliner"
-    },
-    {
-     "artist_id": "no-police",
-     "name": "No Police",
-     "billing": "support"
-    },
-    {
-     "artist_id": "pyromane",
-     "name": "Pyromane",
-     "billing": "support"
-    },
-    {
-     "artist_id": "teo2k",
-     "name": "Teo2k",
-     "billing": "support"
-    },
-    {
-     "artist_id": "kay-b",
-     "name": "Kay B",
-     "billing": "support"
-    },
-    {
-     "artist_id": "nether",
-     "name": "Nether",
-     "billing": "support"
     }
    ],
    "genres": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://billets.piknicelectronik.com/mul/go/80d96f73-d0e3-4b50-93ea-906a7eee34bd?fac=PIKNIC&locale=fr-CA&skin=piknic&ec=PIKNIC260907",
-   "event_url": "https://ra.co/events/2413784",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2531571",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2413784"
-    },
-    {
-     "id": "piknic",
-     "url": "https://piknicelectronik.com/fr/prog-complete"
+     "url": "https://ra.co/events/2531571"
     }
    ],
    "interest": {
-    "score": 40,
+    "score": 11,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Cloudy (26)",
-     "lieu : Piknic Electronik (palier 3)",
-     "format festival"
-    ]
-   }
-  },
-  {
-   "id": "7b7952f3a516",
-   "title": "Electro Oasis w/ Hardest Frequencies - Free with RSVP",
-   "venue_id": "le-red-room",
-   "night": "2026-09-07",
-   "start": "2026-09-07T22:00:00.000",
-   "end": "2026-09-08T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "hardest-frequencies-free",
-     "name": "Hardest Frequencies - Free",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "rsvp",
-     "name": "RSVP",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2525277",
-   "event_url": "https://ra.co/events/2525277",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2525277"
-    }
-   ],
-   "interest": {
-    "score": 17,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Hardest Frequencies - Free (8)",
-     "lieu : Le Red Room (palier 2)"
+     "tete d'affiche : WNLQ (8)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -3344,6 +3349,42 @@
     "reasons": [
      "tete d'affiche : Aegis (37)",
      "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "550770e11a49",
+   "title": "Sans Soleil w/ Glimmerglass + Boogaloo Jones",
+   "venue_id": "sans-soleil",
+   "night": "2026-09-09",
+   "start": "2026-09-09T20:00:00.000",
+   "end": "2026-09-10T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "boogaloo-jones",
+     "name": "Boogaloo Jones",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2531572",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2531572"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Boogaloo Jones (0)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -3628,6 +3669,42 @@
     "reasons": [
      "tete d'affiche : Phono (CA) (8)",
      "lieu : Salon Badin (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "2543f943fd40",
+   "title": "Sans Soleil w/ Murmur: Mx. Blaire",
+   "venue_id": "sans-soleil",
+   "night": "2026-09-10",
+   "start": "2026-09-10T20:00:00.000",
+   "end": "2026-09-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mx-blaire",
+     "name": "Mx. Blaire",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2531573",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2531573"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Mx. Blaire (8)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -4284,6 +4361,47 @@
     "reasons": [
      "tete d'affiche : PISAPIA (IT) (8)",
      "lieu : Entrepôts Dominion, Les (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "aaaf54d9977d",
+   "title": "Sans Soleil w/ Disco Dessert",
+   "venue_id": "sans-soleil",
+   "night": "2026-09-11",
+   "start": "2026-09-11T20:00:00.000",
+   "end": "2026-09-12T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vincent-lemieux",
+     "name": "Vincent Lemieux",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "seb-fauteux",
+     "name": "Seb Fauteux",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2531574",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2531574"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Vincent Lemieux (8)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -5031,6 +5149,42 @@
    }
   },
   {
+   "id": "8eaa01c834b1",
+   "title": "Sans Soleil w/ Dusty Fingerz",
+   "venue_id": "sans-soleil",
+   "night": "2026-09-12",
+   "start": "2026-09-12T20:00:00.000",
+   "end": "2026-09-13T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dusty-fingerz",
+     "name": "Dusty FingerZ",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2531575",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2531575"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Dusty FingerZ (0)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "d739766aaa4c",
    "title": "Piknic Électronik MTL #16: Dean Turnley, Julian Fijma / Roche Musique: Didi Han, Cezaire",
    "venue_id": "piknic-electronik",
@@ -5235,8 +5389,44 @@
    }
   },
   {
-   "id": "859885c17366",
-   "title": "Nicola Torriero + Kris Guilty",
+   "id": "7376d3cbe31c",
+   "title": "Sans Soleil w/ Rawsoul + louis from qc",
+   "venue_id": "sans-soleil",
+   "night": "2026-09-13",
+   "start": "2026-09-13T20:00:00.000",
+   "end": "2026-09-14T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "the-rawsoul",
+     "name": "The Rawsoul",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2531576",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2531576"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : The Rawsoul (8)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "3ec65b5b5db5",
+   "title": "Sundays w/ Nicola Torriero + Kris Guilty",
    "venue_id": "systeme",
    "night": "2026-09-13",
    "start": "2026-09-13T21:00:00.000",
@@ -5267,6 +5457,78 @@
     "reasons": [
      "tete d'affiche : Kris Guilty (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "e842f5acb820",
+   "title": "Sans Soleil w/ PLO Man",
+   "venue_id": "sans-soleil",
+   "night": "2026-09-14",
+   "start": "2026-09-14T20:00:00.000",
+   "end": "2026-09-15T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "plo-man",
+     "name": "PLO Man",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2531578",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2531578"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : PLO Man (8)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "33d46641487c",
+   "title": "Sans Soleil w/ Narcy",
+   "venue_id": "sans-soleil",
+   "night": "2026-09-15",
+   "start": "2026-09-15T20:00:00.000",
+   "end": "2026-09-16T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "narcy",
+     "name": "Narcy",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2531579",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2531579"
+    }
+   ],
+   "interest": {
+    "score": 23,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Narcy (28)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -6846,6 +7108,42 @@
     "reasons": [
      "tete d'affiche : Linska (8)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "890e85f390fb",
+   "title": "Trance Sunset Vol. III",
+   "venue_id": "warehouse",
+   "night": "2026-09-19",
+   "start": "2026-09-19T14:00:00.000",
+   "end": "2026-09-19T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "trance-sunset-vol-iii",
+     "name": "Trance Sunset Vol. III",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2531564",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2531564"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Trance Sunset Vol. III (8)",
+     "lieu : Lieu secret / Warehouse (palier 2)"
     ]
    }
   },
@@ -8826,6 +9124,84 @@
     "reasons": [
      "tete d'affiche : Anabasine (4)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "f6a41e9f97c9",
+   "title": "BOY HARSHER - Montréal",
+   "venue_id": "mtelus",
+   "night": "2026-09-29",
+   "start": "2026-09-29T20:00:00.000",
+   "end": "2026-09-29T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "boy-harsher",
+     "name": "Boy Harsher",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "evanora-unlimited",
+     "name": "Evanora Unlimited",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2498583",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2498583"
+    }
+   ],
+   "interest": {
+    "score": 66,
+    "tier": 2,
+    "reasons": [
+     "tete d'affiche : Boy Harsher (62)",
+     "lieu : MTELUS (palier 3)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "68c2eed302ad",
+   "title": "5:14 Sessions with RURU [All Night Long]",
+   "venue_id": "le-red-room",
+   "night": "2026-09-29",
+   "start": "2026-09-29T22:00:00.000",
+   "end": "2026-09-30T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-ruru",
+     "name": "DJ RURU",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2525397",
+   "event_url": "https://ra.co/events/2525397",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2525397"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : DJ RURU (8)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   }
