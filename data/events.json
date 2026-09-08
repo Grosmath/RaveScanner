@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-08T13:22:18Z",
+ "generated_at": "2026-09-08T23:17:22Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 144
+   "events": 148
   },
   {
    "id": "piknic",
@@ -30,8 +30,8 @@
   "mtelus",
   "sat",
   "blue-room",
-  "le-red-room",
   "warehouse",
+  "le-red-room",
   "newspeak",
   "stereo",
   "barbossa",
@@ -48,6 +48,7 @@
   "village-au-pied-du-courant",
   "la-recre",
   "white-wall-studio",
+  "vino-disco",
   "red-roof-church",
   "sala-rossa-la",
   "tba-outdoors",
@@ -494,6 +495,16 @@
    "genres": []
   },
   {
+   "id": "vino-disco",
+   "name": "Vino Disco",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "warehouse",
    "name": "Lieu secret / Warehouse",
    "type": "warehouse",
@@ -836,6 +847,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "bolarinho",
+   "name": "Bolarinho",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/0615d366395799699a20d9e4bae25b9c/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2952,6 +2973,16 @@
    "known": false
   },
   {
+   "id": "soundshaper",
+   "name": "Soundshaper",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "special-guests",
    "name": "Special Guests",
    "tier": 0,
@@ -2979,6 +3010,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/e7f8a34942c9fda28809a9f2025e9c57/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "syd-woz",
+   "name": "Syd Woz",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3072,6 +3113,16 @@
    "known": false
   },
   {
+   "id": "ultreme",
+   "name": "Ultreme",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "under-pulse",
    "name": "Under Pulse",
    "tier": 0,
@@ -3139,6 +3190,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "vino-disco-friday",
+   "name": "Vino Disco FRIDAY",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3219,6 +3280,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/99b64b27ae4ace7120ef6c8085dfb92a/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "zdbt",
+   "name": "ZDBT",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/21daa44d9fb836a51b03ca8c0eb57243/250x250-000000-80-0-0.jpg",
    "known": false
   }
  ],
@@ -3705,6 +3776,47 @@
     "reasons": [
      "tete d'affiche : Mx. Blaire (8)",
      "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b816e8d034c2",
+   "title": "Vino Disco THURSDAY",
+   "venue_id": "vino-disco",
+   "night": "2026-09-10",
+   "start": "2026-09-10T20:00:00.000",
+   "end": "2026-09-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bolarinho",
+     "name": "Bolarinho",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "soundshaper",
+     "name": "Soundshaper",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2532231",
+   "event_url": "https://ra.co/events/2532231",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2532231"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Bolarinho (8)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -4402,6 +4514,42 @@
     "reasons": [
      "tete d'affiche : Vincent Lemieux (8)",
      "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "5ceaa4f81b44",
+   "title": "Vino Disco FRIDAY",
+   "venue_id": "vino-disco",
+   "night": "2026-09-11",
+   "start": "2026-09-11T20:00:00.000",
+   "end": "2026-09-12T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vino-disco-friday",
+     "name": "Vino Disco FRIDAY",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2532240",
+   "event_url": "https://ra.co/events/2532240",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2532240"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Vino Disco FRIDAY (8)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -5109,6 +5257,42 @@
     "reasons": [
      "tete d'affiche : ALEX REV (8)",
      "lieu : TBA - mile ex (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "3d47135bcdfa",
+   "title": "Vino Disco SATURDAY",
+   "venue_id": "vino-disco",
+   "night": "2026-09-12",
+   "start": "2026-09-12T20:00:00.000",
+   "end": "2026-09-13T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ultreme",
+     "name": "Ultreme",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2532243",
+   "event_url": "https://ra.co/events/2532243",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2532243"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Ultreme (8)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -5861,8 +6045,8 @@
    }
   },
   {
-   "id": "7264017b939b",
-   "title": "Claude VonStroke - Ced Ullberg",
+   "id": "6b8b8c12ceb6",
+   "title": "Claude Von Stroke - Ced Ullberg",
    "venue_id": "stereo-bar",
    "night": "2026-09-18",
    "start": "2026-09-18T22:00:00.000",
@@ -8169,6 +8353,57 @@
     "reasons": [
      "tete d'affiche : Koppi (8)",
      "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "06e417d56a4c",
+   "title": "GLOSS: ZDBT + Breakcheck + Frankie Teardop + Syd Woz",
+   "venue_id": "warehouse",
+   "night": "2026-09-25",
+   "start": "2026-09-25T23:00:00.000",
+   "end": "2026-09-26T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "zdbt",
+     "name": "ZDBT",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "breakcheck",
+     "name": "Breakcheck",
+     "billing": "support"
+    },
+    {
+     "artist_id": "frankie-teardrop",
+     "name": "Frankie Teardrop",
+     "billing": "support"
+    },
+    {
+     "artist_id": "syd-woz",
+     "name": "Syd Woz",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2532585",
+   "event_url": "https://ra.co/events/2532585",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2532585"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : ZDBT (8)",
+     "lieu : Lieu secret / Warehouse (palier 2)"
     ]
    }
   },
