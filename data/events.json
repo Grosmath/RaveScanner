@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-09T13:30:02Z",
+ "generated_at": "2026-09-09T23:07:24Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 148
+   "events": 149
   },
   {
    "id": "piknic",
@@ -28,9 +28,9 @@
   "stereo-bar",
   "bar-datcha",
   "mtelus",
-  "sat",
   "blue-room",
   "le-red-room",
+  "sat",
   "warehouse",
   "newspeak",
   "stereo",
@@ -1200,16 +1200,6 @@
    "known": false
   },
   {
-   "id": "delano-smith",
-   "name": "Delano Smith",
-   "tier": 0,
-   "score": 25,
-   "popularity": 25,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/0d0cf5b38046137f8eaf1e9cd3d7de32/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "deneb",
    "name": "Deneb",
    "tier": 0,
@@ -1452,6 +1442,16 @@
   {
    "id": "emn-1",
    "name": "EMN (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "enigmatdj",
+   "name": "ENIGMATDj",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2725,16 +2725,6 @@
   {
    "id": "richard-akingbehin",
    "name": "Richard Akingbehin",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "rim-sdl",
-   "name": "Rim SDL",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -4164,6 +4154,46 @@
    }
   },
   {
+   "id": "209a490fc97f",
+   "title": "LA NUIT BLANCHE [until 6am]",
+   "venue_id": "le-red-room",
+   "night": "2026-09-11",
+   "start": "2026-09-11T22:00:00.000",
+   "end": "2026-09-13T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "enigmatdj",
+     "name": "ENIGMATDj",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2533580",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2533580"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2533580"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : ENIGMATDj (8)",
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "af359564ebcd",
    "title": "Le Rotary Club, Tom Voglen, Balou",
    "venue_id": "bar-datcha",
@@ -4359,47 +4389,6 @@
    }
   },
   {
-   "id": "9a0d8fb60cd7",
-   "title": "MoBlack, Rim SDL, Mezz",
-   "venue_id": "bazart",
-   "night": "2026-09-11",
-   "start": "2026-09-11T22:00:00.000",
-   "end": "2026-09-12T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "moblack",
-     "name": "MoBlack",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "rim-sdl",
-     "name": "Rim SDL",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2517850",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2517850"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : MoBlack (8)",
-     "lieu : Bazart (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "3235174fea52",
    "title": "OUTRAGE 1 - RELOAD",
    "venue_id": "entrepots-dominion-les",
@@ -4514,6 +4503,42 @@
     "reasons": [
      "tete d'affiche : Vino Disco FRIDAY (8)",
      "lieu : Vino Disco (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "37e164b15c6f",
+   "title": "MoBlack, Mezz",
+   "venue_id": "bazart",
+   "night": "2026-09-11",
+   "start": "2026-09-11T22:00:00.000",
+   "end": "2026-09-12T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "moblack",
+     "name": "MoBlack",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2517850",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2517850"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : MoBlack (0)",
+     "lieu : Bazart (palier 1)"
     ]
    }
   },
@@ -4673,42 +4698,6 @@
     "reasons": [
      "tete d'affiche : San Farafina (33)",
      "lieu : Bar Datcha (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "3aad64e95a38",
-   "title": "FROM DETROIT TO MONTREAL II: Delano Smith",
-   "venue_id": "sat",
-   "night": "2026-09-12",
-   "start": "2026-09-12T16:00:00.000",
-   "end": "2026-09-13T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "delano-smith",
-     "name": "Delano Smith",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2487788",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2487788"
-    }
-   ],
-   "interest": {
-    "score": 28,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Delano Smith (25)",
-     "lieu : SAT (palier 2)"
     ]
    }
   },
@@ -6313,67 +6302,6 @@
    }
   },
   {
-   "id": "f2f5baf59573",
-   "title": "Chrysalis 2 - A La30 Fundraiser",
-   "venue_id": "tba-outdoors",
-   "night": "2026-09-18",
-   "start": "2026-09-18T23:00:00.000",
-   "end": "2026-09-19T08:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "kiju",
-     "name": "Kiju",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "coldchainlogistics",
-     "name": "coldchainlogistics",
-     "billing": "support"
-    },
-    {
-     "artist_id": "newfriend",
-     "name": "newfriend",
-     "billing": "support"
-    },
-    {
-     "artist_id": "wencat",
-     "name": "Wencat",
-     "billing": "support"
-    },
-    {
-     "artist_id": "pleurire",
-     "name": "Pleurire",
-     "billing": "support"
-    },
-    {
-     "artist_id": "kiviv",
-     "name": "Kiviv",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2508514",
-   "event_url": "https://ra.co/events/2508514",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2508514"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Kiju (16)",
-     "lieu : TBA - outdoors (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "aaf83036c42d",
    "title": "typho0on",
    "venue_id": "sala-rossa-la",
@@ -7215,6 +7143,67 @@
     "reasons": [
      "tete d'affiche : Prïa (0)",
      "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "2d5574d73bf5",
+   "title": "Chrysalis 2 - A La30 Fundraiser",
+   "venue_id": "tba-outdoors",
+   "night": "2026-09-19",
+   "start": "2026-09-19T23:00:00.000",
+   "end": "2026-09-20T08:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "kiju",
+     "name": "Kiju",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "coldchainlogistics",
+     "name": "coldchainlogistics",
+     "billing": "support"
+    },
+    {
+     "artist_id": "newfriend",
+     "name": "newfriend",
+     "billing": "support"
+    },
+    {
+     "artist_id": "wencat",
+     "name": "Wencat",
+     "billing": "support"
+    },
+    {
+     "artist_id": "pleurire",
+     "name": "Pleurire",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kiviv",
+     "name": "Kiviv",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2508514",
+   "event_url": "https://ra.co/events/2508514",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2508514"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Kiju (16)",
+     "lieu : TBA - outdoors (palier 1)"
     ]
    }
   },
