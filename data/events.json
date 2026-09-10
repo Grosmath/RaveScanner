@@ -1,14 +1,14 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-09T23:07:24Z",
+ "generated_at": "2026-09-10T13:21:30Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-09-09",
-  "end": "2026-09-30"
+  "start": "2026-09-10",
+  "end": "2026-10-01"
  },
  "sources": [
   {
@@ -29,24 +29,23 @@
   "bar-datcha",
   "mtelus",
   "blue-room",
-  "le-red-room",
   "sat",
   "warehouse",
+  "le-red-room",
   "newspeak",
-  "stereo",
   "barbossa",
+  "stereo",
   "tba-theatre-outremont",
   "salon-daome",
-  "breakglass-studios",
   "esc",
   "theatre-fairmount",
   "systeme",
   "sans-soleil",
   "foufounes",
+  "la-recre",
   "nwhr",
   "salon-badin",
   "village-au-pied-du-courant",
-  "la-recre",
   "white-wall-studio",
   "vino-disco",
   "red-roof-church",
@@ -61,6 +60,7 @@
   "le-livart",
   "le-ministere",
   "tba-mile-ex",
+  "van-horne-skatepark",
   "cafe-social-b-hive",
   "clebard",
   "jardins-gamelin",
@@ -104,16 +104,6 @@
   {
    "id": "blue-room",
    "name": "Blue Room",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "breakglass-studios",
-   "name": "Breakglass Studios",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -485,6 +475,16 @@
    ]
   },
   {
+   "id": "van-horne-skatepark",
+   "name": "Van Horne Skatepark",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "village-au-pied-du-courant",
    "name": "Village au Pied-du-Courant",
    "type": "venue",
@@ -560,16 +560,6 @@
    "known": false
   },
   {
-   "id": "7az-1",
-   "name": "7AZ (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "aamourocean",
    "name": "Aamourocean",
    "tier": 0,
@@ -587,16 +577,6 @@
    "popularity": 54,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/6a138d57c37e69616e814516c11988f9/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "aegis",
-   "name": "Aegis",
-   "tier": 0,
-   "score": 37,
-   "popularity": 37,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/84e7660c6bbc3ba9dc4d405c3be9e86a/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -707,6 +687,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "anatohl",
+   "name": "Anatohl",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/1978e33e4de1e70e1f4488ebf915fb6c/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -860,16 +850,6 @@
    "known": false
   },
   {
-   "id": "boogaloo-jones",
-   "name": "Boogaloo Jones",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "boomy",
    "name": "Boomy",
    "tier": 0,
@@ -937,6 +917,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "bwi-bwi",
+   "name": "Bwi-Bwi",
+   "tier": 0,
+   "score": 17,
+   "popularity": 17,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/1b72ba0d00f4890ba54552a7de7b263f/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1350,6 +1340,16 @@
    "known": false
   },
   {
+   "id": "ebb",
+   "name": "Ebb",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/ed8368114a3e32d15fdf7a99e941d461/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "ebony",
    "name": "Èbony",
    "tier": 0,
@@ -1530,6 +1530,26 @@
    "known": false
   },
   {
+   "id": "festival-mapp-2026",
+   "name": "Festival MAPP 2026",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "fete-de-quartier-numerique",
+   "name": "FÊTE DE QUARTIER NUMÉRIQUE",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "flleur",
    "name": "Flleur",
    "tier": 0,
@@ -1627,6 +1647,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "ghost-tempo",
+   "name": "GHOST TEMPO",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1760,6 +1790,16 @@
    "known": false
   },
   {
+   "id": "inside-blur",
+   "name": "Inside Blur",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/24aade615632dc613d254bcd4f1e313e/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "isla-den",
    "name": "Isla Den",
    "tier": 0,
@@ -1787,16 +1827,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "james-benjamin",
-   "name": "James Benjamin",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/4f64a2b7e5cddcaee93f23b6fd98fa42/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1837,16 +1867,6 @@
    "popularity": 26,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/a393129641c1fa2a8b9f11bb405c488f/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "jrd",
-   "name": "JRD",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/e8346ed4756b184ddf08ce236be4c60b/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2137,16 +2157,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/6851b32d7573aae512f5b13a4c13688a/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "lunice",
-   "name": "Lunice",
-   "tier": 0,
-   "score": 46,
-   "popularity": 46,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/bf958964076c74b563035010acf31e95/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2983,16 +2993,6 @@
    "known": false
   },
   {
-   "id": "special-guests",
-   "name": "Special Guests",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/bf18d3a00ed49976bad8ed4ea4f0850e/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "sportress",
    "name": "Sportress",
    "tier": 0,
@@ -3284,135 +3284,6 @@
   }
  ],
  "events": [
-  {
-   "id": "8894fc4bc81d",
-   "title": "Listening Session & Mixing Tips with Lunice, Pierre Kwenders & James Benjamin",
-   "venue_id": "breakglass-studios",
-   "night": "2026-09-09",
-   "start": "2026-09-09T18:00:00.000",
-   "end": "2026-09-09T21:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "lunice",
-     "name": "Lunice",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "pierre-kwenders",
-     "name": "Pierre Kwenders",
-     "billing": "support"
-    },
-    {
-     "artist_id": "james-benjamin",
-     "name": "James Benjamin",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2523112",
-   "event_url": "https://ra.co/events/2523112",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2523112"
-    }
-   ],
-   "interest": {
-    "score": 45,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : Lunice (46)",
-     "lieu : Breakglass Studios (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
-   "id": "90396541f5f2",
-   "title": "DOWN2TECHNO [Every Wednesday]",
-   "venue_id": "le-red-room",
-   "night": "2026-09-09",
-   "start": "2026-09-09T22:00:00.000",
-   "end": "2026-09-10T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "aegis",
-     "name": "Aegis",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "jrd",
-     "name": "JRD",
-     "billing": "support"
-    },
-    {
-     "artist_id": "7az-1",
-     "name": "7AZ (1)",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2527705",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2527705"
-    }
-   ],
-   "interest": {
-    "score": 35,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Aegis (37)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "550770e11a49",
-   "title": "Sans Soleil w/ Glimmerglass + Boogaloo Jones",
-   "venue_id": "sans-soleil",
-   "night": "2026-09-09",
-   "start": "2026-09-09T20:00:00.000",
-   "end": "2026-09-10T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "boogaloo-jones",
-     "name": "Boogaloo Jones",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2531572",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2531572"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Boogaloo Jones (0)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
   {
    "id": "7669c416ef5e",
    "title": "mana",
@@ -4072,7 +3943,7 @@
    "venue_id": "esc",
    "night": "2026-09-11",
    "start": "2026-09-11T22:00:00.000",
-   "end": "2026-09-12T06:00:00.000",
+   "end": "2026-09-12T07:00:00.000",
    "lineup": [
     {
      "artist_id": "fangsie",
@@ -5388,8 +5259,8 @@
    }
   },
   {
-   "id": "102260ba045f",
-   "title": "Stroom & Éditions Appærent: Ciro Vitiello, Richard, Orchestroll, Racine, and Special Guests",
+   "id": "d893e25a5688",
+   "title": "Stroom & Éditions Appærent: Ciro Vitiello, Richard, Orchestroll, Racine, Ebb",
    "venue_id": "white-wall-studio",
    "night": "2026-09-13",
    "start": "2026-09-13T17:00:00.000",
@@ -5421,8 +5292,8 @@
      "billing": "support"
     },
     {
-     "artist_id": "special-guests",
-     "name": "Special Guests",
+     "artist_id": "ebb",
+     "name": "Ebb",
      "billing": "support"
     }
    ],
@@ -8361,6 +8232,52 @@
    }
   },
   {
+   "id": "743b31729457",
+   "title": "Projets Pilotes - Inside Blur, Bwi-Bwi, Anatohl",
+   "venue_id": "barbossa",
+   "night": "2026-09-25",
+   "start": "2026-09-25T22:00:00.000",
+   "end": "2026-09-26T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bwi-bwi",
+     "name": "Bwi-Bwi",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "inside-blur",
+     "name": "Inside Blur",
+     "billing": "support"
+    },
+    {
+     "artist_id": "anatohl",
+     "name": "Anatohl",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2533946",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2533946"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Bwi-Bwi (17)",
+     "lieu : Barbossa (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "b8de27467363",
    "title": "Convida x Groovy Castle",
    "venue_id": "systeme",
@@ -8775,6 +8692,47 @@
     "reasons": [
      "tete d'affiche : Déa (34)",
      "lieu : Blue Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "2601d62a7e71",
+   "title": "Rewind 101: Back to School Charity for True North Aid",
+   "venue_id": "la-recre",
+   "night": "2026-09-26",
+   "start": "2026-09-26T22:00:00.000",
+   "end": "2026-09-27T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ghost-tempo",
+     "name": "GHOST TEMPO",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "wally",
+     "name": "Wally",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2533883",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2533883"
+    }
+   ],
+   "interest": {
+    "score": 19,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : GHOST TEMPO (21)",
+     "lieu : La Récré (palier 1)"
     ]
    }
   },
@@ -9431,6 +9389,47 @@
     "reasons": [
      "tete d'affiche : Pinch (34)",
      "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "413bf3059124",
+   "title": "FÊTE DE QUARTIER NUMÉRIQUE | Festival MAPP 2026",
+   "venue_id": "van-horne-skatepark",
+   "night": "2026-10-01",
+   "start": "2026-10-01T17:00:00.000",
+   "end": "2026-10-03T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "fete-de-quartier-numerique",
+     "name": "FÊTE DE QUARTIER NUMÉRIQUE",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "festival-mapp-2026",
+     "name": "Festival MAPP 2026",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2504538",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2504538"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : FÊTE DE QUARTIER NUMÉRIQUE (8)",
+     "lieu : Van Horne Skatepark (palier 1)"
     ]
    }
   }
