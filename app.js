@@ -65,6 +65,10 @@ function readHash() {
   if (q.has('d')) state.days = Number(q.get('d')) || 14;
   if (q.has('t')) state.minTier = Number(q.get('t')) || 0;
   if (q.has('v')) state.view = q.get('v') === 'list' ? 'list' : 'grid';
+  // La grille (colonnes fixes par jour) n'a pas de sens sur un ecran etroit :
+  // sans preference explicite dans l'URL, la liste est un point de depart
+  // bien plus lisible sur mobile.
+  else if (window.matchMedia('(max-width: 760px)').matches) state.view = 'list';
   if (q.has('q')) state.query = q.get('q');
   if (q.has('g')) state.genres = new Set(q.get('g').split(',').filter(Boolean));
   if (q.has('l')) state.venues = new Set(q.get('l').split(',').filter(Boolean));
