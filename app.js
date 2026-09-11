@@ -18,6 +18,12 @@ const state = {
 /** @type {{data: any, venues: Map, artists: Map}} */
 const store = { data: null, venues: new Map(), artists: new Map() };
 
+/** Jours dont la vue Liste montre tout (au-dela des LIST_COLLAPSE_AT
+    premieres soirees) — repli par defaut, un jour trop charge n'ecrase pas
+    la lisibilite d'un simple scroll, surtout sur mobile. */
+const expandedDays = new Set();
+const LIST_COLLAPSE_AT = 3;
+
 // ------------------------------------------------------------------ dates
 
 /** Date locale du jour, en YYYY-MM-DD (sans passer par UTC). */
@@ -47,6 +53,14 @@ function addDays(date, n) {
 function wallTime(iso) {
   const m = /T(\d{2}):(\d{2})/.exec(iso || '');
   return m ? `${m[1]}:${m[2]}` : '';
+}
+
+/** Début, et fin quand connue (sur deux lignes : l'info existait dans les
+    données mais n'était affichée nulle part). */
+function timeRangeHTML(event) {
+  const start = wallTime(event.start);
+  const end = event.end ? wallTime(event.end) : '';
+  return end ? `${start}<span class="ev-time-end">→ ${end}</span>` : start;
 }
 
 function relativeScan(iso) {
@@ -171,7 +185,7 @@ function eventCard(event, { withVenue = false } = {}) {
   el.innerHTML = `
     ${venueLine}
     <div class="ev-top">
-      <span class="ev-time">${wallTime(event.start)}</span>
+      <span class="ev-time">${timeRangeHTML(event)}</span>
       <span class="ev-stars">${stars(event.interest.tier)}</span>
     </div>
     <h3 class="ev-title">${esc(event.title)}</h3>
@@ -248,23 +262,41 @@ function renderList(events, days) {
 
   for (const night of [...byNight.keys()].sort()) {
     const day = parseDay(night);
+    const dayEvents = byNight.get(night).sort((a, b) => b.interest.score - a.interest.score);
+    const hiddenCount = dayEvents.length - LIST_COLLAPSE_AT;
+    const isCollapsible = hiddenCount > 0;
+    const isExpanded = !isCollapsible || expandedDays.has(night);
+
     const header = document.createElement('h2');
     header.className = 'agenda-day';
     if ([0, 5, 6].includes(day.getDay())) header.classList.add('is-weekend');
-    header.textContent = `${DOW[day.getDay()]} ${day.getDate()} ${MONTHS[day.getMonth()]}`;
+    header.innerHTML = `<span>${DOW[day.getDay()]} ${day.getDate()} ${MONTHS[day.getMonth()]}</span>` +
+      (isCollapsible ? `<span class="agenda-day-hint">${isExpanded ? 'réduire' : `+ ${hiddenCount}`}</span>` : '');
+    if (isCollapsible) {
+      header.classList.add('is-collapsible');
+      header.setAttribute('role', 'button');
+      header.setAttribute('tabindex', '0');
+      header.setAttribute('aria-expanded', String(isExpanded));
+      const toggle = () => {
+        expandedDays.has(night) ? expandedDays.delete(night) : expandedDays.add(night);
+        render();
+      };
+      header.addEventListener('click', toggle);
+      header.addEventListener('keydown', (ev) => {
+        if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); toggle(); }
+      });
+    }
     list.append(header);
 
-    byNight.get(night)
-      .sort((a, b) => b.interest.score - a.interest.score)
-      .forEach((event) => {
-        const row = document.createElement('div');
-        row.className = 'agenda-row';
-        const time = document.createElement('div');
-        time.className = 'agenda-time';
-        time.textContent = wallTime(event.start);
-        row.append(time, eventCard(event, { withVenue: true }));
-        list.append(row);
-      });
+    (isExpanded ? dayEvents : dayEvents.slice(0, LIST_COLLAPSE_AT)).forEach((event) => {
+      const row = document.createElement('div');
+      row.className = 'agenda-row';
+      const time = document.createElement('div');
+      time.className = 'agenda-time';
+      time.innerHTML = timeRangeHTML(event);
+      row.append(time, eventCard(event, { withVenue: true }));
+      list.append(row);
+    });
   }
 }
 
@@ -282,6 +314,11 @@ function render() {
   document.getElementById('grid-view').hidden = !isGrid || !events.length;
   document.getElementById('list-view').hidden = isGrid || !events.length;
   document.getElementById('empty').hidden = events.length > 0;
+
+  // Signale un filtre actif dans le panneau repliable, sinon il est invisible
+  // sur mobile tant qu'on ne l'ouvre pas.
+  const hasMoreFilters = Boolean(state.query || state.genres.size || state.venues.size);
+  document.getElementById('filters-more-toggle').classList.toggle('has-active', hasMoreFilters);
 
   if (events.length) {
     if (isGrid) renderGrid(events, days);
@@ -374,6 +411,14 @@ function wireControls() {
       .forEach((b) => b.classList.toggle('is-active', b.dataset.days === '14' || b.dataset.tier === '0'));
     buildFilters();
     render();
+  });
+
+  const moreToggle = document.getElementById('filters-more-toggle');
+  const more = document.getElementById('filters-more');
+  moreToggle.addEventListener('click', () => {
+    more.hidden = !more.hidden;
+    moreToggle.setAttribute('aria-expanded', String(!more.hidden));
+    moreToggle.textContent = more.hidden ? 'Plus de filtres' : 'Masquer les filtres';
   });
 
   // Ferme les menus déroulants au clic extérieur.

@@ -50,26 +50,35 @@
     <button type="button" data-tier="3">★★★</button>
   </div>
 
-  <div class="filter filter--search">
-    <input type="search" id="search" placeholder="Artiste, soirée, lieu…" autocomplete="off" spellcheck="false">
-  </div>
-
-  <details class="filter filter--drop" id="genre-drop">
-    <summary>Genres <span class="badge" id="genre-count" hidden></span></summary>
-    <div class="drop-panel" id="genre-list"></div>
-  </details>
-
-  <details class="filter filter--drop" id="venue-drop">
-    <summary>Lieux <span class="badge" id="venue-count" hidden></span></summary>
-    <div class="drop-panel" id="venue-list"></div>
-  </details>
-
   <div class="filter filter--view" role="group" aria-label="Affichage">
     <button type="button" data-view="grid" class="is-active">Grille</button>
     <button type="button" data-view="list">Liste</button>
   </div>
 
-  <button type="button" class="filter-reset" id="reset">Réinitialiser</button>
+  <!-- Repliable sur mobile (voir styles.css) : le bandeau sticky doit rester
+       court une fois qu'on défile, sans perdre l'accès aux filtres moins
+       fréquents. Toujours affiché tel quel sur desktop. -->
+  <button type="button" class="filters-more-toggle" id="filters-more-toggle" aria-expanded="false" aria-controls="filters-more">
+    Plus de filtres
+  </button>
+
+  <div class="filters-more" id="filters-more" hidden>
+    <div class="filter filter--search">
+      <input type="search" id="search" placeholder="Artiste, soirée, lieu…" autocomplete="off" spellcheck="false">
+    </div>
+
+    <details class="filter filter--drop" id="genre-drop">
+      <summary>Genres <span class="badge" id="genre-count" hidden></span></summary>
+      <div class="drop-panel" id="genre-list"></div>
+    </details>
+
+    <details class="filter filter--drop" id="venue-drop">
+      <summary>Lieux <span class="badge" id="venue-count" hidden></span></summary>
+      <div class="drop-panel" id="venue-list"></div>
+    </details>
+
+    <button type="button" class="filter-reset" id="reset">Réinitialiser</button>
+  </div>
 </nav>
 
 <main>

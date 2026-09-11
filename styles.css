@@ -138,7 +138,8 @@ body {
 
 .filter button,
 .filter summary,
-.filter-reset {
+.filter-reset,
+.filters-more-toggle {
   appearance: none;
   background: transparent;
   border: 1px solid var(--line);
@@ -230,6 +231,12 @@ body {
 .drop-panel .count { margin-left: auto; color: var(--dimmer); font-size: 0.65rem; }
 
 .filter-reset { margin-left: auto; }
+
+/* Panneau "Plus de filtres" : replie sur mobile (voir media query), mais ses
+   enfants restent au fil du flex desktop grace a `display: contents` — le
+   bouton de bascule, lui, n'existe que sur mobile. */
+.filters-more-toggle { display: none; }
+.filters-more { display: contents; }
 
 /* -------------------------------------------------------------------- main */
 
@@ -468,6 +475,15 @@ main {
 
 .agenda-day.is-weekend { color: var(--weekend); }
 
+.agenda-day.is-collapsible {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  cursor: pointer;
+}
+.agenda-day.is-collapsible:hover { color: var(--text); }
+.agenda-day-hint { color: var(--accent); font-weight: 600; }
+
 .agenda-row {
   display: grid;
   grid-template-columns: 62px 1fr;
@@ -480,8 +496,18 @@ main {
 .agenda-time {
   font-family: var(--mono);
   font-size: 0.7rem;
+  font-weight: 600;
   color: var(--dimmer);
   padding-top: 2px;
+}
+
+.ev-time-end,
+.agenda-time .ev-time-end {
+  display: block;
+  margin-top: 2px;
+  font-weight: 400;
+  font-size: 0.9em;
+  opacity: 0.6;
 }
 
 .agenda-row .ev { border-left-width: 3px; }
@@ -550,8 +576,34 @@ main {
   .filter button,
   .filter summary,
   .filter-reset,
+  .filters-more-toggle,
   #search { padding: 0.6rem 0.75rem; font-size: 0.74rem; }
   .filter-reset { margin-left: 0; }
+
+  /* Seuls Fenetre/Palier/Affichage restent visibles en permanence dans le
+     bandeau sticky : Recherche/Genres/Lieux/Reinitialiser, moins souvent
+     utilises, se replient derriere ce bouton pour que le bandeau colle en
+     haut sans manger la moitie de l'ecran une fois qu'on defile. */
+  .filters-more-toggle {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: var(--dimmer);
+  }
+  .filters-more-toggle.has-active { color: var(--accent); border-color: var(--accent); }
+  .filters-more {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    padding-top: 0.2rem;
+  }
+  .filters-more[hidden] { display: none; }
+  .filters-more .filter { width: 100%; }
+  /* .filter--search a un `flex: 1 1 200px` pense pour une rangee horizontale
+     (desktop) : dans ce panneau devenu vertical, ce meme flex-basis se lit
+     comme une HAUTEUR minimale de 200px, pas une largeur. */
+  .filters-more .filter--search { flex: none; }
 
   .drop-panel {
     position: fixed;
