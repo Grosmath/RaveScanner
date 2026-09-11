@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-11T16:11:34Z",
+ "generated_at": "2026-09-11T17:25:52Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 208
+   "events": 209
   },
   {
    "id": "piknic",
@@ -29,7 +29,7 @@
   {
    "id": "mtelus",
    "ok": true,
-   "events": 85
+   "events": 14
   }
  ],
  "venue_order": [
@@ -68,6 +68,7 @@
   "bain-mathieu",
   "la-sotterenea",
   "white-wall-studio",
+  "ausgang-plaza",
   "cafe-social-b-hive",
   "club-soda",
   "tba-outdoors",
@@ -83,6 +84,20 @@
   "waterfront-4"
  ],
  "venues": [
+  {
+   "id": "ausgang-plaza",
+   "name": "Ausgang Plaza",
+   "type": "club",
+   "tier": 2,
+   "capacity": 500,
+   "address": "6524 Rue Saint-Hubert",
+   "url": "https://ausgangplaza.com",
+   "genres": [
+    "techno",
+    "bass",
+    "hard"
+   ]
+  },
   {
    "id": "bain-mathieu",
    "name": "Bain Mathieu",
@@ -709,26 +724,6 @@
    "known": false
   },
   {
-   "id": "alabama-shakes",
-   "name": "Alabama Shakes",
-   "tier": 0,
-   "score": 87,
-   "popularity": 87,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17847cd9b4b6b21e5b8adbe216b",
-   "known": false
-  },
-  {
-   "id": "alcest",
-   "name": "Alcest",
-   "tier": 0,
-   "score": 59,
-   "popularity": 59,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178f93fcb88bd2805b3cbb4490f",
-   "known": false
-  },
-  {
    "id": "alden-montreal",
    "name": "Alden - Montréal",
    "tier": 0,
@@ -819,16 +814,6 @@
    "known": false
   },
   {
-   "id": "ambre-ciel",
-   "name": "Ambre Ciel",
-   "tier": 0,
-   "score": 19,
-   "popularity": 19,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17887a73efd3d4fb4051ce9039c",
-   "known": false
-  },
-  {
    "id": "ame",
    "name": "Âme",
    "tier": 0,
@@ -896,16 +881,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "ando-san",
-   "name": "Ando San",
-   "tier": 0,
-   "score": 36,
-   "popularity": 36,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178e73bf82e4a6f29f0e6f4d5c2",
    "known": false
   },
   {
@@ -1149,16 +1124,6 @@
    "known": false
   },
   {
-   "id": "biga-ranx",
-   "name": "Biga*Ranx",
-   "tier": 0,
-   "score": 66,
-   "popularity": 66,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17800f03c4abff433dd5215f171",
-   "known": false
-  },
-  {
    "id": "billy-dalessandro",
    "name": "Billy Dalessandro",
    "tier": 0,
@@ -1206,16 +1171,6 @@
    "popularity": 69,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17833e502d7a9af1c299abf1f8d",
-   "known": false
-  },
-  {
-   "id": "blue-october",
-   "name": "Blue October",
-   "tier": 0,
-   "score": 68,
-   "popularity": 68,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17872d18d621759b80df327d7b4",
    "known": false
   },
   {
@@ -1269,16 +1224,6 @@
    "known": false
   },
   {
-   "id": "briet",
-   "name": "BRÍET",
-   "tier": 0,
-   "score": 38,
-   "popularity": 38,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17897a48db09333633f7210c4d6",
-   "known": false
-  },
-  {
    "id": "bryan-wolf-ear",
    "name": "Bryan Wolf Ear",
    "tier": 0,
@@ -1296,16 +1241,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485118076266db6bd75e9c2247ca",
-   "known": false
-  },
-  {
-   "id": "buena-vista-social-orchestra",
-   "name": "Buena Vista Social Orchestra",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1346,16 +1281,6 @@
    "popularity": 43,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785e6b136b9c352587b574a7bb",
-   "known": false
-  },
-  {
-   "id": "cannons",
-   "name": "Cannons",
-   "tier": 0,
-   "score": 82,
-   "popularity": 82,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178268d868b3768cfd4c065eaae",
    "known": false
   },
   {
@@ -1649,16 +1574,6 @@
    "known": false
   },
   {
-   "id": "dai-freyr",
-   "name": "Daði Freyr",
-   "tier": 0,
-   "score": 59,
-   "popularity": 59,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178b6f9c9bd5a9081d52186bb94",
-   "known": false
-  },
-  {
    "id": "dana",
    "name": "Dana",
    "tier": 0,
@@ -1666,16 +1581,6 @@
    "popularity": 67,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/f75e6dfa03dfaefd13c8318dfecee6a6/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "dance-now-montreal",
-   "name": "Dance Now Montreal",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1716,16 +1621,6 @@
    "popularity": 7,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/f9bc7fb0ab2169845fb55082b9cc386e/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "deafheaven",
-   "name": "Deafheaven",
-   "tier": 0,
-   "score": 58,
-   "popularity": 58,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1782c91a9397fb610a767476b98",
    "known": false
   },
   {
@@ -1846,6 +1741,16 @@
    "popularity": 28,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785c48763db54b6686fd0f1a3f",
+   "known": false
+  },
+  {
+   "id": "dj-hermano",
+   "name": "Dj Hermano",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851f8d5fc4e7271b887f178438c",
    "known": false
   },
   {
@@ -2159,16 +2064,6 @@
    "known": false
   },
   {
-   "id": "emily-king",
-   "name": "Emily King",
-   "tier": 0,
-   "score": 57,
-   "popularity": 57,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178425bf96c1495bc03a0f5caa6",
-   "known": false
-  },
-  {
    "id": "emn-1",
    "name": "EMN (1)",
    "tier": 0,
@@ -2216,16 +2111,6 @@
    "popularity": 32,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785f2f702ebec9bb3434a77690",
-   "known": false
-  },
-  {
-   "id": "esdeekid",
-   "name": "Esdeekid",
-   "tier": 0,
-   "score": 100,
-   "popularity": 100,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178fe6d53e126b70d1c2594b434",
    "known": false
   },
   {
@@ -2419,16 +2304,6 @@
    "known": false
   },
   {
-   "id": "frozen-crown",
-   "name": "Frozen Crown",
-   "tier": 0,
-   "score": 46,
-   "popularity": 46,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17822fa158ba53bd074ec9f1f28",
-   "known": false
-  },
-  {
    "id": "g-l-o-w-z-i",
    "name": "G L O W Z I",
    "tier": 0,
@@ -2496,16 +2371,6 @@
    "popularity": 20,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783c1a9a38febf61b5ffe27c23",
-   "known": false
-  },
-  {
-   "id": "greyhaven",
-   "name": "Greyhaven",
-   "tier": 0,
-   "score": 40,
-   "popularity": 40,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17858ba1fcf8b4c85799d87791d",
    "known": false
   },
   {
@@ -2609,16 +2474,6 @@
    "known": false
   },
   {
-   "id": "hot-mulligan",
-   "name": "Hot Mulligan",
-   "tier": 0,
-   "score": 66,
-   "popularity": 66,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178f39d742e60fa4e7246c133d4",
-   "known": false
-  },
-  {
    "id": "hudare",
    "name": "Hudare",
    "tier": 0,
@@ -2666,16 +2521,6 @@
    "popularity": 45,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1781314260d37f222e8aeb16b1a",
-   "known": false
-  },
-  {
-   "id": "igorrr",
-   "name": "Igorrr",
-   "tier": 0,
-   "score": 51,
-   "popularity": 51,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178db993c56dbacfe91e00d550f",
    "known": false
   },
   {
@@ -2779,16 +2624,6 @@
    "known": false
   },
   {
-   "id": "jose-gonzalez",
-   "name": "José Gonzalez",
-   "tier": 0,
-   "score": 91,
-   "popularity": 91,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1784f706abc017ea2308b96aff4",
-   "known": false
-  },
-  {
    "id": "jovonn",
    "name": "Jovonn",
    "tier": 0,
@@ -2796,16 +2631,6 @@
    "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1787911d3ab56896afbf6b2d631",
-   "known": false
-  },
-  {
-   "id": "jpegmafia",
-   "name": "JPEGMAFIA",
-   "tier": 0,
-   "score": 69,
-   "popularity": 69,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178b37aa35eec6d83fe18e48e73",
    "known": false
   },
   {
@@ -2869,16 +2694,6 @@
    "known": false
   },
   {
-   "id": "kamelot",
-   "name": "Kamelot",
-   "tier": 0,
-   "score": 65,
-   "popularity": 65,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17805cfb3d751023418788b5ebc",
-   "known": false
-  },
-  {
    "id": "kanatonik",
    "name": "Kanatonik",
    "tier": 0,
@@ -2886,16 +2701,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485167f0135ca5814b84e0a3f720",
-   "known": false
-  },
-  {
-   "id": "kany-garcia",
-   "name": "Kany Garcia",
-   "tier": 0,
-   "score": 100,
-   "popularity": 100,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178c5f037cedcefcab8adc27929",
    "known": false
   },
   {
@@ -2936,16 +2741,6 @@
    "popularity": 0,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "kks-priest",
-   "name": "KK’s PRIEST",
-   "tier": 0,
-   "score": 28,
-   "popularity": 28,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67726900008f74e76331463dfd082524b31919",
    "known": false
   },
   {
@@ -3395,36 +3190,6 @@
    "known": false
   },
   {
-   "id": "mastodon",
-   "name": "Mastodon",
-   "tier": 0,
-   "score": 81,
-   "popularity": 81,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789b92861a97e05664994bf21e",
-   "known": false
-  },
-  {
-   "id": "matt-lang",
-   "name": "Matt Lang",
-   "tier": 0,
-   "score": 48,
-   "popularity": 48,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1784de7de5ec828ea05ea74c6b7",
-   "known": false
-  },
-  {
-   "id": "matt-proxy",
-   "name": "Matt Proxy",
-   "tier": 0,
-   "score": 55,
-   "popularity": 55,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178519e5991d7baea40d4223385",
-   "known": false
-  },
-  {
    "id": "maudite-machine",
    "name": "Maudite Machine",
    "tier": 0,
@@ -3518,16 +3283,6 @@
    "known": false
   },
   {
-   "id": "mico",
-   "name": "MICO",
-   "tier": 0,
-   "score": 65,
-   "popularity": 65,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1785e7619cf59fdd365069d6202",
-   "known": false
-  },
-  {
    "id": "miette",
    "name": "Miette",
    "tier": 0,
@@ -3575,6 +3330,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851d38be8ff16deb5e1a342af6f",
+   "known": false
+  },
+  {
+   "id": "mnsa",
+   "name": "MNSA",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b5f09c09b6ec3135be32dabd",
    "known": false
   },
   {
@@ -3648,6 +3413,16 @@
    "known": false
   },
   {
+   "id": "nadim-maghzal",
+   "name": "Nadim Maghzal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "namanariii",
    "name": "namanariii",
    "tier": 0,
@@ -3675,16 +3450,6 @@
    "popularity": 31,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783a3c4f8bffe109a6ce904454",
-   "known": false
-  },
-  {
-   "id": "ne-obliviscaris",
-   "name": "NE OBLIVISCARIS",
-   "tier": 0,
-   "score": 46,
-   "popularity": 46,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17850419a0b48475c39babb0edf",
    "known": false
   },
   {
@@ -3831,16 +3596,6 @@
    "known": false
   },
   {
-   "id": "one-step-closer",
-   "name": "One Step Closer",
-   "tier": 0,
-   "score": 38,
-   "popularity": 38,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178fceae19f65f272386cafd1f3",
-   "known": false
-  },
-  {
    "id": "opposite-direktion",
    "name": "Opposite Direktion",
    "tier": 0,
@@ -3871,16 +3626,6 @@
    "known": false
   },
   {
-   "id": "palace",
-   "name": "Palace",
-   "tier": 0,
-   "score": 75,
-   "popularity": 75,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1787f05a6c3cd9eec0b83150b69",
-   "known": false
-  },
-  {
    "id": "paskal-daze",
    "name": "Paskal Daze",
    "tier": 0,
@@ -3908,16 +3653,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "periphery",
-   "name": "Periphery",
-   "tier": 0,
-   "score": 57,
-   "popularity": 57,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178b85925b08bd7d7530afd8473",
    "known": false
   },
   {
@@ -4008,16 +3743,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d84baf6caacb3cb30e35bbb3",
-   "known": false
-  },
-  {
-   "id": "president",
-   "name": "President",
-   "tier": 0,
-   "score": 79,
-   "popularity": 79,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178c04b5515edca6490d908a8a2",
    "known": false
   },
   {
@@ -4124,16 +3849,6 @@
    "known": false
   },
   {
-   "id": "rain-city-drive",
-   "name": "Rain City Drive",
-   "tier": 0,
-   "score": 67,
-   "popularity": 67,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1781131a837d1e97e13d0728a66",
-   "known": false
-  },
-  {
    "id": "ratchet",
    "name": "Ratchet",
    "tier": 0,
@@ -4151,16 +3866,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "redveil",
-   "name": "redveil",
-   "tier": 0,
-   "score": 62,
-   "popularity": 62,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178b643474b62ac4479a65bece3",
    "known": false
   },
   {
@@ -4211,26 +3916,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "rico-ace",
-   "name": "Rico Ace",
-   "tier": 0,
-   "score": 99,
-   "popularity": 99,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17805257ab77302755e539eae8f",
-   "known": false
-  },
-  {
-   "id": "riley",
-   "name": "Riley",
-   "tier": 0,
-   "score": 47,
-   "popularity": 47,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17838d3723b3ff4ebb26ee29dd4",
    "known": false
   },
   {
@@ -4404,16 +4089,6 @@
    "known": false
   },
   {
-   "id": "secret-chiefs-3",
-   "name": "Secret Chiefs 3",
-   "tier": 0,
-   "score": 19,
-   "popularity": 19,
-   "genres": [],
-   "image": "https://i.scdn.co/image/221c9df07515713adc4f155403db047a35fad754",
-   "known": false
-  },
-  {
    "id": "shadya",
    "name": "Shadya",
    "tier": 0,
@@ -4474,26 +4149,6 @@
    "known": false
   },
   {
-   "id": "showing-teeth",
-   "name": "Showing Teeth",
-   "tier": 0,
-   "score": 61,
-   "popularity": 61,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788fdcdc8b59994e316cb517e8",
-   "known": false
-  },
-  {
-   "id": "shyeye",
-   "name": "Shyeye",
-   "tier": 0,
-   "score": 49,
-   "popularity": 49,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178c7a6aa816df4051e1ddbf75d",
-   "known": false
-  },
-  {
    "id": "sim",
    "name": "SIM (CA)",
    "tier": 0,
@@ -4501,26 +4156,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17886be5d6f9a96644ea96042ea",
-   "known": false
-  },
-  {
-   "id": "sirens",
-   "name": "Sirens",
-   "tier": 0,
-   "score": 46,
-   "popularity": 46,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/050f2b5b041e2a4149beab329727f510/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "sleeping",
-   "name": "Sleeping",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/aff680866f94f97fd6f96f8182e919ef/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4604,16 +4239,6 @@
    "known": false
   },
   {
-   "id": "souldia",
-   "name": "Souldia",
-   "tier": 0,
-   "score": 50,
-   "popularity": 50,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1782334e3db265ac2869bdb5387",
-   "known": false
-  },
-  {
    "id": "special-k",
    "name": "Special K (CA)",
    "tier": 0,
@@ -4665,16 +4290,6 @@
    ],
    "image": "https://i.scdn.co/image/ab6761610000f178edcc31e8adfe9de066acb1d7",
    "known": true
-  },
-  {
-   "id": "strfkr",
-   "name": "STRFKR",
-   "tier": 0,
-   "score": 85,
-   "popularity": 85,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17809ba7def3d7c5c14349fb905",
-   "known": false
   },
   {
    "id": "stroom",
@@ -4797,16 +4412,6 @@
    "known": false
   },
   {
-   "id": "thundercat",
-   "name": "Thundercat",
-   "tier": 0,
-   "score": 87,
-   "popularity": 87,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1786941830307896269157f7dd4",
-   "known": false
-  },
-  {
    "id": "thylacine",
    "name": "Thylacine",
    "tier": 0,
@@ -4814,16 +4419,6 @@
    "popularity": 58,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178015dda37ad30a5a5ba10becd",
-   "known": false
-  },
-  {
-   "id": "tiacorine",
-   "name": "TiaCorine",
-   "tier": 0,
-   "score": 70,
-   "popularity": 70,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178fca9e6a435c5638fe1fe3ed9",
    "known": false
   },
   {
@@ -4914,26 +4509,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "two-door-cinema-club",
-   "name": "Two Door Cinema Club",
-   "tier": 0,
-   "score": 99,
-   "popularity": 99,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17886faeb97a905a571b2c361a0",
-   "known": false
-  },
-  {
-   "id": "ub40",
-   "name": "UB40",
-   "tier": 0,
-   "score": 98,
-   "popularity": 98,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1780169dd58a7b6e2a14f7b1726",
    "known": false
   },
   {
@@ -5077,16 +4652,6 @@
    "known": false
   },
   {
-   "id": "visions-of-atlantis",
-   "name": "Visions of Atlantis",
-   "tier": 0,
-   "score": 57,
-   "popularity": 57,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17839e53ebef65af201e001a549",
-   "known": false
-  },
-  {
    "id": "vlada",
    "name": "Vlada",
    "tier": 0,
@@ -5094,26 +4659,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17881a87cea859943b9fb76a6b8",
-   "known": false
-  },
-  {
-   "id": "w-a-s-p",
-   "name": "W.A.S.P.",
-   "tier": 0,
-   "score": 62,
-   "popularity": 62,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1786faf234da7aab166064a410f",
-   "known": false
-  },
-  {
-   "id": "wakelee",
-   "name": "Wakelee",
-   "tier": 0,
-   "score": 40,
-   "popularity": 40,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178adc3016b8f597621f6eee2ca",
    "known": false
   },
   {
@@ -5137,16 +4682,6 @@
    "known": false
   },
   {
-   "id": "wave-to-earth",
-   "name": "Wave to Earth",
-   "tier": 0,
-   "score": 98,
-   "popularity": 98,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17811fa75d331351ecfc2e93faf",
-   "known": false
-  },
-  {
    "id": "wencat",
    "name": "Wencat",
    "tier": 0,
@@ -5164,16 +4699,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "willie-j-healey",
-   "name": "Willie J Healey",
-   "tier": 0,
-   "score": 46,
-   "popularity": 46,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789fb004208e792cbe3ff7b07f",
    "known": false
   },
   {
@@ -5280,48 +4805,6 @@
     "reasons": [
      "tete d'affiche : MoBlack (94)",
      "lieu : New City Gas (palier 3)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
-   "id": "a7c0e1908d08",
-   "title": "José Gonzalez",
-   "venue_id": "mtelus",
-   "night": "2026-09-11",
-   "start": "2026-09-11T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "jose-gonzalez",
-     "name": "José Gonzalez",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ambre-ciel",
-     "name": "Ambre Ciel",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064A6E165DA25?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/jose-gonzalez?code=e008334",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/26WG9qrGAdHUF8sRt3gbHQ/ebaf46004eaf2603f04a30d1e46cc1c5/fijm26_jose_gonzalez.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/jose-gonzalez?code=e008334"
-    }
-   ],
-   "interest": {
-    "score": 72,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : José Gonzalez (91)",
-     "lieu : MTELUS (palier 1)",
      "premier passage en ville depuis 12 mois"
     ]
    }
@@ -6020,48 +5503,6 @@
     "reasons": [
      "tete d'affiche : Buddha Blaze (0)",
      "lieu : Salon Badin (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "be02a1cbc56f",
-   "title": "President",
-   "venue_id": "mtelus",
-   "night": "2026-09-12",
-   "start": "2026-09-12T19:30:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "president",
-     "name": "President",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "showing-teeth",
-     "name": "Showing Teeth",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/3100647A93393E9B?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/president?code=e008038",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/486vTcfEPmAPcqLruyF88k/af4c903ecf2ce09a4d354ff635b5b85b/president_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/president?code=e008038"
-    }
-   ],
-   "interest": {
-    "score": 67,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : President (79)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
     ]
    }
   },
@@ -7081,48 +6522,6 @@
    }
   },
   {
-   "id": "efbc5e41d3c1",
-   "title": "Alabama Shakes",
-   "venue_id": "mtelus",
-   "night": "2026-09-15",
-   "start": "2026-09-15T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "alabama-shakes",
-     "name": "Alabama Shakes",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "emily-king",
-     "name": "Emily King",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006464B82D986D?lang=fr-ca&brand=evenko",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/alabama-shakes?code=e007834",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/9zzu7SugNyGx5r55lLxkM/e7e94ee93509163f3ae6dc9a20f4e78f/alabama_shakes_2026_2.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/alabama-shakes?code=e007834"
-    }
-   ],
-   "interest": {
-    "score": 72,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : Alabama Shakes (87)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "33d46641487c",
    "title": "Sans Soleil w/ Narcy",
    "venue_id": "sans-soleil",
@@ -7271,7 +6670,9 @@
      "b2b_with": "cori"
     }
    ],
-   "genres": [],
+   "genres": [
+    "electronic"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/310064A1D614A5D4?lang=fr-ca&brand=mtelus",
@@ -7635,7 +7036,9 @@
      "b2b_with": "cori"
     }
    ],
-   "genres": [],
+   "genres": [
+    "electronic"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/310064A1D617A5DA?lang=fr-ca&brand=mtelus",
@@ -8512,43 +7915,6 @@
    }
   },
   {
-   "id": "c953b2e344ee",
-   "title": "UB40",
-   "venue_id": "mtelus",
-   "night": "2026-09-19",
-   "start": "2026-09-19T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "ub40",
-     "name": "UB40",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006435A4EB4D5E?lang=fr-ca&brand=evenko",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/ub40?code=e007415",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/45h5zWgAy5uepakeGeasgE/0d9c2598731b4d967fa51f8d33d70a8d/ub40_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/ub40?code=e007415"
-    }
-   ],
-   "interest": {
-    "score": 75,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : UB40 (98)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "2152bb7762c7",
    "title": "ACT of RAGE [NL] - HARD & RAW + K657, Lexya, B7",
    "venue_id": "warehouse",
@@ -8989,6 +8355,47 @@
    }
   },
   {
+   "id": "1d6db485b9ab",
+   "title": "Laylit #152",
+   "venue_id": "ausgang-plaza",
+   "night": "2026-09-19",
+   "start": "2026-09-19T22:00:00.000",
+   "end": "2026-09-20T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "nadim-maghzal",
+     "name": "Nadim Maghzal",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mnsa",
+     "name": "MNSA",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2535359",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2535359"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Nadim Maghzal (8)",
+     "lieu : Ausgang Plaza (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "890e85f390fb",
    "title": "Trance Sunset Vol. III",
    "venue_id": "warehouse",
@@ -9271,53 +8678,6 @@
    }
   },
   {
-   "id": "c67c5fced02c",
-   "title": "Kamelot",
-   "venue_id": "mtelus",
-   "night": "2026-09-20",
-   "start": "2026-09-20T19:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "kamelot",
-     "name": "Kamelot",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "visions-of-atlantis",
-     "name": "Visions of Atlantis",
-     "billing": "support"
-    },
-    {
-     "artist_id": "frozen-crown",
-     "name": "Frozen Crown",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006454A9619FAD?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/kamelot?code=e007674",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/3Tp1oV2lsi1v5pFTuXEaRQ/d11897995e9260c3e6e13837f8412639/kamelot_2026__2_.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/kamelot?code=e007674"
-    }
-   ],
-   "interest": {
-    "score": 61,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : Kamelot (65)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "6a5d5cc4bb1c",
    "title": "xo",
    "venue_id": "warehouse",
@@ -9561,48 +8921,6 @@
    }
   },
   {
-   "id": "62b513671df4",
-   "title": "Esdeekid",
-   "venue_id": "mtelus",
-   "night": "2026-09-21",
-   "start": "2026-09-21T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "esdeekid",
-     "name": "Esdeekid",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "rico-ace",
-     "name": "Rico Ace",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064F0B0CF6225?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/esdeekid?code=e008823",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/4eNfhmdGIH7xyYWIOfqiXc/859bc1207b19604ab13e7b777c5346c4/esdeekid_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/esdeekid?code=e008823"
-    }
-   ],
-   "interest": {
-    "score": 83,
-    "tier": 3,
-    "reasons": [
-     "tete d'affiche : Esdeekid (100)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "5223ee3a2930",
    "title": "Kontravoid & Buzz Kull",
    "venue_id": "foufounes",
@@ -9675,43 +8993,6 @@
    }
   },
   {
-   "id": "fc62a8d1f026",
-   "title": "Kany Garcia",
-   "venue_id": "mtelus",
-   "night": "2026-09-23",
-   "start": "2026-09-23T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "kany-garcia",
-     "name": "Kany Garcia",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006481D5B8A068?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/kany-garcia?code=e008098",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/2lied49meH7WeBc9ksaonT/d9c3631613c2f52abd03143891f28352/kany_garcia_2026_2.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/kany-garcia?code=e008098"
-    }
-   ],
-   "interest": {
-    "score": 76,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : Kany Garcia (100)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "1178548021d0",
    "title": "DOWN2TECHNO [Every Wednesday]",
    "venue_id": "le-red-room",
@@ -9766,7 +9047,9 @@
      "billing": "support"
     }
    ],
-   "genres": [],
+   "genres": [
+    "electronic"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/3100648DC17D7864?lang=fr-ca&brand=mtelus",
@@ -10154,8 +9437,8 @@
    }
   },
   {
-   "id": "09b563d7124d",
-   "title": "Jovonn, Queenie",
+   "id": "dd792937021d",
+   "title": "Jovonn, Queenie, Dj Hermano",
    "venue_id": "salon-daome",
    "night": "2026-09-25",
    "start": "2026-09-25T22:30:00.000",
@@ -10169,6 +9452,11 @@
     {
      "artist_id": "queenie-jr",
      "name": "Queenie Jr",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dj-hermano",
+     "name": "Dj Hermano",
      "billing": "support"
     }
    ],
@@ -10589,43 +9877,6 @@
     "reasons": [
      "tete d'affiche : R3hab (100)",
      "lieu : New City Gas (palier 3)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
-   "id": "08b2c9dc3782",
-   "title": "wave to earth",
-   "venue_id": "mtelus",
-   "night": "2026-09-26",
-   "start": "2026-09-26T20:15:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "wave-to-earth",
-     "name": "Wave to Earth",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064ADB1B5990C?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/wave-to-earth?code=e008402",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/5yPqV0PjuPjDd4SQsGVLAb/a3e5485c9e124223ce0d96b129a022e6/wave_to_earth_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/wave-to-earth?code=e008402"
-    }
-   ],
-   "interest": {
-    "score": 75,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : Wave to Earth (98)",
-     "lieu : MTELUS (palier 1)",
      "premier passage en ville depuis 12 mois"
     ]
    }
@@ -11368,53 +10619,6 @@
    }
   },
   {
-   "id": "eb27b73a6c5d",
-   "title": "Mastodon",
-   "venue_id": "mtelus",
-   "night": "2026-09-27",
-   "start": "2026-09-27T19:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "mastodon",
-     "name": "Mastodon",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "deafheaven",
-     "name": "Deafheaven",
-     "billing": "support"
-    },
-    {
-     "artist_id": "alcest",
-     "name": "Alcest",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064BC9C4B6BC3?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/mastodon?code=e008545",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/5ojFoFqvtcuaTNUhJTVqpj/f9cbbdb92da045b3b00bdf4109d8e875/mastodon_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/mastodon?code=e008545"
-    }
-   ],
-   "interest": {
-    "score": 72,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : Mastodon (81)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "e53ee8a90b86",
    "title": "LBD: ROUDY (All Night Long)",
    "venue_id": "stereo-bar",
@@ -11551,7 +10755,9 @@
      "billing": "support"
     }
    ],
-   "genres": [],
+   "genres": [
+    "electronic"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/310064C58CF246FE?lang=fr-ca&brand=mtelus",
@@ -11652,48 +10858,6 @@
     "reasons": [
      "tete d'affiche : Pinch (34)",
      "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "409ad6aed7f0",
-   "title": "Two Door Cinema Club",
-   "venue_id": "mtelus",
-   "night": "2026-10-01",
-   "start": "2026-10-01T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "two-door-cinema-club",
-     "name": "Two Door Cinema Club",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "strfkr",
-     "name": "STRFKR",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006457E04BB6A0?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/two-door-cinema-club?code=e007906",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/27EG2xKEyeF8O3VUzwu00a/31840ebad0368f6e87d38b7d1fea52b8/two_door_cinema_club_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/two-door-cinema-club?code=e007906"
-    }
-   ],
-   "interest": {
-    "score": 81,
-    "tier": 3,
-    "reasons": [
-     "tete d'affiche : Two Door Cinema Club (99)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
     ]
    }
   },
@@ -11865,7 +11029,9 @@
      "billing": "support"
     }
    ],
-   "genres": [],
+   "genres": [
+    "electronic"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/310064D278322940?lang=fr-ca&brand=mtelus",
@@ -12490,48 +11656,6 @@
    }
   },
   {
-   "id": "7a338e278396",
-   "title": "W.A.S.P.",
-   "venue_id": "mtelus",
-   "night": "2026-10-05",
-   "start": "2026-10-05T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "w-a-s-p",
-     "name": "W.A.S.P.",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "kks-priest",
-     "name": "KK’s PRIEST",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/3100643DA4A868B5?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/w-a-s-p?code=e007579",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/7uNSKzkFHFfaQQmJ1QKK9o/9d76a8fc11910b49adf4f1b7ba240891/wasp_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/w-a-s-p?code=e007579"
-    }
-   ],
-   "interest": {
-    "score": 54,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : W.A.S.P. (62)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "6b95cd7ff8d0",
    "title": "Lenny Pearce",
    "venue_id": "mtelus",
@@ -12545,7 +11669,9 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
+   "genres": [
+    "electronic"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/310064CC84BF31A5?lang=fr-ca&brand=mtelus",
@@ -12773,42 +11899,6 @@
    }
   },
   {
-   "id": "a24776e8436b",
-   "title": "Dance Now Montreal",
-   "venue_id": "mtelus",
-   "night": "2026-10-09",
-   "start": "2026-10-09T21:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "dance-now-montreal",
-     "name": "Dance Now Montreal",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064597CE5C969?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/dance-now-montreal?code=e007775",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/2rLIwide2cONQOmUJa06i5/c418f43eb368921dfbcfeab8aff4f35e/dance_now_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/dance-now-montreal?code=e007775"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Dance Now Montreal (8)",
-     "lieu : MTELUS (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "9683e0008278",
    "title": "CLOCK OUT",
    "venue_id": "nwhr",
@@ -12939,43 +12029,6 @@
      "lieu : Piknic Electronik (palier 3)",
      "premier passage en ville depuis 12 mois",
      "format festival"
-    ]
-   }
-  },
-  {
-   "id": "efb585bdc3c2",
-   "title": "Souldia",
-   "venue_id": "mtelus",
-   "night": "2026-10-10",
-   "start": "2026-10-10T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "souldia",
-     "name": "Souldia",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/3100647793042E75?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/souldia?code=e008005",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/7AUzjEadnZzPwov1p89XLS/936f119a13006ca2318823f07b5aeeba/10octobre_MTELUS_680x473_copy.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/souldia?code=e008005"
-    }
-   ],
-   "interest": {
-    "score": 45,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : Souldia (50)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
     ]
    }
   },
@@ -13157,48 +12210,6 @@
    }
   },
   {
-   "id": "ae0927c9ade6",
-   "title": "Daði Freyr",
-   "venue_id": "mtelus",
-   "night": "2026-10-11",
-   "start": "2026-10-11T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "dai-freyr",
-     "name": "Daði Freyr",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "briet",
-     "name": "BRÍET",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006477AB27476F?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/dadi-freyr?code=e007997",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/1L9IwowULZRp11V3Rbuff9/2501b3ec2e7b1fc20d96dc2b01eaa5bf/daoi_freyr_2026_2.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/dadi-freyr?code=e007997"
-    }
-   ],
-   "interest": {
-    "score": 53,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : Daði Freyr (59)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "3b2c7dd049ea",
    "title": "All Day I Dream - Parc Jean-Drapeau",
    "venue_id": "parc-jean-drapeau",
@@ -13248,53 +12259,6 @@
      "lieu : Parc Jean-Drapeau (palier 3)",
      "premier passage en ville depuis 12 mois",
      "format festival"
-    ]
-   }
-  },
-  {
-   "id": "981dcf2bef82",
-   "title": "JPEGMAFIA",
-   "venue_id": "mtelus",
-   "night": "2026-10-14",
-   "start": "2026-10-14T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "jpegmafia",
-     "name": "JPEGMAFIA",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "redveil",
-     "name": "redveil",
-     "billing": "support"
-    },
-    {
-     "artist_id": "matt-proxy",
-     "name": "Matt Proxy",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006488A39F48C9?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/jpegmafia?code=e008219",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/57lzY5p1HLUbdjS5i52rrL/62175600530097bd7185061c263d99df/jpegmafia_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/jpegmafia?code=e008219"
-    }
-   ],
-   "interest": {
-    "score": 65,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : JPEGMAFIA (69)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
     ]
    }
   },
@@ -13561,42 +12525,6 @@
    }
   },
   {
-   "id": "b8fc7a82a436",
-   "title": "Buena Vista Social Orchestra",
-   "venue_id": "mtelus",
-   "night": "2026-10-16",
-   "start": "2026-10-16T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "buena-vista-social-orchestra",
-     "name": "Buena Vista Social Orchestra",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006463D4EBCDDA?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/buena-vista-social-orchestra?code=e007846",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/2Da044l34bg4y88KuwZ0Ba/14e1e7ea35a9da7670ed7e26b5d48605/buena_vista_social_orchestra_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/buena-vista-social-orchestra?code=e007846"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : Buena Vista Social Orchestra (8)",
-     "lieu : MTELUS (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "8eb202ac78f0",
    "title": "Versatile",
    "venue_id": "le-lobby",
@@ -13744,7 +12672,9 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
+   "genres": [
+    "electronic"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/31006464D570BE7C?lang=fr-ca&brand=mtelus",
@@ -13905,90 +12835,6 @@
    }
   },
   {
-   "id": "df41deb573e3",
-   "title": "Igorrr",
-   "venue_id": "mtelus",
-   "night": "2026-10-18",
-   "start": "2026-10-18T19:30:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "igorrr",
-     "name": "Igorrr",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "secret-chiefs-3",
-     "name": "Secret Chiefs 3",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064AF5ECC1638?lang=fr=ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/igorrr?code=e008420",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/2cVk1b2BpPc1HZhSJ3hitm/22ff364193ce4313372165cd6b8bb0c1/igorrr_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/igorrr?code=e008420"
-    }
-   ],
-   "interest": {
-    "score": 47,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : Igorrr (51)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
-   "id": "e6ab9e4bf218",
-   "title": "Thundercat",
-   "venue_id": "mtelus",
-   "night": "2026-10-20",
-   "start": "2026-10-20T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "thundercat",
-     "name": "Thundercat",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "tiacorine",
-     "name": "TiaCorine",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064E9C8C0607B?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/thundercat?code=e008769",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/4fczmx55odsClvUaZD6c8J/d3d82a8068991ab059aa651c366807c1/thundercat_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/thundercat?code=e008769"
-    }
-   ],
-   "interest": {
-    "score": 73,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : Thundercat (87)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "a3f3c47b0eba",
    "title": "Dana and Alden - Montréal",
    "venue_id": "theatre-fairmount",
@@ -14063,80 +12909,6 @@
     "reasons": [
      "tete d'affiche : Rebecca Black - Montréal (8)",
      "lieu : Club Soda (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "4d2f51f08be1",
-   "title": "Cannons",
-   "venue_id": "mtelus",
-   "night": "2026-10-22",
-   "start": "2026-10-22T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "cannons",
-     "name": "Cannons",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064A6E681DFA7?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/cannons?code=e008336",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/78Avqf8vzlRyj3qVGhNVKF/f7edff8d8eddf63073d46e0c5496a70a/cannons_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/cannons?code=e008336"
-    }
-   ],
-   "interest": {
-    "score": 65,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : Cannons (82)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
-   "id": "b1c23b4c891d",
-   "title": "Matt Lang",
-   "venue_id": "mtelus",
-   "night": "2026-10-23",
-   "start": "2026-10-23T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "matt-lang",
-     "name": "Matt Lang",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006391A70571A0?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/matt-lang?code=e007147",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/2Yljgunfp3kyWtiogne0CM/30720b54f5986b53476b80494d48141d/matt_lang_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/matt-lang?code=e007147"
-    }
-   ],
-   "interest": {
-    "score": 44,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : Matt Lang (48)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
     ]
    }
   },
@@ -14270,43 +13042,6 @@
     "reasons": [
      "tete d'affiche : Gareth Emery (70)",
      "lieu : New City Gas (palier 3)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
-   "id": "d07f30e11aac",
-   "title": "Biga*Ranx",
-   "venue_id": "mtelus",
-   "night": "2026-10-24",
-   "start": "2026-10-24T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "biga-ranx",
-     "name": "Biga*Ranx",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/3100649C9A9050E5?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/biga-ranx?code=e008234",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/6D1nk8NYSbplU2ad5Z1ndy/a31dd05d4ae83e3b2ec59c54adbfb641/biga_ranx_2026_2.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/biga-ranx?code=e008234"
-    }
-   ],
-   "interest": {
-    "score": 55,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : Biga*Ranx (66)",
-     "lieu : MTELUS (palier 1)",
      "premier passage en ville depuis 12 mois"
     ]
    }
@@ -14551,58 +13286,6 @@
    }
   },
   {
-   "id": "59df9e56d586",
-   "title": "Periphery",
-   "venue_id": "mtelus",
-   "night": "2026-10-27",
-   "start": "2026-10-27T18:30:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "periphery",
-     "name": "Periphery",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ne-obliviscaris",
-     "name": "NE OBLIVISCARIS",
-     "billing": "support"
-    },
-    {
-     "artist_id": "greyhaven",
-     "name": "Greyhaven",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ando-san",
-     "name": "Ando San",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064B4CFA5E771?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/periphery?code=e008480",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/20JZCBSiDkKS5mxgkN3svK/e41f4498ab0b3ee72e922f49b309b0f9/Static_Digital-PressPhoto_680x473_Periphery_2026_Regional_MTELUS_1027.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/periphery?code=e008480"
-    }
-   ],
-   "interest": {
-    "score": 57,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : Periphery (57)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "9212d3f54a70",
    "title": "THEMBA, Andrew Pololos, Malena",
    "venue_id": "new-city-gas",
@@ -14690,58 +13373,6 @@
     "reasons": [
      "tete d'affiche : Bob Sinclar (94)",
      "lieu : New City Gas (palier 3)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
-   "id": "9740ec86a27a",
-   "title": "Sleeping With Sirens",
-   "venue_id": "mtelus",
-   "night": "2026-10-30",
-   "start": "2026-10-30T19:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "sleeping",
-     "name": "Sleeping",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "sirens",
-     "name": "Sirens",
-     "billing": "support"
-    },
-    {
-     "artist_id": "rain-city-drive",
-     "name": "Rain City Drive",
-     "billing": "support"
-    },
-    {
-     "artist_id": "shyeye",
-     "name": "Shyeye",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064C8A7E64124?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/sleeping-with-sirens?code=e008646",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/7aTbFq3HixAstUKmvZseL8/d597c3526172985903cf94eb462a0869/Sleeping-With-Sirens.png",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/sleeping-with-sirens?code=e008646"
-    }
-   ],
-   "interest": {
-    "score": 62,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : Sleeping (67)",
-     "lieu : MTELUS (palier 1)",
      "premier passage en ville depuis 12 mois"
     ]
    }
@@ -14872,58 +13503,6 @@
    }
   },
   {
-   "id": "60c4d2a6fc37",
-   "title": "Hot Mulligan",
-   "venue_id": "mtelus",
-   "night": "2026-10-31",
-   "start": "2026-10-31T19:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "hot-mulligan",
-     "name": "Hot Mulligan",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "one-step-closer",
-     "name": "One Step Closer",
-     "billing": "support"
-    },
-    {
-     "artist_id": "riley",
-     "name": "Riley",
-     "billing": "support"
-    },
-    {
-     "artist_id": "wakelee",
-     "name": "Wakelee",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064D1A9485C7F?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/hot-mulligan?code=e008669",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/2ank9GeI4GRuAj8mRn1tUq/1f9db0de261a340b7b993292d0b34d9e/hot_mulligan_2026__2_.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/hot-mulligan?code=e008669"
-    }
-   ],
-   "interest": {
-    "score": 63,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : Hot Mulligan (66)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "9af37def0ad0",
    "title": "Scareo x Boo Yourself: Danny Tenaglia",
    "venue_id": "stereo",
@@ -14961,80 +13540,6 @@
    }
   },
   {
-   "id": "c045d2c7ff87",
-   "title": "Blue October",
-   "venue_id": "mtelus",
-   "night": "2026-11-01",
-   "start": "2026-11-01T20:00:00-05:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "blue-october",
-     "name": "Blue October",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006472A1C25FED?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/blue-october?code=e007998",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/7ldv5R6K8Cxtm8kYiEoW9V/8846341ff500a7d8f614d85976167bf4/blue_october_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/blue-october?code=e007998"
-    }
-   ],
-   "interest": {
-    "score": 56,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : Blue October (68)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
-   "id": "e62ba9a6de32",
-   "title": "MICO",
-   "venue_id": "mtelus",
-   "night": "2026-11-05",
-   "start": "2026-11-05T20:00:00-05:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "mico",
-     "name": "MICO",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006506924B56FB?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/mico?code=e008882",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/3Sae9tHR0bJ0ix8RtQUs13/c63327b75b75107741c61af389f2c025/mico_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/mico?code=e008882"
-    }
-   ],
-   "interest": {
-    "score": 54,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : MICO (65)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "3574083ee7e0",
    "title": "Sullivan King",
    "venue_id": "mtelus",
@@ -15048,7 +13553,9 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
+   "genres": [
+    "electronic"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/3100650D8FB03E42?lang=fr-ca&brand=mtelus",
@@ -15104,48 +13611,6 @@
     "reasons": [
      "tete d'affiche : Patch (42)",
      "lieu : Newspeak (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "262204d3c33c",
-   "title": "Palace",
-   "venue_id": "mtelus",
-   "night": "2026-11-07",
-   "start": "2026-11-07T20:00:00-05:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "palace",
-     "name": "Palace",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "willie-j-healey",
-     "name": "Willie J Healey",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/31006494C0637529?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/palace?code=e008151",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/6HnpFpemAHah5NAsPYKtl7/9ad2ea261f36671b43e904d349f05286/palace_2026.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/palace?code=e008151"
-    }
-   ],
-   "interest": {
-    "score": 64,
-    "tier": 2,
-    "reasons": [
-     "tete d'affiche : Palace (75)",
-     "lieu : MTELUS (palier 1)",
-     "premier passage en ville depuis 12 mois"
     ]
    }
   },

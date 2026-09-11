@@ -55,12 +55,12 @@ function wallTime(iso) {
   return m ? `${m[1]}:${m[2]}` : '';
 }
 
-/** Début, et fin quand connue (sur deux lignes : l'info existait dans les
-    données mais n'était affichée nulle part). */
+/** « 22:00 → 03:00 » sur une seule ligne, ou l'heure de début seule quand la
+    fin est inconnue. */
 function timeRangeHTML(event) {
   const start = wallTime(event.start);
   const end = event.end ? wallTime(event.end) : '';
-  return end ? `${start}<span class="ev-time-end">→ ${end}</span>` : start;
+  return end ? `${start}<span class="ev-time-end">→&nbsp;${end}</span>` : start;
 }
 
 function relativeScan(iso) {

@@ -486,7 +486,7 @@ main {
 
 .agenda-row {
   display: grid;
-  grid-template-columns: 62px 1fr;
+  grid-template-columns: 104px 1fr;
   gap: 0.75rem;
   padding: 0.6rem 0;
   border-bottom: 1px solid var(--line-soft);
@@ -499,14 +499,19 @@ main {
   font-weight: 600;
   color: var(--dimmer);
   padding-top: 2px;
+  white-space: nowrap;
 }
 
-.ev-time-end,
-.agenda-time .ev-time-end {
-  display: block;
-  margin-top: 2px;
+/* L'heure vit dans la colonne de gauche en vue Liste : la répéter dans la
+   case serait redondant (elle reste dans la case en vue Grille, qui n'a pas
+   de colonne dédiée — et sur mobile, où c'est la colonne qui disparaît).
+   Les étoiles restant seules sur leur ligne, elles gardent le bord droit. */
+.agenda-row .ev-time { display: none; }
+.agenda-row .ev-top { justify-content: flex-end; }
+
+.ev-time-end {
+  margin-left: 0.5em;
   font-weight: 400;
-  font-size: 0.9em;
   opacity: 0.6;
 }
 
@@ -620,7 +625,14 @@ main {
   .scroller, .agenda { overflow: visible; }
   .agenda { padding: 0 0.9rem 2rem; }
   .agenda-day { position: static; padding: 1rem 0 0.4rem; }
-  .agenda-row { grid-template-columns: 52px 1fr; gap: 0.6rem; }
+
+  /* Une colonne d'heures de 104px sur 375 d'ecran, c'est un tiers de la
+     largeur pour trois caracteres utiles : sur mobile la colonne disparait
+     et l'heure reprend sa place dans la case, en pleine largeur. */
+  .agenda-row { grid-template-columns: 1fr; gap: 0; }
+  .agenda-time { display: none; }
+  .agenda-row .ev-time { display: inline; }
+  .agenda-row .ev-top { justify-content: space-between; }
 
   /* Les cases restent denses sur desktop par design ; sur mobile, lues de
      pres, elles ont besoin de respirer et d'un texte plus grand. */
