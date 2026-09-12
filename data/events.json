@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-12T12:41:05Z",
+ "generated_at": "2026-09-12T22:55:44Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
@@ -23,9 +23,8 @@
   },
   {
    "id": "new_city_gas",
-   "ok": false,
-   "events": 0,
-   "error": "https://newcitygas.com/wp-json/wp/v2/ncgevent?per_page=100&page=1&lang=fr : HTTP Error 403: Forbidden"
+   "ok": true,
+   "events": 131
   },
   {
    "id": "mtelus",
@@ -619,6 +618,16 @@
    "known": false
   },
   {
+   "id": "afrojack-presents-control",
+   "name": "Afrojack Presents: CONTROL",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "alex-rev",
    "name": "ALEX REV",
    "tier": 0,
@@ -746,6 +755,16 @@
    "popularity": 22,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b5eb70c716a71c72bb28abab",
+   "known": false
+  },
+  {
+   "id": "apache",
+   "name": "Apache",
+   "tier": 0,
+   "score": 44,
+   "popularity": 44,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851d3c9d0307e37b46adbb5e3d9",
    "known": false
   },
   {
@@ -919,6 +938,16 @@
    "known": false
   },
   {
+   "id": "blanca",
+   "name": "Blanca",
+   "tier": 0,
+   "score": 79,
+   "popularity": 79,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787a20b375419bd2686ffd7271",
+   "known": false
+  },
+  {
    "id": "blanke",
    "name": "Blanke",
    "tier": 0,
@@ -1086,6 +1115,16 @@
    "popularity": 48,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e69ffb2c488738cc4d991582",
+   "known": false
+  },
+  {
+   "id": "chrissandro",
+   "name": "Chrissandro",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786825dddd87e01e87abfb9ee2",
    "known": false
   },
   {
@@ -1769,6 +1808,16 @@
    "known": false
   },
   {
+   "id": "frank-lat",
+   "name": "Frank Lat",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "frankie-teardrop",
    "name": "Frankie Teardrop",
    "tier": 0,
@@ -2416,6 +2465,16 @@
    "popularity": 38,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789ad345838cf59724ab98e0ab",
+   "known": false
+  },
+  {
+   "id": "mekki",
+   "name": "Mekki",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178271cf28047e88b66a53710e9",
    "known": false
   },
   {
@@ -3132,6 +3191,16 @@
    "known": false
   },
   {
+   "id": "stef-agostino",
+   "name": "Stef Agostino",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b0ca0f787a2fec57ab021c67",
+   "known": false
+  },
+  {
    "id": "stroom",
    "name": "Stroom",
    "tier": 0,
@@ -3209,6 +3278,16 @@
    "popularity": 94,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786690a97712d77110c9c71663",
+   "known": false
+  },
+  {
+   "id": "tomas-grey",
+   "name": "Tomas Grey",
+   "tier": 0,
+   "score": 70,
+   "popularity": 70,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178472b374a2000971d44fe90f3",
    "known": false
   },
   {
@@ -5036,12 +5115,22 @@
      "artist_id": "baron",
      "name": "BARON (FR)",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "mekki",
+     "name": "Mekki",
+     "billing": "support"
+    },
+    {
+     "artist_id": "chrissandro",
+     "name": "Chrissandro",
+     "billing": "support"
     }
    ],
    "genres": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://newcitygas.com/event/baron-fr-186990/",
    "event_url": "https://ra.co/events/2434412",
    "image": "",
    "status": "confirmed",
@@ -5049,6 +5138,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2434412"
+    },
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/baron-fr-186990/"
     }
    ],
    "interest": {
@@ -7172,6 +7265,53 @@
    }
   },
   {
+   "id": "aef7adbd55ab",
+   "title": "Apache, Blanca, Frank Lat",
+   "venue_id": "new-city-gas",
+   "night": "2026-09-25",
+   "start": "2026-09-25T22:00:00-04:00",
+   "end": "2026-09-26T03:00:00-04:00",
+   "lineup": [
+    {
+     "artist_id": "apache",
+     "name": "Apache",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "blanca",
+     "name": "Blanca",
+     "billing": "support"
+    },
+    {
+     "artist_id": "frank-lat",
+     "name": "Frank Lat",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://newcitygas.com/event/apache-190292/",
+   "event_url": "https://newcitygas.com/event/apache-190292/",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/apache-190292/"
+    }
+   ],
+   "interest": {
+    "score": 78,
+    "tier": 3,
+    "reasons": [
+     "tete d'affiche : Apache (79)",
+     "lieu : New City Gas (palier 3)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
    "id": "c8701d27a195",
    "title": "Eli Escobar - Laurence Matte",
    "venue_id": "stereo-bar",
@@ -7698,12 +7838,22 @@
      "artist_id": "r3hab",
      "name": "R3hab",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "tomas-grey",
+     "name": "Tomas Grey",
+     "billing": "support"
+    },
+    {
+     "artist_id": "stef-agostino",
+     "name": "Stef Agostino",
+     "billing": "support"
     }
    ],
    "genres": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://newcitygas.com/event/r3hab-tomas-grey-200970/",
    "event_url": "https://ra.co/events/2517853",
    "image": "",
    "status": "confirmed",
@@ -7711,10 +7861,14 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2517853"
+    },
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/r3hab-tomas-grey-200970/"
     }
    ],
    "interest": {
-    "score": 88,
+    "score": 93,
     "tier": 3,
     "reasons": [
      "tete d'affiche : R3hab (100)",
@@ -9074,12 +9228,17 @@
      "artist_id": "afrojack",
      "name": "Afrojack",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "afrojack-presents-control",
+     "name": "Afrojack Presents: CONTROL",
+     "billing": "headliner"
     }
    ],
    "genres": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://newcitygas.com/event/afrojack-195438/",
    "event_url": "https://ra.co/events/2517854",
    "image": "",
    "status": "confirmed",
@@ -9087,10 +9246,14 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2517854"
+    },
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/afrojack-195438/"
     }
    ],
    "interest": {
-    "score": 86,
+    "score": 87,
     "tier": 3,
     "reasons": [
      "tete d'affiche : Afrojack (97)",
