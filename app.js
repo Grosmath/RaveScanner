@@ -23,6 +23,7 @@ const store = { data: null, venues: new Map(), artists: new Map() };
     la lisibilite d'un simple scroll, surtout sur mobile. */
 const expandedDays = new Set();
 const LIST_COLLAPSE_AT = 3;
+const BOARD_COLLAPSE_AT = 5;
 
 // ------------------------------------------------------------------ dates
 
@@ -131,25 +132,6 @@ function matches(event) {
   return true;
 }
 
-/** Ordre des lignes, recalculé sur ce qui est réellement affiché. */
-function rankVenues(events) {
-  const byVenue = new Map();
-  for (const e of events) {
-    if (!byVenue.has(e.venue_id)) byVenue.set(e.venue_id, []);
-    byVenue.get(e.venue_id).push(e.interest.score);
-  }
-  return [...byVenue.entries()]
-    .map(([id, scores]) => {
-      scores.sort((a, b) => b - a);
-      const peak = scores[0];
-      const consistency = scores.slice(0, 3).reduce((a, b) => a + b, 0) / Math.min(scores.length, 3);
-      const volume = (Math.min(scores.length, 5) / 5) * 100;
-      return { id, rank: 0.65 * peak + 0.2 * consistency + 0.15 * volume };
-    })
-    .sort((a, b) => b.rank - a.rank || store.venues.get(a.id).name.localeCompare(store.venues.get(b.id).name))
-    .map((v) => v.id);
-}
-
 // ------------------------------------------------------------------ rendu
 
 function stars(tier) {
@@ -195,57 +177,64 @@ function eventCard(event, { withVenue = false } = {}) {
   return el;
 }
 
+/** Une colonne par jour, les soirées empilées par score décroissant.
+ *
+ * L'ancienne grille croisait lieux × jours : une ligne par club, donc autant
+ * de lignes que de clubs (52 au 2026-09-13) et une majorité de cases vides à
+ * parcourir. Sur trois mois, retrouver une grosse date demandait de balayer
+ * chaque ligne — Mall Grab est passé inaperçu comme ça. Ici le lieu descend
+ * dans la case : on lit une journée de haut en bas, le meilleur en premier.
+ */
 function renderGrid(events, days) {
-  const grid = document.getElementById('grid');
-  grid.innerHTML = '';
-  grid.style.setProperty('--days', days.length);
+  const board = document.getElementById('grid');
+  board.innerHTML = '';
 
-  const corner = document.createElement('div');
-  corner.className = 'gc gc--corner';
-  corner.textContent = 'Lieu / Jour';
-  grid.append(corner);
+  const byNight = new Map();
+  for (const e of events) {
+    if (!byNight.has(e.night)) byNight.set(e.night, []);
+    byNight.get(e.night).push(e);
+  }
 
   const today = todayISO();
   for (const day of days) {
-    const cell = document.createElement('div');
-    cell.className = 'gc gc--day';
-    if ([0, 5, 6].includes(day.getDay())) cell.classList.add('is-weekend');
-    if (isoOf(day) === today) cell.classList.add('is-today');
-    cell.innerHTML = `<span class="dow">${DOW[day.getDay()]}</span>
+    const night = isoOf(day);
+    const dayEvents = (byNight.get(night) ?? []).sort((a, b) => b.interest.score - a.interest.score);
+
+    const column = document.createElement('section');
+    column.className = 'board-day';
+
+    const head = document.createElement('h2');
+    head.className = 'board-head';
+    if ([0, 5, 6].includes(day.getDay())) head.classList.add('is-weekend');
+    if (night === today) head.classList.add('is-today');
+    head.innerHTML = `<span class="dow">${DOW[day.getDay()]}</span>
       <span class="dnum">${day.getDate()}</span>
-      <span class="dmon">${MONTHS[day.getMonth()]}</span>`;
-    grid.append(cell);
-  }
+      <span class="dmon">${MONTHS[day.getMonth()]}</span>
+      <span class="board-count">${dayEvents.length}</span>`;
+    column.append(head);
 
-  const byVenueDay = new Map();
-  for (const e of events) {
-    const key = `${e.venue_id}|${e.night}`;
-    if (!byVenueDay.has(key)) byVenueDay.set(key, []);
-    byVenueDay.get(key).push(e);
-  }
+    const stack = document.createElement('div');
+    stack.className = 'board-stack';
+    const hidden = dayEvents.length - BOARD_COLLAPSE_AT;
+    const expanded = hidden <= 0 || expandedDays.has(night);
+    (expanded ? dayEvents : dayEvents.slice(0, BOARD_COLLAPSE_AT))
+      .forEach((e) => stack.append(eventCard(e, { withVenue: true })));
 
-  rankVenues(events).forEach((venueId, index) => {
-    const venue = store.venues.get(venueId);
-    const head = document.createElement('div');
-    head.className = 'gc gc--venue';
-    head.innerHTML = `<span class="venue-rank">${String(index + 1).padStart(2, '0')}</span>
-      <span class="venue-name">${esc(venue.name)}</span>
-      <span class="venue-meta">${esc(venue.type)}${venue.capacity ? ` · ${venue.capacity}` : ''}</span>`;
-    grid.append(head);
-
-    for (const day of days) {
-      const cell = document.createElement('div');
-      cell.className = 'gc';
-      const slot = byVenueDay.get(`${venueId}|${isoOf(day)}`);
-      if (!slot) {
-        cell.classList.add('gc--empty');
-      } else {
-        slot.sort((a, b) => b.interest.score - a.interest.score);
-        slot.forEach((e) => cell.append(eventCard(e)));
-      }
-      grid.append(cell);
+    if (hidden > 0) {
+      const more = document.createElement('button');
+      more.type = 'button';
+      more.className = 'board-more';
+      more.textContent = expanded ? 'Réduire' : `Voir ${hidden} de plus`;
+      more.addEventListener('click', () => {
+        expandedDays.has(night) ? expandedDays.delete(night) : expandedDays.add(night);
+        render();
+      });
+      stack.append(more);
     }
-  });
+
+    column.append(stack);
+    board.append(column);
+  }
 }
 
 function renderList(events, days) {
