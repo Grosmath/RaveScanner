@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-13T04:33:22Z",
+ "generated_at": "2026-09-13T04:51:14Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
@@ -47,24 +47,24 @@
   "newspeak",
   "stereo-bar",
   "bar-datcha",
+  "hall-est-du-stade-olympique",
   "theatre-fairmount",
   "le-ritz",
-  "parc-jean-drapeau",
   "centre-bell",
   "theatre-beanfield",
-  "sat",
   "warehouse",
-  "hall-est-du-stade-olympique",
+  "sat",
+  "parc-jean-drapeau",
   "blue-room",
   "le-red-room",
   "grand-quai",
   "sainte-catherine-hall",
-  "tba-near-villeray",
   "tba-mario-park-mile-end",
   "foufounes",
   "olympia",
   "salon-daome",
   "sms-514-613-5811-for-location",
+  "tba-near-villeray",
   "red-roof-church",
   "l-escogriffe-bar-spectacle",
   "systeme",
@@ -233,11 +233,11 @@
   {
    "id": "hall-est-du-stade-olympique",
    "name": "Hall Est du Stade olympique",
-   "type": "club",
-   "tier": 1,
+   "type": "venue",
+   "tier": 3,
    "capacity": null,
-   "address": "",
-   "url": "",
+   "address": "Parc olympique",
+   "url": "https://parcolympique.qc.ca",
    "genres": []
   },
   {
@@ -2600,8 +2600,8 @@
   {
    "id": "i-hate-models",
    "name": "I Hate Models",
-   "tier": 3,
-   "score": 57,
+   "tier": 4,
+   "score": 69,
    "popularity": 59,
    "genres": [
     "hard techno",
@@ -4874,23 +4874,23 @@
      "billing": "support"
     },
     {
-     "artist_id": "didi-han",
-     "name": "Didi Han",
-     "billing": "support"
-    },
-    {
      "artist_id": "cezaire",
      "name": "Cezaire",
      "billing": "support"
     },
     {
-     "artist_id": "elles",
-     "name": "Elles",
+     "artist_id": "didi-han",
+     "name": "Didi Han",
      "billing": "support"
     },
     {
      "artist_id": "amp",
      "name": "amp",
+     "billing": "support"
+    },
+    {
+     "artist_id": "elles",
+     "name": "Elles",
      "billing": "support"
     }
    ],
@@ -4972,8 +4972,8 @@
    "end": "2026-09-13T21:00:00.000",
    "lineup": [
     {
-     "artist_id": "stroom",
-     "name": "Stroom",
+     "artist_id": "richard",
+     "name": "Richard",
      "billing": "headliner"
     },
     {
@@ -4982,18 +4982,18 @@
      "billing": "support"
     },
     {
-     "artist_id": "richard",
-     "name": "Richard",
+     "artist_id": "racine",
+     "name": "Racine",
+     "billing": "support"
+    },
+    {
+     "artist_id": "stroom",
+     "name": "Stroom",
      "billing": "support"
     },
     {
      "artist_id": "orchestroll",
      "name": "Orchestroll",
-     "billing": "support"
-    },
-    {
-     "artist_id": "racine",
-     "name": "Racine",
      "billing": "support"
     },
     {
@@ -5019,7 +5019,7 @@
     "score": 16,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Stroom (14)",
+     "tete d'affiche : Richard (14)",
      "lieu : White Wall Studio (palier 1)"
     ]
    }
@@ -5349,16 +5349,16 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "cori",
-     "name": "Cori",
-     "billing": "support",
-     "b2b_with": "cirque-cosmic"
-    },
-    {
      "artist_id": "cirque-cosmic",
      "name": "Cirque Cosmic",
      "billing": "support",
      "b2b_with": "cori"
+    },
+    {
+     "artist_id": "cori",
+     "name": "Cori",
+     "billing": "support",
+     "b2b_with": "cirque-cosmic"
     }
    ],
    "genres": [
@@ -5399,13 +5399,13 @@
    "end": "2026-09-18T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "eldi",
-     "name": "Eldi",
+     "artist_id": "allea",
+     "name": "Alléa",
      "billing": "headliner"
     },
     {
-     "artist_id": "allea",
-     "name": "Alléa",
+     "artist_id": "eldi",
+     "name": "Eldi",
      "billing": "support"
     }
    ],
@@ -5426,7 +5426,7 @@
     "score": 42,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : Eldi (45)",
+     "tete d'affiche : Alléa (45)",
      "lieu : Blue Room (palier 1)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -5441,13 +5441,13 @@
    "end": "2026-09-18T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "askim",
-     "name": "AṢKIM",
+     "artist_id": "felix-patry",
+     "name": "Felix Patry",
      "billing": "headliner"
     },
     {
-     "artist_id": "felix-patry",
-     "name": "Felix Patry",
+     "artist_id": "askim",
+     "name": "AṢKIM",
      "billing": "support"
     },
     {
@@ -5473,7 +5473,7 @@
     "score": 17,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : AṢKIM (8)",
+     "tete d'affiche : Felix Patry (8)",
      "lieu : Bar Datcha (palier 2)"
     ]
    }
@@ -5600,13 +5600,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "laurence-matte",
-     "name": "Laurence Matte",
+     "artist_id": "pria",
+     "name": "Prïa",
      "billing": "support"
     },
     {
-     "artist_id": "pria",
-     "name": "Prïa",
+     "artist_id": "laurence-matte",
+     "name": "Laurence Matte",
      "billing": "support"
     }
    ],
@@ -5719,16 +5719,16 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "cori",
-     "name": "Cori",
-     "billing": "support",
-     "b2b_with": "cirque-cosmic"
-    },
-    {
      "artist_id": "cirque-cosmic",
      "name": "Cirque Cosmic",
      "billing": "support",
      "b2b_with": "cori"
+    },
+    {
+     "artist_id": "cori",
+     "name": "Cori",
+     "billing": "support",
+     "b2b_with": "cirque-cosmic"
     }
    ],
    "genres": [
@@ -5773,13 +5773,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "s-talbot",
-     "name": "s.talbot",
+     "artist_id": "hvn-1",
+     "name": "HVN (1)",
      "billing": "support"
     },
     {
-     "artist_id": "hvn-1",
-     "name": "HVN (1)",
+     "artist_id": "s-talbot",
+     "name": "s.talbot",
      "billing": "support"
     }
    ],
@@ -5944,18 +5944,18 @@
    "end": "2026-09-18T22:00:00.000",
    "lineup": [
     {
+     "artist_id": "alina",
+     "name": "Alina (MTL)",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "ferias",
      "name": "Ferias",
-     "billing": "headliner"
+     "billing": "support"
     },
     {
      "artist_id": "guthrie",
      "name": "Guthrie",
-     "billing": "support"
-    },
-    {
-     "artist_id": "alina",
-     "name": "Alina (MTL)",
      "billing": "support"
     }
    ],
@@ -5976,7 +5976,7 @@
     "score": 55,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : Ferias (66)",
+     "tete d'affiche : Alina (MTL) (66)",
      "lieu : TBA - Mario Park (Mile End) (palier 1)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -6037,13 +6037,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "clara-d",
-     "name": "Clara D",
+     "artist_id": "raef",
+     "name": "Raef",
      "billing": "support"
     },
     {
-     "artist_id": "raef",
-     "name": "Raef",
+     "artist_id": "clara-d",
+     "name": "Clara D",
      "billing": "support"
     }
    ],
@@ -6160,9 +6160,19 @@
    "end": "2026-09-19T06:00:00.000",
    "lineup": [
     {
+     "artist_id": "mike-shannon",
+     "name": "Mike Shannon",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "trevor-kiernander",
+     "name": "Trevor Kiernander",
+     "billing": "support"
+    },
+    {
      "artist_id": "mightykat",
      "name": "MightyKat",
-     "billing": "headliner"
+     "billing": "support"
     },
     {
      "artist_id": "billy-dalessandro",
@@ -6170,18 +6180,8 @@
      "billing": "support"
     },
     {
-     "artist_id": "mike-shannon",
-     "name": "Mike Shannon",
-     "billing": "support"
-    },
-    {
      "artist_id": "cristobal-urbina",
      "name": "Cristobal Urbina",
-     "billing": "support"
-    },
-    {
-     "artist_id": "trevor-kiernander",
-     "name": "Trevor Kiernander",
      "billing": "support"
     }
    ],
@@ -6202,7 +6202,7 @@
     "score": 22,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : MightyKat (16)",
+     "tete d'affiche : Mike Shannon (16)",
      "lieu : ESC (palier 2)"
     ]
    }
@@ -6216,13 +6216,13 @@
    "end": null,
    "lineup": [
     {
-     "artist_id": "back-to-the-80-s",
-     "name": "Back to the 80's",
+     "artist_id": "neon",
+     "name": "NEON",
      "billing": "headliner"
     },
     {
-     "artist_id": "neon",
-     "name": "NEON",
+     "artist_id": "back-to-the-80-s",
+     "name": "Back to the 80's",
      "billing": "support"
     }
    ],
@@ -6245,7 +6245,7 @@
     "score": 20,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Back to the 80's (21)",
+     "tete d'affiche : NEON (21)",
      "lieu : Le Balcon (palier 1)"
     ]
    }
@@ -6305,6 +6305,11 @@
      "billing": "headliner"
     },
     {
+     "artist_id": "sako-2",
+     "name": "Sako (2)",
+     "billing": "support"
+    },
+    {
      "artist_id": "ciber1a",
      "name": "CIBER1A",
      "billing": "support"
@@ -6312,11 +6317,6 @@
     {
      "artist_id": "miasalav",
      "name": "MIASALAV",
-     "billing": "support"
-    },
-    {
-     "artist_id": "sako-2",
-     "name": "Sako (2)",
      "billing": "support"
     }
    ],
@@ -6351,13 +6351,13 @@
    "end": "2026-09-19T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "cidoine",
-     "name": "Cidoine",
+     "artist_id": "grid",
+     "name": "Grid",
      "billing": "headliner"
     },
     {
-     "artist_id": "grid",
-     "name": "Grid",
+     "artist_id": "cidoine",
+     "name": "Cidoine",
      "billing": "support"
     }
    ],
@@ -6378,7 +6378,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Cidoine (9)",
+     "tete d'affiche : Grid (9)",
      "lieu : Barbossa (palier 1)"
     ]
    }
@@ -6392,13 +6392,13 @@
    "end": "2026-09-19T07:00:00.000",
    "lineup": [
     {
-     "artist_id": "boomy",
-     "name": "Boomy",
+     "artist_id": "racil",
+     "name": "Racil",
      "billing": "headliner"
     },
     {
-     "artist_id": "racil",
-     "name": "Racil",
+     "artist_id": "boomy",
+     "name": "Boomy",
      "billing": "support"
     }
    ],
@@ -6419,7 +6419,7 @@
     "score": 11,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Boomy (8)",
+     "tete d'affiche : Racil (8)",
      "lieu : NWHR (palier 1)"
     ]
    }
@@ -6613,11 +6613,6 @@
    "end": "2026-09-19T22:00:00.000",
    "lineup": [
     {
-     "artist_id": "bisoubizou",
-     "name": "BisouBizou",
-     "billing": "headliner"
-    },
-    {
      "artist_id": "rupaul",
      "name": "RuPaul (DJ SET)",
      "billing": "headliner"
@@ -6625,6 +6620,11 @@
     {
      "artist_id": "french-vanilia",
      "name": "French Vanilia",
+     "billing": "support"
+    },
+    {
+     "artist_id": "bisoubizou",
+     "name": "BisouBizou",
      "billing": "support"
     }
    ],
@@ -6649,7 +6649,7 @@
     "score": 78,
     "tier": 3,
     "reasons": [
-     "tete d'affiche : BisouBizou (73)",
+     "tete d'affiche : RuPaul (DJ SET) (73)",
      "lieu : Piknic Electronik (palier 3)",
      "premier passage en ville depuis 12 mois",
      "format festival"
@@ -6749,13 +6749,13 @@
    "end": "2026-09-20T09:00:00.000",
    "lineup": [
     {
-     "artist_id": "ame",
-     "name": "Âme",
+     "artist_id": "trikk",
+     "name": "Trikk",
      "billing": "headliner"
     },
     {
-     "artist_id": "trikk",
-     "name": "Trikk",
+     "artist_id": "ame",
+     "name": "Âme",
      "billing": "support"
     }
    ],
@@ -6776,7 +6776,7 @@
     "score": 57,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : Âme (50)",
+     "tete d'affiche : Trikk (50)",
      "lieu : Stereo (palier 3)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -6796,13 +6796,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "duchesse",
-     "name": "Duchesse",
+     "artist_id": "lara-bee",
+     "name": "Lara Bee",
      "billing": "support"
     },
     {
-     "artist_id": "lara-bee",
-     "name": "Lara Bee",
+     "artist_id": "duchesse",
+     "name": "Duchesse",
      "billing": "support"
     }
    ],
@@ -6967,11 +6967,6 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "dani-rev",
-     "name": "Dani Rev",
-     "billing": "support"
-    },
-    {
      "artist_id": "mowie-2",
      "name": "Mowie (2)",
      "billing": "support"
@@ -6989,6 +6984,11 @@
     {
      "artist_id": "outback",
      "name": "Outback",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dani-rev",
+     "name": "Dani Rev",
      "billing": "support"
     }
    ],
@@ -7023,13 +7023,13 @@
    "end": "2026-09-20T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "pria",
-     "name": "Prïa",
+     "artist_id": "zac-martel",
+     "name": "Zac Martel",
      "billing": "headliner"
     },
     {
-     "artist_id": "zac-martel",
-     "name": "Zac Martel",
+     "artist_id": "pria",
+     "name": "Prïa",
      "billing": "support"
     },
     {
@@ -7055,7 +7055,7 @@
     "score": 37,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Prïa (30)",
+     "tete d'affiche : Zac Martel (30)",
      "lieu : Stereo Bar (palier 3)"
     ]
    }
@@ -7187,11 +7187,6 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "coldchainlogistics",
-     "name": "coldchainlogistics",
-     "billing": "support"
-    },
-    {
      "artist_id": "newfriend",
      "name": "newfriend",
      "billing": "support"
@@ -7204,6 +7199,11 @@
     {
      "artist_id": "pleurire",
      "name": "Pleurire",
+     "billing": "support"
+    },
+    {
+     "artist_id": "coldchainlogistics",
+     "name": "coldchainlogistics",
      "billing": "support"
     },
     {
@@ -7428,9 +7428,19 @@
    "end": "2026-09-20T23:59:00.000",
    "lineup": [
     {
+     "artist_id": "virginia",
+     "name": "Virginia",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "priori",
      "name": "Priori",
-     "billing": "headliner"
+     "billing": "support"
+    },
+    {
+     "artist_id": "d-dan",
+     "name": "D.Dan",
+     "billing": "support"
     },
     {
      "artist_id": "andy-martin",
@@ -7443,18 +7453,13 @@
      "billing": "support"
     },
     {
-     "artist_id": "char-l-n",
-     "name": "Char.l.n",
-     "billing": "support"
-    },
-    {
-     "artist_id": "d-dan",
-     "name": "D.Dan",
-     "billing": "support"
-    },
-    {
      "artist_id": "dj-maria",
      "name": "DJ MARIA.",
+     "billing": "support"
+    },
+    {
+     "artist_id": "char-l-n",
+     "name": "Char.l.n",
      "billing": "support"
     },
     {
@@ -7468,18 +7473,13 @@
      "billing": "support"
     },
     {
-     "artist_id": "virginia",
-     "name": "Virginia",
+     "artist_id": "lola-haro",
+     "name": "Lola Haro",
      "billing": "support"
     },
     {
      "artist_id": "vlada",
      "name": "Vlada",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lola-haro",
-     "name": "Lola Haro",
      "billing": "support"
     }
    ],
@@ -7500,11 +7500,12 @@
     }
    ],
    "interest": {
-    "score": 53,
-    "tier": 1,
+    "score": 61,
+    "tier": 2,
     "reasons": [
-     "tete d'affiche : Priori (55)",
-     "lieu : Lieu secret / Warehouse (palier 2)"
+     "tete d'affiche : Virginia (55)",
+     "lieu : Lieu secret / Warehouse (palier 2)",
+     "premier passage en ville depuis 12 mois"
     ]
    }
   },
@@ -7553,13 +7554,13 @@
    "end": "2026-09-21T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "boomy",
-     "name": "Boomy",
+     "artist_id": "emn-1",
+     "name": "EMN (1)",
      "billing": "headliner"
     },
     {
-     "artist_id": "emn-1",
-     "name": "EMN (1)",
+     "artist_id": "boomy",
+     "name": "Boomy",
      "billing": "support"
     },
     {
@@ -7585,7 +7586,7 @@
     "score": 17,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Boomy (8)",
+     "tete d'affiche : EMN (1) (8)",
      "lieu : Le Red Room (palier 2)"
     ]
    }
@@ -7838,18 +7839,18 @@
    "end": "2026-09-25T03:00:00.000",
    "lineup": [
     {
+     "artist_id": "dj-pana",
+     "name": "DJ Pana",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "sonidos-prohibidos-lu-b",
      "name": "Sonidos Prohibidos: Lu B",
-     "billing": "headliner"
+     "billing": "support"
     },
     {
      "artist_id": "nana-zen",
      "name": "Nana Zen",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dj-pana",
-     "name": "DJ Pana",
      "billing": "support"
     }
    ],
@@ -7870,7 +7871,7 @@
     "score": 50,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : Sonidos Prohibidos: Lu B (46)",
+     "tete d'affiche : DJ Pana (46)",
      "lieu : Bar Datcha (palier 2)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -7921,13 +7922,13 @@
    "end": "2026-09-25T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "badjuda",
-     "name": "BADJUDA",
+     "artist_id": "juju-le-moko",
+     "name": "Juju le Moko",
      "billing": "headliner"
     },
     {
-     "artist_id": "juju-le-moko",
-     "name": "Juju le Moko",
+     "artist_id": "badjuda",
+     "name": "BADJUDA",
      "billing": "support"
     }
    ],
@@ -7948,7 +7949,7 @@
     "score": 11,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : BADJUDA (8)",
+     "tete d'affiche : Juju le Moko (8)",
      "lieu : Barbossa (palier 1)"
     ]
    }
@@ -8034,13 +8035,13 @@
    "end": "2026-09-26T03:00:00-04:00",
    "lineup": [
     {
-     "artist_id": "apache",
-     "name": "Apache",
+     "artist_id": "blanca",
+     "name": "Blanca",
      "billing": "headliner"
     },
     {
-     "artist_id": "blanca",
-     "name": "Blanca",
+     "artist_id": "apache",
+     "name": "Apache",
      "billing": "support"
     },
     {
@@ -8066,7 +8067,7 @@
     "score": 78,
     "tier": 3,
     "reasons": [
-     "tete d'affiche : Apache (79)",
+     "tete d'affiche : Blanca (79)",
      "lieu : New City Gas (palier 3)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -8309,13 +8310,13 @@
      "billing": "support"
     },
     {
-     "artist_id": "frankie-teardrop",
-     "name": "Frankie Teardrop",
+     "artist_id": "syd-woz",
+     "name": "Syd Woz",
      "billing": "support"
     },
     {
-     "artist_id": "syd-woz",
-     "name": "Syd Woz",
+     "artist_id": "frankie-teardrop",
+     "name": "Frankie Teardrop",
      "billing": "support"
     }
    ],
@@ -8473,23 +8474,23 @@
    "end": "2026-09-26T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "underthebed",
-     "name": "Underthebed",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "kolophane",
-     "name": "Kolophane",
-     "billing": "support"
-    },
-    {
      "artist_id": "rekless-behavior",
      "name": "Rekless Behavior",
-     "billing": "support"
+     "billing": "headliner"
     },
     {
      "artist_id": "ayeenb",
      "name": "AYEENB",
+     "billing": "support"
+    },
+    {
+     "artist_id": "underthebed",
+     "name": "Underthebed",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kolophane",
+     "name": "Kolophane",
      "billing": "support"
     }
    ],
@@ -8510,7 +8511,7 @@
     "score": 11,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Underthebed (8)",
+     "tete d'affiche : Rekless Behavior (8)",
      "lieu : Blue Room (palier 1)"
     ]
    }
@@ -8728,73 +8729,6 @@
    }
   },
   {
-   "id": "5c9fcbe47b96",
-   "title": "Ferias 'til Sunset",
-   "venue_id": "tba-near-villeray",
-   "night": "2026-09-26",
-   "start": "2026-09-26T15:00:00.000",
-   "end": "2026-09-26T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "jadalareign",
-     "name": "JADALAREIGN",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ctrlzora",
-     "name": "CTRLZORA",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ash-lauryn",
-     "name": "Ash Lauryn",
-     "billing": "support"
-    },
-    {
-     "artist_id": "g-l-o-w-z-i",
-     "name": "G L O W Z I",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ferias",
-     "name": "Ferias",
-     "billing": "support"
-    },
-    {
-     "artist_id": "guthrie",
-     "name": "Guthrie",
-     "billing": "support"
-    },
-    {
-     "artist_id": "alina",
-     "name": "Alina (MTL)",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2523011",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2523011"
-    }
-   ],
-   "interest": {
-    "score": 58,
-    "tier": 1,
-    "reasons": [
-     "tete d'affiche : JADALAREIGN (66)",
-     "lieu : TBA - Near Villeray (palier 1)",
-     "premier passage en ville depuis 12 mois"
-    ]
-   }
-  },
-  {
    "id": "72c983263984",
    "title": "Starjunk 95",
    "venue_id": "theatre-fairmount",
@@ -8923,6 +8857,72 @@
    }
   },
   {
+   "id": "5c9fcbe47b96",
+   "title": "Ferias 'til Sunset",
+   "venue_id": "tba-near-villeray",
+   "night": "2026-09-26",
+   "start": "2026-09-26T15:00:00.000",
+   "end": "2026-09-26T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "alina",
+     "name": "Alina (MTL)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ash-lauryn",
+     "name": "Ash Lauryn",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ctrlzora",
+     "name": "CTRLZORA",
+     "billing": "support"
+    },
+    {
+     "artist_id": "g-l-o-w-z-i",
+     "name": "G L O W Z I",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ferias",
+     "name": "Ferias",
+     "billing": "support"
+    },
+    {
+     "artist_id": "jadalareign",
+     "name": "JADALAREIGN",
+     "billing": "support"
+    },
+    {
+     "artist_id": "guthrie",
+     "name": "Guthrie",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2523011",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2523011"
+    }
+   ],
+   "interest": {
+    "score": 50,
+    "tier": 1,
+    "reasons": [
+     "tete d'affiche : Alina (MTL) (66)",
+     "lieu : TBA - Near Villeray (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "f1398b2fe7b5",
    "title": "Rhys Fulber (Frontline Assembly) Live Set and Patrick Codenys (Front 242) Dj Set + Invité",
    "venue_id": "red-roof-church",
@@ -9009,18 +9009,18 @@
    "end": "2026-09-27T06:00:00.000",
    "lineup": [
     {
+     "artist_id": "manuel-falardeau",
+     "name": "Manuel Falardeau",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "freeeman",
      "name": "FREEEMAN",
-     "billing": "headliner"
+     "billing": "support"
     },
     {
      "artist_id": "colmee",
      "name": "Colmee",
-     "billing": "support"
-    },
-    {
-     "artist_id": "manuel-falardeau",
-     "name": "Manuel Falardeau",
      "billing": "support"
     }
    ],
@@ -9041,7 +9041,7 @@
     "score": 37,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : FREEEMAN (40)",
+     "tete d'affiche : Manuel Falardeau (40)",
      "lieu : Bar Datcha (palier 2)"
     ]
    }
@@ -9127,13 +9127,13 @@
    "end": "2026-09-27T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "ghost-tempo",
-     "name": "GHOST TEMPO",
+     "artist_id": "wally",
+     "name": "Wally",
      "billing": "headliner"
     },
     {
-     "artist_id": "wally",
-     "name": "Wally",
+     "artist_id": "ghost-tempo",
+     "name": "GHOST TEMPO",
      "billing": "support"
     }
    ],
@@ -9154,7 +9154,7 @@
     "score": 28,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : GHOST TEMPO (36)",
+     "tete d'affiche : Wally (36)",
      "lieu : La Récré (palier 1)"
     ]
    }
@@ -9214,13 +9214,13 @@
      "billing": "support"
     },
     {
-     "artist_id": "forello",
-     "name": "Forello",
+     "artist_id": "ekitwanda",
+     "name": "Ekitwanda",
      "billing": "support"
     },
     {
-     "artist_id": "ekitwanda",
-     "name": "Ekitwanda",
+     "artist_id": "forello",
+     "name": "Forello",
      "billing": "support"
     }
    ],
@@ -9255,13 +9255,13 @@
    "end": "2026-09-27T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "dea",
-     "name": "Déa",
+     "artist_id": "pinch-ca",
+     "name": "Pinch ( CA )",
      "billing": "headliner"
     },
     {
-     "artist_id": "pinch-ca",
-     "name": "Pinch ( CA )",
+     "artist_id": "dea",
+     "name": "Déa",
      "billing": "support"
     },
     {
@@ -9287,7 +9287,7 @@
     "score": 11,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Déa (8)",
+     "tete d'affiche : Pinch ( CA ) (8)",
      "lieu : Blue Room (palier 1)"
     ]
    }
@@ -9421,9 +9421,24 @@
    "end": "2026-09-27T21:30:00.000",
    "lineup": [
     {
-     "artist_id": "egyptian-lover",
-     "name": "Egyptian Lover",
+     "artist_id": "yume",
+     "name": "Yume",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "isla-den",
+     "name": "Isla Den",
+     "billing": "support"
+    },
+    {
+     "artist_id": "aamourocean",
+     "name": "Aamourocean",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lorenzi",
+     "name": "Lorenzi",
+     "billing": "support"
     },
     {
      "artist_id": "martyn-bootyspoon",
@@ -9436,28 +9451,13 @@
      "billing": "support"
     },
     {
-     "artist_id": "isla-den",
-     "name": "Isla Den",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lorenzi",
-     "name": "Lorenzi",
-     "billing": "support"
-    },
-    {
-     "artist_id": "yume",
-     "name": "Yume",
+     "artist_id": "egyptian-lover",
+     "name": "Egyptian Lover",
      "billing": "support"
     },
     {
      "artist_id": "baby-bimbo",
      "name": "Baby Bimbo",
-     "billing": "support"
-    },
-    {
-     "artist_id": "aamourocean",
-     "name": "Aamourocean",
      "billing": "support"
     }
    ],
@@ -9482,7 +9482,7 @@
     "score": 74,
     "tier": 2,
     "reasons": [
-     "tete d'affiche : Egyptian Lover (60)",
+     "tete d'affiche : Yume (60)",
      "lieu : Piknic Electronik (palier 3)",
      "premier passage en ville depuis 12 mois",
      "format festival"
@@ -9616,13 +9616,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "evanora-unlimited",
-     "name": "Evanora Unlimited",
+     "artist_id": "choir-boy",
+     "name": "Choir Boy",
      "billing": "support"
     },
     {
-     "artist_id": "choir-boy",
-     "name": "Choir Boy",
+     "artist_id": "evanora-unlimited",
+     "name": "Evanora Unlimited",
      "billing": "support"
     }
    ],
@@ -9741,13 +9741,13 @@
    "end": null,
    "lineup": [
     {
-     "artist_id": "container",
-     "name": "Container",
+     "artist_id": "kill-alters",
+     "name": "Kill Alters",
      "billing": "headliner"
     },
     {
-     "artist_id": "kill-alters",
-     "name": "Kill Alters",
+     "artist_id": "container",
+     "name": "Container",
      "billing": "support"
     },
     {
@@ -9775,7 +9775,7 @@
     "score": 19,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Container (19)",
+     "tete d'affiche : Kill Alters (19)",
      "lieu : Système (palier 1)"
     ]
    }
@@ -9843,13 +9843,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "ameme",
-     "name": "AMÉMÉ",
+     "artist_id": "honeyluv",
+     "name": "HoneyLuv",
      "billing": "support"
     },
     {
-     "artist_id": "honeyluv",
-     "name": "HoneyLuv",
+     "artist_id": "ameme",
+     "name": "AMÉMÉ",
      "billing": "support"
     }
    ],
@@ -9938,6 +9938,11 @@
      "billing": "support"
     },
     {
+     "artist_id": "aydo8",
+     "name": "AYDO8",
+     "billing": "support"
+    },
+    {
      "artist_id": "ayod8",
      "name": "AYOD8",
      "billing": "support"
@@ -9945,11 +9950,6 @@
     {
      "artist_id": "mholy",
      "name": "MHOLY",
-     "billing": "support"
-    },
-    {
-     "artist_id": "aydo8",
-     "name": "AYDO8",
      "billing": "support"
     }
    ],
@@ -10032,13 +10032,13 @@
    "end": "2026-10-03T08:00:00.000",
    "lineup": [
     {
-     "artist_id": "laure-croft",
-     "name": "Laure Croft",
+     "artist_id": "phil-berg",
+     "name": "Phil Berg",
      "billing": "headliner"
     },
     {
-     "artist_id": "phil-berg",
-     "name": "Phil Berg",
+     "artist_id": "laure-croft",
+     "name": "Laure Croft",
      "billing": "support"
     }
    ],
@@ -10059,7 +10059,7 @@
     "score": 58,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : Laure Croft (51)",
+     "tete d'affiche : Phil Berg (51)",
      "lieu : Stereo (palier 3)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -10074,13 +10074,13 @@
    "end": "2026-10-03T04:00:00.000",
    "lineup": [
     {
-     "artist_id": "dave-p",
-     "name": "Dave P",
+     "artist_id": "syd-woz",
+     "name": "Syd Woz",
      "billing": "headliner"
     },
     {
-     "artist_id": "syd-woz",
-     "name": "Syd Woz",
+     "artist_id": "dave-p",
+     "name": "Dave P",
      "billing": "support"
     },
     {
@@ -10106,7 +10106,7 @@
     "score": 11,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Dave P (8)",
+     "tete d'affiche : Syd Woz (8)",
      "lieu : Système (palier 1)"
     ]
    }
@@ -10127,7 +10127,7 @@
     {
      "artist_id": "afrojack-presents-control",
      "name": "Afrojack Presents: CONTROL",
-     "billing": "headliner"
+     "billing": "support"
     }
    ],
    "genres": [],
@@ -10241,13 +10241,13 @@
    "end": "2026-10-04T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "dj-cinema-quartier-latin",
-     "name": "DJ Cinéma Quartier Latin",
+     "artist_id": "dj-poolboi",
+     "name": "dj poolboi",
      "billing": "headliner"
     },
     {
-     "artist_id": "dj-poolboi",
-     "name": "dj poolboi",
+     "artist_id": "dj-cinema-quartier-latin",
+     "name": "DJ Cinéma Quartier Latin",
      "billing": "support"
     }
    ],
@@ -10268,7 +10268,7 @@
     "score": 48,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : DJ Cinéma Quartier Latin (50)",
+     "tete d'affiche : dj poolboi (50)",
      "lieu : Le Ritz PDB (palier 1)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -10283,18 +10283,18 @@
    "end": "2026-10-04T06:00:00.000",
    "lineup": [
     {
+     "artist_id": "talamasca",
+     "name": "TALAMASCA (FR)",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "ancient-om",
      "name": "Ancient OM",
-     "billing": "headliner"
+     "billing": "support"
     },
     {
      "artist_id": "psychedelic-babylon-dacru-records-25-years",
      "name": "Psychedelic Babylon: Dacru Records 25 Years",
-     "billing": "support"
-    },
-    {
-     "artist_id": "talamasca",
-     "name": "TALAMASCA (FR)",
      "billing": "support"
     },
     {
@@ -10320,7 +10320,7 @@
     "score": 44,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : Ancient OM (45)",
+     "tete d'affiche : TALAMASCA (FR) (45)",
      "lieu : Sainte-Catherine Hall (palier 1)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -10335,18 +10335,18 @@
    "end": "2026-10-04T08:00:00.000",
    "lineup": [
     {
+     "artist_id": "kalo",
+     "name": "Kalo",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "dmitry-molosh",
      "name": "Dmitry Molosh",
-     "billing": "headliner"
+     "billing": "support"
     },
     {
      "artist_id": "hicky",
      "name": "Hicky",
-     "billing": "support"
-    },
-    {
-     "artist_id": "kalo",
-     "name": "Kalo",
      "billing": "support"
     }
    ],
@@ -10367,7 +10367,7 @@
     "score": 44,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : Dmitry Molosh (38)",
+     "tete d'affiche : Kalo (38)",
      "lieu : Stereo (palier 3)"
     ]
    }
@@ -10381,9 +10381,14 @@
    "end": "2026-10-04T05:00:00.000",
    "lineup": [
     {
+     "artist_id": "massimiliano-pagliara",
+     "name": "Massimiliano Pagliara",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "olof-dreijer",
      "name": "Olof Dreijer",
-     "billing": "headliner"
+     "billing": "support"
     },
     {
      "artist_id": "dopplereffekt",
@@ -10396,8 +10401,8 @@
      "billing": "support"
     },
     {
-     "artist_id": "massimiliano-pagliara",
-     "name": "Massimiliano Pagliara",
+     "artist_id": "turtle-nex",
+     "name": "turtle nex",
      "billing": "support"
     },
     {
@@ -10408,11 +10413,6 @@
     {
      "artist_id": "dave-p",
      "name": "Dave P",
-     "billing": "support"
-    },
-    {
-     "artist_id": "turtle-nex",
-     "name": "turtle nex",
      "billing": "support"
     }
    ],
@@ -10433,7 +10433,7 @@
     "score": 41,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Olof Dreijer (38)",
+     "tete d'affiche : Massimiliano Pagliara (38)",
      "lieu : SAT (palier 2)"
     ]
    }
@@ -10524,9 +10524,19 @@
    "end": "2026-10-04T21:30:00.000",
    "lineup": [
     {
+     "artist_id": "asha",
+     "name": "Asha",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "eris-drew",
      "name": "Eris Drew",
-     "billing": "headliner"
+     "billing": "support"
+    },
+    {
+     "artist_id": "runa",
+     "name": "Runa",
+     "billing": "support"
     },
     {
      "artist_id": "lia-plutonic",
@@ -10539,6 +10549,16 @@
      "billing": "support"
     },
     {
+     "artist_id": "technique-nado",
+     "name": "Technique nado",
+     "billing": "support"
+    },
+    {
+     "artist_id": "sako-2",
+     "name": "Sako (2)",
+     "billing": "support"
+    },
+    {
      "artist_id": "miasalav",
      "name": "MIASALAV",
      "billing": "support"
@@ -10546,26 +10566,6 @@
     {
      "artist_id": "mui-mui",
      "name": "Mui Mui",
-     "billing": "support"
-    },
-    {
-     "artist_id": "asha",
-     "name": "Asha",
-     "billing": "support"
-    },
-    {
-     "artist_id": "technique-nado",
-     "name": "Technique nado",
-     "billing": "support"
-    },
-    {
-     "artist_id": "runa",
-     "name": "Runa",
-     "billing": "support"
-    },
-    {
-     "artist_id": "sako-2",
-     "name": "Sako (2)",
      "billing": "support"
     }
    ],
@@ -10586,7 +10586,7 @@
     "score": 49,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : Eris Drew (35)",
+     "tete d'affiche : Asha (35)",
      "lieu : Piknic Electronik (palier 3)",
      "format festival"
     ]
@@ -11220,13 +11220,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "demi-riquisimo",
-     "name": "Demi Riquisimo",
+     "artist_id": "enamor",
+     "name": "ENAMOR",
      "billing": "support"
     },
     {
-     "artist_id": "lex-ferenda",
-     "name": "Lex Ferenda",
+     "artist_id": "demi-riquisimo",
+     "name": "Demi Riquisimo",
      "billing": "support"
     },
     {
@@ -11235,8 +11235,8 @@
      "billing": "support"
     },
     {
-     "artist_id": "enamor",
-     "name": "ENAMOR",
+     "artist_id": "lex-ferenda",
+     "name": "Lex Ferenda",
      "billing": "support"
     },
     {
@@ -11400,23 +11400,23 @@
    "end": "2026-10-12T22:00:00.000",
    "lineup": [
     {
-     "artist_id": "lee-burridge",
-     "name": "Lee Burridge",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "samm",
-     "name": "Samm",
-     "billing": "support"
-    },
-    {
      "artist_id": "enamor",
      "name": "ENAMOR",
-     "billing": "support"
+     "billing": "headliner"
     },
     {
      "artist_id": "double-touch",
      "name": "Double Touch",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lee-burridge",
+     "name": "Lee Burridge",
+     "billing": "support"
+    },
+    {
+     "artist_id": "samm",
+     "name": "Samm",
      "billing": "support"
     }
    ],
@@ -11434,12 +11434,11 @@
     }
    ],
    "interest": {
-    "score": 74,
+    "score": 66,
     "tier": 2,
     "reasons": [
-     "tete d'affiche : Lee Burridge (56)",
+     "tete d'affiche : ENAMOR (56)",
      "lieu : Parc Jean-Drapeau (palier 3)",
-     "premier passage en ville depuis 12 mois",
      "format festival"
     ]
    }
@@ -11499,13 +11498,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "mezz",
-     "name": "Mezz",
+     "artist_id": "hudare",
+     "name": "Hudare",
      "billing": "support"
     },
     {
-     "artist_id": "hudare",
-     "name": "Hudare",
+     "artist_id": "mezz",
+     "name": "Mezz",
      "billing": "support"
     }
    ],
@@ -11809,7 +11808,7 @@
     {
      "artist_id": "dillstradamus",
      "name": "DILLSTRADAMUS",
-     "billing": "headliner"
+     "billing": "support"
     }
    ],
    "genres": [],
@@ -11853,13 +11852,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "dubfire",
-     "name": "Dubfire",
+     "artist_id": "sharam",
+     "name": "Sharam",
      "billing": "support"
     },
     {
-     "artist_id": "sharam",
-     "name": "Sharam",
+     "artist_id": "dubfire",
+     "name": "Dubfire",
      "billing": "support"
     }
    ],
@@ -11895,9 +11894,19 @@
    "end": "2026-10-18T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "eq-estratosfera",
-     "name": "EQ (Estratosfera",
+     "artist_id": "meat-computer",
+     "name": "meat computer",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "sa-koro",
+     "name": "Sa!koro",
+     "billing": "support"
+    },
+    {
+     "artist_id": "eq",
+     "name": "EQ",
+     "billing": "support"
     },
     {
      "artist_id": "qiri",
@@ -11905,8 +11914,8 @@
      "billing": "support"
     },
     {
-     "artist_id": "meat-computer",
-     "name": "meat computer",
+     "artist_id": "eq-estratosfera",
+     "name": "EQ (Estratosfera",
      "billing": "support"
     },
     {
@@ -11917,16 +11926,6 @@
     {
      "artist_id": "claireyy",
      "name": "Claireyy",
-     "billing": "support"
-    },
-    {
-     "artist_id": "eq",
-     "name": "EQ",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "sa-koro",
-     "name": "Sa!koro",
      "billing": "support"
     }
    ],
@@ -11953,7 +11952,7 @@
     "score": 53,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : EQ (Estratosfera (51)",
+     "tete d'affiche : meat computer (51)",
      "lieu : Foufounes Electriques (palier 1)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -12337,14 +12336,14 @@
    "end": "2026-10-24T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "whipped-cream-montreal",
-     "name": "WHIPPED CREAM - Montréal",
-     "billing": "headliner"
-    },
-    {
      "artist_id": "whipped-cream",
      "name": "Whipped Cream",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "whipped-cream-montreal",
+     "name": "WHIPPED CREAM - Montréal",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -12370,7 +12369,7 @@
     "score": 56,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : WHIPPED CREAM - Montréal (58)",
+     "tete d'affiche : Whipped Cream (58)",
      "lieu : Newspeak (palier 2)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -12432,13 +12431,13 @@
    "end": null,
    "lineup": [
     {
-     "artist_id": "back-to-the-80-s",
-     "name": "Back to the 80's",
+     "artist_id": "neon",
+     "name": "NEON",
      "billing": "headliner"
     },
     {
-     "artist_id": "neon",
-     "name": "NEON",
+     "artist_id": "back-to-the-80-s",
+     "name": "Back to the 80's",
      "billing": "support"
     }
    ],
@@ -12461,7 +12460,7 @@
     "score": 20,
     "tier": 0,
     "reasons": [
-     "tete d'affiche : Back to the 80's (21)",
+     "tete d'affiche : NEON (21)",
      "lieu : Le Balcon (palier 1)"
     ]
    }
@@ -12480,13 +12479,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "lsr",
-     "name": "LSR",
-     "billing": "headliner"
-    },
-    {
      "artist_id": "city",
      "name": "CITY",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lsr",
+     "name": "LSR",
      "billing": "support"
     }
    ],
@@ -12846,13 +12845,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "andrew-pololos",
-     "name": "Andrew Pololos",
+     "artist_id": "malena",
+     "name": "Malena",
      "billing": "support"
     },
     {
-     "artist_id": "malena",
-     "name": "Malena",
+     "artist_id": "andrew-pololos",
+     "name": "Andrew Pololos",
      "billing": "support"
     }
    ],
@@ -12975,13 +12974,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "hypho",
-     "name": "Hypho",
+     "artist_id": "wraz",
+     "name": "Wraz",
      "billing": "support"
     },
     {
-     "artist_id": "wraz",
-     "name": "Wraz",
+     "artist_id": "hypho",
+     "name": "Hypho",
      "billing": "support"
     }
    ],
@@ -13172,14 +13171,14 @@
    "end": "2026-11-06T22:00:00.000",
    "lineup": [
     {
-     "artist_id": "patch",
-     "name": "Patch",
-     "billing": "headliner"
-    },
-    {
      "artist_id": "suzy-sheer",
      "name": "Suzy Sheer",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "patch",
+     "name": "Patch",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -13205,7 +13204,7 @@
     "score": 55,
     "tier": 1,
     "reasons": [
-     "tete d'affiche : Patch (52)",
+     "tete d'affiche : Suzy Sheer (52)",
      "lieu : Newspeak (palier 2)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -13263,8 +13262,8 @@
    "end": "2026-11-08T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "tinzo",
-     "name": "Tinzo",
+     "artist_id": "jojo",
+     "name": "Jojo",
      "billing": "headliner"
     },
     {
@@ -13273,8 +13272,8 @@
      "billing": "support"
     },
     {
-     "artist_id": "jojo",
-     "name": "Jojo",
+     "artist_id": "tinzo",
+     "name": "Tinzo",
      "billing": "support"
     }
    ],
@@ -13301,7 +13300,7 @@
     "score": 74,
     "tier": 2,
     "reasons": [
-     "tete d'affiche : Tinzo (80)",
+     "tete d'affiche : Jojo (80)",
      "lieu : Studio TD (palier 2)",
      "premier passage en ville depuis 12 mois"
     ]
@@ -13396,13 +13395,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "numonia",
-     "name": "Nümonia",
+     "artist_id": "an-na",
+     "name": "AN_NA LIVE",
      "billing": "support"
     },
     {
-     "artist_id": "an-na",
-     "name": "AN_NA LIVE",
+     "artist_id": "numonia",
+     "name": "Nümonia",
      "billing": "support"
     }
    ],
@@ -13586,6 +13585,46 @@
    }
   },
   {
+   "id": "5d184e1ab07e",
+   "title": "TELETECH Présente: I Hate Models",
+   "venue_id": "hall-est-du-stade-olympique",
+   "night": "2026-11-14",
+   "start": "2026-11-14T22:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "i-hate-models",
+     "name": "I Hate Models",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic",
+    "hard techno",
+    "trance"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/teletech-presente-i-hate-models-montreal-quebec-11-14-2026/event/3100650C81BD23B0",
+   "event_url": "https://www.ticketmaster.ca/teletech-presente-i-hate-models-montreal-quebec-11-14-2026/event/3100650C81BD23B0",
+   "image": "https://s1.ticketm.net/dam/e/e33/97eea4c8-8d59-4eeb-b969-d876b23b9e33_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/teletech-presente-i-hate-models-montreal-quebec-11-14-2026/event/3100650C81BD23B0"
+    }
+   ],
+   "interest": {
+    "score": 61,
+    "tier": 2,
+    "reasons": [
+     "tete d'affiche : I Hate Models (69)",
+     "lieu : Hall Est du Stade olympique (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "3fa096e6516b",
    "title": "Parra for Cuva",
    "venue_id": "theatre-beanfield",
@@ -13662,46 +13701,6 @@
    }
   },
   {
-   "id": "5d184e1ab07e",
-   "title": "TELETECH Présente: I Hate Models",
-   "venue_id": "hall-est-du-stade-olympique",
-   "night": "2026-11-14",
-   "start": "2026-11-14T22:00:00-05:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "i-hate-models",
-     "name": "I Hate Models",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic",
-    "hard techno",
-    "trance"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/teletech-presente-i-hate-models-montreal-quebec-11-14-2026/event/3100650C81BD23B0",
-   "event_url": "https://www.ticketmaster.ca/teletech-presente-i-hate-models-montreal-quebec-11-14-2026/event/3100650C81BD23B0",
-   "image": "https://s1.ticketm.net/dam/e/e33/97eea4c8-8d59-4eeb-b969-d876b23b9e33_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/teletech-presente-i-hate-models-montreal-quebec-11-14-2026/event/3100650C81BD23B0"
-    }
-   ],
-   "interest": {
-    "score": 41,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : I Hate Models (57)",
-     "lieu : Hall Est du Stade olympique (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "efb09ce83318",
    "title": "Sassy 009",
    "venue_id": "l-escogriffe-bar-spectacle",
@@ -13749,14 +13748,9 @@
    "end": null,
    "lineup": [
     {
-     "artist_id": "bass-ship",
-     "name": "Bass Ship",
-     "billing": "headliner"
-    },
-    {
      "artist_id": "wooli",
      "name": "Wooli",
-     "billing": "support"
+     "billing": "headliner"
     },
     {
      "artist_id": "kai-wachi",
@@ -13766,6 +13760,11 @@
     {
      "artist_id": "hol",
      "name": "HOL!",
+     "billing": "support"
+    },
+    {
+     "artist_id": "bass-ship",
+     "name": "Bass Ship",
      "billing": "support"
     }
    ],
@@ -13785,11 +13784,11 @@
     }
    ],
    "interest": {
-    "score": 64,
+    "score": 76,
     "tier": 2,
     "reasons": [
-     "tete d'affiche : Bass Ship (67)",
-     "lieu : Hall Est du Stade olympique (palier 1)",
+     "tete d'affiche : Wooli (67)",
+     "lieu : Hall Est du Stade olympique (palier 3)",
      "premier passage en ville depuis 12 mois"
     ]
    }
