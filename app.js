@@ -25,6 +25,9 @@ const expandedDays = new Set();
 const LIST_COLLAPSE_AT = 3;
 const BOARD_COLLAPSE_AT = 5;
 
+/** Même seuil que le point de bascule responsive de styles.css. */
+const isNarrow = () => window.matchMedia('(max-width: 760px)').matches;
+
 // ------------------------------------------------------------------ dates
 
 /** Date locale du jour, en YYYY-MM-DD (sans passer par UTC). */
@@ -83,7 +86,7 @@ function readHash() {
   // La grille (colonnes fixes par jour) n'a pas de sens sur un ecran etroit :
   // sans preference explicite dans l'URL, la liste est un point de depart
   // bien plus lisible sur mobile.
-  else if (window.matchMedia('(max-width: 760px)').matches) state.view = 'list';
+  else if (isNarrow()) state.view = 'list';
   if (q.has('q')) state.query = q.get('q');
   if (q.has('g')) state.genres = new Set(q.get('g').split(',').filter(Boolean));
   if (q.has('l')) state.venues = new Set(q.get('l').split(',').filter(Boolean));
@@ -187,6 +190,10 @@ function eventCard(event, { withVenue = false } = {}) {
  */
 function renderGrid(events, days) {
   const board = document.getElementById('grid');
+  // Vider le tableau remet `scrollLeft` à zéro (la largeur tombe à zéro le
+  // temps du remplacement) : sans ça, déplier un jour renverrait au 13 sep.
+  const scroller = board.parentElement;
+  const scrollLeft = scroller.scrollLeft;
   board.innerHTML = '';
 
   const byNight = new Map();
@@ -202,6 +209,7 @@ function renderGrid(events, days) {
 
     const column = document.createElement('section');
     column.className = 'board-day';
+    column.dataset.night = night;
 
     const head = document.createElement('h2');
     head.className = 'board-head';
@@ -235,6 +243,38 @@ function renderGrid(events, days) {
     column.append(stack);
     board.append(column);
   }
+
+  scroller.scrollLeft = scrollLeft;
+}
+
+/** Sur mobile, une seule journée dépliée à la fois.
+ *
+ * Une colonne occupe tout l'écran : déplier un jour à dix soirées crée une
+ * longue colonne verticale, et en glissant vers la date suivante on hérite de
+ * ce défilement pour rien. Passer à un autre jour replie donc le précédent.
+ * Sans effet sur desktop, où les colonnes sont côte à côte.
+ */
+function watchBoardScroll() {
+  const scroller = document.querySelector('.scroller');
+  let timer;
+  scroller.addEventListener('scroll', () => {
+    if (!isNarrow() || !expandedDays.size) return;
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      const columns = [...scroller.querySelectorAll('.board-day')];
+      if (!columns.length) return;
+      const left = scroller.getBoundingClientRect().left;
+      const visible = columns
+        .reduce((a, b) => (Math.abs(b.getBoundingClientRect().left - left) <
+                           Math.abs(a.getBoundingClientRect().left - left) ? b : a))
+        .dataset.night;
+
+      const trop = [...expandedDays].filter((night) => night !== visible);
+      if (!trop.length) return;
+      trop.forEach((night) => expandedDays.delete(night));
+      render();
+    }, 150);
+  });
 }
 
 function renderList(events, days) {
@@ -416,6 +456,8 @@ function wireControls() {
     moreToggle.setAttribute('aria-expanded', String(!more.hidden));
     moreToggle.textContent = more.hidden ? 'Plus de filtres' : 'Masquer les filtres';
   });
+
+  watchBoardScroll();
 
   // Ferme les menus déroulants au clic extérieur.
   document.addEventListener('click', (ev) => {
