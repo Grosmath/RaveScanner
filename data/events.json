@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-13T04:18:41Z",
+ "generated_at": "2026-09-13T04:33:22Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
   "start": "2026-09-13",
-  "end": "2026-11-12"
+  "end": "2026-12-12"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 176
+   "events": 183
   },
   {
    "id": "piknic",
@@ -34,25 +34,27 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 33
+   "events": 41
   }
  ],
  "venue_order": [
   "piknic-electronik",
   "new-city-gas",
   "mtelus",
+  "place-bell",
   "studio-td",
   "stereo",
   "newspeak",
   "stereo-bar",
   "bar-datcha",
   "theatre-fairmount",
+  "le-ritz",
   "parc-jean-drapeau",
   "centre-bell",
-  "le-ritz",
+  "theatre-beanfield",
   "sat",
   "warehouse",
-  "theatre-beanfield",
+  "hall-est-du-stade-olympique",
   "blue-room",
   "le-red-room",
   "grand-quai",
@@ -64,6 +66,7 @@
   "salon-daome",
   "sms-514-613-5811-for-location",
   "red-roof-church",
+  "l-escogriffe-bar-spectacle",
   "systeme",
   "esc",
   "sans-soleil",
@@ -220,6 +223,26 @@
   {
    "id": "grand-quai",
    "name": "Grand Quai",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "hall-est-du-stade-olympique",
+   "name": "Hall Est du Stade olympique",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "l-escogriffe-bar-spectacle",
+   "name": "l'Escogriffe Bar Spectacle",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -402,6 +425,19 @@
     "house",
     "techno",
     "electronic"
+   ]
+  },
+  {
+   "id": "place-bell",
+   "name": "Place Bell",
+   "type": "arena",
+   "tier": 3,
+   "capacity": 10000,
+   "address": "1950 Rue Claude-Gagne, Laval",
+   "url": "https://placebell.ca",
+   "genres": [
+    "edm",
+    "mainstream"
    ]
   },
   {
@@ -1062,6 +1098,16 @@
    "known": false
   },
   {
+   "id": "baby-jane",
+   "name": "Baby Jane",
+   "tier": 0,
+   "score": 65,
+   "popularity": 65,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786843aecdbd0e14a27db3b8c3",
+   "known": false
+  },
+  {
    "id": "back-to-the-80-s",
    "name": "Back to the 80's",
    "tier": 0,
@@ -1109,6 +1155,16 @@
    "popularity": 64,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17828f774985a41cfa890cb987f",
+   "known": false
+  },
+  {
+   "id": "bass-ship",
+   "name": "Bass Ship",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1212,6 +1268,16 @@
    "known": false
   },
   {
+   "id": "bonobo",
+   "name": "Bonobo",
+   "tier": 0,
+   "score": 77,
+   "popularity": 77,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c66e2d7422967d6f6f5ab905",
+   "known": false
+  },
+  {
    "id": "boomy",
    "name": "Boomy",
    "tier": 0,
@@ -1309,6 +1375,16 @@
    "popularity": 43,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785e6b136b9c352587b574a7bb",
+   "known": false
+  },
+  {
+   "id": "cannelle-montreal",
+   "name": "Cannelle - Montréal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1842,6 +1918,16 @@
    "known": false
   },
   {
+   "id": "dj-snake",
+   "name": "DJ Snake",
+   "tier": 0,
+   "score": 100,
+   "popularity": 100,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178175df1a8848d8ff67c6d5600",
+   "known": false
+  },
+  {
    "id": "dmitry-molosh",
    "name": "Dmitry Molosh",
    "tier": 0,
@@ -1859,6 +1945,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a4f55443eaac3774929eba95",
+   "known": false
+  },
+  {
+   "id": "donny-benet",
+   "name": "Donny Benét",
+   "tier": 0,
+   "score": 43,
+   "popularity": 43,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1780809bc2d0bc48c268a3b4309",
    "known": false
   },
   {
@@ -2442,6 +2538,16 @@
    "known": false
   },
   {
+   "id": "hol",
+   "name": "HOL!",
+   "tier": 0,
+   "score": 55,
+   "popularity": 55,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784fae95b3a1b70a0f7fc21cc8",
+   "known": false
+  },
+  {
    "id": "honeyluv",
    "name": "HoneyLuv",
    "tier": 0,
@@ -2492,6 +2598,19 @@
    "known": false
   },
   {
+   "id": "i-hate-models",
+   "name": "I Hate Models",
+   "tier": 3,
+   "score": 57,
+   "popularity": 59,
+   "genres": [
+    "hard techno",
+    "trance"
+   ],
+   "image": "https://i.scdn.co/image/ab6761610000f1781a0d54ab853f86eba713585b",
+   "known": true
+  },
+  {
    "id": "ignez",
    "name": "Ignez",
    "tier": 0,
@@ -2539,6 +2658,16 @@
    "popularity": 34,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f104ca1c753162bfd00cd423",
+   "known": false
+  },
+  {
+   "id": "it-s-murph",
+   "name": "IT'S MURPH",
+   "tier": 0,
+   "score": 75,
+   "popularity": 75,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17844f42433d8924aa0c9ff0878",
    "known": false
   },
   {
@@ -2662,6 +2791,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1781d342c022a2956301a5613bb",
+   "known": false
+  },
+  {
+   "id": "kai-wachi",
+   "name": "Kai Wachi",
+   "tier": 0,
+   "score": 62,
+   "popularity": 62,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c076ccfcd7a8b262f59e6425",
    "known": false
   },
   {
@@ -2898,6 +3037,16 @@
    "known": false
   },
   {
+   "id": "layton-giordani",
+   "name": "Layton Giordani",
+   "tier": 0,
+   "score": 72,
+   "popularity": 72,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781c4a89caa76ae4f1d3232f61",
+   "known": false
+  },
+  {
    "id": "lee-burridge",
    "name": "Lee Burridge",
    "tier": 0,
@@ -2915,6 +3064,16 @@
    "popularity": 63,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1787170e60db0f20ec84ea431fb",
+   "known": false
+  },
+  {
+   "id": "les-francos-de-montreal",
+   "name": "Les Francos De Montréal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3437,6 +3596,16 @@
    "known": false
   },
   {
+   "id": "nils-hoffmann",
+   "name": "Nils Hoffmann",
+   "tier": 0,
+   "score": 72,
+   "popularity": 72,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781e817c0a229f4f34cc8b8bc0",
+   "known": false
+  },
+  {
    "id": "nina-kraviz",
    "name": "Nina Kraviz",
    "tier": 4,
@@ -3539,6 +3708,16 @@
    "known": false
   },
   {
+   "id": "otnes",
+   "name": "OTNES",
+   "tier": 0,
+   "score": 20,
+   "popularity": 20,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c576f4046a19199a6fe470c5",
+   "known": false
+  },
+  {
    "id": "outback",
    "name": "Outback",
    "tier": 0,
@@ -3546,6 +3725,16 @@
    "popularity": 3,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f11901f811d7217c9f2fe45e",
+   "known": false
+  },
+  {
+   "id": "parra-for-cuva",
+   "name": "Parra for Cuva",
+   "tier": 0,
+   "score": 75,
+   "popularity": 75,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785d29ef2a3bb075d68947aa74",
    "known": false
   },
   {
@@ -3576,6 +3765,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "perceval",
+   "name": "Perceval",
+   "tier": 0,
+   "score": 56,
+   "popularity": 56,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d0e10249940f262734406c0f",
    "known": false
   },
   {
@@ -3832,6 +4031,16 @@
    "known": false
   },
   {
+   "id": "riot-ten-montreal",
+   "name": "Riot Ten - Montréal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "rodriguez-jr",
    "name": "Rodriguez Jr.",
    "tier": 0,
@@ -3979,6 +4188,16 @@
    "popularity": 80,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e2e32c596ba234e5125c0107",
+   "known": false
+  },
+  {
+   "id": "sassy-009",
+   "name": "Sassy 009",
+   "tier": 0,
+   "score": 50,
+   "popularity": 50,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788c1dfa08139e245b0dd3e496",
    "known": false
   },
   {
@@ -4345,6 +4564,16 @@
    "known": false
   },
   {
+   "id": "tommy-fleece-montreal",
+   "name": "Tommy Fleece - Montréal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "trance-sunset-vol-iii",
    "name": "Trance Sunset Vol. III",
    "tier": 0,
@@ -4535,6 +4764,16 @@
    "known": false
   },
   {
+   "id": "wooli",
+   "name": "Wooli",
+   "tier": 0,
+   "score": 67,
+   "popularity": 67,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178806d12e80046abfbcd89db44",
+   "known": false
+  },
+  {
    "id": "wraz",
    "name": "Wraz",
    "tier": 0,
@@ -4542,6 +4781,16 @@
    "popularity": 41,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c768acaca81b32f2fcf77637",
+   "known": false
+  },
+  {
+   "id": "yaego",
+   "name": "yaego",
+   "tier": 0,
+   "score": 61,
+   "popularity": 61,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a04c1b4a64b011cd8e2d201c",
    "known": false
   },
   {
@@ -13215,6 +13464,620 @@
     "reasons": [
      "tete d'affiche : Nia Archives (68)",
      "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "ffced75f54a9",
+   "title": "Donny Benét",
+   "venue_id": "theatre-beanfield",
+   "night": "2026-11-12",
+   "start": "2026-11-12T20:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "donny-benet",
+     "name": "Donny Benét",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "otnes",
+     "name": "OTNES",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/donny-benet-montreal-quebec-11-12-2026/event/31006489A6215C26",
+   "event_url": "https://www.ticketmaster.ca/donny-benet-montreal-quebec-11-12-2026/event/31006489A6215C26",
+   "image": "https://s1.ticketm.net/dam/a/001/fbd3d402-1ad0-423f-95f0-1f5b6b485001_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/donny-benet-montreal-quebec-11-12-2026/event/31006489A6215C26"
+    }
+   ],
+   "interest": {
+    "score": 34,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Donny Benét (43)",
+     "lieu : Théâtre Beanfield (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "8a5402c9c4b9",
+   "title": "DJ Snake",
+   "venue_id": "place-bell",
+   "night": "2026-11-13",
+   "start": "2026-11-13T19:30:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "dj-snake",
+     "name": "DJ Snake",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/dj-snake-laval-quebec-11-13-2026/event/310064A7BA8BB54F",
+   "event_url": "https://www.ticketmaster.ca/dj-snake-laval-quebec-11-13-2026/event/310064A7BA8BB54F",
+   "image": "https://s1.ticketm.net/dam/a/eac/38761f41-a1e0-43b1-a937-0f8f4d5e3eac_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/dj-snake-laval-quebec-11-13-2026/event/310064A7BA8BB54F"
+    }
+   ],
+   "interest": {
+    "score": 88,
+    "tier": 3,
+    "reasons": [
+     "tete d'affiche : DJ Snake (100)",
+     "lieu : Place Bell (palier 3)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "9399b885665b",
+   "title": "Cannelle - Montréal",
+   "venue_id": "theatre-fairmount",
+   "night": "2026-11-13",
+   "start": "2026-11-13T19:00:00.000",
+   "end": "2026-11-13T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "cannelle-montreal",
+     "name": "Cannelle - Montréal",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2522976",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2522976"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Cannelle - Montréal (8)",
+     "lieu : Theatre Fairmount (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "3fa096e6516b",
+   "title": "Parra for Cuva",
+   "venue_id": "theatre-beanfield",
+   "night": "2026-11-14",
+   "start": "2026-11-14T20:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "parra-for-cuva",
+     "name": "Parra for Cuva",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/parra-for-cuva-montreal-quebec-11-14-2026/event/31006481A663693D",
+   "event_url": "https://www.ticketmaster.ca/parra-for-cuva-montreal-quebec-11-14-2026/event/31006481A663693D",
+   "image": "https://s1.ticketm.net/dam/a/ec0/3427fd7a-2f09-40dc-88d3-447b342ecec0_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/parra-for-cuva-montreal-quebec-11-14-2026/event/31006481A663693D"
+    }
+   ],
+   "interest": {
+    "score": 60,
+    "tier": 2,
+    "reasons": [
+     "tete d'affiche : Parra for Cuva (75)",
+     "lieu : Théâtre Beanfield (palier 1)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "d737ca5e50f7",
+   "title": "yaego - Montréal",
+   "venue_id": "newspeak",
+   "night": "2026-11-14",
+   "start": "2026-11-14T22:00:00.000",
+   "end": "2026-11-15T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "yaego",
+     "name": "yaego",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2504352",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2504352"
+    }
+   ],
+   "interest": {
+    "score": 58,
+    "tier": 1,
+    "reasons": [
+     "tete d'affiche : yaego (61)",
+     "lieu : Newspeak (palier 2)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "5d184e1ab07e",
+   "title": "TELETECH Présente: I Hate Models",
+   "venue_id": "hall-est-du-stade-olympique",
+   "night": "2026-11-14",
+   "start": "2026-11-14T22:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "i-hate-models",
+     "name": "I Hate Models",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic",
+    "hard techno",
+    "trance"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/teletech-presente-i-hate-models-montreal-quebec-11-14-2026/event/3100650C81BD23B0",
+   "event_url": "https://www.ticketmaster.ca/teletech-presente-i-hate-models-montreal-quebec-11-14-2026/event/3100650C81BD23B0",
+   "image": "https://s1.ticketm.net/dam/e/e33/97eea4c8-8d59-4eeb-b969-d876b23b9e33_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/teletech-presente-i-hate-models-montreal-quebec-11-14-2026/event/3100650C81BD23B0"
+    }
+   ],
+   "interest": {
+    "score": 41,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : I Hate Models (57)",
+     "lieu : Hall Est du Stade olympique (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "efb09ce83318",
+   "title": "Sassy 009",
+   "venue_id": "l-escogriffe-bar-spectacle",
+   "night": "2026-11-17",
+   "start": "2026-11-17T20:30:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "sassy-009",
+     "name": "Sassy 009",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/sassy-009-montreal-quebec-11-17-2026/event/310064C1E7D5AF50",
+   "event_url": "https://www.ticketmaster.ca/sassy-009-montreal-quebec-11-17-2026/event/310064C1E7D5AF50",
+   "image": "https://s1.ticketm.net/dam/a/97e/1fd95e4a-2a6e-4041-bf42-74565278297e_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/sassy-009-montreal-quebec-11-17-2026/event/310064C1E7D5AF50"
+    }
+   ],
+   "interest": {
+    "score": 45,
+    "tier": 1,
+    "reasons": [
+     "tete d'affiche : Sassy 009 (50)",
+     "lieu : l'Escogriffe Bar Spectacle (palier 1)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "2dbdbd320425",
+   "title": "BASS SHIP Présente: Wooli, Kai Wachi, Hol!, Masquerade et PLUS!",
+   "venue_id": "hall-est-du-stade-olympique",
+   "night": "2026-11-20",
+   "start": "2026-11-20T20:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "bass-ship",
+     "name": "Bass Ship",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "wooli",
+     "name": "Wooli",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kai-wachi",
+     "name": "Kai Wachi",
+     "billing": "support"
+    },
+    {
+     "artist_id": "hol",
+     "name": "HOL!",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/bass-ship-presente-wooli-kai-wachi-montreal-quebec-11-20-2026/event/31006524C86B76E6",
+   "event_url": "https://www.ticketmaster.ca/bass-ship-presente-wooli-kai-wachi-montreal-quebec-11-20-2026/event/31006524C86B76E6",
+   "image": "https://s1.ticketm.net/dam/e/e6d/c4d53a24-d74f-452c-8107-ebb318d46e6d_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/bass-ship-presente-wooli-kai-wachi-montreal-quebec-11-20-2026/event/31006524C86B76E6"
+    }
+   ],
+   "interest": {
+    "score": 64,
+    "tier": 2,
+    "reasons": [
+     "tete d'affiche : Bass Ship (67)",
+     "lieu : Hall Est du Stade olympique (palier 1)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "e499ebd08ee8",
+   "title": "Tommy Fleece - Montréal",
+   "venue_id": "le-ritz",
+   "night": "2026-11-20",
+   "start": "2026-11-20T19:00:00.000",
+   "end": "2026-11-20T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "tommy-fleece-montreal",
+     "name": "Tommy Fleece - Montréal",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2529638",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2529638"
+    }
+   ],
+   "interest": {
+    "score": 11,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Tommy Fleece - Montréal (8)",
+     "lieu : Le Ritz PDB (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "a5280a7cf32f",
+   "title": "IT'S MURPH",
+   "venue_id": "new-city-gas",
+   "night": "2026-11-21",
+   "start": "2026-11-21T22:00:00.000",
+   "end": "2026-11-22T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "it-s-murph",
+     "name": "IT'S MURPH",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "nils-hoffmann",
+     "name": "Nils Hoffmann",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://newcitygas.com/event/its-murph-nils-hoffmann-201764/",
+   "event_url": "https://ra.co/events/2517861",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2517861"
+    },
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/its-murph-nils-hoffmann-201764/"
+    }
+   ],
+   "interest": {
+    "score": 77,
+    "tier": 2,
+    "reasons": [
+     "tete d'affiche : IT'S MURPH (75)",
+     "lieu : New City Gas (palier 3)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "ef5498324dd1",
+   "title": "Perceval",
+   "venue_id": "mtelus",
+   "night": "2026-11-21",
+   "start": "2026-11-21T20:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "perceval",
+     "name": "Perceval",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "les-francos-de-montreal",
+     "name": "Les Francos De Montréal",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/event/310064E2A3DA4365?lang=fr-ca&brand=mtelus",
+   "event_url": "https://evenko.ca/fr/evenements/mtelus/perceval?code=e008720",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/5fCRdw2bNcy91TXKd1Q02V/0c57a6a25b2303bc6dd00f0623b32f94/perceval_2026.jpg",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "mtelus",
+     "url": "https://evenko.ca/fr/evenements/mtelus/perceval?code=e008720"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/perceval-montreal-quebec-11-21-2026/event/310064E2A3DA4365"
+    }
+   ],
+   "interest": {
+    "score": 49,
+    "tier": 1,
+    "reasons": [
+     "tete d'affiche : Perceval (56)",
+     "lieu : MTELUS (palier 1)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "7a317ba02a0e",
+   "title": "Bonobo",
+   "venue_id": "mtelus",
+   "night": "2026-11-27",
+   "start": "2026-11-27T20:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "bonobo",
+     "name": "Bonobo",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/event/310064C38979357F?lang=fr-ca&brand=mtelus",
+   "event_url": "https://evenko.ca/fr/evenements/mtelus/bonobo?code=e008607",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/7bq4z4ViVLkLCLyb6s2kh5/08d3b98763833c147aed0df566907f84/Bonobo.png",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "mtelus",
+     "url": "https://evenko.ca/fr/evenements/mtelus/bonobo?code=e008607"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/bonobo-distance-in-static-live-north-montreal-quebec-11-27-2026/event/310064C38979357F"
+    }
+   ],
+   "interest": {
+    "score": 62,
+    "tier": 2,
+    "reasons": [
+     "tete d'affiche : Bonobo (77)",
+     "lieu : MTELUS (palier 1)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "fcc81dbf6c8c",
+   "title": "[DSTRKT] Layton Giordani",
+   "venue_id": "new-city-gas",
+   "night": "2026-11-28",
+   "start": "2026-11-28T22:00:00.000",
+   "end": "2026-11-29T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "layton-giordani",
+     "name": "Layton Giordani",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://newcitygas.com/event/layton-giordani-202728/",
+   "event_url": "https://ra.co/events/2517862",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2517862"
+    },
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/layton-giordani-202728/"
+    }
+   ],
+   "interest": {
+    "score": 71,
+    "tier": 2,
+    "reasons": [
+     "tete d'affiche : Layton Giordani (72)",
+     "lieu : New City Gas (palier 3)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "cdf5e908be82",
+   "title": "Baby Jane - Montréal",
+   "venue_id": "theatre-fairmount",
+   "night": "2026-12-02",
+   "start": "2026-12-02T19:00:00.000",
+   "end": "2026-12-02T22:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "baby-jane",
+     "name": "Baby Jane",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2529853",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2529853"
+    }
+   ],
+   "interest": {
+    "score": 60,
+    "tier": 2,
+    "reasons": [
+     "tete d'affiche : Baby Jane (65)",
+     "lieu : Theatre Fairmount (palier 2)",
+     "premier passage en ville depuis 12 mois"
+    ]
+   }
+  },
+  {
+   "id": "4acba631177a",
+   "title": "Riot Ten - Montréal",
+   "venue_id": "newspeak",
+   "night": "2026-12-05",
+   "start": "2026-12-05T22:00:00.000",
+   "end": "2026-12-06T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "riot-ten-montreal",
+     "name": "Riot Ten - Montréal",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2533826",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2533826"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : Riot Ten - Montréal (8)",
+     "lieu : Newspeak (palier 2)"
     ]
    }
   }

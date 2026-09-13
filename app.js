@@ -301,9 +301,16 @@ function renderList(events, days) {
 }
 
 function render() {
-  const days = visibleDays();
-  const allowed = new Set(days.map(isoOf));
+  const windowDays = visibleDays();
+  const allowed = new Set(windowDays.map(isoOf));
   const events = store.data.events.filter((e) => allowed.has(e.night) && matches(e));
+
+  // Une colonne vide sur une grille de 90 jours ne dit rien et coûte toute sa
+  // largeur : seuls les jours qui portent au moins une soirée sont affichés.
+  // La suite de dates devient discontinue, d'où l'en-tête complet (jour +
+  // numéro + mois) sur chaque colonne.
+  const nights = new Set(events.map((e) => e.night));
+  const days = windowDays.filter((d) => nights.has(isoOf(d)));
 
   document.getElementById('stat-events').textContent = events.length;
   document.getElementById('stat-venues').textContent = new Set(events.map((e) => e.venue_id)).size;

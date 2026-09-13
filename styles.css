@@ -622,7 +622,27 @@ main {
   .drop-panel label { padding: 0.55rem 0.4rem; font-size: 0.78rem; }
 
   main { display: block; }
-  .scroller, .agenda { overflow: visible; }
+  .agenda { overflow: visible; }
+
+  /* Grille : une journée par écran, rail des lieux réduit à l'essentiel.
+     `overflow-x: auto` est indispensable — sans conteneur de défilement
+     propre, la grille débordait du body et c'était la page entière qui
+     partait en travers, en-tête et bandeau de filtres compris. Le
+     scroll-snap fait avancer d'un jour par geste, et `scroll-padding-left`
+     décale le point d'arrêt de la largeur du rail, qui reste collé. */
+  :root { --venue-col: 92px; --day-col: calc(100vw - 92px); }
+  .scroller {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: var(--venue-col);
+  }
+  .gc--day { scroll-snap-align: start; }
+  .gc { padding: 5px; min-height: 60px; }
+  .gc--corner, .gc--day { padding: 8px; }
+  .venue-name { font-size: 0.74rem; }
+  .venue-meta { display: none; }
+
   .agenda { padding: 0 0.9rem 2rem; }
   .agenda-day { position: static; padding: 1rem 0 0.4rem; }
 
@@ -640,12 +660,6 @@ main {
   .ev-title { font-size: 0.92rem; }
   .ev-lineup { font-size: 0.72rem; line-height: 1.5; }
   .ev-top, .ev-foot { font-size: 0.65rem; }
-
-  /* La grille (colonnes fixes par jour) reste utilisable au doigt en
-     scrollant horizontalement, mais n'est plus la vue par defaut (app.js) :
-     une seule colonne de jour a la fois n'a de sens qu'en consultation
-     ponctuelle, pas pour comparer les soirees. */
-  .gc { min-height: 64px; }
 
   .legend { position: static; padding: 0.75rem 0.9rem; gap: 0.75rem 1rem; }
   .legend-scale { gap: 0.6rem 0.9rem; }
