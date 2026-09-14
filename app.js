@@ -1,4 +1,4 @@
-/* Rave Scanner — rendu du planning. Zéro dépendance : le site doit rester
+/* ENCORE — rendu du planning. Zéro dépendance : le site doit rester
    servable tel quel par GitHub Pages, sans étape de build. */
 
 const DATA_URL = './data/events.json';
@@ -490,7 +490,7 @@ async function boot() {
   } catch (err) {
     fail(
       `Impossible de charger ${DATA_URL} (${err.message}). ` +
-      `Lance « python -m ravescanner scan » puis sers le dossier avec un serveur HTTP ` +
+      `Lance « python -m reload scan » puis sers le dossier avec un serveur HTTP ` +
       `— l'ouverture directe du fichier (file://) est bloquée par le navigateur.`,
     );
     return;
