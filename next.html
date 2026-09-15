@@ -15,8 +15,7 @@
 
 <!-- Barre unique et collante. Elle porte la marque, la navigation entre les
      deux sections, et la recherche - qui deviendra l'entree vers les fiches
-     artistes. Les compteurs de l'ancienne page ont disparu : savoir qu'il y a
-     207 soirees n'aide personne a choisir sa soiree. -->
+     artistes. -->
 <header class="top">
   <a class="brand" href="#planning">ENCO<em>RE</em></a>
 
@@ -49,11 +48,13 @@
           <button type="button" data-days="90">3 mois</button>
         </div>
 
-        <div class="seg" role="group" aria-label="Niveau minimum">
+        <!-- Plus d'etoiles : elles se lisaient comme une note donnee aux
+             artistes. Le code couleur reste, et ces boutons empruntent le
+             vocabulaire du carrousel plutot qu'une echelle. -->
+        <div class="seg" role="group" aria-label="Mise en avant">
           <button type="button" data-tier="0" class="is-active">Tout</button>
-          <button type="button" data-tier="1">★</button>
-          <button type="button" data-tier="2">★★</button>
-          <button type="button" data-tier="3">★★★</button>
+          <button type="button" data-tier="2">À retenir</button>
+          <button type="button" data-tier="3">À ne pas rater</button>
         </div>
 
         <div class="seg" role="group" aria-label="Affichage">
@@ -70,13 +71,13 @@
     </div>
   </section>
 
-  <section class="panel panel--rail" id="spotlight">
-    <div class="panel-head">
-      <div>
-        <h2>À ne pas rater</h2>
-        <p class="sub">Le haut du panier des 30 prochains jours</p>
-      </div>
-      <p class="hint">Les mêmes cartes que sur Instagram &nbsp;→</p>
+  <!-- Le rail n'est pas dans un panneau : les cartes et leur titre posent
+       directement sur le fond de la page. Une boite dans une boite dans une
+       boite, ca fait empile, pas moderne. -->
+  <section class="rail-section" id="spotlight">
+    <div class="rail-head">
+      <h2>À ne pas rater</h2>
+      <p class="sub">Le haut du panier des 30 prochains jours</p>
     </div>
     <div class="rail" id="rail"></div>
   </section>

@@ -111,18 +111,15 @@ function matches(ev) {
 
 /* --------------------------------------------------------------- planning */
 
-function stars(tier) { return tier > 0 ? '★'.repeat(tier) : ''; }
-
 function eventButton(ev, { withDay = false } = {}) {
   const venue = store.venues.get(ev.venue_id);
   const head = ev.lineup?.[0]?.name || ev.title;
   const tier = ev.interest.tier;
+  // Pas d'etoiles : elles se lisaient comme une note donnee a l'artiste. La
+  // mise en avant passe entierement par la couleur de la carte.
   return `
     <button type="button" class="ev ev--t${tier}" data-event="${esc(ev.id)}">
-      <span class="ev-top">
-        <span class="ev-name">${esc(head)}</span>
-        <span class="ev-stars">${stars(tier)}</span>
-      </span>
+      <span class="ev-top"><span class="ev-name">${esc(head)}</span></span>
       <span class="ev-venue">${esc(venue ? venue.name : '')}</span>
       <span class="ev-time">${withDay ? esc(dayLabel(ev.night)) + ' · ' : ''}${esc(timeRange(ev))}</span>
     </button>`;
@@ -170,8 +167,8 @@ function renderPlanning() {
   }
   for (const list of byDay.values()) list.sort((a, b) => b.interest.score - a.interest.score);
 
-  // Les jours vides ne sont pas affiches : sur trois mois et un filtre ★★★,
-  // la vue tombe de 90 colonnes a une douzaine.
+  // Les jours vides ne sont pas affiches : sur trois mois et le filtre le plus
+  // serre, la vue tombe de 90 colonnes a une douzaine.
   const days = windowDays().filter((iso) => byDay.has(iso));
 
   const board = state.view === 'board';
@@ -191,7 +188,7 @@ function renderPlanning() {
 function renderRail() {
   const rail = $('#rail');
   const cards = store.data.spotlight || [];
-  if (!cards.length) { rail.closest('.panel').hidden = true; return; }
+  if (!cards.length) { rail.closest('.rail-section').hidden = true; return; }
 
   const { W, H, draw, loadPhoto } = window.ENCORE_CARDS;
 
@@ -213,6 +210,22 @@ function renderRail() {
     draw(canvas, card, null, []);
     loadPhoto(card.photo).then((img) => { if (img) draw(canvas, card, img, []); });
   });
+
+  fadeRail();
+  rail.addEventListener('scroll', fadeRail, { passive: true });
+  window.addEventListener('resize', fadeRail);
+}
+
+/* Les cartes se fondent dans le fond la ou il reste quelque chose a atteindre,
+   et pas la ou on est arrive : au debut du rail, rien ne doit s'effacer a
+   gauche, sinon le fondu ment sur ce qui existe. */
+function fadeRail() {
+  const rail = $('#rail');
+  const max = rail.scrollWidth - rail.clientWidth;
+  const left = rail.scrollLeft;
+  const FADE = 64;
+  rail.style.setProperty('--fade-l', `${Math.min(left, FADE)}px`);
+  rail.style.setProperty('--fade-r', `${Math.min(Math.max(max - left, 0), FADE)}px`);
 }
 
 /* ------------------------------------------------------------------ fiche */
@@ -227,11 +240,11 @@ function openSheet(id) {
   const money = ev.price_min != null ? `dès ${ev.price_min} ${ev.currency || ''}`.trim() : '';
   const statut = { sold_out: 'Complet', cancelled: 'Annulé', postponed: 'Reporté' }[ev.status] || '';
 
+  // Le score de l'artiste n'est pas affiche : il sert a classer, pas a noter.
   const lineup = (ev.lineup || []).map((slot, i) => {
     const a = store.artists.get(slot.artist_id);
     const img = a?.image ? `<img src="${esc(a.image)}" alt="" loading="lazy">` : '<img alt="">';
-    const score = a?.score ? `<span class="sc">${a.score}</span>` : '';
-    return `<li>${img}<span class="who${i === 0 ? ' head' : ''}">${esc(slot.name)}</span>${score}</li>`;
+    return `<li>${img}<span class="who${i === 0 ? ' head' : ''}">${esc(slot.name)}</span></li>`;
   }).join('');
 
   const links = [
@@ -241,17 +254,12 @@ function openSheet(id) {
   ].filter(Boolean).join('');
 
   $('#sheet-body').innerHTML = `
-    <p class="sheet-day">${esc(dayLabel(ev.night))} ${stars(ev.interest.tier)}</p>
+    <p class="sheet-day">${esc(dayLabel(ev.night))}</p>
     <h3>${esc(ev.lineup?.[0]?.name || ev.title)}</h3>
     <p class="sheet-venue">${esc(venue ? venue.name : '')}</p>
     <p class="sheet-meta">${esc([timeRange(ev), venue?.address, money, statut].filter(Boolean).join(' · '))}</p>
 
     ${lineup ? `<section><h4>Le plateau</h4><ul class="lineup">${lineup}</ul></section>` : ''}
-
-    <section>
-      <h4>Pourquoi c'est classé là — ${ev.interest.score}/100</h4>
-      <ul class="why">${(ev.interest.reasons || []).map((r) => `<li>${esc(r)}</li>`).join('')}</ul>
-    </section>
 
     ${links ? `<section><h4>Y aller</h4><div class="links">${links}</div></section>` : ''}
 

@@ -219,21 +219,14 @@ function drawEvent(ctx, card, img) {
 
   masthead(ctx, !hasPhoto);
 
-  // Ligne de date : date a gauche, etoiles calees a droite.
-  let starW = 0;
-  if (card.tier > 0) {
-    ctx.font = sans(42, 700);
-    ctx.fillStyle = card.tier >= 3 ? C.hot : C.accent;
-    const stars = '\u2605'.repeat(card.tier);
-    starW = ctx.measureText(stars).width + 40;
-    ctx.textAlign = 'right';
-    ctx.fillText(stars, W - PAD, dayY);
-    ctx.textAlign = 'left';
-  }
+  // Plus d'etoiles sur la carte : elles se lisaient comme une note donnee a
+  // l'artiste, alors qu'elles ne disaient que sa place dans un classement. Une
+  // carte du carrousel est deja une selection - y ajouter un bareme la
+  // transforme en jugement.
   ctx.font = mono(46, 700);
   track(ctx, 4);
   ctx.fillStyle = C.accent;
-  ctx.fillText(wrap(ctx, card.day, maxW - starW, 1)[0] || '', PAD, dayY);
+  ctx.fillText(wrap(ctx, card.day, maxW, 1)[0] || '', PAD, dayY);
   track(ctx, 0);
 
   ctx.font = sans(nameSize, 700);
