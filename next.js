@@ -259,7 +259,7 @@ function openSheet(id) {
     <p class="sheet-venue">${esc(venue ? venue.name : '')}</p>
     <p class="sheet-meta">${esc([timeRange(ev), venue?.address, money, statut].filter(Boolean).join(' · '))}</p>
 
-    ${lineup ? `<section><h4>Le plateau</h4><ul class="lineup">${lineup}</ul></section>` : ''}
+    ${lineup ? `<section><h4>Line up</h4><ul class="lineup">${lineup}</ul></section>` : ''}
 
     ${links ? `<section><h4>Y aller</h4><div class="links">${links}</div></section>` : ''}
 
