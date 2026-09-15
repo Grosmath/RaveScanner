@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-14T23:48:32Z",
+ "generated_at": "2026-09-15T14:12:33Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-09-14",
-  "end": "2026-12-13"
+  "start": "2026-09-15",
+  "end": "2026-12-14"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 192
+   "events": 193
   },
   {
    "id": "piknic",
@@ -46,8 +46,8 @@
   "newspeak",
   "stereo-bar",
   "studio-td",
-  "bar-datcha",
   "stereo",
+  "bar-datcha",
   "sat",
   "le-ritz",
   "theatre-fairmount",
@@ -73,8 +73,8 @@
   "l-escogriffe-bar-spectacle",
   "la-recre",
   "barbossa",
-  "sans-soleil",
   "le-balcon",
+  "sans-soleil",
   "salon-badin",
   "bain-mathieu",
   "la-sotterenea",
@@ -82,8 +82,8 @@
   "ausgang-plaza",
   "club-soda",
   "tba-outdoors",
-  "sala-rossa-la",
   "le-ministere",
+  "sala-rossa-la",
   "p-tit-ours",
   "van-horne-skatepark",
   "clebard",
@@ -1751,6 +1751,16 @@
    "known": false
   },
   {
+   "id": "david-morales",
+   "name": "David Morales",
+   "tier": 0,
+   "score": 69,
+   "popularity": 69,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17895985c17f4964a0417da944b",
+   "known": false
+  },
+  {
    "id": "dea",
    "name": "Déa",
    "tier": 0,
@@ -2877,6 +2887,16 @@
    "known": false
   },
   {
+   "id": "king-shiloh",
+   "name": "King Shiloh",
+   "tier": 0,
+   "score": 8,
+   "popularity": 8,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178945a34626cfd4c3c3b37182a",
+   "known": false
+  },
+  {
    "id": "kiviv",
    "name": "Kiviv",
    "tier": 0,
@@ -3863,16 +3883,6 @@
   {
    "id": "pleurire",
    "name": "Pleurire",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "plo-man",
-   "name": "PLO Man",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -4979,42 +4989,6 @@
  ],
  "events": [
   {
-   "id": "e842f5acb820",
-   "title": "Sans Soleil w/ PLO Man",
-   "venue_id": "sans-soleil",
-   "night": "2026-09-14",
-   "start": "2026-09-14T20:00:00.000",
-   "end": "2026-09-15T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "plo-man",
-     "name": "PLO Man",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2531578",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2531578"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tete d'affiche : PLO Man (8)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "9e997155a2cb",
    "title": "Channel Tres - The Enigma Tour",
    "venue_id": "theatre-beanfield",
@@ -5213,7 +5187,7 @@
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/310064A1D614A5D4?lang=fr-ca&brand=mtelus",
    "event_url": "https://evenko.ca/fr/evenements/mtelus/bunt?code=e008238",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/5vCTRo8NB8mgBnGkalFYWH/6b93506e56fb2e9f538b3d810817215c/bunt__1_.jpg",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/5KTn3urKJKaNNhQIDQLe7H/257aab96b07a1556d5d5cc1c92dfd6f5/bunt__1_.jpg",
    "status": "confirmed",
    "sources": [
     {
@@ -12237,6 +12211,42 @@
    }
   },
   {
+   "id": "ff3d02f7629b",
+   "title": "DUBWISE MEETING #9 - Yarra Sound invite King Shiloh (NL)",
+   "venue_id": "le-ministere",
+   "night": "2026-10-17",
+   "start": "2026-10-17T22:00:00.000",
+   "end": "2026-10-18T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "king-shiloh",
+     "name": "King Shiloh",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2537316",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2537316"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tete d'affiche : King Shiloh (8)",
+     "lieu : Le Ministère (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "d6df8bdb1b6a",
    "title": "Piknic Électronik MTL #20: Eli Brown",
    "venue_id": "piknic-electronik",
@@ -14138,7 +14148,7 @@
    "title": "Festival Zamna Montréal",
    "venue_id": "hall-est-du-stade-olympique",
    "night": "2026-11-21",
-   "start": "2026-11-21T19:00:00-05:00",
+   "start": "2026-11-21T20:00:00-05:00",
    "end": null,
    "lineup": [
     {
@@ -14358,6 +14368,42 @@
     "reasons": [
      "tete d'affiche : Layton Giordani (72)",
      "lieu : New City Gas (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "83e97f148d09",
+   "title": "David Morales",
+   "venue_id": "stereo",
+   "night": "2026-11-28",
+   "start": "2026-11-28T23:59:00.000",
+   "end": "2026-11-29T08:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "david-morales",
+     "name": "David Morales",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2537409",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2537409"
+    }
+   ],
+   "interest": {
+    "score": 68,
+    "tier": 2,
+    "reasons": [
+     "tete d'affiche : David Morales (69)",
+     "lieu : Stereo (palier 3)"
     ]
    }
   },
