@@ -1,0 +1,361 @@
+/* ENCORE — nouvelle interface (v2).
+ *
+ * Autonome : ne touche ni app.js ni styles.css, pour que l'ancienne page
+ * continue de tourner et que revenir en arriere ne coute rien.
+ *
+ * Deux sections, deux besoins opposes que la meme fenetre ne pouvait pas
+ * servir : le planning (dense, court terme, tous niveaux) et le rail « a ne
+ * pas rater » (le haut du panier, loin, en image).
+ *
+ * Le rail ne fabrique pas ses cartes : il dessine `payload.spotlight`, produit
+ * par le moteur avec la meme fonction que le carrousel Instagram. Les deriver
+ * une seconde fois ici, en JavaScript, aurait garanti la divergence - c'est le
+ * mode de panne le plus frequent de ce projet.
+ */
+
+const DATA_URL = './data/events.json';
+
+const DOW = ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'];
+const MONTHS = ['jan', 'fév', 'mar', 'avr', 'mai', 'juin', 'juil', 'août', 'sep', 'oct', 'nov', 'déc'];
+
+const COLLAPSE_AT = 4;
+
+const state = { days: 14, tier: 0, view: 'board', q: '', event: null };
+const store = { data: null, venues: new Map(), artists: new Map(), events: new Map() };
+const expanded = new Set();
+
+const $ = (sel) => document.querySelector(sel);
+const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) =>
+  ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+/* ------------------------------------------------------------------ dates */
+
+function todayISO() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+function parseDay(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return new Date(y, m - 1, d);
+}
+
+function dayLabel(iso) {
+  const d = parseDay(iso);
+  return `${DOW[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()]}`;
+}
+
+const isWeekend = (iso) => [0, 5, 6].includes(parseDay(iso).getDay());
+
+/* Heure murale telle qu'ecrite par la source : pas de conversion de fuseau,
+   « 22:00 a Montreal » doit s'afficher 22:00 partout. */
+function wallTime(iso) {
+  if (!iso) return '';
+  const m = String(iso).match(/T(\d{2}):(\d{2})/);
+  return m ? `${m[1]}:${m[2]}` : '';
+}
+
+function timeRange(ev) {
+  const a = wallTime(ev.start);
+  const b = wallTime(ev.end);
+  return b ? `${a} → ${b}` : a;
+}
+
+/* ------------------------------------------------------------------- état */
+
+function readHash() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  if (p.has('j')) state.days = Number(p.get('j')) || 14;
+  if (p.has('n')) state.tier = Number(p.get('n')) || 0;
+  if (p.has('v')) state.view = p.get('v') === 'list' ? 'list' : 'board';
+  if (p.has('q')) state.q = p.get('q');
+  if (p.has('e')) state.event = p.get('e');
+}
+
+function writeHash() {
+  const p = new URLSearchParams();
+  if (state.days !== 14) p.set('j', state.days);
+  if (state.tier) p.set('n', state.tier);
+  if (state.view !== 'board') p.set('v', state.view);
+  if (state.q) p.set('q', state.q);
+  // La fiche vit dans l'URL : un lien vers une soiree precise se partage.
+  if (state.event) p.set('e', state.event);
+  const next = p.toString();
+  history.replaceState(null, '', next ? `#${next}` : location.pathname);
+}
+
+/* --------------------------------------------------------------- sélection */
+
+function windowDays() {
+  const out = [];
+  const start = parseDay(todayISO());
+  for (let i = 0; i < state.days; i++) {
+    const d = new Date(start);
+    d.setDate(d.getDate() + i);
+    out.push(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`);
+  }
+  return out;
+}
+
+function matches(ev) {
+  if (ev.interest.tier < state.tier) return false;
+  if (!state.q) return true;
+  const needle = state.q.toLowerCase();
+  const hay = [
+    ev.title,
+    store.venues.get(ev.venue_id)?.name || '',
+    ...(ev.lineup || []).map((s) => s.name),
+  ].join(' ').toLowerCase();
+  return hay.includes(needle);
+}
+
+/* --------------------------------------------------------------- planning */
+
+function stars(tier) { return tier > 0 ? '★'.repeat(tier) : ''; }
+
+function eventButton(ev, { withDay = false } = {}) {
+  const venue = store.venues.get(ev.venue_id);
+  const head = ev.lineup?.[0]?.name || ev.title;
+  const tier = ev.interest.tier;
+  return `
+    <button type="button" class="ev ev--t${tier}" data-event="${esc(ev.id)}">
+      <span class="ev-top">
+        <span class="ev-name">${esc(head)}</span>
+        <span class="ev-stars">${stars(tier)}</span>
+      </span>
+      <span class="ev-venue">${esc(venue ? venue.name : '')}</span>
+      <span class="ev-time">${withDay ? esc(dayLabel(ev.night)) + ' · ' : ''}${esc(timeRange(ev))}</span>
+    </button>`;
+}
+
+function renderBoard(byDay, days) {
+  const board = $('#board');
+  const keep = $('#board-wrap').scrollLeft;
+
+  board.innerHTML = days.map((iso) => {
+    const list = byDay.get(iso) || [];
+    const open = expanded.has(iso);
+    const shown = open ? list : list.slice(0, COLLAPSE_AT);
+    const hidden = list.length - shown.length;
+    return `
+      <div class="day${isWeekend(iso) ? ' day--weekend' : ''}">
+        <div class="day-head"><strong>${esc(dayLabel(iso))}</strong><span class="n">${list.length}</span></div>
+        <div class="day-list">
+          ${shown.map((ev) => eventButton(ev)).join('')}
+          ${hidden > 0 ? `<button type="button" class="more" data-open="${esc(iso)}">Voir ${hidden} de plus</button>` : ''}
+          ${open && list.length > COLLAPSE_AT ? `<button type="button" class="more" data-close="${esc(iso)}">Réduire</button>` : ''}
+        </div>
+      </div>`;
+  }).join('');
+
+  $('#board-wrap').scrollLeft = keep;
+}
+
+function renderList(byDay, days) {
+  $('#agenda').innerHTML = days.map((iso) => {
+    const list = byDay.get(iso) || [];
+    return `<div><h3>${esc(dayLabel(iso))}</h3><div class="rows">${list.map((ev) => eventButton(ev)).join('')}</div></div>`;
+  }).join('');
+}
+
+function renderPlanning() {
+  const all = store.data.events.filter(matches);
+  const inWindow = new Set(windowDays());
+  const kept = all.filter((ev) => inWindow.has(ev.night));
+
+  const byDay = new Map();
+  for (const ev of kept) {
+    if (!byDay.has(ev.night)) byDay.set(ev.night, []);
+    byDay.get(ev.night).push(ev);
+  }
+  for (const list of byDay.values()) list.sort((a, b) => b.interest.score - a.interest.score);
+
+  // Les jours vides ne sont pas affiches : sur trois mois et un filtre ★★★,
+  // la vue tombe de 90 colonnes a une douzaine.
+  const days = windowDays().filter((iso) => byDay.has(iso));
+
+  const board = state.view === 'board';
+  $('#board-wrap').hidden = !board || !days.length;
+  $('#agenda').hidden = board || !days.length;
+  $('#empty').hidden = days.length > 0;
+
+  if (days.length) (board ? renderBoard : renderList)(byDay, days);
+
+  const n = kept.length;
+  $('#planning-sub').textContent =
+    `${n} soirée${n > 1 ? 's' : ''} · ${days.length} jour${days.length > 1 ? 's' : ''} avec quelque chose`;
+}
+
+/* ------------------------------------------------------------------- rail */
+
+function renderRail() {
+  const rail = $('#rail');
+  const cards = store.data.spotlight || [];
+  if (!cards.length) { rail.closest('.panel').hidden = true; return; }
+
+  const { W, H, draw, loadPhoto } = window.ENCORE_CARDS;
+
+  rail.innerHTML = '';
+  cards.forEach((card) => {
+    const fig = document.createElement('figure');
+    const canvas = document.createElement('canvas');
+    canvas.width = W;
+    canvas.height = H;
+    if (card.event_id) {
+      canvas.dataset.event = card.event_id;
+      canvas.title = `${card.title} — ${card.venue}`;
+    }
+    fig.append(canvas);
+    rail.append(fig);
+
+    // Dessiner avant la photo puis redessiner : la carte est lisible tout de
+    // suite, l'image arrive quand elle arrive.
+    draw(canvas, card, null, []);
+    loadPhoto(card.photo).then((img) => { if (img) draw(canvas, card, img, []); });
+  });
+}
+
+/* ------------------------------------------------------------------ fiche */
+
+function openSheet(id) {
+  const ev = store.events.get(id);
+  if (!ev) return;
+  state.event = id;
+  writeHash();
+
+  const venue = store.venues.get(ev.venue_id);
+  const money = ev.price_min != null ? `dès ${ev.price_min} ${ev.currency || ''}`.trim() : '';
+  const statut = { sold_out: 'Complet', cancelled: 'Annulé', postponed: 'Reporté' }[ev.status] || '';
+
+  const lineup = (ev.lineup || []).map((slot, i) => {
+    const a = store.artists.get(slot.artist_id);
+    const img = a?.image ? `<img src="${esc(a.image)}" alt="" loading="lazy">` : '<img alt="">';
+    const score = a?.score ? `<span class="sc">${a.score}</span>` : '';
+    return `<li>${img}<span class="who${i === 0 ? ' head' : ''}">${esc(slot.name)}</span>${score}</li>`;
+  }).join('');
+
+  const links = [
+    ev.ticket_url ? `<a href="${esc(ev.ticket_url)}" target="_blank" rel="noopener">Billets</a>` : '',
+    ev.event_url ? `<a class="ghost" href="${esc(ev.event_url)}" target="_blank" rel="noopener">La soirée</a>` : '',
+    venue?.url ? `<a class="ghost" href="${esc(venue.url)}" target="_blank" rel="noopener">Le lieu</a>` : '',
+  ].filter(Boolean).join('');
+
+  $('#sheet-body').innerHTML = `
+    <p class="sheet-day">${esc(dayLabel(ev.night))} ${stars(ev.interest.tier)}</p>
+    <h3>${esc(ev.lineup?.[0]?.name || ev.title)}</h3>
+    <p class="sheet-venue">${esc(venue ? venue.name : '')}</p>
+    <p class="sheet-meta">${esc([timeRange(ev), venue?.address, money, statut].filter(Boolean).join(' · '))}</p>
+
+    ${lineup ? `<section><h4>Le plateau</h4><ul class="lineup">${lineup}</ul></section>` : ''}
+
+    <section>
+      <h4>Pourquoi c'est classé là — ${ev.interest.score}/100</h4>
+      <ul class="why">${(ev.interest.reasons || []).map((r) => `<li>${esc(r)}</li>`).join('')}</ul>
+    </section>
+
+    ${links ? `<section><h4>Y aller</h4><div class="links">${links}</div></section>` : ''}
+
+    <p class="soon">Favoris — bientôt</p>`;
+
+  $('#sheet').hidden = false;
+  $('#veil').hidden = false;
+  $('#sheet').focus();
+}
+
+function closeSheet() {
+  state.event = null;
+  writeHash();
+  $('#sheet').hidden = true;
+  $('#veil').hidden = true;
+}
+
+/* ------------------------------------------------------------------ câblage */
+
+function segment(selector, key, cast = Number) {
+  document.querySelectorAll(selector).forEach((btn) => {
+    btn.addEventListener('click', () => {
+      state[key] = cast(btn.dataset[key]);
+      document.querySelectorAll(selector).forEach((b) => b.classList.toggle('is-active', b === btn));
+      expanded.clear();
+      writeHash();
+      renderPlanning();
+    });
+  });
+}
+
+function wire() {
+  segment('[data-days]', 'days');
+  segment('[data-tier]', 'tier');
+  segment('[data-view]', 'view', String);
+
+  let timer;
+  $('#q').addEventListener('input', (e) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      state.q = e.target.value.trim();
+      writeHash();
+      renderPlanning();
+    }, 180);
+  });
+
+  // Une seule ecoute pour tout le document : les cartes du planning et celles
+  // du rail sont recreees a chaque rendu, y attacher un handler chacune
+  // fuirait.
+  document.addEventListener('click', (e) => {
+    const card = e.target.closest('[data-event]');
+    if (card) { openSheet(card.dataset.event); return; }
+
+    const open = e.target.closest('[data-open]');
+    if (open) { expanded.add(open.dataset.open); renderPlanning(); return; }
+
+    const close = e.target.closest('[data-close]');
+    if (close) { expanded.delete(close.dataset.close); renderPlanning(); }
+  });
+
+  $('#sheet-close').addEventListener('click', closeSheet);
+  $('#veil').addEventListener('click', closeSheet);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeSheet(); });
+
+  // La navigation suit le defilement plutot que le clic : on sait toujours ou
+  // on est, meme en ayant fait defiler a la main.
+  const spy = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      document.querySelectorAll('.sections a').forEach((a) =>
+        a.classList.toggle('is-active', a.dataset.section === entry.target.id));
+    }
+  }, { rootMargin: '-45% 0px -45% 0px' });
+  document.querySelectorAll('main .panel').forEach((p) => spy.observe(p));
+}
+
+/* ------------------------------------------------------------------- boot */
+
+async function boot() {
+  readHash();
+  try {
+    const res = await fetch(DATA_URL, { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    store.data = await res.json();
+  } catch (err) {
+    $('#error').hidden = false;
+    $('#error').textContent = `Impossible de charger le planning : ${err.message}. Lance « python -m reload scan » puis sers le dossier avec un serveur HTTP.`;
+    return;
+  }
+
+  for (const v of store.data.venues || []) store.venues.set(v.id, v);
+  for (const a of store.data.artists || []) store.artists.set(a.id, a);
+  for (const e of store.data.events || []) store.events.set(e.id, e);
+
+  document.querySelectorAll('[data-days]').forEach((b) => b.classList.toggle('is-active', Number(b.dataset.days) === state.days));
+  document.querySelectorAll('[data-tier]').forEach((b) => b.classList.toggle('is-active', Number(b.dataset.tier) === state.tier));
+  document.querySelectorAll('[data-view]').forEach((b) => b.classList.toggle('is-active', b.dataset.view === state.view));
+  $('#q').value = state.q;
+
+  wire();
+  renderPlanning();
+  renderRail();
+
+  if (state.event) openSheet(state.event);
+}
+
+boot();
