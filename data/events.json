@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-15T17:18:10Z",
+ "generated_at": "2026-09-15T23:28:49Z",
  "city": "montreal",
  "city_label": "Montreal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 193
+   "events": 196
   },
   {
    "id": "piknic",
@@ -24,7 +24,7 @@
   {
    "id": "new_city_gas",
    "ok": true,
-   "events": 131
+   "events": 132
   },
   {
    "id": "mtelus",
@@ -65,6 +65,7 @@
   "sainte-catherine-hall",
   "esc",
   "sms-514-613-5811-for-location",
+  "tba-le-bateau-mouche",
   "foufounes",
   "systeme",
   "nwhr",
@@ -84,6 +85,7 @@
   "tba-outdoors",
   "le-ministere",
   "sala-rossa-la",
+  "cabaret-berlin",
   "p-tit-ours",
   "van-horne-skatepark",
   "clebard",
@@ -144,6 +146,16 @@
   {
    "id": "blue-room",
    "name": "Blue Room",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "cabaret-berlin",
+   "name": "Cabaret Berlin",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -580,6 +592,16 @@
    "genres": []
   },
   {
+   "id": "tba-le-bateau-mouche",
+   "name": "TBA - LE BATEAU-MOUCHE",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "tba-mario-park-mile-end",
    "name": "TBA - Mario Park (Mile End)",
    "type": "club",
@@ -776,6 +798,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "after-party",
+   "name": "AFTER PARTY",
+   "tier": 0,
+   "score": 59,
+   "popularity": 59,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048511b1711148ad3b71bbd01863d",
    "known": false
   },
   {
@@ -1411,6 +1443,16 @@
    "known": false
   },
   {
+   "id": "camelphat",
+   "name": "CamelPhat",
+   "tier": 0,
+   "score": 83,
+   "popularity": 83,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17885bc993b6a738f94ef4df7cf",
+   "known": false
+  },
+  {
    "id": "cannelle-montreal",
    "name": "Cannelle - Montréal",
    "tier": 0,
@@ -1851,6 +1893,16 @@
    "known": false
   },
   {
+   "id": "dj-davide",
+   "name": "DJ Davidé",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "dj-frog",
    "name": "DJ Frog",
    "tier": 0,
@@ -1893,6 +1945,16 @@
   {
    "id": "dj-michael-terzian",
    "name": "DJ Michael Terzian",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "dj-mushin",
+   "name": "DJ Mushin",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2088,6 +2150,16 @@
    "popularity": 7,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048510bf62ac143f3ba405c0c9f9f",
+   "known": false
+  },
+  {
+   "id": "ekho",
+   "name": "EKHO",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178908ba8dbb20ca9d15ecc99b6",
    "known": false
   },
   {
@@ -4374,6 +4446,16 @@
    "known": false
   },
   {
+   "id": "sonar",
+   "name": "SONAR",
+   "tier": 0,
+   "score": 29,
+   "popularity": 29,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "sonidos-prohibidos-lu-b",
    "name": "Sonidos Prohibidos: Lu B",
    "tier": 0,
@@ -4727,6 +4809,16 @@
    "known": false
   },
   {
+   "id": "valentino",
+   "name": "VALENTINO",
+   "tier": 0,
+   "score": 59,
+   "popularity": 59,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17896ffd0f0ec2d7a11958711bd",
+   "known": false
+  },
+  {
    "id": "vamana",
    "name": "Vamana",
    "tier": 0,
@@ -4827,6 +4919,16 @@
    "known": false
   },
   {
+   "id": "volkoder",
+   "name": "VOLKODER",
+   "tier": 0,
+   "score": 68,
+   "popularity": 68,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17828eb3ef8ecd29ca04527dd20",
+   "known": false
+  },
+  {
    "id": "wally",
    "name": "Wally",
    "tier": 0,
@@ -4904,6 +5006,16 @@
    "popularity": 61,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a04c1b4a64b011cd8e2d201c",
+   "known": false
+  },
+  {
+   "id": "yarra-sound",
+   "name": "Yarra Sound",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -10018,6 +10130,47 @@
    }
   },
   {
+   "id": "3aea9feea9d4",
+   "title": "TRANSITION présente SONAR + AFTER PARTY",
+   "venue_id": "tba-le-bateau-mouche",
+   "night": "2026-10-02",
+   "start": "2026-10-02T18:00:00.000",
+   "end": "2026-10-03T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "after-party",
+     "name": "AFTER PARTY",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "sonar",
+     "name": "SONAR",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2537961",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2537961"
+    }
+   ],
+   "interest": {
+    "score": 48,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : AFTER PARTY (59)",
+     "lieu : TBA - LE BATEAU-MOUCHE (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "ccc6fca3edf5",
    "title": "Datcha NONSTOP: Martyn Bootyspoon, Santanista, Mytron (Live)",
    "venue_id": "bar-datcha",
@@ -11568,6 +11721,47 @@
    }
   },
   {
+   "id": "963c68934252",
+   "title": "BERLIN TECHNO - THANKSGIVING EDITION 2026",
+   "venue_id": "cabaret-berlin",
+   "night": "2026-10-11",
+   "start": "2026-10-11T22:00:00.000",
+   "end": "2026-10-12T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-davide",
+     "name": "DJ Davidé",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "dj-mushin",
+     "name": "DJ Mushin",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2538234",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2538234"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Davidé (8)",
+     "lieu : Cabaret Berlin (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "3b2c7dd049ea",
    "title": "All Day I Dream - Parc Jean-Drapeau",
    "venue_id": "parc-jean-drapeau",
@@ -12222,6 +12416,11 @@
      "artist_id": "king-shiloh",
      "name": "King Shiloh",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "yarra-sound",
+     "name": "Yarra Sound",
+     "billing": "support"
     }
    ],
    "genres": [],
@@ -13529,6 +13728,63 @@
     "reasons": [
      "tête d'affiche : Suzy Sheer (52)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "91375b74ebe4",
+   "title": "[DSTRKT] CamelPhat, VOLKODER",
+   "venue_id": "new-city-gas",
+   "night": "2026-11-07",
+   "start": "2026-11-07T22:00:00.000",
+   "end": "2026-11-08T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "camelphat",
+     "name": "CamelPhat",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "volkoder",
+     "name": "VOLKODER",
+     "billing": "support"
+    },
+    {
+     "artist_id": "valentino",
+     "name": "VALENTINO",
+     "billing": "support",
+     "b2b_with": "ekho"
+    },
+    {
+     "artist_id": "ekho",
+     "name": "EKHO",
+     "billing": "support",
+     "b2b_with": "valentino"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://newcitygas.com/event/camelphat-volkoder-206309/",
+   "event_url": "https://ra.co/events/2538167",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2538167"
+    },
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/camelphat-volkoder-206309/"
+    }
+   ],
+   "interest": {
+    "score": 78,
+    "tier": 3,
+    "reasons": [
+     "tête d'affiche : CamelPhat (83)",
+     "lieu : New City Gas (palier 3)"
     ]
    }
   },
