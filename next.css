@@ -88,6 +88,25 @@ body {
 .sections a:hover { color: var(--text); background: var(--surface); }
 .sections a.is-active { color: var(--bg); background: var(--accent); font-weight: 600; }
 
+/* Selecteur de ville. Volontairement discret : on change de ville rarement,
+   mais il faut voir d'un coup d'oeil laquelle on regarde. */
+.city { display: flex; gap: .15rem; flex: none; margin-left: .4rem; }
+.city button {
+  font-family: var(--mono);
+  font-size: .66rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: .4rem .6rem;
+  background: transparent;
+  color: var(--dimmer);
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.city button:hover { color: var(--text); }
+.city button.is-active { color: var(--text); border-color: var(--line); background: var(--surface); }
+
 .search { flex: 1 1 auto; display: flex; justify-content: flex-end; }
 .search input {
   width: min(320px, 100%);
@@ -443,6 +462,7 @@ main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
   .sections a { padding: .4rem .5rem; font-size: .62rem; }
   .brand { font-size: 1rem; }
   .search { display: none; }
+  .city button { padding: .35rem .45rem; font-size: .6rem; }
 
   main { padding: .7rem; gap: .7rem; }
   .panel-head { padding: .8rem .85rem; }

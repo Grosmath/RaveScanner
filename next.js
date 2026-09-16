@@ -13,14 +13,19 @@
  * mode de panne le plus frequent de ce projet.
  */
 
-const DATA_URL = './data/events.json';
+// Le planning d'une ville. `data/<ville>/events.json` depuis que le moteur est
+// multi-villes ; l'ancienne page, elle, lit toujours `data/events.json`, que le
+// build alimente avec la ville par defaut.
+const dataUrl = (city) => `./data/${city}/events.json`;
+const VILLES = ['montreal', 'paris'];
+const VILLE_DEFAUT = 'montreal';
 
 const DOW = ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'];
 const MONTHS = ['jan', 'fév', 'mar', 'avr', 'mai', 'juin', 'juil', 'août', 'sep', 'oct', 'nov', 'déc'];
 
 const COLLAPSE_AT = 4;
 
-const state = { days: 14, tier: 0, view: 'board', q: '', event: null };
+const state = { city: VILLE_DEFAUT, days: 14, tier: 0, view: 'board', q: '', event: null };
 const store = { data: null, venues: new Map(), artists: new Map(), events: new Map() };
 const expanded = new Set();
 
@@ -70,10 +75,16 @@ function readHash() {
   if (p.has('v')) state.view = p.get('v') === 'list' ? 'list' : 'board';
   if (p.has('q')) state.q = p.get('q');
   if (p.has('e')) state.event = p.get('e');
+  // La ville vient de l'URL si elle y est, sinon du dernier choix retenu.
+  // Un lien partage impose donc sa ville, ce qui compte quand on envoie une
+  // soiree parisienne a quelqu'un.
+  const ville = p.get('ville') || lireVilleGardee();
+  if (VILLES.includes(ville)) state.city = ville;
 }
 
 function writeHash() {
   const p = new URLSearchParams();
+  if (state.city !== VILLE_DEFAUT) p.set('ville', state.city);
   if (state.days !== 14) p.set('j', state.days);
   if (state.tier) p.set('n', state.tier);
   if (state.view !== 'board') p.set('v', state.view);
@@ -82,6 +93,27 @@ function writeHash() {
   if (state.event) p.set('e', state.event);
   const next = p.toString();
   history.replaceState(null, '', next ? `#${next}` : location.pathname);
+}
+
+/* Le choix de ville survit au rechargement. `localStorage` peut lever (mode
+   prive, cookies bloques) : on retombe alors sur la ville par defaut plutot
+   que de casser la page. */
+function lireVilleGardee() {
+  try { return localStorage.getItem('encore.ville') || ''; } catch { return ''; }
+}
+
+function garderVille(ville) {
+  try { localStorage.setItem('encore.ville', ville); } catch { /* tant pis */ }
+}
+
+async function chargerVille(city) {
+  const res = await fetch(dataUrl(city), { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+  store.data = await res.json();
+  store.venues.clear(); store.artists.clear(); store.events.clear();
+  for (const v of store.data.venues || []) store.venues.set(v.id, v);
+  for (const a of store.data.artists || []) store.artists.set(a.id, a);
+  for (const e of store.data.events || []) store.events.set(e.id, e);
 }
 
 /* --------------------------------------------------------------- sélection */
@@ -326,6 +358,30 @@ function wire() {
 
   // La navigation suit le defilement plutot que le clic : on sait toujours ou
   // on est, meme en ayant fait defiler a la main.
+  document.querySelectorAll('[data-city]').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const ville = btn.dataset.city;
+      if (ville === state.city) return;
+      state.city = ville;
+      state.event = null;
+      expanded.clear();
+      garderVille(ville);
+      document.querySelectorAll('[data-city]').forEach((b) =>
+        b.classList.toggle('is-active', b === btn));
+      writeHash();
+      try {
+        await chargerVille(ville);
+      } catch (err) {
+        $('#error').hidden = false;
+        $('#error').textContent = `Planning de ${ville} indisponible : ${err.message}`;
+        return;
+      }
+      $('#error').hidden = true;
+      renderPlanning();
+      renderRail();
+    });
+  });
+
   const spy = new IntersectionObserver((entries) => {
     for (const entry of entries) {
       if (!entry.isIntersecting) continue;
@@ -341,19 +397,14 @@ function wire() {
 async function boot() {
   readHash();
   try {
-    const res = await fetch(DATA_URL, { cache: 'no-cache' });
-    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-    store.data = await res.json();
+    await chargerVille(state.city);
   } catch (err) {
     $('#error').hidden = false;
     $('#error').textContent = `Impossible de charger le planning : ${err.message}. Lance « python -m reload scan » puis sers le dossier avec un serveur HTTP.`;
     return;
   }
 
-  for (const v of store.data.venues || []) store.venues.set(v.id, v);
-  for (const a of store.data.artists || []) store.artists.set(a.id, a);
-  for (const e of store.data.events || []) store.events.set(e.id, e);
-
+  document.querySelectorAll('[data-city]').forEach((b) => b.classList.toggle('is-active', b.dataset.city === state.city));
   document.querySelectorAll('[data-days]').forEach((b) => b.classList.toggle('is-active', Number(b.dataset.days) === state.days));
   document.querySelectorAll('[data-tier]').forEach((b) => b.classList.toggle('is-active', Number(b.dataset.tier) === state.tier));
   document.querySelectorAll('[data-view]').forEach((b) => b.classList.toggle('is-active', b.dataset.view === state.view));
