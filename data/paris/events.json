@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-16T14:04:41Z",
+ "generated_at": "2026-09-16T15:23:57Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,13 +14,12 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 403
+   "events": 404
   },
   {
-   "id": "shotgun",
-   "ok": false,
-   "events": 0,
-   "error": "shotgun limite le debit : HTTP Error 429: Too Many Requests"
+   "id": "dice",
+   "ok": true,
+   "events": 3
   }
  ],
  "venue_order": [
@@ -47,6 +46,7 @@
   "rooftop-nijinsky",
   "tba",
   "la-boule-noire",
+  "le-trabendo",
   "la-station-gare-des-mines",
   "la-gaite-lyrique",
   "la-felicita",
@@ -73,7 +73,6 @@
   "parc-floral-de-paris",
   "tba-saint-denis",
   "le-pop-up-du-label",
-  "le-trabendo",
   "le-gambetta-club",
   "point-ephemere",
   "la-nuit",
@@ -98,6 +97,7 @@
   "tba-45-bis-avenue-de-la-belle-gabrielle-94130-nogent-sur-marne-france",
   "plantation",
   "philharmonie-de-paris",
+  "bateau-henjo",
   "le-son-de-la-terre",
   "tba-centre-culturel-suisse",
   "babour-sauvage",
@@ -218,6 +218,16 @@
   {
    "id": "bal-chavaux",
    "name": "Bal Chavaux",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "bateau-henjo",
+   "name": "BATEAU HENJO",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1588,6 +1598,16 @@
   {
    "id": "afro-heaven-afro",
    "name": "AFRO HEAVEN - Afro",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "afroboat-afro",
+   "name": "AfroBoat - AFRO",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5381,6 +5401,16 @@
    "known": false
   },
   {
+   "id": "jetlag-reggaeton-airlines",
+   "name": "JETLAG REGGAETON AIRLINES",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "jeudi-ok-closing",
    "name": "Jeudi OK: Closing",
    "tier": 0,
@@ -6098,6 +6128,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "lavion",
+   "name": "LAVION",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/b150ff9d37eb00858ba3502ac9f22c86/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -8706,6 +8746,16 @@
    "known": false
   },
   {
+   "id": "shatta",
+   "name": "SHATTA",
+   "tier": 0,
+   "score": 22,
+   "popularity": 22,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/ec2607a7f8ca0c21e3c4476c766bc979/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "shay-shaz",
    "name": "Shay Shaz",
    "tier": 0,
@@ -10371,6 +10421,49 @@
  ],
  "events": [
   {
+   "id": "86781dff6a1d",
+   "title": "AfroBoat - AFRO&SHATTA",
+   "venue_id": "bateau-henjo",
+   "night": "2026-09-16",
+   "start": "2026-09-16T23:30:00+02:00",
+   "end": "2026-09-17T05:00:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "shatta",
+     "name": "SHATTA",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "afroboat-afro",
+     "name": "AfroBoat - AFRO",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/oe9v6r-afroboat-afroshatta-16th-sep-bateau-henjo-paris-tickets",
+   "event_url": "https://dice.fm/event/oe9v6r-afroboat-afroshatta-16th-sep-bateau-henjo-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-15/536126af-02c3-4e98-9ab4-732585093c94.jpg?rect=0%2C181%2C1086%2C1086",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/oe9v6r-afroboat-afroshatta-16th-sep-bateau-henjo-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 22,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SHATTA (22)",
+     "lieu : BATEAU HENJO (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "6d7b95ef83aa",
    "title": "Vortex Invite: FUMI, VICØ, Keyklau",
    "venue_id": "rex-club",
@@ -10625,17 +10718,23 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
-   "price_min": null,
+   "genres": [
+    "electronic"
+   ],
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2519720",
    "event_url": "https://ra.co/events/2519720",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-08-20/1d75e6ce-5e13-430e-864a-98d3b66b3353.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2519720"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/8e97k5-la-chck-tumblr-rave-17th-sep-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -10726,6 +10825,44 @@
     "reasons": [
      "tête d'affiche : Teddy Killerz - Nouveau Casino (8)",
      "lieu : Nouveau Casino (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "c9c6d0d910e6",
+   "title": "JETLAG REGGAETON AIRLINES",
+   "venue_id": "virage",
+   "night": "2026-09-17",
+   "start": "2026-09-17T19:00:00+02:00",
+   "end": "2026-09-18T05:00:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "jetlag-reggaeton-airlines",
+     "name": "JETLAG REGGAETON AIRLINES",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/py3ogl-jetlag-reggaeton-airlines-17th-sep-virage-paris-tickets",
+   "event_url": "https://dice.fm/event/py3ogl-jetlag-reggaeton-airlines-17th-sep-virage-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-08-24/3331bfdd-79f2-43f1-817f-1623c8de227c.jpg?rect=298%2C0%2C768%2C768",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/py3ogl-jetlag-reggaeton-airlines-17th-sep-virage-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : JETLAG REGGAETON AIRLINES (8)",
+     "lieu : Virage (palier 1)"
     ]
    }
   },
@@ -22660,6 +22797,52 @@
     "reasons": [
      "tête d'affiche : Josh Baker (74)",
      "lieu : Phantom, Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "abdff441dfa4",
+   "title": "Ritmo Fatale X Dure Vie: Kendal, LAVION live, Zaatar",
+   "venue_id": "le-trabendo",
+   "night": "2026-10-16",
+   "start": "2026-10-16T23:59:00.000",
+   "end": "2026-10-17T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "kendal",
+     "name": "Kendal",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "zaatar",
+     "name": "Zaatar",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lavion",
+     "name": "LAVION",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2538879",
+   "event_url": "https://ra.co/events/2538879",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2538879"
+    }
+   ],
+   "interest": {
+    "score": 52,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Kendal (56)",
+     "lieu : Le Trabendo (palier 2)"
     ]
    }
   },
