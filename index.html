@@ -14,8 +14,8 @@
 <body>
 
 <!-- Barre unique et collante. Elle porte la marque, la navigation entre les
-     deux sections, et la recherche - qui deviendra l'entree vers les fiches
-     artistes. -->
+     deux sections, la ville et la recherche - qui deviendra l'entree vers les
+     fiches artistes. -->
 <header class="top">
   <a class="brand" href="#planning">ENCO<em>RE</em></a>
 
@@ -24,6 +24,7 @@
     <a href="#spotlight" data-section="spotlight">À ne pas rater</a>
   </nav>
 
+  <!-- Initiales en dessous de 760 px : « Montréal » débordait de la barre. -->
   <div class="city" role="group" aria-label="Ville">
     <button type="button" data-city="montreal" class="is-active">
       <span class="long">Montréal</span><span class="court">MTL</span>
@@ -42,13 +43,14 @@
 
 <main>
 
-  <!-- Ce qui est entre dans le planning ces derniers jours, au-dessus du
-       reste. Masquee tant qu'il n'y a rien a dire.
+  <!-- Ce qui est entré dans le planning ces derniers jours, au-dessus du
+       reste, la plus grosse soirée en tête. Masquée tant qu'il n'y a rien à
+       dire.
 
-       « Repere » et non « annonce » : on connait la date a laquelle NOUS avons
-       vu la soiree, pas celle a laquelle elle a ete annoncee. Les deux
-       coincident presque toujours, sauf le jour ou l'on ajoute une source ou
-       l'on elargit la fenetre - le libelle reste vrai dans les deux cas. -->
+       « Repéré » et non « annoncé » : on connaît la date à laquelle NOUS avons
+       vu la soirée, pas celle à laquelle elle a été annoncée. Les deux
+       coïncident presque toujours, sauf le jour où l'on ajoute une source ou
+       l'on élargit la fenêtre — le libellé reste vrai dans les deux cas. -->
   <section class="news" id="news" hidden aria-label="Repéré cette semaine">
     <h2>Repéré cette semaine</h2>
     <div class="news-rail" id="news-rail"></div>
@@ -61,44 +63,32 @@
         <p class="sub" id="planning-sub">—</p>
       </div>
 
+      <!-- Un seul réglage. La vue liste et le choix du nombre de jours ont été
+           retirés le 2026-09-16 : personne n'a de raison de préférer une liste
+           au tableau, ni 7 jours à tout ce qu'on connaît. Le planning affiche
+           donc toute la fenêtre scannée, et le seul arbitrage qui compte reste
+           le niveau de mise en avant. -->
       <div class="controls">
-        <div class="seg" role="group" aria-label="Fenêtre">
-          <button type="button" data-days="7">7 j</button>
-          <button type="button" data-days="14" class="is-active">14 j</button>
-          <button type="button" data-days="30">1 mois</button>
-          <button type="button" data-days="90">3 mois</button>
-        </div>
-
-        <!-- Plus d'etoiles : elles se lisaient comme une note donnee aux
-             artistes. Le code couleur reste, et ces boutons empruntent le
-             vocabulaire du carrousel plutot qu'une echelle. -->
         <div class="seg" role="group" aria-label="Mise en avant">
           <button type="button" data-tier="0" class="is-active">Tout</button>
           <button type="button" data-tier="2">À retenir</button>
           <button type="button" data-tier="3">À ne pas rater</button>
-        </div>
-
-        <div class="seg" role="group" aria-label="Affichage">
-          <button type="button" data-view="board" class="is-active">Tableau</button>
-          <button type="button" data-view="list">Liste</button>
         </div>
       </div>
     </div>
 
     <div class="panel-body">
       <div class="scroller" id="board-wrap"><div class="board" id="board"></div></div>
-      <!-- Hors de la zone defilante, sinon un element positionne a l'interieur
-           peut en allonger la largeur. Remplace la barre de defilement,
-           masquee : elle disait « il y a une suite » en abimant la page. -->
+      <!-- Hors de la zone défilante, sinon un élément positionné à l'intérieur
+           peut en allonger la largeur. Remplace la barre de défilement,
+           masquée : elle disait « il y a une suite » en abîmant la page. -->
       <span class="hint-scroll" id="hint-scroll" aria-hidden="true">→</span>
-      <div class="agenda" id="agenda" hidden></div>
       <p class="empty" id="empty" hidden>Rien ne correspond à ces filtres.</p>
     </div>
   </section>
 
   <!-- Le rail n'est pas dans un panneau : les cartes et leur titre posent
-       directement sur le fond de la page. Une boite dans une boite dans une
-       boite, ca fait empile, pas moderne. -->
+       directement sur le fond de la page. -->
   <section class="rail-section" id="spotlight">
     <div class="rail-head">
       <h2>À ne pas rater</h2>
@@ -109,8 +99,8 @@
 
 </main>
 
-<!-- Fiche evenement. Panneau lateral sur desktop, feuille montante sur mobile.
-     C'est aussi l'emplacement prevu pour le bouton « favori » et, plus tard,
+<!-- Fiche événement. Panneau latéral sur desktop, feuille montante sur mobile.
+     C'est aussi l'emplacement prévu pour le bouton « favori » et, plus tard,
      les liens vers les fiches artistes. -->
 <div class="veil" id="veil" hidden></div>
 <aside class="sheet" id="sheet" hidden aria-label="Détail de la soirée" tabindex="-1">

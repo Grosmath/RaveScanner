@@ -25,7 +25,7 @@ const MONTHS = ['jan', 'fév', 'mar', 'avr', 'mai', 'juin', 'juil', 'août', 'se
 
 const COLLAPSE_AT = 4;
 
-const state = { city: VILLE_DEFAUT, days: 14, tier: 0, view: 'board', q: '', event: null };
+const state = { city: VILLE_DEFAUT, tier: 0, q: '', event: null };
 const store = { data: null, venues: new Map(), artists: new Map(), events: new Map() };
 const expanded = new Set();
 
@@ -70,9 +70,7 @@ function timeRange(ev) {
 
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
-  if (p.has('j')) state.days = Number(p.get('j')) || 14;
   if (p.has('n')) state.tier = Number(p.get('n')) || 0;
-  if (p.has('v')) state.view = p.get('v') === 'list' ? 'list' : 'board';
   if (p.has('q')) state.q = p.get('q');
   if (p.has('e')) state.event = p.get('e');
   // La ville vient de l'URL si elle y est, sinon du dernier choix retenu.
@@ -85,9 +83,7 @@ function readHash() {
 function writeHash() {
   const p = new URLSearchParams();
   if (state.city !== VILLE_DEFAUT) p.set('ville', state.city);
-  if (state.days !== 14) p.set('j', state.days);
   if (state.tier) p.set('n', state.tier);
-  if (state.view !== 'board') p.set('v', state.view);
   if (state.q) p.set('q', state.q);
   // La fiche vit dans l'URL : un lien vers une soiree precise se partage.
   if (state.event) p.set('e', state.event);
@@ -118,15 +114,13 @@ async function chargerVille(city) {
 
 /* --------------------------------------------------------------- sélection */
 
-function windowDays() {
-  const out = [];
-  const start = parseDay(todayISO());
-  for (let i = 0; i < state.days; i++) {
-    const d = new Date(start);
-    d.setDate(d.getDate() + i);
-    out.push(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`);
-  }
-  return out;
+/* Toute la fenetre scannee, a partir d'aujourd'hui. Le choix « 7 / 14 jours /
+   3 mois » a ete retire : personne n'a de raison de preferer voir moins, et un
+   jour sans rien n'est de toute facon pas affiche. Le seul arbitrage qui reste
+   est le niveau de mise en avant. */
+function joursConnus(events) {
+  const aujourdhui = todayISO();
+  return [...new Set(events.map((e) => e.night))].filter((j) => j >= aujourdhui).sort();
 }
 
 function matches(ev) {
@@ -180,17 +174,8 @@ function renderBoard(byDay, days) {
   $('#board-wrap').scrollLeft = keep;
 }
 
-function renderList(byDay, days) {
-  $('#agenda').innerHTML = days.map((iso) => {
-    const list = byDay.get(iso) || [];
-    return `<div><h3>${esc(dayLabel(iso))}</h3><div class="rows">${list.map((ev) => eventButton(ev)).join('')}</div></div>`;
-  }).join('');
-}
-
 function renderPlanning() {
-  const all = store.data.events.filter(matches);
-  const inWindow = new Set(windowDays());
-  const kept = all.filter((ev) => inWindow.has(ev.night));
+  const kept = store.data.events.filter(matches).filter((ev) => ev.night >= todayISO());
 
   const byDay = new Map();
   for (const ev of kept) {
@@ -201,16 +186,16 @@ function renderPlanning() {
 
   // Les jours vides ne sont pas affiches : sur trois mois et le filtre le plus
   // serre, la vue tombe de 90 colonnes a une douzaine.
-  const days = windowDays().filter((iso) => byDay.has(iso));
+  const days = joursConnus(kept);
 
-  const board = state.view === 'board';
-  $('#board-wrap').hidden = !board || !days.length;
-  $('#agenda').hidden = board || !days.length;
+  $('#board-wrap').hidden = !days.length;
+  $('#hint-scroll').hidden = !days.length;
   $('#empty').hidden = days.length > 0;
 
-  if (days.length) (board ? renderBoard : renderList)(byDay, days);
-  $('#hint-scroll').hidden = !board || !days.length;
-  if (board && days.length) indiceDefilement();
+  if (days.length) {
+    renderBoard(byDay, days);
+    indiceDefilement();
+  }
 
   const n = kept.length;
   $('#planning-sub').textContent =
@@ -219,7 +204,12 @@ function renderPlanning() {
 
 /* --------------------------------------------------------------- annonces */
 
-let defileur = null;
+/* Pas de defilement automatique. Il a ete essaye et retire : `scrollLeft` est
+   souvent arrondi au pixel par le navigateur, donc un increment de 0,35 px par
+   image retombait a zero et rien ne bougeait - ni sur ordinateur ni sur
+   telephone. Surtout, il devient inutile maintenant que les cartes sont
+   triees par score : la plus grosse soiree est deja la premiere, et le reste
+   se fait glisser a la main. */
 
 function renderNews() {
   const section = $('#news');
@@ -245,7 +235,6 @@ function renderNews() {
       </button>`;
   }).join('');
 
-  autoDefiler(rail);
 }
 
 /* Defilement lent et continu, en aller-retour plutot qu'en boucle : pas de
@@ -253,52 +242,6 @@ function renderNews() {
    S'arrete au survol et au focus clavier, et ne demarre pas du tout si le
    systeme demande moins d'animations - une bande qui bouge toute seule est
    penible pour qui y est sensible, et rend le survol difficile. */
-function autoDefiler(rail) {
-  if (defileur) cancelAnimationFrame(defileur);
-  defileur = null;
-
-  // Seule garde a l'entree : une bande qui bouge toute seule gene qui y est
-  // sensible, et rend le survol difficile.
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
-  // Les ecouteurs se posent UNE fois sur l'element, qui survit aux rendus :
-  // les rattacher a chaque changement de ville en empilerait un jeu de plus a
-  // chaque fois.
-  if (!rail.dataset.pauseCablee) {
-    rail.dataset.pauseCablee = '1';
-    const geler = () => { rail.dataset.pause = '1'; };
-    const reprendre = () => { delete rail.dataset.pause; };
-    rail.addEventListener('pointerenter', geler);
-    rail.addEventListener('pointerleave', reprendre);
-    rail.addEventListener('focusin', geler);
-    rail.addEventListener('focusout', reprendre);
-    // Une fois qu'on a pris la main, la bande cesse de bouger pour de bon :
-    // se faire reprendre le defilement sous le doigt est desagreable.
-    rail.addEventListener('pointerdown', () => { rail.dataset.manuel = '1'; });
-    rail.addEventListener('wheel', () => { rail.dataset.manuel = '1'; }, { passive: true });
-  }
-
-  let sens = 1;
-  const VITESSE = 0.35; // px par image, soit ~20 px/s
-
-  // Le debordement est re-mesure a chaque image plutot qu'une fois au
-  // demarrage : juste apres `innerHTML`, la mise en page n'est pas forcement
-  // faite et les portraits pas charges, donc une mesure unique pouvait
-  // conclure « rien a defiler » et ne jamais demarrer.
-  const pas = () => {
-    const max = rail.scrollWidth - rail.clientWidth;
-    if (max > 8 && !rail.dataset.pause && !rail.dataset.manuel) {
-      rail.scrollLeft += VITESSE * sens;
-      // Aller-retour plutot que boucle : pas de contenu duplique, et aucun
-      // saut visible en fin de course.
-      if (rail.scrollLeft >= max - 1) sens = -1;
-      else if (rail.scrollLeft <= 1) sens = 1;
-    }
-    defileur = requestAnimationFrame(pas);
-  };
-  defileur = requestAnimationFrame(pas);
-}
-
 /* La fleche qui remplace la barre de defilement du planning : elle dit qu'il y
    a une suite, puis s'efface une fois que le lecteur a defile - l'indication a
    fait son travail et n'a plus a occuper l'ecran. */
@@ -428,9 +371,7 @@ function segment(selector, key, cast = Number) {
 }
 
 function wire() {
-  segment('[data-days]', 'days');
   segment('[data-tier]', 'tier');
-  segment('[data-view]', 'view', String);
 
   let timer;
   $('#q').addEventListener('input', (e) => {
@@ -510,9 +451,7 @@ async function boot() {
   }
 
   document.querySelectorAll('[data-city]').forEach((b) => b.classList.toggle('is-active', b.dataset.city === state.city));
-  document.querySelectorAll('[data-days]').forEach((b) => b.classList.toggle('is-active', Number(b.dataset.days) === state.days));
   document.querySelectorAll('[data-tier]').forEach((b) => b.classList.toggle('is-active', Number(b.dataset.tier) === state.tier));
-  document.querySelectorAll('[data-view]').forEach((b) => b.classList.toggle('is-active', b.dataset.view === state.view));
   $('#q').value = state.q;
 
   wire();
