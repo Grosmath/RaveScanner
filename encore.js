@@ -215,6 +215,79 @@ function renderPlanning() {
     `${n} soirée${n > 1 ? 's' : ''} · ${days.length} jour${days.length > 1 ? 's' : ''} avec quelque chose`;
 }
 
+/* --------------------------------------------------------------- annonces */
+
+let defileur = null;
+
+function renderNews() {
+  const section = $('#news');
+  const rail = $('#news-rail');
+  const cartes = store.data.announcements || [];
+
+  // Masquee plutot que vide : le premier jour d'une ville, on ne peut pas
+  // distinguer « nouveau » de « decouvert en meme temps que le reste », donc
+  // il n'y a legitimement rien a dire.
+  section.hidden = cartes.length === 0;
+  if (!cartes.length) return;
+
+  rail.innerHTML = cartes.map((c) => {
+    const img = c.photo ? `<img src="${esc(c.photo)}" alt="" loading="lazy">` : '<img alt="">';
+    const quand = dayLabel(c.night);
+    return `
+      <button type="button" class="news-card" data-event="${esc(c.id)}">
+        ${img}
+        <span class="who">
+          <span class="nom">${esc(c.name)}</span>
+          <span class="ou">${esc(quand)}${c.venue ? ' · ' + esc(c.venue) : ''}</span>
+        </span>
+      </button>`;
+  }).join('');
+
+  autoDefiler(rail);
+}
+
+/* Defilement lent et continu, en aller-retour plutot qu'en boucle : pas de
+   contenu duplique, et aucun saut visible en fin de course.
+   S'arrete au survol et au focus clavier, et ne demarre pas du tout si le
+   systeme demande moins d'animations - une bande qui bouge toute seule est
+   penible pour qui y est sensible, et rend le survol difficile. */
+function autoDefiler(rail) {
+  if (defileur) cancelAnimationFrame(defileur);
+  defileur = null;
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (rail.scrollWidth <= rail.clientWidth + 8) return;
+
+  // Les ecouteurs se posent UNE fois sur l'element, qui survit aux rendus :
+  // les rattacher a chaque changement de ville en empilerait un jeu de plus a
+  // chaque fois.
+  if (!rail.dataset.pauseCablee) {
+    rail.dataset.pauseCablee = '1';
+    const geler = () => { rail.dataset.pause = '1'; };
+    const reprendre = () => { delete rail.dataset.pause; };
+    rail.addEventListener('pointerenter', geler);
+    rail.addEventListener('pointerleave', reprendre);
+    rail.addEventListener('focusin', geler);
+    rail.addEventListener('focusout', reprendre);
+  }
+
+  let sens = 1;
+  const VITESSE = 0.35; // px par image, soit ~20 px/s
+
+  const pas = () => {
+    if (!rail.dataset.pause) {
+      const max = rail.scrollWidth - rail.clientWidth;
+      rail.scrollLeft += VITESSE * sens;
+      // Aller-retour plutot que boucle : pas de contenu duplique, et aucun
+      // saut visible en fin de course.
+      if (rail.scrollLeft >= max - 1) sens = -1;
+      else if (rail.scrollLeft <= 1) sens = 1;
+    }
+    defileur = requestAnimationFrame(pas);
+  };
+  defileur = requestAnimationFrame(pas);
+}
+
 /* ------------------------------------------------------------------- rail */
 
 function renderRail() {
@@ -377,6 +450,7 @@ function wire() {
         return;
       }
       $('#error').hidden = true;
+      renderNews();
       renderPlanning();
       renderRail();
     });
@@ -411,6 +485,7 @@ async function boot() {
   $('#q').value = state.q;
 
   wire();
+  renderNews();
   renderPlanning();
   renderRail();
 

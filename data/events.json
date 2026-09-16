@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-16T01:45:54Z",
+ "generated_at": "2026-09-16T01:55:59Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-09-16",
-  "end": "2026-12-15"
+  "start": "2026-09-15",
+  "end": "2026-12-14"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 194
+   "events": 196
   },
   {
    "id": "piknic",
@@ -53,8 +53,8 @@
   "olympia",
   "centre-bell",
   "warehouse",
-  "blue-room",
   "theatre-beanfield",
+  "blue-room",
   "parc-jean-drapeau",
   "le-red-room",
   "salon-daome",
@@ -72,6 +72,7 @@
   "vino-disco",
   "sms-514-613-5811-for-location",
   "le-balcon",
+  "sans-soleil",
   "salon-badin",
   "barbossa",
   "la-recre",
@@ -86,7 +87,6 @@
   "cabaret-berlin",
   "la-sotterenea",
   "p-tit-ours",
-  "sans-soleil",
   "van-horne-skatepark",
   "le-lobby",
   "clebard",
@@ -738,6 +738,16 @@
    "popularity": 22,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c1aa30cff4957b1b291911ee",
+   "known": false
+  },
+  {
+   "id": "5-14-sessions",
+   "name": "5:14 Sessions",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1500,6 +1510,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "channel-tres",
+   "name": "Channel Tres",
+   "tier": 0,
+   "score": 58,
+   "popularity": 58,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/d4b8367cf65792e308584fe03aedf12d/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3668,6 +3688,16 @@
    "known": false
   },
   {
+   "id": "narcy",
+   "name": "Narcy",
+   "tier": 0,
+   "score": 28,
+   "popularity": 28,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/f995191c8c3ee2294ae78f763e17190a/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "neon",
    "name": "NEON",
    "tier": 0,
@@ -3880,6 +3910,16 @@
    "popularity": 5,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/9ae357423db41173a18094f376d933da/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "pec",
+   "name": "PEC [All Night Long]",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5029,6 +5069,16 @@
    "known": false
   },
   {
+   "id": "zainab",
+   "name": "Zainab",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/b7748d3a66a009ded88ebd26cc081683/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "zamna",
    "name": "Zamna",
    "tier": 0,
@@ -5060,6 +5110,126 @@
   }
  ],
  "events": [
+  {
+   "id": "9e997155a2cb",
+   "title": "Channel Tres - The Enigma Tour",
+   "venue_id": "theatre-beanfield",
+   "night": "2026-09-15",
+   "start": "2026-09-15T20:00:00-04:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "channel-tres",
+     "name": "Channel Tres",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "zainab",
+     "name": "Zainab",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/channel-tres-the-enigma-tour-montreal-quebec-09-15-2026/event/3100649DCF54C6FE",
+   "event_url": "https://www.ticketmaster.ca/channel-tres-the-enigma-tour-montreal-quebec-09-15-2026/event/3100649DCF54C6FE",
+   "image": "https://s1.ticketm.net/dam/a/3f4/e5435e39-c762-4a44-b31a-7cb8064bc3f4_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/channel-tres-the-enigma-tour-montreal-quebec-09-15-2026/event/3100649DCF54C6FE"
+    }
+   ],
+   "interest": {
+    "score": 48,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Channel Tres (58)",
+     "lieu : Théâtre Beanfield (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "33d46641487c",
+   "title": "Sans Soleil w/ Narcy",
+   "venue_id": "sans-soleil",
+   "night": "2026-09-15",
+   "start": "2026-09-15T20:00:00.000",
+   "end": "2026-09-16T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "narcy",
+     "name": "Narcy",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2531579",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2531579"
+    }
+   ],
+   "interest": {
+    "score": 26,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Narcy (28)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "e93ac15f7815",
+   "title": "5:14 Sessions with PEC [All Night Long]",
+   "venue_id": "le-red-room",
+   "night": "2026-09-15",
+   "start": "2026-09-15T22:00:00.000",
+   "end": "2026-09-16T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "5-14-sessions",
+     "name": "5:14 Sessions",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "pec",
+     "name": "PEC [All Night Long]",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2525391",
+   "event_url": "https://ra.co/events/2525391",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2525391"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : 5:14 Sessions (8)",
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
   {
    "id": "f75b5b84f46a",
    "title": "DOWN2TECHNO [Every Wednesday]",
@@ -14581,6 +14751,7 @@
    }
   }
  ],
+ "announcements": [],
  "spotlight": [
   {
    "kind": "event",
@@ -14749,18 +14920,18 @@
   },
   {
    "kind": "event",
-   "day": "JEU 15 OCT",
-   "title": "Sub Focus",
-   "venue": "New City Gas",
-   "time": "22:00 → 03:00",
+   "day": "DIM 11 OCT",
+   "title": "Beltran",
+   "venue": "Piknic Electronik",
+   "time": "16:00 → 21:30",
    "tier": 2,
-   "reason": "",
-   "supports": "",
+   "reason": "Festival",
+   "supports": "Demi Riquisimo, Sumatra, Lex Ferenda",
    "subtitle": "",
    "footer": "",
    "footer2": "",
-   "photo": "https://cdn-images.dzcdn.net/images/artist/3263b04252ef78d63799cc8a5d10655c/250x250-000000-80-0-0.jpg",
-   "event_id": "be01a07674b7"
+   "photo": "https://i.scdn.co/image/ab6761610000f1780768085fa4e404e10cf30820",
+   "event_id": "dfa3bc13cc64"
   }
  ]
 }
