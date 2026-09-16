@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-16T02:28:14Z",
+ "generated_at": "2026-09-16T04:19:56Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-09-15",
-  "end": "2026-12-14"
+  "start": "2026-09-16",
+  "end": "2026-12-15"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 403
+   "events": 399
   },
   {
    "id": "shotgun",
@@ -96,11 +96,12 @@
   "plat-form",
   "tba-45-bis-avenue-de-la-belle-gabrielle-94130-nogent-sur-marne-france",
   "plantation",
-  "la-gare-le-gore",
   "philharmonie-de-paris",
   "le-son-de-la-terre",
   "tba-centre-culturel-suisse",
   "babour-sauvage",
+  "la-gare-le-gore",
+  "pamela-club",
   "42-marches",
   "la-beach-parisienne",
   "tba-warehouse-st-denis",
@@ -109,7 +110,7 @@
   "jardin-des-traverses",
   "new-morning",
   "paname-sur-seine",
-  "pamela-club",
+  "radio-campus-paris",
   "le-mazette",
   "le-chinois",
   "le-klub",
@@ -130,7 +131,6 @@
   "le-flow-paris",
   "le-trianon",
   "les-lionnes",
-  "radio-campus-paris",
   "shake-n-smash",
   "tba-7-rue-st-just-93100-montreuil",
   "tba-75013",
@@ -1516,16 +1516,6 @@
    "known": false
   },
   {
-   "id": "acid-oslo",
-   "name": "ACID OSLO",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "acideplastique",
    "name": "acideplastique",
    "tier": 0,
@@ -2620,16 +2610,6 @@
    "popularity": 7,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/6ffa77b4c3b301bb9ab0260fbab382f8/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "bulie-jordeaux",
-   "name": "Bulie Jordeaux",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851d8e4f83ceb3787974401e2cb",
    "known": false
   },
   {
@@ -5891,16 +5871,6 @@
    "known": false
   },
   {
-   "id": "kreatur",
-   "name": "Kreatur",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/21fbe34b434f94f10b0ce8128b024c25/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "kx-chr",
    "name": "KX CHR",
    "tier": 0,
@@ -8226,6 +8196,16 @@
    "known": false
   },
   {
+   "id": "restonsflex",
+   "name": "RestonsFlex",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/6a5b07f914dc775d78d2c395a72ee3dc/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "rhode",
    "name": "Rhode",
    "tier": 0,
@@ -8633,16 +8613,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "shadowblast",
-   "name": "Shadowblast",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -10279,16 +10249,6 @@
    "known": false
   },
   {
-   "id": "zoppi",
-   "name": "Zoppi",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "zuri",
    "name": "Zuri",
    "tier": 0,
@@ -10320,137 +10280,6 @@
   }
  ],
  "events": [
-  {
-   "id": "e4bd3b4713c7",
-   "title": "Signal W/ Zoppi , Kreatur, Shadowblast",
-   "venue_id": "studio56",
-   "night": "2026-09-15",
-   "start": "2026-09-15T23:59:00.000",
-   "end": "2026-09-16T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "zoppi",
-     "name": "Zoppi",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "kreatur",
-     "name": "Kreatur",
-     "billing": "support"
-    },
-    {
-     "artist_id": "shadowblast",
-     "name": "Shadowblast",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2536062",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2536062"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Zoppi (8)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "cce8660b533d",
-   "title": "ACID OSLO",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-09-15",
-   "start": "2026-09-15T23:59:00.000",
-   "end": "2026-09-16T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "acid-oslo",
-     "name": "ACID OSLO",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2530927",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2530927"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : ACID OSLO (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "d0e6570e53d7",
-   "title": "Radiance 2026",
-   "venue_id": "la-boule-noire",
-   "night": "2026-09-15",
-   "start": "2026-09-15T19:00:00.000",
-   "end": "2026-09-17T23:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "vitaline",
-     "name": "Vitaline",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "bulie-jordeaux",
-     "name": "Bulie Jordeaux",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2491581",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2491581"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2491581"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2491581"
-    }
-   ],
-   "interest": {
-    "score": 10,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Vitaline (5)",
-     "lieu : La Boule Noire (palier 1)"
-    ]
-   }
-  },
   {
    "id": "6d7b95ef83aa",
    "title": "Vortex Invite: FUMI, VICØ, Keyklau",
@@ -13785,10 +13614,6 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2537501"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2537501"
     }
    ],
    "interest": {
@@ -13874,6 +13699,42 @@
     "reasons": [
      "tête d'affiche : Gaspard Magda (8)",
      "lieu : Amaluna Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "8bb7cb929055",
+   "title": "Circulaires Radio Campus Paris: Vice Experience x Festival Printemps des Humanités",
+   "venue_id": "radio-campus-paris",
+   "night": "2026-09-19",
+   "start": "2026-09-19T22:00:00.000",
+   "end": "2026-09-19T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "vice-experience",
+     "name": "Vice Experience",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2525133",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2525133"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Vice Experience (8)",
+     "lieu : Radio Campus Paris (palier 1)"
     ]
    }
   },
@@ -14287,10 +14148,6 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2537900"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2537900"
     }
    ],
    "interest": {
@@ -14335,6 +14192,42 @@
     "reasons": [
      "tête d'affiche : ESSENCE (0)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "31e9f1b4ad1e",
+   "title": "Free To Dance? - Restonsflex, Noëline, Ludo, Claragoat...",
+   "venue_id": "pamela-club",
+   "night": "2026-09-19",
+   "start": "2026-09-19T23:59:00.000",
+   "end": "2026-09-20T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "restonsflex",
+     "name": "RestonsFlex",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2524537",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2524537"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : RestonsFlex (0)",
+     "lieu : Pamela Club (palier 1)"
     ]
    }
   },

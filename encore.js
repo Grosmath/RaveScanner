@@ -204,12 +204,60 @@ function renderPlanning() {
 
 /* --------------------------------------------------------------- annonces */
 
-/* Pas de defilement automatique. Il a ete essaye et retire : `scrollLeft` est
-   souvent arrondi au pixel par le navigateur, donc un increment de 0,35 px par
-   image retombait a zero et rien ne bougeait - ni sur ordinateur ni sur
-   telephone. Surtout, il devient inutile maintenant que les cartes sont
-   triees par score : la plus grosse soiree est deja la premiere, et le reste
-   se fait glisser a la main. */
+let defileur = null;
+
+/* Defilement lent et continu du bandeau, en aller-retour.
+
+   LE PIEGE, mesure le 2026-09-16 : `element.scrollLeft += 0.35` repete cinq
+   fois laisse la position a ZERO. Le navigateur arrondit la propriete, donc un
+   increment inferieur au pixel est perdu a chaque image et rien ne bouge
+   jamais - ni sur ordinateur ni sur telephone. On garde donc la position dans
+   une variable flottante a nous, et on l'assigne : les memes cinq iterations
+   donnent alors 1,6 px.
+
+   S'arrete au survol et au focus clavier, s'arrete DEFINITIVEMENT des qu'on
+   prend la main (se faire reprendre le defilement sous le doigt est
+   desagreable), et ne demarre pas du tout si le systeme demande moins
+   d'animations. */
+function autoDefiler(rail) {
+  if (defileur) cancelAnimationFrame(defileur);
+  defileur = null;
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  // Les ecouteurs se posent UNE fois sur l'element, qui survit aux rendus :
+  // les rattacher a chaque changement de ville en empilerait un jeu de plus.
+  if (!rail.dataset.pauseCablee) {
+    rail.dataset.pauseCablee = '1';
+    const geler = () => { rail.dataset.pause = '1'; };
+    const reprendre = () => { delete rail.dataset.pause; };
+    rail.addEventListener('pointerenter', geler);
+    rail.addEventListener('pointerleave', reprendre);
+    rail.addEventListener('focusin', geler);
+    rail.addEventListener('focusout', reprendre);
+    rail.addEventListener('pointerdown', () => { rail.dataset.manuel = '1'; });
+    rail.addEventListener('wheel', () => { rail.dataset.manuel = '1'; }, { passive: true });
+  }
+
+  let pos = rail.scrollLeft;
+  let sens = 1;
+  const VITESSE = 0.4; // px par image, soit ~24 px/s
+
+  // Le debordement est re-mesure a chaque image : juste apres `innerHTML`, la
+  // mise en page n'est pas faite et une mesure unique pouvait conclure « rien
+  // a defiler » et ne jamais demarrer.
+  const pas = () => {
+    const max = rail.scrollWidth - rail.clientWidth;
+    if (max > 8 && !rail.dataset.pause && !rail.dataset.manuel) {
+      pos += VITESSE * sens;
+      if (pos >= max) { pos = max; sens = -1; }
+      else if (pos <= 0) { pos = 0; sens = 1; }
+      rail.scrollLeft = pos;
+    }
+    defileur = requestAnimationFrame(pas);
+  };
+  defileur = requestAnimationFrame(pas);
+}
 
 function renderNews() {
   const section = $('#news');
