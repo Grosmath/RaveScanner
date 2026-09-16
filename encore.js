@@ -209,6 +209,8 @@ function renderPlanning() {
   $('#empty').hidden = days.length > 0;
 
   if (days.length) (board ? renderBoard : renderList)(byDay, days);
+  $('#hint-scroll').hidden = !board || !days.length;
+  if (board && days.length) indiceDefilement();
 
   const n = kept.length;
   $('#planning-sub').textContent =
@@ -255,8 +257,9 @@ function autoDefiler(rail) {
   if (defileur) cancelAnimationFrame(defileur);
   defileur = null;
 
+  // Seule garde a l'entree : une bande qui bouge toute seule gene qui y est
+  // sensible, et rend le survol difficile.
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  if (rail.scrollWidth <= rail.clientWidth + 8) return;
 
   // Les ecouteurs se posent UNE fois sur l'element, qui survit aux rendus :
   // les rattacher a chaque changement de ville en empilerait un jeu de plus a
@@ -269,14 +272,22 @@ function autoDefiler(rail) {
     rail.addEventListener('pointerleave', reprendre);
     rail.addEventListener('focusin', geler);
     rail.addEventListener('focusout', reprendre);
+    // Une fois qu'on a pris la main, la bande cesse de bouger pour de bon :
+    // se faire reprendre le defilement sous le doigt est desagreable.
+    rail.addEventListener('pointerdown', () => { rail.dataset.manuel = '1'; });
+    rail.addEventListener('wheel', () => { rail.dataset.manuel = '1'; }, { passive: true });
   }
 
   let sens = 1;
   const VITESSE = 0.35; // px par image, soit ~20 px/s
 
+  // Le debordement est re-mesure a chaque image plutot qu'une fois au
+  // demarrage : juste apres `innerHTML`, la mise en page n'est pas forcement
+  // faite et les portraits pas charges, donc une mesure unique pouvait
+  // conclure « rien a defiler » et ne jamais demarrer.
   const pas = () => {
-    if (!rail.dataset.pause) {
-      const max = rail.scrollWidth - rail.clientWidth;
+    const max = rail.scrollWidth - rail.clientWidth;
+    if (max > 8 && !rail.dataset.pause && !rail.dataset.manuel) {
       rail.scrollLeft += VITESSE * sens;
       // Aller-retour plutot que boucle : pas de contenu duplique, et aucun
       // saut visible en fin de course.
@@ -286,6 +297,26 @@ function autoDefiler(rail) {
     defileur = requestAnimationFrame(pas);
   };
   defileur = requestAnimationFrame(pas);
+}
+
+/* La fleche qui remplace la barre de defilement du planning : elle dit qu'il y
+   a une suite, puis s'efface une fois que le lecteur a defile - l'indication a
+   fait son travail et n'a plus a occuper l'ecran. */
+function indiceDefilement() {
+  const zone = $('#board-wrap');
+  const fleche = $('#hint-scroll');
+  if (!zone || !fleche) return;
+
+  const revoir = () => {
+    const reste = zone.scrollWidth - zone.clientWidth - zone.scrollLeft;
+    fleche.classList.toggle('parti', zone.scrollLeft > 24 || reste < 24);
+  };
+  if (!zone.dataset.indiceCable) {
+    zone.dataset.indiceCable = '1';
+    zone.addEventListener('scroll', revoir, { passive: true });
+    window.addEventListener('resize', revoir);
+  }
+  revoir();
 }
 
 /* ------------------------------------------------------------------- rail */

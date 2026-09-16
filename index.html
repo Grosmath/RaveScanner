@@ -25,8 +25,12 @@
   </nav>
 
   <div class="city" role="group" aria-label="Ville">
-    <button type="button" data-city="montreal" class="is-active">Montréal</button>
-    <button type="button" data-city="paris">Paris</button>
+    <button type="button" data-city="montreal" class="is-active">
+      <span class="long">Montréal</span><span class="court">MTL</span>
+    </button>
+    <button type="button" data-city="paris">
+      <span class="long">Paris</span><span class="court">PAR</span>
+    </button>
   </div>
 
   <div class="search">
@@ -83,6 +87,10 @@
 
     <div class="panel-body">
       <div class="scroller" id="board-wrap"><div class="board" id="board"></div></div>
+      <!-- Hors de la zone defilante, sinon un element positionne a l'interieur
+           peut en allonger la largeur. Remplace la barre de defilement,
+           masquee : elle disait « il y a une suite » en abimant la page. -->
+      <span class="hint-scroll" id="hint-scroll" aria-hidden="true">→</span>
       <div class="agenda" id="agenda" hidden></div>
       <p class="empty" id="empty" hidden>Rien ne correspond à ces filtres.</p>
     </div>

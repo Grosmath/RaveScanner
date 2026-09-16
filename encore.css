@@ -104,6 +104,7 @@ body {
   cursor: pointer;
   white-space: nowrap;
 }
+.city button .court { display: none; }
 .city button:hover { color: var(--text); }
 .city button.is-active { color: var(--text); border-color: var(--line); background: var(--surface); }
 
@@ -137,9 +138,9 @@ body {
 .news { padding: .2rem .2rem 0; }
 
 .news h2 {
-  margin: 0 0 .5rem .7rem;
+  margin: 0 0 .7rem .9rem;
   font-family: var(--mono);
-  font-size: .66rem;
+  font-size: .78rem;
   letter-spacing: .15em;
   text-transform: uppercase;
   color: var(--accent);
@@ -160,8 +161,8 @@ body {
   align-items: center;
   gap: .55rem;
   flex: 0 0 auto;
-  width: 224px;
-  padding: .4rem .6rem .4rem .4rem;
+  width: 290px;
+  padding: .6rem .8rem .6rem .6rem;
   background: var(--surface);
   border: 1px solid var(--line-soft);
   border-radius: 3px;
@@ -173,8 +174,8 @@ body {
 .news-card:hover { border-color: var(--accent); }
 
 .news-card img {
-  width: 38px;
-  height: 38px;
+  width: 52px;
+  height: 52px;
   border-radius: 2px;
   object-fit: cover;
   flex: none;
@@ -188,7 +189,7 @@ body {
 }
 .news-card .nom {
   font-weight: 700;
-  font-size: .78rem;
+  font-size: .96rem;
   letter-spacing: -.01em;
   white-space: nowrap;
   overflow: hidden;
@@ -196,7 +197,7 @@ body {
 }
 .news-card .ou {
   font-family: var(--mono);
-  font-size: .62rem;
+  font-size: .72rem;
   color: var(--dim);
   white-space: nowrap;
   overflow: hidden;
@@ -207,12 +208,10 @@ body {
 
 main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
 
-.panel {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 4px;
-  overflow: hidden;
-}
+/* Plus de cadre : le planning pose sur le fond, comme le rail et les
+   annonces. Un contour gris autour d'une liste de cartes deja encadrees
+   empilait les boites sans rien ajouter. */
+.panel { background: transparent; border: 0; }
 
 .panel-head {
   display: flex;
@@ -220,27 +219,24 @@ main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
   justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
-  padding: 1rem 1.1rem;
-  border-bottom: 1px solid var(--line-soft);
+  padding: 0 .9rem 1rem;
 }
 
 .panel-head h2 {
   margin: 0;
-  font-size: 1.05rem;
-  letter-spacing: -.02em;
+  font-size: 1.6rem;
+  letter-spacing: -.035em;
 }
-.panel-head .sub,
-.panel-head .hint {
-  margin: .2rem 0 0;
+.panel-head .sub {
+  margin: .3rem 0 0;
   font-family: var(--mono);
-  font-size: .66rem;
+  font-size: .72rem;
   letter-spacing: .13em;
   text-transform: uppercase;
   color: var(--dim);
 }
-.panel-head .hint { color: var(--dimmer); }
 
-.panel-body { padding: .9rem; }
+.panel-body { padding: 0; position: relative; }
 
 .controls { display: flex; gap: .5rem; flex-wrap: wrap; }
 
@@ -263,8 +259,34 @@ main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
 
 /* ---------------------------------------------------------------- tableau */
 
-.scroller { overflow-x: auto; }
-.board { display: flex; gap: .7rem; align-items: flex-start; min-height: 120px; }
+/* Barre de defilement masquee : elle traversait la page d'un gris terne pour
+   dire « il y a une suite ». La fleche `.hint-scroll` le dit mieux, et s'en
+   va. */
+.scroller { overflow-x: auto; scrollbar-width: none; padding: 0 .9rem; }
+.scroller::-webkit-scrollbar { display: none; }
+
+.hint-scroll {
+  position: absolute;
+  right: 1rem;
+  bottom: .6rem;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--bg);
+  font-size: 1rem;
+  font-weight: 700;
+  pointer-events: none;
+  opacity: .92;
+  transition: opacity .45s ease, transform .45s ease;
+}
+/* Pose des que le lecteur a defile : l'indication a fait son travail. */
+.hint-scroll.parti { opacity: 0; transform: translateX(10px); }
+
+.board { display: flex; gap: .8rem; align-items: flex-start; min-height: 120px; }
 
 .day {
   flex: 0 0 var(--day-col);
@@ -278,10 +300,10 @@ main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: .55rem .7rem;
+  padding: .7rem .8rem;
   border-bottom: 1px solid var(--line-soft);
   font-family: var(--mono);
-  font-size: .68rem;
+  font-size: .76rem;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--dim);
@@ -289,7 +311,7 @@ main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
 .day-head .n { color: var(--dimmer); }
 .day--weekend .day-head strong { color: var(--weekend); }
 
-.day-list { padding: .4rem; display: flex; flex-direction: column; gap: .35rem; }
+.day-list { padding: .5rem; display: flex; flex-direction: column; gap: .45rem; }
 
 .ev {
   display: block;
@@ -297,8 +319,8 @@ main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
   text-align: left;
   background: var(--surface);
   border: 1px solid var(--line-soft);
-  border-radius: 2px;
-  padding: .5rem .6rem;
+  border-radius: 3px;
+  padding: .7rem .8rem;
   cursor: pointer;
   color: inherit;
   font: inherit;
@@ -326,9 +348,9 @@ main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
 .ev--t2:hover, .ev--t3:hover { filter: brightness(1.25); }
 
 .ev-top { display: flex; justify-content: space-between; gap: .5rem; align-items: baseline; }
-.ev-name { font-weight: 700; font-size: .88rem; letter-spacing: -.01em; }
-.ev-venue { color: var(--dim); font-size: .78rem; margin-top: .1rem; }
-.ev-time { font-family: var(--mono); font-size: .68rem; color: var(--dimmer); margin-top: .15rem; }
+.ev-name { font-weight: 700; font-size: 1.02rem; letter-spacing: -.015em; line-height: 1.2; }
+.ev-venue { color: var(--dim); font-size: .88rem; margin-top: .2rem; }
+.ev-time { font-family: var(--mono); font-size: .76rem; color: var(--dimmer); margin-top: .25rem; }
 
 .more {
   font-family: var(--mono);
@@ -367,11 +389,11 @@ main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
 .rail-section { padding: 1.4rem .2rem .6rem; }
 
 .rail-head { padding: 0 .9rem 1rem; }
-.rail-head h2 { margin: 0; font-size: 1.05rem; letter-spacing: -.02em; }
+.rail-head h2 { margin: 0; font-size: 1.6rem; letter-spacing: -.035em; }
 .rail-head .sub {
-  margin: .2rem 0 0;
+  margin: .3rem 0 0;
   font-family: var(--mono);
-  font-size: .66rem;
+  font-size: .72rem;
   letter-spacing: .13em;
   text-transform: uppercase;
   color: var(--dim);
@@ -401,9 +423,9 @@ main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
 .rail figure { margin: 0; flex: 0 0 auto; scroll-snap-align: center; }
 .rail canvas {
   display: block;
-  width: 244px;
-  height: 305px;
-  border-radius: 6px;
+  width: 312px;
+  height: 390px;
+  border-radius: 8px;
   background: var(--bg);
   cursor: pointer;
   transition: transform .18s ease, opacity .18s ease;
@@ -530,17 +552,22 @@ main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
 /* ----------------------------------------------------------------- mobile */
 
 @media (max-width: 760px) {
-  :root { --day-col: calc(100vw - 3.6rem); --top-h: 52px; }
+  :root { --day-col: calc(100vw - 2.6rem); --top-h: 52px; }
 
   .top { gap: .7rem; padding: 0 .8rem; }
   .sections a { padding: .4rem .5rem; font-size: .62rem; }
   .brand { font-size: 1rem; }
   .search { display: none; }
-  .city button { padding: .35rem .45rem; font-size: .6rem; }
 
-  main { padding: .7rem; gap: .7rem; }
-  .panel-head { padding: .8rem .85rem; }
-  .panel-body { padding: .6rem; }
+  /* « Montréal » debordait de l'ecran a cote du reste de la barre. */
+  .city button { padding: .35rem .5rem; font-size: .66rem; }
+  .city button .long { display: none; }
+  .city button .court { display: inline; }
+
+  main { padding: .7rem .1rem; gap: 1.2rem; }
+  .panel-head { padding: 0 .7rem .8rem; }
+  .panel-head h2, .rail-head h2 { font-size: 1.35rem; }
+  .scroller { padding: 0 .7rem; }
   .controls { width: 100%; }
   .seg { flex: 1 1 auto; }
   .seg button { flex: 1 1 auto; text-align: center; padding: .45rem .3rem; }
@@ -550,7 +577,12 @@ main { padding: 1.1rem; display: flex; flex-direction: column; gap: 1.1rem; }
 
   .news-card { width: 200px; }
   .rail { padding: .8rem .7rem 1rem; }
-  .rail canvas { width: 208px; height: 260px; }
+  /* Les cartes occupent presque toute la largeur, comme partout ailleurs sur
+     telephone : la suivante depasse juste assez pour qu'on sache qu'elle est
+     la. */
+  .rail canvas { width: calc(100vw - 5.5rem); height: calc((100vw - 5.5rem) * 1.25); }
+  .news-card { width: calc(100vw - 6.5rem); }
+  .hint-scroll { right: .8rem; bottom: .4rem; }
 
   /* La fiche monte du bas : sur un telephone, un panneau lateral n'a pas de
      cote ou se poser. */
