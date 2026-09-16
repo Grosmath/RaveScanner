@@ -38,11 +38,15 @@
 
 <main>
 
-  <!-- Les annonces fraiches, au-dessus du planning. Masquee tant qu'il n'y a
-       rien a dire - c'est le cas le premier jour d'une ville, ou l'on ne peut
-       pas distinguer « nouveau » de « decouvert en meme temps que le reste ». -->
-  <section class="news" id="news" hidden aria-label="Fraîchement annoncé">
-    <h2>Fraîchement annoncé</h2>
+  <!-- Ce qui est entre dans le planning ces derniers jours, au-dessus du
+       reste. Masquee tant qu'il n'y a rien a dire.
+
+       « Repere » et non « annonce » : on connait la date a laquelle NOUS avons
+       vu la soiree, pas celle a laquelle elle a ete annoncee. Les deux
+       coincident presque toujours, sauf le jour ou l'on ajoute une source ou
+       l'on elargit la fenetre - le libelle reste vrai dans les deux cas. -->
+  <section class="news" id="news" hidden aria-label="Repéré cette semaine">
+    <h2>Repéré cette semaine</h2>
     <div class="news-rail" id="news-rail"></div>
   </section>
 
