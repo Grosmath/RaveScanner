@@ -1,7 +1,7 @@
-/* ENCORE — nouvelle interface (v2).
+/* ENCORE — l'interface du site.
  *
- * Autonome : ne touche ni app.js ni styles.css, pour que l'ancienne page
- * continue de tourner et que revenir en arriere ne coute rien.
+ * Autonome : ne touche ni app.js ni styles.css, qui font tourner l'ancienne
+ * page conservee sous /classic.html. Revenir en arriere reste gratuit.
  *
  * Deux sections, deux besoins opposes que la meme fenetre ne pouvait pas
  * servir : le planning (dense, court terme, tous niveaux) et le rail « a ne
