@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-17T14:11:56Z",
+ "generated_at": "2026-09-17T19:59:44Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,12 +14,12 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 423
+   "events": 428
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 55
+   "events": 57
   }
  ],
  "venue_order": [
@@ -67,6 +67,7 @@
   "bal-chavaux",
   "parc-floral-de-paris",
   "zenith-paris-la-villette",
+  "point-ephemere",
   "magasins-generaux",
   "la-nuit",
   "la-maroquinerie",
@@ -78,7 +79,6 @@
   "la-bellevilloise",
   "tba-saint-denis",
   "le-pop-up-du-label",
-  "point-ephemere",
   "le-gambetta-club",
   "main-room",
   "taboo-paris",
@@ -137,6 +137,7 @@
   "mirage",
   "popup",
   "peniche-henjo",
+  "peniche-marcounet",
   "shake-n-smash",
   "tba-7-rue-st-just-93100-montreuil",
   "tba-75013",
@@ -1138,6 +1139,16 @@
   {
    "id": "peniche-henjo",
    "name": "Péniche Henjo",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "peniche-marcounet",
+   "name": "Péniche Marcounet",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -3583,6 +3594,16 @@
    "popularity": 30,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/9f67d4cffe24c446b221ba0d1a02f904/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "dalf-records-take-over",
+   "name": "DALF records Take Over",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -6505,6 +6526,16 @@
    "known": false
   },
   {
+   "id": "lacchesi",
+   "name": "Lacchesi",
+   "tier": 0,
+   "score": 38,
+   "popularity": 38,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17831670c5b201c63695a71e5cf",
+   "known": false
+  },
+  {
    "id": "lamache",
    "name": "Lamache",
    "tier": 0,
@@ -6612,6 +6643,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851eef163a0a89def4953b40443",
+   "known": false
+  },
+  {
+   "id": "le-wanski",
+   "name": "Le Wanski",
+   "tier": 0,
+   "score": 51,
+   "popularity": 51,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fc5801ec10f3064787bbf38d",
    "known": false
   },
   {
@@ -6882,6 +6923,16 @@
    "popularity": 34,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ae6a93b3f98635588a56e368",
+   "known": false
+  },
+  {
+   "id": "love-letters-club",
+   "name": "LOVE LETTERS CLUB",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7275,6 +7326,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "marsh",
+   "name": "Marsh",
+   "tier": 0,
+   "score": 67,
+   "popularity": 67,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787b56da31f993d1fb4ea5f56e",
    "known": false
   },
   {
@@ -9560,6 +9621,16 @@
    "known": false
   },
   {
+   "id": "skone",
+   "name": "Sköne",
+   "tier": 0,
+   "score": 46,
+   "popularity": 46,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178716ea940126dee92b169d630",
+   "known": false
+  },
+  {
    "id": "snoritz",
    "name": "snoritz",
    "tier": 0,
@@ -10903,6 +10974,16 @@
    "known": false
   },
   {
+   "id": "wandering-pulse",
+   "name": "Wandering Pulse",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "wanton",
    "name": "Wanton",
    "tier": 0,
@@ -11351,51 +11432,6 @@
    }
   },
   {
-   "id": "4ab64e6dd499",
-   "title": "Club — LA CH!CK: TUMBLR RAVE",
-   "venue_id": "badaboum",
-   "night": "2026-09-17",
-   "start": "2026-09-17T23:30:00.000",
-   "end": "2026-09-18T05:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "club-la-ch-ck-tumblr-rave",
-     "name": "Club — LA CH!CK: TUMBLR RAVE",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "pop"
-   ],
-   "families": [
-    "Pop & club"
-   ],
-   "price_min": 0.0,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2519720",
-   "event_url": "https://ra.co/events/2519720",
-   "image": "https://dice-media.imgix.net/attachments/2026-08-20/1d75e6ce-5e13-430e-864a-98d3b66b3353.jpg?rect=0%2C0%2C1080%2C1080",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2519720"
-    },
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/8e97k5-la-chck-tumblr-rave-17th-sep-badaboum-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Club — LA CH!CK: TUMBLR RAVE (8)",
-     "lieu : Badaboum (palier 2)"
-    ]
-   }
-  },
-  {
    "id": "c684c57545b2",
    "title": "Impact W/ Gwyze , Shadow Thugentawa , Stax",
    "venue_id": "studio56",
@@ -11439,6 +11475,51 @@
     "reasons": [
      "tête d'affiche : Gwyze (8)",
      "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "9f1b99e5378e",
+   "title": "LA CH!CK: TUMBLR RAVE",
+   "venue_id": "badaboum",
+   "night": "2026-09-17",
+   "start": "2026-09-17T23:30:00.000",
+   "end": "2026-09-18T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "club-la-ch-ck-tumblr-rave",
+     "name": "Club — LA CH!CK: TUMBLR RAVE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "pop"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": 0.0,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2519720",
+   "event_url": "https://ra.co/events/2519720",
+   "image": "https://dice-media.imgix.net/attachments/2026-08-20/1d75e6ce-5e13-430e-864a-98d3b66b3353.jpg?rect=0%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2519720"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/8e97k5-la-chck-tumblr-rave-17th-sep-badaboum-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Club — LA CH!CK: TUMBLR RAVE (8)",
+     "lieu : Badaboum (palier 2)"
     ]
    }
   },
@@ -12360,8 +12441,56 @@
    }
   },
   {
-   "id": "2b5e8f3cf968",
-   "title": "Club — Worms: Kode9, Breaka, re:ni, Shfoosja",
+   "id": "58a6e686dfd3",
+   "title": "Groove Boys Project & Friends",
+   "venue_id": "le-211",
+   "night": "2026-09-18",
+   "start": "2026-09-18T23:00:00.000",
+   "end": "2026-09-19T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "friends",
+     "name": "friends all night long",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "groove-boys-project",
+     "name": "Groove Boys Project",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "garage",
+    "deep house"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2534723",
+   "event_url": "https://ra.co/events/2534723",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2534723"
+    }
+   ],
+   "interest": {
+    "score": 37,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : friends all night long (43)",
+     "lieu : Le 211 (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "1f0aab4c7ed3",
+   "title": "Worms: Kode9, Breaka, re:ni, Shfoosja",
    "venue_id": "badaboum",
    "night": "2026-09-18",
    "start": "2026-09-18T23:30:00.000",
@@ -12422,54 +12551,6 @@
     "reasons": [
      "tête d'affiche : Breaka (35)",
      "lieu : Badaboum (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "58a6e686dfd3",
-   "title": "Groove Boys Project & Friends",
-   "venue_id": "le-211",
-   "night": "2026-09-18",
-   "start": "2026-09-18T23:00:00.000",
-   "end": "2026-09-19T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "friends",
-     "name": "friends all night long",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "groove-boys-project",
-     "name": "Groove Boys Project",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "garage",
-    "deep house"
-   ],
-   "families": [
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2534723",
-   "event_url": "https://ra.co/events/2534723",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2534723"
-    }
-   ],
-   "interest": {
-    "score": 37,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : friends all night long (43)",
-     "lieu : Le 211 (palier 1)"
     ]
    }
   },
@@ -13092,6 +13173,49 @@
     "reasons": [
      "tête d'affiche : Open Air Party - Mini Festival (8)",
      "lieu : Paname sur Seine (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "8fb29ff4437f",
+   "title": "Resumption",
+   "venue_id": "peniche-marcounet",
+   "night": "2026-09-18",
+   "start": "2026-09-18T22:00:00.000",
+   "end": "2026-09-19T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "wandering-pulse",
+     "name": "Wandering Pulse",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539793",
+   "event_url": "https://ra.co/events/2539793",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539793"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Wandering Pulse (8)",
+     "lieu : Péniche Marcounet (palier 1)"
     ]
    }
   },
@@ -14126,8 +14250,8 @@
    }
   },
   {
-   "id": "628b6ad84cbd",
-   "title": "Concert — Deadbeat presents Dubtechno Special Tikiman live, Neida live, re:ni",
+   "id": "3d8d577aafab",
+   "title": "Deadbeat presents Dubtechno Special Tikiman live, Neida live, re:ni",
    "venue_id": "badaboum",
    "night": "2026-09-19",
    "start": "2026-09-19T19:30:00.000",
@@ -14250,8 +14374,8 @@
    }
   },
   {
-   "id": "e11a6f91b863",
-   "title": "Club — BADSISTA, anyoneID, Sevenbeatz B2B Sorun, Sudar",
+   "id": "d25589617c10",
+   "title": "BADSISTA, anyoneID, Sevenbeatz B2B Sorun, Sudar",
    "venue_id": "badaboum",
    "night": "2026-09-19",
    "start": "2026-09-19T23:30:00.000",
@@ -16685,8 +16809,8 @@
    }
   },
   {
-   "id": "69aca4129ea4",
-   "title": "Club — LA CH!CK: 100% FRENCH POP",
+   "id": "9ca5cbe9ad12",
+   "title": "LA CH!CK: 100% FRENCH POP",
    "venue_id": "badaboum",
    "night": "2026-09-24",
    "start": "2026-09-24T23:30:00.000",
@@ -17321,8 +17445,8 @@
    }
   },
   {
-   "id": "10bca0823ee0",
-   "title": "Club — Rinse: Hyas, Naomi b2b Saari, SOTTOH",
+   "id": "9f76bd2db3d1",
+   "title": "Rinse: Hyas, Naomi b2b Saari, SOTTOH",
    "venue_id": "badaboum",
    "night": "2026-09-25",
    "start": "2026-09-25T23:30:00.000",
@@ -18845,8 +18969,8 @@
    }
   },
   {
-   "id": "7ade81e0740f",
-   "title": "Club — Zaatar Release Party: DJ MELL G, Djedjotronic",
+   "id": "e4c63f3fd49b",
+   "title": "Zaatar Release Party: DJ MELL G, Djedjotronic",
    "venue_id": "badaboum",
    "night": "2026-09-26",
    "start": "2026-09-26T23:30:00.000",
@@ -19630,6 +19754,49 @@
    }
   },
   {
+   "id": "26751721fa5d",
+   "title": "LOVE LETTERS CLUB",
+   "venue_id": "point-ephemere",
+   "night": "2026-09-26",
+   "start": "2026-09-26T23:59:00.000",
+   "end": "2026-09-27T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "love-letters-club",
+     "name": "LOVE LETTERS CLUB",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539971",
+   "event_url": "https://ra.co/events/2539971",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539971"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LOVE LETTERS CLUB (8)",
+     "lieu : Point Ephémère (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "082e2baa8876",
    "title": "MÉSOS x Climb Arena",
    "venue_id": "tba",
@@ -19677,8 +19844,8 @@
    }
   },
   {
-   "id": "3409f5f87b4a",
-   "title": "Sherif",
+   "id": "56c033896bce",
+   "title": "Sherif at Double Vie",
    "venue_id": "double-vie",
    "night": "2026-09-26",
    "start": "2026-09-26T21:30:00.000",
@@ -20508,8 +20675,8 @@
    }
   },
   {
-   "id": "5ee4db334926",
-   "title": "Club — LA CH!CK: PROJET X",
+   "id": "0703a1484f4c",
+   "title": "LA CH!CK: PROJET X",
    "venue_id": "badaboum",
    "night": "2026-10-01",
    "start": "2026-10-01T23:30:00.000",
@@ -20953,8 +21120,8 @@
    }
   },
   {
-   "id": "0e01b4b9cc84",
-   "title": "Club — Orange Crush: Bennet B2B Sinéad, Zuri, RĒVE",
+   "id": "221feecde88c",
+   "title": "Orange Crush: Bennet B2B Sinéad, Zuri, RĒVE",
    "venue_id": "badaboum",
    "night": "2026-10-02",
    "start": "2026-10-02T23:30:00.000",
@@ -21647,8 +21814,8 @@
    }
   },
   {
-   "id": "f5981cfa9657",
-   "title": "Concert — Otha, Luxie",
+   "id": "4a95c9b24513",
+   "title": "Otha, Luxie",
    "venue_id": "badaboum",
    "night": "2026-10-02",
    "start": "2026-10-02T19:30:00.000",
@@ -23712,6 +23879,47 @@
    }
   },
   {
+   "id": "16c01af29d8a",
+   "title": "Lacchesi - all night long - with special guest",
+   "venue_id": "essaim",
+   "night": "2026-10-08",
+   "start": "2026-10-08T23:00:00.000",
+   "end": "2026-10-09T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lacchesi",
+     "name": "Lacchesi",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2537698",
+   "event_url": "https://ra.co/events/2537698",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2537698"
+    }
+   ],
+   "interest": {
+    "score": 33,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lacchesi (38)",
+     "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8b0be7c40223",
    "title": "LA CH!CK PROJET X",
    "venue_id": "badaboum",
@@ -25721,6 +25929,49 @@
    }
   },
   {
+   "id": "f65c21a33a2b",
+   "title": "DALF records Take Over",
+   "venue_id": "point-ephemere",
+   "night": "2026-10-10",
+   "start": "2026-10-10T22:00:00.000",
+   "end": "2026-10-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dalf-records-take-over",
+     "name": "DALF records Take Over",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "breakbeat",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539907",
+   "event_url": "https://ra.co/events/2539907",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539907"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DALF records Take Over (8)",
+     "lieu : Point Ephémère (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "fbff7429b668",
    "title": "DJ Masda - all night long",
    "venue_id": "essaim",
@@ -26586,8 +26837,8 @@
    }
   },
   {
-   "id": "a475e39544fb",
-   "title": "Club — LAMALICE Residency: Janeret, Dana Kuehr, Mel",
+   "id": "e589f619e408",
+   "title": "LAMALICE Residency: Janeret, Dana Kuehr, Mel",
    "venue_id": "badaboum",
    "night": "2026-10-16",
    "start": "2026-10-16T23:30:00.000",
@@ -27349,8 +27600,8 @@
    }
   },
   {
-   "id": "98386e6264c7",
-   "title": "Club — Spray, Pureblast, Maco Maria",
+   "id": "4ed41172662b",
+   "title": "Spray, Pureblast, Maco Maria",
    "venue_id": "badaboum",
    "night": "2026-10-17",
    "start": "2026-10-17T23:30:00.000",
@@ -28304,8 +28555,8 @@
    }
   },
   {
-   "id": "19c07e08e92d",
-   "title": "Concert — Mari Merenda, Virginia Cambuci",
+   "id": "72d9ce158ba7",
+   "title": "Mari Merenda, Virginia Cambuci",
    "venue_id": "badaboum",
    "night": "2026-10-23",
    "start": "2026-10-23T19:30:00.000",
@@ -28992,8 +29243,8 @@
    }
   },
   {
-   "id": "9dc4ecdc46a6",
-   "title": "Concert — Hypershot: Europa, Sodomland, The Velvet Brothers",
+   "id": "2b6bbc590b7c",
+   "title": "Hypershot: Europa, Sodomland, The Velvet Brothers",
    "venue_id": "badaboum",
    "night": "2026-10-29",
    "start": "2026-10-29T19:30:00.000",
@@ -29501,7 +29752,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2539892",
    "event_url": "https://ra.co/events/2539892",
    "image": "",
    "status": "confirmed",
@@ -30082,8 +30333,8 @@
    }
   },
   {
-   "id": "f7b6fd3f5ca2",
-   "title": "Club — DH2: Pitchfork Music Festival Paris 2026",
+   "id": "ca4a580e1943",
+   "title": "DH2: Pitchfork Music Festival Paris 2026",
    "venue_id": "badaboum",
    "night": "2026-11-05",
    "start": "2026-11-05T23:30:00.000",
@@ -30095,18 +30346,24 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
+   "genres": [
+    "electronic"
+   ],
    "families": [],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2454718",
    "event_url": "https://ra.co/events/2454718",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-06-01/fd4db95e-8bfc-48da-a8f1-3cc4666491ef.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2454718"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/xeokdk-dh2-pitchfork-music-festival-paris-2026-5th-nov-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -30347,6 +30604,58 @@
     "reasons": [
      "tête d'affiche : Nesta (51)",
      "lieu : FVTVR (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "dd2583d62465",
+   "title": "Le Wanski & Friends: Sköne, N-Xd, Mosmoz",
+   "venue_id": "mia-mao",
+   "night": "2026-11-07",
+   "start": "2026-11-07T23:59:00.000",
+   "end": "2026-11-08T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "le-wanski",
+     "name": "Le Wanski",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "skone",
+     "name": "Sköne",
+     "billing": "support"
+    },
+    {
+     "artist_id": "night-owl",
+     "name": "Night Owl",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "acid"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539960",
+   "event_url": "https://ra.co/events/2539960",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539960"
+    }
+   ],
+   "interest": {
+    "score": 43,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Le Wanski (51)",
+     "lieu : Mia Mao (palier 1)"
     ]
    }
   },
@@ -30785,6 +31094,45 @@
    }
   },
   {
+   "id": "18d792ff0ea9",
+   "title": "Marsh",
+   "venue_id": "central-chapelle",
+   "night": "2026-11-14",
+   "start": "2026-11-14T20:00:00+01:00",
+   "end": "2026-11-14T23:45:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "marsh",
+     "name": "Marsh",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 29.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/wwkl5x-marsh-14th-nov-central-chapelle-paris-tickets",
+   "event_url": "https://dice.fm/event/wwkl5x-marsh-14th-nov-central-chapelle-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-11/1b915e26-dc60-4d0c-b992-3b3c2ce5c5bc.jpg?rect=500%2C0%2C2001%2C2001",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/wwkl5x-marsh-14th-nov-central-chapelle-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 54,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Marsh (67)",
+     "lieu : Central Chapelle (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "af16af0e7baa",
    "title": "GRÜV x",
    "venue_id": "tba-secret-warehouse",
@@ -30909,8 +31257,8 @@
    }
   },
   {
-   "id": "6b450192ae72",
-   "title": "Concert — Maria Arnal",
+   "id": "c8ef075a3022",
+   "title": "Maria Arnal",
    "venue_id": "badaboum",
    "night": "2026-11-19",
    "start": "2026-11-19T19:30:00.000",
@@ -32045,6 +32393,20 @@
    "night": "2026-10-17",
    "venue": "T7",
    "photo": "https://i.scdn.co/image/ab6761610000f178fd31261b54b262aa3aca9de3"
+  },
+  {
+   "id": "18d792ff0ea9",
+   "name": "Marsh",
+   "night": "2026-11-14",
+   "venue": "Central Chapelle",
+   "photo": "https://i.scdn.co/image/ab6761610000f1787b56da31f993d1fb4ea5f56e"
+  },
+  {
+   "id": "221feecde88c",
+   "name": "RĒVE",
+   "night": "2026-10-02",
+   "venue": "Badaboum",
+   "photo": "https://i.scdn.co/image/ab6761610000f1781e41f135642952bda0792797"
   },
   {
    "id": "fa90241b2e45",

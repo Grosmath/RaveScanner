@@ -333,7 +333,7 @@ function renderRail() {
     canvas.height = H;
     if (card.event_id) {
       canvas.dataset.event = card.event_id;
-      canvas.title = `${card.title} — ${card.venue}`;
+      canvas.title = `${card.title} · ${card.venue}`;
     }
     fig.append(canvas);
     rail.append(fig);
@@ -396,7 +396,7 @@ function openSheet(id) {
 
     ${links ? `<section><h4>Y aller</h4><div class="links">${links}</div></section>` : ''}
 
-    <p class="soon">Favoris — bientôt</p>`;
+    <p class="soon">Favoris, bientôt</p>`;
 
   $('#sheet').hidden = false;
   $('#veil').hidden = false;
@@ -539,6 +539,7 @@ function wire() {
         return;
       }
       $('#error').hidden = true;
+      titrer();
       renderGenres();
       renderNews();
       renderPlanning();
@@ -557,6 +558,13 @@ function wire() {
 }
 
 /* ------------------------------------------------------------------- boot */
+
+/* Le titre de l'onglet suit la ville affichee : il annoncait Montreal a un
+   Parisien. Point median et non tiret cadratin, comme partout ailleurs. */
+function titrer() {
+  const ville = store.data && store.data.city_label;
+  document.title = ville ? `ENCORE · ${ville}` : 'ENCORE';
+}
 
 /* ------------------------------------------------------- installation */
 
@@ -644,6 +652,7 @@ async function boot() {
     return;
   }
 
+  titrer();
   document.querySelectorAll('[data-city]').forEach((b) => b.classList.toggle('is-active', b.dataset.city === state.city));
   document.querySelectorAll('[data-tier]').forEach((b) => b.classList.toggle('is-active', Number(b.dataset.tier) === state.tier));
   $('#q').value = state.q;
