@@ -268,6 +268,76 @@ main { padding: 1.3rem 0; display: flex; flex-direction: column; gap: 1.6rem; }
 .seg button:hover { color: var(--text); background: var(--surface-2); }
 .seg button.is-active { background: var(--accent); color: var(--bg); font-weight: 700; }
 
+/* Menu des familles de genres. Meme langage que `.seg` : bordure fine, mono,
+   accent plein quand un filtre est actif. */
+.genres { position: relative; }
+.genres summary {
+  list-style: none;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: .68rem;
+  letter-spacing: .1em;
+  padding: .4rem .65rem;
+  color: var(--dim);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  white-space: nowrap;
+  user-select: none;
+}
+.genres summary::-webkit-details-marker { display: none; }
+.genres summary::after { content: " ▾"; }
+.genres[open] summary::after { content: " ▴"; }
+.genres summary:hover { color: var(--text); background: var(--surface-2); }
+.genres.is-active summary { background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700; }
+
+.genres-panel {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  z-index: 30;
+  width: 260px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  padding: .45rem;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, .45);
+}
+.genre {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  padding: .45rem .5rem;
+  font-size: .9rem;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.genre:hover { background: var(--surface-2); }
+.genre input { accent-color: var(--accent); margin: 0; }
+.genre .n { margin-left: auto; font-family: var(--mono); font-size: .7rem; color: var(--dimmer); }
+.genre.is-on span:first-of-type { color: var(--accent); }
+.genres-note {
+  margin: .4rem .5rem .2rem;
+  font-size: .72rem;
+  line-height: 1.4;
+  color: var(--dimmer);
+}
+.genres-note:empty { display: none; }
+.genres-clear {
+  display: block;
+  width: calc(100% - 1rem);
+  margin: .35rem .5rem .2rem;
+  padding: .4rem;
+  font-family: var(--mono);
+  font-size: .66rem;
+  letter-spacing: .1em;
+  color: var(--dim);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  cursor: pointer;
+}
+.genres-clear:hover { color: var(--text); border-color: var(--dim); }
+
 /* ---------------------------------------------------------------- tableau */
 
 /* Barre de defilement masquee : elle traversait la page d'un gris terne pour
@@ -572,6 +642,11 @@ main { padding: 1.3rem 0; display: flex; flex-direction: column; gap: 1.6rem; }
   .panel-head h2, .rail-head h2 { font-size: 1.35rem; }
   .controls { width: 100%; }
   .seg { flex: 1 1 auto; }
+  /* Sur telephone, le menu passe sous le niveau et s'ouvre sur toute la
+     largeur : un panneau de 260 px cale a droite debordait a gauche. */
+  .genres { flex: 1 1 100%; order: 2; }
+  .genres summary { text-align: center; }
+  .genres-panel { left: 0; right: 0; width: auto; }
   .seg button { flex: 1 1 auto; text-align: center; padding: .45rem .3rem; }
 
   /* L'accrochage cale la colonne sur le bord du conteneur, pas sur sa

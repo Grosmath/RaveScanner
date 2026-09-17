@@ -25,7 +25,7 @@ const MONTHS = ['jan', 'fév', 'mar', 'avr', 'mai', 'juin', 'juil', 'août', 'se
 
 const COLLAPSE_AT = 4;
 
-const state = { city: VILLE_DEFAUT, tier: 0, q: '', event: null };
+const state = { city: VILLE_DEFAUT, tier: 0, genres: [], q: '', event: null };
 const store = { data: null, venues: new Map(), artists: new Map(), events: new Map() };
 const expanded = new Set();
 
@@ -71,6 +71,7 @@ function timeRange(ev) {
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
   if (p.has('n')) state.tier = Number(p.get('n')) || 0;
+  if (p.has('g')) state.genres = p.get('g').split(',').filter(Boolean);
   if (p.has('q')) state.q = p.get('q');
   if (p.has('e')) state.event = p.get('e');
   // La ville vient de l'URL si elle y est, sinon du dernier choix retenu.
@@ -84,6 +85,7 @@ function writeHash() {
   const p = new URLSearchParams();
   if (state.city !== VILLE_DEFAUT) p.set('ville', state.city);
   if (state.tier) p.set('n', state.tier);
+  if (state.genres.length) p.set('g', state.genres.join(','));
   if (state.q) p.set('q', state.q);
   // La fiche vit dans l'URL : un lien vers une soiree precise se partage.
   if (state.event) p.set('e', state.event);
@@ -123,8 +125,12 @@ function joursConnus(events) {
   return [...new Set(events.map((e) => e.night))].filter((j) => j >= aujourdhui).sort();
 }
 
-function matches(ev) {
+function matches(ev, { sansGenres = false } = {}) {
   if (ev.interest.tier < state.tier) return false;
+  // Plusieurs familles cochees : une soiree qui appartient a l'une d'elles
+  // suffit. « Techno » + « House » doit montrer plus, pas moins.
+  if (!sansGenres && state.genres.length
+      && !(ev.families || []).some((f) => state.genres.includes(f))) return false;
   if (!state.q) return true;
   const needle = state.q.toLowerCase();
   const hay = [
@@ -404,6 +410,47 @@ function closeSheet() {
   $('#veil').hidden = true;
 }
 
+/* ----------------------------------------------------------------- genres */
+
+/* Le menu ne propose que les familles presentes dans la ville, dans l'ordre
+   decide par le moteur (`payload.families`). Les nombres suivent le niveau et
+   la recherche, mais pas les familles deja cochees : sinon cocher « Techno »
+   ferait tomber « House » a zero, alors que les cocher ensemble l'ajoute. */
+function renderGenres() {
+  const familles = store.data.families || [];
+  const details = $('#genres');
+  details.hidden = !familles.length;
+  // Une famille absente de cette ville (on vient d'en changer) est oubliee.
+  state.genres = state.genres.filter((f) => familles.includes(f));
+
+  const aujourdhui = todayISO();
+  const vivants = store.data.events.filter((e) => e.night >= aujourdhui && matches(e, { sansGenres: true }));
+  const compte = new Map(familles.map((f) => [f, 0]));
+  let sansFamille = 0;
+  for (const e of vivants) {
+    if (!(e.families || []).length) sansFamille++;
+    for (const f of e.families || []) compte.set(f, (compte.get(f) || 0) + 1);
+  }
+
+  $('#genres-list').innerHTML = familles.map((f) => `
+    <label class="genre${state.genres.includes(f) ? ' is-on' : ''}">
+      <input type="checkbox" value="${esc(f)}"${state.genres.includes(f) ? ' checked' : ''}>
+      <span>${esc(f)}</span><span class="n">${compte.get(f) || 0}</span>
+    </label>`).join('');
+
+  // Le dire plutot que le laisser deviner : une soiree sans genre connu
+  // disparait des qu'on filtre, et ce n'est pas parce qu'elle n'est pas
+  // « techno ».
+  $('#genres-note').textContent = sansFamille
+    ? `${sansFamille} soirée${sansFamille > 1 ? 's' : ''} sans genre connu, masquée${sansFamille > 1 ? 's' : ''} dès qu'un genre est choisi.`
+    : '';
+  $('#genres-clear').hidden = !state.genres.length;
+
+  const n = state.genres.length;
+  $('#genres-label').textContent = !n ? 'Genres' : n === 1 ? state.genres[0] : `${n} genres`;
+  details.classList.toggle('is-active', n > 0);
+}
+
 /* ------------------------------------------------------------------ câblage */
 
 function segment(selector, key, cast = Number) {
@@ -414,12 +461,33 @@ function segment(selector, key, cast = Number) {
       expanded.clear();
       writeHash();
       renderPlanning();
+      renderGenres();
     });
   });
 }
 
 function wire() {
   segment('[data-tier]', 'tier');
+
+  $('#genres-list').addEventListener('change', () => {
+    state.genres = [...document.querySelectorAll('#genres-list input:checked')].map((i) => i.value);
+    expanded.clear();
+    writeHash();
+    renderPlanning();
+    renderGenres();
+  });
+  $('#genres-clear').addEventListener('click', () => {
+    state.genres = [];
+    expanded.clear();
+    writeHash();
+    renderPlanning();
+    renderGenres();
+  });
+  // Le menu se ferme quand on clique ailleurs, comme n'importe quel menu.
+  document.addEventListener('click', (e) => {
+    const menu = $('#genres');
+    if (menu.open && !menu.contains(e.target)) menu.open = false;
+  });
 
   let timer;
   $('#q').addEventListener('input', (e) => {
@@ -428,6 +496,7 @@ function wire() {
       state.q = e.target.value.trim();
       writeHash();
       renderPlanning();
+      renderGenres();
     }, 180);
   });
 
@@ -470,6 +539,7 @@ function wire() {
         return;
       }
       $('#error').hidden = true;
+      renderGenres();
       renderNews();
       renderPlanning();
       renderRail();
@@ -503,6 +573,7 @@ async function boot() {
   $('#q').value = state.q;
 
   wire();
+  renderGenres();
   renderNews();
   renderPlanning();
   renderRail();

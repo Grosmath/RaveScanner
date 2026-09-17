@@ -63,12 +63,20 @@
         <p class="sub" id="planning-sub">—</p>
       </div>
 
-      <!-- Un seul réglage. La vue liste et le choix du nombre de jours ont été
-           retirés le 2026-09-16 : personne n'a de raison de préférer une liste
-           au tableau, ni 7 jours à tout ce qu'on connaît. Le planning affiche
-           donc toute la fenêtre scannée, et le seul arbitrage qui compte reste
-           le niveau de mise en avant. -->
+      <!-- Deux réglages : le niveau de mise en avant, et les familles de
+           genres. La vue liste et le choix du nombre de jours ont été retirés
+           le 2026-09-16. Le filtre par genre, lui, avait disparu par oubli au
+           passage à cette interface ; il revient par familles, rangées par le
+           moteur (engine/reload/genres.py). -->
       <div class="controls">
+        <details class="genres" id="genres">
+          <summary><span id="genres-label">Genres</span></summary>
+          <div class="genres-panel">
+            <div class="genres-list" id="genres-list"></div>
+            <p class="genres-note" id="genres-note"></p>
+            <button type="button" class="genres-clear" id="genres-clear">Tout afficher</button>
+          </div>
+        </details>
         <div class="seg" role="group" aria-label="Mise en avant">
           <button type="button" data-tier="0" class="is-active">Tout</button>
           <button type="button" data-tier="2">À retenir</button>
