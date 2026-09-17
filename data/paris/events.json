@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-17T04:48:03Z",
+ "generated_at": "2026-09-17T14:11:56Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,16 +14,17 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 412
+   "events": 423
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 52
+   "events": 55
   }
  ],
  "venue_order": [
   "yoyo-palais-de-tokyo",
+  "t7",
   "cite-du-cinema",
   "central-chapelle",
   "rex-club",
@@ -41,10 +42,11 @@
   "parc-des-expositions-paris-nord",
   "kilometre25",
   "la-cite-fertile",
+  "djoon",
+  "42-marches",
   "essaim",
   "nouveau-casino",
   "le-grand-rex",
-  "djoon",
   "badaboum",
   "rooftop-nijinsky",
   "studio56",
@@ -60,7 +62,6 @@
   "la-clairiere",
   "workshow",
   "petit-bain",
-  "t7",
   "cite-de-la-musique",
   "le-bataclan",
   "bal-chavaux",
@@ -91,10 +92,10 @@
   "tba-secret-warehouse",
   "gibus-club",
   "philharmonie-de-paris",
+  "la-prairie-du-canal",
   "tba-paris",
   "lafayette-anticipations",
   "le-6b",
-  "la-prairie-du-canal",
   "la-marbrerie",
   "la-mecanique-ondulatoire",
   "pamela-club",
@@ -102,11 +103,10 @@
   "plat-form",
   "tba-45-bis-avenue-de-la-belle-gabrielle-94130-nogent-sur-marne-france",
   "plantation",
+  "babour-sauvage",
   "kermes",
   "le-son-de-la-terre",
   "tba-centre-culturel-suisse",
-  "42-marches",
-  "babour-sauvage",
   "la-beach-parisienne",
   "tba-warehouse-st-denis",
   "concorde-atlantique",
@@ -121,6 +121,7 @@
   "bizz-art",
   "canal-93",
   "casa-trocadero",
+  "chalet-du-lac",
   "ddd",
   "dock-b",
   "double-vie",
@@ -276,6 +277,16 @@
   {
    "id": "central-chapelle",
    "name": "Central Chapelle",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "chalet-du-lac",
+   "name": "Chalet du Lac",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1996,6 +2007,16 @@
    "known": false
   },
   {
+   "id": "anas",
+   "name": "Anas.",
+   "tier": 0,
+   "score": 83,
+   "popularity": 83,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/632a1532ee86dedf6efa5fb8e9a385e4/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "andata",
    "name": "ANDATA",
    "tier": 0,
@@ -2643,6 +2664,16 @@
    "known": false
   },
   {
+   "id": "bitschu-batschu",
+   "name": "Bitschu Batschu",
+   "tier": 0,
+   "score": 45,
+   "popularity": 45,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178af7988d89ca6998e758e1e2b",
+   "known": false
+  },
+  {
    "id": "blaame",
    "name": "Blaame",
    "tier": 0,
@@ -2660,6 +2691,16 @@
    "popularity": 14,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788b6a966c813e0c203d2a947a",
+   "known": false
+  },
+  {
+   "id": "blck-mamba",
+   "name": "Blck Mamba",
+   "tier": 0,
+   "score": 7,
+   "popularity": 7,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781f39edeec09cacf78183cc40",
    "known": false
   },
   {
@@ -2700,6 +2741,16 @@
    "popularity": 94,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845",
+   "known": false
+  },
+  {
+   "id": "boddhi-satva",
+   "name": "Boddhi Satva",
+   "tier": 0,
+   "score": 44,
+   "popularity": 44,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782ee8ac8f90d2f09b1d76aced",
    "known": false
   },
   {
@@ -3197,6 +3248,26 @@
   {
    "id": "chronologic",
    "name": "CHRONOLOGIC",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "chtak",
+   "name": "Chtak.",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "cici-that-walk",
+   "name": "Cici That Walk",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5591,6 +5662,16 @@
    "known": false
   },
   {
+   "id": "jacidorex",
+   "name": "Jacidorex",
+   "tier": 0,
+   "score": 43,
+   "popularity": 43,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fd14920e0eff08b195e6f077",
+   "known": false
+  },
+  {
    "id": "jade-edwards",
    "name": "Jade Edwards",
    "tier": 0,
@@ -5938,6 +6019,16 @@
    "popularity": 43,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786094919122d225a310e15616",
+   "known": false
+  },
+  {
+   "id": "julian-muller",
+   "name": "Julian Muller",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/91ed818efbdbe43ae735da4692b91fd3/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -6324,6 +6415,16 @@
    "known": false
   },
   {
+   "id": "krl-mx",
+   "name": "Krl Mx",
+   "tier": 0,
+   "score": 38,
+   "popularity": 38,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17899c6ba6bad9ac37142cb8567",
+   "known": false
+  },
+  {
    "id": "kx-chr",
    "name": "KX CHR",
    "tier": 0,
@@ -6494,6 +6595,16 @@
    "known": false
   },
   {
+   "id": "le-chalet-des-monstres-halloween-party-geante",
+   "name": "LE CHALET DES MONSTRES HALLOWEEN PARTY GEANTE",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "le-saint",
    "name": "Le Saint",
    "tier": 0,
@@ -6511,6 +6622,16 @@
    "popularity": 22,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780d729a73c1223e3685bc15b7",
+   "known": false
+  },
+  {
+   "id": "lea-occhi",
+   "name": "Lea Occhi",
+   "tier": 0,
+   "score": 8,
+   "popularity": 8,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -6651,6 +6772,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "lizaliza",
+   "name": "lizaliza",
+   "tier": 0,
+   "score": 9,
+   "popularity": 9,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788ebd1c9121cf4ac6213abc11",
    "known": false
   },
   {
@@ -9339,6 +9470,16 @@
    "known": false
   },
   {
+   "id": "showtek",
+   "name": "Showtek",
+   "tier": 0,
+   "score": 80,
+   "popularity": 80,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17872059dbcd979a5edc2e59cf0",
+   "known": false
+  },
+  {
    "id": "sibil-1",
    "name": "Sibil (1)",
    "tier": 0,
@@ -9509,6 +9650,16 @@
    "known": false
   },
   {
+   "id": "sous-tes-reins-nord",
+   "name": "Sous Tes Reins : Nord",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "spaece",
    "name": "Spaece",
    "tier": 0,
@@ -9541,6 +9692,16 @@
   {
    "id": "spectrum-waves-pride-edition",
    "name": "Spectrum Waves: Pride edition",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "spicy-sofi",
+   "name": "Spicy Sofi",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -9629,6 +9790,16 @@
    "known": false
   },
   {
+   "id": "stella-bossi",
+   "name": "STELLA BOSSI",
+   "tier": 0,
+   "score": 53,
+   "popularity": 53,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789b9659aab208f28be605541c",
+   "known": false
+  },
+  {
    "id": "stereoclip",
    "name": "Stereoclip",
    "tier": 0,
@@ -9700,7 +9871,7 @@
   },
   {
    "id": "sud",
-   "name": "Sud)",
+   "name": "Sud",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -10522,6 +10693,16 @@
    "known": false
   },
   {
+   "id": "victor-simonelli",
+   "name": "Victor Simonelli",
+   "tier": 0,
+   "score": 38,
+   "popularity": 38,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178009c0fbbcad902632c163e73",
+   "known": false
+  },
+  {
    "id": "vido",
    "name": "VIDO (DE)",
    "tier": 0,
@@ -10549,6 +10730,16 @@
    "popularity": 76,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d5d62002b0b7ea5f0cc74adc",
+   "known": false
+  },
+  {
+   "id": "vigilance-zero",
+   "name": "Vigilance Zero",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785cb3d7663aabc2b4299778a0",
    "known": false
   },
   {
@@ -10679,6 +10870,16 @@
    "popularity": 34,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783eda7dfad1a38d40fa666790",
+   "known": false
+  },
+  {
+   "id": "waack-in-paris-beginner-vol-v",
+   "name": "Waack in Paris Beginner vol. V",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -11930,8 +12131,8 @@
    }
   },
   {
-   "id": "453f6f37f4f7",
-   "title": "Station Electronique — Lauren Duffus, Nexus, Brodinski b2b ninafterdark + more",
+   "id": "5cba1781ef12",
+   "title": "Station Electronique (TICKETS EN VENTE SUR PLACE / COMPLET EN PREVENTES)",
    "venue_id": "la-station-gare-des-mines",
    "night": "2026-09-18",
    "start": "2026-09-18T23:59:00.000",
@@ -11940,8 +12141,7 @@
     {
      "artist_id": "brodinski",
      "name": "Brodinski",
-     "billing": "headliner",
-     "b2b_with": "ninafterdark"
+     "billing": "headliner"
     },
     {
      "artist_id": "lauren-duffus",
@@ -11951,8 +12151,7 @@
     {
      "artist_id": "ninafterdark",
      "name": "ninafterdark",
-     "billing": "support",
-     "b2b_with": "brodinski"
+     "billing": "support"
     },
     {
      "artist_id": "vendredear",
@@ -15154,7 +15353,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2539312",
    "event_url": "https://ra.co/events/2539312",
    "image": "",
    "status": "confirmed",
@@ -15211,6 +15410,49 @@
     "reasons": [
      "tête d'affiche : Philippe Katerine symphonique (8)",
      "lieu : Philharmonie de Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "2347e879b831",
+   "title": "SPICY AFTER PARTY #4",
+   "venue_id": "babour-sauvage",
+   "night": "2026-09-19",
+   "start": "2026-09-20T05:30:00.000",
+   "end": "2026-09-20T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "spicy-sofi",
+     "name": "Spicy Sofi",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2539479",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539479"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Spicy Sofi (8)",
+     "lieu : Babour Sauvage (palier 1)"
     ]
    }
   },
@@ -16991,6 +17233,48 @@
    }
   },
   {
+   "id": "1d60a8970086",
+   "title": "Groove Candy invite Victor Simonelli",
+   "venue_id": "djoon",
+   "night": "2026-09-25",
+   "start": "2026-09-25T23:59:00.000",
+   "end": "2026-09-26T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "victor-simonelli",
+     "name": "Victor Simonelli",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "deep house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539533",
+   "event_url": "https://ra.co/events/2539533",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539533"
+    }
+   ],
+   "interest": {
+    "score": 39,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Victor Simonelli (38)",
+     "lieu : Djoon (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "847366561192",
    "title": "ANUBIS: Paul Seul, RUFFNECK, FLUCC & MORE",
    "venue_id": "mia-mao",
@@ -18239,6 +18523,54 @@
    }
   },
   {
+   "id": "a4f7e702efd0",
+   "title": "Boddhi Satva invite Blck Mamba & Fresh Nunas",
+   "venue_id": "djoon",
+   "night": "2026-09-26",
+   "start": "2026-09-26T23:59:00.000",
+   "end": "2026-09-27T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "boddhi-satva",
+     "name": "Boddhi Satva",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "blck-mamba",
+     "name": "Blck Mamba",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539536",
+   "event_url": "https://ra.co/events/2539536",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539536"
+    }
+   ],
+   "interest": {
+    "score": 44,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Boddhi Satva (44)",
+     "lieu : Djoon (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "966854d72e71",
    "title": "Pisitrance Open Air W/ Athzira, Faders, Talamasca & More",
    "venue_id": "tba-unknown-open-air",
@@ -18775,8 +19107,8 @@
    }
   },
   {
-   "id": "d92c4c9a6d08",
-   "title": "Basses Fréquences Club: Dasha Rush + Boskøw + Secret Guest",
+   "id": "8006999edefe",
+   "title": "Basses Fréquences Club: Dasha Rush + Boskøw + Léa Occhi",
    "venue_id": "le-trabendo",
    "night": "2026-09-26",
    "start": "2026-09-26T23:59:00.000",
@@ -18786,6 +19118,11 @@
      "artist_id": "dasha-rush",
      "name": "Dasha Rush",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "lea-occhi",
+     "name": "Lea Occhi",
+     "billing": "support"
     },
     {
      "artist_id": "boskw",
@@ -18971,6 +19308,59 @@
     "reasons": [
      "tête d'affiche : DJ Clark Kent (1)",
      "lieu : Nouveau Casino (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "c4193fba9ea6",
+   "title": "(CLOSING) Dure Vie x Prairie du Canal: Julian Muller, Egna, with Us",
+   "venue_id": "la-prairie-du-canal",
+   "night": "2026-09-26",
+   "start": "2026-09-26T15:00:00.000",
+   "end": "2026-09-26T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "cici-that-walk",
+     "name": "Cici That Walk",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "julian-muller",
+     "name": "Julian Muller",
+     "billing": "support"
+    },
+    {
+     "artist_id": "egna",
+     "name": "Egna",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539579",
+   "event_url": "https://ra.co/events/2539579",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539579"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Cici That Walk (8)",
+     "lieu : La Prairie du Canal (palier 1)"
     ]
    }
   },
@@ -19508,6 +19898,48 @@
     "reasons": [
      "tête d'affiche : Nicol (20)",
      "lieu : Glazart (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "3f69948f008d",
+   "title": "Waack in Paris Beginner vol. V",
+   "venue_id": "djoon",
+   "night": "2026-09-27",
+   "start": "2026-09-27T17:00:00.000",
+   "end": "2026-09-27T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "waack-in-paris-beginner-vol-v",
+     "name": "Waack in Paris Beginner vol. V",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "disco",
+    "funk / soul"
+   ],
+   "families": [
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539541",
+   "event_url": "https://ra.co/events/2539541",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539541"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Waack in Paris Beginner vol. V (8)",
+     "lieu : Djoon (palier 2)"
     ]
    }
   },
@@ -21829,8 +22261,8 @@
    }
   },
   {
-   "id": "4c9bf3507904",
-   "title": "TEMET X FATA MORGANA",
+   "id": "196082a4f9ec",
+   "title": "TEMET X FATA MORGANA (TICKETS EN VENTE SUR PLACE / COMPLET EN PREVENTES)",
    "venue_id": "la-station-gare-des-mines",
    "night": "2026-10-03",
    "start": "2026-10-03T23:00:00.000",
@@ -23605,6 +24037,62 @@
    }
   },
   {
+   "id": "a610b6c75550",
+   "title": "T7 x UNFACED: Jacidorex, Bitschu Batschu, HANAA, Krl Mx",
+   "venue_id": "t7",
+   "night": "2026-10-09",
+   "start": "2026-10-09T23:00:00.000",
+   "end": "2026-10-10T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "hana",
+     "name": "HANÀ",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "bitschu-batschu",
+     "name": "Bitschu Batschu",
+     "billing": "support"
+    },
+    {
+     "artist_id": "jacidorex",
+     "name": "Jacidorex",
+     "billing": "support"
+    },
+    {
+     "artist_id": "krl-mx",
+     "name": "Krl Mx",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539819",
+   "event_url": "https://ra.co/events/2539819",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539819"
+    }
+   ],
+   "interest": {
+    "score": 69,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : HANÀ (78)",
+     "lieu : T7 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "b62331eca203",
    "title": "Sam Feldt",
    "venue_id": "central-chapelle",
@@ -24633,6 +25121,52 @@
     "reasons": [
      "tête d'affiche : Kendal (56)",
      "lieu : Cabaret Sauvage (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "663580714554",
+   "title": "T7: STELLA BOSSI, Carla Schmitt",
+   "venue_id": "t7",
+   "night": "2026-10-10",
+   "start": "2026-10-10T23:00:00.000",
+   "end": "2026-10-11T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "stella-bossi",
+     "name": "STELLA BOSSI",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "carla-schmitt",
+     "name": "Carla Schmitt",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539820",
+   "event_url": "https://ra.co/events/2539820",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539820"
+    }
+   ],
+   "interest": {
+    "score": 50,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : STELLA BOSSI (53)",
+     "lieu : T7 (palier 2)"
     ]
    }
   },
@@ -26519,6 +27053,47 @@
    }
   },
   {
+   "id": "e8f2c31a25c8",
+   "title": "T7: Mosimann presents Dream Night",
+   "venue_id": "t7",
+   "night": "2026-10-17",
+   "start": "2026-10-17T23:00:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mosimann",
+     "name": "Mosimann",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electro"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539823",
+   "event_url": "https://ra.co/events/2539823",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539823"
+    }
+   ],
+   "interest": {
+    "score": 59,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Mosimann (65)",
+     "lieu : T7 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "c65159247639",
    "title": "La Java 103 Ans: Yuksek, Fleur De Mur, Tartine Music",
    "venue_id": "la-java",
@@ -26875,6 +27450,52 @@
     "reasons": [
      "tête d'affiche : Garçon (25)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "ad81ddd5f870",
+   "title": "Sous Tes Reins : Nord + Sud",
+   "venue_id": "la-station-gare-des-mines",
+   "night": "2026-10-17",
+   "start": "2026-10-17T23:00:00.000",
+   "end": "2026-10-18T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sous-tes-reins-nord",
+     "name": "Sous Tes Reins : Nord",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "sud",
+     "name": "Sud",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "club"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2534358",
+   "event_url": "https://ra.co/events/2534358",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2534358"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Sous Tes Reins : Nord (8)",
+     "lieu : La Station - Gare des Mines (palier 2)"
     ]
    }
   },
@@ -27377,6 +27998,43 @@
     "reasons": [
      "tête d'affiche : Noa (DE) (8)",
      "lieu : Communale Saint-Ouen (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "7df5a4dab597",
+   "title": "T7: Showtek",
+   "venue_id": "t7",
+   "night": "2026-10-23",
+   "start": "2026-10-23T23:00:00.000",
+   "end": "2026-10-24T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "showtek",
+     "name": "Showtek",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2539829",
+   "event_url": "https://ra.co/events/2539829",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539829"
+    }
+   ],
+   "interest": {
+    "score": 70,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Showtek (80)",
+     "lieu : T7 (palier 2)"
     ]
    }
   },
@@ -28295,6 +28953,45 @@
    }
   },
   {
+   "id": "8be70747e052",
+   "title": "Discotaco : disco, paillettes & tacos partout !",
+   "venue_id": "le-mazette",
+   "night": "2026-10-29",
+   "start": "2026-10-29T18:00:00+01:00",
+   "end": "2026-10-30T01:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "funky-french-league",
+     "name": "Funky French League",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/l8mlxl-discotaco-disco-paillettes-tacos-partout-29th-oct-le-mazette-paris-tickets",
+   "event_url": "https://dice.fm/event/l8mlxl-discotaco-disco-paillettes-tacos-partout-29th-oct-le-mazette-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-03/fec132f9-0f19-4cd0-92da-cf7a6be4061b.jpg?rect=420%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/l8mlxl-discotaco-disco-paillettes-tacos-partout-29th-oct-le-mazette-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 35,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Funky French League (40)",
+     "lieu : Le Mazette (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "9dc4ecdc46a6",
    "title": "Concert — Hypershot: Europa, Sodomland, The Velvet Brothers",
    "venue_id": "badaboum",
@@ -28680,7 +29377,7 @@
     },
     {
      "artist_id": "sud",
-     "name": "Sud)",
+     "name": "Sud",
      "billing": "support"
     }
    ],
@@ -28758,6 +29455,68 @@
     "reasons": [
      "tête d'affiche : Concert Sami Galbi (8)",
      "lieu : Canal 93 (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "8f33f1b4dd66",
+   "title": "Cyberpunk Halloween",
+   "venue_id": "42-marches",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:59:00.000",
+   "end": "2026-11-01T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "anas",
+     "name": "Anas.",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "chtak",
+     "name": "Chtak.",
+     "billing": "support"
+    },
+    {
+     "artist_id": "spicy-sofi",
+     "name": "Spicy Sofi",
+     "billing": "support"
+    },
+    {
+     "artist_id": "vigilance-zero",
+     "name": "Vigilance Zero",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dje-dje-from-the-block",
+     "name": "Djé Djé from the block",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2539892",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539892"
+    }
+   ],
+   "interest": {
+    "score": 66,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Anas. (83)",
+     "lieu : 42 Marches (palier 1)"
     ]
    }
   },
@@ -28887,16 +29646,20 @@
     "House",
     "Disco & funk"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2534468",
    "event_url": "https://ra.co/events/2534468",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-11/23207ffc-07bf-40fd-886e-209b4f4b5a79.jpg?rect=0%2C322%2C4589%2C4589",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2534468"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/k62k2q-halloween-party-curses-joe-lewandowski-le-saint-rag-31st-oct-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -29062,6 +29825,45 @@
     "reasons": [
      "tête d'affiche : Zombies In Miami (33)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "6bcfbe1145ca",
+   "title": "LE CHALET DES MONSTRES HALLOWEEN PARTY GEANTE",
+   "venue_id": "chalet-du-lac",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00+01:00",
+   "end": "2026-11-01T05:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "le-chalet-des-monstres-halloween-party-geante",
+     "name": "LE CHALET DES MONSTRES HALLOWEEN PARTY GEANTE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 32.45,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/avkgwv-le-chalet-des-monstres-halloween-party-geante-31st-oct-chalet-du-lac-paris-tickets",
+   "event_url": "https://dice.fm/event/avkgwv-le-chalet-des-monstres-halloween-party-geante-31st-oct-chalet-du-lac-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-09/68d86a67-5ff1-4469-9d8b-b2c8aa5c5427.jpg?rect=0%2C0%2C1600%2C1600",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/avkgwv-le-chalet-des-monstres-halloween-party-geante-31st-oct-chalet-du-lac-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LE CHALET DES MONSTRES HALLOWEEN PARTY GEANTE (8)",
+     "lieu : Chalet du Lac (palier 1)"
     ]
    }
   },
@@ -30297,8 +31099,8 @@
    }
   },
   {
-   "id": "0b59787219a4",
-   "title": "Hot Meal: Bad Boombox, Mischluft, Mija",
+   "id": "4ae8e683a0d0",
+   "title": "Hot Meal : Bad Boombox, Mischluft, Mija & More",
    "venue_id": "mia-mao",
    "night": "2026-11-21",
    "start": "2026-11-21T23:59:00.000",
@@ -30322,6 +31124,11 @@
     {
      "artist_id": "mija",
      "name": "Mija",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lizaliza",
+     "name": "lizaliza",
      "billing": "support"
     }
    ],
@@ -31212,6 +32019,34 @@
    "photo": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845"
   },
   {
+   "id": "7df5a4dab597",
+   "name": "Showtek",
+   "night": "2026-10-23",
+   "venue": "T7",
+   "photo": "https://i.scdn.co/image/ab6761610000f17872059dbcd979a5edc2e59cf0"
+  },
+  {
+   "id": "a610b6c75550",
+   "name": "HANÀ",
+   "night": "2026-10-09",
+   "venue": "T7",
+   "photo": "https://i.scdn.co/image/ab6761610000f178bc476542962c8cf6b4dfc8a7"
+  },
+  {
+   "id": "8f33f1b4dd66",
+   "name": "Anas.",
+   "night": "2026-10-31",
+   "venue": "42 Marches",
+   "photo": "https://cdn-images.dzcdn.net/images/artist/632a1532ee86dedf6efa5fb8e9a385e4/250x250-000000-80-0-0.jpg"
+  },
+  {
+   "id": "e8f2c31a25c8",
+   "name": "Mosimann",
+   "night": "2026-10-17",
+   "venue": "T7",
+   "photo": "https://i.scdn.co/image/ab6761610000f178fd31261b54b262aa3aca9de3"
+  },
+  {
    "id": "fa90241b2e45",
    "name": "amne",
    "night": "2026-10-10",
@@ -31219,7 +32054,7 @@
    "photo": "https://cdn-images.dzcdn.net/images/artist/7357f1424613cf9b4744bf7b9933cb6f/250x250-000000-80-0-0.jpg"
   },
   {
-   "id": "0b59787219a4",
+   "id": "4ae8e683a0d0",
    "name": "Mischluft",
    "night": "2026-11-21",
    "venue": "Mia Mao",
@@ -31281,21 +32116,6 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb9b0660bd2e655dd0cef6403d",
    "event_id": "1d591db892d0"
-  },
-  {
-   "kind": "event",
-   "day": "JEU 24 SEP",
-   "title": "The Supermen Lovers",
-   "venue": "Rex Club",
-   "time": "23:59 → 07:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "Matteo Diop",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb81877b5938b2350179d5c609",
-   "event_id": "319f790e7494"
   },
   {
    "kind": "event",
@@ -31371,6 +32191,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb5963d289733abd3cb0d9eb34",
    "event_id": "8710c9594647"
+  },
+  {
+   "kind": "event",
+   "day": "VEN 9 OCT",
+   "title": "HANÀ",
+   "venue": "T7",
+   "time": "23:00 → 06:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Bitschu Batschu, Jacidorex, Krl Mx",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5ebbc476542962c8cf6b4dfc8a7",
+   "event_id": "a610b6c75550"
   },
   {
    "kind": "event",
