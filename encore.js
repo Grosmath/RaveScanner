@@ -558,6 +558,74 @@ function wire() {
 
 /* ------------------------------------------------------------------- boot */
 
+/* ------------------------------------------------------- installation */
+
+/* Deux chemins, parce que les navigateurs ne se ressemblent pas :
+   - Chrome et Edge previennent qu'ils savent installer (`beforeinstallprompt`)
+     et acceptent qu'on ouvre la boite nous-memes ;
+   - Safari sur iPhone n'a pas d'API : on ne peut qu'expliquer le geste.
+   Dans les deux cas, rien ne s'affiche si l'application est deja installee,
+   ni pendant trente jours apres un refus. */
+const INSTALL_REPOS = 30 * 24 * 3600 * 1000;
+
+function dejaInstallee() {
+  return window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+}
+
+function refusRecent() {
+  try {
+    const quand = Number(localStorage.getItem('encore.install.refus') || 0);
+    return quand && Date.now() - quand < INSTALL_REPOS;
+  } catch { return false; }
+}
+
+function proposerInstallation() {
+  const boite = $('#install');
+  if (!boite || dejaInstallee() || refusRecent()) return;
+
+  const fermer = (garder) => {
+    boite.hidden = true;
+    if (garder) { try { localStorage.setItem('encore.install.refus', String(Date.now())); } catch { /* tant pis */ } }
+  };
+  $('#install-non').addEventListener('click', () => fermer(true));
+
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  let invite = null;
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    // Sans ce `preventDefault`, Chrome affiche sa propre banniere en plus.
+    e.preventDefault();
+    invite = e;
+    boite.hidden = false;
+  });
+
+  $('#install-ok').addEventListener('click', async () => {
+    if (!invite) return;
+    boite.hidden = true;
+    invite.prompt();
+    const { outcome } = await invite.userChoice;
+    invite = null;
+    if (outcome !== 'accepted') fermer(true);
+  });
+
+  if (ios) {
+    boite.classList.add('is-ios');
+    $('#install-quoi').textContent = 'Menu Partager, puis « Sur l\'écran d\'accueil ».';
+    // Laisser le temps de voir le planning avant de demander quoi que ce soit.
+    setTimeout(() => { if (!dejaInstallee() && !refusRecent()) boite.hidden = false; }, 4000);
+  }
+
+  window.addEventListener('appinstalled', () => fermer(false));
+}
+
+/* Le cache hors ligne. Son absence n'empeche rien : le site marche sans. */
+function activerCache() {
+  if (!('serviceWorker' in navigator)) return;
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(() => { /* pas grave */ });
+  });
+}
+
 async function boot() {
   readHash();
   try {
@@ -579,6 +647,9 @@ async function boot() {
   renderRail();
 
   if (state.event) openSheet(state.event);
+
+  proposerInstallation();
+  activerCache();
 }
 
 boot();

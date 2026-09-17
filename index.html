@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ENCORE — Montréal</title>
 <meta name="description" content="Les soirées house, techno et électroniques à Montréal. Ce qui vient, et ce qu'il ne faut pas rater.">
 <meta name="color-scheme" content="dark">
@@ -10,6 +10,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./encore.css">
+
+<!-- Application installable. iOS ne lit pas le manifeste pour l'icone ni pour
+     le titre : d'ou les balises `apple-` en plus, qui font double emploi
+     ailleurs. -->
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="theme-color" content="#0d0d11">
+<link rel="icon" href="./icones/icone-192.png">
+<link rel="apple-touch-icon" href="./icones/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="ENCORE">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
 <body>
 
@@ -115,6 +127,19 @@
   <button type="button" class="sheet-close" id="sheet-close" aria-label="Fermer">✕</button>
   <div class="sheet-body" id="sheet-body"></div>
 </aside>
+
+<!-- Invitation a installer. Cachee par defaut : `encore.js` ne la montre
+     que si le navigateur sait installer, ou si c'est un iPhone, et jamais
+     quand l'application est deja sur l'ecran d'accueil. -->
+<div class="install" id="install" hidden>
+  <img src="./icones/icone-192.png" alt="">
+  <div class="install-texte">
+    <b>Ajoutez ENCORE à l'écran d'accueil !</b>
+    <span id="install-quoi">Le planning en plein écran, en un geste.</span>
+  </div>
+  <button type="button" id="install-ok">Ajouter</button>
+  <button type="button" class="install-non" id="install-non" aria-label="Plus tard">✕</button>
+</div>
 
 <script src="./cards.js"></script>
 <script type="module" src="./encore.js"></script>
