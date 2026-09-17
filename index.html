@@ -21,7 +21,10 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="ENCORE">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- `black` et non `black-translucent` : le mode translucide fait passer la
+     page SOUS l'heure et la batterie, et la barre du site s'y confondait
+     (constate sur iPhone le 2026-09-17). En opaque, iOS reserve la place. -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 <body>
 
