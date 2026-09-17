@@ -579,9 +579,17 @@ function refusRecent() {
   } catch { return false; }
 }
 
+/* Seulement sur telephone. Sur ordinateur, personne n'installe un site : le
+   reflexe est l'onglet ou le favori, et la fenetre installee ressemble a la
+   meme page sans les onglets. Chrome garde de toute facon son icone
+   d'installation dans la barre d'adresse pour ceux qui y tiennent. */
+function surTelephone() {
+  return window.matchMedia('(max-width: 760px)').matches;
+}
+
 function proposerInstallation() {
   const boite = $('#install');
-  if (!boite || dejaInstallee() || refusRecent()) return;
+  if (!boite || dejaInstallee() || refusRecent() || !surTelephone()) return;
 
   const fermer = (garder) => {
     boite.hidden = true;
