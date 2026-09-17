@@ -333,7 +333,7 @@ function renderRail() {
     canvas.height = H;
     if (card.event_id) {
       canvas.dataset.event = card.event_id;
-      canvas.title = `${card.title} · ${card.venue}`;
+      canvas.title = `${card.title} - ${card.venue}`;
     }
     fig.append(canvas);
     rail.append(fig);
