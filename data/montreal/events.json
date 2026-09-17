@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-17T20:03:12Z",
+ "generated_at": "2026-09-17T23:29:04Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -2921,6 +2921,16 @@
    "popularity": 46,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ae5868b575b75ab40f7bc4e6",
+   "known": false
+  },
+  {
+   "id": "jrd",
+   "name": "JØRD",
+   "tier": 0,
+   "score": 64,
+   "popularity": 64,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178edad6e2b062c4a8f292d1c88",
    "known": false
   },
   {
@@ -14374,8 +14384,8 @@
    }
   },
   {
-   "id": "596d00ca0b00",
-   "title": "Bob Sinclar",
+   "id": "360fb58e2c3c",
+   "title": "Bob Sinclar, Nico de Andrea",
    "venue_id": "new-city-gas",
    "night": "2026-10-30",
    "start": "2026-10-30T22:00:00.000",
@@ -14564,8 +14574,8 @@
    }
   },
   {
-   "id": "3c6f2048dacd",
-   "title": "Max Styler",
+   "id": "fcb73ab631a5",
+   "title": "Max Styler, JØRD",
    "venue_id": "new-city-gas",
    "night": "2026-10-31",
    "start": "2026-10-31T22:00:00.000",
@@ -14575,13 +14585,23 @@
      "artist_id": "max-styler",
      "name": "Max Styler",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "jrd",
+     "name": "JØRD",
+     "billing": "support"
+    },
+    {
+     "artist_id": "andrew-pololos",
+     "name": "Andrew Pololos",
+     "billing": "support"
     }
    ],
    "genres": [],
    "families": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/max-styler-204380/",
+   "ticket_url": "https://newcitygas.com/event/max-styler-jord-204380/",
    "event_url": "https://ra.co/events/2522130",
    "image": "",
    "status": "confirmed",
@@ -14592,7 +14612,7 @@
     },
     {
      "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/max-styler-204380/"
+     "url": "https://newcitygas.com/event/max-styler-jord-204380/"
     }
    ],
    "interest": {
@@ -15916,11 +15936,25 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178f2f0c84b86e48dd70d9bcc59"
   },
   {
+   "id": "360fb58e2c3c",
+   "name": "Bob Sinclar",
+   "night": "2026-10-30",
+   "venue": "New City Gas",
+   "photo": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845"
+  },
+  {
    "id": "91375b74ebe4",
    "name": "CamelPhat",
    "night": "2026-11-07",
    "venue": "New City Gas",
    "photo": "https://i.scdn.co/image/ab6761610000f17885bc993b6a738f94ef4df7cf"
+  },
+  {
+   "id": "fcb73ab631a5",
+   "name": "Max Styler",
+   "night": "2026-10-31",
+   "venue": "New City Gas",
+   "photo": "https://i.scdn.co/image/ab6761610000f178ddeee9f034ca94bb6a08b66a"
   },
   {
    "id": "83e97f148d09",
