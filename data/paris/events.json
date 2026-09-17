@@ -1,53 +1,53 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-17T01:26:56Z",
+ "generated_at": "2026-09-17T04:48:03Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-09-16",
-  "end": "2026-12-15"
+  "start": "2026-09-17",
+  "end": "2026-12-16"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 417
+   "events": 412
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 49
+   "events": 52
   }
  ],
  "venue_order": [
+  "yoyo-palais-de-tokyo",
   "cite-du-cinema",
   "central-chapelle",
-  "badaboum",
   "rex-club",
   "fvtvr",
   "accor-arena",
-  "la-java",
   "mia-mao",
-  "yoyo-palais-de-tokyo",
   "sacre",
   "cabaret-sauvage",
   "le-211",
+  "pavillon-tilsitt",
+  "la-java",
   "la-defense-arena",
   "phantom-paris",
   "la-machine-du-moulin-rouge",
   "parc-des-expositions-paris-nord",
   "kilometre25",
-  "pavillon-tilsitt",
   "la-cite-fertile",
-  "studio56",
   "essaim",
   "nouveau-casino",
   "le-grand-rex",
   "djoon",
+  "badaboum",
   "rooftop-nijinsky",
+  "studio56",
   "tba",
   "la-boule-noire",
   "le-trabendo",
@@ -70,12 +70,12 @@
   "la-nuit",
   "la-maroquinerie",
   "la-cigale",
+  "le-mazette",
   "fondation-cartier",
   "mains-doeuvres",
   "l-olympia",
   "la-bellevilloise",
   "tba-saint-denis",
-  "le-mazette",
   "le-pop-up-du-label",
   "point-ephemere",
   "le-gambetta-club",
@@ -102,7 +102,6 @@
   "plat-form",
   "tba-45-bis-avenue-de-la-belle-gabrielle-94130-nogent-sur-marne-france",
   "plantation",
-  "bateau-henjo",
   "kermes",
   "le-son-de-la-terre",
   "tba-centre-culturel-suisse",
@@ -134,6 +133,8 @@
   "le-cirque-electrique",
   "le-flow-paris",
   "le-trianon",
+  "mirage",
+  "popup",
   "peniche-henjo",
   "shake-n-smash",
   "tba-7-rue-st-just-93100-montreuil",
@@ -148,8 +149,8 @@
   "chez-moune",
   "la-maison-bistrot",
   "la-maz",
-  "mca-alfortville",
-  "mira"
+  "la-rotonde",
+  "mca-alfortville"
  ],
  "venues": [
   {
@@ -222,16 +223,6 @@
   {
    "id": "bal-chavaux",
    "name": "Bal Chavaux",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "bateau-henjo",
-   "name": "BATEAU HENJO",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -752,6 +743,16 @@
    "genres": []
   },
   {
+   "id": "la-rotonde",
+   "name": "La Rotonde",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "la-rotonde-stalingrad",
    "name": "La Rotonde Stalingrad",
    "type": "club",
@@ -1027,8 +1028,8 @@
    ]
   },
   {
-   "id": "mira",
-   "name": "MIRA",
+   "id": "mirage",
+   "name": "Mirage",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1115,11 +1116,13 @@
    "id": "pavillon-tilsitt",
    "name": "Pavillon Tilsitt",
    "type": "club",
-   "tier": 1,
+   "tier": 2,
    "capacity": null,
-   "address": "",
+   "address": "Place Charles de Gaulle, 75017",
    "url": "",
-   "genres": []
+   "genres": [
+    "house"
+   ]
   },
   {
    "id": "peniche-henjo",
@@ -1187,6 +1190,16 @@
   {
    "id": "point-ephemere",
    "name": "Point Ephémère",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "popup",
+   "name": "POPUP!",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1481,11 +1494,14 @@
    "id": "yoyo-palais-de-tokyo",
    "name": "YoYo - Palais de Tokyo",
    "type": "club",
-   "tier": 1,
+   "tier": 2,
    "capacity": null,
-   "address": "",
+   "address": "13 Avenue du Président Wilson, 75116",
    "url": "",
-   "genres": []
+   "genres": [
+    "house",
+    "techno"
+   ]
   },
   {
    "id": "zenith-paris-la-villette",
@@ -1547,6 +1563,16 @@
    "popularity": 21,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17873d6268e08ea3d30d8ce9bae",
+   "known": false
+  },
+  {
+   "id": "abess-10th-anniversary-party",
+   "name": "Abess - 10th anniversary party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1652,16 +1678,6 @@
   {
    "id": "afro-heaven-afro",
    "name": "AFRO HEAVEN - Afro",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "afroboat-afro",
-   "name": "AfroBoat - AFRO",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2560,10 +2576,10 @@
    "id": "bennet",
    "name": "Bennet (DE)",
    "tier": 0,
-   "score": 83,
-   "popularity": 83,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178ceb79513a3973799e2b684d5",
+   "image": "",
    "known": false
   },
   {
@@ -4302,16 +4318,6 @@
    "known": false
   },
   {
-   "id": "egoh",
-   "name": "egoh",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048515ff70085e46dbf8bc8108e64",
-   "known": false
-  },
-  {
    "id": "el-hey",
    "name": "El Hey",
    "tier": 0,
@@ -4859,16 +4865,6 @@
    "popularity": 39,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789bf5baeefc98897fc660559d",
-   "known": false
-  },
-  {
-   "id": "fumi",
-   "name": "FUMI",
-   "tier": 0,
-   "score": 6,
-   "popularity": 6,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/3f7fd852964689ab660c7f08d0c64116/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -6178,16 +6174,6 @@
    "known": false
   },
   {
-   "id": "keyklau",
-   "name": "Keyklau",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1783f773f0eca5ab75a0f4392d8",
-   "known": false
-  },
-  {
    "id": "kiar-oscuro",
    "name": "Kiar Oscuro",
    "tier": 0,
@@ -6365,16 +6351,6 @@
    "popularity": 59,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789f3f4b4399a3a8f54657ea7b",
-   "known": false
-  },
-  {
-   "id": "la-belle-wave",
-   "name": "LA BELLE WAVE",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -8283,6 +8259,16 @@
    "known": false
   },
   {
+   "id": "paris-night-session-mirage",
+   "name": "Paris Night Session - Mirage",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "paso-doble",
    "name": "Paso Doble",
    "tier": 0,
@@ -8576,10 +8562,10 @@
    "id": "poppy",
    "name": "Poppy (BE)",
    "tier": 0,
-   "score": 77,
-   "popularity": 77,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789602d4f4d6faad23dcdf1b99",
+   "image": "",
    "known": false
   },
   {
@@ -9243,16 +9229,6 @@
    "known": false
   },
   {
-   "id": "seven-secrets",
-   "name": "Seven Secrets",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851a9fe06a383d4683292aacfa2",
-   "known": false
-  },
-  {
    "id": "sevenbeatz",
    "name": "Sevenbeatz",
    "tier": 0,
@@ -9280,16 +9256,6 @@
    "popularity": 51,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17830171dbe9e6e4d5ee9ed6ce7",
-   "known": false
-  },
-  {
-   "id": "shatta",
-   "name": "SHATTA",
-   "tier": 0,
-   "score": 22,
-   "popularity": 22,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/ec2607a7f8ca0c21e3c4476c766bc979/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -9753,16 +9719,6 @@
    "known": false
   },
   {
-   "id": "sun-seven",
-   "name": "Sun Seven",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178bc10a80f04311932a1660fa6",
-   "known": false
-  },
-  {
    "id": "supergloss",
    "name": "Supergloss",
    "tier": 0,
@@ -10166,16 +10122,6 @@
    "known": false
   },
   {
-   "id": "thundersmurai",
-   "name": "Thundersmurai",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "thx4crying",
    "name": "Thx4Crying",
    "tier": 0,
@@ -10263,6 +10209,16 @@
    "popularity": 68,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17834f1d77ba8e46d67837ab285",
+   "known": false
+  },
+  {
+   "id": "tonton-al",
+   "name": "Tonton Al",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785950e7f9a000d5d94fd2d71b",
    "known": false
   },
   {
@@ -10543,16 +10499,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178be4726d2df3da6644b791953",
-   "known": false
-  },
-  {
-   "id": "vic",
-   "name": "VICØ",
-   "tier": 0,
-   "score": 34,
-   "popularity": 34,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17859c612b18eb8235e5a2df06d",
    "known": false
   },
   {
@@ -11027,234 +10973,6 @@
   }
  ],
  "events": [
-  {
-   "id": "6d7b95ef83aa",
-   "title": "Vortex Invite: FUMI, VICØ, Keyklau",
-   "venue_id": "rex-club",
-   "night": "2026-09-16",
-   "start": "2026-09-16T23:59:00.000",
-   "end": "2026-09-17T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "vic",
-     "name": "VICØ",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "fumi",
-     "name": "FUMI",
-     "billing": "support"
-    },
-    {
-     "artist_id": "keyklau",
-     "name": "Keyklau",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2517429",
-   "event_url": "https://ra.co/events/2517429",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2517429"
-    }
-   ],
-   "interest": {
-    "score": 42,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : VICØ (34)",
-     "lieu : Rex Club (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "86781dff6a1d",
-   "title": "AfroBoat - AFRO&SHATTA",
-   "venue_id": "bateau-henjo",
-   "night": "2026-09-16",
-   "start": "2026-09-16T23:30:00+02:00",
-   "end": "2026-09-17T05:00:00+02:00",
-   "lineup": [
-    {
-     "artist_id": "shatta",
-     "name": "SHATTA",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "afroboat-afro",
-     "name": "AfroBoat - AFRO",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/oe9v6r-afroboat-afroshatta-16th-sep-bateau-henjo-paris-tickets",
-   "event_url": "https://dice.fm/event/oe9v6r-afroboat-afroshatta-16th-sep-bateau-henjo-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-15/536126af-02c3-4e98-9ab4-732585093c94.jpg?rect=0%2C181%2C1086%2C1086",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/oe9v6r-afroboat-afroshatta-16th-sep-bateau-henjo-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 22,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : SHATTA (22)",
-     "lieu : BATEAU HENJO (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "2f5479772f5a",
-   "title": "Resonance W/ Sun Seven , Seven Secrets, Thundersmurai",
-   "venue_id": "studio56",
-   "night": "2026-09-16",
-   "start": "2026-09-16T23:59:00.000",
-   "end": "2026-09-17T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "thundersmurai",
-     "name": "Thundersmurai",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "sun-seven",
-     "name": "Sun Seven",
-     "billing": "support"
-    },
-    {
-     "artist_id": "seven-secrets",
-     "name": "Seven Secrets",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2536065",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2536065"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Thundersmurai (8)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "ad0b69201f25",
-   "title": "LA BELLE WAVE",
-   "venue_id": "panic-room",
-   "night": "2026-09-16",
-   "start": "2026-09-16T19:00:00.000",
-   "end": "2026-09-17T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "la-belle-wave",
-     "name": "LA BELLE WAVE",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "pop"
-   ],
-   "families": [
-    "House",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2535113",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2535113"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : LA BELLE WAVE (8)",
-     "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "3798985ba923",
-   "title": "humn pattrn - MEET 001",
-   "venue_id": "mira",
-   "night": "2026-09-16",
-   "start": "2026-09-16T19:00:00.000",
-   "end": "2026-09-17T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "egoh",
-     "name": "egoh",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "house"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2519311",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2519311"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : egoh (0)",
-     "lieu : MIRA (palier 1)"
-    ]
-   }
-  },
   {
    "id": "86145a3e6963",
    "title": "Bavardages & friends all night long",
@@ -13532,6 +13250,72 @@
    }
   },
   {
+   "id": "1d591db892d0",
+   "title": "SXM Festival X Kalua - YOYO, PALAIS DE TOKYO",
+   "venue_id": "yoyo-palais-de-tokyo",
+   "night": "2026-09-19",
+   "start": "2026-09-19T23:30:00.000",
+   "end": "2026-09-20T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sistek",
+     "name": "Sistek",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "sebastien-leger",
+     "name": "Sebastien Leger",
+     "billing": "support"
+    },
+    {
+     "artist_id": "deer-jade",
+     "name": "Deer Jade",
+     "billing": "support"
+    },
+    {
+     "artist_id": "paso-doble",
+     "name": "Paso Doble",
+     "billing": "support"
+    },
+    {
+     "artist_id": "julian-prince",
+     "name": "Julian Prince",
+     "billing": "support"
+    },
+    {
+     "artist_id": "andera",
+     "name": "Andera",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2516189",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2516189"
+    }
+   ],
+   "interest": {
+    "score": 64,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Sistek (71)",
+     "lieu : YoYo - Palais de Tokyo (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "2974337f84c9",
    "title": "Indice 50 X Studio 56 W/ Nklz, Aby, Lor Tech, Nko, Walid",
    "venue_id": "studio56",
@@ -13638,72 +13422,6 @@
     "reasons": [
      "tête d'affiche : Lawrence (64)",
      "lieu : La Cité Fertile (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "1d591db892d0",
-   "title": "SXM Festival X Kalua - YOYO, PALAIS DE TOKYO",
-   "venue_id": "yoyo-palais-de-tokyo",
-   "night": "2026-09-19",
-   "start": "2026-09-19T23:30:00.000",
-   "end": "2026-09-20T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sistek",
-     "name": "Sistek",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "sebastien-leger",
-     "name": "Sebastien Leger",
-     "billing": "support"
-    },
-    {
-     "artist_id": "deer-jade",
-     "name": "Deer Jade",
-     "billing": "support"
-    },
-    {
-     "artist_id": "paso-doble",
-     "name": "Paso Doble",
-     "billing": "support"
-    },
-    {
-     "artist_id": "julian-prince",
-     "name": "Julian Prince",
-     "billing": "support"
-    },
-    {
-     "artist_id": "andera",
-     "name": "Andera",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2516189",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2516189"
-    }
-   ],
-   "interest": {
-    "score": 58,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Sistek (71)",
-     "lieu : YoYo - Palais de Tokyo (palier 1)"
     ]
    }
   },
@@ -15414,6 +15132,48 @@
    }
   },
   {
+   "id": "7c18f083e8ae",
+   "title": "Paris Night Session - Mirage",
+   "venue_id": "mirage",
+   "night": "2026-09-19",
+   "start": "2026-09-19T23:30:00.000",
+   "end": "2026-09-20T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "paris-night-session-mirage",
+     "name": "Paris Night Session - Mirage",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2539312",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539312"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Paris Night Session - Mirage (8)",
+     "lieu : Mirage (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "d57a417d5476",
    "title": "Philippe Katerine symphonique",
    "venue_id": "philharmonie-de-paris",
@@ -16311,6 +16071,45 @@
    }
   },
   {
+   "id": "10268fbc2d7a",
+   "title": "PAGOS (PARIS TO LAGOS)",
+   "venue_id": "pavillon-tilsitt",
+   "night": "2026-09-23",
+   "start": "2026-09-23T23:45:00+02:00",
+   "end": "2026-09-24T05:00:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "pagos-paris-to-lagos",
+     "name": "PAGOS (PARIS TO LAGOS)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/3obgrx-pagos-paris-to-lagos-23rd-sep-pavillon-tilsitt-paris-tickets",
+   "event_url": "https://dice.fm/event/3obgrx-pagos-paris-to-lagos-23rd-sep-pavillon-tilsitt-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-15/681ee0bc-56d9-4756-8c04-7a73ec6ad419.jpg?rect=0%2C7%2C1320%2C1320",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/3obgrx-pagos-paris-to-lagos-23rd-sep-pavillon-tilsitt-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : PAGOS (PARIS TO LAGOS) (8)",
+     "lieu : Pavillon Tilsitt (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "a95f9587a70e",
    "title": "Wolfgang Voigt présente GAS Live",
    "venue_id": "la-gaite-lyrique",
@@ -16349,45 +16148,6 @@
     "reasons": [
      "tête d'affiche : Wolfgang Voigt (14)",
      "lieu : La Gaîté Lyrique (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "10268fbc2d7a",
-   "title": "PAGOS (PARIS TO LAGOS)",
-   "venue_id": "pavillon-tilsitt",
-   "night": "2026-09-23",
-   "start": "2026-09-23T23:45:00+02:00",
-   "end": "2026-09-24T05:00:00+02:00",
-   "lineup": [
-    {
-     "artist_id": "pagos-paris-to-lagos",
-     "name": "PAGOS (PARIS TO LAGOS)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/3obgrx-pagos-paris-to-lagos-23rd-sep-pavillon-tilsitt-paris-tickets",
-   "event_url": "https://dice.fm/event/3obgrx-pagos-paris-to-lagos-23rd-sep-pavillon-tilsitt-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-15/681ee0bc-56d9-4756-8c04-7a73ec6ad419.jpg?rect=0%2C7%2C1320%2C1320",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/3obgrx-pagos-paris-to-lagos-23rd-sep-pavillon-tilsitt-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : PAGOS (PARIS TO LAGOS) (8)",
-     "lieu : Pavillon Tilsitt (palier 1)"
     ]
    }
   },
@@ -17804,6 +17564,45 @@
     "reasons": [
      "tête d'affiche : Micky Hurts (12)",
      "lieu : Le Mazette (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "61ce2a5a3474",
+   "title": "Abess - 10th anniversary party",
+   "venue_id": "popup",
+   "night": "2026-09-25",
+   "start": "2026-09-25T23:00:00+02:00",
+   "end": "2026-09-26T04:00:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "abess-10th-anniversary-party",
+     "name": "Abess - 10th anniversary party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/8e7gw5-abess-10th-anniversary-party-25th-sep-popup-paris-tickets",
+   "event_url": "https://dice.fm/event/8e7gw5-abess-10th-anniversary-party-25th-sep-popup-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-16/bf31509e-54c2-4949-9fe3-808a5f2b2203.jpg?rect=0%2C81%2C1414%2C1414",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/8e7gw5-abess-10th-anniversary-party-25th-sep-popup-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Abess - 10th anniversary party (8)",
+     "lieu : POPUP! (palier 1)"
     ]
    }
   },
@@ -20145,11 +19944,11 @@
     }
    ],
    "interest": {
-    "score": 76,
+    "score": 82,
     "tier": 3,
     "reasons": [
      "tête d'affiche : Keinemusik (97)",
-     "lieu : YoYo - Palais de Tokyo (palier 1)"
+     "lieu : YoYo - Palais de Tokyo (palier 2)"
     ]
    }
   },
@@ -20450,124 +20249,6 @@
    }
   },
   {
-   "id": "0e01b4b9cc84",
-   "title": "Club — Orange Crush: Bennet B2B Sinéad, Zuri, RĒVE",
-   "venue_id": "badaboum",
-   "night": "2026-10-02",
-   "start": "2026-10-02T23:30:00.000",
-   "end": "2026-10-03T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "bennet",
-     "name": "Bennet (DE)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "reve",
-     "name": "RĒVE",
-     "billing": "support"
-    },
-    {
-     "artist_id": "zuri",
-     "name": "Zuri",
-     "billing": "support"
-    },
-    {
-     "artist_id": "orange-crush-bennet",
-     "name": "Orange Crush: Bennet",
-     "billing": "support",
-     "b2b_with": "sinead"
-    },
-    {
-     "artist_id": "sinead",
-     "name": "Sinéad",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "tech house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": 0.0,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2520578",
-   "event_url": "https://ra.co/events/2520578",
-   "image": "https://dice-media.imgix.net/attachments/2026-08-25/c48d3a5c-b7e5-47d9-9e59-8da84e9931a0.jpg?rect=560%2C0%2C1440%2C1440",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2520578"
-    },
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/g58o3b-orange-crush-bennet-b2b-sinad-zuri-rve-2nd-oct-badaboum-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 72,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Bennet (DE) (83)",
-     "lieu : Badaboum (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "bda5fa3b0cac",
-   "title": "Aeromix & Ponez Club: Elias Mazian, Poppy & More",
-   "venue_id": "la-java",
-   "night": "2026-10-02",
-   "start": "2026-10-02T23:30:00.000",
-   "end": "2026-10-03T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "poppy",
-     "name": "Poppy (BE)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "elias-mazian",
-     "name": "Elias Mazian",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "progressive house",
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": 14.0,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2534950",
-   "event_url": "https://ra.co/events/2534950",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-11/b7e57ccb-145a-4be0-bdca-0f798d10a5a0.jpg?rect=0%2C0%2C808%2C808",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2534950"
-    },
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/wwkllx-elias-mazian-poppy-more-aeromix-ponez-club-2nd-oct-la-java-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 67,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Poppy (BE) (77)",
-     "lieu : La Java (palier 2)"
-    ]
-   }
-  },
-  {
    "id": "56d778ba3fd0",
    "title": "Pisica: Alba Franch, franck, Antonym B2b George Radsport &…",
    "venue_id": "mia-mao",
@@ -20836,6 +20517,73 @@
     "reasons": [
      "tête d'affiche : Boston Bun (60)",
      "lieu : Cabaret Sauvage (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "0e01b4b9cc84",
+   "title": "Club — Orange Crush: Bennet B2B Sinéad, Zuri, RĒVE",
+   "venue_id": "badaboum",
+   "night": "2026-10-02",
+   "start": "2026-10-02T23:30:00.000",
+   "end": "2026-10-03T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "reve",
+     "name": "RĒVE",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "zuri",
+     "name": "Zuri",
+     "billing": "support"
+    },
+    {
+     "artist_id": "bennet",
+     "name": "Bennet (DE)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "orange-crush-bennet",
+     "name": "Orange Crush: Bennet",
+     "billing": "support",
+     "b2b_with": "sinead"
+    },
+    {
+     "artist_id": "sinead",
+     "name": "Sinéad",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": 0.0,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2520578",
+   "event_url": "https://ra.co/events/2520578",
+   "image": "https://dice-media.imgix.net/attachments/2026-08-25/c48d3a5c-b7e5-47d9-9e59-8da84e9931a0.jpg?rect=560%2C0%2C1440%2C1440",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2520578"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/g58o3b-orange-crush-bennet-b2b-sinad-zuri-rve-2nd-oct-badaboum-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 53,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : RĒVE (57)",
+     "lieu : Badaboum (palier 2)"
     ]
    }
   },
@@ -21316,6 +21064,57 @@
     "reasons": [
      "tête d'affiche : 1LDK (26)",
      "lieu : La Station - Gare des Mines (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "bda5fa3b0cac",
+   "title": "Aeromix & Ponez Club: Elias Mazian, Poppy & More",
+   "venue_id": "la-java",
+   "night": "2026-10-02",
+   "start": "2026-10-02T23:30:00.000",
+   "end": "2026-10-03T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "elias-mazian",
+     "name": "Elias Mazian",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "poppy",
+     "name": "Poppy (BE)",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": 14.0,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2534950",
+   "event_url": "https://ra.co/events/2534950",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-11/b7e57ccb-145a-4be0-bdca-0f798d10a5a0.jpg?rect=0%2C0%2C808%2C808",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2534950"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/wwkllx-elias-mazian-poppy-more-aeromix-ponez-club-2nd-oct-la-java-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 29,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Elias Mazian (23)",
+     "lieu : La Java (palier 2)"
     ]
    }
   },
@@ -21870,6 +21669,60 @@
    }
   },
   {
+   "id": "62ce3d4f607b",
+   "title": "ATARASHI Paris at YOYO with Marco Carola, Ale De Tuglie & II FACES",
+   "venue_id": "yoyo-palais-de-tokyo",
+   "night": "2026-10-03",
+   "start": "2026-10-03T23:30:00.000",
+   "end": "2026-10-04T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "marco-carola",
+     "name": "Marco Carola",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ii-faces",
+     "name": "II FACES",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ale-de-tuglie",
+     "name": "Ale De Tuglie",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2533029",
+   "event_url": "https://ra.co/events/2533029",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2533029"
+    }
+   ],
+   "interest": {
+    "score": 50,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Marco Carola (52)",
+     "lieu : YoYo - Palais de Tokyo (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "053906c8fecf",
    "title": "Born 2 Bounce: Paul Meier, Saphyr & More",
    "venue_id": "nouveau-casino",
@@ -22044,60 +21897,6 @@
     "reasons": [
      "tête d'affiche : Rosa Pistola (44)",
      "lieu : La Station - Gare des Mines (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "62ce3d4f607b",
-   "title": "ATARASHI Paris at YOYO with Marco Carola, Ale De Tuglie & II FACES",
-   "venue_id": "yoyo-palais-de-tokyo",
-   "night": "2026-10-03",
-   "start": "2026-10-03T23:30:00.000",
-   "end": "2026-10-04T05:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "marco-carola",
-     "name": "Marco Carola",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ii-faces",
-     "name": "II FACES",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ale-de-tuglie",
-     "name": "Ale De Tuglie",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "tech house",
-    "minimal"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2533029",
-   "event_url": "https://ra.co/events/2533029",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2533029"
-    }
-   ],
-   "interest": {
-    "score": 44,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Marco Carola (52)",
-     "lieu : YoYo - Palais de Tokyo (palier 1)"
     ]
    }
   },
@@ -23254,11 +23053,11 @@
     }
    ],
    "interest": {
-    "score": 74,
-    "tier": 2,
+    "score": 80,
+    "tier": 3,
     "reasons": [
      "tête d'affiche : Bob Sinclar (94)",
-     "lieu : Pavillon Tilsitt (palier 1)"
+     "lieu : Pavillon Tilsitt (palier 2)"
     ]
    }
   },
@@ -26623,6 +26422,45 @@
    }
   },
   {
+   "id": "9f4acfd330d1",
+   "title": "COOKIE RECORDS : FORMAT CLUB XXL",
+   "venue_id": "la-rotonde",
+   "night": "2026-10-16",
+   "start": "2026-10-16T22:00:00+02:00",
+   "end": "2026-10-17T06:00:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "tonton-al",
+     "name": "Tonton Al",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 17.51,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/wwk6bn-cookie-records-format-club-xxl-16th-oct-la-rotonde-paris-tickets",
+   "event_url": "https://dice.fm/event/wwk6bn-cookie-records-format-club-xxl-16th-oct-la-rotonde-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-16/32557aff-9652-4f57-9ccd-169b901ea8ec.jpg?rect=0%2C0%2C5285%2C5285",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/wwk6bn-cookie-records-format-club-xxl-16th-oct-la-rotonde-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Tonton Al (0)",
+     "lieu : La Rotonde (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "c8e8c2761fc1",
    "title": "Romain Garcia & Friends: CRi, Nicky Elisabeth, Pete K, Romain Garcia",
    "venue_id": "rex-club",
@@ -27458,6 +27296,45 @@
    }
   },
   {
+   "id": "8ca76a1cfc01",
+   "title": "Discotaco : disco, paillettes & tacos partout !",
+   "venue_id": "le-mazette",
+   "night": "2026-10-22",
+   "start": "2026-10-22T18:00:00+02:00",
+   "end": "2026-10-23T01:00:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "funky-french-league",
+     "name": "Funky French League",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/avka8q-discotaco-disco-paillettes-tacos-partout-22nd-oct-le-mazette-paris-tickets",
+   "event_url": "https://dice.fm/event/avka8q-discotaco-disco-paillettes-tacos-partout-22nd-oct-le-mazette-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-08-17/aca0a60b-2ded-404f-bb29-0e7248423e88.jpg?rect=420%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/avka8q-discotaco-disco-paillettes-tacos-partout-22nd-oct-le-mazette-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 35,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Funky French League (40)",
+     "lieu : Le Mazette (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "b6dc4e40e104",
    "title": "Jokko Collective Pasaporteman A/V + Noa & ohjeelo A/V",
    "venue_id": "communale-saint-ouen",
@@ -28023,16 +27900,20 @@
     "House",
     "Disco & funk"
    ],
-   "price_min": null,
+   "price_min": 14.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2531032",
    "event_url": "https://ra.co/events/2531032",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-07/ac8993e6-e108-42d0-844b-99b77a4ec39e.jpg?rect=170%2C0%2C770%2C770",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2531032"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/bbgdqm-mood-ii-swing-elsa-bernini-seabra-more-de-la-groove-24th-oct-la-java-paris-tickets"
     }
    ],
    "interest": {
@@ -31317,6 +31198,20 @@
  ],
  "announcements": [
   {
+   "id": "eec4c9949bdf",
+   "name": "Keinemusik",
+   "night": "2026-10-01",
+   "venue": "YoYo - Palais de Tokyo",
+   "photo": "https://i.scdn.co/image/ab6761610000f178c24a9a329a26cbdfabfd73e2"
+  },
+  {
+   "id": "88de8b54524d",
+   "name": "Bob Sinclar",
+   "night": "2026-10-07",
+   "venue": "Pavillon Tilsitt",
+   "photo": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845"
+  },
+  {
    "id": "fa90241b2e45",
    "name": "amne",
    "night": "2026-10-10",
@@ -31374,6 +31269,36 @@
   },
   {
    "kind": "event",
+   "day": "SAM 19 SEP",
+   "title": "Sistek",
+   "venue": "YoYo - Palais de Tokyo",
+   "time": "23:30 → 06:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Sebastien Leger, Deer Jade, Paso Doble",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb9b0660bd2e655dd0cef6403d",
+   "event_id": "1d591db892d0"
+  },
+  {
+   "kind": "event",
+   "day": "JEU 24 SEP",
+   "title": "The Supermen Lovers",
+   "venue": "Rex Club",
+   "time": "23:59 → 07:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Matteo Diop",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb81877b5938b2350179d5c609",
+   "event_id": "319f790e7494"
+  },
+  {
+   "kind": "event",
    "day": "JEU 1 OCT",
    "title": "Hugel",
    "venue": "Cité du Cinéma",
@@ -31404,36 +31329,6 @@
   },
   {
    "kind": "event",
-   "day": "VEN 2 OCT",
-   "title": "Bennet (DE)",
-   "venue": "Badaboum",
-   "time": "23:30 → 07:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "RĒVE, Zuri, Orange Crush: Bennet",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5ebceb79513a3973799e2b684d5",
-   "event_id": "0e01b4b9cc84"
-  },
-  {
-   "kind": "event",
-   "day": "VEN 2 OCT",
-   "title": "Poppy (BE)",
-   "venue": "La Java",
-   "time": "23:30 → 07:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "Elias Mazian",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb9602d4f4d6faad23dcdf1b99",
-   "event_id": "bda5fa3b0cac"
-  },
-  {
-   "kind": "event",
    "day": "SAM 3 OCT",
    "title": "Bag Raiders",
    "venue": "Sacré",
@@ -31453,7 +31348,7 @@
    "title": "Bob Sinclar",
    "venue": "Pavillon Tilsitt",
    "time": "21:00 → 03:00",
-   "tier": 2,
+   "tier": 3,
    "reason": "",
    "supports": "",
    "subtitle": "",
