@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-18T13:28:27Z",
+ "generated_at": "2026-09-18T23:09:20Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -62,7 +62,6 @@
   "blue-room",
   "systeme",
   "sainte-catherine-hall",
-  "esc",
   "sms-514-613-5811-for-location",
   "le-belmont",
   "tba-le-bateau-mouche",
@@ -71,6 +70,7 @@
   "vino-disco",
   "red-roof-church",
   "l-escogriffe-bar-spectacle",
+  "esc",
   "la-recre",
   "barbossa",
   "sans-soleil",
@@ -2964,16 +2964,6 @@
    "known": false
   },
   {
-   "id": "kavari",
-   "name": "KAVARI",
-   "tier": 0,
-   "score": 39,
-   "popularity": 39,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17814126a85d0be8c80b4e46beb",
-   "known": false
-  },
-  {
    "id": "kiju",
    "name": "Kiju",
    "tier": 0,
@@ -2991,6 +2981,16 @@
    "popularity": 19,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178cbb51c0ca3cffe8d3b34beee",
+   "known": false
+  },
+  {
+   "id": "kimberlaid",
+   "name": "KimberlaID",
+   "tier": 0,
+   "score": 8,
+   "popularity": 8,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17818f7a6394c7bb61be5bb8db4",
    "known": false
   },
   {
@@ -6619,74 +6619,6 @@
    }
   },
   {
-   "id": "f680a1f29158",
-   "title": "✰ Strawberry Gothcake: KAVARI, SHADOW WIZARD MONEY GANG & MORE ✰",
-   "venue_id": "esc",
-   "night": "2026-09-19",
-   "start": "2026-09-19T23:00:00.000",
-   "end": "2026-09-20T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "kavari",
-     "name": "KAVARI",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "mowie-2",
-     "name": "Mowie (2)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "the-bald-girl",
-     "name": "the bald girl",
-     "billing": "support"
-    },
-    {
-     "artist_id": "kneesplint",
-     "name": "kneesplint",
-     "billing": "support"
-    },
-    {
-     "artist_id": "outback",
-     "name": "Outback",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dani-rev",
-     "name": "Dani Rev",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "hardcore",
-    "club"
-   ],
-   "families": [
-    "Trance & hard",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2514209",
-   "event_url": "https://ra.co/events/2514209",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2514209"
-    }
-   ],
-   "interest": {
-    "score": 40,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : KAVARI (39)",
-     "lieu : ESC (palier 2)"
-    ]
-   }
-  },
-  {
    "id": "c7028718fbdd",
    "title": "Interdependence Sunset Session Montréal",
    "venue_id": "cafe-social-b-hive",
@@ -6726,6 +6658,74 @@
     "reasons": [
      "tête d'affiche : 6RAJ (18)",
      "lieu : Café Social B Hive (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "0e9c33a8b38f",
+   "title": "✰ Strawberry Gothcake: SHADOW WIZARD MONEY GANG, KimberlaID & MORE ✰",
+   "venue_id": "esc",
+   "night": "2026-09-19",
+   "start": "2026-09-19T23:00:00.000",
+   "end": "2026-09-20T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "kimberlaid",
+     "name": "KimberlaID",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mowie-2",
+     "name": "Mowie (2)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "the-bald-girl",
+     "name": "the bald girl",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kneesplint",
+     "name": "kneesplint",
+     "billing": "support"
+    },
+    {
+     "artist_id": "outback",
+     "name": "Outback",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dani-rev",
+     "name": "Dani Rev",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "hardcore",
+    "electronica"
+   ],
+   "families": [
+    "Trance & hard",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2514209",
+   "event_url": "https://ra.co/events/2514209",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2514209"
+    }
+   ],
+   "interest": {
+    "score": 19,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : KimberlaID (8)",
+     "lieu : ESC (palier 2)"
     ]
    }
   },
@@ -10598,8 +10598,14 @@
      "billing": "support"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "electronica",
+    "progressive house"
+   ],
+   "families": [
+    "House",
+    "Expérimental"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
@@ -11590,7 +11596,7 @@
    "ticket_url": "https://www.ticketmaster.ca/dance-now-montreal-montreal-quebec-10-09-2026/event/310064597CE5C969",
    "event_url": "https://www.ticketmaster.ca/dance-now-montreal-montreal-quebec-10-09-2026/event/310064597CE5C969",
    "image": "https://s1.ticketm.net/dam/a/cf2/b3343dc5-73f8-423d-b688-bcada1d3acf2_SOURCE",
-   "status": "confirmed",
+   "status": "cancelled",
    "sources": [
     {
      "id": "ticketmaster",

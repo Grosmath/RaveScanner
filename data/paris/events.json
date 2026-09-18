@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-18T13:29:09Z",
+ "generated_at": "2026-09-18T23:09:59Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 422
+   "events": 435
   },
   {
    "id": "dice",
@@ -53,14 +53,16 @@
   "nouveau-casino",
   "le-trabendo",
   "la-station-gare-des-mines",
+  "la-cigale",
   "la-gaite-lyrique",
   "virage",
   "la-felicita",
+  "elysee-montmartre",
   "studio56",
   "le-bateau-phare",
-  "elysee-montmartre",
   "la-clairiere",
   "workshow",
+  "104-centquatre",
   "petit-bain",
   "magasins-generaux",
   "cite-de-la-musique",
@@ -72,7 +74,6 @@
   "la-bellevilloise",
   "la-nuit",
   "la-maroquinerie",
-  "la-cigale",
   "le-mazette",
   "fondation-cartier",
   "mains-doeuvres",
@@ -87,6 +88,7 @@
   "lithium-paris",
   "la-rotonde-stalingrad",
   "auber-garden",
+  "tba-paris",
   "glazart",
   "tba-secret-warehouse",
   "panic-room",
@@ -94,13 +96,13 @@
   "gibus-club",
   "philharmonie-de-paris",
   "la-prairie-du-canal",
-  "tba-paris",
   "lafayette-anticipations",
   "le-6b",
   "la-marbrerie",
   "la-mecanique-ondulatoire",
   "pamela-club",
   "communale-saint-ouen",
+  "la-gare-le-gore",
   "plat-form",
   "tba-45-bis-avenue-de-la-belle-gabrielle-94130-nogent-sur-marne-france",
   "plantation",
@@ -113,7 +115,7 @@
   "concorde-atlantique",
   "dock-b",
   "jardin-des-traverses",
-  "la-gare-le-gore",
+  "le-point-fort-d-aubervilliers",
   "new-morning",
   "paname-sur-seine",
   "radio-campus-paris",
@@ -156,6 +158,16 @@
   "mca-alfortville"
  ],
  "venues": [
+  {
+   "id": "104-centquatre",
+   "name": "104 CENTQUATRE",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
   {
    "id": "42-marches",
    "name": "42 Marches",
@@ -922,6 +934,16 @@
    "genres": []
   },
   {
+   "id": "le-point-fort-d-aubervilliers",
+   "name": "Le point fort d'Aubervilliers",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "le-pop-up-du-label",
    "name": "Le Pop-Up du Label",
    "type": "club",
@@ -1569,6 +1591,16 @@
    "known": false
   },
   {
+   "id": "300skullsandcounting",
+   "name": "300SkullsAndCounting",
+   "tier": 0,
+   "score": 25,
+   "popularity": 25,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786704c3a558a7af55f4fa0e60",
+   "known": false
+  },
+  {
    "id": "3672-techno",
    "name": "3672*Techno",
    "tier": 0,
@@ -1631,6 +1663,16 @@
   {
    "id": "abs8lute",
    "name": "abs8lute",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "acid-oslo",
+   "name": "Acid Oslo",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -1989,6 +2031,16 @@
    "known": false
   },
   {
+   "id": "amelia-leigh",
+   "name": "Amelia Leigh",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178b526ce0ee3bcae5e73798ebc",
+   "known": false
+  },
+  {
    "id": "amne",
    "name": "amne",
    "tier": 0,
@@ -2188,6 +2240,16 @@
    "popularity": 13,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178fe8cec5ce18b17f8b8ae6e17",
+   "known": false
+  },
+  {
+   "id": "apoteoz",
+   "name": "Apoteoz",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/75fc26bf9ea297d66d69d3061667f58d/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5181,6 +5243,16 @@
    "known": false
   },
   {
+   "id": "gotis",
+   "name": "GOTIS",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788f91d6e21078f25451d0f754",
+   "known": false
+  },
+  {
    "id": "grace-dahl",
    "name": "Grace Dahl",
    "tier": 0,
@@ -5341,6 +5413,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b7b85a66461a09e92bcee3fe",
+   "known": false
+  },
+  {
+   "id": "haxo",
+   "name": "HAXO",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/386916d5e49e218ca17d1e3f35dccaa1/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5534,6 +5616,16 @@
    "known": false
   },
   {
+   "id": "ian-maur",
+   "name": "Ian Maur",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "iced-lattina",
    "name": "iced lattina",
    "tier": 0,
@@ -5581,6 +5673,16 @@
    "popularity": 63,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782ea36e7e9e49762e4a5c7d9b",
+   "known": false
+  },
+  {
+   "id": "ingrid",
+   "name": "Ingrid",
+   "tier": 0,
+   "score": 20,
+   "popularity": 20,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/64e379ca468be987c56bbe678e40df80/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -6134,6 +6236,16 @@
    "known": false
   },
   {
+   "id": "karaib-kollectif-ensemb",
+   "name": "Karaïb Kollectif Ensemb",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "karenine",
    "name": "Karenine",
    "tier": 0,
@@ -6567,6 +6679,16 @@
    "known": false
   },
   {
+   "id": "laura-trance",
+   "name": "Laura Trance",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/f86898181b1fb1e34067ebddd69569d6/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "lauren-duffus",
    "name": "Lauren Duffus",
    "tier": 0,
@@ -6804,6 +6926,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "liv-del-estal",
+   "name": "Liv del Estal",
+   "tier": 0,
+   "score": 44,
+   "popularity": 44,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c15c292ba1b547b4f6c5a9f7",
    "known": false
   },
   {
@@ -7670,6 +7802,16 @@
    "known": false
   },
   {
+   "id": "mon-to",
+   "name": "Mon.To",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048513e6c4c6952e5018873721b11",
+   "known": false
+  },
+  {
    "id": "montero",
    "name": "Montero",
    "tier": 0,
@@ -7702,6 +7844,16 @@
   {
    "id": "more-offset",
    "name": "More: Offset",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "mornik",
+   "name": "Mornik",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -7928,6 +8080,19 @@
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c3a477f50bb57961ba94dca1",
    "known": false
+  },
+  {
+   "id": "nia-archives",
+   "name": "Nia Archives",
+   "tier": 3,
+   "score": 68,
+   "popularity": 70,
+   "genres": [
+    "jungle",
+    "dnb"
+   ],
+   "image": "https://i.scdn.co/image/ab6761610000f178cc819c191667d9b2f775a9e8",
+   "known": true
   },
   {
    "id": "nick-v",
@@ -8204,6 +8369,16 @@
   {
    "id": "oda-et-l-orchidee-cosmique-au-klub",
    "name": "Oda et L'Orchidée cosmique au Klub",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "ogwax-2",
+   "name": "Ogwax (2)",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -8489,6 +8664,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "parra-for-cuva",
+   "name": "Parra for Cuva",
+   "tier": 0,
+   "score": 75,
+   "popularity": 75,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785d29ef2a3bb075d68947aa74",
    "known": false
   },
   {
@@ -9029,6 +9214,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851f19f04ee5202e656a1dd6234",
+   "known": false
+  },
+  {
+   "id": "reunion-de-famille-3-teknibal-horde-fer-a-coudre",
+   "name": "Réunion de famille 3: Teknibal · Horde · Fer à Coudre",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -9982,6 +10177,16 @@
    "known": false
   },
   {
+   "id": "sun-goes-down-akiyo-roger-raspail",
+   "name": "Sun Goes Down · Akiyo · Roger Raspail",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "supergloss",
    "name": "Supergloss",
    "tier": 0,
@@ -10405,6 +10610,16 @@
    "known": false
   },
   {
+   "id": "tilda-2",
+   "name": "TILDA (2)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851fd8164c56a396bb68088e623",
+   "known": false
+  },
+  {
    "id": "timnah",
    "name": "Timnah",
    "tier": 0,
@@ -10695,6 +10910,16 @@
    "known": false
   },
   {
+   "id": "valeria-litvakov",
+   "name": "Valeria Litvakov",
+   "tier": 0,
+   "score": 30,
+   "popularity": 30,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17835ae4e9b3a644a84352dabef",
+   "known": false
+  },
+  {
    "id": "vanroose",
    "name": "VANROOSE",
    "tier": 0,
@@ -10842,6 +11067,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783d0f0bac8530c06743b8181e",
+   "known": false
+  },
+  {
+   "id": "vinessett",
+   "name": "VINESSETT",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -12040,7 +12275,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2534723",
+   "ticket_url": "",
    "event_url": "https://ra.co/events/2534723",
    "image": "",
    "status": "confirmed",
@@ -12558,6 +12793,49 @@
     "reasons": [
      "tête d'affiche : Leona Jacewska (8)",
      "lieu : La Station - Gare des Mines (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "379d9fd7bde2",
+   "title": "LAPÜTA: After HyperPerreo // 1ERA EDICION",
+   "venue_id": "babour-sauvage",
+   "night": "2026-09-18",
+   "start": "2026-09-19T05:30:00.000",
+   "end": "2026-09-19T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "paris",
+     "name": "PARIS (AU)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "latin bass"
+   ],
+   "families": [
+    "Techno",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2534934",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2534934"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : PARIS (AU) (15)",
+     "lieu : Babour Sauvage (palier 1)"
     ]
    }
   },
@@ -14595,49 +14873,6 @@
    }
   },
   {
-   "id": "7ce61bf8229a",
-   "title": "LAPÜTA: After HyperPerreo // 1ERA EDICION",
-   "venue_id": "babour-sauvage",
-   "night": "2026-09-19",
-   "start": "2026-09-19T06:00:00.000",
-   "end": "2026-09-19T12:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "paris",
-     "name": "PARIS (AU)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "reggaeton"
-   ],
-   "families": [
-    "Techno",
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2534934",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2534934"
-    }
-   ],
-   "interest": {
-    "score": 17,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : PARIS (AU) (15)",
-     "lieu : Babour Sauvage (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "8ae72a908579",
    "title": "+1 833 246 4622 - Iberia Airlines New York Office",
    "venue_id": "ddd",
@@ -15925,6 +16160,88 @@
    }
   },
   {
+   "id": "991c79401246",
+   "title": "CLUB 909: SECRET GUEST & GOTIS",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-09-20",
+   "start": "2026-09-20T23:59:00.000",
+   "end": "2026-09-21T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "gotis",
+     "name": "GOTIS",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540877",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540877"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : GOTIS (0)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "647c5b1de3bb",
+   "title": "Acid Oslo",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-09-21",
+   "start": "2026-09-21T23:59:00.000",
+   "end": "2026-09-22T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "acid-oslo",
+     "name": "Acid Oslo",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540879",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540879"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Acid Oslo (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "d0c83ed23465",
    "title": "Devon Rexi & Nicolini - Ciclade x la Station",
    "venue_id": "la-station-gare-des-mines",
@@ -16586,6 +16903,47 @@
     "reasons": [
      "tête d'affiche : Camporeale (FR) (7)",
      "lieu : Pamela Club (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "6e37660bdb15",
+   "title": "59 BEL RECORDS: CLARA RIVA + Ian Maur",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-09-24",
+   "start": "2026-09-24T23:59:00.000",
+   "end": "2026-09-25T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ian-maur",
+     "name": "Ian Maur",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540885",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540885"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ian Maur (0)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -19373,6 +19731,58 @@
    }
   },
   {
+   "id": "6cd2a42eeb25",
+   "title": "LA RIPOSTE: DRUSBĂ - ACT II",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-09-26",
+   "start": "2026-09-26T23:59:00.000",
+   "end": "2026-09-27T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "tilda-2",
+     "name": "TILDA (2)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "amelia-leigh",
+     "name": "Amelia Leigh",
+     "billing": "support"
+    },
+    {
+     "artist_id": "shfoosja",
+     "name": "Shfoosja",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "drum & bass",
+    "jungle"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540889",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540889"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : TILDA (2) (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "26751721fa5d",
    "title": "LOVE LETTERS CLUB",
    "venue_id": "point-ephemere",
@@ -19936,8 +20346,8 @@
    }
   },
   {
-   "id": "13c70b8c9939",
-   "title": "Rabanne presents Paco Club Chapter 2",
+   "id": "e613b96a9abe",
+   "title": "Rabanne presents Paco Club Paris",
    "venue_id": "fvtvr",
    "night": "2026-09-30",
    "start": "2026-09-30T23:00:00.000",
@@ -20614,6 +21024,43 @@
     "reasons": [
      "tête d'affiche : Dam Swindle (61)",
      "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "fec58136c34c",
+   "title": "Parra for Cuva",
+   "venue_id": "la-cigale",
+   "night": "2026-10-02",
+   "start": "2026-10-02T20:00:00.000",
+   "end": "2026-10-02T22:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "parra-for-cuva",
+     "name": "Parra for Cuva",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540896",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540896"
+    }
+   ],
+   "interest": {
+    "score": 60,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Parra for Cuva (75)",
+     "lieu : La Cigale (palier 1)"
     ]
    }
   },
@@ -21787,6 +22234,47 @@
    }
   },
   {
+   "id": "12b4fb138cc5",
+   "title": "RAW XXS #15 • Secret warehouse",
+   "venue_id": "tba-secret-warehouse",
+   "night": "2026-10-02",
+   "start": "2026-10-02T23:00:00.000",
+   "end": "2026-10-03T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "raw-xxs-15-secret-warehouse",
+     "name": "RAW XXS #15 • Secret warehouse",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2494619",
+   "event_url": "https://ra.co/events/2494619",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2494619"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : RAW XXS #15 • Secret warehouse (8)",
+     "lieu : TBA - Secret Warehouse (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8fdae67364bb",
    "title": "Sacré présente: Bag Raiders & Dessins Nuls Animés",
    "venue_id": "sacre",
@@ -22888,47 +23376,6 @@
    }
   },
   {
-   "id": "e06bc028ddd7",
-   "title": "RAW XXS #15 • Secret warehouse",
-   "venue_id": "tba-secret-warehouse",
-   "night": "2026-10-03",
-   "start": "2026-10-03T23:00:00.000",
-   "end": "2026-10-04T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "raw-xxs-15-secret-warehouse",
-     "name": "RAW XXS #15 • Secret warehouse",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2494619",
-   "event_url": "https://ra.co/events/2494619",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2494619"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : RAW XXS #15 • Secret warehouse (8)",
-     "lieu : TBA - Secret Warehouse (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "df18feba2e7d",
    "title": "Spectrum Waves: Pride edition",
    "venue_id": "dock-b",
@@ -23584,6 +24031,59 @@
     "reasons": [
      "tête d'affiche : Lacchesi (38)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "39bf0718d055",
+   "title": "TAKE HIT: Ingrid, KD/MS, MON.TO, HAXO",
+   "venue_id": "mia-mao",
+   "night": "2026-10-08",
+   "start": "2026-10-08T23:00:00.000",
+   "end": "2026-10-09T06:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "ingrid",
+     "name": "Ingrid",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "haxo",
+     "name": "HAXO",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mon-to",
+     "name": "Mon.To",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "hardcore"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2540709",
+   "event_url": "https://ra.co/events/2540709",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540709"
+    }
+   ],
+   "interest": {
+    "score": 20,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ingrid (20)",
+     "lieu : Mia Mao (palier 1)"
     ]
    }
   },
@@ -24697,6 +25197,53 @@
    }
   },
   {
+   "id": "f329f98aa4e1",
+   "title": "Sun Goes Down · Akiyo · Roger Raspail & Karaïb Kollectif Ensemb",
+   "venue_id": "le-point-fort-d-aubervilliers",
+   "night": "2026-10-09",
+   "start": "2026-10-09T19:00:00.000",
+   "end": "2026-10-09T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "sun-goes-down-akiyo-roger-raspail",
+     "name": "Sun Goes Down · Akiyo · Roger Raspail",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "karaib-kollectif-ensemb",
+     "name": "Karaïb Kollectif Ensemb",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "deep house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540502",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540502"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Sun Goes Down · Akiyo · Roger Raspail (8)",
+     "lieu : Le point fort d'Aubervilliers (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "67ad06c051ac",
    "title": "THE ANNIVERSARY: CEEJAY & SECRET GUESTS",
    "venue_id": "tba-secret-place",
@@ -25688,6 +26235,47 @@
     "reasons": [
      "tête d'affiche : DJ Masda (8)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b7f4b5a291e7",
+   "title": "Réunion de famille 3: Teknibal · Horde · Fer à Coudre",
+   "venue_id": "le-point-fort-d-aubervilliers",
+   "night": "2026-10-10",
+   "start": "2026-10-10T15:00:00.000",
+   "end": "2026-10-10T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "reunion-de-famille-3-teknibal-horde-fer-a-coudre",
+     "name": "Réunion de famille 3: Teknibal · Horde · Fer à Coudre",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electro"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540510",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540510"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Réunion de famille 3: Teknibal · Horde · Fer à Coudre (8)",
+     "lieu : Le point fort d'Aubervilliers (palier 1)"
     ]
    }
   },
@@ -27569,6 +28157,63 @@
    }
   },
   {
+   "id": "0735159ba1cc",
+   "title": "MICROMAT - ALL DAY LONG/ Apoteoz/COMFORT ZONE / OGWAX / SLY",
+   "venue_id": "tba-paris",
+   "night": "2026-10-17",
+   "start": "2026-10-17T12:00:00.000",
+   "end": "2026-10-18T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mornik",
+     "name": "Mornik",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ogwax-2",
+     "name": "Ogwax (2)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "apoteoz",
+     "name": "Apoteoz",
+     "billing": "support"
+    },
+    {
+     "artist_id": "more",
+     "name": "MORE",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "deep house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540614",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540614"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Mornik (8)",
+     "lieu : TBA - Paris (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "5a708c37621e",
    "title": "Mosimann",
    "venue_id": "zenith-paris-la-villette",
@@ -27930,6 +28575,69 @@
     "reasons": [
      "tête d'affiche : Funky French League (40)",
      "lieu : Le Mazette (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "daec8684fefc",
+   "title": "Isengard & Eternal Mana with 300SkullsAndCounting & Jenny Sparks, Valeria Litvakov, venti, GGB",
+   "venue_id": "la-station-gare-des-mines",
+   "night": "2026-10-22",
+   "start": "2026-10-22T19:00:00.000",
+   "end": "2026-10-22T23:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "valeria-litvakov",
+     "name": "Valeria Litvakov",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "300skullsandcounting",
+     "name": "300SkullsAndCounting",
+     "billing": "support"
+    },
+    {
+     "artist_id": "vinessett",
+     "name": "VINESSETT",
+     "billing": "support"
+    },
+    {
+     "artist_id": "golce",
+     "name": "Golce",
+     "billing": "support"
+    },
+    {
+     "artist_id": "laura-trance",
+     "name": "Laura Trance",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "hip-hop",
+    "bass"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540616",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540616"
+    }
+   ],
+   "interest": {
+    "score": 34,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Valeria Litvakov (30)",
+     "lieu : La Station - Gare des Mines (palier 2)"
     ]
    }
   },
@@ -31608,6 +32316,43 @@
    }
   },
   {
+   "id": "378752f4b4cc",
+   "title": "LIV DEL ESTAL",
+   "venue_id": "elysee-montmartre",
+   "night": "2026-11-26",
+   "start": "2026-11-26T19:30:00.000",
+   "end": "2026-11-26T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "liv-del-estal",
+     "name": "Liv del Estal",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540898",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540898"
+    }
+   ],
+   "interest": {
+    "score": 44,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Liv del Estal (44)",
+     "lieu : Élysée Montmartre (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "e352b6c34934",
    "title": "horsegiirL NATURE IS HEALING tour",
    "venue_id": "elysee-montmartre",
@@ -31912,6 +32657,52 @@
     "reasons": [
      "tête d'affiche : ell.iot (8)",
      "lieu : Fréquence Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "a6a79bfa41d2",
+   "title": "Nia Archives",
+   "venue_id": "104-centquatre",
+   "night": "2026-12-05",
+   "start": "2026-12-05T19:30:00.000",
+   "end": "2026-12-06T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "nia-archives",
+     "name": "Nia Archives",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "jungle",
+    "dnb"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540895",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540895"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540895"
+    }
+   ],
+   "interest": {
+    "score": 55,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Nia Archives (68)",
+     "lieu : 104 CENTQUATRE (palier 1)"
     ]
    }
   },
@@ -32385,6 +33176,13 @@
    "photo": "https://cdn-images.dzcdn.net/images/artist/632a1532ee86dedf6efa5fb8e9a385e4/250x250-000000-80-0-0.jpg"
   },
   {
+   "id": "fec58136c34c",
+   "name": "Parra for Cuva",
+   "night": "2026-10-02",
+   "venue": "La Cigale",
+   "photo": "https://i.scdn.co/image/ab6761610000f1785d29ef2a3bb075d68947aa74"
+  },
+  {
    "id": "e8f2c31a25c8",
    "name": "Mosimann",
    "night": "2026-10-17",
@@ -32392,18 +33190,11 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178fd31261b54b262aa3aca9de3"
   },
   {
-   "id": "18d792ff0ea9",
-   "name": "Marsh",
-   "night": "2026-11-14",
-   "venue": "Central Chapelle",
-   "photo": "https://i.scdn.co/image/ab6761610000f1787b56da31f993d1fb4ea5f56e"
-  },
-  {
-   "id": "221feecde88c",
-   "name": "RĒVE",
-   "night": "2026-10-02",
-   "venue": "Badaboum",
-   "photo": "https://i.scdn.co/image/ab6761610000f1781e41f135642952bda0792797"
+   "id": "a6a79bfa41d2",
+   "name": "Nia Archives",
+   "night": "2026-12-05",
+   "venue": "104 CENTQUATRE",
+   "photo": "https://i.scdn.co/image/ab6761610000f178cc819c191667d9b2f775a9e8"
   }
  ],
  "families": [
