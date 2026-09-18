@@ -17,7 +17,7 @@
  * empiler doublerait la place occupee sur le telephone.
  */
 
-const VERSION = 'encore-v5';
+const VERSION = 'encore-v6';
 const SHELL = [
   './',
   './index.html',

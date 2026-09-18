@@ -25,7 +25,7 @@ const MONTHS = ['jan', 'fév', 'mar', 'avr', 'mai', 'juin', 'juil', 'août', 'se
 
 const COLLAPSE_AT = 4;
 
-const state = { city: VILLE_DEFAUT, tier: 0, genres: [], q: '', event: null };
+const state = { city: VILLE_DEFAUT, tier: 0, genres: [], q: '', event: null, favoris: false };
 const store = { data: null, venues: new Map(), artists: new Map(), events: new Map() };
 const expanded = new Set();
 
@@ -125,12 +125,81 @@ function joursConnus(events) {
   return [...new Set(events.map((e) => e.night))].filter((j) => j >= aujourdhui).sort();
 }
 
+/* ---------------------------------------------------------------- favoris */
+
+/* Deux listes, sur l'appareil seulement : les soirees enregistrees (par
+   `event.id`) et les artistes suivis (par `artist_id`). Pas de compte, pas de
+   serveur : ce qu'on aime ne quitte pas le telephone. Le prix a assumer : rien
+   n'est synchronise d'un appareil a l'autre.
+
+   `event.id` est un hachage lieu + nuit + titre, stable a 99,5 % d'un scan a
+   l'autre (mesure sur l'historique publie). Un titre reecrit par la source
+   fait perdre le favori de la soiree, jamais celui de l'artiste. Un artiste
+   suivi vaut pour les deux villes : `artist_id` est partage.
+
+   Deux usages prevus plus tard, qui expliquent la forme : compter les soirees
+   enregistrees pour mesurer l'interet (il faudra alors un serveur, donc une
+   vraie question de vie privee), et prevenir quand un artiste suivi annonce
+   une date. */
+const FAVORIS_CLE = 'encore.favoris';
+
+function lireFavoris() {
+  try {
+    const brut = JSON.parse(localStorage.getItem(FAVORIS_CLE) || '{}');
+    return { soirees: new Set(brut.soirees || []), artistes: new Set(brut.artistes || []) };
+  } catch {
+    return { soirees: new Set(), artistes: new Set() };
+  }
+}
+
+const favoris = lireFavoris();
+
+function garderFavoris() {
+  try {
+    localStorage.setItem(FAVORIS_CLE, JSON.stringify({
+      version: 1,
+      soirees: [...favoris.soirees],
+      artistes: [...favoris.artistes],
+    }));
+  } catch { /* mode prive : les favoris vivront le temps de la page */ }
+}
+
+const soireeEnregistree = (ev) => favoris.soirees.has(ev.id);
+const artisteSuiviDans = (ev) => (ev.lineup || []).some((s) => favoris.artistes.has(s.artist_id));
+const dansMesFavoris = (ev) => soireeEnregistree(ev) || artisteSuiviDans(ev);
+
+function basculer(ensemble, cle) {
+  if (ensemble.has(cle)) ensemble.delete(cle); else ensemble.add(cle);
+  garderFavoris();
+}
+
+function renderFavoris() {
+  const bouton = $('#fav-filtre');
+  const aVenir = store.data.events.filter((e) => e.night >= todayISO() && dansMesFavoris(e)).length;
+  const rien = !favoris.soirees.size && !favoris.artistes.size;
+  bouton.hidden = rien && !state.favoris;
+  bouton.classList.toggle('is-active', state.favoris);
+  bouton.setAttribute('aria-pressed', String(state.favoris));
+  $('#fav-label').textContent = aVenir ? `Mes favoris (${aVenir})` : 'Mes favoris';
+}
+
 function matches(ev, { sansGenres = false } = {}) {
+  // Le filtre des favoris passe avant le niveau et les genres : « mes
+  // favoris » doit tout montrer, meme une petite soiree enregistree exprès.
+  // La recherche, elle, reste active.
+  if (state.favoris) {
+    if (!dansMesFavoris(ev)) return false;
+    return correspondRecherche(ev);
+  }
   if (ev.interest.tier < state.tier) return false;
   // Plusieurs familles cochees : une soiree qui appartient a l'une d'elles
   // suffit. « Techno » + « House » doit montrer plus, pas moins.
   if (!sansGenres && state.genres.length
       && !(ev.families || []).some((f) => state.genres.includes(f))) return false;
+  return correspondRecherche(ev);
+}
+
+function correspondRecherche(ev) {
   if (!state.q) return true;
   const needle = state.q.toLowerCase();
   const hay = [
@@ -151,7 +220,10 @@ function eventButton(ev, { withDay = false } = {}) {
   // mise en avant passe entierement par la couleur de la carte.
   return `
     <button type="button" class="ev ev--t${tier}" data-event="${esc(ev.id)}">
-      <span class="ev-top"><span class="ev-name">${esc(head)}</span></span>
+      <span class="ev-top"><span class="ev-name">${esc(head)}</span>${
+        soireeEnregistree(ev) ? '<span class="ev-fav" title="Soirée enregistrée">♥</span>'
+        : artisteSuiviDans(ev) ? '<span class="ev-fav ev-fav--artiste" title="Un artiste que vous suivez">♡</span>' : ''
+      }</span>
       <span class="ev-venue">${esc(venue ? venue.name : '')}</span>
       <span class="ev-time">${withDay ? esc(dayLabel(ev.night)) + ' · ' : ''}${esc(timeRange(ev))}</span>
     </button>`;
@@ -197,6 +269,9 @@ function renderPlanning() {
   $('#board-wrap').hidden = !days.length;
   $('#hint-scroll').hidden = !days.length;
   $('#empty').hidden = days.length > 0;
+  $('#empty').textContent = state.favoris
+    ? 'Rien d’enregistré à venir. Ouvrez une soirée pour l’enregistrer, ou suivez un artiste.'
+    : 'Rien ne correspond à ces filtres.';
 
   if (days.length) {
     renderBoard(byDay, days);
@@ -377,7 +452,10 @@ function openSheet(id) {
   const lineup = (ev.lineup || []).map((slot, i) => {
     const a = store.artists.get(slot.artist_id);
     const img = a?.image ? `<img src="${esc(a.image)}" alt="" loading="lazy">` : '<img alt="">';
-    return `<li>${img}<span class="who${i === 0 ? ' head' : ''}">${esc(slot.name)}</span></li>`;
+    const suivi = favoris.artistes.has(slot.artist_id);
+    return `<li>${img}<span class="who${i === 0 ? ' head' : ''}">${esc(slot.name)}</span>
+      <button type="button" class="suivre${suivi ? ' is-on' : ''}" data-suivre="${esc(slot.artist_id)}"
+        aria-pressed="${suivi}">${suivi ? 'Suivi' : 'Suivre'}</button></li>`;
   }).join('');
 
   const links = [
@@ -392,11 +470,12 @@ function openSheet(id) {
     <p class="sheet-venue">${esc(venue ? venue.name : '')}</p>
     <p class="sheet-meta">${esc([timeRange(ev), venue?.address, money, statut].filter(Boolean).join(' · '))}</p>
 
+    <button type="button" class="enregistrer${soireeEnregistree(ev) ? ' is-on' : ''}" data-aimer="${esc(ev.id)}"
+      aria-pressed="${soireeEnregistree(ev)}">${soireeEnregistree(ev) ? '♥ Soirée enregistrée' : '♡ Enregistrer la soirée'}</button>
+
     ${lineup ? `<section><h4>Line up</h4><ul class="lineup">${lineup}</ul></section>` : ''}
 
-    ${links ? `<section><h4>Y aller</h4><div class="links">${links}</div></section>` : ''}
-
-    <p class="soon">Favoris, bientôt</p>`;
+    ${links ? `<section><h4>Y aller</h4><div class="links">${links}</div></section>` : ''}`;
 
   $('#sheet').hidden = false;
   $('#veil').hidden = false;
@@ -408,6 +487,14 @@ function closeSheet() {
   writeHash();
   $('#sheet').hidden = true;
   $('#veil').hidden = true;
+}
+
+/* Apres un clic sur un coeur : la fiche ouverte, le planning et le bouton de
+   filtre se mettent a jour ensemble. */
+function rafraichirFavoris() {
+  if (state.event) openSheet(state.event);
+  renderPlanning();
+  renderFavoris();
 }
 
 /* ----------------------------------------------------------------- genres */
@@ -469,6 +556,13 @@ function segment(selector, key, cast = Number) {
 function wire() {
   segment('[data-tier]', 'tier');
 
+  $('#fav-filtre').addEventListener('click', () => {
+    state.favoris = !state.favoris;
+    expanded.clear();
+    renderPlanning();
+    renderFavoris();
+  });
+
   $('#genres-list').addEventListener('change', () => {
     state.genres = [...document.querySelectorAll('#genres-list input:checked')].map((i) => i.value);
     expanded.clear();
@@ -504,6 +598,12 @@ function wire() {
   // du rail sont recreees a chaque rendu, y attacher un handler chacune
   // fuirait.
   document.addEventListener('click', (e) => {
+    const aimer = e.target.closest('[data-aimer]');
+    if (aimer) { basculer(favoris.soirees, aimer.dataset.aimer); rafraichirFavoris(); return; }
+
+    const suivre = e.target.closest('[data-suivre]');
+    if (suivre) { basculer(favoris.artistes, suivre.dataset.suivre); rafraichirFavoris(); return; }
+
     const card = e.target.closest('[data-event]');
     if (card) { openSheet(card.dataset.event); return; }
 
@@ -541,6 +641,7 @@ function wire() {
       $('#error').hidden = true;
       titrer();
       renderGenres();
+      renderFavoris();
       renderNews();
       renderPlanning();
       renderRail();
@@ -659,6 +760,7 @@ async function boot() {
 
   wire();
   renderGenres();
+  renderFavoris();
   renderNews();
   renderPlanning();
   renderRail();

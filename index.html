@@ -84,6 +84,11 @@
            passage à cette interface ; il revient par familles, rangées par le
            moteur (engine/reload/genres.py). -->
       <div class="controls">
+        <!-- N'apparait qu'une fois quelque chose enregistre : un filtre vide
+             au premier passage n'apprendrait rien a personne. -->
+        <button type="button" class="fav-filtre" id="fav-filtre" hidden aria-pressed="false">
+          <span aria-hidden="true">♥</span> <span id="fav-label">Mes favoris</span>
+        </button>
         <details class="genres" id="genres">
           <summary><span id="genres-label">Genres</span></summary>
           <div class="genres-panel">

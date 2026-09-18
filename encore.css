@@ -655,19 +655,56 @@ main { padding: 1.3rem 0; display: flex; flex-direction: column; gap: 1.6rem; }
 .links a.ghost { background: transparent; color: var(--text); border: 1px solid var(--line); font-weight: 400; }
 .links a.ghost:hover { border-color: var(--text); }
 
-/* Emplacement prevu pour les favoris (v2) : le bouton ira ici, et l'etat
-   dans localStorage, clef `event.id` - stable a 99,5 % d'un scan a l'autre,
-   mesure sur l'historique du depot public. */
-.soon {
-  margin-top: 1.6rem;
+/* ---------------------------------------------------------------- favoris */
+
+/* Meme langage que les autres reglages : bordure fine, mono, accent plein
+   quand le filtre est actif. */
+.fav-filtre {
+  font-family: var(--mono);
+  font-size: .68rem;
+  letter-spacing: .1em;
+  padding: .4rem .65rem;
+  color: var(--dim);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.fav-filtre:hover { color: var(--text); background: var(--surface-2); }
+.fav-filtre.is-active { background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700; }
+
+.ev-fav { color: var(--accent); font-size: .9rem; line-height: 1; flex: none; }
+.ev-fav--artiste { color: var(--dim); }
+
+.enregistrer {
+  margin-top: 1rem;
+  width: 100%;
+  padding: .7rem;
+  font: 600 .9rem var(--sans);
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.enregistrer:hover { border-color: var(--text); }
+.enregistrer.is-on { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+
+.suivre {
+  flex: none;
   font-family: var(--mono);
   font-size: .62rem;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: var(--dimmer);
-  border-top: 1px solid var(--line-soft);
-  padding-top: .8rem;
+  letter-spacing: .08em;
+  padding: .3rem .55rem;
+  color: var(--dim);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  cursor: pointer;
 }
+.suivre:hover { color: var(--text); border-color: var(--text); }
+.suivre.is-on { color: var(--accent); border-color: var(--accent); }
 
 /* ----------------------------------------------------------------- mobile */
 
@@ -698,6 +735,7 @@ main { padding: 1.3rem 0; display: flex; flex-direction: column; gap: 1.6rem; }
   /* Sur telephone, le menu passe sous le niveau et s'ouvre sur toute la
      largeur : un panneau de 260 px cale a droite debordait a gauche. */
   .genres { flex: 1 1 100%; order: 2; }
+  .fav-filtre { flex: 1 1 100%; order: 3; }
   .genres summary { text-align: center; }
   .genres-panel { left: 0; right: 0; width: auto; }
   .seg button { flex: 1 1 auto; text-align: center; padding: .45rem .3rem; }
