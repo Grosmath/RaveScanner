@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-19T12:57:16Z",
+ "generated_at": "2026-09-19T22:50:40Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 402
+   "events": 403
   },
   {
    "id": "dice",
@@ -113,6 +113,7 @@
   "radio-campus-paris",
   "babour-sauvage",
   "la-prairie-du-canal",
+  "le-klub",
   "le-zeralda",
   "amaluna-paris",
   "canal-93",
@@ -127,7 +128,6 @@
   "le-chinois",
   "le-cirque-electrique",
   "le-flow-paris",
-  "le-klub",
   "le-tlm",
   "le-trianon",
   "mirage",
@@ -5583,6 +5583,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "john-dixon",
+   "name": "JOHN DIXON",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851d6e2e21d3c8c331fb688c7cf",
    "known": false
   },
   {
@@ -25422,6 +25432,49 @@
     "reasons": [
      "tête d'affiche : Mornik (8)",
      "lieu : TBA - Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "f615539b3616",
+   "title": "DARKXROOM",
+   "venue_id": "le-klub",
+   "night": "2026-10-17",
+   "start": "2026-10-17T23:59:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "john-dixon",
+     "name": "JOHN DIXON",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "psytrance"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2541267",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541267"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : JOHN DIXON (0)",
+     "lieu : Le Klub (palier 1)"
     ]
    }
   },

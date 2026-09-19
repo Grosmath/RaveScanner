@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-19T12:56:31Z",
+ "generated_at": "2026-09-19T22:50:24Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 176
+   "events": 175
   },
   {
    "id": "piknic",
@@ -50,11 +50,12 @@
   "sat",
   "theatre-fairmount",
   "centre-bell",
-  "warehouse",
   "le-ritz",
   "parc-jean-drapeau",
+  "warehouse",
   "theatre-beanfield",
   "bar-datcha",
+  "nwhr",
   "le-red-room",
   "grand-quai",
   "olympia",
@@ -66,7 +67,6 @@
   "le-belmont",
   "tba-le-bateau-mouche",
   "foufounes",
-  "nwhr",
   "red-roof-church",
   "vino-disco",
   "l-escogriffe-bar-spectacle",
@@ -82,7 +82,6 @@
   "cafe-social-b-hive",
   "ausgang-plaza",
   "club-soda",
-  "tba-outdoors",
   "le-ministere",
   "cabaret-berlin",
   "p-tit-ours",
@@ -606,16 +605,6 @@
   {
    "id": "tba-near-villeray",
    "name": "TBA - Near Villeray",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "tba-outdoors",
-   "name": "TBA - outdoors",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1492,16 +1481,6 @@
    "popularity": 35,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f4a70294849ce635b124e827",
-   "known": false
-  },
-  {
-   "id": "coldchainlogistics",
-   "name": "coldchainlogistics",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048517005c40e65a9ac7bbb5e1c2f",
    "known": false
   },
   {
@@ -2761,16 +2740,6 @@
    "known": false
   },
   {
-   "id": "kiju",
-   "name": "Kiju",
-   "tier": 0,
-   "score": 13,
-   "popularity": 13,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17884ed40bf3bcee20e9670987c",
-   "known": false
-  },
-  {
    "id": "kill-alters",
    "name": "Kill Alters",
    "tier": 0,
@@ -2798,16 +2767,6 @@
    "popularity": 8,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178945a34626cfd4c3c3b37182a",
-   "known": false
-  },
-  {
-   "id": "kiviv",
-   "name": "Kiviv",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -3805,16 +3764,6 @@
    "known": false
   },
   {
-   "id": "pleurire",
-   "name": "Pleurire",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "pom-1",
    "name": "POM (1)",
    "tier": 0,
@@ -4691,16 +4640,6 @@
    "known": false
   },
   {
-   "id": "wencat",
-   "name": "Wencat",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "whipped-cream",
    "name": "Whipped Cream",
    "tier": 0,
@@ -4905,54 +4844,6 @@
    }
   },
   {
-   "id": "1dd858f47e5d",
-   "title": "ACT of RAGE [NL] - HARD & RAW K657, ELIXAR, LEYXA, B7",
-   "venue_id": "warehouse",
-   "night": "2026-09-19",
-   "start": "2026-09-19T22:00:00.000",
-   "end": "2026-09-20T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "act-of-rage",
-     "name": "Act of Rage",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "k657",
-     "name": "K657",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "hardcore"
-   ],
-   "families": [
-    "Techno",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2482999",
-   "event_url": "https://ra.co/events/2482999",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2482999"
-    }
-   ],
-   "interest": {
-    "score": 58,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Act of Rage (64)",
-     "lieu : Lieu secret / Warehouse (palier 2)"
-    ]
-   }
-  },
-  {
    "id": "e4900387f925",
    "title": "Linska - Montréal",
    "venue_id": "newspeak",
@@ -5039,6 +4930,54 @@
     "reasons": [
      "tête d'affiche : Trikk (50)",
      "lieu : Stereo (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "ed6f06c558fa",
+   "title": "ACT of RAGE [NL] - HARDSTYLE / RAW - K657, ELIXAR, LEYXA, B7, CED TEK",
+   "venue_id": "nwhr",
+   "night": "2026-09-19",
+   "start": "2026-09-19T22:00:00.000",
+   "end": "2026-09-20T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "act-of-rage",
+     "name": "Act of Rage",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "k657",
+     "name": "K657",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "hardcore"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2482999",
+   "event_url": "https://ra.co/events/2482999",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2482999"
+    }
+   ],
+   "interest": {
+    "score": 52,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Act of Rage (64)",
+     "lieu : NWHR (palier 1)"
     ]
    }
   },
@@ -5428,7 +5367,7 @@
    "title": "Trance Sunset Vol. III",
    "venue_id": "warehouse",
    "night": "2026-09-19",
-   "start": "2026-09-19T14:00:00.000",
+   "start": "2026-09-19T15:30:00.000",
    "end": "2026-09-19T22:00:00.000",
    "lineup": [
     {
@@ -5461,74 +5400,6 @@
     "reasons": [
      "tête d'affiche : Trance Sunset Vol. III (8)",
      "lieu : Lieu secret / Warehouse (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "2d5574d73bf5",
-   "title": "Chrysalis 2 - A La30 Fundraiser",
-   "venue_id": "tba-outdoors",
-   "night": "2026-09-19",
-   "start": "2026-09-19T23:00:00.000",
-   "end": "2026-09-20T08:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "kiju",
-     "name": "Kiju",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "newfriend",
-     "name": "newfriend",
-     "billing": "support"
-    },
-    {
-     "artist_id": "wencat",
-     "name": "Wencat",
-     "billing": "support"
-    },
-    {
-     "artist_id": "pleurire",
-     "name": "Pleurire",
-     "billing": "support"
-    },
-    {
-     "artist_id": "coldchainlogistics",
-     "name": "coldchainlogistics",
-     "billing": "support"
-    },
-    {
-     "artist_id": "kiviv",
-     "name": "Kiviv",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "bass"
-   ],
-   "families": [
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2508514",
-   "event_url": "https://ra.co/events/2508514",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2508514"
-    }
-   ],
-   "interest": {
-    "score": 16,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Kiju (13)",
-     "lieu : TBA - outdoors (palier 1)"
     ]
    }
   },
@@ -14295,13 +14166,6 @@
    "night": "2026-11-28",
    "venue": "Stereo",
    "photo": "https://i.scdn.co/image/ab6761610000f17895985c17f4964a0417da944b"
-  },
-  {
-   "id": "1dd858f47e5d",
-   "name": "Act of Rage",
-   "night": "2026-09-19",
-   "venue": "Lieu secret / Warehouse",
-   "photo": "https://i.scdn.co/image/ab6761610000f178581afd0b5fe0b90872d6ead1"
   }
  ],
  "families": [
