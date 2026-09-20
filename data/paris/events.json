@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-20T13:30:06Z",
+ "generated_at": "2026-09-20T23:07:33Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 367
+   "events": 368
   },
   {
    "id": "dice",
@@ -1447,6 +1447,16 @@
   {
    "id": "a-440",
    "name": "A-440",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "a-litique",
+   "name": "A.Litique",
    "tier": 0,
    "score": 0,
    "popularity": 0,
@@ -4627,16 +4637,6 @@
    "popularity": 23,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178969ae52aab029eda0f7ccd6e",
-   "known": false
-  },
-  {
-   "id": "hedony-006",
-   "name": "HEDONY 006",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -14573,7 +14573,7 @@
    "venue_id": "cite-du-cinema",
    "night": "2026-10-01",
    "start": "2026-10-01T20:00:00.000",
-   "end": "2026-10-02T06:00:00.000",
+   "end": "2026-10-02T05:00:00.000",
    "lineup": [
     {
      "artist_id": "hugel",
@@ -20495,12 +20495,22 @@
    "venue_id": "la-station-gare-des-mines",
    "night": "2026-10-11",
    "start": "2026-10-11T16:00:00.000",
-   "end": "2026-10-12T00:00:00.000",
+   "end": "2026-10-12T23:30:00.000",
    "lineup": [
     {
-     "artist_id": "hedony-006",
-     "name": "HEDONY 006",
+     "artist_id": "litoshka",
+     "name": "Litoshka",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "equus-belli",
+     "name": "Equus Belli",
+     "billing": "support"
+    },
+    {
+     "artist_id": "a-litique",
+     "name": "A.Litique",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -20519,13 +20529,17 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2539107"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539107"
     }
    ],
    "interest": {
     "score": 18,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : HEDONY 006 (8)",
+     "tête d'affiche : Litoshka (8)",
      "lieu : La Station - Gare des Mines (palier 2)"
     ]
    }
@@ -27785,7 +27799,7 @@
    "day": "JEU 1 OCT",
    "title": "Hugel",
    "venue": "Cité du Cinéma",
-   "time": "20:00 → 06:00",
+   "time": "20:00 → 05:00",
    "tier": 3,
    "reason": "Plateau dense",
    "supports": "Agoria, Guy Gerber, Chambord",

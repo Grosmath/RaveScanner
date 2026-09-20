@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-20T13:29:32Z",
+ "generated_at": "2026-09-20T23:07:24Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 159
+   "events": 160
   },
   {
    "id": "piknic",
@@ -56,6 +56,7 @@
   "theatre-beanfield",
   "le-red-room",
   "grand-quai",
+  "grand-quai-du-port-de-montreal",
   "olympia",
   "bar-datcha",
   "salon-daome",
@@ -207,6 +208,16 @@
   {
    "id": "grand-quai",
    "name": "Grand Quai",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "grand-quai-du-port-de-montreal",
+   "name": "Grand Quai du Port de Montreal",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -2098,8 +2109,8 @@
    "known": false
   },
   {
-   "id": "frequencee-s",
-   "name": "Frequencee's",
+   "id": "frequentcee-s",
+   "name": "Frequentcee's",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3143,8 +3154,8 @@
    "known": false
   },
   {
-   "id": "montreal-techni-cats-presents-ford-fiesta",
-   "name": "Montreal Techni Cats presents: Ford Fiesta",
+   "id": "montreal-techno-cats-presents-ford-fiesta",
+   "name": "Montreal Techno Cats presents: Ford Fiesta",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5146,16 +5157,16 @@
    }
   },
   {
-   "id": "18a945d2be86",
-   "title": "Montreal Techni Cats presents: Ford Fiesta & Opal Stavo",
+   "id": "158759767975",
+   "title": "Montreal Techno Cats presents: Ford Fiesta & Opal Stavo",
    "venue_id": "blue-room",
    "night": "2026-09-24",
    "start": "2026-09-24T22:00:00.000",
    "end": "2026-09-25T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "montreal-techni-cats-presents-ford-fiesta",
-     "name": "Montreal Techni Cats presents: Ford Fiesta",
+     "artist_id": "montreal-techno-cats-presents-ford-fiesta",
+     "name": "Montreal Techno Cats presents: Ford Fiesta",
      "billing": "headliner"
     },
     {
@@ -5182,7 +5193,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Montreal Techni Cats presents: Ford Fiesta (8)",
+     "tête d'affiche : Montreal Techno Cats presents: Ford Fiesta (8)",
      "lieu : Blue Room (palier 1)"
     ]
    }
@@ -7808,6 +7819,49 @@
    }
   },
   {
+   "id": "8d49ffc83395",
+   "title": "Frequentcee's",
+   "venue_id": "blue-room",
+   "night": "2026-10-02",
+   "start": "2026-10-02T22:00:00.000",
+   "end": "2026-10-03T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "frequentcee-s",
+     "name": "Frequentcee's",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2540973",
+   "event_url": "https://ra.co/events/2540973",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540973"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Frequentcee's (8)",
+     "lieu : Blue Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "5040256939e8",
    "title": "Loose Screws",
    "venue_id": "systeme",
@@ -8371,49 +8425,6 @@
     "reasons": [
      "tête d'affiche : Gorillaz - The Mountain Tour (8)",
      "lieu : Centre Bell (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "effb60813212",
-   "title": "Frequencee's",
-   "venue_id": "blue-room",
-   "night": "2026-10-03",
-   "start": "2026-10-03T22:00:00.000",
-   "end": "2026-10-04T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "frequencee-s",
-     "name": "Frequencee's",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "electro"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2540973",
-   "event_url": "https://ra.co/events/2540973",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2540973"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Frequencee's (8)",
-     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -9238,9 +9249,11 @@
     }
    ],
    "genres": [
-    "electronic"
+    "techno"
    ],
-   "families": [],
+   "families": [
+    "Techno"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.universe.com/events/restricted-tickets-WS0NRX?ref=ticketmaster",
@@ -9259,6 +9272,47 @@
     "reasons": [
      "tête d'affiche : Restricted (76)",
      "lieu : Grand Quai (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "44bed0a8bda4",
+   "title": "Restricted",
+   "venue_id": "grand-quai-du-port-de-montreal",
+   "night": "2026-10-10",
+   "start": "2026-10-10T22:00:00.000",
+   "end": "2026-10-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "restricted",
+     "name": "Restricted",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2541544",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541544"
+    }
+   ],
+   "interest": {
+    "score": 61,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Restricted (76)",
+     "lieu : Grand Quai du Port de Montreal (palier 1)"
     ]
    }
   },
@@ -13207,6 +13261,13 @@
    "night": "2026-11-28",
    "venue": "Stereo",
    "photo": "https://i.scdn.co/image/ab6761610000f17895985c17f4964a0417da944b"
+  },
+  {
+   "id": "44bed0a8bda4",
+   "name": "Restricted",
+   "night": "2026-10-10",
+   "venue": "Grand Quai du Port de Montreal",
+   "photo": "https://i.scdn.co/image/ab6761610000f1782db0cd18bf97567c727f28e7"
   }
  ],
  "families": [
