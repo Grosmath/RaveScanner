@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-21T15:43:05Z",
+ "generated_at": "2026-09-21T23:59:00Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 160
+   "events": 161
   },
   {
    "id": "piknic",
@@ -68,8 +68,8 @@
   "foufounes",
   "nwhr",
   "red-roof-church",
-  "l-escogriffe-bar-spectacle",
   "vino-disco",
+  "l-escogriffe-bar-spectacle",
   "sans-soleil",
   "la-recre",
   "le-balcon",
@@ -81,10 +81,10 @@
   "salon-badin",
   "club-soda",
   "cabaret-berlin",
+  "l-hemisphere-gauche",
   "le-ministere",
   "p-tit-ours",
   "van-horne-skatepark",
-  "l-hemisphere-gauche",
   "le-lobby",
   "usine-c",
   "white-wall-studio"
@@ -726,13 +726,13 @@
    "known": false
   },
   {
-   "id": "against-nature",
-   "name": "Against Nature",
+   "id": "against-nature-only-theatre-of-ain",
+   "name": "Against Nature: Only Theatre of Ain",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048514695b49bfa444afcc389f218",
+   "image": "",
    "known": false
   },
   {
@@ -945,6 +945,16 @@
    "popularity": 35,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/98180f4522be52608d41841b4238b2c3/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "askar",
+   "name": "Askar",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/4a0f58fa765baae24a01e3231dab3fd5/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3438,6 +3448,16 @@
    "known": false
   },
   {
+   "id": "philou",
+   "name": "Philou",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178973ededffc76734541329620",
+   "known": false
+  },
+  {
    "id": "pinch",
    "name": "Pinch (CA)",
    "tier": 0,
@@ -3550,6 +3570,16 @@
   {
    "id": "reclaimed-vessels",
    "name": "Reclaimed Vessels",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "reddmist",
+   "name": "Reddmist",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3805,6 +3835,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "simon-fitch",
+   "name": "Simon Fitch",
+   "tier": 0,
+   "score": 20,
+   "popularity": 20,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e233b9771f4a693ce2b157f5",
    "known": false
   },
   {
@@ -4121,6 +4161,16 @@
    "known": false
   },
   {
+   "id": "true-alibi",
+   "name": "True Alibi",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "turtle-nex",
    "name": "turtle nex",
    "tier": 0,
@@ -4188,6 +4238,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "vino-disco-saturday",
+   "name": "Vino Disco SATURDAY",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -6447,6 +6507,63 @@
    }
   },
   {
+   "id": "aaf31f4c2fd7",
+   "title": "Against Nature: Only Theatre of Ain, Askar, True Alibi, Reddmist",
+   "venue_id": "l-hemisphere-gauche",
+   "night": "2026-09-26",
+   "start": "2026-09-26T21:00:00.000",
+   "end": "2026-09-27T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "against-nature-only-theatre-of-ain",
+     "name": "Against Nature: Only Theatre of Ain",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "true-alibi",
+     "name": "True Alibi",
+     "billing": "support"
+    },
+    {
+     "artist_id": "reddmist",
+     "name": "Reddmist",
+     "billing": "support"
+    },
+    {
+     "artist_id": "askar",
+     "name": "Askar",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "electronica"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2541645",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541645"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Against Nature: Only Theatre of Ain (8)",
+     "lieu : L'hemisphere Gauche (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "acd4337f2b77",
    "title": "Déa / Pinch ( CA ) / Oli Vez",
    "venue_id": "blue-room",
@@ -6621,44 +6738,45 @@
    }
   },
   {
-   "id": "e2feda5b48fb",
-   "title": "Against Nature",
-   "venue_id": "l-hemisphere-gauche",
+   "id": "dc03d2d5e900",
+   "title": "Vino Disco SATURDAY",
+   "venue_id": "vino-disco",
    "night": "2026-09-26",
-   "start": "2026-09-26T21:00:00.000",
-   "end": "2026-09-27T02:00:00.000",
+   "start": "2026-09-26T20:00:00.000",
+   "end": "2026-09-27T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "against-nature",
-     "name": "Against Nature",
+     "artist_id": "vino-disco-saturday",
+     "name": "Vino Disco SATURDAY",
      "billing": "headliner"
     }
    ],
    "genres": [
-    "experimental",
-    "electronica"
+    "house",
+    "pop"
    ],
    "families": [
-    "Expérimental"
+    "House",
+    "Pop & club"
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2541645",
+   "ticket_url": "https://ra.co/events/2542119",
+   "event_url": "https://ra.co/events/2542119",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2541645"
+     "url": "https://ra.co/events/2542119"
     }
    ],
    "interest": {
-    "score": 6,
+    "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Against Nature (0)",
-     "lieu : L'hemisphere Gauche (palier 1)"
+     "tête d'affiche : Vino Disco SATURDAY (8)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -9340,13 +9458,23 @@
      "artist_id": "gorgon-city",
      "name": "Gorgon City",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "philou",
+     "name": "Philou",
+     "billing": "support"
+    },
+    {
+     "artist_id": "simon-fitch",
+     "name": "Simon Fitch",
+     "billing": "support"
     }
    ],
    "genres": [],
    "families": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/gorgon-city-203733/",
+   "ticket_url": "https://newcitygas.com/event/gorgon-city-philou-203733/",
    "event_url": "https://ra.co/events/2520040",
    "image": "",
    "status": "confirmed",
@@ -9357,7 +9485,7 @@
     },
     {
      "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/gorgon-city-203733/"
+     "url": "https://newcitygas.com/event/gorgon-city-philou-203733/"
     }
    ],
    "interest": {
