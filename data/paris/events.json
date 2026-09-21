@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-20T23:07:33Z",
+ "generated_at": "2026-09-21T15:43:43Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-09-20",
-  "end": "2026-12-19"
+  "start": "2026-09-21",
+  "end": "2026-12-20"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 368
+   "events": 372
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 51
+   "events": 50
   }
  ],
  "venue_order": [
@@ -47,7 +47,6 @@
   "essaim",
   "le-grand-rex",
   "la-boule-noire",
-  "la-cite-fertile",
   "le-trabendo",
   "la-cigale",
   "la-station-gare-des-mines",
@@ -71,6 +70,7 @@
   "la-nuit",
   "la-maroquinerie",
   "nouveau-casino",
+  "panic-room",
   "le-mazette",
   "fondation-cartier",
   "mains-doeuvres",
@@ -78,64 +78,64 @@
   "tba-saint-denis",
   "le-pop-up-du-label",
   "la-bellevilloise",
-  "le-211",
   "main-room",
+  "la-cite-fertile",
+  "le-211",
   "taboo-paris",
   "tba-unknown-open-air",
   "lithium-paris",
   "tba-13-rue-marguerite-moret-75011-paris",
+  "le-cirque-electrique",
   "tba-secret-warehouse",
-  "panic-room",
   "cayo",
   "gibus-club",
-  "glazart",
   "lafayette-anticipations",
   "philharmonie-de-paris",
   "la-marbrerie",
   "la-mecanique-ondulatoire",
+  "glazart",
+  "plantation",
   "communale-saint-ouen",
   "la-gare-le-gore",
-  "plantation",
   "le-son-de-la-terre",
   "pamela-club",
   "tba-cirque-romanes-tzigane",
   "la-beach-parisienne",
-  "studio56",
   "tba-warehouse-st-denis",
-  "concorde-atlantique",
   "dock-b",
   "le-point-fort-d-aubervilliers",
   "new-morning",
   "tba-paris",
   "wanderlust",
   "le-klub",
+  "le-river-s-king",
   "le-zeralda",
+  "amaluna-paris",
   "auber-garden",
   "canal-93",
+  "casa-trocadero",
   "chalet-du-lac",
+  "concorde-atlantique",
   "double-vie",
   "folia-belleville",
   "frequence-paris",
   "jardin-des-traverses",
-  "jardin21",
   "la-prairie-du-canal",
   "la-peniche-cinema",
   "le-cafe-de-la-danse",
   "le-chinois",
-  "le-cirque-electrique",
   "le-flow-paris",
   "le-tlm",
   "le-trianon",
   "les-lionnes",
-  "paname-sur-seine",
   "popup",
   "peniche-antipode",
   "peniche-henjo",
   "radio-campus-paris",
+  "skybar-paris-rooftop",
   "tba-7-rue-st-just-93100-montreuil",
   "tba-75013",
   "tba-cesure-paris",
-  "tba-secret-location",
   "tba-secret-place",
   "la-maison-bistrot",
   "la-maz",
@@ -174,6 +174,16 @@
     "mainstream",
     "electronic"
    ]
+  },
+  {
+   "id": "amaluna-paris",
+   "name": "Amaluna Paris",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "auber-garden",
@@ -235,6 +245,16 @@
   {
    "id": "canal-93",
    "name": "Canal 93",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "casa-trocadero",
+   "name": "Casa Trocadero",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -438,16 +458,6 @@
   {
    "id": "jardin-des-traverses",
    "name": "Jardin des Traverses",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "jardin21",
-   "name": "Jardin21",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -838,6 +848,16 @@
    "genres": []
   },
   {
+   "id": "le-river-s-king",
+   "name": "Le River's King",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "le-son-de-la-terre",
    "name": "Le Son de la Terre",
    "type": "club",
@@ -981,16 +1001,6 @@
   {
    "id": "pamela-club",
    "name": "Pamela Club",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "paname-sur-seine",
-   "name": "Paname sur Seine",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1173,17 +1183,14 @@
    ]
   },
   {
-   "id": "studio56",
-   "name": "Studio56",
+   "id": "skybar-paris-rooftop",
+   "name": "Skybar Paris Rooftop",
    "type": "club",
-   "tier": 2,
-   "capacity": 500,
-   "address": "Paris",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
    "url": "",
-   "genres": [
-    "techno",
-    "hard"
-   ]
+   "genres": []
   },
   {
    "id": "t7",
@@ -1288,16 +1295,6 @@
    "genres": []
   },
   {
-   "id": "tba-secret-location",
-   "name": "TBA - Secret Location",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "tba-secret-place",
    "name": "TBA - Secret Place",
    "type": "club",
@@ -1394,6 +1391,16 @@
   }
  ],
  "artists": [
+  {
+   "id": "10am-club",
+   "name": "10AM Club",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
   {
    "id": "1ldk",
    "name": "1LDK",
@@ -2197,6 +2204,16 @@
    "known": false
   },
   {
+   "id": "baile-inolvidable-soiree-latino-mix-salseo-con-perreo",
+   "name": "BAILE INOLVIDABLE - Soirée Latino Mix Salseo con Perreo",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "bambii",
    "name": "Bambii",
    "tier": 2,
@@ -2362,16 +2379,6 @@
    "known": false
   },
   {
-   "id": "bigstate",
-   "name": "Bigstate",
-   "tier": 0,
-   "score": 9,
-   "popularity": 9,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178d61087aca0ef5ddbdffdaaf2",
-   "known": false
-  },
-  {
    "id": "biia",
    "name": "BIIA",
    "tier": 0,
@@ -2449,6 +2456,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "boat-party",
+   "name": "Boat Party",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851d6fa57a352db1913717a1b37",
    "known": false
   },
   {
@@ -2702,16 +2719,6 @@
    "known": false
   },
   {
-   "id": "catsinka",
-   "name": "Catsinka",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178635935362edfd090542b8eaf",
-   "known": false
-  },
-  {
    "id": "celine",
    "name": "Céline",
    "tier": 0,
@@ -2809,6 +2816,16 @@
    "popularity": 15,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178bbf422d7b86e1e49e76fbeca",
+   "known": false
+  },
+  {
+   "id": "chinoovo",
+   "name": "CHINOOVO",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3044,6 +3061,16 @@
    "known": false
   },
   {
+   "id": "cruise",
+   "name": "Cruise",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/24d80878674c539cbf1fc837c82ec3fe/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "crystallmess",
    "name": "Crystallmess",
    "tier": 0,
@@ -3184,6 +3211,16 @@
    "known": false
   },
   {
+   "id": "dave-harvey",
+   "name": "Dave Harvey",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/098e9f84e9caf6e8e3a7b4be663a61f0/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "davera",
    "name": "Davera",
    "tier": 0,
@@ -3226,16 +3263,6 @@
   {
    "id": "decibelt-sessions",
    "name": "decibelt SESSIONS",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "deep-sunday-rooftop-party-closing",
-   "name": "Deep Sunday Rooftop Party - Closing",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3767,16 +3794,6 @@
    "known": false
   },
   {
-   "id": "eclipse-fest-presents-dark-matter-2026",
-   "name": "ECLIPSE FEST PRESENTS: DARK MATTER 2026",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "eczodia",
    "name": "ECZODIA",
    "tier": 0,
@@ -4097,6 +4114,16 @@
    "known": false
   },
   {
+   "id": "feadz",
+   "name": "Feadz",
+   "tier": 0,
+   "score": 16,
+   "popularity": 16,
+   "genres": [],
+   "image": "https://i.scdn.co/image/800ed6fcc5d4f2b523581ef44d90cda59d1516ba",
+   "known": false
+  },
+  {
    "id": "feder",
    "name": "Feder",
    "tier": 0,
@@ -4274,6 +4301,26 @@
    "popularity": 58,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780bc86c1d2a751162e17b33fa",
+   "known": false
+  },
+  {
+   "id": "frequency",
+   "name": "FREQUENCY",
+   "tier": 0,
+   "score": 38,
+   "popularity": 38,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1780fb48b319906e9530a8bf7de",
+   "known": false
+  },
+  {
+   "id": "friends",
+   "name": "friends",
+   "tier": 0,
+   "score": 43,
+   "popularity": 43,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/c1c14de3b1a504ab348d57bd60e1bd96/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4467,26 +4514,6 @@
    "known": false
   },
   {
-   "id": "gostoso",
-   "name": "Gostoso",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178443bb0eef88fb22605000a1a",
-   "known": false
-  },
-  {
-   "id": "gotis",
-   "name": "GOTIS",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788f91d6e21078f25451d0f754",
-   "known": false
-  },
-  {
    "id": "grace-dahl",
    "name": "Grace Dahl",
    "tier": 0,
@@ -4494,6 +4521,16 @@
    "popularity": 17,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17879fe61a4490bda792715ff0f",
+   "known": false
+  },
+  {
+   "id": "grand-v",
+   "name": "Grand V",
+   "tier": 0,
+   "score": 26,
+   "popularity": 26,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/e8c250c7e0dadafd9df0d23cf3a4e2d4/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4740,16 +4777,6 @@
    "known": false
   },
   {
-   "id": "house-o-drome-sam-karlson",
-   "name": "HOUSE O'DROME SAM KARLSON",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "hugel",
    "name": "Hugel",
    "tier": 0,
@@ -4757,16 +4784,6 @@
    "popularity": 100,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f2f0c84b86e48dd70d9bcc59",
-   "known": false
-  },
-  {
-   "id": "hujus",
-   "name": "HUJUS",
-   "tier": 0,
-   "score": 29,
-   "popularity": 29,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178d755dbf811e55961102d97d2",
    "known": false
   },
   {
@@ -4927,6 +4944,16 @@
    "popularity": 15,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851261aaca29bcd8640ebdc938d",
+   "known": false
+  },
+  {
+   "id": "ivan-smagghe",
+   "name": "Ivan Smagghe",
+   "tier": 0,
+   "score": 13,
+   "popularity": 13,
+   "genres": [],
+   "image": "https://i.scdn.co/image/943d22324c6b820f5552a71ec177e32e6b003029",
    "known": false
   },
   {
@@ -5127,16 +5154,6 @@
    "popularity": 21,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1781548a122b1f3622c15fb8d9b",
-   "known": false
-  },
-  {
-   "id": "jimmy-allen",
-   "name": "Jimmy Allen",
-   "tier": 0,
-   "score": 7,
-   "popularity": 7,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178fff8e453f1891e71e3d52c3c",
    "known": false
   },
   {
@@ -5450,16 +5467,6 @@
    "known": false
   },
   {
-   "id": "keepsakes",
-   "name": "Keepsakes",
-   "tier": 0,
-   "score": 4,
-   "popularity": 4,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178191c99d1647373b04f8facbb",
-   "known": false
-  },
-  {
    "id": "keinemusik",
    "name": "Keinemusik",
    "tier": 4,
@@ -5560,16 +5567,6 @@
    "popularity": 79,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178728d5ac70a1de3c94785a0a1",
-   "known": false
-  },
-  {
-   "id": "killoverjoy",
-   "name": "Killoverjoy",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -5990,6 +5987,16 @@
    "popularity": 15,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786f3090d6902c7fcb181eae7d",
+   "known": false
+  },
+  {
+   "id": "lola-haro",
+   "name": "Lola Haro",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7201,6 +7208,16 @@
    "known": false
   },
   {
+   "id": "ok-williams",
+   "name": "OK Williams",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "olympe4000",
    "name": "Olympe4000",
    "tier": 0,
@@ -7208,16 +7225,6 @@
    "popularity": 18,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782b84bd65a2e74587b6504e9a",
-   "known": false
-  },
-  {
-   "id": "ombrar",
-   "name": "OMBRAR",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/f79052dfba3adeca5deb2821f7c06ee1/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -7461,6 +7468,16 @@
    "known": false
   },
   {
+   "id": "percy",
+   "name": "Percy",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/30fafa942b61cb63ecd67841744b76d8/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "perdu",
    "name": "Perdu",
    "tier": 0,
@@ -7478,16 +7495,6 @@
    "popularity": 35,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17817ac4c44a8c23d259e9dcf34",
-   "known": false
-  },
-  {
-   "id": "perle-ropers",
-   "name": "PERLE ROPERS",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -7941,6 +7948,16 @@
    "known": false
   },
   {
+   "id": "ruiz-osc1",
+   "name": "RUIZ OSC1",
+   "tier": 0,
+   "score": 26,
+   "popularity": 26,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785494a115b836bde607340ba9",
+   "known": false
+  },
+  {
    "id": "rxdazn",
    "name": "rxdazn",
    "tier": 0,
@@ -7998,6 +8015,16 @@
    "popularity": 11,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d2f209335d158a88ba272d34",
+   "known": false
+  },
+  {
+   "id": "salome-dv",
+   "name": "Salomé DV",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -8141,16 +8168,6 @@
    "known": false
   },
   {
-   "id": "sera-j",
-   "name": "Sera J",
-   "tier": 0,
-   "score": 41,
-   "popularity": 41,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1787f78552535df5ebabe2fa833",
-   "known": false
-  },
-  {
    "id": "serafina",
    "name": "Serafina",
    "tier": 0,
@@ -8158,16 +8175,6 @@
    "popularity": 46,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b37855decb3a33c0f98d57af",
-   "known": false
-  },
-  {
-   "id": "sero",
-   "name": "Serō",
-   "tier": 0,
-   "score": 60,
-   "popularity": 60,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1785724f6d8fa8f6edb69c5fe03",
    "known": false
   },
   {
@@ -8358,6 +8365,16 @@
    "popularity": 46,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178716ea940126dee92b169d630",
+   "known": false
+  },
+  {
+   "id": "skybar-rooftop-party",
+   "name": "Skybar Rooftop Party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -8601,8 +8618,8 @@
    "known": false
   },
   {
-   "id": "sun-goes-down-akiyo-roger-raspail",
-   "name": "Sun Goes Down · Akiyo · Roger Raspail",
+   "id": "summer-cruise-closing",
+   "name": "Summer Cruise Closing",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -8611,13 +8628,13 @@
    "known": false
   },
   {
-   "id": "supergloss",
-   "name": "Supergloss",
+   "id": "sun-goes-down-akiyo-roger-raspail",
+   "name": "Sun Goes Down · Akiyo · Roger Raspail",
    "tier": 0,
-   "score": 23,
-   "popularity": 23,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788296dc1cba80a13534307bdd",
+   "image": "",
    "known": false
   },
   {
@@ -8731,6 +8748,16 @@
    "known": false
   },
   {
+   "id": "tarkno",
+   "name": "Tarkno",
+   "tier": 0,
+   "score": 13,
+   "popularity": 13,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784a5259d9987709e78df47982",
+   "known": false
+  },
+  {
    "id": "tasha",
    "name": "Tasha",
    "tier": 0,
@@ -8753,6 +8780,16 @@
   {
    "id": "tau-car",
    "name": "Tau Car",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "techno-playground-souvenir-mix",
+   "name": "TECHNO PLAYGROUND - Souvenir.Mix",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -8974,16 +9011,6 @@
    "known": false
   },
   {
-   "id": "tina-tornade",
-   "name": "Tina Tornade",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851c1bc170a158dbff0782dd80e",
-   "known": false
-  },
-  {
    "id": "tinkerhell",
    "name": "TINKERHELL",
    "tier": 0,
@@ -9084,6 +9111,16 @@
    "known": false
   },
   {
+   "id": "trocadero-summer-club-closing-open-air-party",
+   "name": "Trocadero Summer Club Closing — open air party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "trois-quarts-taxi-system",
    "name": "Trois-Quarts Taxi System",
    "tier": 0,
@@ -9151,16 +9188,6 @@
    "popularity": 1,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485181d176ae3f6140d14e5bc843",
-   "known": false
-  },
-  {
-   "id": "unknown-open-air-gratuit-jardin21",
-   "name": "⊚ 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗼𝗽𝗲𝗻-𝗮𝗶𝗿 ⊚ 𝗚𝗥𝗔𝗧𝗨𝗜𝗧 ⊚ 𝗝𝗮𝗿𝗱𝗶𝗻𝟮𝟭",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -9364,6 +9391,16 @@
    "known": false
   },
   {
+   "id": "vitess",
+   "name": "Vitess",
+   "tier": 0,
+   "score": 39,
+   "popularity": 39,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f5fc5a2f00de54aefb836191",
+   "known": false
+  },
+  {
    "id": "vladimir-cauchemar",
    "name": "Vladimir Cauchemar",
    "tier": 0,
@@ -9554,6 +9591,16 @@
    "known": false
   },
   {
+   "id": "young-pulse",
+   "name": "Young Pulse",
+   "tier": 0,
+   "score": 36,
+   "popularity": 36,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f6260cfe733f5bc86ada7346",
+   "known": false
+  },
+  {
    "id": "ysheso",
    "name": "ysheso__",
    "tier": 0,
@@ -9655,467 +9702,6 @@
   }
  ],
  "events": [
-  {
-   "id": "eea3e2c8432a",
-   "title": "HOTMESS: Supergloss - HUJUS - Sera J - ALLIGALY - Serō",
-   "venue_id": "la-cite-fertile",
-   "night": "2026-09-20",
-   "start": "2026-09-20T12:00:00.000",
-   "end": "2026-09-20T22:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sero",
-     "name": "Serō",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "sera-j",
-     "name": "Sera J",
-     "billing": "support"
-    },
-    {
-     "artist_id": "hujus",
-     "name": "HUJUS",
-     "billing": "support"
-    },
-    {
-     "artist_id": "supergloss",
-     "name": "Supergloss",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2532105",
-   "event_url": "https://ra.co/events/2532105",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2532105"
-    }
-   ],
-   "interest": {
-    "score": 55,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Serō (60)",
-     "lieu : La Cité Fertile (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "ac2886c8e7f3",
-   "title": "Fracture W/ Aldi , Killoverjoy , Bud",
-   "venue_id": "studio56",
-   "night": "2026-09-20",
-   "start": "2026-09-20T23:59:00.000",
-   "end": "2026-09-21T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "killoverjoy",
-     "name": "Killoverjoy",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2536070",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2536070"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Killoverjoy (8)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "f767b72a5168",
-   "title": "After O'clock X La Plage Open Air: Keepsakes, OMBRAR & Tina Tornade",
-   "venue_id": "glazart",
-   "night": "2026-09-20",
-   "start": "2026-09-20T06:00:00.000",
-   "end": "2026-09-20T16:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "keepsakes",
-     "name": "Keepsakes",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "tina-tornade",
-     "name": "Tina Tornade",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ombrar",
-     "name": "OMBRAR",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2525975",
-   "event_url": "https://ra.co/events/2525975",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2525975"
-    }
-   ],
-   "interest": {
-    "score": 15,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Keepsakes (4)",
-     "lieu : Glazart (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "b3588af17dd7",
-   "title": "Deep Sunday Rooftop Party - Closing",
-   "venue_id": "concorde-atlantique",
-   "night": "2026-09-20",
-   "start": "2026-09-20T16:00:00.000",
-   "end": "2026-09-21T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "deep-sunday-rooftop-party-closing",
-     "name": "Deep Sunday Rooftop Party - Closing",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "afro house"
-   ],
-   "families": [
-    "House",
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2537783",
-   "event_url": "https://ra.co/events/2537783",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2537783"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Deep Sunday Rooftop Party - Closing (8)",
-     "lieu : Concorde Atlantique (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "3deaf2279e5f",
-   "title": "ECLIPSE FEST PRESENTS: DARK MATTER 2026",
-   "venue_id": "tba-secret-location",
-   "night": "2026-09-20",
-   "start": "2026-09-20T22:00:00.000",
-   "end": "2026-09-21T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "eclipse-fest-presents-dark-matter-2026",
-     "name": "ECLIPSE FEST PRESENTS: DARK MATTER 2026",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "deep house"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2532261",
-   "event_url": "https://ra.co/events/2532261",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2532261"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : ECLIPSE FEST PRESENTS: DARK MATTER 2026 (8)",
-     "lieu : TBA - Secret Location (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "02c2e17f33a0",
-   "title": "HOUSE O'DROME SAM KARLSON, NIGHTCHOU, PERLE ROPERS",
-   "venue_id": "le-211",
-   "night": "2026-09-20",
-   "start": "2026-09-20T15:00:00+02:00",
-   "end": "2026-09-20T23:00:00+02:00",
-   "lineup": [
-    {
-     "artist_id": "house-o-drome-sam-karlson",
-     "name": "HOUSE O'DROME SAM KARLSON",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "nightchou",
-     "name": "Nightchou",
-     "billing": "support"
-    },
-    {
-     "artist_id": "perle-ropers",
-     "name": "PERLE ROPERS",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "deep house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/eo66r2-house-odrome-sam-karlson-nightchou-perle-ropers-20th-sep-211-paris-tickets",
-   "event_url": "https://dice.fm/event/eo66r2-house-odrome-sam-karlson-nightchou-perle-ropers-20th-sep-211-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-08-19/3a3e2a84-1022-41eb-a576-9aa7711d106b.jpg?rect=0%2C49%2C1080%2C1080",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/eo66r2-house-odrome-sam-karlson-nightchou-perle-ropers-20th-sep-211-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : HOUSE O'DROME SAM KARLSON (8)",
-     "lieu : Le 211 (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "6b993579ad5e",
-   "title": "Inka Trip To Ibiza - Open Air (Mini Festival Edition)",
-   "venue_id": "paname-sur-seine",
-   "night": "2026-09-20",
-   "start": "2026-09-20T12:00:00.000",
-   "end": "2026-09-20T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "bigstate",
-     "name": "Bigstate",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "catsinka",
-     "name": "Catsinka",
-     "billing": "support"
-    },
-    {
-     "artist_id": "gostoso",
-     "name": "Gostoso",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "tech house",
-    "minimal"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2530909",
-   "event_url": "https://ra.co/events/2530909",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2530909"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Bigstate (9)",
-     "lieu : Paname sur Seine (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "0e82936e7f29",
-   "title": "⊚ 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗼𝗽𝗲𝗻-𝗮𝗶𝗿 ⊚ 𝗚𝗥𝗔𝗧𝗨𝗜𝗧 ⊚ 𝗝𝗮𝗿𝗱𝗶𝗻𝟮𝟭",
-   "venue_id": "jardin21",
-   "night": "2026-09-20",
-   "start": "2026-09-20T13:30:00.000",
-   "end": "2026-09-20T22:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "unknown-open-air-gratuit-jardin21",
-     "name": "⊚ 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗼𝗽𝗲𝗻-𝗮𝗶𝗿 ⊚ 𝗚𝗥𝗔𝗧𝗨𝗜𝗧 ⊚ 𝗝𝗮𝗿𝗱𝗶𝗻𝟮𝟭",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "minimal",
-    "downtempo"
-   ],
-   "families": [
-    "Techno",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2502471",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2502471"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : ⊚ 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗼𝗽𝗲𝗻-𝗮𝗶𝗿 ⊚ 𝗚𝗥𝗔𝗧𝗨𝗜𝗧 ⊚ 𝗝𝗮𝗿𝗱𝗶𝗻𝟮𝟭 (8)",
-     "lieu : Jardin21 (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "1a66e0977e0c",
-   "title": "House O'Drome: Jimmy Allen (UK), Freak 1970, Funkyroom Family & More",
-   "venue_id": "le-211",
-   "night": "2026-09-20",
-   "start": "2026-09-20T15:00:00.000",
-   "end": "2026-09-20T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "jimmy-allen",
-     "name": "Jimmy Allen",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "deep house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2493441",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2493441"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Jimmy Allen (7)",
-     "lieu : Le 211 (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "991c79401246",
-   "title": "CLUB 909: SECRET GUEST & GOTIS",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-09-20",
-   "start": "2026-09-20T23:59:00.000",
-   "end": "2026-09-21T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "gotis",
-     "name": "GOTIS",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2540877",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2540877"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : GOTIS (0)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
   {
    "id": "647c5b1de3bb",
    "title": "Acid Oslo",
@@ -10400,6 +9986,49 @@
     "reasons": [
      "tête d'affiche : SaazBuzz Jazz Festival (8)",
      "lieu : New Morning (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "e35400d17816",
+   "title": "Skybar Rooftop Party",
+   "venue_id": "skybar-paris-rooftop",
+   "night": "2026-09-23",
+   "start": "2026-09-23T19:30:00.000",
+   "end": "2026-09-24T01:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "skybar-rooftop-party",
+     "name": "Skybar Rooftop Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2541994",
+   "event_url": "https://ra.co/events/2541994",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541994"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Skybar Rooftop Party (8)",
+     "lieu : Skybar Paris Rooftop (palier 1)"
     ]
    }
   },
@@ -10870,6 +10499,49 @@
    }
   },
   {
+   "id": "fa0aecd0b919",
+   "title": "Trocadero Summer Club Closing — open air party",
+   "venue_id": "casa-trocadero",
+   "night": "2026-09-24",
+   "start": "2026-09-24T19:00:00.000",
+   "end": "2026-09-25T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "trocadero-summer-club-closing-open-air-party",
+     "name": "Trocadero Summer Club Closing — open air party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2542005",
+   "event_url": "https://ra.co/events/2542005",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542005"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Trocadero Summer Club Closing — open air party (8)",
+     "lieu : Casa Trocadero (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "adbb58da3234",
    "title": "Paris Groove Society - Camporeale, Vugzy, Clo...",
    "venue_id": "pamela-club",
@@ -11328,8 +11000,8 @@
    }
   },
   {
-   "id": "847366561192",
-   "title": "ANUBIS: Paul Seul, RUFFNECK, FLUCC & MORE",
+   "id": "d362a5b53079",
+   "title": "ANUBIS: Paul Seul, RUFFNECK, FLUCC, NAMARA & MORE",
    "venue_id": "mia-mao",
    "night": "2026-09-25",
    "start": "2026-09-25T23:59:00.000",
@@ -11944,6 +11616,48 @@
    }
   },
   {
+   "id": "e55eff002258",
+   "title": "BAILE INOLVIDABLE - Soirée Latino Mix Salseo con Perreo",
+   "venue_id": "plantation",
+   "night": "2026-09-25",
+   "start": "2026-09-25T19:00:00.000",
+   "end": "2026-09-26T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "baile-inolvidable-soiree-latino-mix-salseo-con-perreo",
+     "name": "BAILE INOLVIDABLE - Soirée Latino Mix Salseo con Perreo",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "reggaeton",
+    "neo perreo"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2541879",
+   "event_url": "https://ra.co/events/2541879",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541879"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : BAILE INOLVIDABLE - Soirée Latino Mix Salseo con Perreo (8)",
+     "lieu : Plantation (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "97d2213de582",
    "title": "Gonzaï Night : R. Steiner + Société Étrange",
    "venue_id": "le-chinois",
@@ -12153,6 +11867,54 @@
     "reasons": [
      "tête d'affiche : decibelt SESSIONS (8)",
      "lieu : Le TLM (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "c538cb07463a",
+   "title": "Boat Party & Cruise",
+   "venue_id": "le-river-s-king",
+   "night": "2026-09-25",
+   "start": "2026-09-25T19:00:00.000",
+   "end": "2026-09-26T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "boat-party",
+     "name": "Boat Party",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "cruise",
+     "name": "Cruise",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2542012",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542012"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Boat Party (0)",
+     "lieu : Le River's King (palier 1)"
     ]
    }
   },
@@ -12428,6 +12190,11 @@
     {
      "artist_id": "jay-mitta",
      "name": "Jay Mitta",
+     "billing": "support"
+    },
+    {
+     "artist_id": "feadz",
+     "name": "Feadz",
      "billing": "support"
     },
     {
@@ -13565,6 +13332,48 @@
    }
   },
   {
+   "id": "93cf864ff254",
+   "title": "10AM Club",
+   "venue_id": "amaluna-paris",
+   "night": "2026-09-26",
+   "start": "2026-09-26T10:00:00.000",
+   "end": "2026-09-26T14:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "10am-club",
+     "name": "10AM Club",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2541973",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541973"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : 10AM Club (8)",
+     "lieu : Amaluna Paris (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "fe1b7e277610",
    "title": "Acrobat - Ornorm",
    "venue_id": "le-cirque-electrique",
@@ -13967,6 +13776,49 @@
     "reasons": [
      "tête d'affiche : Sherif (3) (8)",
      "lieu : Double Vie (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "219351c55e56",
+   "title": "Summer Cruise Closing",
+   "venue_id": "le-river-s-king",
+   "night": "2026-09-26",
+   "start": "2026-09-26T19:00:00.000",
+   "end": "2026-09-27T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "summer-cruise-closing",
+     "name": "Summer Cruise Closing",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2542041",
+   "event_url": "https://ra.co/events/2542041",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542041"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Summer Cruise Closing (8)",
+     "lieu : Le River's King (palier 1)"
     ]
    }
   },
@@ -14967,6 +14819,49 @@
     "reasons": [
      "tête d'affiche : Vice Experience (8)",
      "lieu : Radio Campus Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "52070a0be975",
+   "title": "Jeudi Protocol: Rawco, Uzi Nas, Dewilde, Ev, Imina, Percy",
+   "venue_id": "mia-mao",
+   "night": "2026-10-01",
+   "start": "2026-10-01T23:00:00.000",
+   "end": "2026-10-02T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "percy",
+     "name": "Percy",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "hardcore"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2541846",
+   "event_url": "https://ra.co/events/2541846",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541846"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Percy (0)",
+     "lieu : Mia Mao (palier 1)"
     ]
    }
   },
@@ -16755,6 +16650,52 @@
    }
   },
   {
+   "id": "8b72566b1b43",
+   "title": "House of Love: Nightchou & Young Pulse",
+   "venue_id": "badaboum",
+   "night": "2026-10-03",
+   "start": "2026-10-03T23:30:00.000",
+   "end": "2026-10-04T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "young-pulse",
+     "name": "Young Pulse",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "nightchou",
+     "name": "Nightchou",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2541884",
+   "event_url": "https://ra.co/events/2541884",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541884"
+    }
+   ],
+   "interest": {
+    "score": 38,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Young Pulse (36)",
+     "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "837d9962cd36",
    "title": "TETE VIDE à Bal Chavaux: Ma Sha, Aloka, Acide Plastique b2b b3bz, Xea b2b Hyperlison",
    "venue_id": "bal-chavaux",
@@ -17691,8 +17632,8 @@
    }
   },
   {
-   "id": "052a58a2fda7",
-   "title": "La Onda",
+   "id": "06ff4e56bfbb",
+   "title": "La Onda X 42M (LUMIÈRE, Alyhas B2B Luke Seager, Agus Barbei)",
    "venue_id": "42-marches",
    "night": "2026-10-04",
    "start": "2026-10-04T12:00:00.000",
@@ -17711,12 +17652,14 @@
     {
      "artist_id": "luke-seager",
      "name": "Luke Seager",
-     "billing": "support"
+     "billing": "support",
+     "b2b_with": "alyhas"
     },
     {
      "artist_id": "alyhas",
      "name": "Alyhas",
-     "billing": "support"
+     "billing": "support",
+     "b2b_with": "luke-seager"
     }
    ],
    "genres": [
@@ -17922,6 +17865,48 @@
     "reasons": [
      "tête d'affiche : PEAKSOU (35)",
      "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "873d13ff1bdd",
+   "title": "FREQUENCY",
+   "venue_id": "panic-room",
+   "night": "2026-10-07",
+   "start": "2026-10-07T19:00:00.000",
+   "end": "2026-10-08T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "frequency",
+     "name": "FREQUENCY",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2541861",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541861"
+    }
+   ],
+   "interest": {
+    "score": 33,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : FREQUENCY (38)",
+     "lieu : Panic Room (palier 1)"
     ]
    }
   },
@@ -19302,6 +19287,49 @@
    }
   },
   {
+   "id": "6d07fa036432",
+   "title": "CHINOOVO",
+   "venue_id": "panic-room",
+   "night": "2026-10-09",
+   "start": "2026-10-09T19:00:00.000",
+   "end": "2026-10-10T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "chinoovo",
+     "name": "CHINOOVO",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2541862",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541862"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : CHINOOVO (8)",
+     "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "78faec2822bf",
    "title": "Daniel Wang X Les Yeux Orange X Boogie Frizzante",
    "venue_id": "42-marches",
@@ -19964,6 +19992,95 @@
     "reasons": [
      "tête d'affiche : Bours? (29)",
      "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "b4b55210d690",
+   "title": "TECHNO PLAYGROUND - Souvenir.Mix & friends",
+   "venue_id": "panic-room",
+   "night": "2026-10-10",
+   "start": "2026-10-10T19:00:00.000",
+   "end": "2026-10-11T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "friends",
+     "name": "friends",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "techno-playground-souvenir-mix",
+     "name": "TECHNO PLAYGROUND - Souvenir.Mix",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "tech house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2541863",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541863"
+    }
+   ],
+   "interest": {
+    "score": 37,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : friends (43)",
+     "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "02fb4bd8fe7b",
+   "title": "Freakquency",
+   "venue_id": "le-cirque-electrique",
+   "night": "2026-10-10",
+   "start": "2026-10-10T18:00:00.000",
+   "end": "2026-10-11T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "frequency",
+     "name": "FREQUENCY",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2541402",
+   "event_url": "https://ra.co/events/2541402",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541402"
+    }
+   ],
+   "interest": {
+    "score": 33,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : FREQUENCY (38)",
+     "lieu : Le Cirque Electrique (palier 1)"
     ]
    }
   },
@@ -21223,8 +21340,8 @@
    }
   },
   {
-   "id": "84b5a81f4562",
-   "title": "Professeur Promesses #38",
+   "id": "436bcbe03d6e",
+   "title": "Professeur Promesses #38 (TICKETS EN VENTE SUR PLACE / COMPLET EN PREVENTES)",
    "venue_id": "la-station-gare-des-mines",
    "night": "2026-10-16",
    "start": "2026-10-16T23:59:00.000",
@@ -21430,6 +21547,62 @@
     "reasons": [
      "tête d'affiche : Colin Benders (34)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b92b8fe2185b",
+   "title": "Love International: Ivan Smagghe b2b Dave Harvey, Lola Haro, OK Williams",
+   "venue_id": "rex-club",
+   "night": "2026-10-16",
+   "start": "2026-10-16T23:59:00.000",
+   "end": "2026-10-17T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ivan-smagghe",
+     "name": "Ivan Smagghe",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lola-haro",
+     "name": "Lola Haro",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ok-williams",
+     "name": "OK Williams",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dave-harvey",
+     "name": "Dave Harvey",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2541756",
+   "event_url": "https://ra.co/events/2541756",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541756"
+    }
+   ],
+   "interest": {
+    "score": 27,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ivan Smagghe (13)",
+     "lieu : Rex Club (palier 3)"
     ]
    }
   },
@@ -23752,6 +23925,59 @@
     "reasons": [
      "tête d'affiche : Brodinski (44)",
      "lieu : Lithium Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "275025e22bf6",
+   "title": "AREA x Shockwerk: Tarkno, RUIZ OSC1, LEX, Salomé DV",
+   "venue_id": "badaboum",
+   "night": "2026-10-24",
+   "start": "2026-10-24T23:30:00.000",
+   "end": "2026-10-25T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ruiz-osc1",
+     "name": "RUIZ OSC1",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "tarkno",
+     "name": "Tarkno",
+     "billing": "support"
+    },
+    {
+     "artist_id": "salome-dv",
+     "name": "Salomé DV",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2542133",
+   "event_url": "https://ra.co/events/2542133",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542133"
+    }
+   ],
+   "interest": {
+    "score": 31,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : RUIZ OSC1 (26)",
+     "lieu : Badaboum (palier 2)"
     ]
    }
   },
@@ -26397,6 +26623,54 @@
     "reasons": [
      "tête d'affiche : Sybil (60)",
      "lieu : Magasins Généraux (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "37da8339f3b0",
+   "title": "Vitess to Grand V All Live Long",
+   "venue_id": "cabaret-sauvage",
+   "night": "2026-11-20",
+   "start": "2026-11-20T23:59:00.000",
+   "end": "2026-11-21T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vitess",
+     "name": "Vitess",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "grand-v",
+     "name": "Grand V",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "trance",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2541515",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541515"
+    }
+   ],
+   "interest": {
+    "score": 40,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Vitess (39)",
+     "lieu : Cabaret Sauvage (palier 2)"
     ]
    }
   },
