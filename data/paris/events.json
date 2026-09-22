@@ -1,30 +1,31 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-21T23:59:22Z",
+ "generated_at": "2026-09-22T13:56:53Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-09-21",
-  "end": "2026-12-20"
+  "start": "2026-09-22",
+  "end": "2026-12-21"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 377
+   "events": 386
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 50
+   "events": 52
   }
  ],
  "venue_order": [
   "pavillon-tilsitt",
   "t7",
+  "badaboum",
   "central-chapelle",
   "yoyo-palais-de-tokyo",
   "cite-du-cinema",
@@ -43,7 +44,6 @@
   "104-centquatre",
   "djoon",
   "42-marches",
-  "badaboum",
   "essaim",
   "le-grand-rex",
   "la-boule-noire",
@@ -103,6 +103,7 @@
   "la-beach-parisienne",
   "tba-warehouse-st-denis",
   "dock-b",
+  "la-peniche-cinema",
   "le-point-fort-d-aubervilliers",
   "new-morning",
   "tba-paris",
@@ -121,12 +122,12 @@
   "frequence-paris",
   "jardin-des-traverses",
   "la-prairie-du-canal",
-  "la-peniche-cinema",
   "le-cafe-de-la-danse",
   "le-chinois",
   "le-flow-paris",
   "le-tlm",
   "le-trianon",
+  "les-betises",
   "les-lionnes",
   "parc-de-belleville",
   "popup",
@@ -141,7 +142,8 @@
   "the-art-cafe",
   "la-maison-bistrot",
   "la-maz",
-  "la-rotonde"
+  "la-rotonde",
+  "le-discobar"
  ],
  "venues": [
   {
@@ -790,6 +792,16 @@
    "genres": []
   },
   {
+   "id": "le-discobar",
+   "name": "Le Discobar",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "le-flow-paris",
    "name": "Le Flow Paris",
    "type": "club",
@@ -905,6 +917,16 @@
   {
    "id": "le-zeralda",
    "name": "Le Zeralda",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "les-betises",
+   "name": "Les Bêtises",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1534,16 +1556,6 @@
    "known": false
   },
   {
-   "id": "acid-oslo",
-   "name": "Acid Oslo",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "acideplastique",
    "name": "acideplastique",
    "tier": 0,
@@ -1774,6 +1786,16 @@
    "known": false
   },
   {
+   "id": "alixx",
+   "name": "AliXx",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/d79cc6515d2274cecf9fa184a0218dd4/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "aloka",
    "name": "Aloka",
    "tier": 0,
@@ -1894,6 +1916,16 @@
    "known": false
   },
   {
+   "id": "andy4000",
+   "name": "Andy4000",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "angel-karel",
    "name": "Angel Karel",
    "tier": 0,
@@ -1931,6 +1963,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "annabella",
+   "name": "Annabella",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/3891f860985bedf652beb1f9ed482af7/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2441,6 +2483,16 @@
    "known": false
   },
   {
+   "id": "black-truffle",
+   "name": "Black Truffle",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781f8906f514ea49d257b5d911",
+   "known": false
+  },
+  {
    "id": "blck-mamba",
    "name": "Blck Mamba",
    "tier": 0,
@@ -2611,6 +2663,16 @@
    "known": false
   },
   {
+   "id": "busy-p",
+   "name": "Busy P",
+   "tier": 0,
+   "score": 44,
+   "popularity": 44,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17897774c1f571f74b42987c4cf",
+   "known": false
+  },
+  {
    "id": "butch",
    "name": "Butch",
    "tier": 0,
@@ -2678,16 +2740,6 @@
    "popularity": 7,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786b0d74f842171013f43449c0",
-   "known": false
-  },
-  {
-   "id": "cannelle",
-   "name": "Cannelle",
-   "tier": 0,
-   "score": 55,
-   "popularity": 55,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178c04c73bf25113c39fa2c35fe",
    "known": false
   },
   {
@@ -2798,6 +2850,16 @@
    "popularity": 62,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ece3850887a441bcc9e1453f",
+   "known": false
+  },
+  {
+   "id": "charlie-niklaas",
+   "name": "Charlie Niklaas",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17846307162120163e9ec7d9d8c",
    "known": false
   },
   {
@@ -3344,7 +3406,7 @@
   },
   {
    "id": "dh2-pitchfork-music-festival-paris-2026",
-   "name": "DH2: Pitchfork Music Festival Paris 2026",
+   "name": "DH2 — Pitchfork Music Festival Paris 2026",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3360,6 +3422,16 @@
    "popularity": 26,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788fe76f0b2124515a4dc3b104",
+   "known": false
+  },
+  {
+   "id": "didi-han",
+   "name": "Didi Han",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dfaf91a7943fe16132a28ceb",
    "known": false
   },
   {
@@ -3693,6 +3765,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "dj-swisha",
+   "name": "DJ SWISHA",
+   "tier": 0,
+   "score": 34,
+   "popularity": 34,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786921493ee581e27446e7d3bb",
    "known": false
   },
   {
@@ -4146,6 +4228,16 @@
    "known": false
   },
   {
+   "id": "family-matters",
+   "name": "Family Matters",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048513aa2b2b4fb4c6d0c574ee2cd",
+   "known": false
+  },
+  {
    "id": "fantastic-man",
    "name": "Fantastic Man",
    "tier": 0,
@@ -4476,6 +4568,16 @@
    "known": false
   },
   {
+   "id": "george-daniel",
+   "name": "George Daniel",
+   "tier": 0,
+   "score": 48,
+   "popularity": 48,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17839164b32db594cdc4a9a721b",
+   "known": false
+  },
+  {
    "id": "gi-1",
    "name": "GIØ (1)",
    "tier": 0,
@@ -4663,6 +4765,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/5cd1789aa71e18b02c511653e82efe82/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "halfpipe-records",
+   "name": "Halfpipe Records",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851231aace57d21aaf59a3d4f8e",
    "known": false
   },
   {
@@ -5006,6 +5118,16 @@
    "popularity": 13,
    "genres": [],
    "image": "https://i.scdn.co/image/943d22324c6b820f5552a71ec177e32e6b003029",
+   "known": false
+  },
+  {
+   "id": "ixpe",
+   "name": "Ixpé",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7108,6 +7230,16 @@
    "known": false
   },
   {
+   "id": "nikki-nair",
+   "name": "Nikki Nair",
+   "tier": 0,
+   "score": 46,
+   "popularity": 46,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178313b0d697a0476fe59bd4259",
+   "known": false
+  },
+  {
    "id": "nimino",
    "name": "nimino",
    "tier": 0,
@@ -7387,6 +7519,16 @@
    "popularity": 49,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f2e28529970ae38ce019f783",
+   "known": false
+  },
+  {
+   "id": "oscar-farrell",
+   "name": "Oscar Farrell",
+   "tier": 0,
+   "score": 47,
+   "popularity": 47,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178277a8af9919d2eef7521a86a",
    "known": false
   },
   {
@@ -7760,6 +7902,16 @@
    "known": false
   },
   {
+   "id": "protokseed",
+   "name": "Protokseed",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789dc953255789bbef8db70c40",
+   "known": false
+  },
+  {
    "id": "psytrance",
    "name": "Psytrance",
    "tier": 0,
@@ -7787,6 +7939,16 @@
    "popularity": 33,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a88feb6ecc77186ee1e9c2e9",
+   "known": false
+  },
+  {
+   "id": "quazar",
+   "name": "Quazar",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048513dd5485b18e5d9b3f9e8a642",
    "known": false
   },
   {
@@ -8000,6 +8162,16 @@
    "known": false
   },
   {
+   "id": "rose",
+   "name": "Rōse (CH)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "rossa",
    "name": "Rossa",
    "tier": 0,
@@ -8092,6 +8264,16 @@
   {
    "id": "saazbuzz-jazz-festival",
    "name": "SaazBuzz Jazz Festival",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "sacre-presente-moi-je",
+   "name": "Sacré présente: Moi Je Live",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -8410,6 +8592,16 @@
    "known": false
   },
   {
+   "id": "silva-bumpa",
+   "name": "Silva Bumpa",
+   "tier": 0,
+   "score": 82,
+   "popularity": 82,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178293cb44a73e10113db56a3f5",
+   "known": false
+  },
+  {
    "id": "silva-snipa",
    "name": "Silva Snipa",
    "tier": 0,
@@ -8457,6 +8649,16 @@
    "popularity": 58,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178645ab618b0c9aeacaff50c62",
+   "known": false
+  },
+  {
+   "id": "sklaer",
+   "name": "Sklaer",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -8777,6 +8979,16 @@
    "popularity": 20,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/6c5e5ecd0e3d3ef91ded4a6f72f1233c/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "t-noux",
+   "name": "T-noux",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -9313,6 +9525,16 @@
    "known": false
   },
   {
+   "id": "unsho",
+   "name": "Unsho",
+   "tier": 0,
+   "score": 13,
+   "popularity": 13,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785879653a98fd301c29612902",
+   "known": false
+  },
+  {
    "id": "upsammy",
    "name": "upsammy",
    "tier": 0,
@@ -9473,6 +9695,16 @@
    "known": false
   },
   {
+   "id": "vinka-wydro",
+   "name": "Vinka Wydro",
+   "tier": 0,
+   "score": 3,
+   "popularity": 3,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178accae1b9b50325c593589be1",
+   "known": false
+  },
+  {
    "id": "virage-6",
    "name": "VIRAGE #6",
    "tier": 0,
@@ -9520,6 +9752,16 @@
    "popularity": 6,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c03cfb066ed76fa27640f7d0",
+   "known": false
+  },
+  {
+   "id": "vitamine-c",
+   "name": "VITAMINE C",
+   "tier": 0,
+   "score": 56,
+   "popularity": 56,
+   "genres": [],
+   "image": "https://i.scdn.co/image/2f6ac55d5571fdc383e6da93f240686f20a73b2b",
    "known": false
   },
   {
@@ -9834,47 +10076,6 @@
   }
  ],
  "events": [
-  {
-   "id": "647c5b1de3bb",
-   "title": "Acid Oslo",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-09-21",
-   "start": "2026-09-21T23:59:00.000",
-   "end": "2026-09-22T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "acid-oslo",
-     "name": "Acid Oslo",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2540879",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2540879"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Acid Oslo (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
   {
    "id": "c73af95505da",
    "title": "JAM DU BPM CONTEST",
@@ -11282,16 +11483,20 @@
    "families": [
     "Techno"
    ],
-   "price_min": null,
+   "price_min": 14.42,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2536655",
    "event_url": "https://ra.co/events/2536655",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-21/b94eaf95-c6b2-40cf-acbd-1c9f7ea80d11.jpg?rect=470%2C0%2C1440%2C1440",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2536655"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/k62lk9-scorpio-massimiliano-pagliara-paurro-and-more-25th-sep-virage-paris-tickets"
     }
    ],
    "interest": {
@@ -11873,6 +12078,58 @@
    }
   },
   {
+   "id": "60470169edda",
+   "title": "Les Népériennes - Acte IV - Sklaer, AliXx, Ian Maur, Fronterea (live)",
+   "venue_id": "la-peniche-cinema",
+   "night": "2026-09-25",
+   "start": "2026-09-25T23:00:00.000",
+   "end": "2026-09-26T11:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sklaer",
+     "name": "Sklaer",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ian-maur",
+     "name": "Ian Maur",
+     "billing": "support"
+    },
+    {
+     "artist_id": "alixx",
+     "name": "AliXx",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "dub techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2543040",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2543040"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Sklaer (8)",
+     "lieu : La Péniche Cinéma (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "1a7bdce568ec",
    "title": "Only Good Vibes: Rock The Boat",
    "venue_id": "peniche-henjo",
@@ -12031,7 +12288,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2542012",
    "event_url": "https://ra.co/events/2542012",
    "image": "",
    "status": "confirmed",
@@ -13149,7 +13406,7 @@
   },
   {
    "id": "8006999edefe",
-   "title": "Basses Fréquences Club: Dasha Rush + Boskøw + Léa Occhi",
+   "title": "[CANCELLED] Basses Fréquences Club: Dasha Rush + Boskøw + Léa Occhi",
    "venue_id": "le-trabendo",
    "night": "2026-09-26",
    "start": "2026-09-26T23:59:00.000",
@@ -16217,6 +16474,53 @@
    }
   },
   {
+   "id": "4800dbdf8758",
+   "title": "ABARROTES II: Electro & Sabores frescos by BELLACOSO",
+   "venue_id": "les-betises",
+   "night": "2026-10-02",
+   "start": "2026-10-02T20:00:00.000",
+   "end": "2026-10-03T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "t-noux",
+     "name": "T-noux",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "charlie-niklaas",
+     "name": "Charlie Niklaas",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2542442",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542442"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : T-noux (8)",
+     "lieu : Les Bêtises (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "9a9b6aae441b",
    "title": "DON SELECTA #3 (100% Vinyl): Silva Snipa (UK), NOON, Hybu",
    "venue_id": "le-pop-up-du-label",
@@ -16349,6 +16653,48 @@
     "reasons": [
      "tête d'affiche : RAW XXS #15 • Secret warehouse (8)",
      "lieu : TBA - Secret Warehouse (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "64acc757362c",
+   "title": "Black Truffle",
+   "venue_id": "le-discobar",
+   "night": "2026-10-02",
+   "start": "2026-10-02T22:30:00.000",
+   "end": "2026-10-03T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "black-truffle",
+     "name": "Black Truffle",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "disco",
+    "italo disco"
+   ],
+   "families": [
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2542810",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542810"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Black Truffle (0)",
+     "lieu : Le Discobar (palier 1)"
     ]
    }
   },
@@ -16498,64 +16844,6 @@
    }
   },
   {
-   "id": "1ad1c5f44dff",
-   "title": "LIVE FROM EARTH: DJ Gigola, DJGARBAGE + SECRET GUEST",
-   "venue_id": "fvtvr",
-   "night": "2026-10-03",
-   "start": "2026-10-03T23:59:00.000",
-   "end": "2026-10-04T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "cannelle",
-     "name": "Cannelle",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "dj-gigola",
-     "name": "DJ Gigola",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lili-castiglioni",
-     "name": "Lili Castiglioni",
-     "billing": "support"
-    },
-    {
-     "artist_id": "tailtiu",
-     "name": "Tailtiu",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "electro"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2542306",
-   "event_url": "https://ra.co/events/2542306",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2542306"
-    }
-   ],
-   "interest": {
-    "score": 53,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Cannelle (55)",
-     "lieu : FVTVR (palier 2)"
-    ]
-   }
-  },
-  {
    "id": "cf39d67cd95a",
    "title": "DEVIANCE PARIS PRIDE Party + After",
    "venue_id": "workshow",
@@ -16652,6 +16940,117 @@
     "reasons": [
      "tête d'affiche : Marco Carola (52)",
      "lieu : YoYo - Palais de Tokyo (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "9975931a3dd1",
+   "title": "Afterparty SLS Paris 2026: Andy4000, Busy P, DJ SWISHA, DJ Falcon b2b Didi Han",
+   "venue_id": "rex-club",
+   "night": "2026-10-03",
+   "start": "2026-10-03T23:00:00.000",
+   "end": "2026-10-04T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "busy-p",
+     "name": "Busy P",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "dj-swisha",
+     "name": "DJ SWISHA",
+     "billing": "support"
+    },
+    {
+     "artist_id": "didi-han",
+     "name": "Didi Han",
+     "billing": "support"
+    },
+    {
+     "artist_id": "andy4000",
+     "name": "Andy4000",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2542737",
+   "event_url": "https://ra.co/events/2542737",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542737"
+    }
+   ],
+   "interest": {
+    "score": 50,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Busy P (44)",
+     "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "1ad1c5f44dff",
+   "title": "LIVE FROM EARTH: DJ Gigola, DJGARBAGE + SECRET GUEST",
+   "venue_id": "fvtvr",
+   "night": "2026-10-03",
+   "start": "2026-10-03T23:59:00.000",
+   "end": "2026-10-04T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-gigola",
+     "name": "DJ Gigola",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lili-castiglioni",
+     "name": "Lili Castiglioni",
+     "billing": "support"
+    },
+    {
+     "artist_id": "tailtiu",
+     "name": "Tailtiu",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2542306",
+   "event_url": "https://ra.co/events/2542306",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542306"
+    }
+   ],
+   "interest": {
+    "score": 49,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : DJ Gigola (52)",
+     "lieu : FVTVR (palier 2)"
     ]
    }
   },
@@ -16864,16 +17263,20 @@
    "families": [
     "House"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2541884",
    "event_url": "https://ra.co/events/2541884",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-21/59bcc807-269d-4d18-a3a7-9d29aaf31238.jpg?rect=420%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2541884"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/2wa5o7-house-of-love-nightchou-young-pulse-3rd-oct-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -18225,45 +18628,6 @@
     "reasons": [
      "tête d'affiche : Ledouble (42)",
      "lieu : Central Chapelle (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "35668729ac29",
-   "title": "Discotaco : disco, paillettes & tacos partout !",
-   "venue_id": "le-mazette",
-   "night": "2026-10-08",
-   "start": "2026-10-08T18:00:00+02:00",
-   "end": "2026-10-09T02:00:00+02:00",
-   "lineup": [
-    {
-     "artist_id": "funky-french-league",
-     "name": "Funky French League",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/avx5xx-discotaco-disco-paillettes-tacos-partout-8th-oct-le-mazette-paris-tickets",
-   "event_url": "https://dice.fm/event/avx5xx-discotaco-disco-paillettes-tacos-partout-8th-oct-le-mazette-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-08-17/aca0a60b-2ded-404f-bb29-0e7248423e88.jpg?rect=420%2C0%2C1080%2C1080",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/avx5xx-discotaco-disco-paillettes-tacos-partout-8th-oct-le-mazette-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 35,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Funky French League (40)",
-     "lieu : Le Mazette (palier 1)"
     ]
    }
   },
@@ -22639,6 +23003,57 @@
    }
   },
   {
+   "id": "929a20d203ce",
+   "title": "Sacré présente: Moi Je Live + Ixpé + Annabella",
+   "venue_id": "sacre",
+   "night": "2026-10-17",
+   "start": "2026-10-17T23:00:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sacre-presente-moi-je",
+     "name": "Sacré présente: Moi Je Live",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ixpe",
+     "name": "Ixpé",
+     "billing": "support"
+    },
+    {
+     "artist_id": "annabella",
+     "name": "Annabella",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2542816",
+   "event_url": "https://ra.co/events/2542816",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542816"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Sacré présente: Moi Je Live (8)",
+     "lieu : Sacré (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "ad81ddd5f870",
    "title": "Sous Tes Reins : Nord + Sud",
    "venue_id": "la-station-gare-des-mines",
@@ -23056,6 +23471,53 @@
     "reasons": [
      "tête d'affiche : SEXYDELIC RELEASE PARTY (8)",
      "lieu : Péniche Antipode (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "efeb685bf4db",
+   "title": "Resurrection Rebirth: Vinka Wydro b2b Highvoltage, Anolux, Rose De France, Quazar",
+   "venue_id": "rex-club",
+   "night": "2026-10-21",
+   "start": "2026-10-21T23:59:00.000",
+   "end": "2026-10-22T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vinka-wydro",
+     "name": "Vinka Wydro",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "quazar",
+     "name": "Quazar",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "ebm"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2542768",
+   "event_url": "https://ra.co/events/2542768",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542768"
+    }
+   ],
+   "interest": {
+    "score": 20,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Vinka Wydro (3)",
+     "lieu : Rex Club (palier 3)"
     ]
    }
   },
@@ -24293,16 +24755,20 @@
     "Techno",
     "Trance & hard"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2542133",
    "event_url": "https://ra.co/events/2542133",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-21/50dafaa1-3215-48b0-9f46-773019609fd8.jpg?rect=0%2C250%2C2000%2C2000",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2542133"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/g583ra-area-x-shockwerk-tarkno-ruiz-osc1-lex-salom-dv-24th-oct-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -24832,6 +25298,63 @@
    }
   },
   {
+   "id": "ba0b47a44c71",
+   "title": "Silva Bumpa, Scolcab, Lespol b2b Unsho, NOON",
+   "venue_id": "badaboum",
+   "night": "2026-10-30",
+   "start": "2026-10-30T23:30:00.000",
+   "end": "2026-10-31T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "silva-bumpa",
+     "name": "Silva Bumpa",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "unsho",
+     "name": "Unsho",
+     "billing": "support"
+    },
+    {
+     "artist_id": "halfpipe-records",
+     "name": "Halfpipe Records",
+     "billing": "support"
+    },
+    {
+     "artist_id": "noon",
+     "name": "NOON",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "breakbeat",
+    "bass"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2540498",
+   "event_url": "https://ra.co/events/2540498",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540498"
+    }
+   ],
+   "interest": {
+    "score": 71,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Silva Bumpa (82)",
+     "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "aa335eb137f1",
    "title": "HUSH: 3LEESA, IOSIO, K0:LAB, REVEX, THISO, TOXIMAMI",
    "venue_id": "kilometre25",
@@ -24883,8 +25406,8 @@
    }
   },
   {
-   "id": "e9cac543d0cc",
-   "title": "Sacré présente: Butch",
+   "id": "5cd47b32c741",
+   "title": "Sacré présente: Butch & Family Matters",
    "venue_id": "sacre",
    "night": "2026-10-30",
    "start": "2026-10-30T23:00:00.000",
@@ -24894,6 +25417,11 @@
      "artist_id": "butch",
      "name": "Butch",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "family-matters",
+     "name": "Family Matters",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -25223,6 +25751,47 @@
     "reasons": [
      "tête d'affiche : After (64)",
      "lieu : Workshow (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "d441bd38629f",
+   "title": "Halloween Costume Party: Baccus All Night Long",
+   "venue_id": "sacre",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:00:00.000",
+   "end": "2026-11-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "baccus",
+     "name": "Baccus",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2542813",
+   "event_url": "https://ra.co/events/2542813",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542813"
+    }
+   ],
+   "interest": {
+    "score": 49,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Baccus (52)",
+     "lieu : Sacré (palier 2)"
     ]
    }
   },
@@ -25750,15 +26319,37 @@
    "end": "2026-11-06T06:00:00.000",
    "lineup": [
     {
-     "artist_id": "dh2-pitchfork-music-festival-paris-2026",
-     "name": "DH2: Pitchfork Music Festival Paris 2026",
+     "artist_id": "vitamine-c",
+     "name": "VITAMINE C",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "george-daniel",
+     "name": "George Daniel",
+     "billing": "support"
+    },
+    {
+     "artist_id": "oscar-farrell",
+     "name": "Oscar Farrell",
+     "billing": "support"
+    },
+    {
+     "artist_id": "nikki-nair",
+     "name": "Nikki Nair",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dh2-pitchfork-music-festival-paris-2026",
+     "name": "DH2 — Pitchfork Music Festival Paris 2026",
+     "billing": "support"
     }
    ],
    "genres": [
-    "electronic"
+    "tech house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2454718",
@@ -25776,11 +26367,12 @@
     }
    ],
    "interest": {
-    "score": 18,
-    "tier": 0,
+    "score": 60,
+    "tier": 2,
     "reasons": [
-     "tête d'affiche : DH2: Pitchfork Music Festival Paris 2026 (8)",
-     "lieu : Badaboum (palier 2)"
+     "tête d'affiche : VITAMINE C (56)",
+     "lieu : Badaboum (palier 2)",
+     "plateau dense"
     ]
    }
   },
@@ -26446,6 +27038,60 @@
    }
   },
   {
+   "id": "a10580ec47be",
+   "title": "23:59: Protokseed, LING LING B2B ENKO, ACIDPACH & MORE",
+   "venue_id": "mia-mao",
+   "night": "2026-11-13",
+   "start": "2026-11-13T23:59:00.000",
+   "end": "2026-11-14T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "protokseed",
+     "name": "Protokseed",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "rose",
+     "name": "Rōse (CH)",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "hardcore",
+    "acid",
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2542218",
+   "event_url": "https://ra.co/events/2542218",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542218"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542873"
+    }
+   ],
+   "interest": {
+    "score": 36,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Protokseed (42)",
+     "lieu : Mia Mao (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "1d70bc19834f",
    "title": "HORS-SOL",
    "venue_id": "le-trabendo",
@@ -26895,7 +27541,7 @@
    "title": "OUTREBLEU [weekender]",
    "venue_id": "magasins-generaux",
    "night": "2026-11-20",
-   "start": "2026-11-20T20:00:00.000",
+   "start": "2026-11-20T19:00:00.000",
    "end": "2026-11-22T06:00:00.000",
    "lineup": [
     {
@@ -27001,8 +27647,8 @@
    }
   },
   {
-   "id": "37da8339f3b0",
-   "title": "Vitess to Grand V All Live Long",
+   "id": "5a571b6721b8",
+   "title": "Vitess To Grand V 𝘈𝘭𝘭 𝘓𝘪𝘷𝘦 𝘓𝘰𝘯𝘨 au Cabaret Sauvage",
    "venue_id": "cabaret-sauvage",
    "night": "2026-11-20",
    "start": "2026-11-20T23:59:00.000",
@@ -28374,6 +29020,13 @@
    "photo": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845"
   },
   {
+   "id": "ba0b47a44c71",
+   "name": "Silva Bumpa",
+   "night": "2026-10-30",
+   "venue": "Badaboum",
+   "photo": "https://i.scdn.co/image/ab6761610000f178293cb44a73e10113db56a3f5"
+  },
+  {
    "id": "7df5a4dab597",
    "name": "Showtek",
    "night": "2026-10-23",
@@ -28407,13 +29060,6 @@
    "night": "2026-10-03",
    "venue": "Babour Sauvage",
    "photo": "https://i.scdn.co/image/ab6761610000f1781fe26c81e19c7f2b8d15978c"
-  },
-  {
-   "id": "c5faeca8f216",
-   "name": "Krowdexx",
-   "night": "2026-12-19",
-   "venue": "Parc Des Expositions",
-   "photo": "https://i.scdn.co/image/ab6761610000f1787379c6b0e1ac4cf566ebe640"
   }
  ],
  "families": [

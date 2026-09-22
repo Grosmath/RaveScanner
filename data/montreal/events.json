@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-21T23:59:00Z",
+ "generated_at": "2026-09-22T13:56:05Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-09-21",
-  "end": "2026-12-20"
+  "start": "2026-09-22",
+  "end": "2026-12-21"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 161
+   "events": 162
   },
   {
    "id": "piknic",
@@ -83,6 +83,7 @@
   "cabaret-berlin",
   "l-hemisphere-gauche",
   "le-ministere",
+  "les-7-doigts-de-la-main",
   "p-tit-ours",
   "van-horne-skatepark",
   "le-lobby",
@@ -320,6 +321,16 @@
     "electronic",
     "indie"
    ]
+  },
+  {
+   "id": "les-7-doigts-de-la-main",
+   "name": "Les 7 Doigts de la Main",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "mtelus",
@@ -3318,6 +3329,16 @@
    "known": false
   },
   {
+   "id": "octov-halloween-2026",
+   "name": "OCTOV - HALLOWEEN 2026",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "offshade-presents-clair-obscur",
    "name": "OFFSHADE presents: Clair Obscur",
    "tier": 0,
@@ -4674,8 +4695,8 @@
    }
   },
   {
-   "id": "0b720a9c3d9c",
-   "title": "Frikiton presents Sonidos Prohibidos: Lu B, Nana Zen, DJ Pana",
+   "id": "ea4f540e270a",
+   "title": "Sonidos Prohibidos: Lu B, Nana Zen, DJ Pana",
    "venue_id": "bar-datcha",
    "night": "2026-09-24",
    "start": "2026-09-24T22:00:00.000",
@@ -12042,6 +12063,47 @@
    }
   },
   {
+   "id": "6a3590a98ba4",
+   "title": "OCTOV - HALLOWEEN 2026",
+   "venue_id": "les-7-doigts-de-la-main",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:00:00.000",
+   "end": "2026-11-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "octov-halloween-2026",
+     "name": "OCTOV - HALLOWEEN 2026",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2542511",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542511"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : OCTOV - HALLOWEEN 2026 (8)",
+     "lieu : Les 7 Doigts de la Main (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "3574083ee7e0",
    "title": "Sullivan King",
    "venue_id": "mtelus",
@@ -13223,13 +13285,6 @@
   }
  ],
  "announcements": [
-  {
-   "id": "77e2b03fc46d",
-   "name": "Hugel",
-   "night": "2026-11-21",
-   "venue": "Hall Est du Stade olympique",
-   "photo": "https://i.scdn.co/image/ab6761610000f178f2f0c84b86e48dd70d9bcc59"
-  },
   {
    "id": "360fb58e2c3c",
    "name": "Bob Sinclar",
