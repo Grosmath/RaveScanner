@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-22T13:56:05Z",
+ "generated_at": "2026-09-22T23:33:18Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 162
+   "events": 161
   },
   {
    "id": "piknic",
@@ -24,7 +24,7 @@
   {
    "id": "new_city_gas",
    "ok": true,
-   "events": 133
+   "events": 134
   },
   {
    "id": "mtelus",
@@ -66,8 +66,8 @@
   "le-belmont",
   "tba-le-bateau-mouche",
   "foufounes",
-  "nwhr",
   "red-roof-church",
+  "nwhr",
   "vino-disco",
   "l-escogriffe-bar-spectacle",
   "sans-soleil",
@@ -914,16 +914,6 @@
    "popularity": 44,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851d3c9d0307e37b46adbb5e3d9",
-   "known": false
-  },
-  {
-   "id": "arder",
-   "name": "Arder",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178918d137254097572f217f400",
    "known": false
   },
   {
@@ -1976,6 +1966,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17872cbd1939c9f0fe560ec9251",
+   "known": false
+  },
+  {
+   "id": "fahlberg",
+   "name": "Fahlberg",
+   "tier": 0,
+   "score": 62,
+   "popularity": 62,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17887fb959b41b25269915f9163",
    "known": false
   },
   {
@@ -8389,43 +8389,6 @@
    }
   },
   {
-   "id": "ba5899d136e4",
-   "title": "Arder",
-   "venue_id": "nwhr",
-   "night": "2026-10-03",
-   "start": "2026-10-03T22:00:00.000",
-   "end": "2026-10-04T10:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "arder",
-     "name": "Arder",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2534744",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2534744"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Arder (0)",
-     "lieu : NWHR (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "74ed6d7250c7",
    "title": "Piknic Électronik MTL #18: Eris Drew / ether",
    "venue_id": "piknic-electronik",
@@ -9168,6 +9131,11 @@
      "artist_id": "nora-en-pure",
      "name": "Nora En Pure",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "fahlberg",
+     "name": "Fahlberg",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -13460,7 +13428,7 @@
    "time": "17:00 → 22:00",
    "tier": 2,
    "reason": "Festival",
-   "supports": "",
+   "supports": "Fahlberg",
    "subtitle": "",
    "footer": "",
    "footer2": "",
