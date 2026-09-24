@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-23T23:33:03Z",
+ "generated_at": "2026-09-24T14:05:02Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-09-23",
-  "end": "2027-03-22"
+  "start": "2026-09-24",
+  "end": "2027-03-23"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 196
+   "events": 200
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 42
+   "events": 43
   }
  ],
  "venue_order": [
@@ -63,9 +63,9 @@
   "systeme",
   "salon-daome",
   "sainte-catherine-hall",
-  "vino-disco",
   "esc",
   "sms-514-613-5811-for-location",
+  "vino-disco",
   "nwhr",
   "le-belmont",
   "tba-le-bateau-mouche",
@@ -74,6 +74,7 @@
   "l-escogriffe-bar-spectacle",
   "le-balcon",
   "sans-soleil",
+  "entrepots-dominion-les",
   "la-recre",
   "barbossa",
   "blue-room",
@@ -83,6 +84,7 @@
   "club-soda",
   "pangea",
   "salon-badin",
+  "tba-velours-323-ontario-est-montreal",
   "cabaret-berlin",
   "cabaret-lion-d-or",
   "jaimee-sips",
@@ -90,6 +92,7 @@
   "le-ministere",
   "les-7-doigts-de-la-main",
   "p-tit-ours",
+  "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
   "van-horne-skatepark",
   "usine-c",
   "le-lobby",
@@ -185,6 +188,16 @@
     "electronic",
     "bass"
    ]
+  },
+  {
+   "id": "entrepots-dominion-les",
+   "name": "Entrepôts Dominion, Les",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "esc",
@@ -623,6 +636,16 @@
    "genres": []
   },
   {
+   "id": "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
+   "name": "TBA - 1585 Boulevard St Laurent, Montreal, QC, H2X 2S9",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "tba-le-bateau-mouche",
    "name": "TBA - LE BATEAU-MOUCHE",
    "type": "club",
@@ -635,6 +658,16 @@
   {
    "id": "tba-near-villeray",
    "name": "TBA - Near Villeray",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "tba-velours-323-ontario-est-montreal",
+   "name": "TBA - Velours 323 Ontario Est Montréal ",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -742,6 +775,16 @@
    "known": false
   },
   {
+   "id": "333cxt",
+   "name": "333CXT",
+   "tier": 0,
+   "score": 39,
+   "popularity": 39,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789076d39f387245539bea8f87",
+   "known": false
+  },
+  {
    "id": "3phaz",
    "name": "3Phaz",
    "tier": 0,
@@ -749,6 +792,16 @@
    "popularity": 22,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c1aa30cff4957b1b291911ee",
+   "known": false
+  },
+  {
+   "id": "7az-1",
+   "name": "7AZ (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1534,6 +1587,16 @@
    "known": false
   },
   {
+   "id": "cidoine",
+   "name": "Cidoine",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "cirque-cosmic",
    "name": "Cirque Cosmic",
    "tier": 0,
@@ -1586,6 +1649,16 @@
   {
    "id": "cleo-leigh",
    "name": "CLEO LEIGH",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "clochette",
+   "name": "Clochette",
    "tier": 0,
    "score": 0,
    "popularity": 0,
@@ -1654,6 +1727,16 @@
    "known": false
   },
   {
+   "id": "crescenzo",
+   "name": "Crescenzo",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17845fafb7f6c5eaf1185398705",
+   "known": false
+  },
+  {
    "id": "crissemarqueur",
    "name": "CrisseMarqueur",
    "tier": 0,
@@ -1691,6 +1774,16 @@
    "popularity": 83,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e5a93c1d69c541812ebb741e",
+   "known": false
+  },
+  {
+   "id": "d-b-y",
+   "name": "D.B.Y.",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787dd52de52c5d012076238356",
    "known": false
   },
   {
@@ -2044,16 +2137,6 @@
    "known": false
   },
   {
-   "id": "down2techno",
-   "name": "DOWN2TECHNO [Every Wednesday]",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "drink-n-draw",
    "name": "Drink n Draw",
    "tier": 0,
@@ -2354,6 +2437,16 @@
    "known": false
   },
   {
+   "id": "fennx",
+   "name": "FennX",
+   "tier": 0,
+   "score": 32,
+   "popularity": 32,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17855219f8df6098ba1387eac19",
+   "known": false
+  },
+  {
    "id": "ferias",
    "name": "Ferias",
    "tier": 0,
@@ -2571,6 +2664,16 @@
    "popularity": 20,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783c1a9a38febf61b5ffe27c23",
+   "known": false
+  },
+  {
+   "id": "grid",
+   "name": "Grid",
+   "tier": 0,
+   "score": 9,
+   "popularity": 9,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/0b46bbe84bfa5ca611440a5afc84e603/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2864,6 +2967,16 @@
    "popularity": 41,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178029a52ff9dbef0095950d11f",
+   "known": false
+  },
+  {
+   "id": "jino-k",
+   "name": "Jino K",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3330,6 +3443,16 @@
    "popularity": 23,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178df9bec5bf86df3a2d9f2cd66",
+   "known": false
+  },
+  {
+   "id": "loukeman",
+   "name": "Loukeman",
+   "tier": 0,
+   "score": 52,
+   "popularity": 52,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c5e5ca3979afd9a2d021569e",
    "known": false
   },
   {
@@ -4234,6 +4357,16 @@
    "known": false
   },
   {
+   "id": "racil",
+   "name": "Racil",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "raef",
    "name": "Raef",
    "tier": 0,
@@ -4631,6 +4764,16 @@
    "popularity": 43,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782ead5db3fd28c3817a49f788",
+   "known": false
+  },
+  {
+   "id": "soulshine",
+   "name": "SOULSHINE",
+   "tier": 0,
+   "score": 13,
+   "popularity": 13,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17827e2b028286556eab74bc668",
    "known": false
   },
   {
@@ -5047,16 +5190,6 @@
    "known": false
   },
   {
-   "id": "vino-disco-special-wednesday",
-   "name": "Vino Disco SPECIAL WEDNESDAY",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "virtual-riot",
    "name": "Virtual Riot",
    "tier": 0,
@@ -5278,90 +5411,6 @@
   }
  ],
  "events": [
-  {
-   "id": "1178548021d0",
-   "title": "DOWN2TECHNO [Every Wednesday]",
-   "venue_id": "le-red-room",
-   "night": "2026-09-23",
-   "start": "2026-09-23T22:00:00.000",
-   "end": "2026-09-24T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "down2techno",
-     "name": "DOWN2TECHNO [Every Wednesday]",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2527725",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2527725"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DOWN2TECHNO [Every Wednesday] (8)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "8e1d09c2007d",
-   "title": "Vino Disco SPECIAL WEDNESDAY",
-   "venue_id": "vino-disco",
-   "night": "2026-09-23",
-   "start": "2026-09-23T20:00:00.000",
-   "end": "2026-09-24T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "vino-disco-special-wednesday",
-     "name": "Vino Disco SPECIAL WEDNESDAY",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "afro house"
-   ],
-   "families": [
-    "House",
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2537015",
-   "event_url": "https://ra.co/events/2537015",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2537015"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Vino Disco SPECIAL WEDNESDAY (8)",
-     "lieu : Vino Disco (palier 1)"
-    ]
-   }
-  },
   {
    "id": "ba3ddd642011",
    "title": "Tinlicker",
@@ -7296,6 +7345,49 @@
    }
   },
   {
+   "id": "3cfdb0853b4a",
+   "title": "SOULSHINE",
+   "venue_id": "tba-velours-323-ontario-est-montreal",
+   "night": "2026-09-26",
+   "start": "2026-09-26T20:30:00.000",
+   "end": "2026-09-27T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "soulshine",
+     "name": "SOULSHINE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "deep house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2544586",
+   "event_url": "https://ra.co/events/2544586",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2544586"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SOULSHINE (13)",
+     "lieu : TBA - Velours 323 Ontario Est Montréal  (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "aaf31f4c2fd7",
    "title": "Against Nature: Only Theatre of Ain, Askar, True Alibi, Reddmist",
    "venue_id": "l-hemisphere-gauche",
@@ -7873,6 +7965,53 @@
     "reasons": [
      "tête d'affiche : DJ RURU (7)",
      "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "953833decdda",
+   "title": "Zik Selectors",
+   "venue_id": "sans-soleil",
+   "night": "2026-09-29",
+   "start": "2026-09-29T20:00:00.000",
+   "end": "2026-09-30T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "grid",
+     "name": "Grid",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "cidoine",
+     "name": "Cidoine",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "disco",
+    "funk / soul"
+   ],
+   "families": [
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2545084",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2545084"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Grid (9)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -10695,6 +10834,49 @@
    }
   },
   {
+   "id": "ef5c89655c06",
+   "title": "SOULSHINE",
+   "venue_id": "tba-velours-323-ontario-est-montreal",
+   "night": "2026-10-10",
+   "start": "2026-10-10T20:00:00.000",
+   "end": "2026-10-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "soulshine",
+     "name": "SOULSHINE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "downtempo",
+    "afro house"
+   ],
+   "families": [
+    "Afro & latin",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2544595",
+   "event_url": "https://ra.co/events/2544595",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2544595"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SOULSHINE (13)",
+     "lieu : TBA - Velours 323 Ontario Est Montréal  (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "eff7807bb74a",
    "title": "Gorgon City",
    "venue_id": "new-city-gas",
@@ -11284,6 +11466,11 @@
     {
      "artist_id": "technique-nado",
      "name": "Technique nado",
+     "billing": "support"
+    },
+    {
+     "artist_id": "d-b-y",
+     "name": "D.B.Y.",
      "billing": "support"
     },
     {
@@ -14247,6 +14434,62 @@
    }
   },
   {
+   "id": "656527d7cf6a",
+   "title": "Spooky Sunrise Season",
+   "venue_id": "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00.000",
+   "end": "2026-11-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "racil",
+     "name": "Racil",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "jino-k",
+     "name": "Jino K",
+     "billing": "support"
+    },
+    {
+     "artist_id": "crescenzo",
+     "name": "Crescenzo",
+     "billing": "support"
+    },
+    {
+     "artist_id": "clochette",
+     "name": "Clochette",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2544590",
+   "event_url": "https://ra.co/events/2544590",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2544590"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Racil (8)",
+     "lieu : TBA - 1585 Boulevard St Laurent, Montreal, QC, H2X 2S9 (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "3574083ee7e0",
    "title": "Sullivan King",
    "venue_id": "mtelus",
@@ -14338,6 +14581,59 @@
     "reasons": [
      "tête d'affiche : Suzy Sheer (52)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "dde3d53d5b94",
+   "title": "OUTRAGE 2.0 - REBELLION",
+   "venue_id": "entrepots-dominion-les",
+   "night": "2026-11-06",
+   "start": "2026-11-06T22:00:00.000",
+   "end": "2026-11-07T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "333cxt",
+     "name": "333CXT",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "fennx",
+     "name": "FennX",
+     "billing": "support"
+    },
+    {
+     "artist_id": "7az-1",
+     "name": "7AZ (1)",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "hardcore",
+    "industrial"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2544686",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2544686"
+    }
+   ],
+   "interest": {
+    "score": 34,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : 333CXT (39)",
+     "lieu : Entrepôts Dominion, Les (palier 1)"
     ]
    }
   },
@@ -15463,6 +15759,53 @@
    }
   },
   {
+   "id": "6e3b783fa6b8",
+   "title": "Loukeman - Montréal",
+   "venue_id": "newspeak",
+   "night": "2026-12-04",
+   "start": "2026-12-04T22:00:00.000",
+   "end": "2026-12-05T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "loukeman",
+     "name": "Loukeman",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "electronica"
+   ],
+   "families": [
+    "House",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.universe.com/events/loukeman-tickets-KWLDZY?ref=ticketmaster",
+   "event_url": "https://ra.co/events/2540849",
+   "image": "https://s1.ticketm.net/dam/a/d0e/70f295e5-ee56-4299-9dde-af09890f8d0e_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540849"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.universe.com/events/loukeman-tickets-KWLDZY?ref=ticketmaster"
+    }
+   ],
+   "interest": {
+    "score": 49,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Loukeman (52)",
+     "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "4acba631177a",
    "title": "Riot Ten - Montréal",
    "venue_id": "newspeak",
@@ -16162,21 +16505,6 @@
   },
   {
    "kind": "event",
-   "day": "SAM 10 OCT",
-   "title": "Nora En Pure",
-   "venue": "Piknic Electronik",
-   "time": "17:00 → 22:00",
-   "tier": 2,
-   "reason": "Festival",
-   "supports": "Fahlberg",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb2d6db1d82461593938beef62",
-   "event_id": "7407a7701cd9"
-  },
-  {
-   "kind": "event",
    "day": "JEU 15 OCT",
    "title": "Sub Focus",
    "venue": "New City Gas",
@@ -16219,6 +16547,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb264c8c3a982604908c6cf188",
    "event_id": "d6df8bdb1b6a"
+  },
+  {
+   "kind": "event",
+   "day": "VEN 23 OCT",
+   "title": "John Summit",
+   "venue": "Centre Bell",
+   "time": "19:00",
+   "tier": 3,
+   "reason": "Aréna",
+   "supports": "",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb20662b32f3dbabad755dfb53",
+   "event_id": "811ef40aca5b"
   }
  ]
 }

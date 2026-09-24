@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-23T23:33:36Z",
+ "generated_at": "2026-09-24T14:05:39Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-09-23",
-  "end": "2027-03-22"
+  "start": "2026-09-24",
+  "end": "2027-03-23"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 446
+   "events": 445
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 64
+   "events": 67
   }
  ],
  "venue_order": [
@@ -53,11 +53,11 @@
   "la-boule-noire",
   "babour-sauvage",
   "la-station-gare-des-mines",
+  "cafe-de-la-musique",
   "la-gaite-lyrique",
   "parc-des-expositions",
   "elysee-montmartre",
   "bal-chavaux",
-  "cite-de-la-musique",
   "le-mazette",
   "la-clairiere",
   "workshow",
@@ -101,6 +101,7 @@
   "la-rotonde-stalingrad",
   "glazart",
   "communale-saint-ouen",
+  "bourse-de-commerce-pinault-collection",
   "jardin-des-traverses",
   "le-son-de-la-terre",
   "pamela-club",
@@ -113,7 +114,6 @@
   "la-peniche-cinema",
   "le-point-fort-d-aubervilliers",
   "les-lionnes",
-  "new-morning",
   "wanderlust",
   "le-klub",
   "le-river-s-king",
@@ -136,12 +136,13 @@
   "le-flow-paris",
   "le-tlm",
   "les-betises",
+  "new-morning",
+  "paname-sur-seine",
   "parc-de-belleville",
   "popup",
   "peniche-antipode",
   "peniche-henjo",
   "radio-campus-paris",
-  "skybar-paris-rooftop",
   "tba-7-rue-st-just-93100-montreuil",
   "tba-75013",
   "tba-club-banana-cafe",
@@ -252,6 +253,16 @@
    "genres": []
   },
   {
+   "id": "bourse-de-commerce-pinault-collection",
+   "name": "Bourse de Commerce — Pinault Collection",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "cabaret-sauvage",
    "name": "Cabaret Sauvage",
    "type": "venue",
@@ -263,6 +274,16 @@
     "electronic",
     "world"
    ]
+  },
+  {
+   "id": "cafe-de-la-musique",
+   "name": "Café de la Musique",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "canal-93",
@@ -307,16 +328,6 @@
   {
    "id": "chalet-du-lac",
    "name": "Chalet du Lac",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "cite-de-la-musique",
-   "name": "Cité De La Musique",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1101,6 +1112,16 @@
    "genres": []
   },
   {
+   "id": "paname-sur-seine",
+   "name": "Paname sur Seine",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "panic-room",
    "name": "Panic Room",
    "type": "bar",
@@ -1287,16 +1308,6 @@
   {
    "id": "silencio",
    "name": "Silencio",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "skybar-paris-rooftop",
-   "name": "Skybar Paris Rooftop",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -2546,6 +2557,16 @@
    "known": false
   },
   {
+   "id": "bailey-ibbs",
+   "name": "Bailey Ibbs",
+   "tier": 0,
+   "score": 37,
+   "popularity": 37,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178934165a2aaf794dde36e58d3",
+   "known": false
+  },
+  {
    "id": "bamao-yende",
    "name": "Bamao Yendé",
    "tier": 0,
@@ -2626,16 +2647,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "bazaar",
-   "name": "BAZAAR",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1786f27ce08530b52e1c83ee7bb",
    "known": false
   },
   {
@@ -2738,6 +2749,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "bigstate",
+   "name": "Bigstate",
+   "tier": 0,
+   "score": 9,
+   "popularity": 9,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d61087aca0ef5ddbdffdaaf2",
    "known": false
   },
   {
@@ -3151,6 +3172,16 @@
    "known": false
   },
   {
+   "id": "catsinka",
+   "name": "Catsinka",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178635935362edfd090542b8eaf",
+   "known": false
+  },
+  {
    "id": "celine",
    "name": "Céline",
    "tier": 0,
@@ -3470,6 +3501,16 @@
    "popularity": 34,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f98c62b76a6c49e7ca8dea34",
+   "known": false
+  },
+  {
+   "id": "concert-martin-rev",
+   "name": "Concert : Martin Rev",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3820,16 +3861,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "devon-rexi",
-   "name": "Devon Rexi",
-   "tier": 0,
-   "score": 12,
-   "popularity": 12,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178f686680d61cbf32812229a39",
    "known": false
   },
   {
@@ -5236,6 +5267,16 @@
    "known": false
   },
   {
+   "id": "goat",
+   "name": "Goat (JP)",
+   "tier": 0,
+   "score": 21,
+   "popularity": 21,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048515952b3dd926259b4344d6c64",
+   "known": false
+  },
+  {
    "id": "golce",
    "name": "Golce",
    "tier": 0,
@@ -5466,6 +5507,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b7b85a66461a09e92bcee3fe",
+   "known": false
+  },
+  {
+   "id": "harri-pepper",
+   "name": "Harri Pepper",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5846,6 +5897,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851d2872ea2901e7e467e2a04d7",
+   "known": false
+  },
+  {
+   "id": "jaes",
+   "name": "JaeS",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/e2c2153eac011267afdd236db703ab30/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -6779,6 +6840,16 @@
    "popularity": 20,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/43505fc613377d6cba1c02c52ae113ca/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "lary-7",
+   "name": "Lary 7",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851d30896ff1bf468de0d56831e",
    "known": false
   },
   {
@@ -7775,6 +7846,16 @@
    "known": false
   },
   {
+   "id": "millie-mckee",
+   "name": "Millie McKee",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "mimi-melanin",
    "name": "MIMI MELANIN",
    "tier": 0,
@@ -7862,6 +7943,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048513e6c4c6952e5018873721b11",
+   "known": false
+  },
+  {
+   "id": "monile",
+   "name": "Monile",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d1182021c3c427dd69557869",
    "known": false
   },
   {
@@ -8522,16 +8613,6 @@
   {
    "id": "p-o-1",
    "name": "P.O (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "pagos-paris-to-lagos",
-   "name": "PAGOS (PARIS TO LAGOS)",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -9560,6 +9641,16 @@
    "known": false
   },
   {
+   "id": "sero",
+   "name": "Serō",
+   "tier": 0,
+   "score": 60,
+   "popularity": 60,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785724f6d8fa8f6edb69c5fe03",
+   "known": false
+  },
+  {
    "id": "seth-troxler",
    "name": "Seth Troxler",
    "tier": 0,
@@ -9780,16 +9871,6 @@
    "known": false
   },
   {
-   "id": "skybar-rooftop-party",
-   "name": "Skybar Rooftop Party",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "snoritz",
    "name": "snoritz",
    "tier": 0,
@@ -9827,16 +9908,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "soraa",
-   "name": "Soraä",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178d9e3cd3984248a4c8b03de4d",
    "known": false
   },
   {
@@ -10067,16 +10138,6 @@
    "popularity": 13,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d3ccca19c4f0da0ce169b060",
-   "known": false
-  },
-  {
-   "id": "surya",
-   "name": "surya",
-   "tier": 0,
-   "score": 11,
-   "popularity": 11,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/fbbbcd50a079e1c66d25e4313ef1c967/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -11136,16 +11197,6 @@
    "known": false
   },
   {
-   "id": "wolfgang-voigt",
-   "name": "Wolfgang Voigt",
-   "tier": 0,
-   "score": 14,
-   "popularity": 14,
-   "genres": [],
-   "image": "https://i.scdn.co/image/54430411e749f325eb60ce2e83db8b04364fc2a4",
-   "known": false
-  },
-  {
    "id": "xea-1",
    "name": "xea (1)",
    "tier": 0,
@@ -11317,347 +11368,6 @@
   }
  ],
  "events": [
-  {
-   "id": "973eacc39d3b",
-   "title": "8RUKI BDAY BASH: Brodinski, MAYUNGOS, 3HEADEMAMBA, surya",
-   "venue_id": "silencio",
-   "night": "2026-09-23",
-   "start": "2026-09-23T23:00:00.000",
-   "end": "2026-09-24T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "brodinski",
-     "name": "Brodinski",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "surya",
-     "name": "surya",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "bass",
-    "techno",
-    "club"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2543844",
-   "event_url": "https://ra.co/events/2543844",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2543844"
-    }
-   ],
-   "interest": {
-    "score": 38,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Brodinski (44)",
-     "lieu : Silencio (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "d0c83ed23465",
-   "title": "Devon Rexi & Nicolini - Ciclade x la Station",
-   "venue_id": "la-station-gare-des-mines",
-   "night": "2026-09-23",
-   "start": "2026-09-23T19:30:00.000",
-   "end": "2026-09-23T23:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "devon-rexi",
-     "name": "Devon Rexi",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "dub",
-    "experimental"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2537424",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2537424"
-    }
-   ],
-   "interest": {
-    "score": 21,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Devon Rexi (12)",
-     "lieu : La Station - Gare des Mines (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "ba29fa8f0940",
-   "title": "Atria x Cluster: Crd, Eskø, Infeed, Soraä",
-   "venue_id": "rex-club",
-   "night": "2026-09-23",
-   "start": "2026-09-23T23:59:00.000",
-   "end": "2026-09-24T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "soraa",
-     "name": "Soraä",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2525859",
-   "event_url": "https://ra.co/events/2525859",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2525859"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Soraä (0)",
-     "lieu : Rex Club (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "10268fbc2d7a",
-   "title": "PAGOS (PARIS TO LAGOS)",
-   "venue_id": "pavillon-tilsitt",
-   "night": "2026-09-23",
-   "start": "2026-09-23T23:45:00+02:00",
-   "end": "2026-09-24T05:00:00+02:00",
-   "lineup": [
-    {
-     "artist_id": "pagos-paris-to-lagos",
-     "name": "PAGOS (PARIS TO LAGOS)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/3obgrx-pagos-paris-to-lagos-23rd-sep-pavillon-tilsitt-paris-tickets",
-   "event_url": "https://dice.fm/event/3obgrx-pagos-paris-to-lagos-23rd-sep-pavillon-tilsitt-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-15/681ee0bc-56d9-4756-8c04-7a73ec6ad419.jpg?rect=0%2C7%2C1320%2C1320",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/3obgrx-pagos-paris-to-lagos-23rd-sep-pavillon-tilsitt-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : PAGOS (PARIS TO LAGOS) (8)",
-     "lieu : Pavillon Tilsitt (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "a95f9587a70e",
-   "title": "Wolfgang Voigt présente GAS Live",
-   "venue_id": "la-gaite-lyrique",
-   "night": "2026-09-23",
-   "start": "2026-09-23T19:30:00.000",
-   "end": "2026-09-23T23:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "wolfgang-voigt",
-     "name": "Wolfgang Voigt",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "ambient",
-    "classical"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2442672",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2442672"
-    }
-   ],
-   "interest": {
-    "score": 16,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Wolfgang Voigt (14)",
-     "lieu : La Gaîté Lyrique (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "f2dc4b463e77",
-   "title": "SaazBuzz Jazz Festival",
-   "venue_id": "new-morning",
-   "night": "2026-09-23",
-   "start": "2026-09-23T19:30:00.000",
-   "end": "2026-09-23T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "saazbuzz-jazz-festival",
-     "name": "SaazBuzz Jazz Festival",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "jazz"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2513280",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2513280"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : SaazBuzz Jazz Festival (8)",
-     "lieu : New Morning (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "e35400d17816",
-   "title": "Skybar Rooftop Party",
-   "venue_id": "skybar-paris-rooftop",
-   "night": "2026-09-23",
-   "start": "2026-09-23T19:30:00.000",
-   "end": "2026-09-24T01:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "skybar-rooftop-party",
-     "name": "Skybar Rooftop Party",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "tech house",
-    "afro house"
-   ],
-   "families": [
-    "House",
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2541994",
-   "event_url": "https://ra.co/events/2541994",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2541994"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Skybar Rooftop Party (8)",
-     "lieu : Skybar Paris Rooftop (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "0c2e86bb236d",
-   "title": "BAZAAR",
-   "venue_id": "panic-room",
-   "night": "2026-09-23",
-   "start": "2026-09-23T19:00:00.000",
-   "end": "2026-09-24T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "bazaar",
-     "name": "BAZAAR",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "tech house",
-    "baile funk"
-   ],
-   "families": [
-    "House",
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2535124",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2535124"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : BAZAAR (0)",
-     "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
   {
    "id": "319f790e7494",
    "title": "Starlight - 25th Anniversary: The Supermen Lovers, Matteo Diop, Mayou Picchu",
@@ -15116,6 +14826,11 @@
      "billing": "support"
     },
     {
+     "artist_id": "monile",
+     "name": "Monile",
+     "billing": "support"
+    },
+    {
      "artist_id": "majer",
      "name": "Majer",
      "billing": "support"
@@ -16953,16 +16668,20 @@
    "families": [
     "Pop & club"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2535257",
    "event_url": "https://ra.co/events/2535257",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-11/32240b93-a478-4370-8a6c-a9180ca51c71.jpg?rect=357%2C0%2C786%2C786",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2535257"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/8e7xq2-la-chck-projet-x-1st-oct-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -18854,6 +18573,54 @@
    }
   },
   {
+   "id": "c060f47d10f1",
+   "title": "Flasha: Bailey Ibbs, Serō, Mirnaxx, Lou De Swarte & Maÿ",
+   "venue_id": "la-java",
+   "night": "2026-10-03",
+   "start": "2026-10-03T23:30:00.000",
+   "end": "2026-10-04T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sero",
+     "name": "Serō",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "bailey-ibbs",
+     "name": "Bailey Ibbs",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2545067",
+   "event_url": "https://ra.co/events/2545067",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2545067"
+    }
+   ],
+   "interest": {
+    "score": 55,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Serō (60)",
+     "lieu : La Java (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "cf39d67cd95a",
    "title": "DEVIANCE PARIS PRIDE Party + After",
    "venue_id": "workshow",
@@ -20450,6 +20217,59 @@
    }
   },
   {
+   "id": "9420e7d82f6c",
+   "title": "INKA Open Air: Catsinka, Bigstate, Ben Rodd, Isaac, Poussin, JaeS",
+   "venue_id": "paname-sur-seine",
+   "night": "2026-10-04",
+   "start": "2026-10-04T12:00:00.000",
+   "end": "2026-10-04T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bigstate",
+     "name": "Bigstate",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "catsinka",
+     "name": "Catsinka",
+     "billing": "support"
+    },
+    {
+     "artist_id": "jaes",
+     "name": "JaeS",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2544796",
+   "event_url": "https://ra.co/events/2544796",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2544796"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Bigstate (9)",
+     "lieu : Paname sur Seine (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "906f20f0d2eb",
    "title": "La Seine Balearique #17 - Sunday Dance",
    "venue_id": "les-lionnes",
@@ -20530,6 +20350,53 @@
     "reasons": [
      "tête d'affiche : Drawbridge (0)",
      "lieu : Mains d'Œuvres (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "df25bf22a85d",
+   "title": "Sunday Roast with Millie McKee (live) Harri Pepper",
+   "venue_id": "cafe-de-la-musique",
+   "night": "2026-10-04",
+   "start": "2026-10-04T14:00:00.000",
+   "end": "2026-10-04T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "millie-mckee",
+     "name": "Millie McKee",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "harri-pepper",
+     "name": "Harri Pepper",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "deep house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2537520",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2537520"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Millie McKee (8)",
+     "lieu : Café de la Musique (palier 1)"
     ]
    }
   },
@@ -20891,47 +20758,6 @@
    }
   },
   {
-   "id": "8b0be7c40223",
-   "title": "LA CH!CK PROJET X",
-   "venue_id": "badaboum",
-   "night": "2026-10-08",
-   "start": "2026-10-08T23:30:00+02:00",
-   "end": "2026-10-09T05:30:00+02:00",
-   "lineup": [
-    {
-     "artist_id": "la-ch-ck-projet",
-     "name": "LA CH!CK: PROJET",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "pop"
-   ],
-   "families": [
-    "Pop & club"
-   ],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/8e7xq2-la-chck-projet-x-8th-oct-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/8e7xq2-la-chck-projet-x-8th-oct-badaboum-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-11/32240b93-a478-4370-8a6c-a9180ca51c71.jpg?rect=357%2C0%2C786%2C786",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/8e7xq2-la-chck-projet-x-8th-oct-badaboum-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : LA CH!CK: PROJET (8)",
-     "lieu : Badaboum (palier 2)"
-    ]
-   }
-  },
-  {
    "id": "b4293c2f988d",
    "title": "LA CH!CK: REGGAETON ALLSTARS REVIVAL",
    "venue_id": "badaboum",
@@ -20953,16 +20779,20 @@
     "Afro & latin",
     "Pop & club"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2544231",
    "event_url": "https://ra.co/events/2544231",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-23/74ae0b10-b207-4746-92b2-6b7754e14f1c.jpg?rect=17%2C0%2C1034%2C1039",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2544231"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/xegg6m-la-chck-reggaeton-allstars-revival-8th-oct-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -22073,16 +21903,20 @@
    "families": [
     "House"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2544239",
    "event_url": "https://ra.co/events/2544239",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-23/09ec7c34-5382-4510-8e90-33f494e01543.jpg?rect=342%2C197%2C738%2C737",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2544239"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/53kklk-more-girls-behind-decks-birthday-party-9th-oct-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -24051,16 +23885,20 @@
    "families": [
     "Pop & club"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2544234",
    "event_url": "https://ra.co/events/2544234",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-23/df511569-2a95-4e38-9a62-3f98278bbdf3.jpg?rect=0%2C211%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2544234"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/avkkp7-la-chck-just-dance-irl-15th-oct-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -26553,16 +26391,20 @@
    "families": [
     "Pop & club"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2544237",
    "event_url": "https://ra.co/events/2544237",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-23/9d181143-e76b-4b3c-8606-1ab7cf162990.jpg?rect=631%2C0%2C786%2C786",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2544237"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/py339w-la-chck-chck-music-only-22nd-oct-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -27140,6 +26982,48 @@
     "reasons": [
      "tête d'affiche : BENDO CLUB (8)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "7d112fee1dfb",
+   "title": "Concert : Martin Rev + Lary 7",
+   "venue_id": "bourse-de-commerce-pinault-collection",
+   "night": "2026-10-23",
+   "start": "2026-10-23T21:30:00.000",
+   "end": "2026-10-23T23:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "concert-martin-rev",
+     "name": "Concert : Martin Rev",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lary-7",
+     "name": "Lary 7",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2544831",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2544831"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Concert : Martin Rev (8)",
+     "lieu : Bourse de Commerce — Pinault Collection (palier 1)"
     ]
    }
   },
@@ -29344,9 +29228,9 @@
    }
   },
   {
-   "id": "28cf2c361193",
+   "id": "49f2b81346a6",
    "title": "Jlin / Third Coast Percussion: Vernacular",
-   "venue_id": "cite-de-la-musique",
+   "venue_id": "cafe-de-la-musique",
    "night": "2026-11-03",
    "start": "2026-11-03T20:00:00.000",
    "end": "2026-11-03T22:00:00.000",
@@ -29382,7 +29266,7 @@
     "tier": 0,
     "reasons": [
      "tête d'affiche : Jlin (28)",
-     "lieu : Cité De La Musique (palier 1)"
+     "lieu : Café de la Musique (palier 1)"
     ]
    }
   },
@@ -30928,6 +30812,47 @@
    }
   },
   {
+   "id": "01ab4215e797",
+   "title": "Concert goat (jp)",
+   "venue_id": "bourse-de-commerce-pinault-collection",
+   "night": "2026-11-15",
+   "start": "2026-11-15T20:30:00.000",
+   "end": "2026-11-16T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "goat",
+     "name": "Goat (JP)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2544839",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2544839"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2544839"
+    }
+   ],
+   "interest": {
+    "score": 21,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Goat (JP) (21)",
+     "lieu : Bourse de Commerce — Pinault Collection (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "c8ef075a3022",
    "title": "Maria Arnal",
    "venue_id": "badaboum",
@@ -32122,9 +32047,9 @@
    }
   },
   {
-   "id": "e1e3305e3041",
+   "id": "94ff03269b20",
    "title": "Jeff Mills",
-   "venue_id": "cite-de-la-musique",
+   "venue_id": "cafe-de-la-musique",
    "night": "2026-12-06",
    "start": "2026-12-06T19:00:00.000",
    "end": "2026-12-06T21:00:00.000",
@@ -32158,7 +32083,7 @@
     "tier": 1,
     "reasons": [
      "tête d'affiche : Jeff Mills (49)",
-     "lieu : Cité De La Musique (palier 1)"
+     "lieu : Café de la Musique (palier 1)"
     ]
    }
   },
@@ -32379,9 +32304,9 @@
    }
   },
   {
-   "id": "ce2b7aadc1b0",
+   "id": "08615d7c052b",
    "title": "Cocoon",
-   "venue_id": "cite-de-la-musique",
+   "venue_id": "cafe-de-la-musique",
    "night": "2026-12-12",
    "start": "2026-12-12T20:00:00.000",
    "end": "2026-12-12T21:30:00.000",
@@ -32415,7 +32340,7 @@
     "tier": 1,
     "reasons": [
      "tête d'affiche : Cocoon (60)",
-     "lieu : Cité De La Musique (palier 1)"
+     "lieu : Café de la Musique (palier 1)"
     ]
    }
   },
@@ -33185,8 +33110,8 @@
    }
   },
   {
-   "id": "7ac76033e2e9",
-   "title": "Chase & Status",
+   "id": "eb0e8c12e117",
+   "title": "Chase & Status @ Zénith Paris - La Villette",
    "venue_id": "zenith-paris-la-villette",
    "night": "2027-02-28",
    "start": "2027-02-28T20:00:00.000",
@@ -33232,9 +33157,9 @@
    }
   },
   {
-   "id": "9ed891441521",
+   "id": "d2d84a85ad78",
    "title": "Acid Arab",
-   "venue_id": "cite-de-la-musique",
+   "venue_id": "cafe-de-la-musique",
    "night": "2027-03-10",
    "start": "2027-03-10T20:00:00.000",
    "end": "2027-03-10T21:30:00.000",
@@ -33268,7 +33193,7 @@
     "tier": 1,
     "reasons": [
      "tête d'affiche : Acid Arab (50)",
-     "lieu : Cité De La Musique (palier 1)"
+     "lieu : Café de la Musique (palier 1)"
     ]
    }
   },
@@ -33646,18 +33571,18 @@
   },
   {
    "kind": "event",
-   "day": "JEU 22 OCT",
-   "title": "Fatboy Slim",
-   "venue": "Mia Mao",
-   "time": "18:00 → 00:00",
+   "day": "VEN 23 OCT",
+   "title": "Showtek",
+   "venue": "T7",
+   "time": "23:00 → 06:00",
    "tier": 2,
    "reason": "",
-   "supports": "Camille Doe, SHEE",
+   "supports": "",
    "subtitle": "",
    "footer": "",
    "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5ebc20ed3229eeced918966a009",
-   "event_id": "71f15b359b87"
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb72059dbcd979a5edc2e59cf0",
+   "event_id": "7df5a4dab597"
   }
  ]
 }
