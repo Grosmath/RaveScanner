@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-25T14:28:35Z",
+ "generated_at": "2026-09-25T23:55:10Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 447
+   "events": 451
   },
   {
    "id": "dice",
@@ -32,10 +32,10 @@
   "fvtvr",
   "accor-arena",
   "rex-club",
+  "silencio",
   "mia-mao",
   "sacre",
   "cabaret-sauvage",
-  "silencio",
   "la-java",
   "la-defense-arena",
   "phantom-paris",
@@ -94,11 +94,11 @@
   "le-cirque-electrique",
   "cayo",
   "gibus-club",
+  "la-rotonde-stalingrad",
   "la-marbrerie",
   "lafayette-anticipations",
   "philharmonie-de-paris",
   "la-mecanique-ondulatoire",
-  "la-rotonde-stalingrad",
   "glazart",
   "bourse-de-commerce-pinault-collection",
   "communale-saint-ouen",
@@ -150,7 +150,8 @@
   "la-maison-bistrot",
   "la-maz",
   "la-rotonde",
-  "le-discobar"
+  "le-discobar",
+  "le-gambetta-club"
  ],
  "venues": [
   {
@@ -861,6 +862,16 @@
   {
    "id": "le-flow-paris",
    "name": "Le Flow Paris",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "le-gambetta-club",
+   "name": "Le Gambetta Club",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -4285,6 +4296,16 @@
    "known": false
   },
   {
+   "id": "dmn-dj",
+   "name": "DMN DJ",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178be9907bd82d34cb264a0c2fe",
+   "known": false
+  },
+  {
    "id": "domi",
    "name": "Domi (FR)",
    "tier": 0,
@@ -4955,6 +4976,16 @@
    "known": false
   },
   {
+   "id": "forensics-original-sins",
+   "name": "Forensics ⎜ Original Sins",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "forest",
    "name": "Forest",
    "tier": 0,
@@ -5302,6 +5333,16 @@
    "popularity": 26,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/e8c250c7e0dadafd9df0d23cf3a4e2d4/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "gratuit",
+   "name": "Gratuit",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178701babba6237a32126d9f752",
    "known": false
   },
   {
@@ -6375,6 +6416,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f287216aef5a217e4363317f",
+   "known": false
+  },
+  {
+   "id": "karmakiddo",
+   "name": "Karmakiddo",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -7519,6 +7570,18 @@
    "genres": [],
    "image": "",
    "known": false
+  },
+  {
+   "id": "marcel-dettmann",
+   "name": "Marcel Dettmann",
+   "tier": 3,
+   "score": 55,
+   "popularity": 42,
+   "genres": [
+    "techno"
+   ],
+   "image": "https://i.scdn.co/image/ab6761610000f178c7306896f667b528a221ed2f",
+   "known": true
   },
   {
    "id": "marceldune",
@@ -15975,6 +16038,47 @@
    }
   },
   {
+   "id": "2dd1acf21535",
+   "title": "Marcel Dettmann",
+   "venue_id": "silencio",
+   "night": "2026-10-01",
+   "start": "2026-10-01T23:00:00.000",
+   "end": "2026-10-02T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "marcel-dettmann",
+     "name": "Marcel Dettmann",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2546018",
+   "event_url": "https://ra.co/events/2546018",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2546018"
+    }
+   ],
+   "interest": {
+    "score": 46,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Marcel Dettmann (55)",
+     "lieu : Silencio (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "88f9da751866",
    "title": "Discotaco : disco, paillettes & tacos partout !",
    "venue_id": "le-mazette",
@@ -20418,10 +20522,12 @@
     }
    ],
    "genres": [
-    "house"
+    "house",
+    "disco"
    ],
    "families": [
-    "House"
+    "House",
+    "Disco & funk"
    ],
    "price_min": null,
    "currency": "CAD",
@@ -23032,7 +23138,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2542209",
    "event_url": "https://ra.co/events/2542209",
    "image": "",
    "status": "confirmed",
@@ -23142,6 +23248,49 @@
     "reasons": [
      "tête d'affiche : Technopolis - Techno (8)",
      "lieu : La Péniche Cinéma (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "6af80d85a22b",
+   "title": "DJ D2B ALL NIGHT LONG - GAMBETTA CLUB",
+   "venue_id": "le-gambetta-club",
+   "night": "2026-10-10",
+   "start": "2026-10-10T23:00:00.000",
+   "end": "2026-10-11T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "gratuit",
+     "name": "Gratuit",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2546106",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2546106"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Gratuit (0)",
+     "lieu : Le Gambetta Club (palier 1)"
     ]
    }
   },
@@ -27344,8 +27493,8 @@
    }
   },
   {
-   "id": "a40e2bf6a58b",
-   "title": "House Of Groove invite: Dan Ghenacia (Apollonia), Melody",
+   "id": "bdc2257dffcf",
+   "title": "House Of Groove invite: Dan Ghenacia, Melody",
    "venue_id": "rex-club",
    "night": "2026-10-24",
    "start": "2026-10-24T23:59:00.000",
@@ -31415,6 +31564,52 @@
    }
   },
   {
+   "id": "b84ff2e3afa6",
+   "title": "CRUSH #3 ・ New Club",
+   "venue_id": "la-rotonde-stalingrad",
+   "night": "2026-11-21",
+   "start": "2026-11-21T23:00:00.000",
+   "end": "2026-11-22T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dmn-dj",
+     "name": "DMN DJ",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "karmakiddo",
+     "name": "Karmakiddo",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2545944",
+   "event_url": "https://ra.co/events/2545944",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2545944"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DMN DJ (0)",
+     "lieu : La Rotonde Stalingrad (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "2b8e9a31fa7c",
    "title": "B-BOY ISH : BOB SINCLAR",
    "venue_id": "pavillon-tilsitt",
@@ -31803,6 +31998,47 @@
     "reasons": [
      "tête d'affiche : Jafunk (65)",
      "lieu : Sacré (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "1f75792f817a",
+   "title": "Forensics ⎜ Original Sins",
+   "venue_id": "la-rotonde-stalingrad",
+   "night": "2026-11-28",
+   "start": "2026-11-28T23:00:00.000",
+   "end": "2026-11-29T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "forensics-original-sins",
+     "name": "Forensics ⎜ Original Sins",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2545932",
+   "event_url": "https://ra.co/events/2545932",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2545932"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Forensics ⎜ Original Sins (8)",
+     "lieu : La Rotonde Stalingrad (palier 1)"
     ]
    }
   },

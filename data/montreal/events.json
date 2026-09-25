@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-25T14:27:52Z",
+ "generated_at": "2026-09-25T23:54:54Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 203
+   "events": 204
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 42
+   "events": 43
   }
  ],
  "venue_order": [
@@ -58,7 +58,6 @@
   "grand-quai",
   "grand-quai-du-port-de-montreal",
   "olympia",
-  "warehouse",
   "igloofest",
   "bar-datcha",
   "systeme",
@@ -71,6 +70,7 @@
   "vino-disco",
   "foufounes",
   "red-roof-church",
+  "warehouse",
   "l-escogriffe-bar-spectacle",
   "la-recre",
   "le-balcon",
@@ -2230,6 +2230,16 @@
    "known": false
   },
   {
+   "id": "dust-e-1",
+   "name": "Dust-E-1",
+   "tier": 0,
+   "score": 31,
+   "popularity": 31,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178b4d47556a7457cd934e199f2",
+   "known": false
+  },
+  {
    "id": "duza",
    "name": "DUZA",
    "tier": 0,
@@ -3166,6 +3176,16 @@
    "known": false
   },
   {
+   "id": "jwon",
+   "name": "jwon",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "ka-baird",
    "name": "Ka Baird",
    "tier": 0,
@@ -3436,6 +3456,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "leafy",
+   "name": "LEAFY",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17865e110c8a6c9a6d8232dff27",
    "known": false
   },
   {
@@ -3722,6 +3752,16 @@
    "known": false
   },
   {
+   "id": "matt-brancatella",
+   "name": "Matt Brancatella",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "maudite-machine",
    "name": "Maudite Machine",
    "tier": 0,
@@ -3885,16 +3925,6 @@
    "known": false
   },
   {
-   "id": "mirage",
-   "name": "MIRAGE",
-   "tier": 0,
-   "score": 52,
-   "popularity": 52,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178e3fc80614bf76832af61cb75",
-   "known": false
-  },
-  {
    "id": "miss-monique",
    "name": "[DSTRKT] MISS MONIQUE",
    "tier": 0,
@@ -3942,6 +3972,16 @@
    "popularity": 22,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178239c35d6764742e910d92cf8",
+   "known": false
+  },
+  {
+   "id": "more",
+   "name": "more",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786cbd6aa431fa084e4c61a6e6",
    "known": false
   },
   {
@@ -6497,47 +6537,6 @@
     "reasons": [
      "tête d'affiche : Moonshine (63)",
      "lieu : SMS 514.613.5811 FOR LOCATION (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "acc62fb2cd34",
-   "title": "MIRAGE",
-   "venue_id": "warehouse",
-   "night": "2026-09-26",
-   "start": "2026-09-26T21:00:00.000",
-   "end": "2026-09-27T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "mirage",
-     "name": "MIRAGE",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "club"
-   ],
-   "families": [
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2540312",
-   "event_url": "https://ra.co/events/2540312",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2540312"
-    }
-   ],
-   "interest": {
-    "score": 49,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : MIRAGE (52)",
-     "lieu : Lieu secret / Warehouse (palier 2)"
     ]
    }
   },
@@ -12323,6 +12322,52 @@
    }
   },
   {
+   "id": "6ebcdd92c673",
+   "title": "LEAFY + more",
+   "venue_id": "le-red-room",
+   "night": "2026-10-17",
+   "start": "2026-10-17T22:00:00.000",
+   "end": "2026-10-18T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "leafy",
+     "name": "LEAFY",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "more",
+     "name": "more",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "dubstep"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2546049",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2546049"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LEAFY (0)",
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "d6df8bdb1b6a",
    "title": "Piknic Électronik MTL #20: Eli Brown",
    "venue_id": "piknic-electronik",
@@ -12826,6 +12871,7 @@
    "genres": [
     "bass",
     "breakbeat",
+    "minimal techno",
     "house",
     "techno"
    ],
@@ -12995,6 +13041,57 @@
     "reasons": [
      "tête d'affiche : Whipped Cream (58)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "05b60b9a9e03",
+   "title": "YGM x Stereo Bar",
+   "venue_id": "stereo",
+   "night": "2026-10-23",
+   "start": "2026-10-23T22:00:00.000",
+   "end": "2026-10-24T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dust-e-1",
+     "name": "Dust-E-1",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "matt-brancatella",
+     "name": "Matt Brancatella",
+     "billing": "support"
+    },
+    {
+     "artist_id": "metizo",
+     "name": "Metizo",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "minimal techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2546015",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2546015"
+    }
+   ],
+   "interest": {
+    "score": 40,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Dust-E-1 (31)",
+     "lieu : Stereo (palier 3)"
     ]
    }
   },
@@ -13302,6 +13399,11 @@
     {
      "artist_id": "asha-4",
      "name": "Asha (4)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "jwon",
+     "name": "jwon",
      "billing": "support"
     },
     {
@@ -16455,6 +16557,50 @@
     "reasons": [
      "tête d'affiche : KatzPascale - Montréal (8)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "4f4dedcce917",
+   "title": "Back to the 80's avec NEON",
+   "venue_id": "le-balcon",
+   "night": "2027-01-29",
+   "start": "2027-01-29T20:30:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "neon",
+     "name": "NEON",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "back-to-the-80-s",
+     "name": "Back to the 80's",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/back-to-the-80s-avec-neon-montreal-quebec-01-29-2027/event/31006539EFD6B3C8",
+   "event_url": "https://www.ticketmaster.ca/back-to-the-80s-avec-neon-montreal-quebec-01-29-2027/event/31006539EFD6B3C8",
+   "image": "https://s1.ticketm.net/dam/a/275/c3b1bcae-2ed5-42db-b023-c4291a6c2275_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/back-to-the-80s-avec-neon-montreal-quebec-01-29-2027/event/31006539EFD6B3C8"
+    }
+   ],
+   "interest": {
+    "score": 21,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : NEON (21)",
+     "lieu : Le Balcon (palier 1)"
     ]
    }
   },
