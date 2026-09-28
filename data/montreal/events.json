@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-27T23:43:43Z",
+ "generated_at": "2026-09-28T17:25:47Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-09-27",
-  "end": "2027-03-26"
+  "start": "2026-09-28",
+  "end": "2027-03-27"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 186
+   "events": 183
   },
   {
    "id": "piknic",
@@ -24,7 +24,7 @@
   {
    "id": "new_city_gas",
    "ok": true,
-   "events": 135
+   "events": 134
   },
   {
    "id": "mtelus",
@@ -65,7 +65,6 @@
   "le-belmont",
   "tba-le-bateau-mouche",
   "foufounes",
-  "sans-soleil",
   "le-red-room",
   "l-escogriffe-bar-spectacle",
   "vino-disco",
@@ -73,15 +72,15 @@
   "entrepots-dominion-les",
   "warehouse",
   "la-recre",
+  "sans-soleil",
   "theatre-paradoxe",
   "bain-mathieu",
   "club-soda",
   "pangea",
   "red-roof-church",
-  "stereo-bar",
-  "blue-room",
-  "musee-des-beaux-arts-de-montreal",
   "tba-velours-323-ontario-est-montreal",
+  "blue-room",
+  "amir-mont-royal",
   "cabaret-berlin",
   "cabaret-lion-d-or",
   "jaimee-sips",
@@ -95,6 +94,16 @@
   "white-wall-studio"
  ],
  "venues": [
+  {
+   "id": "amir-mont-royal",
+   "name": "Amir Mont-Royal",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
   {
    "id": "bain-mathieu",
    "name": "Bain Mathieu",
@@ -371,16 +380,6 @@
    ]
   },
   {
-   "id": "musee-des-beaux-arts-de-montreal",
-   "name": "Musée des beaux-arts de Montréal",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "new-city-gas",
    "name": "New City Gas",
    "type": "club",
@@ -563,19 +562,6 @@
     "techno",
     "house",
     "afterhours"
-   ]
-  },
-  {
-   "id": "stereo-bar",
-   "name": "Stereo Bar",
-   "type": "bar",
-   "tier": 3,
-   "capacity": 200,
-   "address": "858 Rue Sainte-Catherine E",
-   "url": "https://stereonightclub.net",
-   "genres": [
-    "house",
-    "techno"
    ]
   },
   {
@@ -781,16 +767,6 @@
    "known": false
   },
   {
-   "id": "aamourocean",
-   "name": "Aamourocean",
-   "tier": 0,
-   "score": 28,
-   "popularity": 28,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17843ab08ffaee30146dd163637",
-   "known": false
-  },
-  {
    "id": "abel-aiff",
    "name": "abel.aiff",
    "tier": 0,
@@ -951,16 +927,6 @@
    "known": false
   },
   {
-   "id": "anabasine",
-   "name": "Anabasine",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "anarchotech",
    "name": "Anarchotech",
    "tier": 0,
@@ -1038,6 +1004,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178918d137254097572f217f400",
+   "known": false
+  },
+  {
+   "id": "arielle-roberge",
+   "name": "Arielle Roberge",
+   "tier": 0,
+   "score": 12,
+   "popularity": 12,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17863f2fa13ed4eebbd1be8f0b8",
    "known": false
   },
   {
@@ -1238,6 +1214,16 @@
   {
    "id": "beiroots-groove-ensemble",
    "name": "Beiroots Groove Ensemble",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "bell-pierre",
+   "name": "bell.pierre",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -1566,6 +1552,16 @@
    "known": false
   },
   {
+   "id": "claudel",
+   "name": "Claudel",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "cleo-leigh",
    "name": "CLEO LEIGH",
    "tier": 0,
@@ -1808,26 +1804,6 @@
   {
    "id": "digicult",
    "name": "DIGICULT (BE)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "dillon-francis",
-   "name": "Dillon Francis",
-   "tier": 0,
-   "score": 74,
-   "popularity": 74,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789a08d00f5c741cd6a94ef182",
-   "known": false
-  },
-  {
-   "id": "dillstradamus",
-   "name": "DILLSTRADAMUS",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2096,16 +2072,6 @@
    "known": false
   },
   {
-   "id": "egyptian-lover",
-   "name": "Egyptian Lover",
-   "tier": 0,
-   "score": 7,
-   "popularity": 7,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048510bf62ac143f3ba405c0c9f9f",
-   "known": false
-  },
-  {
    "id": "ehua",
    "name": "Ehua",
    "tier": 0,
@@ -2306,6 +2272,16 @@
    "known": false
   },
   {
+   "id": "feelynn",
+   "name": "Feelynn",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178045b43f3fcfeae9d980aad12",
+   "known": false
+  },
+  {
    "id": "felix-patry",
    "name": "Felix Patry",
    "tier": 0,
@@ -2403,16 +2379,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786af69cf508c58289ef141ca9",
-   "known": false
-  },
-  {
-   "id": "fred-everything",
-   "name": "Fred Everything",
-   "tier": 0,
-   "score": 43,
-   "popularity": 43,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17852c78daeaced513f1840aa11",
    "known": false
   },
   {
@@ -2709,16 +2675,6 @@
    "known": false
   },
   {
-   "id": "iktan",
-   "name": "IKTAN",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "ilykimchi-montreal",
    "name": "ilykimchi - Montréal",
    "tier": 0,
@@ -2816,6 +2772,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "jeska",
+   "name": "JESKA",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787c2d26061279e2d5a22c82e7",
    "known": false
   },
   {
@@ -3095,16 +3061,6 @@
    "known": false
   },
   {
-   "id": "laced",
-   "name": "laced",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178699178f0d38ea1602867bed9",
-   "known": false
-  },
-  {
    "id": "lafhomme",
    "name": "LaFHomme",
    "tier": 0,
@@ -3275,16 +3231,6 @@
    "known": false
   },
   {
-   "id": "livwutang",
-   "name": "livwutang",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "lonefront",
    "name": "Lonefront",
    "tier": 0,
@@ -3292,16 +3238,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485114bcf1de94bb7c2103a9c807",
-   "known": false
-  },
-  {
-   "id": "lorenzi",
-   "name": "Lorenzi",
-   "tier": 0,
-   "score": 23,
-   "popularity": 23,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178df9bec5bf86df3a2d9f2cd66",
    "known": false
   },
   {
@@ -4256,16 +4192,6 @@
    "known": false
   },
   {
-   "id": "roudy",
-   "name": "ROUDY",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789534e35ca9d4ecba72f5b780",
-   "known": false
-  },
-  {
    "id": "runa",
    "name": "Runa",
    "tier": 0,
@@ -4273,16 +4199,6 @@
    "popularity": 21,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/431b6fac0064b97f10ccb7cbe555a3ee/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "rusko",
-   "name": "Rusko",
-   "tier": 0,
-   "score": 56,
-   "popularity": 56,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788e8d07525e1f72d4420d0d56",
    "known": false
   },
   {
@@ -4513,16 +4429,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851b0ca0f787a2fec57ab021c67",
-   "known": false
-  },
-  {
-   "id": "stefan-goldmann",
-   "name": "Stefan Goldmann",
-   "tier": 0,
-   "score": 12,
-   "popularity": 12,
-   "genres": [],
-   "image": "https://i.scdn.co/image/07c3cb7d0c3d6da5fb9047d2f4d619f98a589e84",
    "known": false
   },
   {
@@ -4779,6 +4685,16 @@
    "known": false
   },
   {
+   "id": "usaybflow",
+   "name": "Usaybflow",
+   "tier": 0,
+   "score": 40,
+   "popularity": 40,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178051c2e98ca4ee3f3dcbef64d",
+   "known": false
+  },
+  {
    "id": "uzi-soulmeka",
    "name": "UZI (Soulmeka)",
    "tier": 0,
@@ -4989,16 +4905,6 @@
    "known": false
   },
   {
-   "id": "yume",
-   "name": "Yume",
-   "tier": 0,
-   "score": 60,
-   "popularity": 60,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178e75181da24f1775dc8c4c927",
-   "known": false
-  },
-  {
    "id": "yvnni",
    "name": "YVNNI",
    "tier": 0,
@@ -5050,324 +4956,6 @@
   }
  ],
  "events": [
-  {
-   "id": "83172e97f162",
-   "title": "Piknic Électronik MTL #17: Egyptian Lover, livwutang / Rêves",
-   "venue_id": "piknic-electronik",
-   "night": "2026-09-27",
-   "start": "2026-09-27T16:00:00.000",
-   "end": "2026-09-27T21:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "yume",
-     "name": "Yume",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "isla-den",
-     "name": "Isla Den",
-     "billing": "support"
-    },
-    {
-     "artist_id": "aamourocean",
-     "name": "Aamourocean",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lorenzi",
-     "name": "Lorenzi",
-     "billing": "support"
-    },
-    {
-     "artist_id": "martyn-bootyspoon",
-     "name": "Martyn Bootyspoon",
-     "billing": "support"
-    },
-    {
-     "artist_id": "livwutang",
-     "name": "livwutang",
-     "billing": "support"
-    },
-    {
-     "artist_id": "egyptian-lover",
-     "name": "Egyptian Lover",
-     "billing": "support"
-    },
-    {
-     "artist_id": "baby-bimbo",
-     "name": "Baby Bimbo",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electro",
-    "pop",
-    "gabber",
-    "hardcore"
-   ],
-   "families": [
-    "Électro & bass",
-    "Trance & hard",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://billets.piknicelectronik.com/mul/go/80d96f73-d0e3-4b50-93ea-906a7eee34bd?fac=PIKNIC&locale=fr-CA&skin=piknic&ec=PIKNIC260927",
-   "event_url": "https://ra.co/events/2413790",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2413790"
-    },
-    {
-     "id": "piknic",
-     "url": "https://piknicelectronik.com/fr/prog-complete"
-    }
-   ],
-   "interest": {
-    "score": 66,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Yume (60)",
-     "lieu : Piknic Electronik (palier 3)",
-     "format festival"
-    ]
-   }
-  },
-  {
-   "id": "c80a36748e7b",
-   "title": "Sans Soleil w/ Fred Everything",
-   "venue_id": "sans-soleil",
-   "night": "2026-09-27",
-   "start": "2026-09-27T20:00:00.000",
-   "end": "2026-09-28T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "fred-everything",
-     "name": "Fred Everything",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2546564",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546564"
-    }
-   ],
-   "interest": {
-    "score": 37,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Fred Everything (43)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "e53ee8a90b86",
-   "title": "LBD: ROUDY (All Night Long)",
-   "venue_id": "stereo-bar",
-   "night": "2026-09-27",
-   "start": "2026-09-27T22:00:00.000",
-   "end": "2026-09-28T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "roudy",
-     "name": "ROUDY",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2518612",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2518612"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : ROUDY (0)",
-     "lieu : Stereo Bar (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "13ab3077fa63",
-   "title": "Chiharu Shiota: The Soul Trembles",
-   "venue_id": "musee-des-beaux-arts-de-montreal",
-   "night": "2026-09-27",
-   "start": "2026-09-27T10:00:00.000",
-   "end": "2026-10-04T18:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "stefan-goldmann",
-     "name": "Stefan Goldmann",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "experimental"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2546521",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546521"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546521"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546521"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546521"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546521"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546521"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546521"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546521"
-    }
-   ],
-   "interest": {
-    "score": 15,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Stefan Goldmann (12)",
-     "lieu : Musée des beaux-arts de Montréal (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "b6e9dc345f0c",
-   "title": "Electro Oasis (every Sunday) *Free with RSVP ticket*",
-   "venue_id": "le-red-room",
-   "night": "2026-09-27",
-   "start": "2026-09-27T22:00:00.000",
-   "end": "2026-09-28T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "iktan",
-     "name": "IKTAN",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2525383",
-   "event_url": "https://ra.co/events/2525383",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2525383"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : IKTAN (0)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "077163a17384",
-   "title": "Causal Chain: Delian League 'Crush' Release Party",
-   "venue_id": "systeme",
-   "night": "2026-09-27",
-   "start": "2026-09-27T21:00:00.000",
-   "end": "2026-09-28T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "anabasine",
-     "name": "Anabasine",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "laced",
-     "name": "laced",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "bass"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2520222",
-   "event_url": "https://ra.co/events/2520222",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2520222"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Anabasine (0)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
   {
    "id": "24b93c7612ae",
    "title": "Sans Soleil w/ Asma",
@@ -6397,6 +5985,49 @@
    }
   },
   {
+   "id": "0adca9a6385b",
+   "title": "SOULSHINE",
+   "venue_id": "tba-velours-323-ontario-est-montreal",
+   "night": "2026-10-02",
+   "start": "2026-10-02T20:30:00.000",
+   "end": "2026-10-03T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "soulshine",
+     "name": "SOULSHINE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "downtempo"
+   ],
+   "families": [
+    "House",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2546915",
+   "event_url": "https://ra.co/events/2546915",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2546915"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SOULSHINE (13)",
+     "lieu : TBA - Velours 323 Ontario Est Montréal  (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8d49ffc83395",
    "title": "Frequentcee's",
    "venue_id": "blue-room",
@@ -7396,6 +7027,54 @@
      "tête d'affiche : Asha (35)",
      "lieu : Piknic Electronik (palier 3)",
      "format festival"
+    ]
+   }
+  },
+  {
+   "id": "24624f2bf6f8",
+   "title": "Electro Oasis (every Sunday) *Free with RSVP ticket*",
+   "venue_id": "le-red-room",
+   "night": "2026-10-04",
+   "start": "2026-10-04T22:00:00.000",
+   "end": "2026-10-05T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "claudel",
+     "name": "Claudel",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "feelynn",
+     "name": "Feelynn",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "hardcore"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2547481",
+   "event_url": "https://ra.co/events/2547481",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547481"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Claudel (8)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -9189,13 +8868,23 @@
      "artist_id": "sub-focus",
      "name": "Sub Focus",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "crimewave",
+     "name": "CRIMEWAVE",
+     "billing": "support"
+    },
+    {
+     "artist_id": "jeska",
+     "name": "JESKA",
+     "billing": "support"
     }
    ],
    "genres": [],
    "families": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/sub-focus-202314/",
+   "ticket_url": "https://newcitygas.com/event/sub-focus-justin-hawkes-202314/",
    "event_url": "https://ra.co/events/2517856",
    "image": "",
    "status": "confirmed",
@@ -9206,7 +8895,7 @@
     },
     {
      "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/sub-focus-202314/"
+     "url": "https://newcitygas.com/event/sub-focus-justin-hawkes-202314/"
     }
    ],
    "interest": {
@@ -9809,57 +9498,6 @@
    }
   },
   {
-   "id": "a2cff5eb7c81",
-   "title": "Dillstradamus",
-   "venue_id": "new-city-gas",
-   "night": "2026-10-17",
-   "start": "2026-10-17T22:00:00.000",
-   "end": "2026-10-18T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dillon-francis",
-     "name": "Dillon Francis",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "rusko",
-     "name": "Rusko",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dillstradamus",
-     "name": "DILLSTRADAMUS",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/dillstradamus-rusko-189023/",
-   "event_url": "https://ra.co/events/2463271",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2463271"
-    },
-    {
-     "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/dillstradamus-rusko-189023/"
-    }
-   ],
-   "interest": {
-    "score": 71,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Dillon Francis (74)",
-     "lieu : New City Gas (palier 3)"
-    ]
-   }
-  },
-  {
    "id": "ce0266403ef9",
    "title": "Deep Dish (All Night Long)",
    "venue_id": "stereo",
@@ -10171,6 +9809,52 @@
     "reasons": [
      "tête d'affiche : AADJA (24)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "93c9b1db4b1c",
+   "title": "Heures ouvrables 006 - Amir day club",
+   "venue_id": "amir-mont-royal",
+   "night": "2026-10-17",
+   "start": "2026-10-17T14:00:00.000",
+   "end": "2026-10-17T20:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "arielle-roberge",
+     "name": "Arielle Roberge",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lex-ferenda",
+     "name": "Lex Ferenda",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2547599",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547599"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Arielle Roberge (12)",
+     "lieu : Amir Mont-Royal (palier 1)"
     ]
    }
   },
@@ -11876,6 +11560,49 @@
    }
   },
   {
+   "id": "cc5d2e2cf6fe",
+   "title": "Open_Secret___",
+   "venue_id": "sans-soleil",
+   "night": "2026-10-29",
+   "start": "2026-10-29T20:00:00.000",
+   "end": "2026-10-30T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bell-pierre",
+     "name": "bell.pierre",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "jazz",
+    "acid"
+   ],
+   "families": [
+    "Techno",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2532656",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2532656"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : bell.pierre (8)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "5ccfe6022188",
    "title": "Système Soundsystem",
    "venue_id": "systeme",
@@ -12769,6 +12496,11 @@
      "artist_id": "sullivan-king",
      "name": "Sullivan King",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "usaybflow",
+     "name": "Usaybflow",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -14970,13 +14702,6 @@
    "night": "2026-11-14",
    "venue": "New City Gas",
    "photo": "https://i.scdn.co/image/ab6761610000f178b8028862eeb5ccaf303d71ce"
-  },
-  {
-   "id": "44bed0a8bda4",
-   "name": "Restricted",
-   "night": "2026-10-10",
-   "venue": "Grand Quai du Port de Montreal",
-   "photo": "https://i.scdn.co/image/ab6761610000f1782db0cd18bf97567c727f28e7"
   }
  ],
  "families": [
@@ -15118,7 +14843,7 @@
    "time": "22:00 → 03:00",
    "tier": 2,
    "reason": "",
-   "supports": "",
+   "supports": "CRIMEWAVE, JESKA",
    "subtitle": "",
    "footer": "",
    "footer2": "",
