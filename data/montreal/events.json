@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-29T00:55:47Z",
+ "generated_at": "2026-09-29T15:26:44Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 192
+   "events": 214
   },
   {
    "id": "piknic",
@@ -50,6 +50,7 @@
   "sat",
   "le-ritz",
   "theatre-fairmount",
+  "stereo-bar",
   "parc-jean-drapeau",
   "theatre-beanfield",
   "grand-quai",
@@ -59,6 +60,7 @@
   "igloofest",
   "bar-datcha",
   "systeme",
+  "vino-disco",
   "sainte-catherine-hall",
   "esc",
   "nwhr",
@@ -66,12 +68,12 @@
   "tba-le-bateau-mouche",
   "foufounes",
   "le-red-room",
-  "vino-disco",
   "l-escogriffe-bar-spectacle",
   "warehouse",
   "le-balcon",
   "entrepots-dominion-les",
   "la-recre",
+  "tba-down-by-the-water",
   "sans-soleil",
   "theatre-paradoxe",
   "bain-mathieu",
@@ -82,6 +84,7 @@
   "ausgang-plaza",
   "blue-room",
   "amir-mont-royal",
+  "barbossa",
   "cabaret-berlin",
   "cabaret-lion-d-or",
   "jaimee-sips",
@@ -142,6 +145,16 @@
     "techno",
     "disco"
    ]
+  },
+  {
+   "id": "barbossa",
+   "name": "Barbossa",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "blue-room",
@@ -580,6 +593,19 @@
    ]
   },
   {
+   "id": "stereo-bar",
+   "name": "Stereo Bar",
+   "type": "bar",
+   "tier": 3,
+   "capacity": 200,
+   "address": "858 Rue Sainte-Catherine E",
+   "url": "https://stereonightclub.net",
+   "genres": [
+    "house",
+    "techno"
+   ]
+  },
+  {
    "id": "studio-td",
    "name": "Studio TD",
    "type": "venue",
@@ -605,6 +631,16 @@
   {
    "id": "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
    "name": "TBA - 1585 Boulevard St Laurent, Montreal, QC, H2X 2S9",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "tba-down-by-the-water",
+   "name": "TBA - down by the water",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -849,6 +885,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851f63dcc89c96360fd402736a3",
+   "known": false
+  },
+  {
+   "id": "akpossoul",
+   "name": "Akpossoul",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786822c57b5eea07a5840a0757",
    "known": false
   },
   {
@@ -1124,6 +1170,16 @@
    "known": false
   },
   {
+   "id": "b-ugo",
+   "name": "B'UGO",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "baauer",
    "name": "Baauer",
    "tier": 0,
@@ -1337,6 +1393,16 @@
    "known": false
   },
   {
+   "id": "bodaishin",
+   "name": "Bodaishin",
+   "tier": 0,
+   "score": 21,
+   "popularity": 21,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17879e1da60e7f0c671073a8e47",
+   "known": false
+  },
+  {
    "id": "bolarinho",
    "name": "Bolarinho",
    "tier": 0,
@@ -1494,6 +1560,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048512b4f4c6777dba87e225b3774",
+   "known": false
+  },
+  {
+   "id": "ccil",
+   "name": "ccil",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -2437,6 +2513,16 @@
    "known": false
   },
   {
+   "id": "forgivemetommy",
+   "name": "Forgivemetommy! (All Night Long)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "frankie-teardrop",
    "name": "Frankie Teardrop",
    "tier": 0,
@@ -2494,6 +2580,16 @@
    "popularity": 63,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17851daae4f55980f7ff0ea8c30",
+   "known": false
+  },
+  {
+   "id": "future-exit",
+   "name": "Future Exit",
+   "tier": 0,
+   "score": 29,
+   "popularity": 29,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17806af1c46fa4777d9710ad282",
    "known": false
   },
   {
@@ -2697,6 +2793,16 @@
    "known": false
   },
   {
+   "id": "hummer",
+   "name": "HUMMER",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/56aee3a95496e1d17220f5ca55a26907/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "hydra",
    "name": "hÿdra",
    "tier": 0,
@@ -2750,6 +2856,16 @@
    "known": false
   },
   {
+   "id": "ida-engberg",
+   "name": "Ida Engberg",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178af87d27deb032051f5d5b06a",
+   "known": false
+  },
+  {
    "id": "igorrr",
    "name": "Igorrr",
    "tier": 0,
@@ -2762,6 +2878,16 @@
   {
    "id": "ilykimchi-montreal",
    "name": "ilykimchi - Montréal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "infiltr",
+   "name": "InFiltr",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2857,6 +2983,16 @@
    "popularity": 17,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17894dea537939bdb6b594f3581",
+   "known": false
+  },
+  {
+   "id": "jay-de-lys",
+   "name": "Jay de Lys",
+   "tier": 0,
+   "score": 49,
+   "popularity": 49,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1780d8537d57ae20d107b197b27",
    "known": false
   },
   {
@@ -2980,6 +3116,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "julian-prince",
+   "name": "Julian Prince",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e5500af7ccf9f0ef49c97750",
    "known": false
   },
   {
@@ -3236,6 +3382,16 @@
    "known": false
   },
   {
+   "id": "lbd-tom-cardeli",
+   "name": "LBD: Tom Cardeli (All Night Long)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "le-rotary-club",
    "name": "Le Rotary Club",
    "tier": 0,
@@ -3356,6 +3512,16 @@
    "known": false
   },
   {
+   "id": "lost-heroes",
+   "name": "Lost Heroes",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f9c48b26ec221ec5cb958e95",
+   "known": false
+  },
+  {
    "id": "loukeman",
    "name": "Loukeman",
    "tier": 0,
@@ -3373,6 +3539,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/4ea9e8552f2ca734f0d66e7d998d0dd0/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "luch",
+   "name": "Luch (All Night Long)",
+   "tier": 0,
+   "score": 67,
+   "popularity": 67,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178df64bb4f8dffa3f27ec389f7",
    "known": false
   },
   {
@@ -3742,6 +3918,16 @@
    "known": false
   },
   {
+   "id": "mphs",
+   "name": "MPHS",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786fadc5606525744b7dfae58f",
+   "known": false
+  },
+  {
    "id": "mr-deraspe",
    "name": "Mr.Deraspe",
    "tier": 0,
@@ -3839,16 +4025,6 @@
    "popularity": 21,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/28859be3f99722945606aa22ae799de2/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "neotek",
-   "name": "NEOTEK",
-   "tier": 0,
-   "score": 56,
-   "popularity": 56,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17890e443ab0b8ae4f9a660b989",
    "known": false
   },
   {
@@ -4047,6 +4223,16 @@
    "known": false
   },
   {
+   "id": "onyvaa",
+   "name": "ONYVAA",
+   "tier": 0,
+   "score": 31,
+   "popularity": 31,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17829e2168322de86e8bee11031",
+   "known": false
+  },
+  {
    "id": "orion",
    "name": "Orion",
    "tier": 0,
@@ -4054,6 +4240,16 @@
    "popularity": 49,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f2e28529970ae38ce019f783",
+   "known": false
+  },
+  {
+   "id": "ostrich",
+   "name": "Ostrich",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787ed8745ae5ca2ccffcda3883",
    "known": false
   },
   {
@@ -4224,6 +4420,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "pyromane",
+   "name": "Pyromane",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/ef96bda54957c9f61f3cff194483ac71/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4437,6 +4643,16 @@
    "known": false
   },
   {
+   "id": "schnubb",
+   "name": "SCHNUBB",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178edd29c9143037f604cc7fecc",
+   "known": false
+  },
+  {
    "id": "schrotthagen",
    "name": "Schrotthagen",
    "tier": 0,
@@ -4444,6 +4660,16 @@
    "popularity": 64,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f53b966e9d3bc3d3f5f8f272",
+   "known": false
+  },
+  {
+   "id": "scott-grooves",
+   "name": "Scott Grooves",
+   "tier": 0,
+   "score": 38,
+   "popularity": 38,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485130c41b5d16887ee882465bbb",
    "known": false
   },
   {
@@ -4554,6 +4780,16 @@
    "popularity": 29,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "soul-of-zoo",
+   "name": "Soul Of Zoo",
+   "tier": 0,
+   "score": 31,
+   "popularity": 31,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e80ae773848266c781e23fe5",
    "known": false
   },
   {
@@ -4800,6 +5036,16 @@
    "known": false
   },
   {
+   "id": "the-wonk",
+   "name": "The Wonk",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "themba",
    "name": "THEMBA",
    "tier": 0,
@@ -4900,6 +5146,26 @@
    "known": false
   },
   {
+   "id": "ucanquit",
+   "name": "ucanquit",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17883e5a5df6f58b9afb51b3ad2",
+   "known": false
+  },
+  {
+   "id": "ugo-banchi",
+   "name": "Ugo Banchi",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17871f12143bbfca32d20f329c7",
+   "known": false
+  },
+  {
    "id": "usaybflow",
    "name": "Usaybflow",
    "tier": 0,
@@ -4940,6 +5206,16 @@
    "known": false
   },
   {
+   "id": "vibran",
+   "name": "VIBRAN",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "victor-calderone",
    "name": "Victor Calderone",
    "tier": 0,
@@ -4947,6 +5223,26 @@
    "popularity": 36,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783727480912046d79c9c9bb10",
+   "known": false
+  },
+  {
+   "id": "victor-rodriguez",
+   "name": "VICTOR RODRIGUEZ (CA)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "vino-disco-thursday",
+   "name": "Vino Disco THURSDAY",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5090,6 +5386,16 @@
    "known": false
   },
   {
+   "id": "xaviera",
+   "name": "Xaviera",
+   "tier": 0,
+   "score": 9,
+   "popularity": 9,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17873f6f953e4507c14a6fc373c",
+   "known": false
+  },
+  {
    "id": "yaego",
    "name": "yaego",
    "tier": 0,
@@ -5107,6 +5413,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "yokoo",
+   "name": "YokoO",
+   "tier": 0,
+   "score": 39,
+   "popularity": 39,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178992d0096ae641d87cfe93f0b",
    "known": false
   },
   {
@@ -5857,8 +6173,8 @@
    }
   },
   {
-   "id": "223dba033443",
-   "title": "Virtual Riot & Blanke",
+   "id": "8b50ffb90e31",
+   "title": "Virtual Riot & Blanke - Far From Home Tour",
    "venue_id": "mtelus",
    "night": "2026-10-02",
    "start": "2026-10-02T22:00:00-04:00",
@@ -5875,18 +6191,13 @@
      "billing": "support"
     },
     {
-     "artist_id": "neotek",
-     "name": "NEOTEK",
+     "artist_id": "future-exit",
+     "name": "Future Exit",
      "billing": "support"
     },
     {
      "artist_id": "aydo8",
      "name": "AYDO8",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ayod8",
-     "name": "AYOD8",
      "billing": "support"
     },
     {
@@ -5901,22 +6212,18 @@
    "families": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064D278322940?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/virtual-riot-blanke?code=e008671",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/DFO1Ttq53DMdHmWJmXGeG/2e57666083db6ac2147b5c3ce1a4d111/virtual_riot_2026.jpg",
+   "ticket_url": "https://www.ticketmaster.ca/virtual-riot-blanke-far-from-home-montreal-quebec-10-02-2026/event/310064D278322940",
+   "event_url": "https://www.ticketmaster.ca/virtual-riot-blanke-far-from-home-montreal-quebec-10-02-2026/event/310064D278322940",
+   "image": "https://s1.ticketm.net/dam/a/6bf/d029e880-324b-4138-9150-7331553f06bf_SOURCE",
    "status": "confirmed",
    "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/virtual-riot-blanke?code=e008671"
-    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.ca/virtual-riot-blanke-far-from-home-montreal-quebec-10-02-2026/event/310064D278322940"
     }
    ],
    "interest": {
-    "score": 59,
+    "score": 57,
     "tier": 2,
     "reasons": [
      "tête d'affiche : Virtual Riot (70)",
@@ -5967,6 +6274,48 @@
    }
   },
   {
+   "id": "78334d62b35a",
+   "title": "Jay de Lys - Victor Rodriguez",
+   "venue_id": "stereo-bar",
+   "night": "2026-10-02",
+   "start": "2026-10-02T22:00:00.000",
+   "end": "2026-10-03T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jay-de-lys",
+     "name": "Jay de Lys",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "victor-rodriguez",
+     "name": "VICTOR RODRIGUEZ (CA)",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548579",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548579"
+    }
+   ],
+   "interest": {
+    "score": 53,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Jay de Lys (49)",
+     "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "3aea9feea9d4",
    "title": "TRANSITION présente SONAR + AFTER PARTY",
    "venue_id": "tba-le-bateau-mouche",
@@ -6011,6 +6360,49 @@
     "reasons": [
      "tête d'affiche : AFTER PARTY (59)",
      "lieu : TBA - LE BATEAU-MOUCHE (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b4f23e3023d3",
+   "title": "Vino Disco FRIDAY",
+   "venue_id": "vino-disco",
+   "night": "2026-10-02",
+   "start": "2026-10-02T20:00:00.000",
+   "end": "2026-10-03T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "latour",
+     "name": "Latour",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "funk / soul"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548642",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548642"
+    }
+   ],
+   "interest": {
+    "score": 32,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Latour (36)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -6245,6 +6637,62 @@
     "reasons": [
      "tête d'affiche : SOULSHINE (13)",
      "lieu : TBA - Velours 323 Ontario Est Montréal  (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "d3e67567f2d3",
+   "title": "FREE TECHNO: LANORTH",
+   "venue_id": "esc",
+   "night": "2026-10-02",
+   "start": "2026-10-02T22:00:00.000",
+   "end": "2026-10-03T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "hummer",
+     "name": "HUMMER",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mphs",
+     "name": "MPHS",
+     "billing": "support"
+    },
+    {
+     "artist_id": "schnubb",
+     "name": "SCHNUBB",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ucanquit",
+     "name": "ucanquit",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548015",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548015"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : HUMMER (0)",
+     "lieu : ESC (palier 2)"
     ]
    }
   },
@@ -6905,6 +7353,43 @@
    }
   },
   {
+   "id": "4741a67997dc",
+   "title": "Forgivemetommy! (All Night Long)",
+   "venue_id": "stereo-bar",
+   "night": "2026-10-03",
+   "start": "2026-10-03T22:00:00.000",
+   "end": "2026-10-04T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "forgivemetommy",
+     "name": "Forgivemetommy! (All Night Long)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548583",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548583"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Forgivemetommy! (All Night Long) (8)",
+     "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "efe33fbba90f",
    "title": "Gorillaz - The Mountain Tour | Centre Bell",
    "venue_id": "centre-bell",
@@ -7124,6 +7609,48 @@
    }
   },
   {
+   "id": "b61d3d567e04",
+   "title": "Interzone pres. The Wonk",
+   "venue_id": "barbossa",
+   "night": "2026-10-03",
+   "start": "2026-10-03T20:00:00.000",
+   "end": "2026-10-04T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "the-wonk",
+     "name": "The Wonk",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "acid",
+    "dub techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548466",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548466"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : The Wonk (8)",
+     "lieu : Barbossa (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "627b1dc8bab2",
    "title": "PWR HAUS",
    "venue_id": "blue-room",
@@ -7248,6 +7775,43 @@
      "tête d'affiche : Asha (35)",
      "lieu : Piknic Electronik (palier 3)",
      "format festival"
+    ]
+   }
+  },
+  {
+   "id": "442c47308202",
+   "title": "LBD: VIBRAN (All Night Long)",
+   "venue_id": "stereo-bar",
+   "night": "2026-10-04",
+   "start": "2026-10-04T22:00:00.000",
+   "end": "2026-10-05T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vibran",
+     "name": "VIBRAN",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548599",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548599"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : VIBRAN (8)",
+     "lieu : Stereo Bar (palier 3)"
     ]
    }
   },
@@ -7439,6 +8003,47 @@
    }
   },
   {
+   "id": "c89c42afdb46",
+   "title": "5:14 Sessions with Xaviera [All Night Long - Free]",
+   "venue_id": "le-red-room",
+   "night": "2026-10-06",
+   "start": "2026-10-06T22:00:00.000",
+   "end": "2026-10-07T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "xaviera",
+     "name": "Xaviera",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548621",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548621"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Xaviera (9)",
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "c47e34638309",
    "title": "Lewis OfMan",
    "venue_id": "studio-td",
@@ -7610,6 +8215,49 @@
     "reasons": [
      "tête d'affiche : Juan Izguerra (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "ef498ecc896f",
+   "title": "Vino Disco THURSDAY",
+   "venue_id": "vino-disco",
+   "night": "2026-10-08",
+   "start": "2026-10-08T20:00:00.000",
+   "end": "2026-10-09T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vino-disco-thursday",
+     "name": "Vino Disco THURSDAY",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "funk / soul"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548669",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548669"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Vino Disco THURSDAY (8)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -8041,6 +8689,47 @@
    }
   },
   {
+   "id": "02a3e12ff06d",
+   "title": "Stban - Julian Prince",
+   "venue_id": "stereo-bar",
+   "night": "2026-10-09",
+   "start": "2026-10-09T22:00:00.000",
+   "end": "2026-10-10T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "julian-prince",
+     "name": "Julian Prince",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548591",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548591"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Julian Prince (0)",
+     "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "9683e0008278",
    "title": "CLOCK OUT",
    "venue_id": "nwhr",
@@ -8173,6 +8862,54 @@
     "reasons": [
      "tête d'affiche : Marco Weibel (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "5289ac59bb5e",
+   "title": "Vino Disco FRIDAY",
+   "venue_id": "vino-disco",
+   "night": "2026-10-09",
+   "start": "2026-10-09T20:00:00.000",
+   "end": "2026-10-10T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "akpossoul",
+     "name": "Akpossoul",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "don-barbarino",
+     "name": "Don Barbarino",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548679",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548679"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Akpossoul (0)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -8353,6 +9090,43 @@
     "reasons": [
      "tête d'affiche : Restricted (76)",
      "lieu : Grand Quai du Port de Montreal (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "23e92765abb5",
+   "title": "YokoO (All Night Long)",
+   "venue_id": "stereo-bar",
+   "night": "2026-10-10",
+   "start": "2026-10-10T22:00:00.000",
+   "end": "2026-10-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "yokoo",
+     "name": "YokoO",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548604",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548604"
+    }
+   ],
+   "interest": {
+    "score": 46,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : YokoO (39)",
+     "lieu : Stereo Bar (palier 3)"
     ]
    }
   },
@@ -8899,6 +9673,43 @@
    }
   },
   {
+   "id": "c9f96a092d04",
+   "title": "LBD: Tom Cardeli (All Night Long)",
+   "venue_id": "stereo-bar",
+   "night": "2026-10-11",
+   "start": "2026-10-11T22:00:00.000",
+   "end": "2026-10-12T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lbd-tom-cardeli",
+     "name": "LBD: Tom Cardeli (All Night Long)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548608",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548608"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LBD: Tom Cardeli (All Night Long) (8)",
+     "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "61eb852b1667",
    "title": "BASSgiving 2026 @ Le Red Room",
    "venue_id": "le-red-room",
@@ -8954,8 +9765,14 @@
      "billing": "support"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "afro house",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2540315",
@@ -9164,6 +9981,47 @@
      "tête d'affiche : ENAMOR (56)",
      "lieu : Parc Jean-Drapeau (palier 3)",
      "format festival"
+    ]
+   }
+  },
+  {
+   "id": "a091ca150824",
+   "title": "5:14 Sessions with Jon Wait [All Night Long - Free]",
+   "venue_id": "le-red-room",
+   "night": "2026-10-13",
+   "start": "2026-10-13T22:00:00.000",
+   "end": "2026-10-14T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "infiltr",
+     "name": "InFiltr",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548633",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548633"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : InFiltr (8)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -9514,8 +10372,8 @@
    }
   },
   {
-   "id": "f76b36b063f9",
-   "title": "DVS1",
+   "id": "3dc13e8f6295",
+   "title": "DVS1 - Ostrich",
    "venue_id": "stereo",
    "night": "2026-10-16",
    "start": "2026-10-16T23:59:00.000",
@@ -9525,6 +10383,11 @@
      "artist_id": "dvs1",
      "name": "DVS1",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "ostrich",
+     "name": "Ostrich",
+     "billing": "support"
     }
    ],
    "genres": [],
@@ -9711,6 +10574,43 @@
     "reasons": [
      "tête d'affiche : Sumatra (21)",
      "lieu : Pangea (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "6de9632eb864",
+   "title": "Crescenzo (All Night Long)",
+   "venue_id": "stereo-bar",
+   "night": "2026-10-16",
+   "start": "2026-10-16T22:00:00.000",
+   "end": "2026-10-17T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "crescenzo",
+     "name": "Crescenzo",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548610",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548610"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Crescenzo (0)",
+     "lieu : Stereo Bar (palier 3)"
     ]
    }
   },
@@ -10120,6 +11020,43 @@
     "reasons": [
      "tête d'affiche : meat computer (51)",
      "lieu : Foufounes Electriques (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "8606b1efba10",
+   "title": "Soul Of Zoo b2b Tyler W",
+   "venue_id": "stereo-bar",
+   "night": "2026-10-17",
+   "start": "2026-10-17T22:00:00.000",
+   "end": "2026-10-18T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "soul-of-zoo",
+     "name": "Soul Of Zoo",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548612",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548612"
+    }
+   ],
+   "interest": {
+    "score": 40,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Soul Of Zoo (31)",
+     "lieu : Stereo Bar (palier 3)"
     ]
    }
   },
@@ -10540,6 +11477,43 @@
    }
   },
   {
+   "id": "a8360695da74",
+   "title": "LBD x Saisons: Bodaishin - Oli Vez - Pinch & Héléna",
+   "venue_id": "stereo-bar",
+   "night": "2026-10-18",
+   "start": "2026-10-18T20:00:00.000",
+   "end": "2026-10-19T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bodaishin",
+     "name": "Bodaishin",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548617",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548617"
+    }
+   ],
+   "interest": {
+    "score": 33,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Bodaishin (21)",
+     "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "09a917bbabde",
    "title": "Arder: Toobris",
    "venue_id": "nwhr",
@@ -10705,6 +11679,49 @@
     "reasons": [
      "tête d'affiche : Rebecca Black - Montréal (8)",
      "lieu : Club Soda (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "d24b3ad1b368",
+   "title": "5:14 Sessions with Pyromane [All Night Long - Free]",
+   "venue_id": "le-red-room",
+   "night": "2026-10-20",
+   "start": "2026-10-20T22:00:00.000",
+   "end": "2026-10-21T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "pyromane",
+     "name": "Pyromane",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "breakbeat",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548644",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548644"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Pyromane (0)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -11130,6 +12147,48 @@
    }
   },
   {
+   "id": "7c716a73ca8b",
+   "title": "Ida Engberg - ONYVAA",
+   "venue_id": "stereo",
+   "night": "2026-10-23",
+   "start": "2026-10-23T23:59:00.000",
+   "end": "2026-10-24T08:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ida-engberg",
+     "name": "Ida Engberg",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "onyvaa",
+     "name": "ONYVAA",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548575",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548575"
+    }
+   ],
+   "interest": {
+    "score": 48,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Ida Engberg (42)",
+     "lieu : Stereo (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "05b60b9a9e03",
    "title": "YGM x Stereo Bar",
    "venue_id": "stereo",
@@ -11469,6 +12528,43 @@
    }
   },
   {
+   "id": "bb9696603479",
+   "title": "Luch (All Night Long)",
+   "venue_id": "stereo",
+   "night": "2026-10-24",
+   "start": "2026-10-24T23:59:00.000",
+   "end": "2026-10-25T09:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "luch",
+     "name": "Luch (All Night Long)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548576",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548576"
+    }
+   ],
+   "interest": {
+    "score": 66,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Luch (All Night Long) (67)",
+     "lieu : Stereo (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "9d14017875c6",
    "title": "Mall Grab - Montréal",
    "venue_id": "sat",
@@ -11510,6 +12606,43 @@
     "reasons": [
      "tête d'affiche : Mall Grab (70)",
      "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "5c49e88a31b5",
+   "title": "Ugo Banchi (All Night Long)",
+   "venue_id": "stereo-bar",
+   "night": "2026-10-24",
+   "start": "2026-10-24T22:00:00.000",
+   "end": "2026-10-25T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ugo-banchi",
+     "name": "Ugo Banchi",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548622",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548622"
+    }
+   ],
+   "interest": {
+    "score": 48,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Ugo Banchi (42)",
+     "lieu : Stereo Bar (palier 3)"
     ]
    }
   },
@@ -11956,6 +13089,16 @@
      "artist_id": "horse-meat-disco",
      "name": "Horse Meat Disco",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "b-ugo",
+     "name": "B'UGO",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lost-heroes",
+     "name": "Lost Heroes",
+     "billing": "support"
     }
    ],
    "genres": [],
@@ -12062,6 +13205,49 @@
     "reasons": [
      "tête d'affiche : Roland Gonzales (8)",
      "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b305e8fe3be8",
+   "title": "5:14 Sessions with ccil [All Night Long - Free]",
+   "venue_id": "le-red-room",
+   "night": "2026-10-27",
+   "start": "2026-10-27T22:00:00.000",
+   "end": "2026-10-28T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ccil",
+     "name": "ccil",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548662",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548662"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ccil (8)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -12854,6 +14040,63 @@
     "reasons": [
      "tête d'affiche : REQUIEM (42)",
      "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "35f63d3a3fb9",
+   "title": "Ferias Halloween 'Til Sunrise",
+   "venue_id": "tba-down-by-the-water",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00.000",
+   "end": "2026-11-01T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "scott-grooves",
+     "name": "Scott Grooves",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lia-plutonic",
+     "name": "Lia Plutonic",
+     "billing": "support"
+    },
+    {
+     "artist_id": "alina",
+     "name": "Alina (MTL)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "guthrie",
+     "name": "Guthrie",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "disco",
+    "funk / soul"
+   ],
+   "families": [
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548520",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548520"
+    }
+   ],
+   "interest": {
+    "score": 33,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Scott Grooves (38)",
+     "lieu : TBA - down by the water (palier 1)"
     ]
    }
   },
@@ -14802,6 +16045,65 @@
     "reasons": [
      "tête d'affiche : Riot Ten - Montréal (8)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "96617a3540ed",
+   "title": "Virtual Riot & Blanke",
+   "venue_id": "mtelus",
+   "night": "2026-12-18",
+   "start": "2026-12-18T22:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "virtual-riot",
+     "name": "Virtual Riot",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "blanke",
+     "name": "Blanke",
+     "billing": "support"
+    },
+    {
+     "artist_id": "future-exit",
+     "name": "Future Exit",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ayod8",
+     "name": "AYOD8",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mholy",
+     "name": "MHOLY",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/event/310064D278322940?lang=fr-ca&brand=mtelus",
+   "event_url": "https://evenko.ca/fr/evenements/mtelus/virtual-riot-blanke?code=e008671",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/DFO1Ttq53DMdHmWJmXGeG/2e57666083db6ac2147b5c3ce1a4d111/virtual_riot_2026.jpg",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "mtelus",
+     "url": "https://evenko.ca/fr/evenements/mtelus/virtual-riot-blanke?code=e008671"
+    }
+   ],
+   "interest": {
+    "score": 56,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Virtual Riot (70)",
+     "lieu : MTELUS (palier 1)"
     ]
    }
   },
