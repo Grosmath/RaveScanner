@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-28T17:26:49Z",
+ "generated_at": "2026-09-29T00:56:34Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-09-28",
-  "end": "2027-03-27"
+  "start": "2026-09-29",
+  "end": "2027-03-28"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 427
+   "events": 425
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 50
+   "events": 57
   }
  ],
  "venue_order": [
@@ -64,7 +64,6 @@
   "la-gaite-lyrique",
   "le-bataclan",
   "parc-floral-de-paris",
-  "petit-bain",
   "nouveau-casino",
   "point-ephemere",
   "virage",
@@ -95,13 +94,14 @@
   "la-rotonde-stalingrad",
   "plantation",
   "philharmonie-de-paris",
-  "la-mecanique-ondulatoire",
+  "folies-pigalle",
   "la-gare-le-gore",
   "bourse-de-commerce-pinault-collection",
   "communale-saint-ouen",
-  "studio56",
   "pamela-club",
   "nonsense",
+  "petit-bain",
+  "studio56",
   "tba-warehouse-st-denis",
   "la-marbrerie",
   "la-peniche-cinema",
@@ -136,6 +136,7 @@
   "le-zeralda",
   "la-maz",
   "la-rotonde",
+  "le-black-dog",
   "le-gambetta-club"
  ],
  "venues": [
@@ -386,6 +387,16 @@
    "genres": []
   },
   {
+   "id": "folies-pigalle",
+   "name": "Folies Pigalle",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "fondation-cartier",
    "name": "Fondation Cartier",
    "type": "club",
@@ -609,16 +620,6 @@
    "genres": []
   },
   {
-   "id": "la-mecanique-ondulatoire",
-   "name": "La Mécanique Ondulatoire",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "la-nuit",
    "name": "La Nuit",
    "type": "club",
@@ -717,6 +718,16 @@
   {
    "id": "le-bateau-phare",
    "name": "Le Bateau Phare",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "le-black-dog",
+   "name": "Le Black Dog",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -3638,6 +3649,16 @@
    "known": false
   },
   {
+   "id": "dj-seiji",
+   "name": "DJ Seiji",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/42ad265556bb1ebee27c6bc5b3696d29/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "dj-spen",
    "name": "DJ Spen",
    "tier": 0,
@@ -4195,16 +4216,6 @@
    "popularity": 84,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c20ed3229eeced918966a009",
-   "known": false
-  },
-  {
-   "id": "feed-me",
-   "name": "Feed Me",
-   "tier": 0,
-   "score": 57,
-   "popularity": 57,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1784c708d39acdc96b195dcd2d9",
    "known": false
   },
   {
@@ -4848,6 +4859,16 @@
    "popularity": 54,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782dadd7519c80d380ae0bea08",
+   "known": false
+  },
+  {
+   "id": "hermeth",
+   "name": "Hermeth",
+   "tier": 0,
+   "score": 36,
+   "popularity": 36,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783dfd2954c30274b2011d90e4",
    "known": false
   },
   {
@@ -5601,6 +5622,16 @@
    "known": false
   },
   {
+   "id": "karl-jefferson",
+   "name": "Karl Jefferson",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "karlfroye",
    "name": "Karlfroye",
    "tier": 0,
@@ -5884,13 +5915,13 @@
    "known": false
   },
   {
-   "id": "kryom",
-   "name": "Kryom",
+   "id": "ktk",
+   "name": "KTK",
    "tier": 0,
-   "score": 8,
-   "popularity": null,
+   "score": 33,
+   "popularity": 33,
    "genres": [],
-   "image": "",
+   "image": "https://i.scdn.co/image/ab6761610000f178f9b04ffbc1f8865fae2c97dd",
    "known": false
   },
   {
@@ -5901,6 +5932,16 @@
    "popularity": 59,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789f3f4b4399a3a8f54657ea7b",
+   "known": false
+  },
+  {
+   "id": "la-boom-de-l-horreur",
+   "name": "LA BOOM DE L'HORREUR",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -6211,16 +6252,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "leya",
-   "name": "LEYA",
-   "tier": 0,
-   "score": 30,
-   "popularity": 30,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17827e7723de0bec8138aa633a7",
    "known": false
   },
   {
@@ -7146,6 +7177,16 @@
    "popularity": 59,
    "genres": [],
    "image": "https://i.scdn.co/image/919e5830a9fd786239aec363a13d33bee0fab2aa",
+   "known": false
+  },
+  {
+   "id": "moon",
+   "name": "MOON",
+   "tier": 0,
+   "score": 29,
+   "popularity": 29,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/bce6a934021ebf41a40503e5f26a692f/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -8344,16 +8385,6 @@
    "known": false
   },
   {
-   "id": "rinzler",
-   "name": "Rinzler",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485167193a4fccb6f87b28ef8f00",
-   "known": false
-  },
-  {
    "id": "romain-garcia",
    "name": "Romain Garcia",
    "tier": 0,
@@ -8924,6 +8955,16 @@
    "known": false
   },
   {
+   "id": "soeurs-malsaines-presentent-le-bal-crade",
+   "name": "SOEURS MALSAINES PRÉSENTENT : LE BAL CRADE",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "solar-boys",
    "name": "SOLAR BOYS",
    "tier": 0,
@@ -9001,16 +9042,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "spor",
-   "name": "Spor",
-   "tier": 0,
-   "score": 11,
-   "popularity": 11,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/ab5d33f42f6bd8e6396f21ea5e8dbf96/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -9414,16 +9445,6 @@
    "popularity": 45,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17845b4737721af072e79a0f3e5",
-   "known": false
-  },
-  {
-   "id": "thundersamurai",
-   "name": "Thundersamurai",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17830da150c0c6719002e87d664",
    "known": false
   },
   {
@@ -10140,6 +10161,16 @@
    "known": false
   },
   {
+   "id": "yenkov",
+   "name": "Yenkov",
+   "tier": 0,
+   "score": 18,
+   "popularity": 18,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178de4a4d7ba61cf94aea091f5c",
+   "known": false
+  },
+  {
    "id": "young-pulse",
    "name": "Young Pulse",
    "tier": 0,
@@ -10241,171 +10272,6 @@
   }
  ],
  "events": [
-  {
-   "id": "a478c8c0d6ec",
-   "title": "Leya, En Concert À Paris + Guest : Aesthesis",
-   "venue_id": "la-mecanique-ondulatoire",
-   "night": "2026-09-28",
-   "start": "2026-09-28T18:30:00.000",
-   "end": "2026-09-28T22:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "leya",
-     "name": "LEYA",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2489918",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2489918"
-    }
-   ],
-   "interest": {
-    "score": 28,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : LEYA (30)",
-     "lieu : La Mécanique Ondulatoire (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "05b49bd18588",
-   "title": "Core W/ Kryom , Rinzler , Thundersamurai",
-   "venue_id": "studio56",
-   "night": "2026-09-28",
-   "start": "2026-09-28T23:00:00.000",
-   "end": "2026-10-04T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "kryom",
-     "name": "Kryom",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "rinzler",
-     "name": "Rinzler",
-     "billing": "support"
-    },
-    {
-     "artist_id": "thundersamurai",
-     "name": "Thundersamurai",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2547542",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2547542"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2547542"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2547542"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2547542"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2547542"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2547542"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Kryom (8)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "f160b22de767",
-   "title": "Acid Oslo ALL NIGHT LONG",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-09-28",
-   "start": "2026-09-28T23:59:00.000",
-   "end": "2026-10-04T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "acid-oslo",
-     "name": "Acid Oslo",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2546442",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546442"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546442"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546442"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546442"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546442"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546442"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Acid Oslo (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
   {
    "id": "442fe342d471",
    "title": "Signal W/ Orgasmik , Rossel, Le Scotty",
@@ -12573,6 +12439,57 @@
     "reasons": [
      "tête d'affiche : Elias Mazian (23)",
      "lieu : La Java (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "c240dbf7cee8",
+   "title": "Underground Legends #3 The Link",
+   "venue_id": "folies-pigalle",
+   "night": "2026-10-02",
+   "start": "2026-10-02T23:30:00.000",
+   "end": "2026-10-04T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "moon",
+     "name": "MOON",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "karl-jefferson",
+     "name": "Karl Jefferson",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "deep house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2547665",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547665"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547665"
+    }
+   ],
+   "interest": {
+    "score": 27,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : MOON (29)",
+     "lieu : Folies Pigalle (palier 1)"
     ]
    }
   },
@@ -15000,6 +14917,45 @@
     "reasons": [
      "tête d'affiche : TEMPERATURE #5 (8)",
      "lieu : Bizz'Art (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "a16705b83ff4",
+   "title": "JAPANESE METAL NIGHT",
+   "venue_id": "le-black-dog",
+   "night": "2026-10-03",
+   "start": "2026-10-03T21:00:00+02:00",
+   "end": "2026-10-04T01:00:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "dj-seiji",
+     "name": "DJ Seiji",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/6dy978-japanese-metal-night-3rd-oct-le-black-dog-paris-tickets",
+   "event_url": "https://dice.fm/event/6dy978-japanese-metal-night-3rd-oct-le-black-dog-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-28/9d43e783-ef40-43df-9b49-84dcd96c9ccb.jpg?rect=174%2C0%2C924%2C924",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/6dy978-japanese-metal-night-3rd-oct-le-black-dog-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Seiji (0)",
+     "lieu : Le Black Dog (palier 1)"
     ]
    }
   },
@@ -17902,53 +17858,6 @@
    }
   },
   {
-   "id": "2b9846fbe0b9",
-   "title": "STUDIO Invites VISION: Feed Me x Spor, Vici x Eluun,",
-   "venue_id": "petit-bain",
-   "night": "2026-10-10",
-   "start": "2026-10-10T23:59:00.000",
-   "end": "2026-10-11T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "feed-me",
-     "name": "Feed Me",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "spor",
-     "name": "Spor",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "drum & bass",
-    "bass"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2520948",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2520948"
-    }
-   ],
-   "interest": {
-    "score": 53,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Feed Me (57)",
-     "lieu : Petit Bain (palier 2)"
-    ]
-   }
-  },
-  {
    "id": "fa90241b2e45",
    "title": "tear club is back ★",
    "venue_id": "la-machine-du-moulin-rouge",
@@ -18105,16 +18014,20 @@
     "Techno",
     "Trance & hard"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2547182",
    "event_url": "https://ra.co/events/2547182",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-28/4a9933c6-8085-4948-a28e-8940e004fd0e.jpg?rect=5%2C85%2C717%2C717",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2547182"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/8edebr-vanille-residency-after-the-kick-release-party-10th-oct-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -19314,6 +19227,10 @@
    "image": "",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2546458"
+    },
     {
      "id": "ra",
      "url": "https://ra.co/events/2546458"
@@ -23986,16 +23903,20 @@
     "Techno",
     "Trance & hard"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2542133",
    "event_url": "https://ra.co/events/2542133",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-21/50dafaa1-3215-48b0-9f46-773019609fd8.jpg?rect=0%2C250%2C2000%2C2000",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2542133"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/g583ra-area-x-shockwerk-tarkno-ruiz-osc1-lex-salom-dv-24th-oct-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -24127,16 +24048,20 @@
    "families": [
     "Disco & funk"
    ],
-   "price_min": null,
+   "price_min": 9.27,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2529213",
    "event_url": "https://ra.co/events/2529213",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-28/87ebb8eb-a043-4e39-a72d-3671bce5b58c.jpg?rect=0%2C0%2C2250%2C2250",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2529213"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/oemev5-bristol-northern-soul-club-paris-allnighter-24th-oct-la-marbrerie-paris-tickets"
     }
    ],
    "interest": {
@@ -25055,6 +24980,45 @@
    }
   },
   {
+   "id": "dbb9c5b20799",
+   "title": "SOEURS MALSAINES PRÉSENTENT : LE BAL CRADE",
+   "venue_id": "virage",
+   "night": "2026-10-30",
+   "start": "2026-10-30T23:30:00+01:00",
+   "end": "2026-10-31T06:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "soeurs-malsaines-presentent-le-bal-crade",
+     "name": "SOEURS MALSAINES PRÉSENTENT : LE BAL CRADE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 13.39,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/g5v5bb-soeurs-malsaines-prsentent-le-bal-crade-30th-oct-virage-paris-tickets",
+   "event_url": "https://dice.fm/event/g5v5bb-soeurs-malsaines-prsentent-le-bal-crade-30th-oct-virage-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-28/c9e88047-c414-4f2b-a4b9-cc31d3bea92c.jpg?rect=0%2C136%2C953%2C953",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/g5v5bb-soeurs-malsaines-prsentent-le-bal-crade-30th-oct-virage-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SOEURS MALSAINES PRÉSENTENT : LE BAL CRADE (8)",
+     "lieu : Virage (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8f33f1b4dd66",
    "title": "Cyberpunk Halloween",
    "venue_id": "42-marches",
@@ -25456,6 +25420,55 @@
    }
   },
   {
+   "id": "4f9d7e7fd5c5",
+   "title": "DISORDER HALLOWEEN: KTK, YENKOV, HERMETH, IND AND MORE",
+   "venue_id": "virage",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:30:00+01:00",
+   "end": "2026-11-01T09:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "hermeth",
+     "name": "Hermeth",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ktk",
+     "name": "KTK",
+     "billing": "support"
+    },
+    {
+     "artist_id": "yenkov",
+     "name": "Yenkov",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 15.45,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/l8p8mx-disorder-halloween-ktk-yenkov-hermeth-ind-and-more-31st-oct-virage-paris-tickets",
+   "event_url": "https://dice.fm/event/l8p8mx-disorder-halloween-ktk-yenkov-hermeth-ind-and-more-31st-oct-virage-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-28/aeea2d52-f229-45e5-b17e-4bfc02e72595.jpg?rect=0%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/l8p8mx-disorder-halloween-ktk-yenkov-hermeth-ind-and-more-31st-oct-virage-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 32,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Hermeth (36)",
+     "lieu : Virage (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "7bd5d6fbb84c",
    "title": "cocoon anniversaire essaim YEAR002 - Binh, Mars O10C, Zombies In Miami",
    "venue_id": "essaim",
@@ -25597,6 +25610,45 @@
     "reasons": [
      "tête d'affiche : Flash Cocotte Halloween Edition (8)",
      "lieu : Wanderlust (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "69405fbebd58",
+   "title": "LA BOOM DE L'HORREUR",
+   "venue_id": "virage",
+   "night": "2026-10-31",
+   "start": "2026-10-31T14:00:00+01:00",
+   "end": "2026-10-31T18:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "la-boom-de-l-horreur",
+     "name": "LA BOOM DE L'HORREUR",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/5323x8-la-boom-de-lhorreur-31st-oct-virage-paris-tickets",
+   "event_url": "https://dice.fm/event/5323x8-la-boom-de-lhorreur-31st-oct-virage-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-28/c45033fd-e81c-439d-9c2b-a385d29daf01.jpg?rect=0%2C91%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/5323x8-la-boom-de-lhorreur-31st-oct-virage-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA BOOM DE L'HORREUR (8)",
+     "lieu : Virage (palier 1)"
     ]
    }
   },
@@ -30333,21 +30385,6 @@
   },
   {
    "kind": "event",
-   "day": "VEN 9 OCT",
-   "title": "Sam Feldt",
-   "venue": "Central Chapelle",
-   "time": "20:00 → 23:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb5ca7b52784727b1adee08d81",
-   "event_id": "b62331eca203"
-  },
-  {
-   "kind": "event",
    "day": "SAM 17 OCT",
    "title": "Romain Garcia",
    "venue": "Rex Club",
@@ -30390,6 +30427,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb72059dbcd979a5edc2e59cf0",
    "event_id": "7df5a4dab597"
+  },
+  {
+   "kind": "event",
+   "day": "MER 28 OCT",
+   "title": "Ely Oaks",
+   "venue": "Central Chapelle",
+   "time": "20:00 → 22:30",
+   "tier": 2,
+   "reason": "",
+   "supports": "",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb3e75cf25e89d1ea730b48c73",
+   "event_id": "1b32b2eb412f"
   }
  ]
 }

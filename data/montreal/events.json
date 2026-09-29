@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-28T17:25:47Z",
+ "generated_at": "2026-09-29T00:55:47Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-09-28",
-  "end": "2027-03-27"
+  "start": "2026-09-29",
+  "end": "2027-03-28"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 183
+   "events": 192
   },
   {
    "id": "piknic",
@@ -57,8 +57,8 @@
   "olympia",
   "salon-daome",
   "igloofest",
-  "systeme",
   "bar-datcha",
+  "systeme",
   "sainte-catherine-hall",
   "esc",
   "nwhr",
@@ -66,11 +66,11 @@
   "tba-le-bateau-mouche",
   "foufounes",
   "le-red-room",
-  "l-escogriffe-bar-spectacle",
   "vino-disco",
+  "l-escogriffe-bar-spectacle",
+  "warehouse",
   "le-balcon",
   "entrepots-dominion-les",
-  "warehouse",
   "la-recre",
   "sans-soleil",
   "theatre-paradoxe",
@@ -79,6 +79,7 @@
   "pangea",
   "red-roof-church",
   "tba-velours-323-ontario-est-montreal",
+  "ausgang-plaza",
   "blue-room",
   "amir-mont-royal",
   "cabaret-berlin",
@@ -103,6 +104,20 @@
    "address": "",
    "url": "",
    "genres": []
+  },
+  {
+   "id": "ausgang-plaza",
+   "name": "Ausgang Plaza",
+   "type": "club",
+   "tier": 2,
+   "capacity": 500,
+   "address": "6524 Rue Saint-Hubert",
+   "url": "https://ausgangplaza.com",
+   "genres": [
+    "techno",
+    "bass",
+    "hard"
+   ]
   },
   {
    "id": "bain-mathieu",
@@ -739,6 +754,16 @@
   {
    "id": "7az-1",
    "name": "7AZ (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "8h-sleep",
+   "name": "8h sleep",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -1462,6 +1487,16 @@
    "known": false
   },
   {
+   "id": "casa-kobrae",
+   "name": "Casa Kobrae",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048512b4f4c6777dba87e225b3774",
+   "known": false
+  },
+  {
    "id": "centre-bell",
    "name": "Centre Bell",
    "tier": 0,
@@ -1802,6 +1837,16 @@
    "known": false
   },
   {
+   "id": "deneb",
+   "name": "Deneb",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178aba906f85b8a69e341ef47c0",
+   "known": false
+  },
+  {
    "id": "digicult",
    "name": "DIGICULT (BE)",
    "tier": 0,
@@ -1809,16 +1854,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "dj-asma",
-   "name": "DJ Asma",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/4fe03a3b150387c9d38f1e6695d6035c/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1852,6 +1887,16 @@
    "known": false
   },
   {
+   "id": "dj-frog",
+   "name": "DJ Frog",
+   "tier": 0,
+   "score": 28,
+   "popularity": 28,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785c48763db54b6686fd0f1a3f",
+   "known": false
+  },
+  {
    "id": "dj-hidi",
    "name": "DJ Hidi",
    "tier": 0,
@@ -1869,6 +1914,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "dj-pacifier",
+   "name": "DJ Pacifier",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178bf852a94fac59d564424c58d",
    "known": false
   },
   {
@@ -2089,6 +2144,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178908ba8dbb20ca9d15ecc99b6",
+   "known": false
+  },
+  {
+   "id": "ekitwanda",
+   "name": "Ekitwanda",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -2452,6 +2517,16 @@
    "known": false
   },
   {
+   "id": "gi-gi",
+   "name": "Gi Gi",
+   "tier": 0,
+   "score": 30,
+   "popularity": 30,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788804ea06df701a052245fac8",
+   "known": false
+  },
+  {
    "id": "gloorp",
    "name": "Gloorp",
    "tier": 0,
@@ -2665,6 +2740,16 @@
    "known": false
   },
   {
+   "id": "icky-magdala",
+   "name": "Icky Magdala",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485177429de03a29e10ebba58132",
+   "known": false
+  },
+  {
    "id": "igorrr",
    "name": "Igorrr",
    "tier": 0,
@@ -2742,6 +2827,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/e2128451da9d29004dc036f561be275d/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "james-benjamin",
+   "name": "James Benjamin",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/4f64a2b7e5cddcaee93f23b6fd98fa42/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2878,6 +2973,16 @@
    "known": false
   },
   {
+   "id": "juju-le-moko",
+   "name": "Juju le Moko",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "jwon",
    "name": "jwon",
    "tier": 0,
@@ -2990,6 +3095,16 @@
   {
    "id": "kris-guilty",
    "name": "Kris Guilty",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "kris-tin",
+   "name": "Kris Tin",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3258,6 +3373,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/4ea9e8552f2ca734f0d66e7d998d0dd0/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "lucid-grooves",
+   "name": "Lucid Grooves",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048517825f0e86784db7b87e957b3",
    "known": false
   },
   {
@@ -3557,6 +3682,16 @@
    "known": false
   },
   {
+   "id": "mnsa",
+   "name": "MNSA",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b5f09c09b6ec3135be32dabd",
+   "known": false
+  },
+  {
    "id": "moaad-bkr",
    "name": "Moaad BKR",
    "tier": 0,
@@ -3607,6 +3742,16 @@
    "known": false
   },
   {
+   "id": "mr-deraspe",
+   "name": "Mr.Deraspe",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485171c6590d8836b436aed8c47e",
+   "known": false
+  },
+  {
    "id": "mui-mui",
    "name": "Mui Mui",
    "tier": 0,
@@ -3647,6 +3792,16 @@
    "known": false
   },
   {
+   "id": "nadim-maghzal",
+   "name": "Nadim Maghzal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "namanariii",
    "name": "namanariii",
    "tier": 0,
@@ -3654,6 +3809,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "nautiluss",
+   "name": "Nautiluss",
+   "tier": 0,
+   "score": 2,
+   "popularity": 2,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17888c43626f38ceecabb20d0cc",
    "known": false
   },
   {
@@ -3799,6 +3964,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/04eb1f90ac95f5845ffa5e3b95205e4c/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "numa-gama",
+   "name": "Numa Gama",
+   "tier": 0,
+   "score": 5,
+   "popularity": 5,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788daf9b36c18262900883a9ff",
    "known": false
   },
   {
@@ -4232,6 +4407,16 @@
    "known": false
   },
   {
+   "id": "saliah",
+   "name": "Saliah",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783d39f1872eecfa17fe445f1f",
+   "known": false
+  },
+  {
    "id": "samm",
    "name": "Samm",
    "tier": 0,
@@ -4382,6 +4567,16 @@
    "known": false
   },
   {
+   "id": "special-day-party-fella-s-q-tips",
+   "name": "SPECIAL DAY PARTY: FELLA'S Q TIPS",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "special-k",
    "name": "Special K (CA)",
    "tier": 0,
@@ -4505,6 +4700,16 @@
    "known": false
   },
   {
+   "id": "syana",
+   "name": "Syana",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17854c39708bf2688ea4288ff90",
+   "known": false
+  },
+  {
    "id": "syd-woz",
    "name": "Syd Woz",
    "tier": 0,
@@ -4532,6 +4737,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "tess-roby",
+   "name": "Tess Roby",
+   "tier": 0,
+   "score": 10,
+   "popularity": 10,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784432a02f6b349b90057bd0a0",
    "known": false
   },
   {
@@ -4957,43 +5172,6 @@
  ],
  "events": [
   {
-   "id": "24b93c7612ae",
-   "title": "Sans Soleil w/ Asma",
-   "venue_id": "sans-soleil",
-   "night": "2026-09-28",
-   "start": "2026-09-28T20:00:00.000",
-   "end": "2026-09-29T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dj-asma",
-     "name": "DJ Asma",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2546565",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546565"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DJ Asma (0)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "f6a41e9f97c9",
    "title": "BOY HARSHER - Montréal",
    "venue_id": "mtelus",
@@ -5313,6 +5491,49 @@
     "reasons": [
      "tête d'affiche : hÿdra (42)",
      "lieu : ESC (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "9233abed63fb",
+   "title": "Vino Disco THURSDAY",
+   "venue_id": "vino-disco",
+   "night": "2026-10-01",
+   "start": "2026-10-01T20:00:00.000",
+   "end": "2026-10-02T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "manuel-falardeau",
+     "name": "Manuel Falardeau",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "funk / soul"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2547626",
+   "event_url": "https://ra.co/events/2547626",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547626"
+    }
+   ],
+   "interest": {
+    "score": 35,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Manuel Falardeau (40)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -7300,6 +7521,57 @@
    }
   },
   {
+   "id": "72973b51971b",
+   "title": "James Benjamin, Hydra, Mak1ntouch, Lucid Grooves",
+   "venue_id": "bar-datcha",
+   "night": "2026-10-08",
+   "start": "2026-10-08T22:00:00.000",
+   "end": "2026-10-09T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "hydra",
+     "name": "hÿdra",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "james-benjamin",
+     "name": "James Benjamin",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lucid-grooves",
+     "name": "Lucid Grooves",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2547779",
+   "event_url": "https://ra.co/events/2547779",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547779"
+    }
+   ],
+   "interest": {
+    "score": 42,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : hÿdra (42)",
+     "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "6f2924c404f8",
    "title": "Ramzilla + Juan Izguerra",
    "venue_id": "systeme",
@@ -8207,12 +8479,14 @@
     "experimental",
     "pop",
     "house",
-    "techno"
+    "techno",
+    "reggaeton"
    ],
    "families": [
     "Techno",
     "House",
     "Électro & bass",
+    "Afro & latin",
     "Pop & club",
     "Expérimental"
    ],
@@ -8804,6 +9078,43 @@
    }
   },
   {
+   "id": "8c0cd92b7824",
+   "title": "Going Away Party: Deneb & Friends",
+   "venue_id": "nwhr",
+   "night": "2026-10-11",
+   "start": "2026-10-11T22:00:00.000",
+   "end": "2026-10-12T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "deneb",
+     "name": "Deneb",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2547826",
+   "event_url": "https://ra.co/events/2547826",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547826"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Deneb (0)",
+     "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "3b2c7dd049ea",
    "title": "All Day I Dream - Parc Jean-Drapeau",
    "venue_id": "parc-jean-drapeau",
@@ -8996,6 +9307,54 @@
     "reasons": [
      "tête d'affiche : N.I.N.E: Collision (8)",
      "lieu : Club Soda (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "2e78964d6b5d",
+   "title": "Panatekk: Laf Homme (NYC), Ekitwanda, Juju le Moko",
+   "venue_id": "bar-datcha",
+   "night": "2026-10-15",
+   "start": "2026-10-15T23:00:00.000",
+   "end": "2026-10-16T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ekitwanda",
+     "name": "Ekitwanda",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "juju-le-moko",
+     "name": "Juju le Moko",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "afro house",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2543204",
+   "event_url": "https://ra.co/events/2543204",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2543204"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ekitwanda (8)",
+     "lieu : Bar Datcha (palier 2)"
     ]
    }
   },
@@ -9408,6 +9767,58 @@
    }
   },
   {
+   "id": "68271de2fdea",
+   "title": "Bootlegger x MANHUNT After Party + Zine Launch",
+   "venue_id": "esc",
+   "night": "2026-10-16",
+   "start": "2026-10-16T22:00:00.000",
+   "end": "2026-10-17T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-pacifier",
+     "name": "DJ Pacifier",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "casa-kobrae",
+     "name": "Casa Kobrae",
+     "billing": "support"
+    },
+    {
+     "artist_id": "badgalquirit",
+     "name": "Badgalquirit",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "breakcore",
+    "reggaeton"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2547879",
+   "event_url": "https://ra.co/events/2547879",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547879"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Pacifier (0)",
+     "lieu : ESC (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "860af3426120",
    "title": "Ferias",
    "venue_id": "systeme",
@@ -9789,8 +10200,12 @@
      "billing": "support"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2544478",
@@ -9991,6 +10406,49 @@
     "reasons": [
      "tête d'affiche : LEAFY (0)",
      "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "834cb21d6cbf",
+   "title": "SPECIAL DAY PARTY: FELLA'S Q TIPS",
+   "venue_id": "vino-disco",
+   "night": "2026-10-17",
+   "start": "2026-10-17T12:00:00.000",
+   "end": "2026-10-17T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "special-day-party-fella-s-q-tips",
+     "name": "SPECIAL DAY PARTY: FELLA'S Q TIPS",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "funk / soul"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2547840",
+   "event_url": "https://ra.co/events/2547840",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547840"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SPECIAL DAY PARTY: FELLA'S Q TIPS (8)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -10393,8 +10851,8 @@
    }
   },
   {
-   "id": "b707e85b1a95",
-   "title": "G L O W Z I, Raylhem & Jey Syano",
+   "id": "ebc79f95e882",
+   "title": "RABOTEK: G L O W Z I, Raylhem, Jey Syano, DJ Prospekt",
    "venue_id": "bar-datcha",
    "night": "2026-10-22",
    "start": "2026-10-22T22:00:00.000",
@@ -10770,6 +11228,58 @@
     "reasons": [
      "tête d'affiche : Azyr (46)",
      "lieu : Sainte-Catherine Hall (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "357b8dd5b311",
+   "title": "Datcha NONSTOP: Ramzilla, Gi Gi, Tess Roby & Numa Gama",
+   "venue_id": "bar-datcha",
+   "night": "2026-10-23",
+   "start": "2026-10-23T23:00:00.000",
+   "end": "2026-10-24T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "gi-gi",
+     "name": "Gi Gi",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "tess-roby",
+     "name": "Tess Roby",
+     "billing": "support"
+    },
+    {
+     "artist_id": "numa-gama",
+     "name": "Numa Gama",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ramzilla",
+     "name": "Ramzilla",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2547790",
+   "event_url": "https://ra.co/events/2547790",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547790"
+    }
+   ],
+   "interest": {
+    "score": 34,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Gi Gi (30)",
+     "lieu : Bar Datcha (palier 2)"
     ]
    }
   },
@@ -11242,6 +11752,57 @@
    }
   },
   {
+   "id": "bd4343d73041",
+   "title": "NWHR Invites Volvox [NYC]",
+   "venue_id": "nwhr",
+   "night": "2026-10-24",
+   "start": "2026-10-24T22:00:00.000",
+   "end": "2026-10-25T08:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "h1bou",
+     "name": "h1bou",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "kris-tin",
+     "name": "Kris Tin",
+     "billing": "support"
+    },
+    {
+     "artist_id": "volvox",
+     "name": "Volvox",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2544233",
+   "event_url": "https://ra.co/events/2544233",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2544233"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : h1bou (8)",
+     "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "daa2271cc3f0",
    "title": "Source Material",
    "venue_id": "systeme",
@@ -11300,6 +11861,43 @@
    }
   },
   {
+   "id": "f7adfaa26936",
+   "title": "Subnoir: Yaya, Noel, Syana",
+   "venue_id": "bar-datcha",
+   "night": "2026-10-24",
+   "start": "2026-10-24T22:00:00.000",
+   "end": "2026-10-25T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "syana",
+     "name": "Syana",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2547795",
+   "event_url": "https://ra.co/events/2547795",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547795"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Syana (0)",
+     "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "92fd574f9ddd",
    "title": "Aguma + Safia Nihil + IRL + Element Kuuda - DOUBLE RELEASE PARTY",
    "venue_id": "white-wall-studio",
@@ -11343,47 +11941,6 @@
     "reasons": [
      "tête d'affiche : Aguma (0)",
      "lieu : White Wall Studio (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "bd4343d73041",
-   "title": "NWHR Invites Volvox [NYC]",
-   "venue_id": "nwhr",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00.000",
-   "end": "2026-10-25T08:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "volvox",
-     "name": "Volvox",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2544233",
-   "event_url": "https://ra.co/events/2544233",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544233"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Volvox (0)",
-     "lieu : NWHR (palier 1)"
     ]
    }
   },
@@ -11556,6 +12113,59 @@
     "reasons": [
      "tête d'affiche : THEMBA (63)",
      "lieu : New City Gas (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "881c3c0fcc7d",
+   "title": "DJ Frog, wetdogg, Nautiluss",
+   "venue_id": "bar-datcha",
+   "night": "2026-10-29",
+   "start": "2026-10-29T22:00:00.000",
+   "end": "2026-10-30T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-frog",
+     "name": "DJ Frog",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "nautiluss",
+     "name": "Nautiluss",
+     "billing": "support"
+    },
+    {
+     "artist_id": "wetdogg",
+     "name": "wetdogg",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "acid",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2547799",
+   "event_url": "https://ra.co/events/2547799",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547799"
+    }
+   ],
+   "interest": {
+    "score": 32,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Frog (28)",
+     "lieu : Bar Datcha (palier 2)"
     ]
    }
   },
@@ -12384,6 +12994,58 @@
     "reasons": [
      "tête d'affiche : Martial Canterel (18)",
      "lieu : Red Roof Church (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "074c2c4e5c23",
+   "title": "ApologIA - Slop Horror Edition // MTL Acid Coalition [100% Live Machines]",
+   "venue_id": "warehouse",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00.000",
+   "end": "2026-11-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "8h-sleep",
+     "name": "8h sleep",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "icky-magdala",
+     "name": "Icky Magdala",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mr-deraspe",
+     "name": "Mr.Deraspe",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "acid"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2547701",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547701"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : 8h sleep (8)",
+     "lieu : Lieu secret / Warehouse (palier 2)"
     ]
    }
   },
@@ -13952,6 +14614,57 @@
     "reasons": [
      "tête d'affiche : David Morales (69)",
      "lieu : Stereo (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "6557b62d4007",
+   "title": "Laylit #154 with Saliah (UK)",
+   "venue_id": "ausgang-plaza",
+   "night": "2026-11-28",
+   "start": "2026-11-28T22:00:00.000",
+   "end": "2026-11-29T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "nadim-maghzal",
+     "name": "Nadim Maghzal",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "saliah",
+     "name": "Saliah",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mnsa",
+     "name": "MNSA",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "club"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2547668",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2547668"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Nadim Maghzal (8)",
+     "lieu : Ausgang Plaza (palier 2)"
     ]
    }
   },
