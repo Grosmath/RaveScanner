@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-29T15:26:44Z",
+ "generated_at": "2026-09-30T00:16:25Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-09-29",
-  "end": "2027-03-28"
+  "start": "2026-09-30",
+  "end": "2027-03-29"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 214
+   "events": 216
   },
   {
    "id": "piknic",
@@ -24,12 +24,12 @@
   {
    "id": "new_city_gas",
    "ok": true,
-   "events": 134
+   "events": 135
   },
   {
    "id": "mtelus",
    "ok": true,
-   "events": 12
+   "events": 11
   },
   {
    "id": "ticketmaster",
@@ -72,11 +72,12 @@
   "warehouse",
   "le-balcon",
   "entrepots-dominion-les",
+  "les-7-doigts-de-la-main",
   "la-recre",
   "tba-down-by-the-water",
-  "sans-soleil",
   "theatre-paradoxe",
   "bain-mathieu",
+  "sans-soleil",
   "club-soda",
   "pangea",
   "red-roof-church",
@@ -89,12 +90,11 @@
   "cabaret-lion-d-or",
   "jaimee-sips",
   "le-ministere",
-  "les-7-doigts-de-la-main",
   "p-tit-ours",
   "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
   "van-horne-skatepark",
-  "usine-c",
   "le-lobby",
+  "usine-c",
   "white-wall-studio"
  ],
  "venues": [
@@ -757,6 +757,16 @@
   }
  ],
  "artists": [
+  {
+   "id": "1460bpm",
+   "name": "1460BPM",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
   {
    "id": "1tbsp",
    "name": "1tbsp",
@@ -1423,16 +1433,6 @@
    "known": false
   },
   {
-   "id": "bombata",
-   "name": "Bombata",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17803ca0f65185b7513406ffc04",
-   "known": false
-  },
-  {
    "id": "bonobo",
    "name": "Bonobo",
    "tier": 0,
@@ -1450,16 +1450,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "boy-harsher",
-   "name": "Boy Harsher",
-   "tier": 0,
-   "score": 75,
-   "popularity": 75,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178c49def2ad602ccd7e2caded6",
    "known": false
   },
   {
@@ -1590,16 +1580,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "choir-boy",
-   "name": "Choir Boy",
-   "tier": 0,
-   "score": 48,
-   "popularity": 48,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178e69ffb2c488738cc4d991582",
    "known": false
   },
   {
@@ -1893,6 +1873,16 @@
    "known": false
   },
   {
+   "id": "dax-j",
+   "name": "DAX J",
+   "tier": 0,
+   "score": 39,
+   "popularity": 39,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17835408d4300b440fae8465b07",
+   "known": false
+  },
+  {
    "id": "deep-dish",
    "name": "Deep Dish",
    "tier": 0,
@@ -2030,16 +2020,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048513c0f2fa56b61035fca61fe90",
-   "known": false
-  },
-  {
-   "id": "dj-ruru",
-   "name": "DJ RURU",
-   "tier": 0,
-   "score": 7,
-   "popularity": 7,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789ff7ac80a2f322b035d467bf",
    "known": false
   },
   {
@@ -2333,6 +2313,16 @@
    "known": false
   },
   {
+   "id": "esc",
+   "name": "ESC",
+   "tier": 0,
+   "score": 15,
+   "popularity": 15,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/b440ab821a3b785e17e5594304c95680/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "esme",
    "name": "esme (US)",
    "tier": 0,
@@ -2343,6 +2333,16 @@
    "known": false
   },
   {
+   "id": "esse-ran",
+   "name": "Esse Ran",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851a67e0ca0d596bd946391e6c8",
+   "known": false
+  },
+  {
    "id": "esther-cote",
    "name": "Esther Côté",
    "tier": 0,
@@ -2350,16 +2350,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "evanora-unlimited",
-   "name": "Evanora Unlimited",
-   "tier": 0,
-   "score": 45,
-   "popularity": 45,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1787c6ffe8481467005cc74e7d9",
    "known": false
   },
   {
@@ -2673,16 +2663,6 @@
    "known": false
   },
   {
-   "id": "grid",
-   "name": "Grid",
-   "tier": 0,
-   "score": 9,
-   "popularity": 9,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/0b46bbe84bfa5ca611440a5afc84e603/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "guthrie",
    "name": "Guthrie",
    "tier": 0,
@@ -2843,6 +2823,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "ian-asher",
+   "name": "IAN ASHER",
+   "tier": 0,
+   "score": 91,
+   "popularity": 91,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d187406161b028580b4903c1",
    "known": false
   },
   {
@@ -3645,6 +3635,16 @@
    "known": false
   },
   {
+   "id": "markus-suckut",
+   "name": "Markus Suckut",
+   "tier": 0,
+   "score": 18,
+   "popularity": 18,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178235789022269e039261304b8",
+   "known": false
+  },
+  {
    "id": "martial-canterel",
    "name": "Martial Canterel",
    "tier": 0,
@@ -4163,16 +4163,6 @@
    "known": false
   },
   {
-   "id": "octov-halloween-2026",
-   "name": "OCTOV - HALLOWEEN 2026",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "offshade-presents-clair-obscur",
    "name": "OFFSHADE presents: Clair Obscur",
    "tier": 0,
@@ -4630,6 +4620,16 @@
    "popularity": 22,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/55470b88a6fade57d633dc9af520493f/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "sarah-kay",
+   "name": "Sarah Kay",
+   "tier": 0,
+   "score": 1,
+   "popularity": 1,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485187d8a083892a83e57c0a775a",
    "known": false
   },
   {
@@ -5166,6 +5166,16 @@
    "known": false
   },
   {
+   "id": "ultreme",
+   "name": "Ultreme",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "usaybflow",
    "name": "Usaybflow",
    "tier": 0,
@@ -5346,16 +5356,6 @@
    "known": false
   },
   {
-   "id": "wiwa",
-   "name": "wiwa",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178c25de2d3146086a783453546",
-   "known": false
-  },
-  {
    "id": "wndrhs-day-rave-montreal-001",
    "name": "WNDRHS DAY RAVE MONTREAL 001",
    "tier": 0,
@@ -5487,185 +5487,6 @@
   }
  ],
  "events": [
-  {
-   "id": "f6a41e9f97c9",
-   "title": "BOY HARSHER - Montréal",
-   "venue_id": "mtelus",
-   "night": "2026-09-29",
-   "start": "2026-09-29T20:00:00.000",
-   "end": "2026-09-29T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "boy-harsher",
-     "name": "Boy Harsher",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "choir-boy",
-     "name": "Choir Boy",
-     "billing": "support"
-    },
-    {
-     "artist_id": "evanora-unlimited",
-     "name": "Evanora Unlimited",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064C58CF246FE?lang=fr-ca&brand=mtelus",
-   "event_url": "https://ra.co/events/2498583",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/NVzJZGABagINkjb1msCPd/de1460f249857a31e7ef373f15a484d7/boy-harsher.png",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2498583"
-    },
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/boy-harsher?code=e008602"
-    }
-   ],
-   "interest": {
-    "score": 60,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Boy Harsher (75)",
-     "lieu : MTELUS (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "68c2eed302ad",
-   "title": "5:14 Sessions with RURU [All Night Long]",
-   "venue_id": "le-red-room",
-   "night": "2026-09-29",
-   "start": "2026-09-29T22:00:00.000",
-   "end": "2026-09-30T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dj-ruru",
-     "name": "DJ RURU",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "acid"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2525397",
-   "event_url": "https://ra.co/events/2525397",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2525397"
-    }
-   ],
-   "interest": {
-    "score": 17,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DJ RURU (7)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "953833decdda",
-   "title": "Zik Selectors",
-   "venue_id": "sans-soleil",
-   "night": "2026-09-29",
-   "start": "2026-09-29T20:00:00.000",
-   "end": "2026-09-30T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "grid",
-     "name": "Grid",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "cidoine",
-     "name": "Cidoine",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "disco",
-    "funk / soul"
-   ],
-   "families": [
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2545084",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2545084"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Grid (9)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "a95e725e3118",
-   "title": "Berlin à Montréal",
-   "venue_id": "usine-c",
-   "night": "2026-09-29",
-   "start": "2026-09-29T20:00:00.000",
-   "end": "2026-09-29T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "bombata",
-     "name": "Bombata",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2544458",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544458"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Bombata (0)",
-     "lieu : Usine C (palier 1)"
-    ]
-   }
-  },
   {
    "id": "b51a8e31cbd4",
    "title": "DOWN2TECHNO [Every Wednesday]",
@@ -6173,65 +5994,6 @@
    }
   },
   {
-   "id": "8b50ffb90e31",
-   "title": "Virtual Riot & Blanke - Far From Home Tour",
-   "venue_id": "mtelus",
-   "night": "2026-10-02",
-   "start": "2026-10-02T22:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "virtual-riot",
-     "name": "Virtual Riot",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "blanke",
-     "name": "Blanke",
-     "billing": "support"
-    },
-    {
-     "artist_id": "future-exit",
-     "name": "Future Exit",
-     "billing": "support"
-    },
-    {
-     "artist_id": "aydo8",
-     "name": "AYDO8",
-     "billing": "support"
-    },
-    {
-     "artist_id": "mholy",
-     "name": "MHOLY",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/virtual-riot-blanke-far-from-home-montreal-quebec-10-02-2026/event/310064D278322940",
-   "event_url": "https://www.ticketmaster.ca/virtual-riot-blanke-far-from-home-montreal-quebec-10-02-2026/event/310064D278322940",
-   "image": "https://s1.ticketm.net/dam/a/6bf/d029e880-324b-4138-9150-7331553f06bf_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/virtual-riot-blanke-far-from-home-montreal-quebec-10-02-2026/event/310064D278322940"
-    }
-   ],
-   "interest": {
-    "score": 57,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Virtual Riot (70)",
-     "lieu : MTELUS (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "8eefc98b0df9",
    "title": "Laure Croft - Phil Berg",
    "venue_id": "stereo",
@@ -6387,7 +6149,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2548642",
    "event_url": "https://ra.co/events/2548642",
    "image": "",
    "status": "confirmed",
@@ -7651,6 +7413,52 @@
    }
   },
   {
+   "id": "2baf9f8ab1eb",
+   "title": "NWHR Invites Abel // ccil // Sarah Kay",
+   "venue_id": "nwhr",
+   "night": "2026-10-03",
+   "start": "2026-10-03T22:00:00.000",
+   "end": "2026-10-04T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ccil",
+     "name": "ccil",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "sarah-kay",
+     "name": "Sarah Kay",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2549023",
+   "event_url": "https://ra.co/events/2549023",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2549023"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ccil (8)",
+     "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "627b1dc8bab2",
    "title": "PWR HAUS",
    "venue_id": "blue-room",
@@ -7792,8 +7600,14 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "funk / soul",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
@@ -8024,7 +7838,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2548621",
    "event_url": "https://ra.co/events/2548621",
    "image": "",
    "status": "confirmed",
@@ -8242,7 +8056,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2548669",
    "event_url": "https://ra.co/events/2548669",
    "image": "",
    "status": "confirmed",
@@ -8603,6 +8417,53 @@
    }
   },
   {
+   "id": "7908271ce087",
+   "title": "1460BPM x ESC",
+   "venue_id": "esc",
+   "night": "2026-10-09",
+   "start": "2026-10-09T22:00:00.000",
+   "end": "2026-10-10T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "esc",
+     "name": "ESC",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "1460bpm",
+     "name": "1460BPM",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "industrial"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2549236",
+   "event_url": "https://ra.co/events/2549236",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2549236"
+    }
+   ],
+   "interest": {
+    "score": 23,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ESC (15)",
+     "lieu : ESC (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "15a200a4af9e",
    "title": "MashBit- Montréal",
    "venue_id": "newspeak",
@@ -8894,7 +8755,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2548679",
    "event_url": "https://ra.co/events/2548679",
    "image": "",
    "status": "confirmed",
@@ -9252,8 +9113,8 @@
     "electro",
     "experimental",
     "pop",
-    "house",
     "techno",
+    "house",
     "reggaeton"
    ],
    "families": [
@@ -9410,6 +9271,54 @@
     "reasons": [
      "tête d'affiche : SOULSHINE (13)",
      "lieu : TBA - Velours 323 Ontario Est Montréal  (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "07abe60222c3",
+   "title": "Vino Disco SATURDAY",
+   "venue_id": "vino-disco",
+   "night": "2026-10-10",
+   "start": "2026-10-10T20:00:00.000",
+   "end": "2026-10-11T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ultreme",
+     "name": "Ultreme",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "vibran",
+     "name": "VIBRAN",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "funk / soul"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2548685",
+   "event_url": "https://ra.co/events/2548685",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548685"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ultreme (8)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -10006,7 +9915,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2548633",
    "event_url": "https://ra.co/events/2548633",
    "image": "",
    "status": "confirmed",
@@ -10269,6 +10178,49 @@
     "reasons": [
      "tête d'affiche : Felix Patry (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "ff394273ad31",
+   "title": "Vino Disco THURSDAY",
+   "venue_id": "vino-disco",
+   "night": "2026-10-15",
+   "start": "2026-10-15T23:00:00.000",
+   "end": "2026-10-16T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vino-disco-thursday",
+     "name": "Vino Disco THURSDAY",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "funk / soul"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2548692",
+   "event_url": "https://ra.co/events/2548692",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548692"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Vino Disco THURSDAY (8)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -10766,6 +10718,49 @@
    }
   },
   {
+   "id": "9dbdc175ea17",
+   "title": "Vino Disco FRIDAY: Groovy Castle",
+   "venue_id": "vino-disco",
+   "night": "2026-10-16",
+   "start": "2026-10-16T23:00:00.000",
+   "end": "2026-10-17T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jean-pascal-groove",
+     "name": "Jean Pascal Groove",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "funk / soul"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2548702",
+   "event_url": "https://ra.co/events/2548702",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548702"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jean Pascal Groove (8)",
+     "lieu : Vino Disco (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8eb202ac78f0",
    "title": "Versatile",
    "venue_id": "le-lobby",
@@ -11110,6 +11105,54 @@
     "reasons": [
      "tête d'affiche : JASHIM (17)",
      "lieu : ESC (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "2b5aaab58df5",
+   "title": "Vino Disco SATURDAY EXTENDED",
+   "venue_id": "vino-disco",
+   "night": "2026-10-17",
+   "start": "2026-10-17T20:00:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "andie",
+     "name": "Andie",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "bolarinho",
+     "name": "Bolarinho",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "funk / soul"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2548713",
+   "event_url": "https://ra.co/events/2548713",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548713"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Andie (25)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -11706,7 +11749,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2548644",
    "event_url": "https://ra.co/events/2548644",
    "image": "",
    "status": "confirmed",
@@ -12717,11 +12760,6 @@
      "artist_id": "dante",
      "name": "DANTE (CA)",
      "billing": "support"
-    },
-    {
-     "artist_id": "wiwa",
-     "name": "wiwa",
-     "billing": "support"
     }
    ],
    "genres": [
@@ -13232,7 +13270,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2548662",
    "event_url": "https://ra.co/events/2548662",
    "image": "",
    "status": "confirmed",
@@ -14044,6 +14082,62 @@
    }
   },
   {
+   "id": "23052ec500a6",
+   "title": "OCTOV Halloween with DAX J",
+   "venue_id": "les-7-doigts-de-la-main",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:00:00.000",
+   "end": "2026-11-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dax-j",
+     "name": "DAX J",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "kris-tin",
+     "name": "Kris Tin",
+     "billing": "support"
+    },
+    {
+     "artist_id": "badgalquirit",
+     "name": "Badgalquirit",
+     "billing": "support"
+    },
+    {
+     "artist_id": "esse-ran",
+     "name": "Esse Ran",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2542511",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2542511"
+    }
+   ],
+   "interest": {
+    "score": 34,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DAX J (39)",
+     "lieu : Les 7 Doigts de la Main (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "35f63d3a3fb9",
    "title": "Ferias Halloween 'Til Sunrise",
    "venue_id": "tba-down-by-the-water",
@@ -14289,47 +14383,6 @@
     "reasons": [
      "tête d'affiche : 8h sleep (8)",
      "lieu : Lieu secret / Warehouse (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "6a3590a98ba4",
-   "title": "OCTOV - HALLOWEEN 2026",
-   "venue_id": "les-7-doigts-de-la-main",
-   "night": "2026-10-31",
-   "start": "2026-10-31T23:00:00.000",
-   "end": "2026-11-01T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "octov-halloween-2026",
-     "name": "OCTOV - HALLOWEEN 2026",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2542511",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2542511"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : OCTOV - HALLOWEEN 2026 (8)",
-     "lieu : Les 7 Doigts de la Main (palier 1)"
     ]
    }
   },
@@ -15682,6 +15735,43 @@
    }
   },
   {
+   "id": "1ada259b9fc8",
+   "title": "IAN ASHER",
+   "venue_id": "new-city-gas",
+   "night": "2026-11-27",
+   "start": "2026-11-27T22:00:00-05:00",
+   "end": "2026-11-28T03:00:00-05:00",
+   "lineup": [
+    {
+     "artist_id": "ian-asher",
+     "name": "IAN ASHER",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://newcitygas.com/event/ian-asher-208811/",
+   "event_url": "https://newcitygas.com/event/ian-asher-208811/",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/ian-asher-208811/"
+    }
+   ],
+   "interest": {
+    "score": 84,
+    "tier": 3,
+    "reasons": [
+     "tête d'affiche : IAN ASHER (91)",
+     "lieu : New City Gas (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "7a317ba02a0e",
    "title": "Bonobo",
    "venue_id": "mtelus",
@@ -16049,6 +16139,43 @@
    }
   },
   {
+   "id": "874f8f24188a",
+   "title": "Arder: Markus Suckut",
+   "venue_id": "nwhr",
+   "night": "2026-12-12",
+   "start": "2026-12-12T22:00:00.000",
+   "end": "2026-12-13T08:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "markus-suckut",
+     "name": "Markus Suckut",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548964",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548964"
+    }
+   ],
+   "interest": {
+    "score": 19,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Markus Suckut (18)",
+     "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "96617a3540ed",
    "title": "Virtual Riot & Blanke",
    "venue_id": "mtelus",
@@ -16069,6 +16196,11 @@
     {
      "artist_id": "future-exit",
      "name": "Future Exit",
+     "billing": "support"
+    },
+    {
+     "artist_id": "aydo8",
+     "name": "AYDO8",
      "billing": "support"
     },
     {
@@ -16096,10 +16228,14 @@
     {
      "id": "mtelus",
      "url": "https://evenko.ca/fr/evenements/mtelus/virtual-riot-blanke?code=e008671"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/virtual-riot-blanke-far-from-home-montreal-quebec-12-18-2026/event/310064D278322940"
     }
    ],
    "interest": {
-    "score": 56,
+    "score": 57,
     "tier": 2,
     "reasons": [
      "tête d'affiche : Virtual Riot (70)",
@@ -16711,6 +16847,13 @@
   }
  ],
  "announcements": [
+  {
+   "id": "1ada259b9fc8",
+   "name": "IAN ASHER",
+   "night": "2026-11-27",
+   "venue": "New City Gas",
+   "photo": "https://i.scdn.co/image/ab6761610000f178d187406161b028580b4903c1"
+  },
   {
    "id": "57443bdc7631",
    "name": "[DSTRKT] MISS MONIQUE",
