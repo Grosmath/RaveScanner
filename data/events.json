@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-09-30T00:16:25Z",
+ "generated_at": "2026-09-30T15:42:32Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 216
+   "events": 217
   },
   {
    "id": "piknic",
@@ -66,8 +66,8 @@
   "nwhr",
   "le-belmont",
   "tba-le-bateau-mouche",
-  "foufounes",
   "le-red-room",
+  "foufounes",
   "l-escogriffe-bar-spectacle",
   "warehouse",
   "le-balcon",
@@ -2373,6 +2373,16 @@
    "known": false
   },
   {
+   "id": "explore",
+   "name": "Explore",
+   "tier": 0,
+   "score": 18,
+   "popularity": 18,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/34ebe40ad97d40f1d7f24994a15ed92f/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "exzald-s",
    "name": "Exzald S",
    "tier": 0,
@@ -3374,6 +3384,16 @@
   {
    "id": "lbd-tom-cardeli",
    "name": "LBD: Tom Cardeli (All Night Long)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "le-red-room-no-cut-november",
+   "name": "Le Red Room - No Cut November",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -15731,6 +15751,54 @@
     "reasons": [
      "tête d'affiche : Arder: (0)",
      "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "1d77fff8b9e1",
+   "title": "Explore x Le Red Room - No Cut November",
+   "venue_id": "le-red-room",
+   "night": "2026-11-26",
+   "start": "2026-11-26T22:00:00.000",
+   "end": "2026-11-27T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "explore",
+     "name": "Explore",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "le-red-room-no-cut-november",
+     "name": "Le Red Room - No Cut November",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "gabber"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2549283",
+   "event_url": "https://ra.co/events/2549283",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2549283"
+    }
+   ],
+   "interest": {
+    "score": 25,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Explore (18)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
