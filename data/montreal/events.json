@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-01T16:04:12Z",
+ "generated_at": "2026-10-02T00:38:06Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-10-01",
-  "end": "2027-03-30"
+  "start": "2026-10-02",
+  "end": "2027-03-31"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 225
+   "events": 220
   },
   {
    "id": "piknic",
@@ -55,25 +55,26 @@
   "theatre-beanfield",
   "grand-quai",
   "grand-quai-du-port-de-montreal",
-  "salon-daome",
   "olympia",
+  "salon-daome",
   "igloofest",
   "bar-datcha",
   "systeme",
-  "vino-disco",
-  "esc",
   "sainte-catherine-hall",
+  "vino-disco",
   "nwhr",
   "le-belmont",
   "tba-le-bateau-mouche",
   "foufounes",
+  "belvedere-du-centre-des-sciences-de-montreal",
+  "esc",
   "l-escogriffe-bar-spectacle",
   "le-red-room",
   "warehouse",
   "le-balcon",
+  "la-recre",
   "entrepots-dominion-les",
   "les-7-doigts-de-la-main",
-  "la-recre",
   "tba-down-by-the-water",
   "theatre-paradoxe",
   "bain-mathieu",
@@ -94,7 +95,6 @@
   "le-ministere",
   "p-tit-ours",
   "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
-  "van-horne-skatepark",
   "le-lobby",
   "usine-c",
   "white-wall-studio"
@@ -151,6 +151,16 @@
   {
    "id": "barbossa",
    "name": "Barbossa",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "belvedere-du-centre-des-sciences-de-montreal",
+   "name": "Belvedere du Centre Des Sciences de Montréal",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -725,16 +735,6 @@
    "genres": []
   },
   {
-   "id": "van-horne-skatepark",
-   "name": "Van Horne Skatepark",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "vino-disco",
    "name": "Vino Disco",
    "type": "club",
@@ -857,16 +857,6 @@
    "popularity": 24,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c2ff4c7f2723eac700ce95ca",
-   "known": false
-  },
-  {
-   "id": "abel-aiff",
-   "name": "abel.aiff",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1765,16 +1755,6 @@
    "known": false
   },
   {
-   "id": "container",
-   "name": "Container",
-   "tier": 0,
-   "score": 11,
-   "popularity": 11,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178078fe34b9df4f85c2ba86a9a",
-   "known": false
-  },
-  {
    "id": "cori",
    "name": "cori",
    "tier": 0,
@@ -1885,6 +1865,16 @@
    "known": false
   },
   {
+   "id": "dana-vicci",
+   "name": "Dana Vicci",
+   "tier": 0,
+   "score": 40,
+   "popularity": 40,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788de2b736afdf30914165abf1",
+   "known": false
+  },
+  {
    "id": "dance-now-america",
    "name": "Dance Now America",
    "tier": 0,
@@ -1982,6 +1972,16 @@
    "popularity": 48,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178edbdcbcf9aa779e06f8142dd",
+   "known": false
+  },
+  {
+   "id": "demuir",
+   "name": "Demuir",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c9070dc95393b2cf6336405b",
    "known": false
   },
   {
@@ -2585,26 +2585,6 @@
    "known": false
   },
   {
-   "id": "festival-mapp-2026",
-   "name": "Festival MAPP 2026",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "fete-de-quartier-numerique",
-   "name": "FÊTE DE QUARTIER NUMÉRIQUE",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "flleur",
    "name": "Flleur",
    "tier": 0,
@@ -2752,16 +2732,6 @@
    "popularity": 30,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788804ea06df701a052245fac8",
-   "known": false
-  },
-  {
-   "id": "gloorp",
-   "name": "Gloorp",
-   "tier": 0,
-   "score": 9,
-   "popularity": 9,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178f2b317f2a957f42e704deefe",
    "known": false
   },
   {
@@ -2968,16 +2938,6 @@
    "known": true
   },
   {
-   "id": "iamnotmyhistory",
-   "name": "IAMNOTMYHISTORY",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "ian-asher",
    "name": "IAN ASHER",
    "tier": 0,
@@ -3030,16 +2990,6 @@
   {
    "id": "infiltr",
    "name": "InFiltr",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "isa-boom",
-   "name": "Isa Boom",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3351,16 +3301,6 @@
    "known": false
   },
   {
-   "id": "kill-alters",
-   "name": "Kill Alters",
-   "tier": 0,
-   "score": 19,
-   "popularity": 19,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178cbb51c0ca3cffe8d3b34beee",
-   "known": false
-  },
-  {
    "id": "king-shiloh",
    "name": "King Shiloh",
    "tier": 0,
@@ -3378,6 +3318,16 @@
    "popularity": 45,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784630dd236b2981d7033efce1",
+   "known": false
+  },
+  {
+   "id": "kola",
+   "name": "KOLA",
+   "tier": 0,
+   "score": 54,
+   "popularity": 54,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17818f25961972748fe0b7d3e15",
    "known": false
   },
   {
@@ -3681,6 +3631,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485114bcf1de94bb7c2103a9c807",
+   "known": false
+  },
+  {
+   "id": "loops",
+   "name": "Loops",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4200,16 +4160,6 @@
    "known": false
   },
   {
-   "id": "namanariii",
-   "name": "namanariii",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "nautiluss",
    "name": "Nautiluss",
    "tier": 0,
@@ -4572,16 +4522,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d84baf6caacb3cb30e35bbb3",
-   "known": false
-  },
-  {
-   "id": "pretty-privilege",
-   "name": "Pretty Privilege",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851d2f3e23dcf1551ec98c91921",
    "known": false
   },
   {
@@ -5318,16 +5258,6 @@
    "known": false
   },
   {
-   "id": "tom-marsi",
-   "name": "Tom Marsi",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851bdac6e5d702073200ca40a93",
-   "known": false
-  },
-  {
    "id": "tommy-fleece-montreal",
    "name": "Tommy Fleece - Montréal",
    "tier": 0,
@@ -5415,6 +5345,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "us",
+   "name": "Us",
+   "tier": 0,
+   "score": 25,
+   "popularity": 25,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/08d366fe8f258a68e38dae9072c5dd14/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5560,6 +5500,16 @@
   {
    "id": "waterfront-7-techno-crudo",
    "name": "Waterfront #7: TECHNO CRUDO",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "webz-syncotpath-collective-launch-party",
+   "name": "WEBZ - Syncotpath Collective Launch Party",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5759,344 +5709,6 @@
   }
  ],
  "events": [
-  {
-   "id": "ddebda77cf94",
-   "title": "Tangerine",
-   "venue_id": "esc",
-   "night": "2026-10-01",
-   "start": "2026-10-01T22:00:00.000",
-   "end": "2026-10-02T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "hydra",
-     "name": "hÿdra",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "abel-aiff",
-     "name": "abel.aiff",
-     "billing": "support"
-    },
-    {
-     "artist_id": "namanariii",
-     "name": "namanariii",
-     "billing": "support"
-    },
-    {
-     "artist_id": "pretty-privilege",
-     "name": "Pretty Privilege",
-     "billing": "support"
-    },
-    {
-     "artist_id": "tom-marsi",
-     "name": "Tom Marsi",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2544212",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544212"
-    }
-   ],
-   "interest": {
-    "score": 42,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : hÿdra (42)",
-     "lieu : ESC (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "9233abed63fb",
-   "title": "Vino Disco THURSDAY",
-   "venue_id": "vino-disco",
-   "night": "2026-10-01",
-   "start": "2026-10-01T20:00:00.000",
-   "end": "2026-10-02T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "manuel-falardeau",
-     "name": "Manuel Falardeau",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "funk / soul"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2547626",
-   "event_url": "https://ra.co/events/2547626",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2547626"
-    }
-   ],
-   "interest": {
-    "score": 35,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Manuel Falardeau (40)",
-     "lieu : Vino Disco (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "79ec545844cf",
-   "title": "Flytz, BACKSPIN, YVNNI",
-   "venue_id": "salon-daome",
-   "night": "2026-10-01",
-   "start": "2026-10-01T22:30:00.000",
-   "end": "2026-10-04T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "flytz",
-     "name": "Flytz",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "yvnni",
-     "name": "YVNNI",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "funk / soul"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2550181",
-   "event_url": "https://ra.co/events/2550181",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2550181"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2550181"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2550181"
-    }
-   ],
-   "interest": {
-    "score": 27,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Flytz (21)",
-     "lieu : Salon Daome (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "1947701c46e3",
-   "title": "Container [LIVE] avec/ KILL ALTERS [LIVE], NURSE [DJ SET] & Gloorp",
-   "venue_id": "systeme",
-   "night": "2026-10-01",
-   "start": "2026-10-01T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "kill-alters",
-     "name": "Kill Alters",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "container",
-     "name": "Container",
-     "billing": "support"
-    },
-    {
-     "artist_id": "gloorp",
-     "name": "Gloorp",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/container-live-avec-kill-alters-live-montreal-quebec-10-01-2026/event/310064FBF142C0EC",
-   "event_url": "https://www.ticketmaster.ca/container-live-avec-kill-alters-live-montreal-quebec-10-01-2026/event/310064FBF142C0EC",
-   "image": "https://s1.ticketm.net/dam/e/21a/5c7b8b31-adf9-4676-988b-89f08e51821a_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/container-live-avec-kill-alters-live-montreal-quebec-10-01-2026/event/310064FBF142C0EC"
-    }
-   ],
-   "interest": {
-    "score": 20,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Kill Alters (19)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "329b85b2a1fe",
-   "title": "Minzi Roberta, Isa Boom & Noel",
-   "venue_id": "bar-datcha",
-   "night": "2026-10-01",
-   "start": "2026-10-01T22:00:00.000",
-   "end": "2026-10-02T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "isa-boom",
-     "name": "Isa Boom",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2543200",
-   "event_url": "https://ra.co/events/2543200",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2543200"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Isa Boom (8)",
-     "lieu : Bar Datcha (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "413bf3059124",
-   "title": "FÊTE DE QUARTIER NUMÉRIQUE | Festival MAPP 2026",
-   "venue_id": "van-horne-skatepark",
-   "night": "2026-10-01",
-   "start": "2026-10-01T17:00:00.000",
-   "end": "2026-10-03T22:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "fete-de-quartier-numerique",
-     "name": "FÊTE DE QUARTIER NUMÉRIQUE",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "festival-mapp-2026",
-     "name": "Festival MAPP 2026",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2504538",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2504538"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2504538"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2504538"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : FÊTE DE QUARTIER NUMÉRIQUE (8)",
-     "lieu : Van Horne Skatepark (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "efbbb4e8dbce",
-   "title": "SONIC ODYSSEY",
-   "venue_id": "systeme",
-   "night": "2026-10-01",
-   "start": "2026-10-01T23:00:00.000",
-   "end": "2026-10-02T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "g-l-o-w-z-i",
-     "name": "G L O W Z I",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "iamnotmyhistory",
-     "name": "IAMNOTMYHISTORY",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2542094",
-   "event_url": "https://ra.co/events/2542094",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2542094"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : G L O W Z I (8)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
   {
    "id": "845d6fdbf169",
    "title": "Gordo - Parc Jean-Drapeau",
@@ -6869,6 +6481,49 @@
     "reasons": [
      "tête d'affiche : Syd Woz (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "09e69d88450d",
+   "title": "WEBZ - Syncotpath Collective Launch Party",
+   "venue_id": "la-recre",
+   "night": "2026-10-02",
+   "start": "2026-10-02T18:00:00.000",
+   "end": "2026-10-03T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "webz-syncotpath-collective-launch-party",
+     "name": "WEBZ - Syncotpath Collective Launch Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "drum & bass",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2551294",
+   "event_url": "https://ra.co/events/2551294",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2551294"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : WEBZ - Syncotpath Collective Launch Party (8)",
+     "lieu : La Récré (palier 1)"
     ]
    }
   },
@@ -9334,6 +8989,11 @@
      "artist_id": "restricted",
      "name": "Restricted",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "dana-vicci",
+     "name": "Dana Vicci",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -10074,6 +9734,69 @@
     "reasons": [
      "tête d'affiche : Ivy Lab (50)",
      "lieu : Le Belmont (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "648293277b49",
+   "title": "DISCOTHEQUE HALLS II",
+   "venue_id": "belvedere-du-centre-des-sciences-de-montreal",
+   "night": "2026-10-11",
+   "start": "2026-10-11T18:00:00.000",
+   "end": "2026-10-12T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "kola",
+     "name": "KOLA",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "demuir",
+     "name": "Demuir",
+     "billing": "support"
+    },
+    {
+     "artist_id": "us",
+     "name": "Us",
+     "billing": "support"
+    },
+    {
+     "artist_id": "loops",
+     "name": "Loops",
+     "billing": "support"
+    },
+    {
+     "artist_id": "bolarinho",
+     "name": "Bolarinho",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2551471",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2551471"
+    }
+   ],
+   "interest": {
+    "score": 45,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : KOLA (54)",
+     "lieu : Belvedere du Centre Des Sciences de Montréal (palier 1)"
     ]
    }
   },
@@ -14942,6 +14665,11 @@
      "artist_id": "scott-grooves",
      "name": "Scott Grooves",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "ferias",
+     "name": "Ferias",
+     "billing": "support"
     },
     {
      "artist_id": "lia-plutonic",
