@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-03T14:10:32Z",
+ "generated_at": "2026-10-03T23:43:01Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 405
+   "events": 417
   },
   {
    "id": "dice",
@@ -103,6 +103,7 @@
   "la-marbrerie",
   "bourse-de-commerce-pinault-collection",
   "communale-saint-ouen",
+  "amaluna-paris",
   "nonsense",
   "tba-warehouse-st-denis",
   "la-peniche-cinema",
@@ -111,6 +112,7 @@
   "le-gambetta-club",
   "le-klub",
   "tba-le-tlm-paris-105-rue-curial-75019-paris",
+  "auber-garden",
   "bizz-art",
   "brasserie-gallia",
   "canal-93",
@@ -123,6 +125,7 @@
   "larocafe",
   "le-9b",
   "le-cafe-de-la-danse",
+  "le-chinois",
   "le-discobar",
   "le-flow-paris",
   "les-lionnes",
@@ -135,6 +138,7 @@
   "tba-secret-place",
   "the-art-cafe",
   "wanderlust",
+  "jardin-des-traverses",
   "la-maz",
   "la-rotonde",
   "le-black-dog",
@@ -183,6 +187,26 @@
     "mainstream",
     "electronic"
    ]
+  },
+  {
+   "id": "amaluna-paris",
+   "name": "Amaluna Paris",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "auber-garden",
+   "name": "Auber Garden",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "babour-sauvage",
@@ -453,6 +477,16 @@
     "bass",
     "dub"
    ]
+  },
+  {
+   "id": "jardin-des-traverses",
+   "name": "Jardin des Traverses",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "kilometre25",
@@ -749,6 +783,16 @@
   {
    "id": "le-cafe-de-la-danse",
    "name": "Le Café De La Danse",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "le-chinois",
+   "name": "Le Chinois",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -2363,6 +2407,16 @@
    "known": false
   },
   {
+   "id": "beau-mot-plage",
+   "name": "BEAU MOT PLAGE",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "bella-claxton",
    "name": "Bella Claxton",
    "tier": 0,
@@ -2712,6 +2766,26 @@
    "popularity": 32,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178eee82666c09ba619bc934e47",
+   "known": false
+  },
+  {
+   "id": "caribbean-halloween-party",
+   "name": "Caribbean Halloween Party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "carin-kelly",
+   "name": "carin kelly",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851f3d555c7484c4c7784359744",
    "known": false
   },
   {
@@ -4015,6 +4089,16 @@
    "known": false
   },
   {
+   "id": "enzo-leep",
+   "name": "Enzo Leep",
+   "tier": 0,
+   "score": 14,
+   "popularity": 14,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e248c92d0effa65171b841f2",
+   "known": false
+  },
+  {
    "id": "equus-belli",
    "name": "Equus Belli",
    "tier": 0,
@@ -4958,6 +5042,16 @@
    "known": false
   },
   {
+   "id": "human-aventura",
+   "name": "Human Aventura (live)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "hyper-sam",
    "name": "Hyper Sam",
    "tier": 0,
@@ -5015,6 +5109,16 @@
    "popularity": 59,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784a2093aea0f22a6a12e37576",
+   "known": false
+  },
+  {
+   "id": "in-aerem",
+   "name": "in aerem",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5135,6 +5239,16 @@
    "popularity": 43,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178fd14920e0eff08b195e6f077",
+   "known": false
+  },
+  {
+   "id": "jacky-jeane",
+   "name": "Jacky Jeane",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851a9e7b3ec0c0b8e3a4a76e6e6",
    "known": false
   },
   {
@@ -7739,6 +7853,16 @@
    "known": false
   },
   {
+   "id": "open-air-kdkol",
+   "name": "OPEN AIR: KDKOL",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "oph",
    "name": "OPH",
    "tier": 0,
@@ -8749,6 +8873,16 @@
    "known": false
   },
   {
+   "id": "shattaween-afro",
+   "name": "Shattaween - Afro",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "shdw",
    "name": "SHDW",
    "tier": 0,
@@ -8816,6 +8950,16 @@
    "popularity": 34,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b513e1fd0a37faa2f2951b84",
+   "known": false
+  },
+  {
+   "id": "sideratio2-2nd-ep-les-ratz",
+   "name": "SIDERATIO² - 2nd Ep: Les Ratz",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -12012,6 +12156,87 @@
     "reasons": [
      "tête d'affiche : La Felicita VINYL CLUB 2 (8)",
      "lieu : La Felicita (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "42230214f13c",
+   "title": "OPEN AIR: KDKOL, in aerem, BEAU MOT PLAGE",
+   "venue_id": "auber-garden",
+   "night": "2026-10-03",
+   "start": "2026-10-03T15:00:00.000",
+   "end": "2026-10-11T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "open-air-kdkol",
+     "name": "OPEN AIR: KDKOL",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "in-aerem",
+     "name": "in aerem",
+     "billing": "support"
+    },
+    {
+     "artist_id": "beau-mot-plage",
+     "name": "BEAU MOT PLAGE",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2552282",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552282"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552282"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552282"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552282"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552282"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552282"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552282"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552282"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : OPEN AIR: KDKOL (8)",
+     "lieu : Auber Garden (palier 1)"
     ]
    }
   },
@@ -16708,6 +16933,54 @@
    }
   },
   {
+   "id": "bf6bc52c9260",
+   "title": "SIDERATIO² - 2nd Ep: Les Ratz & Human Aventura (live)",
+   "venue_id": "amaluna-paris",
+   "night": "2026-10-10",
+   "start": "2026-10-10T19:00:00.000",
+   "end": "2026-10-11T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sideratio2-2nd-ep-les-ratz",
+     "name": "SIDERATIO² - 2nd Ep: Les Ratz",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "human-aventura",
+     "name": "Human Aventura (live)",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2552589",
+   "event_url": "https://ra.co/events/2552589",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552589"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SIDERATIO² - 2nd Ep: Les Ratz (8)",
+     "lieu : Amaluna Paris (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "725f079b3c22",
    "title": "TRANSGENIK",
    "venue_id": "fvtvr",
@@ -20154,6 +20427,54 @@
     "reasons": [
      "tête d'affiche : SATSUMA SOUNDS (8)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "5e0a49ad873d",
+   "title": "Closing • Jardin des Traverses",
+   "venue_id": "jardin-des-traverses",
+   "night": "2026-10-17",
+   "start": "2026-10-17T15:00:00.000",
+   "end": "2026-10-18T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "carin-kelly",
+     "name": "carin kelly",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "jacky-jeane",
+     "name": "Jacky Jeane",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "bass"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2552539",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552539"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : carin kelly (0)",
+     "lieu : Jardin des Traverses (palier 1)"
     ]
    }
   },
@@ -25117,6 +25438,53 @@
    }
   },
   {
+   "id": "0f84f4b02742",
+   "title": "Shattaween - Afro & Caribbean Halloween Party",
+   "venue_id": "le-chinois",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:30:00.000",
+   "end": "2026-11-01T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "shattaween-afro",
+     "name": "Shattaween - Afro",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "caribbean-halloween-party",
+     "name": "Caribbean Halloween Party",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "dancehall",
+    "afrobeats"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2552415",
+   "event_url": "https://ra.co/events/2552415",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552415"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Shattaween - Afro (8)",
+     "lieu : Le Chinois (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "05a2d7028505",
    "title": "Promesses",
    "venue_id": "le-poisson-volant",
@@ -26258,6 +26626,49 @@
     "reasons": [
      "tête d'affiche : Antal (31)",
      "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "3c09d45d8d20",
+   "title": "SIDERATIO² | 3rd Ep: Enzo Leep & Residents",
+   "venue_id": "amaluna-paris",
+   "night": "2026-11-07",
+   "start": "2026-11-07T19:00:00.000",
+   "end": "2026-11-08T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "enzo-leep",
+     "name": "Enzo Leep",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2552595",
+   "event_url": "https://ra.co/events/2552595",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2552595"
+    }
+   ],
+   "interest": {
+    "score": 16,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Enzo Leep (14)",
+     "lieu : Amaluna Paris (palier 1)"
     ]
    }
   },
