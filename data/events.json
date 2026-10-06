@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-06T01:42:50Z",
+ "generated_at": "2026-10-06T15:44:09Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 212
+   "events": 213
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 41
+   "events": 42
   }
  ],
  "venue_order": [
@@ -89,6 +89,7 @@
   "amir-mont-royal",
   "tba-velours-323-ontario-est-montreal",
   "tba-location-sent-to-tix-holders-on-day-of-event",
+  "barbossa",
   "cabaret-berlin",
   "cabaret-lion-d-or",
   "le-ministere",
@@ -150,6 +151,16 @@
     "techno",
     "disco"
    ]
+  },
+  {
+   "id": "barbossa",
+   "name": "Barbossa",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "belvedere-du-centre-des-sciences-de-montreal",
@@ -1355,6 +1366,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "biscits",
+   "name": "Biscits",
+   "tier": 0,
+   "score": 66,
+   "popularity": 66,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785f75c98f9a42bd59b3b66d66",
    "known": false
   },
   {
@@ -6218,8 +6239,8 @@
    ],
    "genres": [
     "house",
-    "baile funk",
-    "hip-hop"
+    "hip-hop",
+    "baile funk"
    ],
    "families": [
     "House",
@@ -6549,6 +6570,49 @@
     "reasons": [
      "tête d'affiche : Marco Weibel (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "fe19b41ee315",
+   "title": "L'affaire",
+   "venue_id": "barbossa",
+   "night": "2026-10-09",
+   "start": "2026-10-09T20:30:00.000",
+   "end": "2026-10-10T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bell-pierre",
+     "name": "bell.pierre",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electro",
+    "experimental"
+   ],
+   "families": [
+    "Électro & bass",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2553685",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2553685"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : bell.pierre (8)",
+     "lieu : Barbossa (palier 1)"
     ]
    }
   },
@@ -8328,7 +8392,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2552897",
    "event_url": "https://ra.co/events/2552897",
    "image": "",
    "status": "confirmed",
@@ -15002,6 +15066,45 @@
    }
   },
   {
+   "id": "d7179276bb66",
+   "title": "Biscits",
+   "venue_id": "newspeak",
+   "night": "2026-11-13",
+   "start": "2026-11-13T23:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "biscits",
+     "name": "Biscits",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.universe.com/events/biscits-tickets-VFGDT8?ref=ticketmaster",
+   "event_url": "https://www.universe.com/events/biscits-tickets-VFGDT8?ref=ticketmaster",
+   "image": "https://s1.ticketm.net/dam/a/c2d/bb03b8a4-2b1c-494c-8e45-a6dc50dddc2d_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.universe.com/events/biscits-tickets-VFGDT8?ref=ticketmaster"
+    }
+   ],
+   "interest": {
+    "score": 60,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Biscits (66)",
+     "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "9399b885665b",
    "title": "Cannelle - Montréal",
    "venue_id": "theatre-fairmount",
@@ -16852,6 +16955,13 @@
    "night": "2026-10-12",
    "venue": "Piknic Electronik",
    "photo": "https://i.scdn.co/image/ab6761610000f178297f39098d938742df8f81c7"
+  },
+  {
+   "id": "d7179276bb66",
+   "name": "Biscits",
+   "night": "2026-11-13",
+   "venue": "Newspeak",
+   "photo": "https://i.scdn.co/image/ab6761610000f1785f75c98f9a42bd59b3b66d66"
   }
  ],
  "families": [
