@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-05T18:02:56Z",
+ "generated_at": "2026-10-06T01:44:13Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-10-05",
-  "end": "2027-04-03"
+  "start": "2026-10-06",
+  "end": "2027-04-04"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 380
+   "events": 376
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 53
+   "events": 54
   }
  ],
  "venue_order": [
@@ -47,12 +47,13 @@
   "42-marches",
   "elysee-montmartre",
   "le-trabendo",
-  "lieu-secret-paris",
   "la-boule-noire",
   "kilometre25",
+  "palais-brongniart",
   "parc-des-expositions",
   "cite-de-la-musique",
   "zenith-paris-la-villette",
+  "lieu-secret-paris",
   "la-cigale",
   "magasins-generaux",
   "espace-bertrand-grimont",
@@ -966,6 +967,16 @@
    "genres": [
     "electronic"
    ]
+  },
+  {
+   "id": "palais-brongniart",
+   "name": "Palais Brongniart",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "pamela-club",
@@ -2352,16 +2363,6 @@
    "popularity": 7,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/6ffa77b4c3b301bb9ab0260fbab382f8/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "bud-1",
-   "name": "BUD (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -5378,16 +5379,6 @@
    "known": false
   },
   {
-   "id": "killoverjoy",
-   "name": "Killoverjoy",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "kim-swim",
    "name": "KIM SWIM",
    "tier": 0,
@@ -5590,6 +5581,16 @@
   {
    "id": "la-ch-ck-reggaeton-allstars-revival",
    "name": "LA CH!CK: REGGAETON ALLSTARS REVIVAL",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "la-scarlette",
+   "name": "LA SCARLETTE",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -8373,6 +8374,16 @@
    "known": false
   },
   {
+   "id": "stargurlrituals-the-freakshow",
+   "name": "StargurlRituals : The FreakShow",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "status",
    "name": "Status",
    "tier": 0,
@@ -9527,89 +9538,6 @@
   }
  ],
  "events": [
-  {
-   "id": "0869c091b927",
-   "title": "Core W/ Acafly , Bud , Killoverjoy",
-   "venue_id": "studio56",
-   "night": "2026-10-05",
-   "start": "2026-10-05T23:59:00.000",
-   "end": "2026-10-06T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "bud-1",
-     "name": "BUD (1)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "killoverjoy",
-     "name": "Killoverjoy",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2552854",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552854"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : BUD (1) (8)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "b0dd1fab8b23",
-   "title": "Acid Oslo ALL NIGHT LONG",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-10-05",
-   "start": "2026-10-05T23:59:00.000",
-   "end": "2026-10-06T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "acid-oslo",
-     "name": "Acid Oslo",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2546452",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546452"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Acid Oslo (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
   {
    "id": "9b937003ee03",
    "title": "BCUC",
@@ -21638,6 +21566,68 @@
    }
   },
   {
+   "id": "36bfc7576f70",
+   "title": "LA SCARLETTE x stargurlRituals: The FreakShow",
+   "venue_id": "point-ephemere",
+   "night": "2026-10-30",
+   "start": "2026-10-30T23:00:00.000",
+   "end": "2026-10-31T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-scarlette",
+     "name": "LA SCARLETTE",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "stargurlrituals-the-freakshow",
+     "name": "StargurlRituals : The FreakShow",
+     "billing": "support"
+    },
+    {
+     "artist_id": "stargurl",
+     "name": "stargurl",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dj-koyla",
+     "name": "Dj Koyla",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": 12.42,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2553464",
+   "event_url": "https://ra.co/events/2553464",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-05/90553e90-36a6-48aa-9b2e-8e0bbd121e7f.jpg?rect=0%2C0%2C1000%2C1000",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2553464"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/g5vg7b-la-scarlette-x-stargurlrituals-the-freakshow-30th-oct-point-ephmre-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA SCARLETTE (8)",
+     "lieu : Point Ephémère (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "2c174cb281a7",
    "title": "PARITIES",
    "venue_id": "panic-room",
@@ -21677,54 +21667,6 @@
     "reasons": [
      "tête d'affiche : PARITIES (8)",
      "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "36bfc7576f70",
-   "title": "LA SCARLETTE x stargurlRituals: The FreakShow",
-   "venue_id": "point-ephemere",
-   "night": "2026-10-30",
-   "start": "2026-10-30T23:00:00.000",
-   "end": "2026-10-31T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "stargurl",
-     "name": "stargurl",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "dj-koyla",
-     "name": "Dj Koyla",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "trance",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2553464",
-   "event_url": "https://ra.co/events/2553464",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2553464"
-    }
-   ],
-   "interest": {
-    "score": 10,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : stargurl (6)",
-     "lieu : Point Ephémère (palier 1)"
     ]
    }
   },
@@ -21791,9 +21733,9 @@
    }
   },
   {
-   "id": "0748b6980be6",
-   "title": "BABYLON HALLOWEEN - MARTEN LOU",
-   "venue_id": "lieu-secret-paris",
+   "id": "6ffcbf99e721",
+   "title": "BABYLON HALLOWEEN - MARTEN LOU @PALAIS BRONGNIART",
+   "venue_id": "palais-brongniart",
    "night": "2026-10-31",
    "start": "2026-10-31T22:00:00+01:00",
    "end": "2026-11-01T05:30:00+01:00",
@@ -21810,14 +21752,14 @@
    "families": [],
    "price_min": 26.5,
    "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-31st-oct-lieu-secret-paris-paris-tickets",
-   "event_url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-31st-oct-lieu-secret-paris-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-25/28c60d5f-847f-4fd4-8dad-45b7e746beab.jpg?rect=0%2C0%2C1080%2C1080",
+   "ticket_url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-palais-brongniart-31st-oct-palais-brongniart-paris-tickets",
+   "event_url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-palais-brongniart-31st-oct-palais-brongniart-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-05/9fd26016-a578-4c3a-9d1a-535a9e143c19.jpg?rect=0%2C0%2C4500%2C4500",
    "status": "confirmed",
    "sources": [
     {
      "id": "dice",
-     "url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-31st-oct-lieu-secret-paris-paris-tickets"
+     "url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-palais-brongniart-31st-oct-palais-brongniart-paris-tickets"
     }
    ],
    "interest": {
@@ -21825,7 +21767,7 @@
     "tier": 2,
     "reasons": [
      "tête d'affiche : Marten Lou (76)",
-     "lieu : Lieu Secret, Paris (palier 1)"
+     "lieu : Palais Brongniart (palier 1)"
     ]
    }
   },
@@ -27744,6 +27686,13 @@
   }
  ],
  "announcements": [
+  {
+   "id": "6ffcbf99e721",
+   "name": "Marten Lou",
+   "night": "2026-10-31",
+   "venue": "Palais Brongniart",
+   "photo": "https://i.scdn.co/image/ab6761610000f178973d5456d874142c2404a853"
+  },
   {
    "id": "566346335d74",
    "name": "Oklou",
