@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-06T15:45:04Z",
+ "generated_at": "2026-10-07T00:33:29Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-10-06",
-  "end": "2027-04-04"
+  "start": "2026-10-07",
+  "end": "2027-04-05"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 387
+   "events": 389
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 54
+   "events": 57
   }
  ],
  "venue_order": [
@@ -74,25 +74,26 @@
   "le-pop-up-du-label",
   "nouveau-casino",
   "le-bateau-phare",
-  "le-trianon",
   "la-bellevilloise",
+  "le-trianon",
   "solum",
   "la-marbrerie",
   "taboo-paris",
   "lithium-paris",
   "la-rotonde-stalingrad",
   "le-poisson-volant",
+  "la-cite-fertile",
   "lafayette-anticipations",
   "a-la-folie-paris",
   "tba-secret-warehouse",
-  "la-cite-fertile",
   "cayo",
   "le-cirque-electrique",
   "bal-chavaux",
-  "studio56",
+  "le-bazar",
   "plantation",
   "philharmonie-de-paris",
   "tba-75013",
+  "studio56",
   "point-ephemere",
   "la-gare-le-gore",
   "bourse-de-commerce-pinault-collection",
@@ -100,6 +101,7 @@
   "glazart",
   "amaluna-paris",
   "nonsense",
+  "cartilage",
   "concorde-atlantique",
   "la-peniche-cinema",
   "le-point-fort-d-aubervilliers",
@@ -109,7 +111,7 @@
   "tba-le-tlm-paris-105-rue-curial-75019-paris",
   "brasserie-gallia",
   "canal-93",
-  "cartilage",
+  "chalet-du-lac",
   "cite-du-cinema",
   "favela-chic",
   "folia-belleville",
@@ -122,6 +124,8 @@
   "le-discobar",
   "le-flow-paris",
   "le-lullaby-bar",
+  "le-tlm",
+  "maison-3",
   "notre-dame-music-bar",
   "parc-de-belleville",
   "peniche-antipode",
@@ -280,6 +284,16 @@
   {
    "id": "central-chapelle",
    "name": "Central Chapelle",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "chalet-du-lac",
+   "name": "Chalet du Lac",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -733,6 +747,16 @@
    "genres": []
   },
   {
+   "id": "le-bazar",
+   "name": "Le Bazar",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "le-cafe-de-la-danse",
    "name": "Le Café De La Danse",
    "type": "club",
@@ -863,6 +887,16 @@
    "genres": []
   },
   {
+   "id": "le-tlm",
+   "name": "Le TLM",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "le-trabendo",
    "name": "Le Trabendo",
    "type": "venue",
@@ -928,6 +962,16 @@
   {
    "id": "main-room",
    "name": "main room",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "maison-3",
+   "name": "Maison 3",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1714,6 +1758,16 @@
    "known": false
   },
   {
+   "id": "allegory",
+   "name": "Allegory",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17856454096bb05bf196a9e89e0",
+   "known": false
+  },
+  {
    "id": "altinbas",
    "name": "Altinbas",
    "tier": 0,
@@ -1739,6 +1793,16 @@
    "tier": 0,
    "score": 8,
    "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "amarou",
+   "name": "Amarou",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
    "genres": [],
    "image": "",
    "known": false
@@ -2196,6 +2260,16 @@
    "known": false
   },
   {
+   "id": "baile-inolvidable-soiree-latino-salseo-y-perreo",
+   "name": "Baile Inolvidable - Soirée Latino Salseo y Perreo!",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "barbara-boeing",
    "name": "Barbara Boeing",
    "tier": 0,
@@ -2223,16 +2297,6 @@
    "popularity": 16,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1787a44edbc14bf9748a173071a",
-   "known": false
-  },
-  {
-   "id": "bcuc",
-   "name": "BCUC",
-   "tier": 0,
-   "score": 33,
-   "popularity": 33,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851b7fff22f807bb7b24311e0e4",
    "known": false
   },
   {
@@ -2285,6 +2349,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17885172eb5bac14275fd2aa03a",
+   "known": false
+  },
+  {
+   "id": "ben-ufo",
+   "name": "Ben UFO",
+   "tier": 0,
+   "score": 12,
+   "popularity": 12,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851819cfb3f891635a288a44818",
    "known": false
   },
   {
@@ -2615,6 +2689,16 @@
    "popularity": 19,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780fa99412948988c9f30e4201",
+   "known": false
+  },
+  {
+   "id": "cattoni",
+   "name": "Cattoni",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3028,6 +3112,16 @@
    "known": false
   },
   {
+   "id": "danny-wabbit",
+   "name": "Danny Wabbit",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c16f2fbac3c25069410cd4b2",
+   "known": false
+  },
+  {
    "id": "danou-p",
    "name": "Danou P",
    "tier": 0,
@@ -3305,6 +3399,16 @@
    "popularity": 48,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786de8d76b6e5c43952319386f",
+   "known": false
+  },
+  {
+   "id": "dj-hyperdrive",
+   "name": "DJ Hyperdrive",
+   "tier": 0,
+   "score": 20,
+   "popularity": 20,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dc02ec9aa3967e9d97f3e9b6",
    "known": false
   },
   {
@@ -4148,6 +4252,16 @@
    "known": false
   },
   {
+   "id": "florian-defresne",
+   "name": "Florian Defresne",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789e3694d056497ac16a07caa9",
+   "known": false
+  },
+  {
    "id": "florian-picasso",
    "name": "Florian Picasso",
    "tier": 0,
@@ -4185,6 +4299,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "forest",
+   "name": "Forest (PL)",
+   "tier": 0,
+   "score": 1,
+   "popularity": 1,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/81faeaa4511d870e59dbe70ce1a7bcd0/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4615,6 +4739,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851231aace57d21aaf59a3d4f8e",
+   "known": false
+  },
+  {
+   "id": "halloween-party",
+   "name": "Halloween Party",
+   "tier": 0,
+   "score": 9,
+   "popularity": 9,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178280ace3de8b06166f3e4d4ed",
    "known": false
   },
   {
@@ -5881,6 +6015,16 @@
    "known": false
   },
   {
+   "id": "le-chalet-des-monstres-halloween-party-geante",
+   "name": "LE CHALET DES MONSTRES HALLOWEEN PARTY GEANTE",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "le-club-house",
    "name": "LE CLUB HOUSE",
    "tier": 0,
@@ -6681,6 +6825,16 @@
    "known": false
   },
   {
+   "id": "midnight-moshpit",
+   "name": "𝐌𝐈𝐃𝐍𝐈𝐆𝐇𝐓 𝐌𝐎𝐒𝐇𝐏𝐈𝐓",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "mija",
    "name": "Mija",
    "tier": 0,
@@ -6948,16 +7102,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178097a3453605cee032c26a558",
-   "known": false
-  },
-  {
-   "id": "mz",
-   "name": "MØZ",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178ee730cff4325e1fe962fd226",
    "known": false
   },
   {
@@ -8926,6 +9070,16 @@
    "known": false
   },
   {
+   "id": "thaylo",
+   "name": "Thaylo",
+   "tier": 0,
+   "score": 36,
+   "popularity": 36,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d6c5e217e9c2127e5011c028",
+   "known": false
+  },
+  {
    "id": "the-anniversary-ceejay",
    "name": "THE ANNIVERSARY: CEEJAY",
    "tier": 0,
@@ -8996,6 +9150,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17807fb57de8d450d7f2e10dcdc",
+   "known": false
+  },
+  {
+   "id": "thelma",
+   "name": "THELMA",
+   "tier": 0,
+   "score": 15,
+   "popularity": 15,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/a390c765108e1f68b3af53ed6247cf6c/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -9820,163 +9984,6 @@
   }
  ],
  "events": [
-  {
-   "id": "9b937003ee03",
-   "title": "BCUC",
-   "venue_id": "le-trabendo",
-   "night": "2026-10-06",
-   "start": "2026-10-06T19:00:00.000",
-   "end": "2026-10-06T22:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "bcuc",
-     "name": "BCUC",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2553093",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2553093"
-    }
-   ],
-   "interest": {
-    "score": 36,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : BCUC (33)",
-     "lieu : Le Trabendo (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "9b852cf8206e",
-   "title": "Signal W/ Draigs , Møz, Thundersamurai",
-   "venue_id": "studio56",
-   "night": "2026-10-06",
-   "start": "2026-10-06T23:59:00.000",
-   "end": "2026-10-07T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "mz",
-     "name": "MØZ",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2552855",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552855"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : MØZ (8)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "87db17c85366",
-   "title": "JAM DU BPM CONTEST",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-10-06",
-   "start": "2026-10-06T23:59:00.000",
-   "end": "2026-10-07T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "jam-du-bpm-contest",
-     "name": "JAM DU BPM CONTEST",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2546453",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546453"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : JAM DU BPM CONTEST (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "88de8b54524d",
-   "title": "B-BOY ISH : BOB SINCLAR",
-   "venue_id": "pavillon-tilsitt",
-   "night": "2026-10-07",
-   "start": "2026-10-07T21:00:00+02:00",
-   "end": "2026-10-08T03:00:00+02:00",
-   "lineup": [
-    {
-     "artist_id": "bob-sinclar",
-     "name": "Bob Sinclar",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "french house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": 33.01,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/7d56av-b-boy-ish-bob-sinclar-7th-oct-pavillon-tilsitt-paris-tickets",
-   "event_url": "https://dice.fm/event/7d56av-b-boy-ish-bob-sinclar-7th-oct-pavillon-tilsitt-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-08-27/73b62f57-a88e-4d36-8998-6d083f3de40b.jpg?rect=678%2C0%2C1716%2C1716",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/7d56av-b-boy-ish-bob-sinclar-7th-oct-pavillon-tilsitt-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 80,
-    "tier": 3,
-    "reasons": [
-     "tête d'affiche : Bob Sinclar (94)",
-     "lieu : Pavillon Tilsitt (palier 2)"
-    ]
-   }
-  },
   {
    "id": "878496811544",
    "title": "Tape: Maudux, PEAKSOU, Vespera, Naïs",
@@ -11943,6 +11950,49 @@
    }
   },
   {
+   "id": "68a4a6aa0d1d",
+   "title": "Club Humide - FREE ENTRANCE",
+   "venue_id": "la-cite-fertile",
+   "night": "2026-10-09",
+   "start": "2026-10-09T18:00:00.000",
+   "end": "2026-10-09T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "fenouil2000",
+     "name": "Fenouil2000",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "italo disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2554870",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2554870"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Fenouil2000 (8)",
+     "lieu : La Cité Fertile (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "6942c2ea8810",
    "title": "more girls behind decks Birthday Party",
    "venue_id": "badaboum",
@@ -12066,6 +12116,45 @@
     "reasons": [
      "tête d'affiche : Baile Brasil Special Purpurina Party (8)",
      "lieu : Concorde Atlantique (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "ce37c56d5b5b",
+   "title": "Baile Inolvidable - Soirée Latino Salseo y Perreo!",
+   "venue_id": "le-tlm",
+   "night": "2026-10-09",
+   "start": "2026-10-09T19:00:00+02:00",
+   "end": "2026-10-10T00:30:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "baile-inolvidable-soiree-latino-salseo-y-perreo",
+     "name": "Baile Inolvidable - Soirée Latino Salseo y Perreo!",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/oemxer-baile-inolvidable-soire-latino-salseo-y-perreo-9th-oct-le-tlm-paris-tickets",
+   "event_url": "https://dice.fm/event/oemxer-baile-inolvidable-soire-latino-salseo-y-perreo-9th-oct-le-tlm-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-06/da574b72-91db-4d94-a938-5b5ff84299e2.jpg?rect=0%2C135%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/oemxer-baile-inolvidable-soire-latino-salseo-y-perreo-9th-oct-le-tlm-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Baile Inolvidable - Soirée Latino Salseo y Perreo! (8)",
+     "lieu : Le TLM (palier 1)"
     ]
    }
   },
@@ -17637,6 +17726,48 @@
    }
   },
   {
+   "id": "687b7b8175a7",
+   "title": "𝐌𝐈𝐃𝐍𝐈𝐆𝐇𝐓 𝐌𝐎𝐒𝐇𝐏𝐈𝐓",
+   "venue_id": "cartilage",
+   "night": "2026-10-17",
+   "start": "2026-10-17T21:00:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "midnight-moshpit",
+     "name": "𝐌𝐈𝐃𝐍𝐈𝐆𝐇𝐓 𝐌𝐎𝐒𝐇𝐏𝐈𝐓",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "ebm",
+    "post-punk"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2554822",
+   "event_url": "https://ra.co/events/2554822",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2554822"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : 𝐌𝐈𝐃𝐍𝐈𝐆𝐇𝐓 𝐌𝐎𝐒𝐇𝐏𝐈𝐓 (8)",
+     "lieu : Cartilage (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "5e0a49ad873d",
    "title": "Closing • Jardin des Traverses",
    "venue_id": "jardin-des-traverses",
@@ -18742,16 +18873,20 @@
    "families": [
     "House"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2554661",
    "event_url": "https://ra.co/events/2554661",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-06/7725273e-aa10-4843-8db7-1b347ef0de57.jpg?rect=821%2C119%2C3251%2C3250",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2554661"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/pyxqxw-soyoon-curator-didi-han-narciss-labouts-sinom-23rd-oct-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -22643,6 +22778,72 @@
    }
   },
   {
+   "id": "9d4099e43901",
+   "title": "KILOMETRE25 CLOSING: HALLOWEN with THELMA, Danny Wabbit",
+   "venue_id": "kilometre25",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:59:00.000",
+   "end": "2026-11-01T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "danny-wabbit",
+     "name": "Danny Wabbit",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "dj-hyperdrive",
+     "name": "DJ Hyperdrive",
+     "billing": "support"
+    },
+    {
+     "artist_id": "thelma",
+     "name": "THELMA",
+     "billing": "support"
+    },
+    {
+     "artist_id": "cattoni",
+     "name": "Cattoni",
+     "billing": "support"
+    },
+    {
+     "artist_id": "forest",
+     "name": "Forest (PL)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "in-tan",
+     "name": "In-Tan",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2554486",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2554486"
+    }
+   ],
+   "interest": {
+    "score": 42,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Danny Wabbit (42)",
+     "lieu : Kilomètre25 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "8dcefe563028",
    "title": "FLUID Halloween [Hard Edition] Lolalita, KimberlaID",
    "venue_id": "la-machine-du-moulin-rouge",
@@ -23076,6 +23277,49 @@
    }
   },
   {
+   "id": "ae33aaf9f529",
+   "title": "Halloween Party",
+   "venue_id": "maison-3",
+   "night": "2026-10-31",
+   "start": "2026-10-31T21:30:00.000",
+   "end": "2026-11-01T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "halloween-party",
+     "name": "Halloween Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "pop"
+   ],
+   "families": [
+    "House",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2554317",
+   "event_url": "https://ra.co/events/2554317",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2554317"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Halloween Party (9)",
+     "lieu : Maison 3 (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "69405fbebd58",
    "title": "LA BOOM DE L'HORREUR",
    "venue_id": "virage",
@@ -23111,6 +23355,45 @@
     "reasons": [
      "tête d'affiche : LA BOOM DE L'HORREUR (8)",
      "lieu : Virage (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "6bcfbe1145ca",
+   "title": "LE CHALET DES MONSTRES HALLOWEEN PARTY GEANTE",
+   "venue_id": "chalet-du-lac",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00+01:00",
+   "end": "2026-11-01T05:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "le-chalet-des-monstres-halloween-party-geante",
+     "name": "LE CHALET DES MONSTRES HALLOWEEN PARTY GEANTE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 32.45,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/avkgwv-le-chalet-des-monstres-halloween-party-geante-31st-oct-chalet-du-lac-paris-tickets",
+   "event_url": "https://dice.fm/event/avkgwv-le-chalet-des-monstres-halloween-party-geante-31st-oct-chalet-du-lac-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-09/68d86a67-5ff1-4469-9d8b-b2c8aa5c5427.jpg?rect=0%2C0%2C1600%2C1600",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/avkgwv-le-chalet-des-monstres-halloween-party-geante-31st-oct-chalet-du-lac-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LE CHALET DES MONSTRES HALLOWEEN PARTY GEANTE (8)",
+     "lieu : Chalet du Lac (palier 1)"
     ]
    }
   },
@@ -23926,6 +24209,11 @@
      "artist_id": "bon-public",
      "name": "Bon Public",
      "billing": "support"
+    },
+    {
+     "artist_id": "allegory",
+     "name": "Allegory",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -23934,16 +24222,20 @@
    "families": [
     "House"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2554664",
    "event_url": "https://ra.co/events/2554664",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-06/6420e367-8c99-46ec-9bc1-070bfc6659d8.jpg?rect=1106%2C233%2C3272%2C3269",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2554664"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/wwnyyx-magma-dj-sweet6teen-domi-allegory-and-more-6th-nov-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -24694,6 +24986,49 @@
     "reasons": [
      "tête d'affiche : KUSS (44)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "ef690e64f192",
+   "title": "Thaylo x Bazar",
+   "venue_id": "le-bazar",
+   "night": "2026-11-10",
+   "start": "2026-11-10T23:00:00.000",
+   "end": "2026-11-11T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "thaylo",
+     "name": "Thaylo",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2554417",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2554417"
+    }
+   ],
+   "interest": {
+    "score": 32,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Thaylo (36)",
+     "lieu : Le Bazar (palier 1)"
     ]
    }
   },
@@ -25493,6 +25828,47 @@
    }
   },
   {
+   "id": "9ce6df4213ce",
+   "title": "Ben UFO, Jane Dark",
+   "venue_id": "essaim",
+   "night": "2026-11-14",
+   "start": "2026-11-14T23:00:00.000",
+   "end": "2026-11-15T06:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "ben-ufo",
+     "name": "Ben UFO",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2516019",
+   "event_url": "https://ra.co/events/2516019",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2516019"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ben UFO (12)",
+     "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "01ab4215e797",
    "title": "Concert goat (jp)",
    "venue_id": "bourse-de-commerce-pinault-collection",
@@ -26019,6 +26395,54 @@
     "reasons": [
      "tête d'affiche : Onakan Disko (8)",
      "lieu : Vice Versa (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "0ab960d364cd",
+   "title": "ElectroRoller x La Bellevilloise 'Roller Party'",
+   "venue_id": "la-bellevilloise",
+   "night": "2026-11-20",
+   "start": "2026-11-20T19:00:00.000",
+   "end": "2026-11-20T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "florian-defresne",
+     "name": "Florian Defresne",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "amarou",
+     "name": "Amarou",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2554464",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2554464"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Florian Defresne (0)",
+     "lieu : La Bellevilloise (palier 1)"
     ]
    }
   },
@@ -28570,13 +28994,6 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178973d5456d874142c2404a853"
   },
   {
-   "id": "566346335d74",
-   "name": "Oklou",
-   "night": "2026-10-09",
-   "venue": "La Station - Gare des Mines",
-   "photo": "https://i.scdn.co/image/ab6761610000f178f8b90fcffca3c4e28564f0e3"
-  },
-  {
    "id": "8a819b899fc6",
    "name": "Medusa",
    "night": "2026-11-27",
@@ -28591,32 +29008,11 @@
    "photo": "https://i.scdn.co/image/ab6761610000f17889b999621f0f9e50eba3b5fe"
   },
   {
-   "id": "c12ec45c1443",
-   "name": "Apparat",
-   "night": "2026-10-09",
-   "venue": "Élysée Montmartre",
-   "photo": "https://i.scdn.co/image/ab6761610000f178346724d82213cd3096cef469"
-  },
-  {
    "id": "e0fe3a840767",
    "name": "Myd",
    "night": "2026-10-09",
    "venue": "Espace Bertrand Grimont",
    "photo": "https://i.scdn.co/image/ab6761610000f1786a95675caf7f6a92f5c7f286"
-  },
-  {
-   "id": "f193fa80ca02",
-   "name": "DURDENHAUER",
-   "night": "2026-11-14",
-   "venue": "Mia Mao",
-   "photo": "https://i.scdn.co/image/ab6761610000f178e33fb12dd74ef637815df64c"
-  },
-  {
-   "id": "2b9846fbe0b9",
-   "name": "Feed Me",
-   "night": "2026-10-10",
-   "venue": "Petit Bain",
-   "photo": "https://i.scdn.co/image/ab6761610000f1784c708d39acdc96b195dcd2d9"
   },
   {
    "id": "474810f9ad02",
@@ -28637,21 +29033,6 @@
   "Expérimental"
  ],
  "spotlight": [
-  {
-   "kind": "event",
-   "day": "MER 7 OCT",
-   "title": "Bob Sinclar",
-   "venue": "Pavillon Tilsitt",
-   "time": "21:00 → 03:00",
-   "tier": 3,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb9bf03e6d3ab7ceb543638845",
-   "event_id": "88de8b54524d"
-  },
   {
    "kind": "event",
    "day": "VEN 9 OCT",
@@ -28741,6 +29122,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5ebb5648c495001f722ed4a1000",
    "event_id": "d2419605b135"
+  },
+  {
+   "kind": "event",
+   "day": "JEU 22 OCT",
+   "title": "Fatboy Slim",
+   "venue": "Mia Mao",
+   "time": "18:00 → 00:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Camille Doe, SHEE",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5ebc20ed3229eeced918966a009",
+   "event_id": "71f15b359b87"
   },
   {
    "kind": "event",
