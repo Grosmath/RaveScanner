@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-07T00:32:34Z",
+ "generated_at": "2026-10-07T16:09:09Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 221
+   "events": 238
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 42
+   "events": 44
   }
  ],
  "venue_order": [
@@ -49,8 +49,9 @@
   "newspeak",
   "sat",
   "theatre-fairmount",
-  "parc-jean-drapeau",
   "theatre-beanfield",
+  "parc-jean-drapeau",
+  "blue-room",
   "salon-daome",
   "stereo-bar",
   "grand-quai",
@@ -59,16 +60,16 @@
   "igloofest",
   "le-ritz",
   "bar-datcha",
-  "sainte-catherine-hall",
   "systeme",
-  "nwhr",
   "le-belmont",
+  "sainte-catherine-hall",
+  "entrepots-dominion-les",
+  "nwhr",
   "foufounes",
   "le-red-room",
   "belvedere-du-centre-des-sciences-de-montreal",
   "esc",
   "l-escogriffe-bar-spectacle",
-  "entrepots-dominion-les",
   "vino-disco",
   "sans-soleil",
   "le-balcon",
@@ -91,17 +92,17 @@
   "tba-velours-323-ontario-est-montreal",
   "tba-location-sent-to-tix-holders-on-day-of-event",
   "barbossa",
-  "blue-room",
   "cabaret-berlin",
   "cabaret-lion-d-or",
+  "entre-nous",
   "le-ministere",
   "p-tit-ours",
   "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
   "tba-rosemont-plateau",
   "tikal",
   "waterfront-events",
-  "entre-nous",
   "le-lobby",
+  "parc-olympique-de-montreal",
   "usine-c",
   "white-wall-studio"
  ],
@@ -540,6 +541,16 @@
     "edm",
     "electronic"
    ]
+  },
+  {
+   "id": "parc-olympique-de-montreal",
+   "name": "Parc Olympique de Montréal",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "piknic-electronik",
@@ -986,6 +997,16 @@
    "known": false
   },
   {
+   "id": "alex-rev",
+   "name": "ALEX REV",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "algarete",
    "name": "Algarete",
    "tier": 0,
@@ -1023,6 +1044,16 @@
    "popularity": 95,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786b07a040a57d013a7e49f908",
+   "known": false
+  },
+  {
+   "id": "amigos",
+   "name": "Amigos",
+   "tier": 0,
+   "score": 61,
+   "popularity": 61,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789320d8461f29a0ed8dfafc60",
    "known": false
   },
   {
@@ -1351,6 +1382,16 @@
    "known": true
   },
   {
+   "id": "baru",
+   "name": "BARU (NYC)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "bass-ship",
    "name": "Bass Ship",
    "tier": 0,
@@ -1401,16 +1442,6 @@
    "known": false
   },
   {
-   "id": "beltran",
-   "name": "Beltran",
-   "tier": 0,
-   "score": 66,
-   "popularity": 66,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1780768085fa4e404e10cf30820",
-   "known": false
-  },
-  {
    "id": "bendito-perreo-iii",
    "name": "Bendito Perreo III",
    "tier": 0,
@@ -1431,13 +1462,13 @@
    "known": false
   },
   {
-   "id": "big-city-nights",
-   "name": "Big City Nights",
+   "id": "biga-ranx",
+   "name": "Biga*Ranx",
    "tier": 0,
-   "score": 1,
-   "popularity": 1,
+   "score": 66,
+   "popularity": 66,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851faae1f092b967ae810fb62a3",
+   "image": "https://i.scdn.co/image/ab6761610000f17800f03c4abff433dd5215f171",
    "known": false
   },
   {
@@ -1691,6 +1722,16 @@
    "known": false
   },
   {
+   "id": "chinamito",
+   "name": "Chinamito",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "chrom",
    "name": "Chrom",
    "tier": 0,
@@ -1861,6 +1902,16 @@
    "known": false
   },
   {
+   "id": "cristobal-urbina",
+   "name": "Cristobal Urbina",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851ce5150b75447eae62dd4dc99",
+   "known": false
+  },
+  {
    "id": "cuerpos",
    "name": "CUERPOS",
    "tier": 0,
@@ -1991,6 +2042,16 @@
    "known": false
   },
   {
+   "id": "deiker-mora",
+   "name": "Deiker Mora",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "demi-riquisimo",
    "name": "Demi Riquisimo",
    "tier": 0,
@@ -2018,6 +2079,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178aba906f85b8a69e341ef47c0",
+   "known": false
+  },
+  {
+   "id": "deroz",
+   "name": "DEROZ",
+   "tier": 0,
+   "score": 25,
+   "popularity": 25,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dfc1e9c0f74ec8c1418be6f1",
    "known": false
   },
   {
@@ -2121,6 +2192,16 @@
    "known": false
   },
   {
+   "id": "dj-ruru",
+   "name": "DJ RURU",
+   "tier": 0,
+   "score": 7,
+   "popularity": 7,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789ff7ac80a2f322b035d467bf",
+   "known": false
+  },
+  {
    "id": "dj-snake",
    "name": "DJ Snake",
    "tier": 0,
@@ -2201,6 +2282,16 @@
    "known": false
   },
   {
+   "id": "down2techno-every-wednesday",
+   "name": "DOWN2TECHNO: Every Wednesday",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "draris",
    "name": "Draris",
    "tier": 0,
@@ -2248,6 +2339,16 @@
    "popularity": 35,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851e740f306db047428d1d31dea",
+   "known": false
+  },
+  {
+   "id": "eddie-c",
+   "name": "Eddie C",
+   "tier": 0,
+   "score": 16,
+   "popularity": 16,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/4e6075cef5b97581d6876b57a40729bc/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2698,6 +2799,16 @@
    "popularity": 48,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ef59839b6ee636c7d4fa5bfa",
+   "known": false
+  },
+  {
+   "id": "heu",
+   "name": "HEU (CA)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3510,6 +3621,16 @@
    "known": false
   },
   {
+   "id": "live",
+   "name": "Live",
+   "tier": 0,
+   "score": 79,
+   "popularity": 79,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a36e57a3861163c27b477734",
+   "known": false
+  },
+  {
    "id": "loops",
    "name": "Loops",
    "tier": 0,
@@ -3723,6 +3844,16 @@
    "known": false
   },
   {
+   "id": "maxvei",
+   "name": "Maxvei",
+   "tier": 0,
+   "score": 25,
+   "popularity": 25,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a6945c9a722ea7804ff6bf02",
+   "known": false
+  },
+  {
    "id": "mayalabae",
    "name": "mayalabae",
    "tier": 0,
@@ -3766,13 +3897,13 @@
    "known": false
   },
   {
-   "id": "melek",
-   "name": "Melek",
+   "id": "mele",
+   "name": "Melé",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 52,
+   "popularity": 52,
    "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/810cbd517e1f74c7e69f12c0eaab8b30/250x250-000000-80-0-0.jpg",
+   "image": "https://i.scdn.co/image/ab6761610000f1787989c2d1e2f10b0d40d2a599",
    "known": false
   },
   {
@@ -3916,6 +4047,16 @@
    "known": false
   },
   {
+   "id": "my-haunted-haus-2026",
+   "name": "My Haunted Haus 2026",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "myriam-bleau",
    "name": "Myriam Bleau",
    "tier": 0,
@@ -3953,6 +4094,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "natan-h",
+   "name": "Natan H",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851af3aae7e4a7aee7ea2fd7ed8",
    "known": false
   },
   {
@@ -4381,6 +4532,16 @@
    "known": false
   },
   {
+   "id": "poirier",
+   "name": "Poirier",
+   "tier": 0,
+   "score": 49,
+   "popularity": 49,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786a1604c271ec69ef97e88238",
+   "known": false
+  },
+  {
    "id": "pom-1",
    "name": "POM (1)",
    "tier": 0,
@@ -4678,6 +4839,16 @@
    "popularity": 38,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485130c41b5d16887ee882465bbb",
+   "known": false
+  },
+  {
+   "id": "seance",
+   "name": "SÉANCE",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a5edb396463aa59ac9ad83e0",
    "known": false
   },
   {
@@ -5164,6 +5335,16 @@
    "known": false
   },
   {
+   "id": "trevor-kiernander",
+   "name": "Trevor Kiernander",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "twinsick",
    "name": "TWINSICK",
    "tier": 0,
@@ -5444,6 +5625,16 @@
    "known": false
   },
   {
+   "id": "wuji",
+   "name": "Wuji",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/5bc3fa0d2744ca94ba332897199786b7/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "xibaona",
    "name": "xibaona",
    "tier": 0,
@@ -5638,6 +5829,47 @@
    }
   },
   {
+   "id": "625507cdc417",
+   "title": "DOWN2TECHNO: Every Wednesday",
+   "venue_id": "le-red-room",
+   "night": "2026-10-07",
+   "start": "2026-10-07T22:00:00.000",
+   "end": "2026-10-08T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "down2techno-every-wednesday",
+     "name": "DOWN2TECHNO: Every Wednesday",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555121",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555121"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DOWN2TECHNO: Every Wednesday (8)",
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "97cac09f8eb2",
    "title": "Sans Soleil w/ Sobaka + Nosh",
    "venue_id": "sans-soleil",
@@ -5682,6 +5914,57 @@
     "reasons": [
      "tête d'affiche : SOBAKA (8)",
      "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "aecd2ec0af7f",
+   "title": "Maxvei / Wuji / Live",
+   "venue_id": "blue-room",
+   "night": "2026-10-08",
+   "start": "2026-10-08T22:00:00.000",
+   "end": "2026-10-09T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "live",
+     "name": "Live",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "maxvei",
+     "name": "Maxvei",
+     "billing": "support"
+    },
+    {
+     "artist_id": "wuji",
+     "name": "Wuji",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "afro house"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2555110",
+   "event_url": "https://ra.co/events/2555110",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555110"
+    }
+   ],
+   "interest": {
+    "score": 63,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Live (79)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -5733,6 +6016,52 @@
     "reasons": [
      "tête d'affiche : hÿdra (42)",
      "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "6fdc471af15e",
+   "title": "Techno Crudo Collective X ESC",
+   "venue_id": "esc",
+   "night": "2026-10-08",
+   "start": "2026-10-08T22:00:00.000",
+   "end": "2026-10-09T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "babaganouschka",
+     "name": "Babaganouschka",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "alex-rev",
+     "name": "ALEX REV",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2555280",
+   "event_url": "https://ra.co/events/2555280",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555280"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Babaganouschka (8)",
+     "lieu : ESC (palier 2)"
     ]
    }
   },
@@ -6047,6 +6376,59 @@
     "reasons": [
      "tête d'affiche : Bolden. (65)",
      "lieu : Théâtre Beanfield (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "3d3897c7f50a",
+   "title": "Chinamito / Deiker Mora & Amigos",
+   "venue_id": "blue-room",
+   "night": "2026-10-09",
+   "start": "2026-10-09T22:00:00.000",
+   "end": "2026-10-10T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "amigos",
+     "name": "Amigos",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "chinamito",
+     "name": "Chinamito",
+     "billing": "support"
+    },
+    {
+     "artist_id": "deiker-mora",
+     "name": "Deiker Mora",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "electronica"
+   ],
+   "families": [
+    "House",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2555122",
+   "event_url": "https://ra.co/events/2555122",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555122"
+    }
+   ],
+   "interest": {
+    "score": 50,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Amigos (61)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -7821,7 +8203,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2555114",
    "event_url": "https://ra.co/events/2555114",
    "image": "",
    "status": "confirmed",
@@ -7837,6 +8219,80 @@
     "reasons": [
      "tête d'affiche : hadis (8)",
      "lieu : Blue Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "78e6f7d28216",
+   "title": "Médium Voyant Marabout retour affectif rapide - Paiement Après Résultat +229 96 840764",
+   "venue_id": "parc-olympique-de-montreal",
+   "night": "2026-10-10",
+   "start": "2026-10-10T10:30:00.000",
+   "end": "2026-10-19T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "natan-h",
+     "name": "Natan H",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "amapiano",
+    "afrobeats"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555146",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555146"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555146"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555146"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555146"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555146"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555146"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555146"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555146"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555146"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Natan H (0)",
+     "lieu : Parc Olympique de Montréal (palier 1)"
     ]
    }
   },
@@ -7933,21 +8389,21 @@
    }
   },
   {
-   "id": "dfa3bc13cc64",
-   "title": "Piknic Électronik MTL #19: Beltran, Demi Riquísimo / Noreiner",
+   "id": "b774ff7b5aef",
+   "title": "Piknic Électronik MTL #19: Melé, Demi Riquísimo / Noreiner",
    "venue_id": "piknic-electronik",
    "night": "2026-10-11",
    "start": "2026-10-11T16:00:00.000",
    "end": "2026-10-11T21:30:00.000",
    "lineup": [
     {
-     "artist_id": "beltran",
-     "name": "Beltran",
+     "artist_id": "enamor",
+     "name": "ENAMOR",
      "billing": "headliner"
     },
     {
-     "artist_id": "enamor",
-     "name": "ENAMOR",
+     "artist_id": "mele",
+     "name": "Melé",
      "billing": "support"
     },
     {
@@ -7973,11 +8429,15 @@
    ],
    "genres": [
     "house",
+    "bass",
+    "club",
     "techno"
    ],
    "families": [
     "Techno",
-    "House"
+    "House",
+    "Électro & bass",
+    "Pop & club"
    ],
    "price_min": null,
    "currency": "CAD",
@@ -7996,10 +8456,10 @@
     }
    ],
    "interest": {
-    "score": 72,
+    "score": 66,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : Beltran (66)",
+     "tête d'affiche : ENAMOR (56)",
      "lieu : Piknic Electronik (palier 3)",
      "format festival"
     ]
@@ -8039,6 +8499,64 @@
     "reasons": [
      "tête d'affiche : Markus Schulz (60)",
      "lieu : Stereo (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "0ac38312bd80",
+   "title": "btwn.us x Source MTL present: Ivy Lab [UK]",
+   "venue_id": "le-belmont",
+   "night": "2026-10-11",
+   "start": "2026-10-11T22:00:00.000",
+   "end": "2026-10-12T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mele",
+     "name": "Melé",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ivy-lab",
+     "name": "Ivy Lab",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kuantum",
+     "name": "Kuantum",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lissn",
+     "name": "Lissn",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "bass",
+    "club"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2539286",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539286"
+    }
+   ],
+   "interest": {
+    "score": 51,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Melé (52)",
+     "lieu : Le Belmont (palier 2)"
     ]
    }
   },
@@ -8087,60 +8605,46 @@
    }
   },
   {
-   "id": "0ac38312bd80",
-   "title": "btwn.us x Source MTL present: Ivy Lab [UK]",
-   "venue_id": "le-belmont",
+   "id": "8b45654a8a43",
+   "title": "Daði Freyr - Too Much, Not Enough",
+   "venue_id": "theatre-beanfield",
    "night": "2026-10-11",
-   "start": "2026-10-11T22:00:00.000",
-   "end": "2026-10-12T03:00:00.000",
+   "start": "2026-10-11T20:00:00-04:00",
+   "end": null,
    "lineup": [
     {
-     "artist_id": "ivy-lab",
-     "name": "Ivy Lab",
+     "artist_id": "dai-freyr",
+     "name": "Daði Freyr",
      "billing": "headliner"
     },
     {
-     "artist_id": "kuantum",
-     "name": "Kuantum",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lissn",
-     "name": "Lissn",
-     "billing": "support"
-    },
-    {
-     "artist_id": "melek",
-     "name": "Melek",
+     "artist_id": "briet",
+     "name": "Bríet",
      "billing": "support"
     }
    ],
    "genres": [
-    "bass",
-    "club"
+    "electronic"
    ],
-   "families": [
-    "Électro & bass",
-    "Pop & club"
-   ],
+   "families": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2539286",
-   "image": "",
+   "ticket_url": "https://www.ticketmaster.ca/dai-freyr-too-much-not-enough-montreal-quebec-10-11-2026/event/31006546C688887D",
+   "event_url": "https://www.ticketmaster.ca/dai-freyr-too-much-not-enough-montreal-quebec-10-11-2026/event/31006546C688887D",
+   "image": "https://s1.ticketm.net/dam/a/70e/36340c12-77fe-4cf9-8186-c9a9a26fb70e_SOURCE",
    "status": "confirmed",
    "sources": [
     {
-     "id": "ra",
-     "url": "https://ra.co/events/2539286"
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/dai-freyr-too-much-not-enough-montreal-quebec-10-11-2026/event/31006546C688887D"
     }
    ],
    "interest": {
     "score": 48,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Ivy Lab (50)",
-     "lieu : Le Belmont (palier 2)"
+     "tête d'affiche : Daði Freyr (59)",
+     "lieu : Théâtre Beanfield (palier 1)"
     ]
    }
   },
@@ -10345,6 +10849,48 @@
    }
   },
   {
+   "id": "9247eba9ec7c",
+   "title": "Big City Nights W/ BARU (NYC)",
+   "venue_id": "entre-nous",
+   "night": "2026-10-17",
+   "start": "2026-10-17T22:00:00.000",
+   "end": "2026-10-18T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "baru",
+     "name": "BARU (NYC)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "garage",
+    "grime"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2541345",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541345"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : BARU (NYC) (8)",
+     "lieu : Entre-Nous (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "725c4c2b1703",
    "title": "CLEO LEIGH, Dj Hermano, Excalibur",
    "venue_id": "bar-datcha",
@@ -10529,48 +11075,6 @@
     "reasons": [
      "tête d'affiche : SOBAKA (8)",
      "lieu : Vino Disco (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "5bf321b3313c",
-   "title": "Big City Nights",
-   "venue_id": "entre-nous",
-   "night": "2026-10-17",
-   "start": "2026-10-17T22:00:00.000",
-   "end": "2026-10-18T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "big-city-nights",
-     "name": "Big City Nights",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "garage",
-    "grime"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2541345",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2541345"
-    }
-   ],
-   "interest": {
-    "score": 7,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Big City Nights (1)",
-     "lieu : Entre-Nous (palier 1)"
     ]
    }
   },
@@ -11609,12 +12113,12 @@
    }
   },
   {
-   "id": "05b60b9a9e03",
-   "title": "YGM x Stereo Bar",
-   "venue_id": "stereo",
+   "id": "180adca96ed7",
+   "title": "YGM x SB: Dust-E-1 - Metizo - Matt Brancatella",
+   "venue_id": "stereo-bar",
    "night": "2026-10-23",
    "start": "2026-10-23T22:00:00.000",
-   "end": "2026-10-24T06:00:00.000",
+   "end": "2026-10-24T05:00:00.000",
    "lineup": [
     {
      "artist_id": "dust-e-1",
@@ -11655,7 +12159,7 @@
     "tier": 0,
     "reasons": [
      "tête d'affiche : Dust-E-1 (31)",
-     "lieu : Stereo (palier 3)"
+     "lieu : Stereo Bar (palier 3)"
     ]
    }
   },
@@ -12211,6 +12715,50 @@
     "reasons": [
      "tête d'affiche : Mall Grab (70)",
      "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "d07f30e11aac",
+   "title": "Biga*Ranx",
+   "venue_id": "mtelus",
+   "night": "2026-10-24",
+   "start": "2026-10-24T20:00:00-04:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "biga-ranx",
+     "name": "Biga*Ranx",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "poirier",
+     "name": "Poirier",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/bigaranx-montreal-quebec-10-24-2026/event/3100649C9A9050E5",
+   "event_url": "https://www.ticketmaster.ca/bigaranx-montreal-quebec-10-24-2026/event/3100649C9A9050E5",
+   "image": "https://s1.ticketm.net/dam/a/6cd/209c343f-5e6f-4095-9c81-3f6f7ad586cd_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/bigaranx-montreal-quebec-10-24-2026/event/3100649C9A9050E5"
+    }
+   ],
+   "interest": {
+    "score": 54,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Biga*Ranx (66)",
+     "lieu : MTELUS (palier 1)"
     ]
    }
   },
@@ -12981,6 +13529,47 @@
    }
   },
   {
+   "id": "b5cb37d3e786",
+   "title": "DOWN2TECHNO: Every Wednesday",
+   "venue_id": "le-red-room",
+   "night": "2026-10-28",
+   "start": "2026-10-28T22:00:00.000",
+   "end": "2026-10-29T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "down2techno-every-wednesday",
+     "name": "DOWN2TECHNO: Every Wednesday",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555130",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555130"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DOWN2TECHNO: Every Wednesday (8)",
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "9212d3f54a70",
    "title": "THEMBA, Andrew Pololos, Malena",
    "venue_id": "new-city-gas",
@@ -13211,6 +13800,47 @@
    }
   },
   {
+   "id": "1e66a2fffed3",
+   "title": "SÉANCE",
+   "venue_id": "vino-disco",
+   "night": "2026-10-29",
+   "start": "2026-10-29T20:00:00.000",
+   "end": "2026-10-30T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "seance",
+     "name": "SÉANCE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2555255",
+   "event_url": "https://ra.co/events/2555255",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555255"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SÉANCE (0)",
+     "lieu : Vino Disco (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "360fb58e2c3c",
    "title": "Bob Sinclar, Nico de Andrea",
    "venue_id": "new-city-gas",
@@ -13401,8 +14031,8 @@
    }
   },
   {
-   "id": "3067d7c8dc31",
-   "title": "Halloween - Plaisir Sonore",
+   "id": "9a490c8dce41",
+   "title": "Halloween - Plaisirs Sonores",
    "venue_id": "salon-daome",
    "night": "2026-10-30",
    "start": "2026-10-30T22:30:00.000",
@@ -14093,9 +14723,9 @@
    }
   },
   {
-   "id": "b3a3185624ea",
+   "id": "4bb7298d4ab5",
    "title": "HALLOWEEN BLOOD RAVE [MONTREAL]",
-   "venue_id": "sainte-catherine-hall",
+   "venue_id": "entrepots-dominion-les",
    "night": "2026-10-31",
    "start": "2026-10-31T18:00:00.000",
    "end": "2026-11-01T06:00:00.000",
@@ -14111,8 +14741,23 @@
      "billing": "support"
     },
     {
+     "artist_id": "deroz",
+     "name": "DEROZ",
+     "billing": "support"
+    },
+    {
      "artist_id": "esprit-libre",
      "name": "ESPRIT LIBRE",
+     "billing": "support"
+    },
+    {
+     "artist_id": "heu",
+     "name": "HEU (CA)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dj-ruru",
+     "name": "DJ RURU",
      "billing": "support"
     },
     {
@@ -14159,7 +14804,7 @@
     "tier": 1,
     "reasons": [
      "tête d'affiche : Code (53)",
-     "lieu : Sainte-Catherine Hall (palier 1)"
+     "lieu : Entrepôts Dominion, Les (palier 1)"
     ]
    }
   },
@@ -14793,6 +15438,43 @@
     "reasons": [
      "tête d'affiche : 8h sleep (8)",
      "lieu : Lieu secret / Warehouse (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "6fcfac2812cd",
+   "title": "My Haunted Haus 2026",
+   "venue_id": "le-red-room",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00.000",
+   "end": "2026-11-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "my-haunted-haus-2026",
+     "name": "My Haunted Haus 2026",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555138",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555138"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : My Haunted Haus 2026 (8)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -16205,6 +16887,58 @@
     "reasons": [
      "tête d'affiche : Perceval (56)",
      "lieu : MTELUS (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "82bd16d8fa57",
+   "title": "ON THE HOUSE - VOL 007",
+   "venue_id": "esc",
+   "night": "2026-11-21",
+   "start": "2026-11-21T22:00:00.000",
+   "end": "2026-11-22T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "eddie-c",
+     "name": "Eddie C",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "trevor-kiernander",
+     "name": "Trevor Kiernander",
+     "billing": "support"
+    },
+    {
+     "artist_id": "cristobal-urbina",
+     "name": "Cristobal Urbina",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555697",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555697"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Eddie C (16)",
+     "lieu : ESC (palier 2)"
     ]
    }
   },
@@ -17654,21 +18388,6 @@
   },
   {
    "kind": "event",
-   "day": "DIM 11 OCT",
-   "title": "Beltran",
-   "venue": "Piknic Electronik",
-   "time": "16:00 → 21:30",
-   "tier": 2,
-   "reason": "Festival",
-   "supports": "ENAMOR, Demi Riquisimo, Sumatra",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb0768085fa4e404e10cf30820",
-   "event_id": "dfa3bc13cc64"
-  },
-  {
-   "kind": "event",
    "day": "JEU 15 OCT",
    "title": "Sub Focus",
    "venue": "New City Gas",
@@ -17756,6 +18475,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb9bf03e6d3ab7ceb543638845",
    "event_id": "360fb58e2c3c"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 31 OCT",
+   "title": "Max Styler",
+   "venue": "New City Gas",
+   "time": "22:00 → 03:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "JØRD, Andrew Pololos",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5ebddeee9f034ca94bb6a08b66a",
+   "event_id": "fcb73ab631a5"
   }
  ]
 }

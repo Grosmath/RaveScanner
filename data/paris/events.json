@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-07T00:33:29Z",
+ "generated_at": "2026-10-07T16:10:09Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 389
+   "events": 404
   },
   {
    "id": "dice",
@@ -27,9 +27,9 @@
   "pavillon-tilsitt",
   "badaboum",
   "central-chapelle",
+  "fvtvr",
   "accor-arena",
   "rex-club",
-  "fvtvr",
   "mia-mao",
   "t7",
   "cabaret-sauvage",
@@ -64,21 +64,23 @@
   "petit-bain",
   "main-room",
   "la-maroquinerie",
+  "point-ephemere",
   "workshow",
   "le-211",
   "le-mazette",
   "la-nuit",
   "panic-room",
   "fondation-cartier",
+  "la-bellevilloise",
   "l-olympia",
   "le-pop-up-du-label",
   "nouveau-casino",
   "le-bateau-phare",
-  "la-bellevilloise",
   "le-trianon",
   "solum",
   "la-marbrerie",
   "taboo-paris",
+  "glazart",
   "lithium-paris",
   "la-rotonde-stalingrad",
   "le-poisson-volant",
@@ -93,12 +95,12 @@
   "plantation",
   "philharmonie-de-paris",
   "tba-75013",
+  "brasserie-gallia",
   "studio56",
-  "point-ephemere",
   "la-gare-le-gore",
   "bourse-de-commerce-pinault-collection",
+  "paname-sur-seine",
   "communale-saint-ouen",
-  "glazart",
   "amaluna-paris",
   "nonsense",
   "cartilage",
@@ -109,7 +111,7 @@
   "le-gambetta-club",
   "le-klub",
   "tba-le-tlm-paris-105-rue-curial-75019-paris",
-  "brasserie-gallia",
+  "babour-sauvage",
   "canal-93",
   "chalet-du-lac",
   "cite-du-cinema",
@@ -135,9 +137,12 @@
   "the-art-cafe",
   "vice-versa",
   "wanderlust",
+  "miniwax",
+  "la-maison-de-la-conversation",
   "jardin-des-traverses",
   "la-mecanique-ondulatoire",
   "la-rotonde",
+  "le-hasard-ludique",
   "les-apaches"
  ],
  "venues": [
@@ -187,6 +192,16 @@
   {
    "id": "amaluna-paris",
    "name": "Amaluna Paris",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "babour-sauvage",
+   "name": "Babour Sauvage",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -601,6 +616,16 @@
    ]
   },
   {
+   "id": "la-maison-de-la-conversation",
+   "name": "la Maison de la Conversation",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "la-marbrerie",
    "name": "La Marbrerie",
    "type": "club",
@@ -827,6 +852,16 @@
    "genres": []
   },
   {
+   "id": "le-hasard-ludique",
+   "name": "Le Hasard Ludique",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "le-klub",
    "name": "Le Klub",
    "type": "club",
@@ -993,6 +1028,16 @@
    ]
   },
   {
+   "id": "miniwax",
+   "name": "Miniwax",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "nonsense",
    "name": "Nonsense",
    "type": "club",
@@ -1037,6 +1082,16 @@
   {
    "id": "pamela-club",
    "name": "Pamela Club",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "paname-sur-seine",
+   "name": "Paname sur Seine",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1688,6 +1743,16 @@
    "known": false
   },
   {
+   "id": "akii",
+   "name": "Akiï",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/a6b1a5930fe86b666c7ea132496affeb/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "alarico",
    "name": "Alarico",
    "tier": 0,
@@ -2050,6 +2115,26 @@
    "known": false
   },
   {
+   "id": "arkid",
+   "name": "ARKID",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fee47d0b856c2b38999c999d",
+   "known": false
+  },
+  {
+   "id": "arnaud-le-texier",
+   "name": "Arnaud Le Texier",
+   "tier": 0,
+   "score": 20,
+   "popularity": 20,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a562d2c3c1e0fafc33ea8b07",
+   "known": false
+  },
+  {
    "id": "art-of-tones",
    "name": "Art of Tones",
    "tier": 0,
@@ -2167,6 +2252,16 @@
    "popularity": 37,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786eb3d1ace55a3e81ece2caf6",
+   "known": false
+  },
+  {
+   "id": "ayman",
+   "name": "Ayman",
+   "tier": 0,
+   "score": 24,
+   "popularity": 24,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/4e82f66f27d2e4c0375776b76c3a62b3/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2300,6 +2395,16 @@
    "known": false
   },
   {
+   "id": "beatrice-m",
+   "name": "Beatrice M.",
+   "tier": 0,
+   "score": 12,
+   "popularity": 12,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782c2944cb8de81c66a241dd7b",
+   "known": false
+  },
+  {
    "id": "bella-claxton",
    "name": "Bella Claxton",
    "tier": 0,
@@ -2382,6 +2487,16 @@
    "known": false
   },
   {
+   "id": "bigstate",
+   "name": "Bigstate",
+   "tier": 0,
+   "score": 9,
+   "popularity": 9,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d61087aca0ef5ddbdffdaaf2",
+   "known": false
+  },
+  {
    "id": "biia",
    "name": "BIIA",
    "tier": 0,
@@ -2409,6 +2524,16 @@
    "popularity": 45,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178af7988d89ca6998e758e1e2b",
+   "known": false
+  },
+  {
+   "id": "black-loops",
+   "name": "Black Loops",
+   "tier": 0,
+   "score": 46,
+   "popularity": 46,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1780f21837a8050bae5bec6ed05",
    "known": false
   },
   {
@@ -2692,6 +2817,26 @@
    "known": false
   },
   {
+   "id": "carra",
+   "name": "carrà",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/07f4bdd304b64ab92b01eb80adea7177/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "catsinka",
+   "name": "Catsinka",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178635935362edfd090542b8eaf",
+   "known": false
+  },
+  {
    "id": "cattoni",
    "name": "Cattoni",
    "tier": 0,
@@ -2759,6 +2904,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/78e9754f98b28c5c3ca129206ecadd20/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "chateau-flight",
+   "name": "Château Flight",
+   "tier": 0,
+   "score": 31,
+   "popularity": 31,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782cecd5d7a76588ee1dad268f",
    "known": false
   },
   {
@@ -3202,6 +3357,16 @@
    "known": false
   },
   {
+   "id": "demuja",
+   "name": "Demuja",
+   "tier": 0,
+   "score": 48,
+   "popularity": 48,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17865b6869e1d278099b70a1512",
+   "known": false
+  },
+  {
    "id": "desiree-falessi",
    "name": "Desirée Falessi",
    "tier": 0,
@@ -3359,6 +3524,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "dj-beluga92",
+   "name": "DJ Beluga92",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178b2f2c7315934c798ee3b06ba",
    "known": false
   },
   {
@@ -4072,6 +4247,16 @@
    "known": false
   },
   {
+   "id": "fabric-paris-extended-12-hours",
+   "name": "fabric paris · extended 12 hours",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "fafa",
    "name": "FAFA",
    "tier": 0,
@@ -4552,6 +4737,16 @@
    "known": false
   },
   {
+   "id": "gira",
+   "name": "Gira (FR)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "glaive",
    "name": "Glaive",
    "tier": 0,
@@ -4579,6 +4774,16 @@
    "popularity": 0,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "goldie-b",
+   "name": "Goldie B",
+   "tier": 0,
+   "score": 3,
+   "popularity": 3,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/86d76577d428606df5349778cf403f37/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4955,6 +5160,16 @@
    "known": false
   },
   {
+   "id": "i-cube",
+   "name": "I:Cube",
+   "tier": 0,
+   "score": 48,
+   "popularity": 48,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d43a7032602dacc5fc358194",
+   "known": false
+  },
+  {
    "id": "iambp",
    "name": "IAMBP",
    "tier": 0,
@@ -4962,6 +5177,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178fba338a4f9a16d1a13571eea",
+   "known": false
+  },
+  {
+   "id": "ikava-pii",
+   "name": "Ikävä Pii",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783a5147a8e0be4b57a95ca53c",
    "known": false
   },
   {
@@ -5042,6 +5267,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "isaac-gueye",
+   "name": "ISAAC GUEYE",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788ef71b237fd09f86ed375d4c",
    "known": false
   },
   {
@@ -5212,6 +5447,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "jb-hanak",
+   "name": "JB Hanak",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485181cbdae02ed73dbd92fafb4f",
    "known": false
   },
   {
@@ -5502,6 +5747,16 @@
    "popularity": 27,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b26f04907c8dd5c36d4fd231",
+   "known": false
+  },
+  {
+   "id": "kamma",
+   "name": "Kamma",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/d8df84e034b6f51047f35b4eae1b49da/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5845,6 +6100,16 @@
    "known": false
   },
   {
+   "id": "kx9000",
+   "name": "Kx9000",
+   "tier": 0,
+   "score": 23,
+   "popularity": 23,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789255ea577f4239e82461fba8",
+   "known": false
+  },
+  {
    "id": "l-zwo",
    "name": "L.zwo",
    "tier": 0,
@@ -5907,6 +6172,16 @@
   {
    "id": "la-scarlette",
    "name": "LA SCARLETTE",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "la-shattarena-10-afro-caribbean-tropical-party-a-la-bellevilloise",
+   "name": "La Shattarena #10 - Afro-Caribbean-Tropical Party à La Bellevilloise",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -6305,6 +6580,16 @@
    "known": false
   },
   {
+   "id": "loukoum",
+   "name": "Loukoum",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178462cf97cc3091f77aaab0d25",
+   "known": false
+  },
+  {
    "id": "loulou-ferrari",
    "name": "Loulou Ferrari",
    "tier": 0,
@@ -6332,6 +6617,16 @@
    "popularity": 20,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c4c236e80eea1182a8bf33c3",
+   "known": false
+  },
+  {
+   "id": "lucifer",
+   "name": "Lucifer",
+   "tier": 0,
+   "score": 29,
+   "popularity": 29,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f64098c7eaa491a5608ab62e",
    "known": false
   },
   {
@@ -6382,6 +6677,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851219168e7cd8b3e8256587fa9",
+   "known": false
+  },
+  {
+   "id": "m-sayyid",
+   "name": "M.SAYYID",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485195e899ed1973e11665a1a147",
    "known": false
   },
   {
@@ -6505,6 +6810,16 @@
    "known": false
   },
   {
+   "id": "mana-mind",
+   "name": "Mana Mind",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784903ded252b52666a88ffcd5",
+   "known": false
+  },
+  {
    "id": "mando",
    "name": "Mando",
    "tier": 0,
@@ -6532,6 +6847,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780ae85852285de189d3262c72",
+   "known": false
+  },
+  {
+   "id": "marbre",
+   "name": "Marbré",
+   "tier": 0,
+   "score": 8,
+   "popularity": 8,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788bf593c3cc4f0c33fd24109a",
    "known": false
   },
   {
@@ -6705,6 +7030,16 @@
    "known": false
   },
   {
+   "id": "masalo",
+   "name": "Masalo",
+   "tier": 0,
+   "score": 32,
+   "popularity": 32,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783d1a879a7f6c90bb4a735cd1",
+   "known": false
+  },
+  {
    "id": "massai",
    "name": "Massaï",
    "tier": 0,
@@ -6722,6 +7057,16 @@
    "popularity": 67,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780cb145ae82188a976247a3c3",
+   "known": false
+  },
+  {
+   "id": "matteo",
+   "name": "Matteo (IT)",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/e6d28c0c3c4d97d5c43dc7c02e9009f4/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -7105,6 +7450,16 @@
    "known": false
   },
   {
+   "id": "naajet-2",
+   "name": "Naajet (2)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "nais",
    "name": "Naïs",
    "tier": 0,
@@ -7132,6 +7487,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "nectare",
+   "name": "Nectare",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178633fff22218aa7774a11bde8",
    "known": false
   },
   {
@@ -7332,16 +7697,6 @@
   {
    "id": "noa",
    "name": "Noa (DE)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "nogender-oversize-10th-anniversary",
-   "name": "NOGENDER OVERSIZE 10TH ANNIVERSARY",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -7567,6 +7922,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789dc4ea17c457a227d999ede1",
+   "known": false
+  },
+  {
+   "id": "olga-b",
+   "name": "OLGA B.",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -8050,6 +8415,16 @@
    "known": false
   },
   {
+   "id": "rakim-under",
+   "name": "Rakim Under",
+   "tier": 0,
+   "score": 2,
+   "popularity": 2,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485104e008d8b88ad83f7453aefd",
+   "known": false
+  },
+  {
    "id": "raphael-top-secret",
    "name": "Raphaël Top-Secret",
    "tier": 0,
@@ -8117,6 +8492,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "remain",
+   "name": "REMAIN",
+   "tier": 0,
+   "score": 7,
+   "popularity": 7,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/3e9000162cfee1c516167fb562b30344/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -8650,6 +9035,16 @@
    "known": false
   },
   {
+   "id": "soa420",
+   "name": "Soa420",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048513444aa9ec4fccfb36899196b",
+   "known": false
+  },
+  {
    "id": "sodomland",
    "name": "Sodomland",
    "tier": 0,
@@ -9173,6 +9568,16 @@
    "known": false
   },
   {
+   "id": "theos-1",
+   "name": "THEOS (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "therapie-de-club",
    "name": "Thérapie de Club",
    "tier": 0,
@@ -9303,6 +9708,16 @@
    "known": false
   },
   {
+   "id": "tour-maubourg",
+   "name": "Tour-Maubourg",
+   "tier": 0,
+   "score": 61,
+   "popularity": 61,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782ca12f4aab07689143645ec3",
+   "known": false
+  },
+  {
    "id": "toximami",
    "name": "TOXIMAMI",
    "tier": 0,
@@ -9410,6 +9825,16 @@
    "popularity": 51,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786e6ecf521337e42bb7c227a2",
+   "known": false
+  },
+  {
+   "id": "un-dimanche",
+   "name": "Un dimanche",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b674abb14e53671ef2061dc3",
    "known": false
   },
   {
@@ -9833,6 +10258,16 @@
    "known": false
   },
   {
+   "id": "westfall",
+   "name": "Westfall",
+   "tier": 0,
+   "score": 26,
+   "popularity": 26,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a060a56198e3381ae51fc265",
+   "known": false
+  },
+  {
    "id": "william-luck",
    "name": "William Luck",
    "tier": 0,
@@ -9900,6 +10335,16 @@
    "popularity": 18,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178de4a4d7ba61cf94aea091f5c",
+   "known": false
+  },
+  {
+   "id": "young-marco",
+   "name": "Young Marco",
+   "tier": 0,
+   "score": 47,
+   "popularity": 47,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178de398b9a187c0d1dfc8a8f40",
    "known": false
   },
   {
@@ -11813,9 +12258,11 @@
     }
    ],
    "genres": [
-    "electronic"
+    "techno"
    ],
-   "families": [],
+   "families": [
+    "Techno"
+   ],
    "price_min": 15.03,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2502605",
@@ -14394,6 +14841,69 @@
    }
   },
   {
+   "id": "9fbb6385051d",
+   "title": "Inka: All Stars - Open Air (Closing Party)",
+   "venue_id": "paname-sur-seine",
+   "night": "2026-10-11",
+   "start": "2026-10-11T14:30:00.000",
+   "end": "2026-10-11T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ayman",
+     "name": "Ayman",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "bigstate",
+     "name": "Bigstate",
+     "billing": "support"
+    },
+    {
+     "artist_id": "catsinka",
+     "name": "Catsinka",
+     "billing": "support"
+    },
+    {
+     "artist_id": "matteo",
+     "name": "Matteo (IT)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "isaac-gueye",
+     "name": "ISAAC GUEYE",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555807",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555807"
+    }
+   ],
+   "interest": {
+    "score": 23,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ayman (24)",
+     "lieu : Paname sur Seine (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "a4667c734042",
    "title": "HEDONY 006",
    "venue_id": "la-station-gare-des-mines",
@@ -14711,6 +15221,52 @@
     "reasons": [
      "tête d'affiche : Marie Berson (4)",
      "lieu : Le 211 (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "88a34caa90b9",
+   "title": "Un dimanche avec M.SAYYID",
+   "venue_id": "miniwax",
+   "night": "2026-10-11",
+   "start": "2026-10-11T16:00:00.000",
+   "end": "2026-10-11T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "un-dimanche",
+     "name": "Un dimanche",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "m-sayyid",
+     "name": "M.SAYYID",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "hip-hop"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555440",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555440"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Un dimanche (0)",
+     "lieu : Miniwax (palier 1)"
     ]
    }
   },
@@ -16319,6 +16875,54 @@
    }
   },
   {
+   "id": "3009e9dba163",
+   "title": "Club Late Music X LACE RADIO",
+   "venue_id": "la-station-gare-des-mines",
+   "night": "2026-10-16",
+   "start": "2026-10-16T20:00:00.000",
+   "end": "2026-10-17T00:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "akii",
+     "name": "Akiï",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ikava-pii",
+     "name": "Ikävä Pii",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "club"
+   ],
+   "families": [
+    "Pop & club",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555734",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555734"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Akiï (0)",
+     "lieu : La Station - Gare des Mines (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "78c3813484de",
    "title": "LE CLUB HOUSE",
    "venue_id": "panic-room",
@@ -16415,6 +17019,48 @@
     "reasons": [
      "tête d'affiche : Richard Fribert (8)",
      "lieu : Plantation (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "abfddcecbbd0",
+   "title": "La Shattarena #10 - Afro-Caribbean-Tropical Party à La Bellevilloise",
+   "venue_id": "la-bellevilloise",
+   "night": "2026-10-16",
+   "start": "2026-10-16T23:00:00.000",
+   "end": "2026-10-17T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-shattarena-10-afro-caribbean-tropical-party-a-la-bellevilloise",
+     "name": "La Shattarena #10 - Afro-Caribbean-Tropical Party à La Bellevilloise",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "dancehall",
+    "afrobeats"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555595",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555595"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : La Shattarena #10 - Afro-Caribbean-Tropical Party à La Bellevilloise (8)",
+     "lieu : La Bellevilloise (palier 1)"
     ]
    }
   },
@@ -18044,6 +18690,98 @@
    }
   },
   {
+   "id": "e47f680e3574",
+   "title": "After O'Clock X La Plage Open Air: Manamind, Kristofo, Electric Rescue",
+   "venue_id": "glazart",
+   "night": "2026-10-18",
+   "start": "2026-10-18T06:00:00.000",
+   "end": "2026-10-18T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "electric-rescue",
+     "name": "Electric Rescue",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mana-mind",
+     "name": "Mana Mind",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2555562",
+   "event_url": "https://ra.co/events/2555562",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555562"
+    }
+   ],
+   "interest": {
+    "score": 26,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Electric Rescue (19)",
+     "lieu : Glazart (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "a3138323cdf8",
+   "title": "Un dimanche avec JB Hanak",
+   "venue_id": "miniwax",
+   "night": "2026-10-18",
+   "start": "2026-10-18T16:00:00.000",
+   "end": "2026-10-18T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "un-dimanche",
+     "name": "Un dimanche",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "jb-hanak",
+     "name": "JB Hanak",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555460",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555460"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Un dimanche (0)",
+     "lieu : Miniwax (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "28bb5389a9a4",
    "title": "SEXYDELIC RELEASE PARTY",
    "venue_id": "peniche-antipode",
@@ -19299,6 +20037,11 @@
      "artist_id": "stanislav-tolkachev",
      "name": "Stanislav Tolkachev",
      "billing": "support"
+    },
+    {
+     "artist_id": "nectare",
+     "name": "Nectare",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -20156,6 +20899,48 @@
    }
   },
   {
+   "id": "f3f34573ee94",
+   "title": "Club Humide - BAR GALLIA",
+   "venue_id": "brasserie-gallia",
+   "night": "2026-10-24",
+   "start": "2026-10-24T14:00:00.000",
+   "end": "2026-10-24T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "lucifer",
+     "name": "Lucifer",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555529",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555529"
+    }
+   ],
+   "interest": {
+    "score": 27,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lucifer (29)",
+     "lieu : Brasserie Gallia (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "76ecf0a076e4",
    "title": "La Ruche 23h-12h: Flo Massé, Enrica Falqui, Le Ploum (live)",
    "venue_id": "tba-paris",
@@ -20205,6 +20990,52 @@
     "reasons": [
      "tête d'affiche : Enrica Falqui (19)",
      "lieu : TBA - Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "ab5a212825c1",
+   "title": "After O'Clock X La Plage Open Air: Litoshka, Casimir, Loukoum",
+   "venue_id": "glazart",
+   "night": "2026-10-24",
+   "start": "2026-10-24T06:00:00.000",
+   "end": "2026-10-24T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "litoshka",
+     "name": "Litoshka",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "loukoum",
+     "name": "Loukoum",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2555567",
+   "event_url": "https://ra.co/events/2555567",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555567"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Litoshka (8)",
+     "lieu : Glazart (palier 2)"
     ]
    }
   },
@@ -23183,6 +24014,52 @@
    }
   },
   {
+   "id": "8ff3b14169be",
+   "title": "After O'Clock X La Plage Open Air:",
+   "venue_id": "glazart",
+   "night": "2026-10-31",
+   "start": "2026-10-31T06:00:00.000",
+   "end": "2026-10-31T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "arnaud-le-texier",
+     "name": "Arnaud Le Texier",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "remain",
+     "name": "REMAIN",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2555577",
+   "event_url": "https://ra.co/events/2555577",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555577"
+    }
+   ],
+   "interest": {
+    "score": 26,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Arnaud Le Texier (20)",
+     "lieu : Glazart (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "e85727e1360d",
    "title": "Discoquette Halloween: Carrie",
    "venue_id": "bal-chavaux",
@@ -23487,6 +24364,95 @@
    }
   },
   {
+   "id": "6a7f6d00f2c6",
+   "title": "imagine FAMILY: INTIMATE PARTY (HALLOWEEN EDITION)",
+   "venue_id": "la-maison-de-la-conversation",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:59:00.000",
+   "end": "2026-11-01T11:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "rakim-under",
+     "name": "Rakim Under",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555752",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555752"
+    }
+   ],
+   "interest": {
+    "score": 7,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Rakim Under (2)",
+     "lieu : la Maison de la Conversation (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "01a5a2fe4363",
+   "title": "Frayeur Des Abysses X La Houle: Dj Beluga 92, carrà, Divalda, VLK",
+   "venue_id": "le-hasard-ludique",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:00:00.000",
+   "end": "2026-11-01T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-beluga92",
+     "name": "DJ Beluga92",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "carra",
+     "name": "carrà",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555714",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555714"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Beluga92 (0)",
+     "lieu : Le Hasard Ludique (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "ad5da7eca016",
    "title": "LATINOHALLOWEEN/BITCHCOIN✦WAYKIKIBOYS✦VIOLENTKARMA",
    "venue_id": "la-mecanique-ondulatoire",
@@ -23779,6 +24745,47 @@
     "reasons": [
      "tête d'affiche : Kelsey Lu (53)",
      "lieu : Fondation Cartier (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "9eabf6abe236",
+   "title": "Westfall presents Reload: Manil b2b Westfall, Shoshana, Spaece",
+   "venue_id": "rex-club",
+   "night": "2026-11-04",
+   "start": "2026-11-04T23:59:00.000",
+   "end": "2026-11-05T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "westfall",
+     "name": "Westfall",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2555395",
+   "event_url": "https://ra.co/events/2555395",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555395"
+    }
+   ],
+   "interest": {
+    "score": 37,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Westfall (26)",
+     "lieu : Rex Club (palier 3)"
     ]
    }
   },
@@ -24479,6 +25486,54 @@
    }
   },
   {
+   "id": "341961f21ffc",
+   "title": "Augure sur Seine - 1 an",
+   "venue_id": "babour-sauvage",
+   "night": "2026-11-06",
+   "start": "2026-11-06T18:00:00.000",
+   "end": "2026-11-07T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "gira",
+     "name": "Gira (FR)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "arkid",
+     "name": "ARKID",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555007",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555007"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Gira (FR) (8)",
+     "lieu : Babour Sauvage (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "9aaa475fd596",
    "title": "Sacré présente: O'FLYNN 'KAIROS' Release & Loulou Ferrari",
    "venue_id": "sacre",
@@ -25033,8 +26088,8 @@
    }
   },
   {
-   "id": "e706246413bc",
-   "title": "RA25: Paris",
+   "id": "bea172b9367b",
+   "title": "RA25: Paris : Joe Claussell b2b Ron Trent - Open to close",
    "venue_id": "essaim",
    "night": "2026-11-12",
    "start": "2026-11-12T22:00:00.000",
@@ -25329,6 +26384,74 @@
     "reasons": [
      "tête d'affiche : Nosaj Thing (53)",
      "lieu : La Gaîté Lyrique (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "1e8ca59f35e3",
+   "title": "Bait & traverse",
+   "venue_id": "point-ephemere",
+   "night": "2026-11-13",
+   "start": "2026-11-13T22:00:00.000",
+   "end": "2026-11-14T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "i-cube",
+     "name": "I:Cube",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "chateau-flight",
+     "name": "Château Flight",
+     "billing": "support"
+    },
+    {
+     "artist_id": "beatrice-m",
+     "name": "Beatrice M.",
+     "billing": "support"
+    },
+    {
+     "artist_id": "olga-b",
+     "name": "OLGA B.",
+     "billing": "support"
+    },
+    {
+     "artist_id": "gilb-r",
+     "name": "Gilb'R",
+     "billing": "support"
+    },
+    {
+     "artist_id": "soa420",
+     "name": "Soa420",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "dubstep"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2539783",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2539783"
+    }
+   ],
+   "interest": {
+    "score": 41,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : I:Cube (48)",
+     "lieu : Point Ephémère (palier 1)"
     ]
    }
   },
@@ -26224,8 +27347,8 @@
    }
   },
   {
-   "id": "5fa9d394a0b6",
-   "title": "Rex Club presents: Hunee all night long",
+   "id": "2f826cc8ff61",
+   "title": "Rex Club presents Hunee - Hunchin' all night long",
    "venue_id": "rex-club",
    "night": "2026-11-20",
    "start": "2026-11-20T23:59:00.000",
@@ -27239,6 +28362,43 @@
    }
   },
   {
+   "id": "001bffab6604",
+   "title": "fabric paris · extended 12 hours",
+   "venue_id": "mia-mao",
+   "night": "2026-11-28",
+   "start": "2026-11-28T23:59:00.000",
+   "end": "2026-11-29T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "fabric-paris-extended-12-hours",
+     "name": "fabric paris · extended 12 hours",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555482",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555482"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : fabric paris · extended 12 hours (8)",
+     "lieu : Mia Mao (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "fb9e8b7cff60",
    "title": "Lowless Sound System #1 invites Mersel",
    "venue_id": "le-211",
@@ -27400,6 +28560,118 @@
     "reasons": [
      "tête d'affiche : Modestep (56)",
      "lieu : La Maroquinerie (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "0ab31642a2f4",
+   "title": "PONT NEUF 10 YEARS XXL CLOSING",
+   "venue_id": "fvtvr",
+   "night": "2026-12-04",
+   "start": "2026-12-04T23:00:00.000",
+   "end": "2026-12-05T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "tour-maubourg",
+     "name": "Tour-Maubourg",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "demuja",
+     "name": "Demuja",
+     "billing": "support"
+    },
+    {
+     "artist_id": "young-marco",
+     "name": "Young Marco",
+     "billing": "support"
+    },
+    {
+     "artist_id": "black-loops",
+     "name": "Black Loops",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mira-lo",
+     "name": "Mira Ló",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mad-rey",
+     "name": "Mad Rey",
+     "billing": "support"
+    },
+    {
+     "artist_id": "masalo",
+     "name": "Masalo",
+     "billing": "support"
+    },
+    {
+     "artist_id": "maison-blanche",
+     "name": "Maison Blanche",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kx9000",
+     "name": "Kx9000",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dylan-dylan",
+     "name": "Dylan Dylan",
+     "billing": "support"
+    },
+    {
+     "artist_id": "marbre",
+     "name": "Marbré",
+     "billing": "support"
+    },
+    {
+     "artist_id": "naajet-2",
+     "name": "Naajet (2)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "theos-1",
+     "name": "THEOS (1)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "goldie-b",
+     "name": "Goldie B",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kamma",
+     "name": "Kamma",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2553187",
+   "event_url": "https://ra.co/events/2553187",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2553187"
+    }
+   ],
+   "interest": {
+    "score": 63,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Tour-Maubourg (61)",
+     "lieu : FVTVR (palier 2)",
+     "plateau dense"
     ]
    }
   },
@@ -28733,47 +30005,6 @@
    }
   },
   {
-   "id": "dec867b25286",
-   "title": "NOGENDER OVERSIZE 10TH ANNIVERSARY",
-   "venue_id": "tba-paris",
-   "night": "2027-01-30",
-   "start": "2027-01-30T23:00:00.000",
-   "end": "2027-01-31T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "nogender-oversize-10th-anniversary",
-     "name": "NOGENDER OVERSIZE 10TH ANNIVERSARY",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2424819",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2424819"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : NOGENDER OVERSIZE 10TH ANNIVERSARY (8)",
-     "lieu : TBA - Paris (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "eb0e8c12e117",
    "title": "Chase & Status @ Zénith Paris - La Villette",
    "venue_id": "zenith-paris-la-villette",
@@ -28986,6 +30217,13 @@
   }
  ],
  "announcements": [
+  {
+   "id": "0ab31642a2f4",
+   "name": "Tour-Maubourg",
+   "night": "2026-12-04",
+   "venue": "FVTVR",
+   "photo": "https://i.scdn.co/image/ab6761610000f1782ca12f4aab07689143645ec3"
+  },
   {
    "id": "6ffcbf99e721",
    "name": "Marten Lou",
