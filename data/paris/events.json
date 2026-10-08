@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-07T16:10:09Z",
+ "generated_at": "2026-10-08T00:53:48Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-10-07",
-  "end": "2027-04-05"
+  "start": "2026-10-08",
+  "end": "2027-04-06"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 404
+   "events": 405
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 57
+   "events": 62
   }
  ],
  "venue_order": [
@@ -47,15 +47,16 @@
   "42-marches",
   "elysee-montmartre",
   "le-trabendo",
+  "lieu-secret-paris",
   "la-boule-noire",
   "kilometre25",
   "palais-brongniart",
   "parc-des-expositions",
   "cite-de-la-musique",
   "zenith-paris-la-villette",
-  "lieu-secret-paris",
   "la-cigale",
   "magasins-generaux",
+  "silencio",
   "espace-bertrand-grimont",
   "la-gaite-lyrique",
   "le-bataclan",
@@ -69,46 +70,45 @@
   "le-211",
   "le-mazette",
   "la-nuit",
-  "panic-room",
   "fondation-cartier",
+  "panic-room",
   "la-bellevilloise",
   "l-olympia",
   "le-pop-up-du-label",
   "nouveau-casino",
   "le-bateau-phare",
   "le-trianon",
+  "la-rotonde-stalingrad",
   "solum",
   "la-marbrerie",
   "taboo-paris",
   "glazart",
   "lithium-paris",
-  "la-rotonde-stalingrad",
   "le-poisson-volant",
   "la-cite-fertile",
   "lafayette-anticipations",
   "a-la-folie-paris",
   "tba-secret-warehouse",
   "cayo",
-  "le-cirque-electrique",
   "bal-chavaux",
   "le-bazar",
   "plantation",
   "philharmonie-de-paris",
   "tba-75013",
   "brasserie-gallia",
-  "studio56",
   "la-gare-le-gore",
+  "studio56",
   "bourse-de-commerce-pinault-collection",
   "paname-sur-seine",
   "communale-saint-ouen",
   "amaluna-paris",
   "nonsense",
+  "le-gambetta-club",
   "cartilage",
   "concorde-atlantique",
   "la-peniche-cinema",
   "le-point-fort-d-aubervilliers",
   "pamela-club",
-  "le-gambetta-club",
   "le-klub",
   "tba-le-tlm-paris-105-rue-curial-75019-paris",
   "babour-sauvage",
@@ -125,7 +125,6 @@
   "le-chinois",
   "le-discobar",
   "le-flow-paris",
-  "le-lullaby-bar",
   "le-tlm",
   "maison-3",
   "notre-dame-music-bar",
@@ -142,6 +141,7 @@
   "jardin-des-traverses",
   "la-mecanique-ondulatoire",
   "la-rotonde",
+  "le-cirque-electrique",
   "le-hasard-ludique",
   "les-apaches"
  ],
@@ -872,16 +872,6 @@
    "genres": []
   },
   {
-   "id": "le-lullaby-bar",
-   "name": "Le Lullaby Bar",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "le-mazette",
    "name": "Le Mazette",
    "type": "club",
@@ -1252,6 +1242,16 @@
     "techno",
     "house"
    ]
+  },
+  {
+   "id": "silencio",
+   "name": "Silencio",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "solum",
@@ -2172,6 +2172,16 @@
    "popularity": 1,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17832a715406d3c9483ab25b4db",
+   "known": false
+  },
+  {
+   "id": "aubry",
+   "name": "Aubry",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/2585e7c8f72f0937c85eb97da16e386a/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3237,6 +3247,16 @@
    "known": false
   },
   {
+   "id": "dan-shake",
+   "name": "Dan Shake",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178b4fd5daa4157d344a3bdba9e",
+   "known": false
+  },
+  {
    "id": "dana-kuehr",
    "name": "Dana Kuehr",
    "tier": 0,
@@ -3397,6 +3417,16 @@
    "known": false
   },
   {
+   "id": "dh2-pitchfork-music-festival-paris-2026",
+   "name": "DH2 — Pitchfork Music Festival Paris 2026",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "diane",
    "name": "Diane",
    "tier": 0,
@@ -3539,6 +3569,16 @@
   {
    "id": "dj-chess",
    "name": "DJ Chess",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "dj-d2b-le-14-oct-2026-gambetta-club-paris-20e",
+   "name": "DJ D2B LE 14 OCT 2026 @GAMBETTA CLUB PARIS 20e ALL NIGHT LONG",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3937,6 +3977,16 @@
    "known": false
   },
   {
+   "id": "edouard",
+   "name": "Edouard!",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/989f72a85f0a0ade820f76c3ab19930f/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "eerste-communie-10-years",
    "name": "Eerste Communie - 10 Years",
    "tier": 0,
@@ -4257,6 +4307,16 @@
    "known": false
   },
   {
+   "id": "fabrice-dayan",
+   "name": "Fabrice Dayan",
+   "tier": 0,
+   "score": 20,
+   "popularity": 20,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178935a45b4968871fbeee6a13c",
+   "known": false
+  },
+  {
    "id": "fafa",
    "name": "FAFA",
    "tier": 0,
@@ -4517,13 +4577,13 @@
    "known": false
   },
   {
-   "id": "frequency",
-   "name": "FREQUENCY",
+   "id": "freakquency",
+   "name": "Freakquency",
    "tier": 0,
-   "score": 38,
-   "popularity": 38,
+   "score": 0,
+   "popularity": 0,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1780fb48b319906e9530a8bf7de",
+   "image": "https://i.scdn.co/image/ab67616d00004851803e5bfb02c5ea8f7627ab3f",
    "known": false
   },
   {
@@ -4907,6 +4967,16 @@
    "known": false
   },
   {
+   "id": "guy-gerber",
+   "name": "Guy Gerber",
+   "tier": 0,
+   "score": 58,
+   "popularity": 58,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17861053f5ff12cfa5ed7d75c27",
+   "known": false
+  },
+  {
    "id": "h-a-u-s-s",
    "name": "H.A.U.S.S",
    "tier": 0,
@@ -5017,6 +5087,16 @@
    "popularity": 40,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/b3e4805fef737d38753e59a7f1c5e6cd/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "hen-yanni",
+   "name": "HEN YANNI",
+   "tier": 0,
+   "score": 25,
+   "popularity": 25,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178afd9297d897f8f32040c6976",
    "known": false
   },
   {
@@ -5457,6 +5537,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485181cbdae02ed73dbd92fafb4f",
+   "known": false
+  },
+  {
+   "id": "jean-pierre",
+   "name": "Jean Pierre",
+   "tier": 0,
+   "score": 19,
+   "popularity": 19,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178df9d8ac8db6f24edd9d0f350",
    "known": false
   },
   {
@@ -6160,6 +6250,16 @@
    "known": false
   },
   {
+   "id": "la-ch-ck-projet",
+   "name": "LA CH!CK PROJET",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "la-ch-ck-reggaeton-allstars-revival",
    "name": "LA CH!CK: REGGAETON ALLSTARS REVIVAL",
    "tier": 0,
@@ -6437,6 +6537,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788e8af50dc7a5b316e68515dc",
+   "known": false
+  },
+  {
+   "id": "lith-li",
+   "name": "Lith Li",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -6750,6 +6860,16 @@
    "known": false
   },
   {
+   "id": "mai-linh",
+   "name": "Maï-Linh",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "maison-blanche",
    "name": "Maison Blanche",
    "tier": 0,
@@ -6950,6 +7070,16 @@
    "known": false
   },
   {
+   "id": "marina-trench",
+   "name": "Marina Trench",
+   "tier": 0,
+   "score": 22,
+   "popularity": 22,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178af72045c259c8bc3bbc9ff32",
+   "known": false
+  },
+  {
    "id": "marion-guillet",
    "name": "Marion Guillet",
    "tier": 0,
@@ -7070,16 +7200,6 @@
    "known": false
   },
   {
-   "id": "maudux",
-   "name": "Maudux",
-   "tier": 0,
-   "score": 15,
-   "popularity": 15,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1780a87684e4c5b34daa57d4201",
-   "known": false
-  },
-  {
    "id": "maurer",
    "name": "MAURER",
    "tier": 0,
@@ -7177,6 +7297,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "miguel-de-bois",
+   "name": "Miguel de Bois",
+   "tier": 0,
+   "score": 25,
+   "popularity": 25,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d4cec86f805caf665428afa5",
    "known": false
   },
   {
@@ -7460,16 +7590,6 @@
    "known": false
   },
   {
-   "id": "nais",
-   "name": "Naïs",
-   "tier": 0,
-   "score": 20,
-   "popularity": 20,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/81b8398bca643d33aa26f8ba24eee72d/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "narciss",
    "name": "Narciss",
    "tier": 0,
@@ -7693,6 +7813,16 @@
    ],
    "image": "https://i.scdn.co/image/ab6761610000f178f088792f3f44b198770c981e",
    "known": true
+  },
+  {
+   "id": "niv-yefet",
+   "name": "Niv Yefet",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17822973c1d3d9a14d5c837324e",
+   "known": false
   },
   {
    "id": "noa",
@@ -8102,16 +8232,6 @@
    "popularity": 32,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783f981bbc5c95528cfa50dbaa",
-   "known": false
-  },
-  {
-   "id": "peaksou",
-   "name": "PEAKSOU",
-   "tier": 0,
-   "score": 35,
-   "popularity": 35,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1786a615e0fa2db14184be1fa92",
    "known": false
   },
   {
@@ -8772,6 +8892,16 @@
    "popularity": 10,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/5923f1dce669aa93b2ba88aa801f339d/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "sauti-not-your-africa",
+   "name": "Sauti: Not Your Africa",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -10138,16 +10268,6 @@
    "known": false
   },
   {
-   "id": "void-3",
-   "name": "Void (3)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "vons",
    "name": "Vons (FR)",
    "tier": 0,
@@ -10430,220 +10550,6 @@
  ],
  "events": [
   {
-   "id": "878496811544",
-   "title": "Tape: Maudux, PEAKSOU, Vespera, Naïs",
-   "venue_id": "rex-club",
-   "night": "2026-10-07",
-   "start": "2026-10-07T23:59:00.000",
-   "end": "2026-10-08T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "peaksou",
-     "name": "PEAKSOU",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "nais",
-     "name": "Naïs",
-     "billing": "support"
-    },
-    {
-     "artist_id": "maudux",
-     "name": "Maudux",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "trance"
-   ],
-   "families": [
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2537404",
-   "event_url": "https://ra.co/events/2537404",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2537404"
-    }
-   ],
-   "interest": {
-    "score": 43,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : PEAKSOU (35)",
-     "lieu : Rex Club (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "873d13ff1bdd",
-   "title": "FREQUENCY",
-   "venue_id": "panic-room",
-   "night": "2026-10-07",
-   "start": "2026-10-07T19:00:00.000",
-   "end": "2026-10-08T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "frequency",
-     "name": "FREQUENCY",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "tech house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2541861",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2541861"
-    }
-   ],
-   "interest": {
-    "score": 33,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : FREQUENCY (38)",
-     "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "2ed982bac315",
-   "title": "Resonance W/ Xaper , Jeffellhypno , Void",
-   "venue_id": "studio56",
-   "night": "2026-10-07",
-   "start": "2026-10-07T23:59:00.000",
-   "end": "2026-10-08T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "void-3",
-     "name": "Void (3)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2552856",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552856"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Void (3) (8)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "a4fdbc09cf90",
-   "title": "FASHION WEEK CLOSING - RETROGRADE POP-UP",
-   "venue_id": "le-lullaby-bar",
-   "night": "2026-10-07",
-   "start": "2026-10-07T19:00:00.000",
-   "end": "2026-10-07T23:59:00.000",
-   "lineup": [
-    {
-     "artist_id": "spicy-sofi",
-     "name": "Spicy Sofi",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "ambient"
-   ],
-   "families": [
-    "Techno",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2554308",
-   "event_url": "https://ra.co/events/2554308",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2554308"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Spicy Sofi (8)",
-     "lieu : Le Lullaby Bar (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "e0ae9095a43a",
-   "title": "PYGMENTS: PROPOLYS & In-Tan",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-10-07",
-   "start": "2026-10-07T23:59:00.000",
-   "end": "2026-10-08T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "in-tan",
-     "name": "In-Tan",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2546454",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546454"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : In-Tan (0)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "8d79d4c66bf4",
    "title": "Sacré présente: Bellaire & Friends 'Born Funky' aftershow",
    "venue_id": "sacre",
@@ -10831,6 +10737,45 @@
    }
   },
   {
+   "id": "35668729ac29",
+   "title": "Discotaco : disco, paillettes & tacos partout !",
+   "venue_id": "le-mazette",
+   "night": "2026-10-08",
+   "start": "2026-10-08T18:00:00+02:00",
+   "end": "2026-10-09T02:00:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "funky-french-league",
+     "name": "Funky French League",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/avx5xx-discotaco-disco-paillettes-tacos-partout-8th-oct-le-mazette-paris-tickets",
+   "event_url": "https://dice.fm/event/avx5xx-discotaco-disco-paillettes-tacos-partout-8th-oct-le-mazette-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-08-17/aca0a60b-2ded-404f-bb29-0e7248423e88.jpg?rect=420%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/avx5xx-discotaco-disco-paillettes-tacos-partout-8th-oct-le-mazette-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 35,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Funky French League (40)",
+     "lieu : Le Mazette (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "16c01af29d8a",
    "title": "Lacchesi - all night long - with special guest",
    "venue_id": "essaim",
@@ -11006,6 +10951,47 @@
     "reasons": [
      "tête d'affiche : Tsaou (8)",
      "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "8b0be7c40223",
+   "title": "LA CH!CK PROJET X",
+   "venue_id": "badaboum",
+   "night": "2026-10-08",
+   "start": "2026-10-08T23:30:00+02:00",
+   "end": "2026-10-09T05:30:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "la-ch-ck-projet",
+     "name": "LA CH!CK PROJET",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "pop"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/8e7xq2-la-chck-projet-x-8th-oct-badaboum-paris-tickets",
+   "event_url": "https://dice.fm/event/8e7xq2-la-chck-projet-x-8th-oct-badaboum-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-11/32240b93-a478-4370-8a6c-a9180ca51c71.jpg?rect=357%2C0%2C786%2C786",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/8e7xq2-la-chck-projet-x-8th-oct-badaboum-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA CH!CK PROJET (8)",
+     "lieu : Badaboum (palier 2)"
     ]
    }
   },
@@ -12393,6 +12379,43 @@
     "reasons": [
      "tête d'affiche : Adam Pits (24)",
      "lieu : Bal Chavaux (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "de6e767b8251",
+   "title": "CASA ATA: Jean Pierre & FRIENDS",
+   "venue_id": "silencio",
+   "night": "2026-10-09",
+   "start": "2026-10-09T23:00:00.000",
+   "end": "2026-10-10T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jean-pierre",
+     "name": "Jean Pierre",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2556081",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556081"
+    }
+   ],
+   "interest": {
+    "score": 20,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jean Pierre (19)",
+     "lieu : Silencio (palier 1)"
     ]
    }
   },
@@ -13870,47 +13893,6 @@
    }
   },
   {
-   "id": "02fb4bd8fe7b",
-   "title": "Freakquency",
-   "venue_id": "le-cirque-electrique",
-   "night": "2026-10-10",
-   "start": "2026-10-10T18:00:00.000",
-   "end": "2026-10-11T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "frequency",
-     "name": "FREQUENCY",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2541402",
-   "event_url": "https://ra.co/events/2541402",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2541402"
-    }
-   ],
-   "interest": {
-    "score": 33,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : FREQUENCY (38)",
-     "lieu : Le Cirque Electrique (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "1f7a55209468",
    "title": "FLUID x SWIM CLUB: KIM SWIM b2b Milion, Bella Claxton, DJ Physical, DR.G",
    "venue_id": "virage",
@@ -13972,6 +13954,54 @@
     "reasons": [
      "tête d'affiche : DJ Physical (33)",
      "lieu : Virage (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "7708abdda92f",
+   "title": "RITMO FATALE : KENDAL, MAÏ-LINH, MIGUEL DE BOIS",
+   "venue_id": "cabaret-sauvage",
+   "night": "2026-10-10",
+   "start": "2026-10-10T23:59:00+02:00",
+   "end": "2026-10-11T06:00:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "miguel-de-bois",
+     "name": "Miguel de Bois",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mai-linh",
+     "name": "Maï-Linh",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "italo disco",
+    "trance"
+   ],
+   "families": [
+    "Trance & hard",
+    "Disco & funk"
+   ],
+   "price_min": 24.21,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/oe9rdm-ritmo-fatale-kendal-ma-linh-miguel-de-bois-10th-oct-cabaret-sauvage-paris-tickets",
+   "event_url": "https://dice.fm/event/oe9rdm-ritmo-fatale-kendal-ma-linh-miguel-de-bois-10th-oct-cabaret-sauvage-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-09/ee73e6e9-4d72-47f1-b17d-f21164406de9.jpg?rect=0%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/oe9rdm-ritmo-fatale-kendal-ma-linh-miguel-de-bois-10th-oct-cabaret-sauvage-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 30,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Miguel de Bois (25)",
+     "lieu : Cabaret Sauvage (palier 2)"
     ]
    }
   },
@@ -14714,6 +14744,43 @@
    }
   },
   {
+   "id": "f38fdbf08d64",
+   "title": "BELLE ÉPOQUE!: TIGER STRIPES, Edouard!, M'RIC, FLÉCHETTE",
+   "venue_id": "silencio",
+   "night": "2026-10-10",
+   "start": "2026-10-10T23:00:00.000",
+   "end": "2026-10-11T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "edouard",
+     "name": "Edouard!",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2556024",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556024"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Edouard! (0)",
+     "lieu : Silencio (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "6af80d85a22b",
    "title": "DJ D2B ALL NIGHT LONG - GAMBETTA CLUB",
    "venue_id": "le-gambetta-club",
@@ -14753,6 +14820,47 @@
     "reasons": [
      "tête d'affiche : Gratuit (0)",
      "lieu : Le Gambetta Club (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "02fb4bd8fe7b",
+   "title": "Freakquency",
+   "venue_id": "le-cirque-electrique",
+   "night": "2026-10-10",
+   "start": "2026-10-10T18:00:00.000",
+   "end": "2026-10-11T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "freakquency",
+     "name": "Freakquency",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2541402",
+   "event_url": "https://ra.co/events/2541402",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2541402"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Freakquency (0)",
+     "lieu : Le Cirque Electrique (palier 1)"
     ]
    }
   },
@@ -14884,7 +14992,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2555807",
    "event_url": "https://ra.co/events/2555807",
    "image": "",
    "status": "confirmed",
@@ -15538,6 +15646,91 @@
     "reasons": [
      "tête d'affiche : Autechre (50)",
      "lieu : Le Bataclan (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "03710736adfe",
+   "title": "Sauti: Not Your Africa",
+   "venue_id": "badaboum",
+   "night": "2026-10-14",
+   "start": "2026-10-14T23:30:00.000",
+   "end": "2026-10-15T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sauti-not-your-africa",
+     "name": "Sauti: Not Your Africa",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "gqom",
+    "afro house"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2555939",
+   "event_url": "https://ra.co/events/2555939",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555939"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Sauti: Not Your Africa (8)",
+     "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "e6cfe60b7a6d",
+   "title": "DJ AKTARUS NRV INVITE DJ D2B LE 14 OCT 2026 @GAMBETTA CLUB PARIS 20e ALL NIGHT LONG",
+   "venue_id": "le-gambetta-club",
+   "night": "2026-10-14",
+   "start": "2026-10-14T20:00:00.000",
+   "end": "2026-10-15T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-d2b-le-14-oct-2026-gambetta-club-paris-20e",
+     "name": "DJ D2B LE 14 OCT 2026 @GAMBETTA CLUB PARIS 20e ALL NIGHT LONG",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2556255",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556255"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ D2B LE 14 OCT 2026 @GAMBETTA CLUB PARIS 20e ALL NIGHT LONG (8)",
+     "lieu : Le Gambetta Club (palier 1)"
     ]
    }
   },
@@ -17937,6 +18130,43 @@
    }
   },
   {
+   "id": "c9ca5b65ae8e",
+   "title": "Fabrice Dayan & FRIENDS",
+   "venue_id": "silencio",
+   "night": "2026-10-17",
+   "start": "2026-10-17T23:00:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "fabrice-dayan",
+     "name": "Fabrice Dayan",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2556078",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556078"
+    }
+   ],
+   "interest": {
+    "score": 20,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Fabrice Dayan (20)",
+     "lieu : Silencio (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "db777925e454",
    "title": "Low Jack presents Miracles Residency w/ Mystique & Low Jack",
    "venue_id": "le-poisson-volant",
@@ -19008,6 +19238,61 @@
     "reasons": [
      "tête d'affiche : Fatboy Slim (84)",
      "lieu : Mia Mao (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "1070cfc7f80c",
+   "title": "Guy Gerber, NOEMIE (LIVE), HEN YANNI, Niv Yefet",
+   "venue_id": "silencio",
+   "night": "2026-10-22",
+   "start": "2026-10-22T23:00:00.000",
+   "end": "2026-10-23T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "guy-gerber",
+     "name": "Guy Gerber",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "hen-yanni",
+     "name": "HEN YANNI",
+     "billing": "support"
+    },
+    {
+     "artist_id": "niv-yefet",
+     "name": "Niv Yefet",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "afro house",
+    "electro",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2556076",
+   "event_url": "https://ra.co/events/2556076",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556076"
+    }
+   ],
+   "interest": {
+    "score": 48,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Guy Gerber (58)",
+     "lieu : Silencio (palier 1)"
     ]
    }
   },
@@ -23216,6 +23501,45 @@
    }
   },
   {
+   "id": "0748b6980be6",
+   "title": "BABYLON HALLOWEEN - MARTEN LOU",
+   "venue_id": "lieu-secret-paris",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00+01:00",
+   "end": "2026-11-01T05:30:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "marten-lou",
+     "name": "Marten Lou",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 26.5,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-31st-oct-lieu-secret-paris-paris-tickets",
+   "event_url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-31st-oct-lieu-secret-paris-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-25/28c60d5f-847f-4fd4-8dad-45b7e746beab.jpg?rect=0%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-31st-oct-lieu-secret-paris-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 61,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Marten Lou (76)",
+     "lieu : Lieu Secret, Paris (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "6ffcbf99e721",
    "title": "BABYLON HALLOWEEN - MARTEN LOU @PALAIS BRONGNIART",
    "venue_id": "palais-brongniart",
@@ -24864,6 +25188,11 @@
      "artist_id": "nikki-nair",
      "name": "Nikki Nair",
      "billing": "support"
+    },
+    {
+     "artist_id": "dh2-pitchfork-music-festival-paris-2026",
+     "name": "DH2 — Pitchfork Music Festival Paris 2026",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -24876,12 +25205,16 @@
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2454718",
    "event_url": "https://ra.co/events/2454718",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-22/b283bedc-e54d-4fee-8a6a-a32356a19add.jpg?rect=0%2C0%2C1080%2C1080",
+   "image": "https://dice-media.imgix.net/attachments/2026-06-01/fd4db95e-8bfc-48da-a8f1-3cc4666491ef.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2454718"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/xeokdk-dh2-pitchfork-music-festival-paris-2026-5th-nov-badaboum-paris-tickets"
     },
     {
      "id": "dice",
@@ -28321,6 +28654,98 @@
    }
   },
   {
+   "id": "ece71b200ed6",
+   "title": "Planète House: Dan Shake, Marina Trench, Aubry [Booth 360°]",
+   "venue_id": "cabaret-sauvage",
+   "night": "2026-11-28",
+   "start": "2026-11-28T23:00:00.000",
+   "end": "2026-11-29T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dan-shake",
+     "name": "Dan Shake",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "marina-trench",
+     "name": "Marina Trench",
+     "billing": "support"
+    },
+    {
+     "artist_id": "aubry",
+     "name": "Aubry",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2556167",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556167"
+    }
+   ],
+   "interest": {
+    "score": 31,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Dan Shake (27)",
+     "lieu : Cabaret Sauvage (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "7fb01b26ba38",
+   "title": "Forensics",
+   "venue_id": "la-rotonde-stalingrad",
+   "night": "2026-11-28",
+   "start": "2026-11-28T23:00:00.000",
+   "end": "2026-11-29T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lith-li",
+     "name": "Lith Li",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555844",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555844"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lith Li (8)",
+     "lieu : La Rotonde Stalingrad (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "1f75792f817a",
    "title": "Forensics ⎜ Original Sins",
    "venue_id": "la-rotonde-stalingrad",
@@ -30223,6 +30648,13 @@
    "night": "2026-12-04",
    "venue": "FVTVR",
    "photo": "https://i.scdn.co/image/ab6761610000f1782ca12f4aab07689143645ec3"
+  },
+  {
+   "id": "0748b6980be6",
+   "name": "Marten Lou",
+   "night": "2026-10-31",
+   "venue": "Lieu Secret, Paris",
+   "photo": "https://i.scdn.co/image/ab6761610000f178973d5456d874142c2404a853"
   },
   {
    "id": "6ffcbf99e721",

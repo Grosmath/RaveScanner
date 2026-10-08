@@ -1,14 +1,14 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-07T16:09:09Z",
+ "generated_at": "2026-10-08T00:53:29Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-10-07",
-  "end": "2027-04-05"
+  "start": "2026-10-08",
+  "end": "2027-04-06"
  },
  "sources": [
   {
@@ -29,12 +29,12 @@
   {
    "id": "mtelus",
    "ok": true,
-   "events": 12
+   "events": 11
   },
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 44
+   "events": 43
   }
  ],
  "venue_order": [
@@ -44,8 +44,8 @@
   "place-bell",
   "mtelus",
   "centre-bell",
-  "studio-td",
   "stereo",
+  "studio-td",
   "newspeak",
   "sat",
   "theatre-fairmount",
@@ -97,6 +97,7 @@
   "entre-nous",
   "le-ministere",
   "p-tit-ours",
+  "sanctuary",
   "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
   "tba-rosemont-plateau",
   "tikal",
@@ -622,6 +623,16 @@
     "techno",
     "minimal"
    ]
+  },
+  {
+   "id": "sanctuary",
+   "name": "Sanctuary",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "sans-soleil",
@@ -2262,6 +2273,16 @@
    "known": false
   },
   {
+   "id": "don-barbarino-vs-shelton-cooper",
+   "name": "Don Barbarino vs Shelton Cooper",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "donny-benet",
    "name": "Donny Benét",
    "tier": 0,
@@ -2729,6 +2750,16 @@
    "popularity": 30,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788804ea06df701a052245fac8",
+   "known": false
+  },
+  {
+   "id": "girl-ultra-montreal",
+   "name": "Girl Ultra - Montréal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3541,16 +3572,6 @@
    "known": false
   },
   {
-   "id": "lenny-pearce",
-   "name": "Lenny Pearce",
-   "tier": 0,
-   "score": 63,
-   "popularity": 63,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1787170e60db0f20ec84ea431fb",
-   "known": false
-  },
-  {
    "id": "les-francos-de-montreal",
    "name": "Les Francos De Montréal",
    "tier": 0,
@@ -3558,16 +3579,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "lewis-ofman",
-   "name": "Lewis OfMan",
-   "tier": 0,
-   "score": 80,
-   "popularity": 80,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178ebb3ab860bdea969fca7a839",
    "known": false
   },
   {
@@ -4047,16 +4058,6 @@
    "known": false
   },
   {
-   "id": "my-haunted-haus-2026",
-   "name": "My Haunted Haus 2026",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "myriam-bleau",
    "name": "Myriam Bleau",
    "tier": 0,
@@ -4342,16 +4343,6 @@
    "known": false
   },
   {
-   "id": "oliver-heldens",
-   "name": "Oliver Heldens",
-   "tier": 0,
-   "score": 81,
-   "popularity": 81,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178e0de3617061247aa35ff7865",
-   "known": false
-  },
-  {
    "id": "omni",
    "name": "Omni",
    "tier": 0,
@@ -4592,6 +4583,16 @@
    "known": false
   },
   {
+   "id": "queenie-jr",
+   "name": "Queenie Jr",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783901516b159b5616b9fa4aef",
+   "known": false
+  },
+  {
    "id": "rabzi",
    "name": "Rabzi",
    "tier": 0,
@@ -4629,6 +4630,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048516eba6e5a64b0931bc436fb67",
+   "known": false
+  },
+  {
+   "id": "ratchet",
+   "name": "Ratchet",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f356f682d1f1b863bd55da96",
    "known": false
   },
   {
@@ -5425,6 +5436,16 @@
    "known": false
   },
   {
+   "id": "vayia",
+   "name": "Vayia",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "venus-in-bed",
    "name": "venus in bed",
    "tier": 0,
@@ -5747,182 +5768,11 @@
  ],
  "events": [
   {
-   "id": "51db2cdab6db",
-   "title": "LEWIS OFMAN - Déplacé au / Moved to Bar Le Ritz",
-   "venue_id": "studio-td",
-   "night": "2026-10-07",
-   "start": "2026-10-07T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "lewis-ofman",
-     "name": "Lewis OfMan",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/lewis-ofman-deplace-au-moved-to-montreal-quebec-10-07-2026/event/310064AFAA8C7319",
-   "event_url": "https://www.ticketmaster.ca/lewis-ofman-deplace-au-moved-to-montreal-quebec-10-07-2026/event/310064AFAA8C7319",
-   "image": "https://s1.ticketm.net/dam/a/785/05fe7455-6835-488f-b799-78e52430c785_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/lewis-ofman-deplace-au-moved-to-montreal-quebec-10-07-2026/event/310064AFAA8C7319"
-    }
-   ],
-   "interest": {
-    "score": 70,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Lewis OfMan (80)",
-     "lieu : Studio TD (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "6b95cd7ff8d0",
-   "title": "Lenny Pearce",
-   "venue_id": "mtelus",
-   "night": "2026-10-07",
-   "start": "2026-10-07T18:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "lenny-pearce",
-     "name": "Lenny Pearce",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/310064CC84BF31A5?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/lenny-pearce?code=e008636",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/1sXunbf3ynnhptBFEXZjZT/6b5a216658c38c1311d45af6cada44d0/LennyPearce.png",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/lenny-pearce?code=e008636"
-    },
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/lenny-pearce-toddler-rave-world-tour-montreal-quebec-10-07-2026/event/310064CC84BF31A5"
-    }
-   ],
-   "interest": {
-    "score": 51,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Lenny Pearce (63)",
-     "lieu : MTELUS (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "625507cdc417",
-   "title": "DOWN2TECHNO: Every Wednesday",
-   "venue_id": "le-red-room",
-   "night": "2026-10-07",
-   "start": "2026-10-07T22:00:00.000",
-   "end": "2026-10-08T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "down2techno-every-wednesday",
-     "name": "DOWN2TECHNO: Every Wednesday",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2555121",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2555121"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DOWN2TECHNO: Every Wednesday (8)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "97cac09f8eb2",
-   "title": "Sans Soleil w/ Sobaka + Nosh",
-   "venue_id": "sans-soleil",
-   "night": "2026-10-07",
-   "start": "2026-10-07T20:00:00.000",
-   "end": "2026-10-08T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sobaka",
-     "name": "SOBAKA",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "nosh",
-     "name": "Nosh",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "disco",
-    "house"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2552914",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552914"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : SOBAKA (8)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "aecd2ec0af7f",
    "title": "Maxvei / Wuji / Live",
    "venue_id": "blue-room",
    "night": "2026-10-08",
-   "start": "2026-10-08T22:00:00.000",
+   "start": "2026-10-08T21:00:00.000",
    "end": "2026-10-09T03:00:00.000",
    "lineup": [
     {
@@ -7339,57 +7189,6 @@
    }
   },
   {
-   "id": "19a3b912a57c",
-   "title": "Oliver Heldens, HILLS",
-   "venue_id": "new-city-gas",
-   "night": "2026-10-10",
-   "start": "2026-10-10T22:00:00.000",
-   "end": "2026-10-11T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "oliver-heldens",
-     "name": "Oliver Heldens",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "hills",
-     "name": "HILLS",
-     "billing": "support"
-    },
-    {
-     "artist_id": "stef-agostino",
-     "name": "Stef Agostino",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/oliver-heldens-hills-203736/",
-   "event_url": "https://ra.co/events/2532515",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2532515"
-    },
-    {
-     "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/oliver-heldens-hills-203736/"
-    }
-   ],
-   "interest": {
-    "score": 76,
-    "tier": 3,
-    "reasons": [
-     "tête d'affiche : Oliver Heldens (81)",
-     "lieu : New City Gas (palier 3)"
-    ]
-   }
-  },
-  {
    "id": "7407a7701cd9",
    "title": "Nora En Pure - Parc Jean-Drapeau",
    "venue_id": "piknic-electronik",
@@ -7437,6 +7236,52 @@
      "tête d'affiche : Nora En Pure (68)",
      "lieu : Piknic Electronik (palier 3)",
      "format festival"
+    ]
+   }
+  },
+  {
+   "id": "cf5ac3d11f5b",
+   "title": "HILLS, Stef Agostino",
+   "venue_id": "new-city-gas",
+   "night": "2026-10-10",
+   "start": "2026-10-10T22:00:00.000",
+   "end": "2026-10-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "hills",
+     "name": "HILLS",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "stef-agostino",
+     "name": "Stef Agostino",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://newcitygas.com/event/hills-210317/",
+   "event_url": "https://ra.co/events/2532515",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2532515"
+    },
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/hills-210317/"
+    }
+   ],
+   "interest": {
+    "score": 62,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : HILLS (61)",
+     "lieu : New City Gas (palier 3)"
     ]
    }
   },
@@ -7745,8 +7590,8 @@
     "experimental",
     "pop",
     "techno",
-    "house",
-    "reggaeton"
+    "reggaeton",
+    "house"
    ],
    "families": [
     "Techno",
@@ -8059,6 +7904,11 @@
      "artist_id": "the-fitness",
      "name": "The Fitness",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "ostrich",
+     "name": "Ostrich",
+     "billing": "support"
     }
    ],
    "genres": [],
@@ -8561,8 +8411,8 @@
    }
   },
   {
-   "id": "984b86bbc4d9",
-   "title": "Daði Freyr - Too Much, Not Enough",
+   "id": "c714d4934cbd",
+   "title": "Daði Freyr - Déplacé au / Moved to Théâtre Beanfield",
    "venue_id": "mtelus",
    "night": "2026-10-11",
    "start": "2026-10-11T20:00:00-04:00",
@@ -8585,14 +8435,14 @@
    "families": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/dai-freyr-too-much-not-enough-montreal-quebec-10-11-2026/event/31006477AB27476F",
-   "event_url": "https://www.ticketmaster.ca/dai-freyr-too-much-not-enough-montreal-quebec-10-11-2026/event/31006477AB27476F",
+   "ticket_url": "https://www.ticketmaster.ca/dai-freyr-deplace-au-moved-to-montreal-quebec-10-11-2026/event/31006477AB27476F",
+   "event_url": "https://www.ticketmaster.ca/dai-freyr-deplace-au-moved-to-montreal-quebec-10-11-2026/event/31006477AB27476F",
    "image": "https://s1.ticketm.net/dam/a/70e/36340c12-77fe-4cf9-8186-c9a9a26fb70e_SOURCE",
    "status": "confirmed",
    "sources": [
     {
      "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/dai-freyr-too-much-not-enough-montreal-quebec-10-11-2026/event/31006477AB27476F"
+     "url": "https://www.ticketmaster.ca/dai-freyr-deplace-au-moved-to-montreal-quebec-10-11-2026/event/31006477AB27476F"
     }
    ],
    "interest": {
@@ -14492,6 +14342,49 @@
    }
   },
   {
+   "id": "70423d5aa202",
+   "title": "Don Barbarino vs Shelton Cooper",
+   "venue_id": "sanctuary",
+   "night": "2026-10-30",
+   "start": "2026-10-30T22:00:00.000",
+   "end": "2026-10-31T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "don-barbarino-vs-shelton-cooper",
+     "name": "Don Barbarino vs Shelton Cooper",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2556260",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556260"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Don Barbarino vs Shelton Cooper (8)",
+     "lieu : Sanctuary (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "a4b2f2442033",
    "title": "Sélecteurs vinyles",
    "venue_id": "subterra",
@@ -14677,6 +14570,11 @@
      "billing": "headliner"
     },
     {
+     "artist_id": "vayia",
+     "name": "Vayia",
+     "billing": "support"
+    },
+    {
      "artist_id": "salar-ansari",
      "name": "Salar Ansari",
      "billing": "support"
@@ -14690,12 +14588,18 @@
      "artist_id": "nathan-burns",
      "name": "Nathan Burns",
      "billing": "support"
+    },
+    {
+     "artist_id": "queenie-jr",
+     "name": "Queenie Jr",
+     "billing": "support"
     }
    ],
    "genres": [
     "techno",
     "minimal techno",
-    "tech house"
+    "tech house",
+    "house"
    ],
    "families": [
     "Techno",
@@ -15442,43 +15346,6 @@
    }
   },
   {
-   "id": "6fcfac2812cd",
-   "title": "My Haunted Haus 2026",
-   "venue_id": "le-red-room",
-   "night": "2026-10-31",
-   "start": "2026-10-31T22:00:00.000",
-   "end": "2026-11-01T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "my-haunted-haus-2026",
-     "name": "My Haunted Haus 2026",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2555138",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2555138"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : My Haunted Haus 2026 (8)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
    "id": "2aa22406b95d",
    "title": "Black Sunrise - Inner Circle",
    "venue_id": "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
@@ -15532,6 +15399,49 @@
     "reasons": [
      "tête d'affiche : Racil (8)",
      "lieu : TBA - 1585 Boulevard St Laurent, Montreal, QC, H2X 2S9 (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "6fcfac2812cd",
+   "title": "My Haunted Haus 2026",
+   "venue_id": "le-red-room",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00.000",
+   "end": "2026-11-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ratchet",
+     "name": "Ratchet",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2555138",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555138"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ratchet (0)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -17900,6 +17810,48 @@
    }
   },
   {
+   "id": "76314d0321f9",
+   "title": "Girl Ultra - Montréal",
+   "venue_id": "le-ritz",
+   "night": "2027-02-06",
+   "start": "2027-02-06T19:00:00.000",
+   "end": "2027-02-06T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "girl-ultra-montreal",
+     "name": "Girl Ultra - Montréal",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "pop",
+    "r&b"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2553916",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2553916"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Girl Ultra - Montréal (8)",
+     "lieu : Le Ritz PDB (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "b3963a7c320c",
    "title": "Northern Invasion",
    "venue_id": "mtelus",
@@ -18279,13 +18231,6 @@
  ],
  "announcements": [
   {
-   "id": "1ada259b9fc8",
-   "name": "Ian Asher",
-   "night": "2026-11-27",
-   "venue": "New City Gas",
-   "photo": "https://i.scdn.co/image/ab6761610000f178d187406161b028580b4903c1"
-  },
-  {
    "id": "fdfc09eaea1f",
    "name": "ENAMOR",
    "night": "2026-10-12",
@@ -18313,21 +18258,6 @@
  "spotlight": [
   {
    "kind": "event",
-   "day": "MER 7 OCT",
-   "title": "Lewis OfMan",
-   "venue": "Studio TD",
-   "time": "20:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5ebebb3ab860bdea969fca7a839",
-   "event_id": "51db2cdab6db"
-  },
-  {
-   "kind": "event",
    "day": "VEN 9 OCT",
    "title": "Meduza",
    "venue": "Piknic Electronik",
@@ -18340,21 +18270,6 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb1b3b3325a43e81577b03b9c9",
    "event_id": "ef0ecad64a40"
-  },
-  {
-   "kind": "event",
-   "day": "SAM 10 OCT",
-   "title": "Oliver Heldens",
-   "venue": "New City Gas",
-   "time": "22:00 → 03:00",
-   "tier": 3,
-   "reason": "",
-   "supports": "HILLS, Stef Agostino",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5ebe0de3617061247aa35ff7865",
-   "event_id": "19a3b912a57c"
   },
   {
    "kind": "event",
@@ -18385,6 +18300,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb0df42ada486ac2efa66ca66e",
    "event_id": "eff7807bb74a"
+  },
+  {
+   "kind": "event",
+   "day": "DIM 11 + LUN 12 OCT",
+   "title": "ENAMOR",
+   "venue": "Piknic Electronik",
+   "time": "16:00 → 21:30",
+   "tier": 2,
+   "reason": "Festival",
+   "supports": "Melé, Demi Riquisimo, Sumatra",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb297f39098d938742df8f81c7",
+   "event_id": "b774ff7b5aef"
   },
   {
    "kind": "event",
@@ -18460,6 +18390,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb6b07a040a57d013a7e49f908",
    "event_id": "811ef40aca5b"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 24 OCT",
+   "title": "Gareth Emery",
+   "venue": "New City Gas",
+   "time": "22:00 → 03:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "CITY, LSR",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5ebab8b3e2e7218ed4714d64d2f",
+   "event_id": "681a738f0ee2"
   },
   {
    "kind": "event",
