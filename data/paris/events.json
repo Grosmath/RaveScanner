@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-08T16:12:01Z",
+ "generated_at": "2026-10-09T01:08:22Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-10-08",
-  "end": "2027-04-06"
+  "start": "2026-10-09",
+  "end": "2027-04-07"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 415
+   "events": 410
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 58
+   "events": 60
   }
  ],
  "venue_order": [
@@ -55,9 +55,7 @@
   "silencio",
   "zenith-paris-la-villette",
   "lieu-secret-paris",
-  "la-cigale",
   "magasins-generaux",
-  "espace-bertrand-grimont",
   "la-gaite-lyrique",
   "le-bataclan",
   "virage",
@@ -65,7 +63,6 @@
   "petit-bain",
   "main-room",
   "la-nuit",
-  "la-maroquinerie",
   "point-ephemere",
   "workshow",
   "le-211",
@@ -73,9 +70,11 @@
   "fondation-cartier",
   "panic-room",
   "la-bellevilloise",
+  "la-maroquinerie",
   "l-olympia",
   "le-pop-up-du-label",
   "nouveau-casino",
+  "la-cigale",
   "le-bateau-phare",
   "le-trianon",
   "la-rotonde-stalingrad",
@@ -97,12 +96,10 @@
   "tba-75013",
   "brasserie-gallia",
   "la-gare-le-gore",
-  "studio56",
   "bourse-de-commerce-pinault-collection",
   "paname-sur-seine",
   "communale-saint-ouen",
   "amaluna-paris",
-  "nonsense",
   "le-gambetta-club",
   "le-klub",
   "tba",
@@ -111,6 +108,7 @@
   "la-peniche-cinema",
   "le-point-fort-d-aubervilliers",
   "pamela-club",
+  "studio56",
   "tba-le-tlm-paris-105-rue-curial-75019-paris",
   "babour-sauvage",
   "canal-93",
@@ -133,7 +131,6 @@
   "tba-cesure-paris",
   "tba-fontenay-sous-bois",
   "tba-secret-place",
-  "the-art-cafe",
   "vice-versa",
   "wanderlust",
   "miniwax",
@@ -381,16 +378,6 @@
    "genres": [
     "electronic"
    ]
-  },
-  {
-   "id": "espace-bertrand-grimont",
-   "name": "Espace Bertrand Grimont",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
   },
   {
    "id": "essaim",
@@ -1018,16 +1005,6 @@
    "genres": []
   },
   {
-   "id": "nonsense",
-   "name": "Nonsense",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "notre-dame-music-bar",
    "name": "Notre Dame Music Bar",
    "type": "club",
@@ -1369,16 +1346,6 @@
    "genres": []
   },
   {
-   "id": "the-art-cafe",
-   "name": "Thé Art Café",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "vice-versa",
    "name": "Vice Versa",
    "type": "club",
@@ -1485,16 +1452,6 @@
   {
    "id": "3672-techno",
    "name": "3672*Techno",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "59-bel-records-silv4re",
-   "name": "59 BEL RECORDS: SILV4RE",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2063,16 +2020,6 @@
    "known": false
   },
   {
-   "id": "antoine-bourachot",
-   "name": "Antoine Bourachot",
-   "tier": 0,
-   "score": 50,
-   "popularity": 50,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178bb3e925dd640bceff9a8e9aa",
-   "known": false
-  },
-  {
    "id": "anxhela",
    "name": "ANXHELA",
    "tier": 0,
@@ -2385,6 +2332,16 @@
    "known": false
   },
   {
+   "id": "bait",
+   "name": "Bait",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/16d8ac1197c05f561df045b997df00d9/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "barbara-boeing",
    "name": "Barbara Boeing",
    "tier": 0,
@@ -2442,16 +2399,6 @@
    "popularity": 29,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1781cb3a3e87bd5382bb0e1e85d",
-   "known": false
-  },
-  {
-   "id": "bellaire",
-   "name": "Bellaire",
-   "tier": 0,
-   "score": 61,
-   "popularity": 61,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17889b999621f0f9e50eba3b5fe",
    "known": false
   },
   {
@@ -3207,16 +3154,6 @@
    "known": false
   },
   {
-   "id": "dada-disco",
-   "name": "Dada Disco",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "daddy-chulo",
    "name": "Daddy Chulo",
    "tier": 0,
@@ -3517,6 +3454,16 @@
    "known": false
   },
   {
+   "id": "diggers-factory-turns-10-let-s-make-some-noise",
+   "name": "Diggers Factory turns 10. Let's make some noise",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "digitalism",
    "name": "Digitalism",
    "tier": 0,
@@ -3554,16 +3501,6 @@
    "popularity": 53,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178df1d6656cbd4158cab1999c4",
-   "known": false
-  },
-  {
-   "id": "diskay",
-   "name": "Diskay",
-   "tier": 0,
-   "score": 48,
-   "popularity": 48,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17850ec597bb128725715f811f9",
    "known": false
   },
   {
@@ -4697,16 +4634,6 @@
    "known": false
   },
   {
-   "id": "gal",
-   "name": "Gal",
-   "tier": 0,
-   "score": 41,
-   "popularity": 41,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/606df84da6e0e6a45fb10455a63408a4/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "galop-galop-vcl",
    "name": "GALOP GALOP : VCL",
    "tier": 0,
@@ -4754,16 +4681,6 @@
    "popularity": 48,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17839164b32db594cdc4a9a721b",
-   "known": false
-  },
-  {
-   "id": "georges",
-   "name": "Georges",
-   "tier": 0,
-   "score": 26,
-   "popularity": 26,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/3f86a110cb52e59e7a0f15ac4119f71a/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5110,16 +5027,6 @@
    "known": false
   },
   {
-   "id": "haxo",
-   "name": "HAXO",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/386916d5e49e218ca17d1e3f35dccaa1/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "hearthug",
    "name": "HearThug",
    "tier": 0,
@@ -5367,16 +5274,6 @@
    "popularity": 63,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782ea36e7e9e49762e4a5c7d9b",
-   "known": false
-  },
-  {
-   "id": "ingrid",
-   "name": "Ingrid",
-   "tier": 0,
-   "score": 20,
-   "popularity": 20,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/64e379ca468be987c56bbe678e40df80/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -6340,16 +6237,6 @@
    "known": false
   },
   {
-   "id": "la-ch-ck-reggaeton-allstars-revival",
-   "name": "LA CH!CK: REGGAETON ALLSTARS REVIVAL",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "la-scarlette",
    "name": "LA SCARLETTE",
    "tier": 0,
@@ -6387,16 +6274,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "lacchesi",
-   "name": "Lacchesi",
-   "tier": 0,
-   "score": 38,
-   "popularity": 38,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17831670c5b201c63695a71e5cf",
    "known": false
   },
   {
@@ -6527,16 +6404,6 @@
    "popularity": 8,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "ledouble",
-   "name": "Ledouble",
-   "tier": 0,
-   "score": 42,
-   "popularity": 42,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178d017e5d1ee8b645dc608617e",
    "known": false
   },
   {
@@ -7600,16 +7467,6 @@
    "known": false
   },
   {
-   "id": "mon-to",
-   "name": "Mon.To",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048513e6c4c6952e5018873721b11",
-   "known": false
-  },
-  {
    "id": "monile",
    "name": "Monile",
    "tier": 0,
@@ -7707,16 +7564,6 @@
    "popularity": 63,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17817c78d0044b2d88a69e5265c",
-   "known": false
-  },
-  {
-   "id": "myd",
-   "name": "Myd",
-   "tier": 0,
-   "score": 67,
-   "popularity": 67,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1786a95675caf7f6a92f5c7f286",
    "known": false
   },
   {
@@ -8247,16 +8094,6 @@
   {
    "id": "onakan-disko",
    "name": "Onakan Disko",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "ondulation-by-atoem-2",
-   "name": "ONDULATION by ATOEM #2",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -8807,16 +8644,6 @@
   {
    "id": "rebequita",
    "name": "Rebequita",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "redkoffee",
-   "name": "redkoffee",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -10098,6 +9925,16 @@
    "known": false
   },
   {
+   "id": "traverse",
+   "name": "Traverse",
+   "tier": 0,
+   "score": 9,
+   "popularity": 9,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/33d6cabd34362dfaa01da0f26cf906e3/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "trois-quarts-taxi-system",
    "name": "Trois-Quarts Taxi System",
    "tier": 0,
@@ -10105,26 +9942,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780eb4f8ad357fb54d0690ea79",
-   "known": false
-  },
-  {
-   "id": "tsaou",
-   "name": "Tsaou",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "tsieg",
-   "name": "TSIEG",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -10215,16 +10032,6 @@
    "popularity": 1,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485181d176ae3f6140d14e5bc843",
-   "known": false
-  },
-  {
-   "id": "underground-collectif-the-art-cafe-lagny-sur-marne",
-   "name": "Underground Collectif live @Thé Art Café (Lagny sur Marne)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -10790,601 +10597,6 @@
  ],
  "events": [
   {
-   "id": "8d79d4c66bf4",
-   "title": "Sacré présente: Bellaire & Friends 'Born Funky' aftershow",
-   "venue_id": "sacre",
-   "night": "2026-10-08",
-   "start": "2026-10-08T23:00:00.000",
-   "end": "2026-10-11T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "bellaire",
-     "name": "Bellaire",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "fleur-de-mur",
-     "name": "Fleur De Mur",
-     "billing": "support"
-    },
-    {
-     "artist_id": "georges",
-     "name": "Georges",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2553321",
-   "event_url": "https://ra.co/events/2553321",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2553321"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2553321"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2553321"
-    }
-   ],
-   "interest": {
-    "score": 56,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Bellaire (61)",
-     "lieu : Sacré (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "6d4d6fe404b0",
-   "title": "Bellaire",
-   "venue_id": "la-cigale",
-   "night": "2026-10-08",
-   "start": "2026-10-08T20:00:00.000",
-   "end": "2026-10-08T22:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "bellaire",
-     "name": "Bellaire",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2368092",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2368092"
-    }
-   ],
-   "interest": {
-    "score": 50,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Bellaire (61)",
-     "lieu : La Cigale (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "3b3f5b254e97",
-   "title": "Diskay à La Maroquinerie",
-   "venue_id": "la-maroquinerie",
-   "night": "2026-10-08",
-   "start": "2026-10-08T19:30:00.000",
-   "end": "2026-10-08T22:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "diskay",
-     "name": "Diskay",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "electro"
-   ],
-   "families": [
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2483010",
-   "event_url": "https://ra.co/events/2483010",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2483010"
-    }
-   ],
-   "interest": {
-    "score": 41,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Diskay (48)",
-     "lieu : La Maroquinerie (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "2f3146a74f7d",
-   "title": "Gal + Ledouble",
-   "venue_id": "central-chapelle",
-   "night": "2026-10-08",
-   "start": "2026-10-08T20:00:00.000",
-   "end": "2026-10-08T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ledouble",
-     "name": "Ledouble",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "gal",
-     "name": "Gal",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2495698",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2495698"
-    }
-   ],
-   "interest": {
-    "score": 36,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Ledouble (42)",
-     "lieu : Central Chapelle (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "16c01af29d8a",
-   "title": "Lacchesi - all night long - with special guest",
-   "venue_id": "essaim",
-   "night": "2026-10-08",
-   "start": "2026-10-08T23:00:00.000",
-   "end": "2026-10-09T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "lacchesi",
-     "name": "Lacchesi",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2537698",
-   "event_url": "https://ra.co/events/2537698",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2537698"
-    }
-   ],
-   "interest": {
-    "score": 33,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Lacchesi (38)",
-     "lieu : essaim (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "39bf0718d055",
-   "title": "TAKE HIT: Ingrid, KD/MS, MON.TO, HAXO",
-   "venue_id": "mia-mao",
-   "night": "2026-10-08",
-   "start": "2026-10-08T23:00:00.000",
-   "end": "2026-10-09T06:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "ingrid",
-     "name": "Ingrid",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "haxo",
-     "name": "HAXO",
-     "billing": "support"
-    },
-    {
-     "artist_id": "mon-to",
-     "name": "Mon.To",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "hardcore"
-   ],
-   "families": [
-    "Techno",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2540709",
-   "event_url": "https://ra.co/events/2540709",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2540709"
-    }
-   ],
-   "interest": {
-    "score": 20,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Ingrid (20)",
-     "lieu : Mia Mao (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "502713fe89fc",
-   "title": "PULSE — One Pulse Sound x Gigante Rec",
-   "venue_id": "nonsense",
-   "night": "2026-10-08",
-   "start": "2026-10-08T23:00:00.000",
-   "end": "2026-10-09T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "joe-lewandowski",
-     "name": "Joe Lewandowski",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "dada-disco",
-     "name": "Dada Disco",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2545398",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2545398"
-    }
-   ],
-   "interest": {
-    "score": 19,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Joe Lewandowski (18)",
-     "lieu : Nonsense (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "47a0cc4bab59",
-   "title": "Discovery Présente : Queenz Of Ze Night",
-   "venue_id": "studio56",
-   "night": "2026-10-08",
-   "start": "2026-10-08T23:59:00.000",
-   "end": "2026-10-09T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "tsaou",
-     "name": "Tsaou",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2552857",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552857"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Tsaou (8)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "b4293c2f988d",
-   "title": "LA CH!CK: REGGAETON ALLSTARS REVIVAL",
-   "venue_id": "badaboum",
-   "night": "2026-10-08",
-   "start": "2026-10-08T23:30:00.000",
-   "end": "2026-10-09T05:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "la-ch-ck-reggaeton-allstars-revival",
-     "name": "LA CH!CK: REGGAETON ALLSTARS REVIVAL",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "pop",
-    "reggaeton"
-   ],
-   "families": [
-    "Afro & latin",
-    "Pop & club"
-   ],
-   "price_min": 0.0,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2544231",
-   "event_url": "https://ra.co/events/2544231",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-23/74ae0b10-b207-4746-92b2-6b7754e14f1c.jpg?rect=17%2C0%2C1034%2C1039",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544231"
-    },
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/xegg6m-la-chck-reggaeton-allstars-revival-8th-oct-badaboum-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : LA CH!CK: REGGAETON ALLSTARS REVIVAL (8)",
-     "lieu : Badaboum (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "655f35a99005",
-   "title": "ONDULATION by ATOEM #2",
-   "venue_id": "la-station-gare-des-mines",
-   "night": "2026-10-08",
-   "start": "2026-10-08T20:00:00.000",
-   "end": "2026-10-09T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ondulation-by-atoem-2",
-     "name": "ONDULATION by ATOEM #2",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "deep house",
-    "electronica"
-   ],
-   "families": [
-    "House",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2506191",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2506191"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : ONDULATION by ATOEM #2 (8)",
-     "lieu : La Station - Gare des Mines (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "55ee7ac475a2",
-   "title": "59 BEL RECORDS: SILV4RE & TSIEG",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-10-08",
-   "start": "2026-10-08T23:59:00.000",
-   "end": "2026-10-09T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "59-bel-records-silv4re",
-     "name": "59 BEL RECORDS: SILV4RE",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "tsieg",
-     "name": "TSIEG",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2546455",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546455"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : 59 BEL RECORDS: SILV4RE (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "cf5b07863332",
-   "title": "Redkoffee and Ohjeelo",
-   "venue_id": "le-poisson-volant",
-   "night": "2026-10-08",
-   "start": "2026-10-08T23:30:00.000",
-   "end": "2026-10-09T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "redkoffee",
-     "name": "redkoffee",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ohjeelo",
-     "name": "ohjeelo",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "ambient",
-    "bass",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2549190",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2549190"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : redkoffee (8)",
-     "lieu : Le Poisson Volant (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "f8c21afe2d2d",
-   "title": "Underground Collectif live @Thé Art Café (Lagny sur Marne)",
-   "venue_id": "the-art-cafe",
-   "night": "2026-10-08",
-   "start": "2026-10-08T21:00:00.000",
-   "end": "2026-10-09T00:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "underground-collectif-the-art-cafe-lagny-sur-marne",
-     "name": "Underground Collectif live @Thé Art Café (Lagny sur Marne)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "garage",
-    "deep house"
-   ],
-   "families": [
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2542338",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2542338"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Underground Collectif live @Thé Art Café (Lagny sur Marne) (8)",
-     "lieu : Thé Art Café (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "8710c9594647",
    "title": "CHEVRY AGENCY: 8TH ANNIVERSARY [XXL FORMAT · 4 STAGES]",
    "venue_id": "fvtvr",
@@ -11834,55 +11046,6 @@
     "reasons": [
      "tête d'affiche : Pokeyz (59)",
      "lieu : La Java (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "e0fe3a840767",
-   "title": "What makes your sole bounce ? Paris",
-   "venue_id": "espace-bertrand-grimont",
-   "night": "2026-10-09",
-   "start": "2026-10-09T19:00:00+02:00",
-   "end": "2026-10-09T22:30:00+02:00",
-   "lineup": [
-    {
-     "artist_id": "myd",
-     "name": "Myd",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "antoine-bourachot",
-     "name": "Antoine Bourachot",
-     "billing": "support"
-    },
-    {
-     "artist_id": "redkoffee",
-     "name": "redkoffee",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/ryeyqy-what-makes-your-sole-bounce-paris-9th-oct-espace-bertrand-grimont-paris-tickets",
-   "event_url": "https://dice.fm/event/ryeyqy-what-makes-your-sole-bounce-paris-9th-oct-espace-bertrand-grimont-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-30/2d49f2be-c395-4ae4-b552-5f437a050927.jpg?rect=0%2C0%2C1080%2C1080",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/ryeyqy-what-makes-your-sole-bounce-paris-9th-oct-espace-bertrand-grimont-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 54,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Myd (67)",
-     "lieu : Espace Bertrand Grimont (palier 1)"
     ]
    }
   },
@@ -13579,16 +12742,20 @@
     "Trance & hard",
     "Disco & funk"
    ],
-   "price_min": null,
+   "price_min": 24.21,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2533443",
    "event_url": "https://ra.co/events/2533443",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-09-09/ee73e6e9-4d72-47f1-b17d-f21164406de9.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2533443"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/oe9rdm-ritmo-fatale-kendal-ma-linh-miguel-de-bois-10th-oct-cabaret-sauvage-paris-tickets"
     }
    ],
    "interest": {
@@ -14802,7 +13969,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2557110",
    "event_url": "https://ra.co/events/2557110",
    "image": "",
    "status": "confirmed",
@@ -24728,7 +23895,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2554317",
    "event_url": "https://ra.co/events/2554317",
    "image": "",
    "status": "confirmed",
@@ -26466,16 +25633,20 @@
     "Techno",
     "Électro & bass"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2557108",
    "event_url": "https://ra.co/events/2557108",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-08/01ffae0a-dc38-490d-9b1d-b37534c0ec0b.jpg?rect=114%2C178%2C739%2C739",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2557108"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/bbqmeo-dj-physical-residency-pangaea-servye-7th-nov-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -26781,6 +25952,85 @@
     "reasons": [
      "tête d'affiche : Thaylo (36)",
      "lieu : Le Bazar (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "1572b86a9148",
+   "title": "Diggers Factory turns 10. Let's make some noise",
+   "venue_id": "point-ephemere",
+   "night": "2026-11-10",
+   "start": "2026-11-10T20:00:00.000",
+   "end": "2026-11-20T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "diggers-factory-turns-10-let-s-make-some-noise",
+     "name": "Diggers Factory turns 10. Let's make some noise",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electro",
+    "dub techno"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2556929",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556929"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556929"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556929"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556929"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556929"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556929"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556929"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556929"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556929"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2556929"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Diggers Factory turns 10. Let's make some noise (8)",
+     "lieu : Point Ephémère (palier 1)"
     ]
    }
   },
@@ -27108,6 +26358,11 @@
      "billing": "support"
     },
     {
+     "artist_id": "traverse",
+     "name": "Traverse",
+     "billing": "support"
+    },
+    {
      "artist_id": "olga-b",
      "name": "OLGA B.",
      "billing": "support"
@@ -27121,6 +26376,11 @@
      "artist_id": "soa420",
      "name": "Soa420",
      "billing": "support"
+    },
+    {
+     "artist_id": "bait",
+     "name": "Bait",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -27131,16 +26391,20 @@
     "Techno",
     "Électro & bass"
    ],
-   "price_min": null,
+   "price_min": 11.33,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://dice.fm/event/yoqm8v-bait-x-traverse-13th-nov-point-ephmre-paris-tickets",
    "event_url": "https://ra.co/events/2539783",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-08/ce750263-0714-4228-9650-d14c9ee8d20c.jpg?rect=0%2C376%2C2000%2C2000",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2539783"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/yoqm8v-bait-x-traverse-13th-nov-point-ephmre-paris-tickets"
     }
    ],
    "interest": {
@@ -27918,6 +27182,45 @@
     "reasons": [
      "tête d'affiche : The Caracal Project (42)",
      "lieu : main room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "e41308f5be4f",
+   "title": "La Discotaco : disco, paillettes & tacos !",
+   "venue_id": "le-mazette",
+   "night": "2026-11-19",
+   "start": "2026-11-19T18:00:00+01:00",
+   "end": "2026-11-20T02:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "funky-french-league",
+     "name": "Funky French League",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/g5ve9b-la-discotaco-disco-paillettes-tacos-19th-nov-le-mazette-paris-tickets",
+   "event_url": "https://dice.fm/event/g5ve9b-la-discotaco-disco-paillettes-tacos-19th-nov-le-mazette-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-08/174375a1-e90c-4be8-bbe8-12d9e28db907.jpg?rect=420%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/g5ve9b-la-discotaco-disco-paillettes-tacos-19th-nov-le-mazette-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 35,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Funky French League (40)",
+     "lieu : Le Mazette (palier 1)"
     ]
    }
   },
@@ -31271,25 +30574,11 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178ab0ff59b811ab51d83972c66"
   },
   {
-   "id": "8d79d4c66bf4",
-   "name": "Bellaire",
-   "night": "2026-10-08",
-   "venue": "Sacré",
-   "photo": "https://i.scdn.co/image/ab6761610000f17889b999621f0f9e50eba3b5fe"
-  },
-  {
    "id": "f577ad8f8eac",
    "name": "Maud Geffray",
    "night": "2026-11-07",
    "venue": "La Machine du Moulin Rouge",
    "photo": "https://i.scdn.co/image/ab6761610000f178a0f26ea25a3d04c9469cf2c7"
-  },
-  {
-   "id": "e0fe3a840767",
-   "name": "Myd",
-   "night": "2026-10-09",
-   "venue": "Espace Bertrand Grimont",
-   "photo": "https://i.scdn.co/image/ab6761610000f1786a95675caf7f6a92f5c7f286"
   },
   {
    "id": "474810f9ad02",
