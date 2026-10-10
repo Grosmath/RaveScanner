@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-10T00:40:31Z",
+ "generated_at": "2026-10-10T15:05:51Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 384
+   "events": 385
   },
   {
    "id": "dice",
@@ -85,6 +85,7 @@
   "lafayette-anticipations",
   "a-la-folie-paris",
   "tba-secret-warehouse",
+  "espace-parallele",
   "la-cite-fertile",
   "cayo",
   "le-bazar",
@@ -374,6 +375,16 @@
    "genres": [
     "electronic"
    ]
+  },
+  {
+   "id": "espace-parallele",
+   "name": "Espace Parallele",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "essaim",
@@ -2690,6 +2701,16 @@
    "known": false
   },
   {
+   "id": "ceri-wax",
+   "name": "Ceri Wax",
+   "tier": 0,
+   "score": 40,
+   "popularity": 40,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178bf37fead4a961bb7469d8263",
+   "known": false
+  },
+  {
    "id": "chaos-in-the-cbd",
    "name": "Chaos In The CBD",
    "tier": 0,
@@ -3057,6 +3078,16 @@
    "popularity": 10,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789d5b0b3d41e95c751921dad1",
+   "known": false
+  },
+  {
+   "id": "dante",
+   "name": "Dante",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851976d517bf589d3ee9277cff5",
    "known": false
   },
   {
@@ -4097,6 +4128,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "ferrari",
+   "name": "Ferrari",
+   "tier": 0,
+   "score": 15,
+   "popularity": 15,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485190994db4f81d5a4c1b7fd970",
    "known": false
   },
   {
@@ -5200,6 +5241,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "jin-synth",
+   "name": "Jin Synth",
+   "tier": 0,
+   "score": 17,
+   "popularity": 17,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851e834798e4b3f42e70efeea64",
    "known": false
   },
   {
@@ -6530,16 +6581,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1787b19823e876545e58a94c44f",
-   "known": false
-  },
-  {
-   "id": "marco-shuttle",
-   "name": "Marco Shuttle",
-   "tier": 0,
-   "score": 24,
-   "popularity": 24,
-   "genres": [],
-   "image": "https://i.scdn.co/image/4854fc684fae2629b168f8c3c350ba87489f5d39",
    "known": false
   },
   {
@@ -10834,12 +10875,12 @@
    }
   },
   {
-   "id": "be38ea5dad70",
-   "title": "Kluster - 5 YEARS (Warehouse)",
+   "id": "4ab414f12c10",
+   "title": "Kluster - 5 YEARS (Open Air)",
    "venue_id": "tba-paris",
    "night": "2026-10-10",
-   "start": "2026-10-10T20:00:00.000",
-   "end": "2026-10-11T07:00:00.000",
+   "start": "2026-10-10T22:00:00.000",
+   "end": "2026-10-11T06:00:00.000",
    "lineup": [
     {
      "artist_id": "amotik",
@@ -10847,8 +10888,8 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "marco-shuttle",
-     "name": "Marco Shuttle",
+     "artist_id": "jin-synth",
+     "name": "Jin Synth",
      "billing": "support"
     },
     {
@@ -18299,6 +18340,57 @@
    }
   },
   {
+   "id": "e6bc2471d07a",
+   "title": "LB - Art Basel Party Paris",
+   "venue_id": "espace-parallele",
+   "night": "2026-10-24",
+   "start": "2026-10-24T18:00:00.000",
+   "end": "2026-10-24T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "ceri-wax",
+     "name": "Ceri Wax",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ferrari",
+     "name": "Ferrari",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dante",
+     "name": "Dante",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2558345",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2558345"
+    }
+   ],
+   "interest": {
+    "score": 35,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ceri Wax (40)",
+     "lieu : Espace Parallele (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "275025e22bf6",
    "title": "AREA x Shockwerk: Tarkno, RUIZ OSC1, LEX, Salomé DV",
    "venue_id": "badaboum",
@@ -23504,7 +23596,7 @@
   },
   {
    "id": "dfb51a833a25",
-   "title": "ELECTRONIC FOLK DANCE MUSIC wtih EIN L AQL - AndL - Nayoo",
+   "title": "ELECTRONIC FOLK DANCE MUSIC wtih EIN L AQL - AndL - Nayoo (Live)",
    "venue_id": "petit-bain",
    "night": "2026-11-07",
    "start": "2026-11-07T18:00:00.000",
