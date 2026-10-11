@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-11T00:12:15Z",
+ "generated_at": "2026-10-11T15:23:15Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 345
+   "events": 348
   },
   {
    "id": "dice",
@@ -41,10 +41,10 @@
   "104-centquatre",
   "essaim",
   "le-grand-rex",
+  "42-marches",
   "tba-paris",
   "le-trabendo",
   "la-station-gare-des-mines",
-  "42-marches",
   "la-boule-noire",
   "kilometre25",
   "palais-brongniart",
@@ -90,14 +90,15 @@
   "philharmonie-de-paris",
   "tba-75013",
   "brasserie-gallia",
+  "la-gare-le-gore",
   "panic-room",
   "cartilage",
   "bal-chavaux",
   "bourse-de-commerce-pinault-collection",
   "paname-sur-seine",
   "communale-saint-ouen",
-  "la-gare-le-gore",
   "tba",
+  "la-demesure",
   "petit-bain",
   "amaluna-paris",
   "le-gambetta-club",
@@ -536,6 +537,16 @@
     "mainstream",
     "electronic"
    ]
+  },
+  {
+   "id": "la-demesure",
+   "name": "La Démesure",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "la-gaite-lyrique",
@@ -2071,6 +2082,16 @@
    "known": false
   },
   {
+   "id": "baka-g",
+   "name": "Baka G",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17857be57fac166248ce0cf3932",
+   "known": false
+  },
+  {
    "id": "barbara-boeing",
    "name": "Barbara Boeing",
    "tier": 0,
@@ -3300,6 +3321,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "dj-w-ld",
+   "name": "DJ W!ld",
+   "tier": 0,
+   "score": 18,
+   "popularity": 18,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178473f44cb3651c59e8c0af298",
    "known": false
   },
   {
@@ -4586,6 +4617,16 @@
    "known": false
   },
   {
+   "id": "inessa-raum",
+   "name": "Inessa Raum",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "infected-mushroom",
    "name": "Infected Mushroom",
    "tier": 0,
@@ -5296,6 +5337,16 @@
    "known": false
   },
   {
+   "id": "ko-mu",
+   "name": "Ko Mu",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "konduku",
    "name": "Konduku",
    "tier": 0,
@@ -5603,6 +5654,16 @@
    "popularity": 8,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "lee-burton",
+   "name": "Lee Burton",
+   "tier": 0,
+   "score": 14,
+   "popularity": 14,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851cf9f0efa8a0a7632904060bf",
    "known": false
   },
   {
@@ -7914,6 +7975,16 @@
    "known": false
   },
   {
+   "id": "silverlining",
+   "name": "Silverlining",
+   "tier": 0,
+   "score": 5,
+   "popularity": 5,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dbc1e8ed4cd75afcb2aa1a1a",
+   "known": false
+  },
+  {
    "id": "simula",
    "name": "Simula",
    "tier": 0,
@@ -8394,6 +8465,16 @@
    "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f8bad96c61dbb81cb2683b83",
+   "known": false
+  },
+  {
+   "id": "the-liquid-dude",
+   "name": "The Liquid Dude",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -9842,6 +9923,52 @@
     "tier": 0,
     "reasons": [
      "tête d'affiche : JAM DU BPM CONTEST (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "3eae8a55c5c8",
+   "title": "LIQUID FREAKS x LE GORE",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-10-13",
+   "start": "2026-10-13T23:30:00.000",
+   "end": "2026-10-14T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ko-mu",
+     "name": "Ko Mu",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "the-liquid-dude",
+     "name": "The Liquid Dude",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2558083",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2558083"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ko Mu (8)",
      "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
@@ -12493,6 +12620,48 @@
    }
   },
   {
+   "id": "5a3ad95266f1",
+   "title": "Gaspacho Records invite Baka G",
+   "venue_id": "42-marches",
+   "night": "2026-10-17",
+   "start": "2026-10-17T22:00:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "baka-g",
+     "name": "Baka G",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2558330",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2558330"
+    }
+   ],
+   "interest": {
+    "score": 25,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Baka G (27)",
+     "lieu : 42 Marches (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "47e9e8b23d54",
    "title": "Garçon b2b Konduku - all night long",
    "venue_id": "essaim",
@@ -12617,6 +12786,64 @@
     "reasons": [
      "tête d'affiche : Low Jack (20)",
      "lieu : Le Poisson Volant (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "5687050af7d3",
+   "title": "TAKE A TRP with DJ W!LD, SILVERLINING, LEE BURTON & INESSA RAUM",
+   "venue_id": "la-demesure",
+   "night": "2026-10-17",
+   "start": "2026-10-17T23:00:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-w-ld",
+     "name": "DJ W!ld",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lee-burton",
+     "name": "Lee Burton",
+     "billing": "support"
+    },
+    {
+     "artist_id": "inessa-raum",
+     "name": "Inessa Raum",
+     "billing": "support"
+    },
+    {
+     "artist_id": "silverlining",
+     "name": "Silverlining",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2558222",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2558222"
+    }
+   ],
+   "interest": {
+    "score": 19,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ W!ld (18)",
+     "lieu : La Démesure (palier 1)"
     ]
    }
   },
@@ -21969,9 +22196,9 @@
     }
    ],
    "genres": [
+    "tech house",
     "deep house",
     "electro",
-    "tech house",
     "minimal",
     "progressive house"
    ],
