@@ -1,30 +1,30 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-11T15:23:15Z",
+ "generated_at": "2026-10-12T00:25:49Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-10-11",
-  "end": "2027-04-09"
+  "start": "2026-10-12",
+  "end": "2027-04-10"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 348
+   "events": 353
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 51
+   "events": 52
   }
  ],
  "venue_order": [
-  "pavillon-tilsitt",
   "badaboum",
+  "pavillon-tilsitt",
   "central-chapelle",
   "accor-arena",
   "rex-club",
@@ -50,6 +50,7 @@
   "palais-brongniart",
   "parc-des-expositions",
   "elysee-montmartre",
+  "yoyo-palais-de-tokyo",
   "djoon",
   "cite-de-la-musique",
   "virage",
@@ -63,7 +64,6 @@
   "main-room",
   "la-nuit",
   "workshow",
-  "le-211",
   "le-mazette",
   "fondation-cartier",
   "la-bellevilloise",
@@ -74,35 +74,36 @@
   "la-cigale",
   "le-bateau-phare",
   "le-trianon",
+  "le-211",
   "la-rotonde-stalingrad",
   "solum",
   "la-marbrerie",
   "lithium-paris",
   "lafayette-anticipations",
   "a-la-folie-paris",
-  "glazart",
   "tba-secret-warehouse",
   "espace-parallele",
   "cayo",
   "le-poisson-volant",
+  "glazart",
+  "studio56",
   "la-cite-fertile",
   "le-bazar",
   "philharmonie-de-paris",
   "tba-75013",
   "brasserie-gallia",
-  "la-gare-le-gore",
   "panic-room",
+  "l-olympia",
   "cartilage",
   "bal-chavaux",
   "bourse-de-commerce-pinault-collection",
-  "paname-sur-seine",
   "communale-saint-ouen",
+  "la-gare-le-gore",
   "tba",
   "la-demesure",
   "petit-bain",
   "amaluna-paris",
   "le-gambetta-club",
-  "plantation",
   "le-klub",
   "tba-le-tlm-paris-105-rue-curial-75019-paris",
   "babour-sauvage",
@@ -124,16 +125,17 @@
   "matchplay-society",
   "mira",
   "notre-dame-music-bar",
+  "plantation-paris",
   "peniche-antipode",
   "tba-cesure-paris",
   "vice-versa",
   "wanderlust",
-  "miniwax",
   "la-maison-de-la-conversation",
   "jardin-des-traverses",
   "la-mecanique-ondulatoire",
   "la-rotonde",
-  "le-hasard-ludique"
+  "le-hasard-ludique",
+  "miniwax"
  ],
  "venues": [
   {
@@ -471,6 +473,16 @@
     "techno",
     "house"
    ]
+  },
+  {
+   "id": "l-olympia",
+   "name": "L'Olympia",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "la-bellevilloise",
@@ -1020,16 +1032,6 @@
    "genres": []
   },
   {
-   "id": "paname-sur-seine",
-   "name": "Paname sur Seine",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "panic-room",
    "name": "Panic Room",
    "type": "bar",
@@ -1128,8 +1130,8 @@
    "genres": []
   },
   {
-   "id": "plantation",
-   "name": "Plantation",
+   "id": "plantation-paris",
+   "name": "Plantation Paris",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1192,6 +1194,19 @@
    "address": "",
    "url": "",
    "genres": []
+  },
+  {
+   "id": "studio56",
+   "name": "Studio56",
+   "type": "club",
+   "tier": 2,
+   "capacity": 500,
+   "address": "Paris",
+   "url": "",
+   "genres": [
+    "techno",
+    "hard"
+   ]
   },
   {
    "id": "t7",
@@ -1306,6 +1321,19 @@
    "address": "",
    "url": "",
    "genres": []
+  },
+  {
+   "id": "yoyo-palais-de-tokyo",
+   "name": "YoYo - Palais de Tokyo",
+   "type": "club",
+   "tier": 2,
+   "capacity": null,
+   "address": "13 Avenue du Président Wilson, 75116",
+   "url": "",
+   "genres": [
+    "house",
+    "techno"
+   ]
   },
   {
    "id": "zenith-paris-la-villette",
@@ -1591,7 +1619,7 @@
   },
   {
    "id": "alhena",
-   "name": "Alhena_",
+   "name": "Alhena",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -1690,13 +1718,13 @@
    "known": false
   },
   {
-   "id": "anabel-arroyo",
-   "name": "Anabel Arroyo",
+   "id": "anansah",
+   "name": "Anansah",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048518bd32593aae2a38ea0a4b3b9",
+   "image": "",
    "known": false
   },
   {
@@ -1992,16 +2020,6 @@
    "known": false
   },
   {
-   "id": "ayman",
-   "name": "Ayman",
-   "tier": 0,
-   "score": 24,
-   "popularity": 24,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/4e82f66f27d2e4c0375776b76c3a62b3/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "aziz-konkrite",
    "name": "Aziz Konkrite",
    "tier": 0,
@@ -2164,16 +2182,6 @@
    "known": false
   },
   {
-   "id": "ben-rodd",
-   "name": "Ben:Rodd",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "ben-ufo",
    "name": "Ben UFO",
    "tier": 0,
@@ -2211,16 +2219,6 @@
    "popularity": 27,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17852e1714f6fb8ad130b9ffc9a",
-   "known": false
-  },
-  {
-   "id": "bigstate",
-   "name": "Bigstate",
-   "tier": 0,
-   "score": 9,
-   "popularity": 9,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178d61087aca0ef5ddbdffdaaf2",
    "known": false
   },
   {
@@ -2267,8 +2265,8 @@
    "id": "bob-sinclar",
    "name": "Bob Sinclar",
    "tier": 0,
-   "score": 94,
-   "popularity": 94,
+   "score": 93,
+   "popularity": 93,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845",
    "known": false
@@ -2501,16 +2499,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/07f4bdd304b64ab92b01eb80adea7177/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "catsinka",
-   "name": "Catsinka",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178635935362edfd090542b8eaf",
    "known": false
   },
   {
@@ -2944,6 +2932,16 @@
    "known": false
   },
   {
+   "id": "dean-lexar",
+   "name": "Dean Lexar",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17832997da2b66f51280a41f134",
+   "known": false
+  },
+  {
    "id": "demuja",
    "name": "Demuja",
    "tier": 0,
@@ -3137,10 +3135,10 @@
    "id": "dj-dave",
    "name": "DJ_Dave",
    "tier": 0,
-   "score": 57,
-   "popularity": 57,
+   "score": 60,
+   "popularity": 60,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178b567e817b8ed92fb124822e5",
+   "image": "https://i.scdn.co/image/ab6761610000f178152ae7735a1dd4995e67511e",
    "known": false
   },
   {
@@ -3151,6 +3149,16 @@
    "popularity": 33,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178eb2ee913a3d080d436e52916",
+   "known": false
+  },
+  {
+   "id": "dj-epi",
+   "name": "Dj Epi",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dec2202628989e16a8bf4029",
    "known": false
   },
   {
@@ -3417,8 +3425,8 @@
    "id": "dusky",
    "name": "Dusky",
    "tier": 0,
-   "score": 61,
-   "popularity": 61,
+   "score": 63,
+   "popularity": 63,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1781ea936c1e56ae20623443d1c",
    "known": false
@@ -3471,16 +3479,6 @@
    "popularity": 44,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178547cc968d3f22cdc2c44a094",
-   "known": false
-  },
-  {
-   "id": "eerste-communie-10-years",
-   "name": "Eerste Communie - 10 Years",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4264,16 +4262,6 @@
    "known": false
   },
   {
-   "id": "gotis",
-   "name": "GOTIS",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788f91d6e21078f25451d0f754",
-   "known": false
-  },
-  {
    "id": "grand-v",
    "name": "Grand V",
    "tier": 0,
@@ -4341,16 +4329,6 @@
    "popularity": 58,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17861053f5ff12cfa5ed7d75c27",
-   "known": false
-  },
-  {
-   "id": "h-a-u-s-s",
-   "name": "H.A.U.S.S",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4517,6 +4495,16 @@
    "known": false
   },
   {
+   "id": "house-of-djudas",
+   "name": "House Of Djudas",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "humn-pattrn-meet-002",
    "name": "humn pattrn - MEET 002",
    "tier": 0,
@@ -4537,16 +4525,6 @@
    "known": false
   },
   {
-   "id": "hyper-sam",
-   "name": "Hyper Sam",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "i-cube",
    "name": "I:Cube",
    "tier": 0,
@@ -4554,16 +4532,6 @@
    "popularity": 48,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d43a7032602dacc5fc358194",
-   "known": false
-  },
-  {
-   "id": "iambp",
-   "name": "IAMBP",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178fba338a4f9a16d1a13571eea",
    "known": false
   },
   {
@@ -4654,16 +4622,6 @@
    "popularity": 51,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782e4c02ecc5a8be1c903d5d42",
-   "known": false
-  },
-  {
-   "id": "isaac-gueye",
-   "name": "ISAAC GUEYE",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788ef71b237fd09f86ed375d4c",
    "known": false
   },
   {
@@ -5987,16 +5945,6 @@
    "known": false
   },
   {
-   "id": "m-sayyid",
-   "name": "M.SAYYID",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485195e899ed1973e11665a1a147",
-   "known": false
-  },
-  {
    "id": "maara",
    "name": "Maara",
    "tier": 0,
@@ -6187,16 +6135,6 @@
    "known": false
   },
   {
-   "id": "marie-berson",
-   "name": "Marie Berson",
-   "tier": 0,
-   "score": 4,
-   "popularity": 4,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178536d2a28040d081f3521ca96",
-   "known": false
-  },
-  {
    "id": "marie-julie",
    "name": "Marie-Julie",
    "tier": 0,
@@ -6307,16 +6245,6 @@
    "known": false
   },
   {
-   "id": "matteo",
-   "name": "Matteo (IT)",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/e6d28c0c3c4d97d5c43dc7c02e9009f4/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "maud-geffray",
    "name": "Maud Geffray",
    "tier": 0,
@@ -6334,6 +6262,16 @@
    "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17857710b5153b6659631960b01",
+   "known": false
+  },
+  {
+   "id": "maxi-meraki",
+   "name": "Maxi Meraki",
+   "tier": 0,
+   "score": 67,
+   "popularity": 67,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17882fb4bf1aeac084c2d2627cb",
    "known": false
   },
   {
@@ -6454,6 +6392,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "mikey",
+   "name": "Mikey (UK)",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851d8eacbdd02f2dff2eb16abc8",
    "known": false
   },
   {
@@ -6780,8 +6728,8 @@
    "id": "nia-archives",
    "name": "Nia Archives",
    "tier": 3,
-   "score": 68,
-   "popularity": 70,
+   "score": 67,
+   "popularity": 68,
    "genres": [
     "jungle",
     "dnb"
@@ -7042,16 +6990,6 @@
    "known": false
   },
   {
-   "id": "ode-1",
-   "name": "ode (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "ogazon",
    "name": "Ogazón",
    "tier": 0,
@@ -7169,6 +7107,26 @@
    "popularity": 8,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851d1c574f84a78bfd18c717087",
+   "known": false
+  },
+  {
+   "id": "outflw",
+   "name": "Outflw",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b5eb2a26393ddb57cc2bb399",
+   "known": false
+  },
+  {
+   "id": "pagos-paris-to-lagos",
+   "name": "PAGOS (PARIS TO LAGOS)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7745,6 +7703,16 @@
    "known": false
   },
   {
+   "id": "ry",
+   "name": "RY",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/fe7886c5d953587af0d72ea1d298b743/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "sacre-presente-moi-je",
    "name": "Sacré présente: Moi Je Live",
    "tier": 0,
@@ -7885,6 +7853,16 @@
    "known": false
   },
   {
+   "id": "shadow-thugentawa",
+   "name": "Shadow Thugentawa",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "shaolin-cowboy",
    "name": "Shaolin Cowboy",
    "tier": 0,
@@ -7908,8 +7886,8 @@
    "id": "shee",
    "name": "SHEE",
    "tier": 0,
-   "score": 7,
-   "popularity": 7,
+   "score": 8,
+   "popularity": 8,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/be247dc7d2d7d58dd4044f03f7bfb97a/250x250-000000-80-0-0.jpg",
    "known": false
@@ -8265,6 +8243,16 @@
    "known": false
   },
   {
+   "id": "sun-seven",
+   "name": "Sun Seven",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178bc10a80f04311932a1660fa6",
+   "known": false
+  },
+  {
    "id": "sunwave-halloween-edition",
    "name": "SUNWAVE HALLOWEEN EDITION",
    "tier": 0,
@@ -8474,7 +8462,7 @@
    "score": 0,
    "popularity": 0,
    "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "image": "https://i.scdn.co/image/ab67616d0000485153a9e406ddf018d3fb6079e9",
    "known": false
   },
   {
@@ -8535,6 +8523,16 @@
    "popularity": 45,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17845b4737721af072e79a0f3e5",
+   "known": false
+  },
+  {
+   "id": "thundersamurai",
+   "name": "Thundersamurai",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17830da150c0c6719002e87d664",
    "known": false
   },
   {
@@ -8858,6 +8856,16 @@
    "known": false
   },
   {
+   "id": "vee-1",
+   "name": "Vee (1)",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "vel",
    "name": "VEL (MA)",
    "tier": 0,
@@ -9075,6 +9083,16 @@
    "popularity": 34,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780c743b140e18c0866158161f",
+   "known": false
+  },
+  {
+   "id": "vworld",
+   "name": "Vworld",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178602ead39a1cd74e19ac059b3",
    "known": false
   },
   {
@@ -9320,441 +9338,6 @@
  ],
  "events": [
   {
-   "id": "9fbb6385051d",
-   "title": "Inka: All Stars - Open Air (Closing Party)",
-   "venue_id": "paname-sur-seine",
-   "night": "2026-10-11",
-   "start": "2026-10-11T14:30:00.000",
-   "end": "2026-10-11T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ayman",
-     "name": "Ayman",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "bigstate",
-     "name": "Bigstate",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ben-rodd",
-     "name": "Ben:Rodd",
-     "billing": "support"
-    },
-    {
-     "artist_id": "catsinka",
-     "name": "Catsinka",
-     "billing": "support"
-    },
-    {
-     "artist_id": "matteo",
-     "name": "Matteo (IT)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "isaac-gueye",
-     "name": "ISAAC GUEYE",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "tech house",
-    "minimal"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2555807",
-   "event_url": "https://ra.co/events/2555807",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2555807"
-    }
-   ],
-   "interest": {
-    "score": 23,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Ayman (24)",
-     "lieu : Paname sur Seine (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "a4667c734042",
-   "title": "HEDONY 006",
-   "venue_id": "la-station-gare-des-mines",
-   "night": "2026-10-11",
-   "start": "2026-10-11T16:00:00.000",
-   "end": "2026-10-11T23:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "h-a-u-s-s",
-     "name": "H.A.U.S.S",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "litoshka",
-     "name": "Litoshka",
-     "billing": "support"
-    },
-    {
-     "artist_id": "equus-belli",
-     "name": "Equus Belli",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lea-occhi",
-     "name": "Lea Occhi",
-     "billing": "support"
-    },
-    {
-     "artist_id": "a-litique",
-     "name": "A.Litique",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2539107",
-   "event_url": "https://ra.co/events/2539107",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2539107"
-    }
-   ],
-   "interest": {
-    "score": 19,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : H.A.U.S.S (8)",
-     "lieu : La Station - Gare des Mines (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "be76cbb7d4da",
-   "title": "After O'Clock X La Plage Open Air: Anabel Arroyo, Hyper Sam, Aude M",
-   "venue_id": "glazart",
-   "night": "2026-10-11",
-   "start": "2026-10-11T06:00:00.000",
-   "end": "2026-10-11T16:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "hyper-sam",
-     "name": "Hyper Sam",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "anabel-arroyo",
-     "name": "Anabel Arroyo",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2549644",
-   "event_url": "https://ra.co/events/2549644",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2549644"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Hyper Sam (8)",
-     "lieu : Glazart (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "73e740358e9f",
-   "title": "Afterparty Kluster 5 years",
-   "venue_id": "le-211",
-   "night": "2026-10-11",
-   "start": "2026-10-11T07:00:00.000",
-   "end": "2026-10-11T13:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "keut",
-     "name": "KEUT",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "iambp",
-     "name": "IAMBP",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "minimal techno"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2552715",
-   "event_url": "https://ra.co/events/2552715",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552715"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : KEUT (8)",
-     "lieu : Le 211 (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "93d2d55ceace",
-   "title": "CLUB 909: ALHENA & GOTIS",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-10-11",
-   "start": "2026-10-11T23:59:00.000",
-   "end": "2026-10-12T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "alhena",
-     "name": "Alhena_",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "gotis",
-     "name": "GOTIS",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2546459",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546459"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Alhena_ (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "e80f7f2e6ff9",
-   "title": "Eerste Communie - 10 Years",
-   "venue_id": "essaim",
-   "night": "2026-10-11",
-   "start": "2026-10-11T14:00:00.000",
-   "end": "2026-10-12T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "eerste-communie-10-years",
-     "name": "Eerste Communie - 10 Years",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2519770",
-   "event_url": "https://ra.co/events/2519770",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2519770"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Eerste Communie - 10 Years (8)",
-     "lieu : essaim (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "e293f2606e82",
-   "title": "Finesse Rekords X Groove To Grave",
-   "venue_id": "plantation",
-   "night": "2026-10-11",
-   "start": "2026-10-11T12:00:00.000",
-   "end": "2026-10-12T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ode-1",
-     "name": "ode (1)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2544127",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544127"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : ode (1) (8)",
-     "lieu : Plantation (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "049a84eb34dd",
-   "title": "House O'Drome W/. Marie Berson (LIVE), Davjazz & Farah Joue",
-   "venue_id": "le-211",
-   "night": "2026-10-11",
-   "start": "2026-10-11T15:00:00.000",
-   "end": "2026-10-11T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "marie-berson",
-     "name": "Marie Berson",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "deep house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2550254",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2550254"
-    }
-   ],
-   "interest": {
-    "score": 9,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Marie Berson (4)",
-     "lieu : Le 211 (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "88a34caa90b9",
-   "title": "Un dimanche avec M.SAYYID",
-   "venue_id": "miniwax",
-   "night": "2026-10-11",
-   "start": "2026-10-11T16:00:00.000",
-   "end": "2026-10-11T18:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "un-dimanche",
-     "name": "Un dimanche",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "m-sayyid",
-     "name": "M.SAYYID",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "hip-hop"
-   ],
-   "families": [
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2555440",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2555440"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Un dimanche (0)",
-     "lieu : Miniwax (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "18d1d3c08e75",
    "title": "James Blake - Trying Times European Tour",
    "venue_id": "le-grand-rex",
@@ -9883,6 +9466,100 @@
     "reasons": [
      "tête d'affiche : Acid Oslo (8)",
      "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "f4f33478992a",
+   "title": "Core W/ Sun Seven , Outflw, Dj Epi",
+   "venue_id": "studio56",
+   "night": "2026-10-12",
+   "start": "2026-10-12T23:59:00.000",
+   "end": "2026-10-13T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sun-seven",
+     "name": "Sun Seven",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "outflw",
+     "name": "Outflw",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dj-epi",
+     "name": "Dj Epi",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2558629",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2558629"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Sun Seven (0)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "44792a9f2311",
+   "title": "Signal W/ Dean Lexar , Anansah, Thundersamurai",
+   "venue_id": "studio56",
+   "night": "2026-10-13",
+   "start": "2026-10-13T23:59:00.000",
+   "end": "2026-10-14T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "anansah",
+     "name": "Anansah",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "dean-lexar",
+     "name": "Dean Lexar",
+     "billing": "support"
+    },
+    {
+     "artist_id": "thundersamurai",
+     "name": "Thundersamurai",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2558630",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2558630"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Anansah (8)",
+     "lieu : Studio56 (palier 2)"
     ]
    }
   },
@@ -10072,6 +9749,45 @@
    }
   },
   {
+   "id": "380f127fd6cc",
+   "title": "PAGOS (PARIS TO LAGOS)",
+   "venue_id": "pavillon-tilsitt",
+   "night": "2026-10-14",
+   "start": "2026-10-14T23:45:00+02:00",
+   "end": "2026-10-15T05:00:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "pagos-paris-to-lagos",
+     "name": "PAGOS (PARIS TO LAGOS)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/k67rrp-pagos-paris-to-lagos-14th-oct-pavillon-tilsitt-paris-tickets",
+   "event_url": "https://dice.fm/event/k67rrp-pagos-paris-to-lagos-14th-oct-pavillon-tilsitt-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-11/718f7d06-326d-4466-9885-b3d34b14c6b9.jpg?rect=1362%2C0%2C3503%2C3503",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/k67rrp-pagos-paris-to-lagos-14th-oct-pavillon-tilsitt-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : PAGOS (PARIS TO LAGOS) (8)",
+     "lieu : Pavillon Tilsitt (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "03710736adfe",
    "title": "Sauti: Not Your Africa",
    "venue_id": "badaboum",
@@ -10243,6 +9959,43 @@
     "reasons": [
      "tête d'affiche : Vice Experience (8)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "c5a762df1b81",
+   "title": "Resonance W/ Vworld , Mikey , Shadow Thugentawa",
+   "venue_id": "studio56",
+   "night": "2026-10-14",
+   "start": "2026-10-14T23:59:00.000",
+   "end": "2026-10-15T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mikey",
+     "name": "Mikey (UK)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2558631",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2558631"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Mikey (UK) (0)",
+     "lieu : Studio56 (palier 2)"
     ]
    }
   },
@@ -10538,6 +10291,53 @@
     "reasons": [
      "tête d'affiche : Equus Belli (8)",
      "lieu : La Java (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "c1a28f50683c",
+   "title": "Resonance W/ Vworld , Mikey , Shadow Thugentawa",
+   "venue_id": "studio56",
+   "night": "2026-10-15",
+   "start": "2026-10-15T23:59:00.000",
+   "end": "2026-10-16T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "shadow-thugentawa",
+     "name": "Shadow Thugentawa",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "vworld",
+     "name": "Vworld",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mikey",
+     "name": "Mikey (UK)",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2558632",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2558632"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Shadow Thugentawa (8)",
+     "lieu : Studio56 (palier 2)"
     ]
    }
   },
@@ -11372,6 +11172,43 @@
    }
   },
   {
+   "id": "9890f932b6a7",
+   "title": "House Of Djudas",
+   "venue_id": "studio56",
+   "night": "2026-10-16",
+   "start": "2026-10-16T23:00:00.000",
+   "end": "2026-10-17T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "house-of-djudas",
+     "name": "House Of Djudas",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2558633",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2558633"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : House Of Djudas (8)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "d7235ab24b28",
    "title": "LET ME HOLD YOU - R&B & Future Beats Night 16.10.2026",
    "venue_id": "djoon",
@@ -11696,9 +11533,9 @@
    }
   },
   {
-   "id": "552df2eab956",
+   "id": "4e4d4b3d43e1",
    "title": "La Seine Balearique #18 - LSB Invite Versatile - Week-End De Closing",
-   "venue_id": "plantation",
+   "venue_id": "plantation-paris",
    "night": "2026-10-16",
    "start": "2026-10-16T18:00:00.000",
    "end": "2026-10-17T02:00:00.000",
@@ -11749,7 +11586,7 @@
     "tier": 0,
     "reasons": [
      "tête d'affiche : Richard Fribert (8)",
-     "lieu : Plantation (palier 1)"
+     "lieu : Plantation Paris (palier 1)"
     ]
    }
   },
@@ -11947,6 +11784,48 @@
     "reasons": [
      "tête d'affiche : Romain Garcia (64)",
      "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "d42273d4c839",
+   "title": "Kalua - PARIS 3000 - Maxi Meraki / NICO DE ANDREA",
+   "venue_id": "yoyo-palais-de-tokyo",
+   "night": "2026-10-17",
+   "start": "2026-10-17T23:00:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "maxi-meraki",
+     "name": "Maxi Meraki",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2558763",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2558763"
+    }
+   ],
+   "interest": {
+    "score": 60,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Maxi Meraki (67)",
+     "lieu : YoYo - Palais de Tokyo (palier 2)"
     ]
    }
   },
@@ -13193,6 +13072,43 @@
     "reasons": [
      "tête d'affiche : PULSE #2 by Mos– Soirée Afro Shatta Hip-Hop Paris - 17.10.26 (8)",
      "lieu : Favela Chic (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "f357f9caa69c",
+   "title": "Paradox Chapter 2",
+   "venue_id": "studio56",
+   "night": "2026-10-17",
+   "start": "2026-10-17T23:00:00.000",
+   "end": "2026-10-18T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vee-1",
+     "name": "Vee (1)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2558634",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2558634"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Vee (1) (0)",
+     "lieu : Studio56 (palier 2)"
     ]
    }
   },
@@ -16594,7 +16510,7 @@
     },
     {
      "artist_id": "alhena",
-     "name": "Alhena_",
+     "name": "Alhena",
      "billing": "support"
     },
     {
@@ -20344,10 +20260,10 @@
     }
    ],
    "interest": {
-    "score": 56,
+    "score": 57,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : Dusky (61)",
+     "tête d'affiche : Dusky (63)",
      "lieu : Sacré (palier 2)"
     ]
    }
@@ -23726,10 +23642,10 @@
     }
    ],
    "interest": {
-    "score": 80,
+    "score": 79,
     "tier": 3,
     "reasons": [
-     "tête d'affiche : Bob Sinclar (94)",
+     "tête d'affiche : Bob Sinclar (93)",
      "lieu : Pavillon Tilsitt (palier 2)"
     ]
    }
@@ -24905,10 +24821,10 @@
     }
    ],
    "interest": {
-    "score": 55,
+    "score": 54,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : Nia Archives (68)",
+     "tête d'affiche : Nia Archives (67)",
      "lieu : 104 CENTQUATRE (palier 1)"
     ]
    }
@@ -25479,10 +25395,10 @@
     }
    ],
    "interest": {
-    "score": 80,
+    "score": 79,
     "tier": 3,
     "reasons": [
-     "tête d'affiche : Bob Sinclar (94)",
+     "tête d'affiche : Bob Sinclar (93)",
      "lieu : Pavillon Tilsitt (palier 2)"
     ]
    }
@@ -26390,6 +26306,43 @@
      "lieu : Le Trianon (palier 1)"
     ]
    }
+  },
+  {
+   "id": "1ac7bce37dbe",
+   "title": "RY X",
+   "venue_id": "l-olympia",
+   "night": "2027-04-10",
+   "start": "2027-04-10T20:00:00.000",
+   "end": "2027-04-10T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ry",
+     "name": "RY",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2548629",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2548629"
+    }
+   ],
+   "interest": {
+    "score": 25,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : RY (27)",
+     "lieu : L'Olympia (palier 1)"
+    ]
+   }
   }
  ],
  "announcements": [
@@ -26429,6 +26382,13 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178973d5456d874142c2404a853"
   },
   {
+   "id": "d42273d4c839",
+   "name": "Maxi Meraki",
+   "night": "2026-10-17",
+   "venue": "YoYo - Palais de Tokyo",
+   "photo": "https://i.scdn.co/image/ab6761610000f17882fb4bf1aeac084c2d2627cb"
+  },
+  {
    "id": "8a819b899fc6",
    "name": "Medusa",
    "night": "2026-11-27",
@@ -26455,13 +26415,6 @@
    "night": "2026-12-31",
    "venue": "Lieu Secret, Paris",
    "photo": "https://i.scdn.co/image/ab6761610000f178813a0009860438903c7d0db3"
-  },
-  {
-   "id": "18d792ff0ea9",
-   "name": "Marsh",
-   "night": "2026-11-14",
-   "venue": "Central Chapelle",
-   "photo": "https://i.scdn.co/image/ab6761610000f1787b56da31f993d1fb4ea5f56e"
   }
  ],
  "families": [
