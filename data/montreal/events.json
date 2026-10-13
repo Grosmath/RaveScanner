@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-12T18:41:39Z",
+ "generated_at": "2026-10-13T02:30:01Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-10-12",
-  "end": "2027-04-10"
+  "start": "2026-10-13",
+  "end": "2027-04-11"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 192
+   "events": 183
   },
   {
    "id": "piknic",
@@ -39,8 +39,8 @@
  ],
  "venue_order": [
   "new-city-gas",
-  "piknic-electronik",
   "hall-est-du-stade-olympique",
+  "piknic-electronik",
   "place-bell",
   "mtelus",
   "centre-bell",
@@ -50,7 +50,6 @@
   "sat",
   "olympia",
   "theatre-fairmount",
-  "parc-jean-drapeau",
   "vino-disco",
   "salon-daome",
   "stereo-bar",
@@ -73,7 +72,6 @@
   "les-7-doigts-de-la-main",
   "la-recre",
   "tba-down-by-the-water",
-  "sans-soleil",
   "collectif-mtl",
   "subterra",
   "theatre-paradoxe",
@@ -82,6 +80,7 @@
   "club-soda",
   "cafe-social-b-hive",
   "red-roof-church",
+  "sans-soleil",
   "ausgang-plaza",
   "amir-mont-royal",
   "le-livart",
@@ -475,20 +474,6 @@
    "address": "",
    "url": "",
    "genres": []
-  },
-  {
-   "id": "parc-jean-drapeau",
-   "name": "Parc Jean-Drapeau",
-   "type": "festival",
-   "tier": 3,
-   "capacity": 40000,
-   "address": "Ile Sainte-Helene",
-   "url": "https://parcjeandrapeau.com",
-   "genres": [
-    "festival",
-    "edm",
-    "electronic"
-   ]
   },
   {
    "id": "piknic-electronik",
@@ -2020,16 +2005,6 @@
    "known": false
   },
   {
-   "id": "double-touch",
-   "name": "Double Touch",
-   "tier": 0,
-   "score": 56,
-   "popularity": 56,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178612a8846b22857e949de992f",
-   "known": false
-  },
-  {
    "id": "down2techno-every-wednesday",
    "name": "DOWN2TECHNO: Every Wednesday",
    "tier": 0,
@@ -2187,16 +2162,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "enamour",
-   "name": "Enamour",
-   "tier": 0,
-   "score": 56,
-   "popularity": 56,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178297f39098d938742df8f81c7",
    "known": false
   },
   {
@@ -3143,16 +3108,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17865e110c8a6c9a6d8232dff27",
-   "known": false
-  },
-  {
-   "id": "lee-burridge",
-   "name": "Lee Burridge",
-   "tier": 0,
-   "score": 49,
-   "popularity": 49,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17848226e982a31e76c6a4d0df4",
    "known": false
   },
   {
@@ -4204,16 +4159,6 @@
    "known": false
   },
   {
-   "id": "samm",
-   "name": "Samm",
-   "tier": 0,
-   "score": 23,
-   "popularity": 23,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/55470b88a6fade57d633dc9af520493f/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "sarah-kay",
    "name": "Sarah Kay",
    "tier": 0,
@@ -5068,156 +5013,6 @@
   }
  ],
  "events": [
-  {
-   "id": "3b2c7dd049ea",
-   "title": "All Day I Dream - Parc Jean-Drapeau",
-   "venue_id": "parc-jean-drapeau",
-   "night": "2026-10-12",
-   "start": "2026-10-12T17:00:00.000",
-   "end": "2026-10-12T22:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "enamour",
-     "name": "Enamour",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "double-touch",
-     "name": "Double Touch",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lee-burridge",
-     "name": "Lee Burridge",
-     "billing": "support"
-    },
-    {
-     "artist_id": "samm",
-     "name": "Samm",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2468480",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2468480"
-    }
-   ],
-   "interest": {
-    "score": 66,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Enamour (56)",
-     "lieu : Parc Jean-Drapeau (palier 3)",
-     "format festival"
-    ]
-   }
-  },
-  {
-   "id": "fdfc09eaea1f",
-   "title": "OfF Piknic Electronik",
-   "venue_id": "piknic-electronik",
-   "night": "2026-10-12",
-   "start": "2026-10-12T17:00:00-04:00",
-   "end": "2026-10-12T22:00:00-04:00",
-   "lineup": [
-    {
-     "artist_id": "enamour",
-     "name": "Enamour",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "double-touch",
-     "name": "Double Touch",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lee-burridge",
-     "name": "Lee Burridge",
-     "billing": "support"
-    },
-    {
-     "artist_id": "samm",
-     "name": "Samm",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://billets.piknicelectronik.com/mul/go/30defb95-00a2-4fc5-9c1e-6132db00b631?fac=PIKNIC&locale=fr-FR&skin=offpiknic&ec=OFF261012",
-   "event_url": "https://piknicelectronik.com/fr/prog-complete",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "piknic",
-     "url": "https://piknicelectronik.com/fr/prog-complete"
-    }
-   ],
-   "interest": {
-    "score": 66,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Enamour (56)",
-     "lieu : Piknic Electronik (palier 3)",
-     "format festival"
-    ]
-   }
-  },
-  {
-   "id": "93305873e11b",
-   "title": "Sans Soleil w/ Andie",
-   "venue_id": "sans-soleil",
-   "night": "2026-10-12",
-   "start": "2026-10-12T20:00:00.000",
-   "end": "2026-10-13T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "andie",
-     "name": "Andie",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "funk / soul",
-    "disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2552923",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552923"
-    }
-   ],
-   "interest": {
-    "score": 24,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Andie (25)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
   {
    "id": "6db58ecab797",
    "title": "Badvil, Shirehead, Kerri",
@@ -6203,7 +5998,7 @@
    "venue_id": "systeme",
    "night": "2026-10-16",
    "start": "2026-10-16T23:00:00.000",
-   "end": "2026-10-17T04:00:00.000",
+   "end": "2026-10-17T03:00:00.000",
    "lineup": [
     {
      "artist_id": "ferias",

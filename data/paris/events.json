@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-12T18:42:09Z",
+ "generated_at": "2026-10-13T02:30:55Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-10-12",
-  "end": "2027-04-10"
+  "start": "2026-10-13",
+  "end": "2027-04-11"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 358
+   "events": 354
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 52
+   "events": 54
   }
  ],
  "venue_order": [
@@ -40,20 +40,19 @@
   "parc-des-expositions-paris-nord",
   "104-centquatre",
   "essaim",
-  "le-grand-rex",
   "42-marches",
   "tba-paris",
   "le-trabendo",
   "la-station-gare-des-mines",
   "la-boule-noire",
   "kilometre25",
+  "cite-de-la-musique",
   "palais-brongniart",
   "parc-des-expositions",
   "elysee-montmartre",
   "yoyo-palais-de-tokyo",
   "silencio",
   "djoon",
-  "cite-de-la-musique",
   "virage",
   "zenith-paris-la-villette",
   "lieu-secret-paris",
@@ -73,8 +72,8 @@
   "nouveau-casino",
   "la-cigale",
   "le-bateau-phare",
-  "le-trianon",
   "le-211",
+  "le-trianon",
   "la-rotonde-stalingrad",
   "solum",
   "la-marbrerie",
@@ -98,9 +97,9 @@
   "bal-chavaux",
   "bourse-de-commerce-pinault-collection",
   "communale-saint-ouen",
-  "la-gare-le-gore",
   "tba",
   "la-demesure",
+  "la-gare-le-gore",
   "petit-bain",
   "amaluna-paris",
   "le-gambetta-club",
@@ -824,16 +823,6 @@
    "genres": []
   },
   {
-   "id": "le-grand-rex",
-   "name": "Le Grand Rex",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "le-hasard-ludique",
    "name": "Le Hasard Ludique",
    "type": "club",
@@ -1458,16 +1447,6 @@
    "known": false
   },
   {
-   "id": "acid-oslo",
-   "name": "Acid Oslo",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "acid-souljah",
    "name": "Acid Souljah",
    "tier": 0,
@@ -1629,7 +1608,7 @@
   },
   {
    "id": "alhena",
-   "name": "Alhena",
+   "name": "Alhena_",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2127,6 +2106,16 @@
    "popularity": 23,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178666a02e401a8476c7807d778",
+   "known": false
+  },
+  {
+   "id": "barbara-et-moi",
+   "name": "Barbara et moi",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3192,16 +3181,6 @@
    "known": false
   },
   {
-   "id": "dj-epi",
-   "name": "Dj Epi",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178dec2202628989e16a8bf4029",
-   "known": false
-  },
-  {
    "id": "dj-guestlist",
    "name": "DJ GUESTLIST",
    "tier": 0,
@@ -3239,26 +3218,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17829ceaca3ce9962ffc4215b41",
-   "known": false
-  },
-  {
-   "id": "dj-krush",
-   "name": "DJ KRUSH",
-   "tier": 0,
-   "score": 46,
-   "popularity": 46,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178026cae4f848c7f59d0b772d9",
-   "known": false
-  },
-  {
-   "id": "dj-low-cut",
-   "name": "DJ Low Cut",
-   "tier": 0,
-   "score": 12,
-   "popularity": 12,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178abcb7e2845c3f48d7910a8d0",
    "known": false
   },
   {
@@ -4362,16 +4321,6 @@
    "known": false
   },
   {
-   "id": "groundstate",
-   "name": "Groundstate",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178abe7b07048799bd49e270629",
-   "known": false
-  },
-  {
    "id": "gruv-nye-2026",
    "name": "GRÜV NYE 2026",
    "tier": 0,
@@ -4565,6 +4514,16 @@
    "known": false
   },
   {
+   "id": "human-safari",
+   "name": "Human Safari",
+   "tier": 0,
+   "score": 33,
+   "popularity": 33,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17834ab9796b02019bb38935ed0",
+   "known": false
+  },
+  {
    "id": "humn-pattrn-meet-002",
    "name": "humn pattrn - MEET 002",
    "tier": 0,
@@ -4752,16 +4711,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "james-blake",
-   "name": "James Blake",
-   "tier": 0,
-   "score": 84,
-   "popularity": 84,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178eea5ea7752893d8898dbd163",
    "known": false
   },
   {
@@ -6145,6 +6094,16 @@
    "known": false
   },
   {
+   "id": "marabou-2",
+   "name": "Marabou (2)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "marbre",
    "name": "Marbré",
    "tier": 0,
@@ -6312,6 +6271,16 @@
    "popularity": 19,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851e6e09a3397902314c99be476",
+   "known": false
+  },
+  {
+   "id": "matchplay-haunted-house",
+   "name": "Matchplay Haunted House",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7200,16 +7169,6 @@
    "known": false
   },
   {
-   "id": "outflw",
-   "name": "Outflw",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851b5eb2a26393ddb57cc2bb399",
-   "known": false
-  },
-  {
    "id": "pagos-paris-to-lagos",
    "name": "PAGOS (PARIS TO LAGOS)",
    "tier": 0,
@@ -7487,16 +7446,6 @@
    "popularity": 33,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a88feb6ecc77186ee1e9c2e9",
-   "known": false
-  },
-  {
-   "id": "pygments-extended-human-safari",
-   "name": "Pygments Extended: Human Safari",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -7943,6 +7892,16 @@
    "known": false
   },
   {
+   "id": "secousse",
+   "name": "Secousse",
+   "tier": 0,
+   "score": 1,
+   "popularity": 1,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048511cda40eaccd7e79581c6961b",
+   "known": false
+  },
+  {
    "id": "serafina",
    "name": "Serafina",
    "tier": 0,
@@ -8173,16 +8132,6 @@
    "known": false
   },
   {
-   "id": "soiree-deguisee",
-   "name": "Soirée Déguisée",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "solar-boys",
    "name": "SOLAR BOYS",
    "tier": 0,
@@ -8353,16 +8302,6 @@
    "known": false
   },
   {
-   "id": "sun-seven",
-   "name": "Sun Seven",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178bc10a80f04311932a1660fa6",
-   "known": false
-  },
-  {
    "id": "sunwave-halloween-edition",
    "name": "SUNWAVE HALLOWEEN EDITION",
    "tier": 0,
@@ -8500,6 +8439,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788657588120937dc28a50d17d",
+   "known": false
+  },
+  {
+   "id": "terminal-trax",
+   "name": "Terminal Trax",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17832f63f6b24177081f261fe74",
    "known": false
   },
   {
@@ -9437,185 +9386,6 @@
   }
  ],
  "events": [
-  {
-   "id": "18d1d3c08e75",
-   "title": "James Blake - Trying Times European Tour",
-   "venue_id": "le-grand-rex",
-   "night": "2026-10-12",
-   "start": "2026-10-12T20:00:00.000",
-   "end": "2026-10-12T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "james-blake",
-     "name": "James Blake",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electro",
-    "pop"
-   ],
-   "families": [
-    "Électro & bass",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2398284",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2398284"
-    }
-   ],
-   "interest": {
-    "score": 66,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : James Blake (84)",
-     "lieu : Le Grand Rex (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "d567213321ed",
-   "title": "DJ KRUSH + DJ Low Cut",
-   "venue_id": "la-machine-du-moulin-rouge",
-   "night": "2026-10-12",
-   "start": "2026-10-12T19:00:00.000",
-   "end": "2026-10-12T22:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "dj-krush",
-     "name": "DJ KRUSH",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "dj-low-cut",
-     "name": "DJ Low Cut",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "hip-hop",
-    "electronica"
-   ],
-   "families": [
-    "Pop & club",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2544253",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544253"
-    }
-   ],
-   "interest": {
-    "score": 51,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : DJ KRUSH (46)",
-     "lieu : La Machine du Moulin Rouge (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "fb710235581f",
-   "title": "Acid Oslo ALL NIGHT LONG",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-10-12",
-   "start": "2026-10-12T23:59:00.000",
-   "end": "2026-10-13T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "acid-oslo",
-     "name": "Acid Oslo",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2546460",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546460"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Acid Oslo (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "f4f33478992a",
-   "title": "Core W/ Sun Seven , Outflw, Dj Epi",
-   "venue_id": "studio56",
-   "night": "2026-10-12",
-   "start": "2026-10-12T23:59:00.000",
-   "end": "2026-10-13T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sun-seven",
-     "name": "Sun Seven",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "outflw",
-     "name": "Outflw",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dj-epi",
-     "name": "Dj Epi",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2558629",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2558629"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Sun Seven (0)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
   {
    "id": "44792a9f2311",
    "title": "Signal W/ Dean Lexar , Anansah, Thundersamurai",
@@ -12194,7 +11964,7 @@
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2534391",
    "event_url": "https://ra.co/events/2534391",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-10/0da9f275-f94a-4332-ae12-1f6d2fa92745.jpg?rect=0%2C1%2C806%2C806",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-12/b7a44583-a7b4-4c79-bb9d-77c2992b91d6.jpg?rect=0%2C176%2C1467%2C1467",
    "status": "confirmed",
    "sources": [
     {
@@ -12203,7 +11973,7 @@
     },
     {
      "id": "dice",
-     "url": "https://dice.fm/event/py36xp-la-java-103-ans-secret-guest-fleur-de-mur-tartine-music-17th-oct-la-java-paris-tickets"
+     "url": "https://dice.fm/event/py36xp-deborah-aime-la-bagarre-fleur-de-mur-lajava-17th-oct-la-java-paris-tickets"
     }
    ],
    "interest": {
@@ -15344,6 +15114,45 @@
    }
   },
   {
+   "id": "5e04746b46ec",
+   "title": "Le Grand déhanchement présente Secousse",
+   "venue_id": "point-ephemere",
+   "night": "2026-10-23",
+   "start": "2026-10-23T20:00:00+02:00",
+   "end": "2026-10-24T03:00:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "secousse",
+     "name": "Secousse",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/yoq7aa-le-grand-dhanchement-prsente-secousse-23rd-oct-point-ephmre-paris-tickets",
+   "event_url": "https://dice.fm/event/yoq7aa-le-grand-dhanchement-prsente-secousse-23rd-oct-point-ephmre-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-12/075da6b4-b728-4c22-82e9-e8f3dd3f97a0.jpg?rect=0%2C123%2C1000%2C1000",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/yoq7aa-le-grand-dhanchement-prsente-secousse-23rd-oct-point-ephmre-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 7,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Secousse (1)",
+     "lieu : Point Ephémère (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "79a3bb6003d9",
    "title": "SHE ATE w/ Fetva, DJ Music & Miss Sheitana",
    "venue_id": "le-poisson-volant",
@@ -16137,6 +15946,74 @@
    }
   },
   {
+   "id": "230ef8790739",
+   "title": "Pygments Extended: Human Safari, Alhena, Groundstate,",
+   "venue_id": "le-211",
+   "night": "2026-10-24",
+   "start": "2026-10-24T23:59:00.000",
+   "end": "2026-10-25T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "human-safari",
+     "name": "Human Safari",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "marabou-2",
+     "name": "Marabou (2)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "alhena",
+     "name": "Alhena_",
+     "billing": "support"
+    },
+    {
+     "artist_id": "gabbor",
+     "name": "Gabbor",
+     "billing": "support"
+    },
+    {
+     "artist_id": "terminal-trax",
+     "name": "Terminal Trax",
+     "billing": "support"
+    },
+    {
+     "artist_id": "in-tan",
+     "name": "In-Tan",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2553765",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2553765"
+    }
+   ],
+   "interest": {
+    "score": 30,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Human Safari (33)",
+     "lieu : Le 211 (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "f3f34573ee94",
    "title": "Club Humide - BAR GALLIA",
    "venue_id": "brasserie-gallia",
@@ -16682,57 +16559,6 @@
     "reasons": [
      "tête d'affiche : Paris Roots Café (8)",
      "lieu : Cartilage (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "230ef8790739",
-   "title": "Pygments Extended: Human Safari, Alhena, Groundstate,",
-   "venue_id": "le-211",
-   "night": "2026-10-24",
-   "start": "2026-10-24T23:59:00.000",
-   "end": "2026-10-25T16:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "pygments-extended-human-safari",
-     "name": "Pygments Extended: Human Safari",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "alhena",
-     "name": "Alhena",
-     "billing": "support"
-    },
-    {
-     "artist_id": "groundstate",
-     "name": "Groundstate",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2553765",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2553765"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Pygments Extended: Human Safari (8)",
-     "lieu : Le 211 (palier 1)"
     ]
    }
   },
@@ -19497,54 +19323,6 @@
    }
   },
   {
-   "id": "e56f4aa8226c",
-   "title": "Halloween Party DJ Set & Soirée Déguisée",
-   "venue_id": "matchplay-society",
-   "night": "2026-10-31",
-   "start": "2026-10-31T18:00:00+01:00",
-   "end": "2026-11-01T02:00:00+01:00",
-   "lineup": [
-    {
-     "artist_id": "halloween-party",
-     "name": "Halloween Party",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "soiree-deguisee",
-     "name": "Soirée Déguisée",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "pop"
-   ],
-   "families": [
-    "House",
-    "Pop & club"
-   ],
-   "price_min": 16.51,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/xe8p8e-halloween-party-dj-set-soire-dguise-31st-oct-matchplay-society-paris-tickets",
-   "event_url": "https://dice.fm/event/xe8p8e-halloween-party-dj-set-soire-dguise-31st-oct-matchplay-society-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-10-09/4361ee5f-91e7-4a0c-b37e-0dfc90eb84f8.jpg?rect=0%2C0%2C1254%2C1254",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/xe8p8e-halloween-party-dj-set-soire-dguise-31st-oct-matchplay-society-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Halloween Party (9)",
-     "lieu : Matchplay Society (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "69405fbebd58",
    "title": "LA BOOM DE L'HORREUR",
    "venue_id": "virage",
@@ -19619,6 +19397,45 @@
     "reasons": [
      "tête d'affiche : LE CHALET DES MONSTRES HALLOWEEN PARTY GEANTE (8)",
      "lieu : Chalet du Lac (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "935295f38775",
+   "title": "Matchplay Haunted House",
+   "venue_id": "matchplay-society",
+   "night": "2026-10-31",
+   "start": "2026-10-31T17:00:00+01:00",
+   "end": "2026-11-01T02:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "matchplay-haunted-house",
+     "name": "Matchplay Haunted House",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/xe8p8e-matchplay-haunted-house-31st-oct-matchplay-society-paris-tickets",
+   "event_url": "https://dice.fm/event/xe8p8e-matchplay-haunted-house-31st-oct-matchplay-society-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-09/4361ee5f-91e7-4a0c-b37e-0dfc90eb84f8.jpg?rect=0%2C0%2C1254%2C1254",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/xe8p8e-matchplay-haunted-house-31st-oct-matchplay-society-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Matchplay Haunted House (8)",
+     "lieu : Matchplay Society (palier 1)"
     ]
    }
   },
@@ -20612,16 +20429,20 @@
     "Techno",
     "Trance & hard"
    ],
-   "price_min": null,
+   "price_min": 14.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2558989",
    "event_url": "https://ra.co/events/2558989",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-12/54ca28e1-d823-4b61-9f21-b696dfa6f5cc.jpg?rect=499%2C0%2C3277%2C3277",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2558989"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/oemrgm-only-fire-kennymphe-divine-van-herpen-la-gomorrhe-2-ans-6th-nov-la-java-paris-tickets"
     }
    ],
    "interest": {
@@ -26747,6 +26568,43 @@
      "lieu : L'Olympia (palier 1)"
     ]
    }
+  },
+  {
+   "id": "45e0c562719e",
+   "title": "Barbara et moi",
+   "venue_id": "cite-de-la-musique",
+   "night": "2027-04-11",
+   "start": "2027-04-11T11:00:00.000",
+   "end": "2027-04-11T12:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "barbara-et-moi",
+     "name": "Barbara et moi",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2459433",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2459433"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Barbara et moi (8)",
+     "lieu : Cité De La Musique (palier 1)"
+    ]
+   }
   }
  ],
  "announcements": [
@@ -26832,21 +26690,6 @@
   "Expérimental"
  ],
  "spotlight": [
-  {
-   "kind": "event",
-   "day": "LUN 12 OCT",
-   "title": "James Blake",
-   "venue": "Le Grand Rex",
-   "time": "20:00 → 23:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5ebeea5ea7752893d8898dbd163",
-   "event_id": "18d1d3c08e75"
-  },
   {
    "kind": "event",
    "day": "SAM 17 OCT",
@@ -26936,6 +26779,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb3496f9ad28f2b14cac3a3c75",
    "event_id": "b03700492f5c"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 24 OCT",
+   "title": "Mood II Swing",
+   "venue": "La Java",
+   "time": "23:59 → 07:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Knuckle G, Chinau, Elsa Bernini",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb1847fadfcec1c56ba965a0bd",
+   "event_id": "cba79abe5408"
   },
   {
    "kind": "event",
