@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-13T02:30:01Z",
+ "generated_at": "2026-10-13T16:46:02Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 183
+   "events": 184
   },
   {
    "id": "piknic",
@@ -29,12 +29,12 @@
   {
    "id": "mtelus",
    "ok": true,
-   "events": 12
+   "events": 13
   },
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 39
+   "events": 40
   }
  ],
  "venue_order": [
@@ -82,17 +82,17 @@
   "red-roof-church",
   "sans-soleil",
   "ausgang-plaza",
+  "sanctuary",
   "amir-mont-royal",
   "le-livart",
   "barbossa",
   "blue-room",
   "cabaret-lion-d-or",
   "entre-nous",
+  "la-gare-dalhousie",
   "le-ministere",
   "pangea",
-  "sanctuary",
   "savoir-faire",
-  "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
   "le-lobby",
   "usine-c",
   "white-wall-studio"
@@ -299,6 +299,16 @@
   {
    "id": "l-escogriffe-bar-spectacle",
    "name": "l'Escogriffe Bar Spectacle",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "la-gare-dalhousie",
+   "name": "La Gare Dalhousie",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -633,16 +643,6 @@
   {
    "id": "systeme",
    "name": "Système",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
-   "name": "TBA - 1585 Boulevard St Laurent, Montreal, QC, H2X 2S9",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1695,6 +1695,16 @@
    "known": false
   },
   {
+   "id": "damacadam",
+   "name": "Damacadam",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "dana",
    "name": "Dana",
    "tier": 0,
@@ -2322,6 +2332,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "flytz",
+   "name": "Flytz",
+   "tier": 0,
+   "score": 23,
+   "popularity": 23,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a5d6cd80b1309ee26875581d",
    "known": false
   },
   {
@@ -3058,6 +3078,16 @@
    "popularity": 36,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048517b4418e6ab4d55896e9ad279",
+   "known": false
+  },
+  {
+   "id": "laurence-matte",
+   "name": "Laurence Matte",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c4bb693109fb2038849d884a",
    "known": false
   },
   {
@@ -3846,6 +3876,16 @@
    "popularity": 43,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789443b468bb6d1dbfedbad9ab",
+   "known": false
+  },
+  {
+   "id": "pelo",
+   "name": "Pelo",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/abc6729d77d0bd5db332ad37248d9019/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5660,6 +5700,11 @@
      "artist_id": "l-p-rhythm",
      "name": "L.P. Rhythm",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "flytz",
+     "name": "Flytz",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -11870,9 +11915,9 @@
    }
   },
   {
-   "id": "2aa22406b95d",
+   "id": "8170ce7d3dfb",
    "title": "Black Sunrise - Inner Circle",
-   "venue_id": "tba-1585-boulevard-st-laurent-montreal-qc-h2x-2s9",
+   "venue_id": "sanctuary",
    "night": "2026-10-31",
    "start": "2026-10-31T22:00:00.000",
    "end": "2026-11-01T06:00:00.000",
@@ -11922,7 +11967,7 @@
     "tier": 0,
     "reasons": [
      "tête d'affiche : Racil (8)",
-     "lieu : TBA - 1585 Boulevard St Laurent, Montreal, QC, H2X 2S9 (palier 1)"
+     "lieu : Sanctuary (palier 1)"
     ]
    }
   },
@@ -12055,6 +12100,59 @@
     "reasons": [
      "tête d'affiche : REQUIEM V: The Hands of Time (8)",
      "lieu : Sainte-Catherine Hall (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "26473084edd9",
+   "title": "Spectre",
+   "venue_id": "la-gare-dalhousie",
+   "night": "2026-10-31",
+   "start": "2026-10-31T20:00:00.000",
+   "end": "2026-11-01T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "damacadam",
+     "name": "Damacadam",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "laurence-matte",
+     "name": "Laurence Matte",
+     "billing": "support"
+    },
+    {
+     "artist_id": "pelo",
+     "name": "Pelo",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2560150",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2560150"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Damacadam (8)",
+     "lieu : La Gare Dalhousie (palier 1)"
     ]
    }
   },
@@ -15114,6 +15212,49 @@
    }
   },
   {
+   "id": "6d942dcdfce9",
+   "title": "Alan Walker",
+   "venue_id": "mtelus",
+   "night": "2027-02-17",
+   "start": "2027-02-17T20:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "alan-walker",
+     "name": "Alan Walker",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/event/31006523ABC0787E?lang=fr-ca&brand=mtelus",
+   "event_url": "https://evenko.ca/fr/evenements/mtelus/alan-walker?code=e009287",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/7gb82VnMZPs54CTlTRFAPa/5891742edc4b39b4a3c3e4572a50a149/alan_walker_2027.jpg",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "mtelus",
+     "url": "https://evenko.ca/fr/evenements/mtelus/alan-walker?code=e009287"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-17-2027/event/31006523ABC0787E"
+    }
+   ],
+   "interest": {
+    "score": 76,
+    "tier": 3,
+    "reasons": [
+     "tête d'affiche : Alan Walker (97)",
+     "lieu : MTELUS (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "3169583d1afa",
    "title": "ALLEYCVT",
    "venue_id": "mtelus",
@@ -15396,6 +15537,13 @@
    "night": "2026-11-06",
    "venue": "New City Gas",
    "photo": "https://i.scdn.co/image/ab6761610000f17808faa46da03ce1a1de05e35e"
+  },
+  {
+   "id": "6d942dcdfce9",
+   "name": "Alan Walker",
+   "night": "2027-02-17",
+   "venue": "MTELUS",
+   "photo": "https://i.scdn.co/image/ab6761610000f178572a8eae56feae217f618078"
   },
   {
    "id": "0df78eda165b",

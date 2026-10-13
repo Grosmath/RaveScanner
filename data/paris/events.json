@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-13T02:30:55Z",
+ "generated_at": "2026-10-13T16:46:37Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 354
+   "events": 362
   },
   {
    "id": "dice",
@@ -66,6 +66,7 @@
   "point-ephemere",
   "le-mazette",
   "fondation-cartier",
+  "tba",
   "la-bellevilloise",
   "la-maroquinerie",
   "le-pop-up-du-label",
@@ -92,18 +93,19 @@
   "tba-75013",
   "brasserie-gallia",
   "panic-room",
+  "theatre-silvia-monfort",
   "l-olympia",
   "cartilage",
   "bal-chavaux",
   "bourse-de-commerce-pinault-collection",
   "communale-saint-ouen",
-  "tba",
   "la-demesure",
   "la-gare-le-gore",
   "petit-bain",
   "amaluna-paris",
   "le-gambetta-club",
   "le-klub",
+  "miniwax",
   "tba-le-tlm-paris-105-rue-curial-75019-paris",
   "babour-sauvage",
   "canal-93",
@@ -125,6 +127,7 @@
   "mira",
   "notre-dame-music-bar",
   "plantation-paris",
+  "pullman-rooftop",
   "peniche-antipode",
   "tba-cesure-paris",
   "vice-versa",
@@ -133,8 +136,7 @@
   "jardin-des-traverses",
   "la-mecanique-ondulatoire",
   "la-rotonde",
-  "le-hasard-ludique",
-  "miniwax"
+  "le-hasard-ludique"
  ],
  "venues": [
   {
@@ -1139,6 +1141,16 @@
    "genres": []
   },
   {
+   "id": "pullman-rooftop",
+   "name": "Pullman Rooftop",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "rex-club",
    "name": "Rex Club",
    "type": "club",
@@ -1262,6 +1274,16 @@
   {
    "id": "tba-secret-warehouse",
    "name": "TBA - Secret Warehouse",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "theatre-silvia-monfort",
+   "name": "Théâtre Silvia Monfort",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1936,6 +1958,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/2585e7c8f72f0937c85eb97da16e386a/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "aura-7",
+   "name": "AURA (7)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4504,6 +4536,16 @@
    "known": false
   },
   {
+   "id": "house",
+   "name": "House",
+   "tier": 0,
+   "score": 54,
+   "popularity": 54,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/c00cea4ae50d0817c8c525d65154040b/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "house-of-djudas",
    "name": "House Of Djudas",
    "tier": 0,
@@ -6384,8 +6426,8 @@
    "known": false
   },
   {
-   "id": "mesmarize-17",
-   "name": "Mesmarize #17",
+   "id": "mesmarize-17-16h20h",
+   "name": "Mesmarize #17 (16h–20h)",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -6656,6 +6698,16 @@
   {
    "id": "myd-invites-salute",
    "name": "MYD INVITES SALUTE",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "myotis-v",
+   "name": "MYOTIS V",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -7149,6 +7201,16 @@
    "known": false
   },
   {
+   "id": "orchestre-tout-puissant-marcel-duchamp",
+   "name": "ORCHESTRE TOUT PUISSANT MARCEL DUCHAMP",
+   "tier": 0,
+   "score": 24,
+   "popularity": 24,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851a6e23b8341bbe0696a4aa8b8",
+   "known": false
+  },
+  {
    "id": "oscar-farrell",
    "name": "Oscar Farrell",
    "tier": 0,
@@ -7359,6 +7421,16 @@
    "known": false
   },
   {
+   "id": "poggio",
+   "name": "Poggio",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "polar-inertia",
    "name": "Polar Inertia",
    "tier": 0,
@@ -7426,6 +7498,16 @@
    "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789dc953255789bbef8db70c40",
+   "known": false
+  },
+  {
+   "id": "ptite-soeur-aftershow",
+   "name": "PTITE SOEUR AFTERSHOW",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7689,6 +7771,16 @@
    "popularity": 48,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a06885660d982b088fa8d322",
+   "known": false
+  },
+  {
+   "id": "rooftop-party-opening-pink-party",
+   "name": "Rooftop Party - Opening Pink Party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7999,6 +8091,16 @@
    "popularity": 34,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b513e1fd0a37faa2f2951b84",
+   "known": false
+  },
+  {
+   "id": "signature-les-louanges",
+   "name": "Signature Les Louanges",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -8945,6 +9047,26 @@
    "known": false
   },
   {
+   "id": "venesa",
+   "name": "venesa",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "venus",
+   "name": "Venus",
+   "tier": 0,
+   "score": 47,
+   "popularity": 47,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/ebcf22e5c3a0eb3178b8a6f6bc1a5a6c/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "vera-grace",
    "name": "Vera Grace",
    "tier": 0,
@@ -9486,6 +9608,11 @@
      "artist_id": "ko-mu",
      "name": "Ko Mu",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "aura-7",
+     "name": "AURA (7)",
+     "billing": "support"
     },
     {
      "artist_id": "the-liquid-dude",
@@ -10263,7 +10390,7 @@
    "title": "Marion Guillet & Bunny Dakota",
    "venue_id": "le-poisson-volant",
    "night": "2026-10-15",
-   "start": "2026-10-15T23:00:00.000",
+   "start": "2026-10-15T23:59:00.000",
    "end": "2026-10-16T04:00:00.000",
    "lineup": [
     {
@@ -10292,6 +10419,47 @@
     "reasons": [
      "tête d'affiche : Marion Guillet (8)",
      "lieu : Le Poisson Volant (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "4c5956f18315",
+   "title": "Signature Les Louanges",
+   "venue_id": "miniwax",
+   "night": "2026-10-15",
+   "start": "2026-10-15T18:00:00.000",
+   "end": "2026-10-15T20:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "signature-les-louanges",
+     "name": "Signature Les Louanges",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "pop"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2560235",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2560235"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Signature Les Louanges (8)",
+     "lieu : Miniwax (palier 1)"
     ]
    }
   },
@@ -11934,6 +12102,54 @@
    }
   },
   {
+   "id": "773906085885",
+   "title": "House with venesa",
+   "venue_id": "tba",
+   "night": "2026-10-17",
+   "start": "2026-10-17T23:00:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "house",
+     "name": "House",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "venesa",
+     "name": "venesa",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "deep house"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2560068",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2560068"
+    }
+   ],
+   "interest": {
+    "score": 45,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : House (54)",
+     "lieu : TBA (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "a6e68a968497",
    "title": "La Java 103 Ans: Deborah Aime La Bagarre, Fleur De Mur, Tartine Music",
    "venue_id": "la-java",
@@ -12538,8 +12754,8 @@
    "title": "Low Jack presents Miracles Residency w/ Mystique & Low Jack",
    "venue_id": "le-poisson-volant",
    "night": "2026-10-17",
-   "start": "2026-10-17T23:00:00.000",
-   "end": "2026-10-18T04:00:00.000",
+   "start": "2026-10-17T23:59:00.000",
+   "end": "2026-10-18T05:00:00.000",
    "lineup": [
     {
      "artist_id": "low-jack",
@@ -12754,8 +12970,8 @@
    }
   },
   {
-   "id": "376029636679",
-   "title": "After O'Clock X La Plage Open Air: Bürt, Ben Vedrenn, Master Seb",
+   "id": "6fc9ad39bc1b",
+   "title": "After O'Clock X La Plage Open Air: Bürt, Ben Vedren, Master Seb",
    "venue_id": "glazart",
    "night": "2026-10-17",
    "start": "2026-10-17T06:00:00.000",
@@ -13058,6 +13274,49 @@
     "reasons": [
      "tête d'affiche : Vee (1) (0)",
      "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "dfcd26231079",
+   "title": "Rooftop Party - Opening Pink Party",
+   "venue_id": "pullman-rooftop",
+   "night": "2026-10-17",
+   "start": "2026-10-17T18:00:00.000",
+   "end": "2026-10-18T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "rooftop-party-opening-pink-party",
+     "name": "Rooftop Party - Opening Pink Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2559968",
+   "event_url": "https://ra.co/events/2559968",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2559968"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Rooftop Party - Opening Pink Party (8)",
+     "lieu : Pullman Rooftop (palier 1)"
     ]
    }
   },
@@ -15153,12 +15412,12 @@
    }
   },
   {
-   "id": "79a3bb6003d9",
-   "title": "SHE ATE w/ Fetva, DJ Music & Miss Sheitana",
+   "id": "8f940074e29b",
+   "title": "SHE ATE w/ Fetva, DJ Music, Miss Sheitana & Dourane",
    "venue_id": "le-poisson-volant",
    "night": "2026-10-23",
-   "start": "2026-10-23T23:00:00.000",
-   "end": "2026-10-24T04:00:00.000",
+   "start": "2026-10-23T23:30:00.000",
+   "end": "2026-10-24T05:00:00.000",
    "lineup": [
     {
      "artist_id": "fetva",
@@ -17281,7 +17540,7 @@
    "title": "Vendredear and Emma DJ",
    "venue_id": "le-poisson-volant",
    "night": "2026-10-29",
-   "start": "2026-10-29T23:00:00.000",
+   "start": "2026-10-29T23:59:00.000",
    "end": "2026-10-30T04:00:00.000",
    "lineup": [
     {
@@ -17608,6 +17867,48 @@
     "reasons": [
      "tête d'affiche : Silva Bumpa (82)",
      "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "ebac0d41093c",
+   "title": "UNDERCOVER - HALLOWEEN ÉDITION",
+   "venue_id": "la-machine-du-moulin-rouge",
+   "night": "2026-10-30",
+   "start": "2026-10-30T23:59:00.000",
+   "end": "2026-10-31T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "venus",
+     "name": "Venus",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "hip-hop",
+    "r&b"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2559903",
+   "event_url": "https://ra.co/events/2559903",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2559903"
+    }
+   ],
+   "interest": {
+    "score": 52,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Venus (47)",
+     "lieu : La Machine du Moulin Rouge (palier 3)"
     ]
    }
   },
@@ -18142,8 +18443,8 @@
    "title": "DJ Sundae",
    "venue_id": "le-poisson-volant",
    "night": "2026-10-30",
-   "start": "2026-10-30T23:00:00.000",
-   "end": "2026-10-31T04:00:00.000",
+   "start": "2026-10-30T23:59:00.000",
+   "end": "2026-10-31T05:00:00.000",
    "lineup": [
     {
      "artist_id": "dj-sundae",
@@ -19440,16 +19741,16 @@
    }
   },
   {
-   "id": "cd3c8598b3e8",
-   "title": "Mesmarize #17",
+   "id": "e3e9a8b232b7",
+   "title": "Mesmarize #17 (16h–20h)",
    "venue_id": "tba",
    "night": "2026-10-31",
    "start": "2026-10-31T16:00:00.000",
    "end": "2026-10-31T20:00:00.000",
    "lineup": [
     {
-     "artist_id": "mesmarize-17",
-     "name": "Mesmarize #17",
+     "artist_id": "mesmarize-17-16h20h",
+     "name": "Mesmarize #17 (16h–20h)",
      "billing": "headliner"
     }
    ],
@@ -19476,7 +19777,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Mesmarize #17 (8)",
+     "tête d'affiche : Mesmarize #17 (16h–20h) (8)",
      "lieu : TBA (palier 1)"
     ]
    }
@@ -19703,8 +20004,8 @@
    "title": "Promesses",
    "venue_id": "le-poisson-volant",
    "night": "2026-10-31",
-   "start": "2026-10-31T23:00:00.000",
-   "end": "2026-11-01T04:00:00.000",
+   "start": "2026-10-31T23:59:00.000",
+   "end": "2026-11-01T05:00:00.000",
    "lineup": [
     {
      "artist_id": "promesses",
@@ -19774,6 +20075,47 @@
     "reasons": [
      "tête d'affiche : Studerkel (0)",
      "lieu : Point Ephémère (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "c627d5c1ec7f",
+   "title": "PTITE SOEUR AFTERSHOW",
+   "venue_id": "la-machine-du-moulin-rouge",
+   "night": "2026-11-01",
+   "start": "2026-11-01T23:59:00.000",
+   "end": "2026-11-02T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ptite-soeur-aftershow",
+     "name": "PTITE SOEUR AFTERSHOW",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "experimental"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2559901",
+   "event_url": "https://ra.co/events/2559901",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2559901"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : PTITE SOEUR AFTERSHOW (8)",
+     "lieu : La Machine du Moulin Rouge (palier 3)"
     ]
    }
   },
@@ -20920,6 +21262,48 @@
    }
   },
   {
+   "id": "7c40fd352d54",
+   "title": "MYOTIS V",
+   "venue_id": "theatre-silvia-monfort",
+   "night": "2026-11-06",
+   "start": "2026-11-06T20:30:00.000",
+   "end": "2026-11-06T21:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "myotis-v",
+     "name": "MYOTIS V",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "noise"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2560338",
+   "event_url": "https://ra.co/events/2560338",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2560338"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : MYOTIS V (8)",
+     "lieu : Théâtre Silvia Monfort (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "9aaa475fd596",
    "title": "Sacré présente: O'FLYNN 'KAIROS' Release & Loulou Ferrari",
    "venue_id": "sacre",
@@ -21327,6 +21711,48 @@
    }
   },
   {
+   "id": "2de400ba13be",
+   "title": "ORCHESTRE TOUT PUISSANT MARCEL DUCHAMP",
+   "venue_id": "theatre-silvia-monfort",
+   "night": "2026-11-07",
+   "start": "2026-11-07T20:00:00.000",
+   "end": "2026-11-07T22:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "orchestre-tout-puissant-marcel-duchamp",
+     "name": "ORCHESTRE TOUT PUISSANT MARCEL DUCHAMP",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "jazz",
+    "noise"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2560374",
+   "event_url": "https://ra.co/events/2560374",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2560374"
+    }
+   ],
+   "interest": {
+    "score": 23,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ORCHESTRE TOUT PUISSANT MARCEL DUCHAMP (24)",
+     "lieu : Théâtre Silvia Monfort (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "dfb51a833a25",
    "title": "ELECTRONIC FOLK DANCE MUSIC wtih EIN L AQL - AndL - Nayoo (Live)",
    "venue_id": "petit-bain",
@@ -21712,6 +22138,49 @@
     "reasons": [
      "tête d'affiche : Thaylo (36)",
      "lieu : Le Bazar (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "9a3fc911d8d4",
+   "title": "Rex Club presents: Gabriel Belabas b2b Poggio all night long",
+   "venue_id": "rex-club",
+   "night": "2026-11-10",
+   "start": "2026-11-10T23:59:00.000",
+   "end": "2026-11-11T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "poggio",
+     "name": "Poggio",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2559751",
+   "event_url": "https://ra.co/events/2559751",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2559751"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Poggio (8)",
+     "lieu : Rex Club (palier 3)"
     ]
    }
   },
@@ -23257,10 +23726,10 @@
     }
    ],
    "genres": [
-    "house",
-    "techno",
     "electro",
-    "experimental"
+    "experimental",
+    "house",
+    "techno"
    ],
    "families": [
     "Techno",
