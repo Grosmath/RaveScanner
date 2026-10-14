@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-13T16:46:37Z",
+ "generated_at": "2026-10-14T00:15:28Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-10-13",
-  "end": "2027-04-11"
+  "start": "2026-10-14",
+  "end": "2027-04-12"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 362
+   "events": 360
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 54
+   "events": 55
   }
  ],
  "venue_order": [
@@ -41,7 +41,6 @@
   "104-centquatre",
   "essaim",
   "42-marches",
-  "tba-paris",
   "le-trabendo",
   "la-station-gare-des-mines",
   "la-boule-noire",
@@ -52,6 +51,7 @@
   "elysee-montmartre",
   "yoyo-palais-de-tokyo",
   "silencio",
+  "tba-paris",
   "djoon",
   "virage",
   "zenith-paris-la-villette",
@@ -78,6 +78,7 @@
   "la-rotonde-stalingrad",
   "solum",
   "la-marbrerie",
+  "le-grand-dome",
   "lithium-paris",
   "lafayette-anticipations",
   "a-la-folie-paris",
@@ -86,11 +87,11 @@
   "espace-parallele",
   "cayo",
   "le-poisson-volant",
-  "studio56",
   "la-cite-fertile",
   "le-bazar",
   "philharmonie-de-paris",
   "tba-75013",
+  "studio56",
   "brasserie-gallia",
   "panic-room",
   "theatre-silvia-monfort",
@@ -100,7 +101,6 @@
   "bourse-de-commerce-pinault-collection",
   "communale-saint-ouen",
   "la-demesure",
-  "la-gare-le-gore",
   "petit-bain",
   "amaluna-paris",
   "le-gambetta-club",
@@ -134,9 +134,11 @@
   "wanderlust",
   "la-maison-de-la-conversation",
   "jardin-des-traverses",
+  "la-gare-le-gore",
   "la-mecanique-ondulatoire",
   "la-rotonde",
-  "le-hasard-ludique"
+  "le-hasard-ludique",
+  "the-hoxton-paris"
  ],
  "venues": [
   {
@@ -825,6 +827,16 @@
    "genres": []
   },
   {
+   "id": "le-grand-dome",
+   "name": "Le Grand Dome",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "le-hasard-ludique",
    "name": "Le Hasard Ludique",
    "type": "club",
@@ -1282,6 +1294,16 @@
    "genres": []
   },
   {
+   "id": "the-hoxton-paris",
+   "name": "The Hoxton, Paris",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "theatre-silvia-monfort",
    "name": "Théâtre Silvia Monfort",
    "type": "club",
@@ -1729,16 +1751,6 @@
    "known": false
   },
   {
-   "id": "anansah",
-   "name": "Anansah",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "anas",
    "name": "Anas.",
    "tier": 0,
@@ -1958,16 +1970,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/2585e7c8f72f0937c85eb97da16e386a/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "aura-7",
-   "name": "AURA (7)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2980,16 +2982,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "dean-lexar",
-   "name": "Dean Lexar",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17832997da2b66f51280a41f134",
    "known": false
   },
   {
@@ -4746,16 +4738,6 @@
    "known": false
   },
   {
-   "id": "jam-du-bpm-contest",
-   "name": "JAM DU BPM CONTEST",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "jamie-3-26",
    "name": "Jamie 3:26",
    "tier": 0,
@@ -5343,16 +5325,6 @@
    "popularity": 34,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783cb2516156270439285f7ba4",
-   "known": false
-  },
-  {
-   "id": "ko-mu",
-   "name": "Ko Mu",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -7211,6 +7183,16 @@
    "known": false
   },
   {
+   "id": "oscaar",
+   "name": "OSCAAR",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c59791e55eab6918b985fbcc",
+   "known": false
+  },
+  {
    "id": "oscar-farrell",
    "name": "Oscar Farrell",
    "tier": 0,
@@ -7861,6 +7843,16 @@
    "popularity": 27,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/fe7886c5d953587af0d72ea1d298b743/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "rythme-brise",
+   "name": "Rythme Brisé",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783f200259cafbacf7b4fcf253",
    "known": false
   },
   {
@@ -8617,16 +8609,6 @@
    "known": false
   },
   {
-   "id": "the-liquid-dude",
-   "name": "The Liquid Dude",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485153a9e406ddf018d3fb6079e9",
-   "known": false
-  },
-  {
    "id": "the-velvet-brothers",
    "name": "The Velvet Brothers",
    "tier": 0,
@@ -8684,16 +8666,6 @@
    "popularity": 45,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17845b4737721af072e79a0f3e5",
-   "known": false
-  },
-  {
-   "id": "thundersamurai",
-   "name": "Thundersamurai",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17830da150c0c6719002e87d664",
    "known": false
   },
   {
@@ -9509,145 +9481,6 @@
  ],
  "events": [
   {
-   "id": "44792a9f2311",
-   "title": "Signal W/ Dean Lexar , Anansah, Thundersamurai",
-   "venue_id": "studio56",
-   "night": "2026-10-13",
-   "start": "2026-10-13T23:59:00.000",
-   "end": "2026-10-14T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "anansah",
-     "name": "Anansah",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "dean-lexar",
-     "name": "Dean Lexar",
-     "billing": "support"
-    },
-    {
-     "artist_id": "thundersamurai",
-     "name": "Thundersamurai",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2558630",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2558630"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Anansah (8)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "3cb4731dbd64",
-   "title": "JAM DU BPM CONTEST",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-10-13",
-   "start": "2026-10-13T23:59:00.000",
-   "end": "2026-10-14T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "jam-du-bpm-contest",
-     "name": "JAM DU BPM CONTEST",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2546461",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2546461"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : JAM DU BPM CONTEST (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "3eae8a55c5c8",
-   "title": "LIQUID FREAKS x LE GORE",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-10-13",
-   "start": "2026-10-13T23:30:00.000",
-   "end": "2026-10-14T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ko-mu",
-     "name": "Ko Mu",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "aura-7",
-     "name": "AURA (7)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "the-liquid-dude",
-     "name": "The Liquid Dude",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2558083",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2558083"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Ko Mu (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "d27b2c455467",
    "title": "2222: Gabbor b2b DJ ANGEL, MAURER, Kandelissa b2b Hebi Snake",
    "venue_id": "rex-club",
@@ -9835,7 +9668,7 @@
    "title": "DJ AKTARUS NRV INVITE DJ D2B LE 14 OCT 2026 @GAMBETTA CLUB PARIS 20e ALL NIGHT LONG",
    "venue_id": "le-gambetta-club",
    "night": "2026-10-14",
-   "start": "2026-10-14T20:00:00.000",
+   "start": "2026-10-14T23:59:00.000",
    "end": "2026-10-15T04:00:00.000",
    "lineup": [
     {
@@ -11763,6 +11596,45 @@
     "reasons": [
      "tête d'affiche : Sibil (1) (8)",
      "lieu : 42 Marches (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "51e73aea1e1a",
+   "title": "Basement Party - The Hoxton, Paris X Rythme Brisé",
+   "venue_id": "the-hoxton-paris",
+   "night": "2026-10-16",
+   "start": "2026-10-16T21:30:00+02:00",
+   "end": "2026-10-17T01:30:00+02:00",
+   "lineup": [
+    {
+     "artist_id": "rythme-brise",
+     "name": "Rythme Brisé",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/v35oql-basement-party-the-hoxton-paris-x-rythme-bris-16th-oct-the-hoxton-paris-paris-tickets",
+   "event_url": "https://dice.fm/event/v35oql-basement-party-the-hoxton-paris-x-rythme-bris-16th-oct-the-hoxton-paris-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-13/fa18d04e-4330-4a36-815f-4955091c0df6.jpg?rect=778%2C0%2C2000%2C2000",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/v35oql-basement-party-the-hoxton-paris-x-rythme-bris-16th-oct-the-hoxton-paris-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Rythme Brisé (0)",
+     "lieu : The Hoxton, Paris (palier 1)"
     ]
    }
   },
@@ -18938,9 +18810,9 @@
     }
    ],
    "genres": [
+    "bass",
     "club",
     "experimental",
-    "bass",
     "ambient",
     "techno"
    ],
@@ -19483,6 +19355,43 @@
     "reasons": [
      "tête d'affiche : Arnaud Le Texier (20)",
      "lieu : Glazart (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "e1ac9a74ed6e",
+   "title": "Silencio HALLOWEEN PARTY: GRAND DEUIL",
+   "venue_id": "silencio",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00.000",
+   "end": "2026-11-01T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "fabrice-dayan",
+     "name": "Fabrice Dayan",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2560481",
+   "event_url": "https://ra.co/events/2560481",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2560481"
+    }
+   ],
+   "interest": {
+    "score": 20,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Fabrice Dayan (20)",
+     "lieu : Silencio (palier 1)"
     ]
    }
   },
@@ -23858,35 +23767,43 @@
    }
   },
   {
-   "id": "ea375d6a5f77",
-   "title": "MTRNM Presents: &friends - Club La Nuit, Paris",
+   "id": "73c95fd1cc54",
+   "title": "MTRNM presents: &friends - Paris",
    "venue_id": "la-nuit",
    "night": "2026-11-20",
-   "start": "2026-11-20T22:00:00+01:00",
-   "end": "2026-11-21T05:00:00+01:00",
+   "start": "2026-11-20T22:00:00.000",
+   "end": "2026-11-21T05:00:00.000",
    "lineup": [
     {
      "artist_id": "friends",
      "name": "friends",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "oscaar",
+     "name": "OSCAAR",
+     "billing": "support"
     }
    ],
    "genres": [
-    "techno",
-    "tech house",
-    "deep house"
+    "deep house",
+    "afro house"
    ],
    "families": [
-    "Techno",
-    "House"
+    "House",
+    "Afro & latin"
    ],
    "price_min": 20.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/oe9awr-mtrnm-presents-friends-club-la-nuit-paris-20th-nov-club-la-nuit-paris-tickets",
-   "event_url": "https://dice.fm/event/oe9awr-mtrnm-presents-friends-club-la-nuit-paris-20th-nov-club-la-nuit-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2540904",
+   "event_url": "https://ra.co/events/2540904",
    "image": "https://dice-media.imgix.net/attachments/2026-10-05/a2c81f2f-59b9-4650-bd4d-334290abd868.jpg?rect=0%2C171%2C3375%2C3375",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540904"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/oe9awr-mtrnm-presents-friends-club-la-nuit-paris-20th-nov-club-la-nuit-paris-tickets"
@@ -26490,9 +26407,9 @@
    }
   },
   {
-   "id": "f88caf3c9bfc",
+   "id": "4f0b73b78815",
    "title": "Illusion Nye XXL Rave: Rooler Santos Dikke Baap",
-   "venue_id": "tba-paris",
+   "venue_id": "le-grand-dome",
    "night": "2026-12-31",
    "start": "2026-12-31T20:00:00.000",
    "end": "2027-01-01T07:00:00.000",
@@ -26528,7 +26445,7 @@
     "tier": 0,
     "reasons": [
      "tête d'affiche : SANTØS (46)",
-     "lieu : TBA - Paris (palier 1)"
+     "lieu : Le Grand Dome (palier 1)"
     ]
    }
   },
@@ -27120,13 +27037,6 @@
    "photo": "https://i.scdn.co/image/ab6761610000f17882fb4bf1aeac084c2d2627cb"
   },
   {
-   "id": "8a819b899fc6",
-   "name": "Medusa",
-   "night": "2026-11-27",
-   "venue": "La Machine du Moulin Rouge",
-   "photo": "https://i.scdn.co/image/ab6761610000f178ab0ff59b811ab51d83972c66"
-  },
-  {
    "id": "f577ad8f8eac",
    "name": "Maud Geffray",
    "night": "2026-11-07",
@@ -27146,6 +27056,13 @@
    "night": "2026-12-31",
    "venue": "Lieu Secret, Paris",
    "photo": "https://i.scdn.co/image/ab6761610000f178813a0009860438903c7d0db3"
+  },
+  {
+   "id": "18d792ff0ea9",
+   "name": "Marsh",
+   "night": "2026-11-14",
+   "venue": "Central Chapelle",
+   "photo": "https://i.scdn.co/image/ab6761610000f1787b56da31f993d1fb4ea5f56e"
   }
  ],
  "families": [
