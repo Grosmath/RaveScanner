@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-14T00:15:28Z",
+ "generated_at": "2026-10-14T14:23:31Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 360
+   "events": 371
   },
   {
    "id": "dice",
@@ -65,6 +65,7 @@
   "workshow",
   "point-ephemere",
   "le-mazette",
+  "le-211",
   "fondation-cartier",
   "tba",
   "la-bellevilloise",
@@ -73,13 +74,13 @@
   "nouveau-casino",
   "la-cigale",
   "le-bateau-phare",
-  "le-211",
   "le-trianon",
   "la-rotonde-stalingrad",
   "solum",
   "la-marbrerie",
   "le-grand-dome",
   "lithium-paris",
+  "le-zeralda",
   "lafayette-anticipations",
   "a-la-folie-paris",
   "glazart",
@@ -102,6 +103,7 @@
   "communale-saint-ouen",
   "la-demesure",
   "petit-bain",
+  "la-gare-le-gore",
   "amaluna-paris",
   "le-gambetta-club",
   "le-klub",
@@ -122,6 +124,7 @@
   "le-chinois",
   "le-discobar",
   "le-flow-paris",
+  "les-bains",
   "maison-3",
   "matchplay-society",
   "mira",
@@ -134,7 +137,6 @@
   "wanderlust",
   "la-maison-de-la-conversation",
   "jardin-des-traverses",
-  "la-gare-le-gore",
   "la-mecanique-ondulatoire",
   "la-rotonde",
   "le-hasard-ludique",
@@ -902,6 +904,26 @@
   {
    "id": "le-trianon",
    "name": "Le Trianon",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "le-zeralda",
+   "name": "Le Zeralda",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "les-bains",
+   "name": "Les Bains",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1973,6 +1995,16 @@
    "known": false
   },
   {
+   "id": "aurele",
+   "name": "Aurèle",
+   "tier": 0,
+   "score": 4,
+   "popularity": 4,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17862ecfb08d282832ac4712a2f",
+   "known": false
+  },
+  {
    "id": "autechre",
    "name": "Autechre",
    "tier": 0,
@@ -2232,6 +2264,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "benedetta",
+   "name": "Benedetta",
+   "tier": 0,
+   "score": 41,
+   "popularity": 41,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851f5c7767ab909091a5f750d17",
    "known": false
   },
   {
@@ -2765,6 +2807,16 @@
    "known": false
   },
   {
+   "id": "crowd-control",
+   "name": "Crowd Control",
+   "tier": 0,
+   "score": 20,
+   "popularity": 20,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c8a0d6ca2fe45a2c77b5dd68",
+   "known": false
+  },
+  {
    "id": "curses",
    "name": "Curses",
    "tier": 0,
@@ -2977,6 +3029,16 @@
   {
    "id": "de-vedelly",
    "name": "De Vedelly",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "debeunne-2",
+   "name": "Debeunne (2)",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -4146,7 +4208,7 @@
   },
   {
    "id": "geneva",
-   "name": "geneva",
+   "name": "Geneva_",
    "tier": 0,
    "score": 43,
    "popularity": 43,
@@ -5518,6 +5580,16 @@
    "known": false
   },
   {
+   "id": "larry-masmero",
+   "name": "Larry Masmero",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "lary-7",
    "name": "Lary 7",
    "tier": 0,
@@ -6048,6 +6120,16 @@
    "known": false
   },
   {
+   "id": "makez",
+   "name": "Makèz",
+   "tier": 0,
+   "score": 56,
+   "popularity": 56,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786cb5c5cb78b9cd92394bd381",
+   "known": false
+  },
+  {
    "id": "mala",
    "name": "Mala",
    "tier": 0,
@@ -6208,13 +6290,13 @@
    "known": false
   },
   {
-   "id": "marlie",
-   "name": "Marlie",
+   "id": "marli",
+   "name": "Marli",
    "tier": 0,
-   "score": 8,
-   "popularity": null,
+   "score": 17,
+   "popularity": 17,
    "genres": [],
-   "image": "",
+   "image": "https://cdn-images.dzcdn.net/images/artist/880766d6d9ac3eadd253d60b7bdfd918/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -6415,6 +6497,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178875e26aa89294635b1324523",
+   "known": false
+  },
+  {
+   "id": "mezigue",
+   "name": "Mézigue",
+   "tier": 0,
+   "score": 30,
+   "popularity": 30,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c434c796fde90e1ec43cc17a",
    "known": false
   },
   {
@@ -6705,6 +6797,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "nairless",
+   "name": "NairLess",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783c0855383c489d3571a21e42",
    "known": false
   },
   {
@@ -7736,6 +7838,16 @@
    "known": false
   },
   {
+   "id": "romain-play",
+   "name": "Romain Play",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e110f0c9c9b825b925d60ca9",
+   "known": false
+  },
+  {
    "id": "romane-santarelli",
    "name": "Romane Santarelli",
    "tier": 0,
@@ -8096,6 +8208,16 @@
    "known": false
   },
   {
+   "id": "silja-ellis",
+   "name": "Silja Ellis",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f009dd1f2079087d3cf74d3a",
+   "known": false
+  },
+  {
    "id": "silkie",
    "name": "Silkie",
    "tier": 0,
@@ -8363,6 +8485,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/1d97f5907bf02d472564e24db85c776a/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "strandtuch",
+   "name": "Strandtuch",
+   "tier": 0,
+   "score": 13,
+   "popularity": 13,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178662fad9abf944da4f75ad2e7",
    "known": false
   },
   {
@@ -8766,6 +8898,16 @@
    "popularity": 61,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782ca12f4aab07689143645ec3",
+   "known": false
+  },
+  {
+   "id": "toxic",
+   "name": "Toxic",
+   "tier": 0,
+   "score": 29,
+   "popularity": 29,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/8652886dd8ce23da56599afcd48bdc4e/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -11222,6 +11364,63 @@
     "reasons": [
      "tête d'affiche : Von Riu (17)",
      "lieu : Cartilage (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "8b0a45492e5f",
+   "title": "O.O.B Records at La Gare / Le Gore",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-10-16",
+   "start": "2026-10-16T23:59:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lefblom",
+     "name": "Lefblom",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "aurele",
+     "name": "Aurèle",
+     "billing": "support"
+    },
+    {
+     "artist_id": "silja-ellis",
+     "name": "Silja Ellis",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "garage"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2561362",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561362"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561362"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lefblom (13)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -15161,6 +15360,47 @@
    }
   },
   {
+   "id": "b640f72ee7cf",
+   "title": "Lily's X Double Douches",
+   "venue_id": "les-bains",
+   "night": "2026-10-23",
+   "start": "2026-10-23T23:30:00.000",
+   "end": "2026-10-24T04:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "larry-masmero",
+     "name": "Larry Masmero",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2561400",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561400"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Larry Masmero (8)",
+     "lieu : Les Bains (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "a424f885b27f",
    "title": "One Night In Paris - Halloween Edition",
    "venue_id": "le-flow-paris",
@@ -15893,6 +16133,76 @@
     "reasons": [
      "tête d'affiche : Brodinski (44)",
      "lieu : Lithium Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "087500cf14a3",
+   "title": "After VOLTAGE + D.KO Records: Mézigue, Benedetta, GGGG b2b Mad Rey, Romain Play, Marli",
+   "venue_id": "le-zeralda",
+   "night": "2026-10-24",
+   "start": "2026-10-25T05:30:00.000",
+   "end": "2026-10-25T14:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "benedetta",
+     "name": "Benedetta",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mad-rey",
+     "name": "Mad Rey",
+     "billing": "support",
+     "b2b_with": "gggg"
+    },
+    {
+     "artist_id": "mezigue",
+     "name": "Mézigue",
+     "billing": "support"
+    },
+    {
+     "artist_id": "marli",
+     "name": "Marli",
+     "billing": "support"
+    },
+    {
+     "artist_id": "gggg",
+     "name": "GGGG",
+     "billing": "support",
+     "b2b_with": "mad-rey"
+    },
+    {
+     "artist_id": "romain-play",
+     "name": "Romain Play",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2561430",
+   "event_url": "https://ra.co/events/2561430",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561430"
+    }
+   ],
+   "interest": {
+    "score": 37,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Benedetta (41)",
+     "lieu : Le Zeralda (palier 1)"
     ]
    }
   },
@@ -17671,8 +17981,8 @@
    }
   },
   {
-   "id": "ba0b47a44c71",
-   "title": "Silva Bumpa, Scolcab, Lespol b2b Unsho, NOON",
+   "id": "2c67a329f8cd",
+   "title": "Silva Bumpa, Scolcab, Unsho, NOON",
    "venue_id": "badaboum",
    "night": "2026-10-30",
    "start": "2026-10-30T23:30:00.000",
@@ -18811,8 +19121,8 @@
    ],
    "genres": [
     "bass",
+    "hip-hop",
     "club",
-    "experimental",
     "ambient",
     "techno"
    ],
@@ -18904,6 +19214,69 @@
     "reasons": [
      "tête d'affiche : Curses (43)",
      "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "4db039f25f83",
+   "title": "Pentagon X Happiness Therapy: Halloween Edition",
+   "venue_id": "la-java",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:59:00.000",
+   "end": "2026-11-01T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "geneva",
+     "name": "Geneva_",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "crowd-control",
+     "name": "Crowd Control",
+     "billing": "support"
+    },
+    {
+     "artist_id": "strandtuch",
+     "name": "Strandtuch",
+     "billing": "support"
+    },
+    {
+     "artist_id": "debeunne-2",
+     "name": "Debeunne (2)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "nairless",
+     "name": "NairLess",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2561042",
+   "event_url": "https://ra.co/events/2561042",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561042"
+    }
+   ],
+   "interest": {
+    "score": 43,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Geneva_ (43)",
+     "lieu : La Java (palier 2)"
     ]
    }
   },
@@ -20724,6 +21097,11 @@
      "billing": "support"
     },
     {
+     "artist_id": "marli",
+     "name": "Marli",
+     "billing": "support"
+    },
+    {
      "artist_id": "krol",
      "name": "Krol",
      "billing": "support"
@@ -20741,11 +21119,6 @@
     {
      "artist_id": "marc-anthony-bowen",
      "name": "Marc Anthony Bowen",
-     "billing": "support"
-    },
-    {
-     "artist_id": "marlie",
-     "name": "Marlie",
      "billing": "support"
     },
     {
@@ -22707,6 +23080,47 @@
    }
   },
   {
+   "id": "4f7e3b28735b",
+   "title": "Unbox #8: Shades of Techno Early Party",
+   "venue_id": "le-211",
+   "night": "2026-11-13",
+   "start": "2026-11-13T19:00:00.000",
+   "end": "2026-11-13T23:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "toxic",
+     "name": "Toxic",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2560931",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2560931"
+    }
+   ],
+   "interest": {
+    "score": 27,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Toxic (29)",
+     "lieu : Le 211 (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "7fa602ff202e",
    "title": "Flash Cocotte",
    "venue_id": "la-machine-du-moulin-rouge",
@@ -23562,6 +23976,47 @@
     "reasons": [
      "tête d'affiche : Funk Tribu (68)",
      "lieu : TBA - Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "6d38645598da",
+   "title": "Sacré Présente: Makèz & Friends",
+   "venue_id": "sacre",
+   "night": "2026-11-20",
+   "start": "2026-11-20T23:00:00.000",
+   "end": "2026-11-21T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "makez",
+     "name": "Makèz",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2561415",
+   "event_url": "https://ra.co/events/2561415",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561415"
+    }
+   ],
+   "interest": {
+    "score": 52,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Makèz (56)",
+     "lieu : Sacré (palier 2)"
     ]
    }
   },
@@ -25314,7 +25769,7 @@
    "lineup": [
     {
      "artist_id": "geneva",
-     "name": "geneva",
+     "name": "Geneva_",
      "billing": "headliner"
     },
     {
@@ -25352,7 +25807,7 @@
     "score": 37,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : geneva (43)",
+     "tête d'affiche : Geneva_ (43)",
      "lieu : La Marbrerie (palier 1)"
     ]
    }
@@ -27239,7 +27694,7 @@
    "footer": "",
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb293cb44a73e10113db56a3f5",
-   "event_id": "ba0b47a44c71"
+   "event_id": "2c67a329f8cd"
   },
   {
    "kind": "event",
