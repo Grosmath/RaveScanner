@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-14T14:23:31Z",
+ "generated_at": "2026-10-14T23:50:04Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 371
+   "events": 383
   },
   {
    "id": "dice",
@@ -33,6 +33,7 @@
   "fvtvr",
   "la-defense-arena",
   "phantom-paris",
+  "la-station-gare-des-mines",
   "la-java",
   "la-machine-du-moulin-rouge",
   "sacre",
@@ -42,7 +43,6 @@
   "essaim",
   "42-marches",
   "le-trabendo",
-  "la-station-gare-des-mines",
   "la-boule-noire",
   "kilometre25",
   "cite-de-la-musique",
@@ -81,8 +81,8 @@
   "le-grand-dome",
   "lithium-paris",
   "le-zeralda",
-  "lafayette-anticipations",
   "a-la-folie-paris",
+  "lafayette-anticipations",
   "glazart",
   "tba-secret-warehouse",
   "espace-parallele",
@@ -106,6 +106,8 @@
   "la-gare-le-gore",
   "amaluna-paris",
   "le-gambetta-club",
+  "pullman-rooftop",
+  "terminus",
   "le-klub",
   "miniwax",
   "tba-le-tlm-paris-105-rue-curial-75019-paris",
@@ -130,8 +132,8 @@
   "mira",
   "notre-dame-music-bar",
   "plantation-paris",
-  "pullman-rooftop",
   "peniche-antipode",
+  "tba-carburant-60-rue-de-lancry-75010-paris",
   "tba-cesure-paris",
   "vice-versa",
   "wanderlust",
@@ -1276,6 +1278,16 @@
    "genres": []
   },
   {
+   "id": "tba-carburant-60-rue-de-lancry-75010-paris",
+   "name": "TBA - Carburant — 60 Rue de Lancry, 75010 Paris",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "tba-cesure-paris",
    "name": "TBA - Césure Paris",
    "type": "club",
@@ -1308,6 +1320,16 @@
   {
    "id": "tba-secret-warehouse",
    "name": "TBA - Secret Warehouse",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "terminus",
+   "name": "Terminus",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1540,6 +1562,16 @@
    "popularity": 51,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785f35e5f8c1c8ae216ae1b63d",
+   "known": false
+  },
+  {
+   "id": "adb",
+   "name": "ADB (FR)",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788db050d12ea129bfd9071d7a",
    "known": false
   },
   {
@@ -1780,6 +1812,16 @@
    "popularity": 83,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/632a1532ee86dedf6efa5fb8e9a385e4/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "andata",
+   "name": "ANDATA",
+   "tier": 0,
+   "score": 59,
+   "popularity": 59,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ec1e4b4a96b49d09d007f711",
    "known": false
   },
   {
@@ -2387,6 +2429,16 @@
    "known": false
   },
   {
+   "id": "breakbot",
+   "name": "Breakbot",
+   "tier": 0,
+   "score": 71,
+   "popularity": 71,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786d38086452e28cd10f9c6c5a",
+   "known": false
+  },
+  {
    "id": "bristol-northern-soul-club-paris-allnighter",
    "name": "Bristol Northern Soul Club Paris Allnighter",
    "tier": 0,
@@ -2747,6 +2799,16 @@
    "known": false
   },
   {
+   "id": "collision",
+   "name": "COLLISION",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851756164a2c9d616eef5dc9692",
+   "known": false
+  },
+  {
    "id": "concert-martin-rev",
    "name": "Concert : Martin Rev",
    "tier": 0,
@@ -3074,6 +3136,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784c1ecc63ec4db91d39626ea7",
+   "known": false
+  },
+  {
+   "id": "deux-mille",
+   "name": "DEUX MILLE",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178791ef586709fca1acd81617d",
    "known": false
   },
   {
@@ -4107,6 +4179,16 @@
    "known": false
   },
   {
+   "id": "frisyro-bolani",
+   "name": "Frisyro Bolani",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "fumiya-tanaka",
    "name": "Fumiya Tanaka",
    "tier": 0,
@@ -4424,6 +4506,16 @@
    "popularity": 58,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17861053f5ff12cfa5ed7d75c27",
+   "known": false
+  },
+  {
+   "id": "habibi-love-arabic-night-sounds-a-la-villette",
+   "name": "Habibi Love - Arabic Night Sounds à La Villette",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5460,6 +5552,16 @@
    "known": false
   },
   {
+   "id": "kuki",
+   "name": "Kuki",
+   "tier": 0,
+   "score": 50,
+   "popularity": 50,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789971974d2ef85695af04b09d",
+   "known": false
+  },
+  {
    "id": "kuss",
    "name": "KUSS",
    "tier": 0,
@@ -6470,6 +6572,16 @@
    "known": false
   },
   {
+   "id": "mental",
+   "name": "Mental",
+   "tier": 0,
+   "score": 11,
+   "popularity": 11,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b11f97051131aeb03470ec79",
+   "known": false
+  },
+  {
    "id": "mersel",
    "name": "Mersel",
    "tier": 0,
@@ -7315,6 +7427,16 @@
    "known": false
   },
   {
+   "id": "oslo-import-vol-3",
+   "name": "Oslo Import Vol. 3",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "pagos-paris-to-lagos",
    "name": "PAGOS (PARIS TO LAGOS)",
    "tier": 0,
@@ -7322,6 +7444,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "pan",
+   "name": "Pan",
+   "tier": 0,
+   "score": 40,
+   "popularity": 40,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/bd31c9bbd4da89dc7afde3363fe7504b/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -7525,6 +7657,26 @@
    "known": false
   },
   {
+   "id": "polo",
+   "name": "Polo",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/f18d2e9b28844d53fd4b6dfd2cb0d465/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "ponky",
+   "name": "Pōnky",
+   "tier": 0,
+   "score": 22,
+   "popularity": 22,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ce2192f8c4482d358de1fc05",
+   "known": false
+  },
+  {
    "id": "pony-pony-run-run",
    "name": "Pony Pony Run Run",
    "tier": 0,
@@ -7532,6 +7684,16 @@
    "popularity": 52,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785931d13aac4889f28c0a6525",
+   "known": false
+  },
+  {
+   "id": "prance",
+   "name": "Prance",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/da94e809835e35eabc5d33cc4f4f96d9/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -8528,6 +8690,16 @@
    "known": false
   },
   {
+   "id": "sunday-rooftop-party",
+   "name": "Sunday Rooftop Party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "sunwave-halloween-edition",
    "name": "SUNWAVE HALLOWEEN EDITION",
    "tier": 0,
@@ -8648,6 +8820,16 @@
    "known": false
   },
   {
+   "id": "tazlow",
+   "name": "Tazlow",
+   "tier": 0,
+   "score": 12,
+   "popularity": 12,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e4eb6f6129b461ec4676386d",
+   "known": false
+  },
+  {
    "id": "teki-latex",
    "name": "Teki Latex",
    "tier": 0,
@@ -8655,6 +8837,16 @@
    "popularity": 12,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17867c6ef7376e1b65ec0018220",
+   "known": false
+  },
+  {
+   "id": "tekno-1",
+   "name": "Tekno (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -9622,6 +9814,74 @@
   }
  ],
  "events": [
+  {
+   "id": "fbd50d81b51a",
+   "title": "N°1 des Marabouts Honnêtes - Paiement Après Réussite +22997397448",
+   "venue_id": "la-station-gare-des-mines",
+   "night": "2026-10-14",
+   "start": "2026-10-14T09:00:00.000",
+   "end": "2026-10-18T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "breakbot",
+     "name": "Breakbot",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "pan",
+     "name": "Pan",
+     "billing": "support"
+    },
+    {
+     "artist_id": "polo",
+     "name": "Polo",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "afrobeat",
+    "afro house"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2561774",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561774"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561774"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561774"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561774"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561774"
+    }
+   ],
+   "interest": {
+    "score": 63,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Breakbot (71)",
+     "lieu : La Station - Gare des Mines (palier 2)"
+    ]
+   }
+  },
   {
    "id": "d27b2c455467",
    "title": "2222: Gabbor b2b DJ ANGEL, MAURER, Kandelissa b2b Hebi Snake",
@@ -13173,6 +13433,49 @@
    }
   },
   {
+   "id": "1bb4250d0919",
+   "title": "Habibi Love - Arabic Night Sounds à La Villette",
+   "venue_id": "a-la-folie-paris",
+   "night": "2026-10-17",
+   "start": "2026-10-17T23:00:00.000",
+   "end": "2026-10-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "habibi-love-arabic-night-sounds-a-la-villette",
+     "name": "Habibi Love - Arabic Night Sounds à La Villette",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "club",
+    "electronica"
+   ],
+   "families": [
+    "Pop & club",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2561334",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561334"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Habibi Love - Arabic Night Sounds à La Villette (8)",
+     "lieu : à la Folie Paris (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "d69339a3c533",
    "title": "JETLAG REGGAETON AIRLINES",
    "venue_id": "virage",
@@ -13834,6 +14137,49 @@
     "reasons": [
      "tête d'affiche : Andrei Olariu (8)",
      "lieu : La Casbah (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "f280ccd76ef3",
+   "title": "Sunday Rooftop Party",
+   "venue_id": "pullman-rooftop",
+   "night": "2026-10-18",
+   "start": "2026-10-18T18:00:00.000",
+   "end": "2026-10-19T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sunday-rooftop-party",
+     "name": "Sunday Rooftop Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2561251",
+   "event_url": "https://ra.co/events/2561251",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561251"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Sunday Rooftop Party (8)",
+     "lieu : Pullman Rooftop (palier 1)"
     ]
    }
   },
@@ -18825,12 +19171,12 @@
    }
   },
   {
-   "id": "6ffcbf99e721",
-   "title": "BABYLON HALLOWEEN - MARTEN LOU @PALAIS BRONGNIART",
+   "id": "9224ed3b2913",
+   "title": "Babylon Halloween 2026: Marten Lou au Palais Brongniart",
    "venue_id": "palais-brongniart",
    "night": "2026-10-31",
-   "start": "2026-10-31T22:00:00+01:00",
-   "end": "2026-11-01T05:30:00+01:00",
+   "start": "2026-10-31T22:00:00.000",
+   "end": "2026-11-01T05:30:00.000",
    "lineup": [
     {
      "artist_id": "marten-lou",
@@ -18839,16 +19185,23 @@
     }
    ],
    "genres": [
-    "electronic"
+    "tech house",
+    "deep house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 26.5,
-   "currency": "EUR",
+   "currency": "CAD",
    "ticket_url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-palais-brongniart-31st-oct-palais-brongniart-paris-tickets",
-   "event_url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-palais-brongniart-31st-oct-palais-brongniart-paris-tickets",
+   "event_url": "https://ra.co/events/2561553",
    "image": "https://dice-media.imgix.net/attachments/2026-10-05/9fd26016-a578-4c3a-9d1a-535a9e143c19.jpg?rect=0%2C0%2C4500%2C4500",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561553"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/nvx538-babylon-halloween-marten-lou-palais-brongniart-31st-oct-palais-brongniart-paris-tickets"
@@ -24588,6 +24941,66 @@
    }
   },
   {
+   "id": "d12bd1aeba19",
+   "title": "Ipséité: Pōnky, Kandelissa B2b Prance & More",
+   "venue_id": "la-java",
+   "night": "2026-11-21",
+   "start": "2026-11-21T23:59:00.000",
+   "end": "2026-11-22T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ponky",
+     "name": "Pōnky",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "alhena",
+     "name": "Alhena_",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kandelissa",
+     "name": "Kandelissa",
+     "billing": "support",
+     "b2b_with": "prance"
+    },
+    {
+     "artist_id": "prance",
+     "name": "Prance",
+     "billing": "support",
+     "b2b_with": "kandelissa"
+    }
+   ],
+   "genres": [
+    "techno",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2561551",
+   "event_url": "https://ra.co/events/2561551",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561551"
+    }
+   ],
+   "interest": {
+    "score": 28,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Pōnky (22)",
+     "lieu : La Java (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "5e10be93fd97",
    "title": "Sacré présente: Daisybelle & Orisha",
    "venue_id": "sacre",
@@ -24625,6 +25038,117 @@
     "reasons": [
      "tête d'affiche : Daisybelle (13)",
      "lieu : Sacré (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "d141d2e9a0b8",
+   "title": "Cult Collective & Le Diable Au Corps",
+   "venue_id": "terminus",
+   "night": "2026-11-21",
+   "start": "2026-11-21T23:00:00.000",
+   "end": "2026-11-22T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "tazlow",
+     "name": "Tazlow",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mental",
+     "name": "Mental",
+     "billing": "support"
+    },
+    {
+     "artist_id": "tekno-1",
+     "name": "Tekno (1)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "collision",
+     "name": "COLLISION",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "hardcore",
+    "acid"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2561120",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561120"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Tazlow (12)",
+     "lieu : Terminus (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "c74ae37ec308",
+   "title": "Oslo Import Vol. 3 // Frisyro Bolani & DEUX MILLE",
+   "venue_id": "tba-carburant-60-rue-de-lancry-75010-paris",
+   "night": "2026-11-21",
+   "start": "2026-11-21T20:00:00.000",
+   "end": "2026-11-22T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "oslo-import-vol-3",
+     "name": "Oslo Import Vol. 3",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "frisyro-bolani",
+     "name": "Frisyro Bolani",
+     "billing": "support"
+    },
+    {
+     "artist_id": "deux-mille",
+     "name": "DEUX MILLE",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "italo disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2561147",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561147"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Oslo Import Vol. 3 (8)",
+     "lieu : TBA - Carburant — 60 Rue de Lancry, 75010 Paris (palier 1)"
     ]
    }
   },
@@ -26862,6 +27386,57 @@
    }
   },
   {
+   "id": "65693660cbf1",
+   "title": "Fluid Nye: Majes, ANDATA, Adb, Betïses, Kuki B2b Amrk",
+   "venue_id": "mia-mao",
+   "night": "2026-12-31",
+   "start": "2026-12-31T23:00:00.000",
+   "end": "2027-01-01T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "andata",
+     "name": "ANDATA",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "kuki",
+     "name": "Kuki",
+     "billing": "support"
+    },
+    {
+     "artist_id": "adb",
+     "name": "ADB (FR)",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "trance"
+   ],
+   "families": [
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2561159",
+   "event_url": "https://ra.co/events/2561159",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561159"
+    }
+   ],
+   "interest": {
+    "score": 48,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : ANDATA (59)",
+     "lieu : Mia Mao (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "4f0b73b78815",
    "title": "Illusion Nye XXL Rave: Rooler Santos Dikke Baap",
    "venue_id": "le-grand-dome",
@@ -27464,6 +28039,13 @@
    "photo": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845"
   },
   {
+   "id": "fbd50d81b51a",
+   "name": "Breakbot",
+   "night": "2026-10-14",
+   "venue": "La Station - Gare des Mines",
+   "photo": "https://i.scdn.co/image/ab6761610000f1786d38086452e28cd10f9c6c5a"
+  },
+  {
    "id": "b03700492f5c",
    "name": "Richie Hawtin",
    "night": "2026-10-24",
@@ -27478,7 +28060,7 @@
    "photo": "https://i.scdn.co/image/ab6761610000f1782ca12f4aab07689143645ec3"
   },
   {
-   "id": "6ffcbf99e721",
+   "id": "9224ed3b2913",
    "name": "Marten Lou",
    "night": "2026-10-31",
    "venue": "Palais Brongniart",
@@ -27511,13 +28093,6 @@
    "night": "2026-12-31",
    "venue": "Lieu Secret, Paris",
    "photo": "https://i.scdn.co/image/ab6761610000f178813a0009860438903c7d0db3"
-  },
-  {
-   "id": "18d792ff0ea9",
-   "name": "Marsh",
-   "night": "2026-11-14",
-   "venue": "Central Chapelle",
-   "photo": "https://i.scdn.co/image/ab6761610000f1787b56da31f993d1fb4ea5f56e"
   }
  ],
  "families": [
@@ -27531,6 +28106,21 @@
   "Expérimental"
  ],
  "spotlight": [
+  {
+   "kind": "event",
+   "day": "MER 14 OCT",
+   "title": "Breakbot",
+   "venue": "La Station - Gare des Mines",
+   "time": "09:00 → 23:59",
+   "tier": 2,
+   "reason": "",
+   "supports": "Pan, Polo",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb6d38086452e28cd10f9c6c5a",
+   "event_id": "fbd50d81b51a"
+  },
   {
    "kind": "event",
    "day": "SAM 17 OCT",
@@ -27620,21 +28210,6 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb3496f9ad28f2b14cac3a3c75",
    "event_id": "b03700492f5c"
-  },
-  {
-   "kind": "event",
-   "day": "SAM 24 OCT",
-   "title": "Mood II Swing",
-   "venue": "La Java",
-   "time": "23:59 → 07:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "Knuckle G, Chinau, Elsa Bernini",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb1847fadfcec1c56ba965a0bd",
-   "event_id": "cba79abe5408"
   },
   {
    "kind": "event",
