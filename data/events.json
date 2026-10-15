@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-15T14:00:31Z",
+ "generated_at": "2026-10-15T23:37:47Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 192
+   "events": 193
   },
   {
    "id": "piknic",
@@ -24,17 +24,17 @@
   {
    "id": "new_city_gas",
    "ok": true,
-   "events": 138
+   "events": 139
   },
   {
    "id": "mtelus",
    "ok": true,
-   "events": 13
+   "events": 14
   },
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 41
+   "events": 42
   }
  ],
  "venue_order": [
@@ -79,8 +79,8 @@
   "red-roof-church",
   "club-soda",
   "cafe-social-b-hive",
-  "blue-room",
   "sans-soleil",
+  "blue-room",
   "ausgang-plaza",
   "barbossa",
   "sanctuary",
@@ -1855,6 +1855,16 @@
    "known": false
   },
   {
+   "id": "dj-cinema-quartier-latin",
+   "name": "DJ Cinéma Quartier Latin",
+   "tier": 0,
+   "score": 41,
+   "popularity": 41,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787d05ee7589166ceffab2242e",
+   "known": false
+  },
+  {
    "id": "dj-dave",
    "name": "DJ_Dave",
    "tier": 0,
@@ -2152,6 +2162,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "elderbrook",
+   "name": "Elderbrook",
+   "tier": 0,
+   "score": 87,
+   "popularity": 87,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786d6febccf758f36c8be8bbd9",
    "known": false
   },
   {
@@ -2798,6 +2818,16 @@
    "known": false
   },
   {
+   "id": "jay-pryor",
+   "name": "Jay Pryor",
+   "tier": 0,
+   "score": 61,
+   "popularity": 61,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f78eee5fd35b281cb3fae05e",
+   "known": false
+  },
+  {
    "id": "jean-pascal-groove",
    "name": "Jean Pascal Groove",
    "tier": 0,
@@ -2888,6 +2918,16 @@
    "popularity": 18,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17882b3700f4bd2cf5aaf472e23",
+   "known": false
+  },
+  {
+   "id": "josh-baker",
+   "name": "Josh Baker",
+   "tier": 0,
+   "score": 74,
+   "popularity": 74,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e5cc0458e5c13ef8ab6c2441",
    "known": false
   },
   {
@@ -4289,16 +4329,6 @@
    "known": false
   },
   {
-   "id": "sam-chef",
-   "name": "SAM CHEF",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "sarah-kay",
    "name": "Sarah Kay",
    "tier": 0,
@@ -5430,8 +5460,8 @@
     "bass",
     "techno",
     "house",
-    "afro house",
-    "disco"
+    "disco",
+    "afro house"
    ],
    "families": [
     "Techno",
@@ -9127,6 +9157,16 @@
      "artist_id": "mall-grab",
      "name": "Mall Grab",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "dj-cinema-quartier-latin",
+     "name": "DJ Cinéma Quartier Latin",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lia-plutonic",
+     "name": "Lia Plutonic",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -10487,6 +10527,11 @@
      "artist_id": "1tbsp",
      "name": "1tbsp",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "audrey-belanger",
+     "name": "Audrey Bélanger",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -11831,9 +11876,15 @@
    ],
    "genres": [
     "disco",
-    "funk / soul"
+    "funk / soul",
+    "breaks",
+    "house",
+    "techno"
    ],
    "families": [
+    "Techno",
+    "House",
+    "Électro & bass",
     "Disco & funk"
    ],
    "price_min": null,
@@ -12284,54 +12335,6 @@
    }
   },
   {
-   "id": "c71a869380de",
-   "title": "Blueroom x Waterfront (Backwater) : Halloween All night Special",
-   "venue_id": "blue-room",
-   "night": "2026-10-31",
-   "start": "2026-10-31T19:00:00.000",
-   "end": "2026-11-01T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sam-chef",
-     "name": "SAM CHEF",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "sydney-sarayeva",
-     "name": "Sydney Sarayeva",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "club",
-    "electronica"
-   ],
-   "families": [
-    "Pop & club",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2557461",
-   "event_url": "https://ra.co/events/2557461",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2557461"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : SAM CHEF (8)",
-     "lieu : Blue Room (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "2766691dff41",
    "title": "HALLOWEEN: UNE NUIT AU Vino Disco (EXTENDED 6AM)",
    "venue_id": "vino-disco",
@@ -12465,6 +12468,49 @@
     "reasons": [
      "tête d'affiche : Damacadam (8)",
      "lieu : La Gare Dalhousie (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "c71a869380de",
+   "title": "Blueroom x Waterfront (Backwater) Halloween All night Special",
+   "venue_id": "blue-room",
+   "night": "2026-10-31",
+   "start": "2026-10-31T19:00:00.000",
+   "end": "2026-11-01T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sydney-sarayeva",
+     "name": "Sydney Sarayeva",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "club",
+    "electronica"
+   ],
+   "families": [
+    "Pop & club",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2557461",
+   "event_url": "https://ra.co/events/2557461",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2557461"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Sydney Sarayeva (0)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -15096,6 +15142,57 @@
    }
   },
   {
+   "id": "606036914856",
+   "title": "Josh Baker, Jay Pryor",
+   "venue_id": "new-city-gas",
+   "night": "2026-12-29",
+   "start": "2026-12-29T22:00:00.000",
+   "end": "2026-12-30T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "josh-baker",
+     "name": "Josh Baker",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "jay-pryor",
+     "name": "Jay Pryor",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mezz",
+     "name": "Mezz",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://newcitygas.com/event/josh-baker-jay-pryor-211074/",
+   "event_url": "https://ra.co/events/2562779",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2562779"
+    },
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/josh-baker-jay-pryor-211074/"
+    }
+   ],
+   "interest": {
+    "score": 71,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Josh Baker (74)",
+     "lieu : New City Gas (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "af61f1db9b77",
    "title": "Back to the 80's avec NEON",
    "venue_id": "le-balcon",
@@ -15727,7 +15824,7 @@
    "families": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/alleycvt-the-beginning-of-forever-tour-montreal-quebec-02-26-2027/event/31006549E31FA113",
+   "ticket_url": "https://www.ticketmaster.ca/event/31006549E31FA113?lang=fr-ca&brand=mtelus",
    "event_url": "https://evenko.ca/fr/evenements/mtelus/alleycvt?code=e009286",
    "image": "https://images.ctfassets.net/3yxl57nu0yl4/4yO9RUwM2LWQzVzRk53tdU/47b0363fb5a8d63a3774a08dafb2a64b/ALLEYCVT.png",
    "status": "confirmed",
@@ -15832,6 +15929,49 @@
     "reasons": [
      "tête d'affiche : Ely Oaks (86)",
      "lieu : New City Gas (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "13a440e8e3f2",
+   "title": "Elderbrook",
+   "venue_id": "mtelus",
+   "night": "2027-03-19",
+   "start": "2027-03-19T20:00:00-04:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "elderbrook",
+     "name": "Elderbrook",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/event/31006548A4185690?lang=fr-ca&brand=mtelus",
+   "event_url": "https://evenko.ca/fr/evenements/mtelus/elderbrook?code=e009289",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/kbJNY7y7YLMb21dRUXI7v/c1d89054f98ee17ec2b3c17cb67209fe/Elderbrook.png",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "mtelus",
+     "url": "https://evenko.ca/fr/evenements/mtelus/elderbrook?code=e009289"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/elderbrook-heart-on-a-wire-tour-montreal-quebec-03-19-2027/event/31006548A4185690"
+    }
+   ],
+   "interest": {
+    "score": 69,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Elderbrook (87)",
+     "lieu : MTELUS (palier 1)"
     ]
    }
   },
@@ -15973,6 +16113,20 @@
    "night": "2027-02-17",
    "venue": "MTELUS",
    "photo": "https://i.scdn.co/image/ab6761610000f178572a8eae56feae217f618078"
+  },
+  {
+   "id": "606036914856",
+   "name": "Josh Baker",
+   "night": "2026-12-29",
+   "venue": "New City Gas",
+   "photo": "https://i.scdn.co/image/ab6761610000f178e5cc0458e5c13ef8ab6c2441"
+  },
+  {
+   "id": "13a440e8e3f2",
+   "name": "Elderbrook",
+   "night": "2027-03-19",
+   "venue": "MTELUS",
+   "photo": "https://i.scdn.co/image/ab6761610000f1786d6febccf758f36c8be8bbd9"
   }
  ],
  "families": [
