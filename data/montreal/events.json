@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-15T23:37:47Z",
+ "generated_at": "2026-10-16T13:47:52Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-10-15",
-  "end": "2027-04-13"
+  "start": "2026-10-16",
+  "end": "2027-04-14"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 193
+   "events": 189
   },
   {
    "id": "piknic",
@@ -59,10 +59,10 @@
   "bar-datcha",
   "esc",
   "systeme",
-  "entrepots-dominion-les",
   "nwhr",
-  "foufounes",
+  "entrepots-dominion-les",
   "le-red-room",
+  "foufounes",
   "tba-mile-ex",
   "l-escogriffe-bar-spectacle",
   "vino-disco",
@@ -77,14 +77,15 @@
   "bain-mathieu",
   "1088-rue-clark",
   "red-roof-church",
-  "club-soda",
   "cafe-social-b-hive",
   "sans-soleil",
   "blue-room",
   "ausgang-plaza",
+  "club-soda",
   "barbossa",
   "sanctuary",
   "amir-mont-royal",
+  "white-wall-studio",
   "le-livart",
   "cabaret-lion-d-or",
   "entre-nous",
@@ -92,10 +93,9 @@
   "le-ministere",
   "p-tit-ours",
   "pangea",
-  "savoir-faire",
+  "piranha-bar",
   "le-lobby",
-  "usine-c",
-  "white-wall-studio"
+  "usine-c"
  ],
  "venues": [
   {
@@ -500,6 +500,16 @@
    ]
   },
   {
+   "id": "piranha-bar",
+   "name": "Piranha Bar",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "place-bell",
    "name": "Place Bell",
    "type": "arena",
@@ -579,16 +589,6 @@
     "techno",
     "electronic"
    ]
-  },
-  {
-   "id": "savoir-faire",
-   "name": "Savoir Faire",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
   },
   {
    "id": "stereo",
@@ -873,8 +873,8 @@
    "id": "alan-walker",
    "name": "Alan Walker",
    "tier": 0,
-   "score": 97,
-   "popularity": 97,
+   "score": 96,
+   "popularity": 96,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178572a8eae56feae217f618078",
    "known": false
@@ -1010,16 +1010,6 @@
    "known": false
   },
   {
-   "id": "antdot",
-   "name": "Antdot",
-   "tier": 0,
-   "score": 71,
-   "popularity": 71,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17833c84685f7c59d1e58436dbd",
-   "known": false
-  },
-  {
    "id": "arder",
    "name": "Arder:",
    "tier": 0,
@@ -1064,7 +1054,7 @@
    "name": "Artbat",
    "tier": 4,
    "score": 78,
-   "popularity": 80,
+   "popularity": 81,
    "genres": [
     "melodic techno"
    ],
@@ -1262,6 +1252,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "bed",
+   "name": "Bed",
+   "tier": 0,
+   "score": 5,
+   "popularity": 5,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/f542a60eaee44b6794c9fda2e4e7b583/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1695,16 +1695,6 @@
    "known": false
   },
   {
-   "id": "d-b-y",
-   "name": "D.B.Y.",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1787dd52de52c5d012076238356",
-   "known": false
-  },
-  {
    "id": "d-blavatsky",
    "name": "D.Blavatsky",
    "tier": 0,
@@ -1975,6 +1965,16 @@
    "known": false
   },
   {
+   "id": "dj-set",
+   "name": "DJ set",
+   "tier": 0,
+   "score": 26,
+   "popularity": 26,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fd5991b193cdb1c9b4ff5620",
+   "known": false
+  },
+  {
    "id": "dj-snake",
    "name": "DJ Snake",
    "tier": 0,
@@ -2148,10 +2148,10 @@
    "id": "ekho",
    "name": "Ekho",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 29,
+   "popularity": 29,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178908ba8dbb20ca9d15ecc99b6",
+   "image": "https://cdn-images.dzcdn.net/images/artist/e2319526c09735ea3b8b7b232c675704/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2345,16 +2345,6 @@
    "known": false
   },
   {
-   "id": "felix-patry",
-   "name": "Felix Patry",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "fennx",
    "name": "FennX",
    "tier": 0,
@@ -2415,23 +2405,23 @@
    "known": false
   },
   {
-   "id": "french-79",
-   "name": "French 79",
+   "id": "fred",
+   "name": "Fred [Note Vocale]",
    "tier": 0,
-   "score": 71,
-   "popularity": 71,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178a2d0d7d6550e7c1b504f6ba8",
+   "image": "",
    "known": false
   },
   {
-   "id": "french-vanilia",
-   "name": "French Vanilia",
+   "id": "french-79",
+   "name": "French 79",
    "tier": 0,
-   "score": 11,
-   "popularity": 11,
+   "score": 72,
+   "popularity": 72,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17878a445716f43b7e4aba98452",
+   "image": "https://i.scdn.co/image/ab6761610000f178a2d0d7d6550e7c1b504f6ba8",
    "known": false
   },
   {
@@ -2635,16 +2625,6 @@
    "known": false
   },
   {
-   "id": "hudare",
-   "name": "Hudare",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "hugel",
    "name": "Hugel",
    "tier": 0,
@@ -2758,6 +2738,26 @@
    "known": false
   },
   {
+   "id": "invite-e-s-lancement-de-romance",
+   "name": "invité.e.s - Lancement de Romance",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "irl",
+   "name": "IRL",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/411a1b6926e11af351ff8b162e9af658/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "isla-den",
    "name": "Isla Den",
    "tier": 0,
@@ -2835,16 +2835,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "jeska",
-   "name": "JESKA",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1787c2d26061279e2d5a22c82e7",
    "known": false
   },
   {
@@ -3054,8 +3044,8 @@
    "id": "king-shiloh",
    "name": "King Shiloh",
    "tier": 0,
-   "score": 8,
-   "popularity": 8,
+   "score": 6,
+   "popularity": 6,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178945a34626cfd4c3c3b37182a",
    "known": false
@@ -3261,6 +3251,16 @@
    "known": false
   },
   {
+   "id": "lost",
+   "name": "Lost",
+   "tier": 0,
+   "score": 25,
+   "popularity": 25,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/3a9afba71b79d6db0027367de3812b2c/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "lost-heroes",
    "name": "Lost Heroes",
    "tier": 0,
@@ -3288,6 +3288,16 @@
    "popularity": 52,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c5e5ca3979afd9a2d021569e",
+   "known": false
+  },
+  {
+   "id": "loved-3",
+   "name": "Loved 3",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3537,10 +3547,10 @@
    "id": "mike-larry",
    "name": "Mike Larry",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 30,
+   "popularity": 30,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178e8d116a546e27733b5bd3414",
+   "image": "https://i.scdn.co/image/ab6761610000f178fff9640e9e929ed434f1add2",
    "known": false
   },
   {
@@ -3664,16 +3674,6 @@
    "known": false
   },
   {
-   "id": "n-i-n-e-collision",
-   "name": "N.I.N.E: Collision",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "nadim-maghzal",
    "name": "Nadim Maghzal",
    "tier": 0,
@@ -3751,6 +3751,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17820556374aeb3586cad0f8a5e",
+   "known": false
+  },
+  {
+   "id": "ngl-flounce",
+   "name": "NGL Flounce",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781f05e70320fa9d7fdb4679f4",
    "known": false
   },
   {
@@ -4009,13 +4019,13 @@
    "known": false
   },
   {
-   "id": "patch",
-   "name": "Patch",
+   "id": "patche",
+   "name": "Patche (Live)",
    "tier": 0,
-   "score": 43,
-   "popularity": 43,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789443b468bb6d1dbfedbad9ab",
+   "image": "",
    "known": false
   },
   {
@@ -4222,8 +4232,8 @@
    "id": "requiem",
    "name": "REQUIEM",
    "tier": 0,
-   "score": 42,
-   "popularity": 42,
+   "score": 43,
+   "popularity": 43,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/d028c6a774e5e24ab384e3141baffbab/250x250-000000-80-0-0.jpg",
    "known": false
@@ -4359,16 +4369,6 @@
    "known": false
   },
   {
-   "id": "savoir-faire-opening-night",
-   "name": "SAVOIR FAIRE - OPENING NIGHT",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "schrotthagen",
    "name": "Schrotthagen",
    "tier": 0,
@@ -4409,16 +4409,6 @@
    "known": false
   },
   {
-   "id": "seer-record-co",
-   "name": "Seer Record Co",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048517ec64465f200107cdf8327b6",
-   "known": false
-  },
-  {
    "id": "selecteurs-vinyles",
    "name": "Sélecteurs vinyles",
    "tier": 0,
@@ -4446,16 +4436,6 @@
    "popularity": 38,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178584d25f2dc9f15381df90c13",
-   "known": false
-  },
-  {
-   "id": "shadya",
-   "name": "Shadya",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485163a48555dc5fac646e12d353",
    "known": false
   },
   {
@@ -4632,26 +4612,6 @@
    "known": false
   },
   {
-   "id": "studio-666-nova-ondas",
-   "name": "STUDIO 666: NOVA ONDAS",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "sub-focus",
-   "name": "Sub Focus",
-   "tier": 0,
-   "score": 78,
-   "popularity": 78,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17826fd464ae2464f49024dfdbd",
-   "known": false
-  },
-  {
    "id": "sullivan-king",
    "name": "Sullivan King",
    "tier": 0,
@@ -4732,16 +4692,6 @@
    "known": false
   },
   {
-   "id": "technique-nado",
-   "name": "Technique nado",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "teletech",
    "name": "Teletech",
    "tier": 0,
@@ -4785,8 +4735,8 @@
    "id": "the-masquerade",
    "name": "The Masquerade",
    "tier": 0,
-   "score": 23,
-   "popularity": 23,
+   "score": 26,
+   "popularity": 26,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e9edbe7083f46be657891234",
    "known": false
@@ -4862,6 +4812,16 @@
    "known": false
   },
   {
+   "id": "trance-classics-vol-2",
+   "name": "Trance Classics vol.2",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "trevor-kiernander",
    "name": "Trevor Kiernander",
    "tier": 0,
@@ -4925,10 +4885,10 @@
    "id": "valentino",
    "name": "VALENTINO",
    "tier": 0,
-   "score": 59,
-   "popularity": 59,
+   "score": 49,
+   "popularity": 49,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17896ffd0f0ec2d7a11958711bd",
+   "image": "https://cdn-images.dzcdn.net/images/artist/e2989b86e4e77e2f85acbf1f7aa0f469/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4964,16 +4924,6 @@
   {
    "id": "vino-disco-thursday-allea",
    "name": "Vino Disco THURSDAY: Alléa",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "vino-disco-thursdays-good-you",
-   "name": "Vino Disco THURSDAYS: Good You?",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5025,8 +4975,8 @@
    "id": "volkoder",
    "name": "VOLKODER",
    "tier": 0,
-   "score": 68,
-   "popularity": 68,
+   "score": 69,
+   "popularity": 69,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17828eb3ef8ecd29ca04527dd20",
    "known": false
@@ -5075,8 +5025,8 @@
    "id": "what-so-not",
    "name": "What So Not",
    "tier": 0,
-   "score": 67,
-   "popularity": 67,
+   "score": 66,
+   "popularity": 66,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17879a39824730c531699fcee3c",
    "known": false
@@ -5122,6 +5072,16 @@
    "known": false
   },
   {
+   "id": "wolfgang-gray",
+   "name": "Wolfgang Gray",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/2fb082fef87ad23a9f37937f88a316fa/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "wooli",
    "name": "Wooli",
    "tier": 0,
@@ -5139,16 +5099,6 @@
    "popularity": 40,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c768acaca81b32f2fcf77637",
-   "known": false
-  },
-  {
-   "id": "xia-2",
-   "name": "Xia (2)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -5179,6 +5129,16 @@
    "popularity": 58,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785dca67d415795c29f230f4aa",
+   "known": false
+  },
+  {
+   "id": "yuki-b",
+   "name": "Yuki B",
+   "tier": 0,
+   "score": 8,
+   "popularity": 8,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fb4e9b7c427d0172cff57b0c",
    "known": false
   },
   {
@@ -5233,454 +5193,6 @@
   }
  ],
  "events": [
-  {
-   "id": "be01a07674b7",
-   "title": "DJ Mag presents Sub Focus",
-   "venue_id": "new-city-gas",
-   "night": "2026-10-15",
-   "start": "2026-10-15T22:00:00.000",
-   "end": "2026-10-16T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sub-focus",
-     "name": "Sub Focus",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "crimewave",
-     "name": "CRIMEWAVE",
-     "billing": "support"
-    },
-    {
-     "artist_id": "jeska",
-     "name": "JESKA",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/sub-focus-justin-hawkes-202314/",
-   "event_url": "https://ra.co/events/2517856",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2517856"
-    },
-    {
-     "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/sub-focus-justin-hawkes-202314/"
-    }
-   ],
-   "interest": {
-    "score": 74,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Sub Focus (78)",
-     "lieu : New City Gas (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "db7e613c574f",
-   "title": "Antdot, Mezz, Hudare",
-   "venue_id": "new-city-gas",
-   "night": "2026-10-15",
-   "start": "2026-10-15T22:00:00.000",
-   "end": "2026-10-16T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "antdot",
-     "name": "Antdot",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "hudare",
-     "name": "Hudare",
-     "billing": "support"
-    },
-    {
-     "artist_id": "mezz",
-     "name": "Mezz",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/antdot-197714/",
-   "event_url": "https://ra.co/events/2517855",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2517855"
-    },
-    {
-     "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/antdot-197714/"
-    }
-   ],
-   "interest": {
-    "score": 69,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Antdot (71)",
-     "lieu : New City Gas (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "b5bb7ccd5855",
-   "title": "Tangerine",
-   "venue_id": "esc",
-   "night": "2026-10-15",
-   "start": "2026-10-15T22:00:00.000",
-   "end": "2026-10-16T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "nastygloss",
-     "name": "nastygloss",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "xia-2",
-     "name": "Xia (2)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "pom-1",
-     "name": "POM (1)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "crissemarqueur",
-     "name": "CrisseMarqueur",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2557132",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2557132"
-    }
-   ],
-   "interest": {
-    "score": 19,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : nastygloss (8)",
-     "lieu : ESC (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "a1fe0a82caa9",
-   "title": "N.I.N.E: Collision",
-   "venue_id": "club-soda",
-   "night": "2026-10-15",
-   "start": "2026-10-15T20:00:00.000",
-   "end": "2026-10-15T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "n-i-n-e-collision",
-     "name": "N.I.N.E: Collision",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "new wave"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2543652",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2543652"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : N.I.N.E: Collision (8)",
-     "lieu : Club Soda (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "02a39e347964",
-   "title": "Panatekk: venus in bed, Ekitwanda, Juju le Moko",
-   "venue_id": "bar-datcha",
-   "night": "2026-10-15",
-   "start": "2026-10-15T23:00:00.000",
-   "end": "2026-10-16T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "venus-in-bed",
-     "name": "venus in bed",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ekitwanda",
-     "name": "Ekitwanda",
-     "billing": "support"
-    },
-    {
-     "artist_id": "juju-le-moko",
-     "name": "Juju le Moko",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "bass",
-    "techno",
-    "house",
-    "disco",
-    "afro house"
-   ],
-   "families": [
-    "Techno",
-    "House",
-    "Électro & bass",
-    "Disco & funk",
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2543204",
-   "event_url": "https://ra.co/events/2543204",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2543204"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : venus in bed (8)",
-     "lieu : Bar Datcha (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "cc1b92d041c5",
-   "title": "Vino Disco THURSDAYS: Good You?, French Vanilia",
-   "venue_id": "vino-disco",
-   "night": "2026-10-15",
-   "start": "2026-10-15T23:00:00.000",
-   "end": "2026-10-16T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "french-vanilia",
-     "name": "French Vanilia",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "vino-disco-thursdays-good-you",
-     "name": "Vino Disco THURSDAYS: Good You?",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "funk / soul"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2548692",
-   "event_url": "https://ra.co/events/2548692",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2548692"
-    }
-   ],
-   "interest": {
-    "score": 14,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : French Vanilia (11)",
-     "lieu : Vino Disco (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "7e8868cf6cb9",
-   "title": "Dark Matter x Shadya's EP x Chez.Kito.Kat Records",
-   "venue_id": "systeme",
-   "night": "2026-10-15",
-   "start": "2026-10-15T22:00:00.000",
-   "end": "2026-10-16T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "felix-patry",
-     "name": "Felix Patry",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "d-b-y",
-     "name": "D.B.Y.",
-     "billing": "support"
-    },
-    {
-     "artist_id": "shadya",
-     "name": "Shadya",
-     "billing": "support"
-    },
-    {
-     "artist_id": "technique-nado",
-     "name": "Technique nado",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2544473",
-   "event_url": "https://ra.co/events/2544473",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544473"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Felix Patry (8)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "e2344bb89b2c",
-   "title": "SAVOIR FAIRE - OPENING NIGHT",
-   "venue_id": "savoir-faire",
-   "night": "2026-10-15",
-   "start": "2026-10-15T17:00:00.000",
-   "end": "2026-10-16T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "savoir-faire-opening-night",
-     "name": "SAVOIR FAIRE - OPENING NIGHT",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2558387",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2558387"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : SAVOIR FAIRE - OPENING NIGHT (8)",
-     "lieu : Savoir Faire (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "0d9c56cdcefa",
-   "title": "Seer Record Co",
-   "venue_id": "salon-daome",
-   "night": "2026-10-15",
-   "start": "2026-10-15T22:30:00.000",
-   "end": "2026-10-18T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "seer-record-co",
-     "name": "Seer Record Co",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "deep house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2561380",
-   "event_url": "https://ra.co/events/2561380",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2561380"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2561380"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2561380"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Seer Record Co (0)",
-     "lieu : Salon Daome (palier 2)"
-    ]
-   }
-  },
   {
    "id": "c02db141b29d",
    "title": "Steve Angello - Parc Jean-Drapeau",
@@ -7073,13 +6585,13 @@
    "end": "2026-10-18T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "king-shiloh",
-     "name": "King Shiloh",
+     "artist_id": "yarra-sound",
+     "name": "Yarra Sound",
      "billing": "headliner"
     },
     {
-     "artist_id": "yarra-sound",
-     "name": "Yarra Sound",
+     "artist_id": "king-shiloh",
+     "name": "King Shiloh",
      "billing": "support"
     }
    ],
@@ -7107,7 +6619,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : King Shiloh (8)",
+     "tête d'affiche : Yarra Sound (8)",
      "lieu : Le Ministère (palier 1)"
     ]
    }
@@ -7485,13 +6997,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "bianca-badita",
-     "name": "Bianca Badita",
+     "artist_id": "mike-larry",
+     "name": "Mike Larry",
      "billing": "support"
     },
     {
-     "artist_id": "mike-larry",
-     "name": "Mike Larry",
+     "artist_id": "bianca-badita",
+     "name": "Bianca Badita",
      "billing": "support"
     }
    ],
@@ -7790,6 +7302,54 @@
     "reasons": [
      "tête d'affiche : Pyromane (0)",
      "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "dc5eb5ad84c7",
+   "title": "Patche (Live) + DJ set",
+   "venue_id": "systeme",
+   "night": "2026-10-21",
+   "start": "2026-10-21T22:00:00.000",
+   "end": "2026-10-22T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-set",
+     "name": "DJ set",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "patche",
+     "name": "Patche (Live)",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "pop"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2562893",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2562893"
+    }
+   ],
+   "interest": {
+    "score": 25,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ set (26)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -8710,8 +8270,8 @@
     }
    ],
    "genres": [
-    "progressive house",
     "tech house",
+    "progressive house",
     "house",
     "funk / soul",
     "disco"
@@ -11181,8 +10741,8 @@
    "end": "2026-10-31T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "studio-666-nova-ondas",
-     "name": "STUDIO 666: NOVA ONDAS",
+     "artist_id": "fred",
+     "name": "Fred [Note Vocale]",
      "billing": "headliner"
     }
    ],
@@ -11210,7 +10770,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : STUDIO 666: NOVA ONDAS (8)",
+     "tête d'affiche : Fred [Note Vocale] (8)",
      "lieu : Vino Disco (palier 1)"
     ]
    }
@@ -11776,10 +11336,10 @@
     }
    ],
    "interest": {
-    "score": 36,
+    "score": 37,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : REQUIEM (42)",
+     "tête d'affiche : REQUIEM (43)",
      "lieu : NWHR (palier 1)"
     ]
    }
@@ -12822,8 +12382,8 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "patch",
-     "name": "Patch",
+     "artist_id": "patche",
+     "name": "Patche (Live)",
      "billing": "support"
     }
    ],
@@ -12967,6 +12527,95 @@
    }
   },
   {
+   "id": "619251d17e68",
+   "title": "Lost and Loved 3",
+   "venue_id": "le-red-room",
+   "night": "2026-11-06",
+   "start": "2026-11-06T21:00:00.000",
+   "end": "2026-11-07T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lost",
+     "name": "Lost",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "loved-3",
+     "name": "Loved 3",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2562798",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2562798"
+    }
+   ],
+   "interest": {
+    "score": 30,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lost (25)",
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "95313f6bf9e8",
+   "title": "Trance Classics vol.2",
+   "venue_id": "piranha-bar",
+   "night": "2026-11-06",
+   "start": "2026-11-06T21:00:00.000",
+   "end": "2026-11-07T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "trance-classics-vol-2",
+     "name": "Trance Classics vol.2",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "trance"
+   ],
+   "families": [
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2562957",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2562957"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Trance Classics vol.2 (8)",
+     "lieu : Piranha Bar (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "91375b74ebe4",
    "title": "[DSTRKT] CamelPhat, VOLKODER",
    "venue_id": "new-city-gas",
@@ -13016,7 +12665,7 @@
     }
    ],
    "interest": {
-    "score": 78,
+    "score": 79,
     "tier": 3,
     "reasons": [
      "tête d'affiche : CamelPhat (83)",
@@ -13938,6 +13587,68 @@
    }
   },
   {
+   "id": "c804054f7914",
+   "title": "Bed with IRL, NGL Flounce, Wolfgang Gray & more",
+   "venue_id": "white-wall-studio",
+   "night": "2026-11-14",
+   "start": "2026-11-14T20:00:00.000",
+   "end": "2026-11-14T22:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "bed",
+     "name": "Bed",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "irl",
+     "name": "IRL",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ngl-flounce",
+     "name": "NGL Flounce",
+     "billing": "support"
+    },
+    {
+     "artist_id": "wolfgang-gray",
+     "name": "Wolfgang Gray",
+     "billing": "support"
+    },
+    {
+     "artist_id": "more",
+     "name": "more",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "ambient",
+    "experimental"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2562911",
+   "event_url": "https://ra.co/events/2562911",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2562911"
+    }
+   ],
+   "interest": {
+    "score": 10,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Bed (5)",
+     "lieu : White Wall Studio (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "efb09ce83318",
    "title": "Sassy 009",
    "venue_id": "l-escogriffe-bar-spectacle",
@@ -13977,6 +13688,48 @@
    }
   },
   {
+   "id": "ac16e3a1d36d",
+   "title": "Yuki B + invité.e.s - Lancement de Romance",
+   "venue_id": "systeme",
+   "night": "2026-11-19",
+   "start": "2026-11-19T22:00:00.000",
+   "end": "2026-11-20T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "yuki-b",
+     "name": "Yuki B",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "invite-e-s-lancement-de-romance",
+     "name": "invité.e.s - Lancement de Romance",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2562899",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2562899"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Yuki B (8)",
+     "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "7844d9cc5250",
    "title": "MALIVE, Mezz b2b Ekho",
    "venue_id": "new-city-gas",
@@ -13990,16 +13743,16 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "mezz",
-     "name": "Mezz",
-     "billing": "support",
-     "b2b_with": "ekho"
-    },
-    {
      "artist_id": "ekho",
      "name": "Ekho",
      "billing": "support",
      "b2b_with": "mezz"
+    },
+    {
+     "artist_id": "mezz",
+     "name": "Mezz",
+     "billing": "support",
+     "b2b_with": "ekho"
     }
    ],
    "genres": [],
@@ -14076,7 +13829,7 @@
     }
    ],
    "interest": {
-    "score": 68,
+    "score": 69,
     "tier": 2,
     "reasons": [
      "tête d'affiche : Wooli (66)",
@@ -15270,7 +15023,7 @@
     "score": 60,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : What So Not (67)",
+     "tête d'affiche : What So Not (66)",
      "lieu : Newspeak (palier 2)"
     ]
    }
@@ -15496,10 +15249,10 @@
     }
    ],
    "interest": {
-    "score": 57,
+    "score": 58,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : French 79 (71)",
+     "tête d'affiche : French 79 (72)",
      "lieu : MTELUS (palier 1)"
     ]
    }
@@ -15743,10 +15496,10 @@
     }
    ],
    "interest": {
-    "score": 76,
-    "tier": 3,
+    "score": 75,
+    "tier": 2,
     "reasons": [
-     "tête d'affiche : Alan Walker (97)",
+     "tête d'affiche : Alan Walker (96)",
      "lieu : MTELUS (palier 1)"
     ]
    }
@@ -15786,10 +15539,10 @@
     }
    ],
    "interest": {
-    "score": 76,
-    "tier": 3,
+    "score": 75,
+    "tier": 2,
     "reasons": [
-     "tête d'affiche : Alan Walker (97)",
+     "tête d'affiche : Alan Walker (96)",
      "lieu : MTELUS (palier 1)"
     ]
    }
@@ -16108,11 +15861,32 @@
  ],
  "announcements": [
   {
+   "id": "7844d9cc5250",
+   "name": "MALIVE",
+   "night": "2026-11-20",
+   "venue": "New City Gas",
+   "photo": "https://i.scdn.co/image/ab6761610000f178df90c83a6f5518167f1da889"
+  },
+  {
+   "id": "8a562d34a2ca",
+   "name": "Kasango",
+   "night": "2026-11-06",
+   "venue": "New City Gas",
+   "photo": "https://i.scdn.co/image/ab6761610000f17808faa46da03ce1a1de05e35e"
+  },
+  {
    "id": "6d942dcdfce9",
    "name": "Alan Walker",
    "night": "2027-02-17",
    "venue": "MTELUS",
    "photo": "https://i.scdn.co/image/ab6761610000f178572a8eae56feae217f618078"
+  },
+  {
+   "id": "0df78eda165b",
+   "name": "Clara La San",
+   "night": "2026-11-06",
+   "venue": "L'Olympia",
+   "photo": "https://i.scdn.co/image/ab6761610000f17867cc2232ed6b629260ea08e9"
   },
   {
    "id": "606036914856",
@@ -16140,36 +15914,6 @@
   "Expérimental"
  ],
  "spotlight": [
-  {
-   "kind": "event",
-   "day": "JEU 15 OCT",
-   "title": "Sub Focus",
-   "venue": "New City Gas",
-   "time": "22:00 → 03:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "CRIMEWAVE, JESKA",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb26fd464ae2464f49024dfdbd",
-   "event_id": "be01a07674b7"
-  },
-  {
-   "kind": "event",
-   "day": "JEU 15 OCT",
-   "title": "Antdot",
-   "venue": "New City Gas",
-   "time": "22:00 → 03:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "Hudare, Mezz",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb33c84685f7c59d1e58436dbd",
-   "event_id": "db7e613c574f"
-  },
   {
    "kind": "event",
    "day": "VEN 16 OCT",
@@ -16247,6 +15991,21 @@
   },
   {
    "kind": "event",
+   "day": "SAM 31 OCT",
+   "title": "Max Styler",
+   "venue": "New City Gas",
+   "time": "22:00 → 03:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "JØRD, Andrew Pololos",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5ebddeee9f034ca94bb6a08b66a",
+   "event_id": "fcb73ab631a5"
+  },
+  {
+   "kind": "event",
    "day": "VEN 6 NOV",
    "title": "Kasango",
    "venue": "New City Gas",
@@ -16319,6 +16078,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb175df1a8848d8ff67c6d5600",
    "event_id": "8a5402c9c4b9"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 14 NOV",
+   "title": "I Hate Models",
+   "venue": "Hall Est du Stade olympique",
+   "time": "22:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Teletech",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb1a0d54ab853f86eba713585b",
+   "event_id": "5d184e1ab07e"
   }
  ]
 }
