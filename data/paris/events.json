@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-18T13:03:13Z",
+ "generated_at": "2026-10-18T22:57:17Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 332
+   "events": 334
   },
   {
    "id": "dice",
@@ -82,6 +82,7 @@
   "tba-secret-warehouse",
   "espace-parallele",
   "communale-saint-ouen",
+  "petit-bain",
   "glazart",
   "le-bazar",
   "philharmonie-de-paris",
@@ -95,8 +96,8 @@
   "bal-chavaux",
   "tba",
   "tba-paris-18eme",
-  "petit-bain",
   "amaluna-paris",
+  "quai-de-la-photo",
   "cartilage",
   "tout-le-monde-en-parle",
   "canal-93",
@@ -1074,6 +1075,16 @@
    "genres": []
   },
   {
+   "id": "quai-de-la-photo",
+   "name": "Quai de la Photo",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "rex-club",
    "name": "Rex Club",
    "type": "club",
@@ -1828,6 +1839,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f49dc82963a4f501540abba8",
+   "known": false
+  },
+  {
+   "id": "asturia",
+   "name": "Astúria",
+   "tier": 0,
+   "score": 14,
+   "popularity": 14,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a42c68f0dbbebc2d702a0a67",
    "known": false
   },
   {
@@ -3203,6 +3224,16 @@
    "known": false
   },
   {
+   "id": "duellist",
+   "name": "Duellist",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17841c8403ca7508317b0b9b2b0",
+   "known": false
+  },
+  {
    "id": "durdenhauer",
    "name": "DURDENHAUER",
    "tier": 0,
@@ -3810,6 +3841,16 @@
    "popularity": 39,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17814d4023bb2c1a88f44df458b",
+   "known": false
+  },
+  {
+   "id": "freaks",
+   "name": "Freaks",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/43c3aa1aa6d4693df526ffde86a743da/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -7724,6 +7765,16 @@
    "known": false
   },
   {
+   "id": "substencia",
+   "name": "Substencia",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17882d6cfbba18aac33a57ad141",
+   "known": false
+  },
+  {
    "id": "sud",
    "name": "Sud)",
    "tier": 0,
@@ -8554,6 +8605,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f3aead824305f10403460c2f",
+   "known": false
+  },
+  {
+   "id": "weever",
+   "name": "Weever",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048519b775618f14cdb94e8395fd5",
    "known": false
   },
   {
@@ -15400,6 +15461,63 @@
    }
   },
   {
+   "id": "0eb4366b9c18",
+   "title": "Error Festival / Halloween Night",
+   "venue_id": "petit-bain",
+   "night": "2026-10-31",
+   "start": "2026-10-31T20:00:00.000",
+   "end": "2026-11-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "freaks",
+     "name": "Freaks",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "substencia",
+     "name": "Substencia",
+     "billing": "support"
+    },
+    {
+     "artist_id": "weever",
+     "name": "Weever",
+     "billing": "support"
+    },
+    {
+     "artist_id": "duellist",
+     "name": "Duellist",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "ebm"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2563363",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2563363"
+    }
+   ],
+   "interest": {
+    "score": 31,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Freaks (27)",
+     "lieu : Petit Bain (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "6f4e2f7687ad",
    "title": "Café Croissant & 22recordings - Halloween Edition (16h)",
    "venue_id": "tba-75013",
@@ -19666,6 +19784,49 @@
     "reasons": [
      "tête d'affiche : Domi (FR) (8)",
      "lieu : Le Trabendo (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "fcd9bd533854",
+   "title": "Tudo Bem? - Afterwork House Tropical Sur La Seine",
+   "venue_id": "quai-de-la-photo",
+   "night": "2026-11-13",
+   "start": "2026-11-13T18:00:00.000",
+   "end": "2026-11-14T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "asturia",
+     "name": "Astúria",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "deep house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2564062",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2564062"
+    }
+   ],
+   "interest": {
+    "score": 16,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Astúria (14)",
+     "lieu : Quai de la Photo (palier 1)"
     ]
    }
   },

@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-18T13:02:16Z",
+ "generated_at": "2026-10-18T22:56:49Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -1346,6 +1346,16 @@
    "popularity": 30,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17848dd4985df55be604b204937",
+   "known": false
+  },
+  {
+   "id": "braue",
+   "name": "Braue",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851d3eec5e21d7f85d138a3eec8",
    "known": false
   },
   {
@@ -4323,6 +4333,16 @@
    "known": false
   },
   {
+   "id": "sam-blake",
+   "name": "sam blake",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "sarah-kay",
    "name": "Sarah Kay",
    "tier": 0,
@@ -4950,16 +4970,6 @@
    "popularity": 61,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f02c148a51fb4b5923d0f6d9",
-   "known": false
-  },
-  {
-   "id": "virtualis-presents-a-slasher-party",
-   "name": "★Virtualis presents: a Slasher Party★",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -7957,8 +7967,12 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2547795",
@@ -8992,7 +9006,8 @@
    "genres": [
     "electro",
     "techno",
-    "house"
+    "house",
+    "deep house"
    ],
    "families": [
     "Techno",
@@ -12493,9 +12508,19 @@
    "end": "2026-11-14T06:00:00.000",
    "lineup": [
     {
-     "artist_id": "virtualis-presents-a-slasher-party",
-     "name": "★Virtualis presents: a Slasher Party★",
+     "artist_id": "sam-blake",
+     "name": "sam blake",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "nastygloss",
+     "name": "nastygloss",
+     "billing": "support"
+    },
+    {
+     "artist_id": "syana",
+     "name": "Syana",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -12521,7 +12546,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : ★Virtualis presents: a Slasher Party★ (8)",
+     "tête d'affiche : sam blake (8)",
      "lieu : NWHR (palier 1)"
     ]
    }
@@ -13505,6 +13530,11 @@
     {
      "artist_id": "trevor-kiernander",
      "name": "Trevor Kiernander",
+     "billing": "support"
+    },
+    {
+     "artist_id": "braue",
+     "name": "Braue",
      "billing": "support"
     },
     {
