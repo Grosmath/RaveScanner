@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-18T22:56:49Z",
+ "generated_at": "2026-10-19T16:16:17Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-10-18",
-  "end": "2027-04-16"
+  "start": "2026-10-19",
+  "end": "2027-04-17"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 182
+   "events": 179
   },
   {
    "id": "piknic",
@@ -43,12 +43,12 @@
   "place-bell",
   "mtelus",
   "centre-bell",
+  "studio-td",
   "stereo",
   "newspeak",
-  "studio-td",
+  "esc",
   "sat",
   "olympia",
-  "piknic-electronik",
   "theatre-fairmount",
   "systeme",
   "sans-soleil",
@@ -57,15 +57,14 @@
   "sainte-catherine-hall",
   "igloofest",
   "bar-datcha",
-  "stereo-bar",
   "entrepots-dominion-les",
-  "esc",
+  "stereo-bar",
   "nwhr",
   "le-red-room",
   "le-ritz",
+  "white-wall-studio",
   "l-escogriffe-bar-spectacle",
   "tba-mile-ex",
-  "white-wall-studio",
   "vino-disco",
   "le-balcon",
   "les-7-doigts-de-la-main",
@@ -420,20 +419,6 @@
    "genres": []
   },
   {
-   "id": "piknic-electronik",
-   "name": "Piknic Electronik",
-   "type": "festival",
-   "tier": 3,
-   "capacity": 5000,
-   "address": "Parc Jean-Drapeau, Ile Sainte-Helene",
-   "url": "https://piknicelectronik.com",
-   "genres": [
-    "house",
-    "techno",
-    "electronic"
-   ]
-  },
-  {
    "id": "piranha-bar",
    "name": "Piranha Bar",
    "type": "club",
@@ -744,6 +729,16 @@
    "known": false
   },
   {
+   "id": "a-gogo-no-1",
+   "name": "À Gogo No. 1",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "a-landscape",
    "name": "a landscape",
    "tier": 0,
@@ -836,6 +831,16 @@
   {
    "id": "alex-rev",
    "name": "ALEX REV",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "alexx7",
+   "name": "ALEXX7",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -961,16 +966,6 @@
    "popularity": 53,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d20bc18a564f9303777882f4",
-   "known": false
-  },
-  {
-   "id": "anna-wilder",
-   "name": "Anna Wilder",
-   "tier": 0,
-   "score": 13,
-   "popularity": 13,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178f1f60f7fd28f7d71df653dda",
    "known": false
   },
   {
@@ -1229,16 +1224,6 @@
    "known": false
   },
   {
-   "id": "beiroots-groove-ensemble",
-   "name": "Beiroots Groove Ensemble",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "bell-pierre",
    "name": "bell.pierre",
    "tier": 0,
@@ -1256,16 +1241,6 @@
    "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b0d85b2b2d85af687c72e180",
-   "known": false
-  },
-  {
-   "id": "bianca-badita",
-   "name": "Bianca Badita",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1316,16 +1291,6 @@
    "popularity": 93,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845",
-   "known": false
-  },
-  {
-   "id": "bodaishin",
-   "name": "Bodaishin",
-   "tier": 0,
-   "score": 21,
-   "popularity": 21,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17879e1da60e7f0c671073a8e47",
    "known": false
   },
   {
@@ -1469,6 +1434,16 @@
    "known": false
   },
   {
+   "id": "ced-ullberg",
+   "name": "Ced Ullberg",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "chago-91",
    "name": "chago_91",
    "tier": 0,
@@ -1486,6 +1461,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "cherry",
+   "name": "Cherry",
+   "tier": 0,
+   "score": 31,
+   "popularity": 31,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/f2bb556455e568d26717b70a2c80262c/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1716,6 +1701,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851976d517bf589d3ee9277cff5",
+   "known": false
+  },
+  {
+   "id": "darko",
+   "name": "Darko",
+   "tier": 0,
+   "score": 33,
+   "popularity": 33,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1780a508866eee90898d1b680cb",
    "known": false
   },
   {
@@ -1989,16 +1984,6 @@
    "known": false
   },
   {
-   "id": "doc-trin",
-   "name": "Doc'trin",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "don-barbarino",
    "name": "Don Barbarino",
    "tier": 0,
@@ -2056,6 +2041,16 @@
    "popularity": 31,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b4d47556a7457cd934e199f2",
+   "known": false
+  },
+  {
+   "id": "dusty-fingerz",
+   "name": "Dusty FingerZ",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786fac2a58e4c8d9580961f964",
    "known": false
   },
   {
@@ -2159,16 +2154,6 @@
    "known": false
   },
   {
-   "id": "eli-brown",
-   "name": "Eli Brown",
-   "tier": 0,
-   "score": 71,
-   "popularity": 71,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178264c8c3a982604908c6cf188",
-   "known": false
-  },
-  {
    "id": "ely-oaks",
    "name": "Ely Oaks",
    "tier": 0,
@@ -2196,6 +2181,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "ernest",
+   "name": "Ernest",
+   "tier": 0,
+   "score": 79,
+   "popularity": 79,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17856f0ef5209993722d76ab520",
    "known": false
   },
   {
@@ -2469,6 +2464,26 @@
    "known": false
   },
   {
+   "id": "gonima",
+   "name": "gonima",
+   "tier": 0,
+   "score": 34,
+   "popularity": 34,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178bf1311546afbec3f9ed52bfb",
+   "known": false
+  },
+  {
+   "id": "gorillat",
+   "name": "GorillaT",
+   "tier": 0,
+   "score": 58,
+   "popularity": 58,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17808ee4fd0a0f0b52748e5945c",
+   "known": false
+  },
+  {
    "id": "goth-halloween-at-foufs",
    "name": "GOTH HALLOWEEN AT FOUFS",
    "tier": 0,
@@ -2689,16 +2704,6 @@
    "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178af87d27deb032051f5d5b06a",
-   "known": false
-  },
-  {
-   "id": "igorrr",
-   "name": "Igorrr",
-   "tier": 0,
-   "score": 51,
-   "popularity": 51,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178db993c56dbacfe91e00d550f",
    "known": false
   },
   {
@@ -3085,16 +3090,6 @@
    "known": false
   },
   {
-   "id": "kris-guilty",
-   "name": "Kris Guilty",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "kris-tin",
    "name": "Kris Tin",
    "tier": 0,
@@ -3431,8 +3426,8 @@
    "id": "martial-canterel",
    "name": "Martial Canterel",
    "tier": 0,
-   "score": 18,
-   "popularity": 18,
+   "score": 17,
+   "popularity": 17,
    "genres": [],
    "image": "https://i.scdn.co/image/3bbeb1ad9fbb475c8f8bbeb9d52dcda8ce73ede7",
    "known": false
@@ -3535,16 +3530,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ebeb6817c3c969883de9da44",
-   "known": false
-  },
-  {
-   "id": "mike-larry",
-   "name": "Mike Larry",
-   "tier": 0,
-   "score": 30,
-   "popularity": 30,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178fff9640e9e929ed434f1add2",
    "known": false
   },
   {
@@ -4403,16 +4388,6 @@
    "known": false
   },
   {
-   "id": "secret-chiefs-3",
-   "name": "Secret Chiefs 3",
-   "tier": 0,
-   "score": 22,
-   "popularity": 22,
-   "genres": [],
-   "image": "https://i.scdn.co/image/221c9df07515713adc4f155403db047a35fad754",
-   "known": false
-  },
-  {
    "id": "selecteurs-vinyles",
    "name": "Sélecteurs vinyles",
    "tier": 0,
@@ -4793,16 +4768,6 @@
    "known": false
   },
   {
-   "id": "toobris",
-   "name": "Toobris",
-   "tier": 0,
-   "score": 32,
-   "popularity": 32,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178b475ecb6d16afceca12ba912",
-   "known": false
-  },
-  {
    "id": "trance-classics-vol-2",
    "name": "Trance Classics vol.2",
    "tier": 0,
@@ -4953,16 +4918,6 @@
    "known": false
   },
   {
-   "id": "violent-magic-orchestra",
-   "name": "Violent Magic Orchestra",
-   "tier": 0,
-   "score": 18,
-   "popularity": 18,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851d3d12424a0b6b058177cab85",
-   "known": false
-  },
-  {
    "id": "virtual-riot",
    "name": "Virtual Riot",
    "tier": 0,
@@ -4983,13 +4938,23 @@
    "known": false
   },
   {
+   "id": "vivian-li",
+   "name": "Vivian Li",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485129bb923c6df33579ba4b3d65",
+   "known": false
+  },
+  {
    "id": "void-republic",
    "name": "Void Republic",
    "tier": 0,
    "score": 0,
    "popularity": 0,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17866721bd5ec25efb2586ea892",
+   "image": "https://i.scdn.co/image/ab6761610000f178f98874e9157d97bfc37678e0",
    "known": false
   },
   {
@@ -5133,16 +5098,6 @@
    "known": false
   },
   {
-   "id": "yvnni",
-   "name": "YVNNI",
-   "tier": 0,
-   "score": 11,
-   "popularity": 11,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1780956aae884c43627827eb0ea",
-   "known": false
-  },
-  {
    "id": "zaidokhi",
    "name": "Zaidokhi",
    "tier": 0,
@@ -5174,332 +5129,6 @@
   }
  ],
  "events": [
-  {
-   "id": "d6df8bdb1b6a",
-   "title": "Piknic Électronik MTL #20: Eli Brown",
-   "venue_id": "piknic-electronik",
-   "night": "2026-10-18",
-   "start": "2026-10-18T16:00:00.000",
-   "end": "2026-10-18T21:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "eli-brown",
-     "name": "Eli Brown",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "anna-wilder",
-     "name": "Anna Wilder",
-     "billing": "support"
-    },
-    {
-     "artist_id": "yvnni",
-     "name": "YVNNI",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://billets.piknicelectronik.com/mul/go/80d96f73-d0e3-4b50-93ea-906a7eee34bd?fac=PIKNIC&locale=fr-CA&skin=piknic&ec=PIKNIC261018",
-   "event_url": "https://ra.co/events/2413802",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2413802"
-    },
-    {
-     "id": "piknic",
-     "url": "https://piknicelectronik.com/fr/prog-complete"
-    }
-   ],
-   "interest": {
-    "score": 74,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Eli Brown (71)",
-     "lieu : Piknic Electronik (palier 3)",
-     "format festival"
-    ]
-   }
-  },
-  {
-   "id": "f18665664c65",
-   "title": "Igorrr: North American Tour 2026",
-   "venue_id": "mtelus",
-   "night": "2026-10-18",
-   "start": "2026-10-18T19:30:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "igorrr",
-     "name": "Igorrr",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "secret-chiefs-3",
-     "name": "Secret Chiefs 3",
-     "billing": "support"
-    },
-    {
-     "artist_id": "violent-magic-orchestra",
-     "name": "Violent Magic Orchestra",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/igorrr-north-american-tour-2026-montreal-quebec-10-18-2026/event/310064AF5ECC1638",
-   "event_url": "https://www.ticketmaster.ca/igorrr-north-american-tour-2026-montreal-quebec-10-18-2026/event/310064AF5ECC1638",
-   "image": "https://s1.ticketm.net/dam/a/a4e/85825df5-5b8d-4243-8e1c-97f1e2fd2a4e_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/igorrr-north-american-tour-2026-montreal-quebec-10-18-2026/event/310064AF5ECC1638"
-    }
-   ],
-   "interest": {
-    "score": 43,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Igorrr (51)",
-     "lieu : MTELUS (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "a8360695da74",
-   "title": "LBD x Saisons: Bodaishin - Oli Vez - Pinch & Héléna",
-   "venue_id": "stereo-bar",
-   "night": "2026-10-18",
-   "start": "2026-10-18T20:00:00.000",
-   "end": "2026-10-19T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "bodaishin",
-     "name": "Bodaishin",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2548617",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2548617"
-    }
-   ],
-   "interest": {
-    "score": 33,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Bodaishin (21)",
-     "lieu : Stereo Bar (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "af11ce81524e",
-   "title": "Arder: Toobris // Bianca Badita // Mike Larry",
-   "venue_id": "nwhr",
-   "night": "2026-10-18",
-   "start": "2026-10-18T17:00:00.000",
-   "end": "2026-10-19T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "toobris",
-     "name": "Toobris",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "mike-larry",
-     "name": "Mike Larry",
-     "billing": "support"
-    },
-    {
-     "artist_id": "bianca-badita",
-     "name": "Bianca Badita",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2544128",
-   "event_url": "https://ra.co/events/2544128",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544128"
-    }
-   ],
-   "interest": {
-    "score": 29,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Toobris (32)",
-     "lieu : NWHR (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "0a3c7bcab8a7",
-   "title": "Electro Oasis (every Sunday) *Free with RSVP ticket*",
-   "venue_id": "le-red-room",
-   "night": "2026-10-18",
-   "start": "2026-10-18T22:00:00.000",
-   "end": "2026-10-19T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "nastygloss",
-     "name": "nastygloss",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "pom-1",
-     "name": "POM (1)",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2553351",
-   "event_url": "https://ra.co/events/2553351",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2553351"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : nastygloss (8)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "2473e2daa5c2",
-   "title": "Sans Soleil w/ Rhizomatic",
-   "venue_id": "sans-soleil",
-   "night": "2026-10-18",
-   "start": "2026-10-18T20:00:00.000",
-   "end": "2026-10-19T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "doc-trin",
-     "name": "Doc'trin",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "somebody3lse",
-     "name": "somebody3lse",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electro",
-    "new wave"
-   ],
-   "families": [
-    "Électro & bass",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2550986",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2550986"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Doc'trin (8)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "ad2bf855c750",
-   "title": "Shella Records x La Rama: Earl Grey, Pappa P & Kris Guilty",
-   "venue_id": "systeme",
-   "night": "2026-10-18",
-   "start": "2026-10-18T21:00:00.000",
-   "end": "2026-10-19T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "kris-guilty",
-     "name": "Kris Guilty",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "dub",
-    "dancehall"
-   ],
-   "families": [
-    "Afro & latin",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2544480",
-   "event_url": "https://ra.co/events/2544480",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544480"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Kris Guilty (8)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
   {
    "id": "8da16da7fdea",
    "title": "Sans Soleil w/ Andy Williams",
@@ -7219,6 +6848,84 @@
    }
   },
   {
+   "id": "834bd7c3f7d9",
+   "title": "//CLOUD9\\\\ music show + rave",
+   "venue_id": "esc",
+   "night": "2026-10-24",
+   "start": "2026-10-24T09:30:00.000",
+   "end": "2026-10-25T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ernest",
+     "name": "Ernest",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "hydra",
+     "name": "hÿdra",
+     "billing": "support"
+    },
+    {
+     "artist_id": "darko",
+     "name": "Darko",
+     "billing": "support"
+    },
+    {
+     "artist_id": "cherry",
+     "name": "Cherry",
+     "billing": "support"
+    },
+    {
+     "artist_id": "alexx7",
+     "name": "ALEXX7",
+     "billing": "support"
+    },
+    {
+     "artist_id": "the-bald-girl",
+     "name": "the bald girl",
+     "billing": "support"
+    },
+    {
+     "artist_id": "nastygloss",
+     "name": "nastygloss",
+     "billing": "support"
+    },
+    {
+     "artist_id": "pom-1",
+     "name": "POM (1)",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "pop"
+   ],
+   "families": [
+    "Techno",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2564651",
+   "event_url": "https://ra.co/events/2564651",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2564651"
+    }
+   ],
+   "interest": {
+    "score": 69,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Ernest (79)",
+     "lieu : ESC (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "681a738f0ee2",
    "title": "LSR/CITY X",
    "venue_id": "new-city-gas",
@@ -7237,6 +6944,11 @@
      "billing": "support"
     },
     {
+     "artist_id": "ced-ullberg",
+     "name": "Ced Ullberg",
+     "billing": "support"
+    },
+    {
      "artist_id": "lsr",
      "name": "LSR",
      "billing": "support"
@@ -7246,7 +6958,7 @@
    "families": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/lsr-city-x-by-gareth-emery-188085/",
+   "ticket_url": "https://newcitygas.com/event/lsr-city-x-by-gareth-emery-cvmrn-dj-try-188085/",
    "event_url": "https://ra.co/events/2463273",
    "image": "",
    "status": "confirmed",
@@ -7257,7 +6969,7 @@
     },
     {
      "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/lsr-city-x-by-gareth-emery-188085/"
+     "url": "https://newcitygas.com/event/lsr-city-x-by-gareth-emery-cvmrn-dj-try-188085/"
     }
    ],
    "interest": {
@@ -8027,7 +7739,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2563920",
    "event_url": "https://ra.co/events/2563920",
    "image": "",
    "status": "confirmed",
@@ -8274,43 +7986,6 @@
    }
   },
   {
-   "id": "c30e30822638",
-   "title": "Beiroots Groove Ensemble",
-   "venue_id": "systeme",
-   "night": "2026-10-25",
-   "start": "2026-10-25T21:00:00.000",
-   "end": "2026-10-26T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "beiroots-groove-ensemble",
-     "name": "Beiroots Groove Ensemble",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2544491",
-   "event_url": "https://ra.co/events/2544491",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544491"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Beiroots Groove Ensemble (8)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "181b21dd94d0",
    "title": "Canned Heat with Roland Gonzales",
    "venue_id": "sans-soleil",
@@ -8350,6 +8025,49 @@
     "reasons": [
      "tête d'affiche : Roland Gonzales (0)",
      "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "61b2a4c2f265",
+   "title": "Systeme Sundays w/ Beiroots Groove Ensemble (NotAnthony & Dusty FingerZ)",
+   "venue_id": "systeme",
+   "night": "2026-10-25",
+   "start": "2026-10-25T21:00:00.000",
+   "end": "2026-10-26T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dusty-fingerz",
+     "name": "Dusty FingerZ",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2544491",
+   "event_url": "https://ra.co/events/2544491",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2544491"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Dusty FingerZ (0)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -8665,6 +8383,49 @@
     "tier": 0,
     "reasons": [
      "tête d'affiche : DJ Hidi (8)",
+     "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "1ed62adcc5e3",
+   "title": "À Gogo No. 1",
+   "venue_id": "systeme",
+   "night": "2026-10-29",
+   "start": "2026-10-29T19:00:00.000",
+   "end": "2026-10-29T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "a-gogo-no-1",
+     "name": "À Gogo No. 1",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "reggaeton"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2564144",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2564144"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : À Gogo No. 1 (8)",
      "lieu : Système (palier 1)"
     ]
    }
@@ -9268,7 +9029,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2563782",
    "event_url": "https://ra.co/events/2563782",
    "image": "",
    "status": "confirmed",
@@ -10007,11 +9768,13 @@
    "genres": [
     "techno",
     "bass",
-    "dub techno"
+    "dub techno",
+    "pop"
    ],
    "families": [
     "Techno",
-    "Électro & bass"
+    "Électro & bass",
+    "Pop & club"
    ],
    "price_min": null,
    "currency": "CAD",
@@ -10510,59 +10273,6 @@
    }
   },
   {
-   "id": "f75f229c5f73",
-   "title": "Halloween with Martial Canterel, Aalan Harman, Liz Wendelbo b2b L.Sangre & Void Republic",
-   "venue_id": "red-roof-church",
-   "night": "2026-10-31",
-   "start": "2026-10-31T21:00:00.000",
-   "end": "2026-11-01T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "martial-canterel",
-     "name": "Martial Canterel",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "l-sangre",
-     "name": "L.Sangre",
-     "billing": "support"
-    },
-    {
-     "artist_id": "void-republic",
-     "name": "Void Republic",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electro",
-    "minimal"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2540324",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2540324"
-    }
-   ],
-   "interest": {
-    "score": 19,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Martial Canterel (18)",
-     "lieu : Red Roof Church (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "074c2c4e5c23",
    "title": "ApologIA - Slop Horror Edition // MTL Acid Coalition [100% Live Machines]",
    "venue_id": "warehouse",
@@ -10611,6 +10321,59 @@
     "reasons": [
      "tête d'affiche : 8h sleep (8)",
      "lieu : Lieu secret / Warehouse (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "f75f229c5f73",
+   "title": "Halloween with Martial Canterel, Aalan Harman, Liz Wendelbo b2b L.Sangre & Void Republic",
+   "venue_id": "red-roof-church",
+   "night": "2026-10-31",
+   "start": "2026-10-31T21:00:00.000",
+   "end": "2026-11-01T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "martial-canterel",
+     "name": "Martial Canterel",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "l-sangre",
+     "name": "L.Sangre",
+     "billing": "support"
+    },
+    {
+     "artist_id": "void-republic",
+     "name": "Void Republic",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2540324",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2540324"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Martial Canterel (17)",
+     "lieu : Red Roof Church (palier 1)"
     ]
    }
   },
@@ -10947,8 +10710,8 @@
    }
   },
   {
-   "id": "bb5c4337b1d0",
-   "title": "xo",
+   "id": "e604d51f1e70",
+   "title": "xo está muerto！",
    "venue_id": "tba-mile-ex",
    "night": "2026-11-01",
    "start": "2026-11-01T12:00:00.000",
@@ -11569,7 +11332,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2562957",
    "event_url": "https://ra.co/events/2562957",
    "image": "",
    "status": "confirmed",
@@ -14113,6 +13876,53 @@
    }
   },
   {
+   "id": "e440119523e5",
+   "title": "Chrystalis with kore, gonima, Vivian Li, Owen Gilbride",
+   "venue_id": "white-wall-studio",
+   "night": "2026-11-28",
+   "start": "2026-11-28T19:30:00.000",
+   "end": "2026-11-28T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "gonima",
+     "name": "gonima",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "vivian-li",
+     "name": "Vivian Li",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "ambient",
+    "idm"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2564165",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2564165"
+    }
+   ],
+   "interest": {
+    "score": 30,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : gonima (34)",
+     "lieu : White Wall Studio (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "c040074fd212",
    "title": "Suray Sertin - Montréal",
    "venue_id": "newspeak",
@@ -14774,6 +14584,45 @@
     "reasons": [
      "tête d'affiche : What So Not (66)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "34b3e4db39f0",
+   "title": "GorillaT",
+   "venue_id": "studio-td",
+   "night": "2027-01-15",
+   "start": "2027-01-15T22:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "gorillat",
+     "name": "GorillaT",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/gorillat-montreal-quebec-01-15-2027/event/31006541991D3F1F",
+   "event_url": "https://www.ticketmaster.ca/gorillat-montreal-quebec-01-15-2027/event/31006541991D3F1F",
+   "image": "https://s1.ticketm.net/dam/a/595/9ededca6-2796-4642-80ef-2a79bf89d595_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/gorillat-montreal-quebec-01-15-2027/event/31006541991D3F1F"
+    }
+   ],
+   "interest": {
+    "score": 54,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : GorillaT (58)",
+     "lieu : Studio TD (palier 2)"
     ]
    }
   },
@@ -15667,6 +15516,13 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178e5cc0458e5c13ef8ab6c2441"
   },
   {
+   "id": "834bd7c3f7d9",
+   "name": "Ernest",
+   "night": "2026-10-24",
+   "venue": "ESC",
+   "photo": "https://i.scdn.co/image/ab6761610000f17856f0ef5209993722d76ab520"
+  },
+  {
    "id": "13a440e8e3f2",
    "name": "Elderbrook",
    "night": "2027-03-19",
@@ -15679,6 +15535,13 @@
    "night": "2026-11-26",
    "venue": "Système",
    "photo": "https://i.scdn.co/image/ab6761610000f178cb36591ec141b9ea847f1a54"
+  },
+  {
+   "id": "34b3e4db39f0",
+   "name": "GorillaT",
+   "night": "2027-01-15",
+   "venue": "Studio TD",
+   "photo": "https://i.scdn.co/image/ab6761610000f17808ee4fd0a0f0b52748e5945c"
   }
  ],
  "families": [
@@ -15692,21 +15555,6 @@
   "Expérimental"
  ],
  "spotlight": [
-  {
-   "kind": "event",
-   "day": "DIM 18 OCT",
-   "title": "Eli Brown",
-   "venue": "Piknic Electronik",
-   "time": "16:00 → 21:30",
-   "tier": 2,
-   "reason": "Festival",
-   "supports": "Anna Wilder, YVNNI",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb264c8c3a982604908c6cf188",
-   "event_id": "d6df8bdb1b6a"
-  },
   {
    "kind": "event",
    "day": "VEN 23 OCT",
@@ -15725,12 +15573,27 @@
   {
    "kind": "event",
    "day": "SAM 24 OCT",
+   "title": "Ernest",
+   "venue": "ESC",
+   "time": "09:30 → 06:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "hÿdra, Darko, Cherry",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb56f0ef5209993722d76ab520",
+   "event_id": "834bd7c3f7d9"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 24 OCT",
    "title": "Gareth Emery",
    "venue": "New City Gas",
    "time": "22:00 → 03:00",
    "tier": 2,
    "reason": "",
-   "supports": "CITY, LSR",
+   "supports": "CITY, Ced Ullberg, LSR",
    "subtitle": "",
    "footer": "",
    "footer2": "",
