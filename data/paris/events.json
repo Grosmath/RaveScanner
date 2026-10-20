@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-19T16:17:43Z",
+ "generated_at": "2026-10-20T00:12:42Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-10-19",
-  "end": "2027-04-17"
+  "start": "2026-10-20",
+  "end": "2027-04-18"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 343
+   "events": 345
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 45
+   "events": 50
   }
  ],
  "venue_order": [
@@ -34,12 +34,12 @@
   "la-defense-arena",
   "phantom-paris",
   "le-zeralda",
+  "104-centquatre",
   "rex-club",
   "la-machine-du-moulin-rouge",
   "sacre",
   "parc-des-expositions-paris-nord",
   "magasins-generaux",
-  "104-centquatre",
   "t7",
   "djoon",
   "essaim",
@@ -51,6 +51,7 @@
   "elysee-montmartre",
   "palais-brongniart",
   "parc-des-expositions",
+  "yoyo-palais-de-tokyo",
   "le-trabendo",
   "tba-paris",
   "silencio",
@@ -71,7 +72,6 @@
   "institut-du-monde-arabe",
   "la-cigale",
   "le-bateau-phare",
-  "studio56",
   "le-trianon",
   "la-rotonde-stalingrad",
   "zenith-paris-la-villette",
@@ -83,15 +83,19 @@
   "la-nuit",
   "lafayette-anticipations",
   "espace-parallele",
+  "studio56",
   "communale-saint-ouen",
   "petit-bain",
+  "gibus-club",
   "le-bazar",
   "glazart",
   "philharmonie-de-paris",
+  "la-cite-fertile",
   "tba-75013",
   "brasserie-gallia",
   "panic-room",
   "theatre-silvia-monfort",
+  "ground-control-gare-de-lyon",
   "l-olympia",
   "bourse-de-commerce-pinault-collection",
   "le-poisson-volant",
@@ -123,7 +127,6 @@
   "mira",
   "notre-dame-music-bar",
   "punk-paradise",
-  "peniche-antipode",
   "tba-carburant-60-rue-de-lancry-75010-paris",
   "tba-line-up-secret",
   "tba-secret-location",
@@ -439,6 +442,16 @@
    ]
   },
   {
+   "id": "gibus-club",
+   "name": "Gibus Club",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "glazart",
    "name": "Glazart",
    "type": "club",
@@ -451,6 +464,16 @@
     "bass",
     "dub"
    ]
+  },
+  {
+   "id": "ground-control-gare-de-lyon",
+   "name": "Ground Control Gare de Lyon",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "institut-du-monde-arabe",
@@ -514,6 +537,19 @@
    "address": "",
    "url": "",
    "genres": []
+  },
+  {
+   "id": "la-cite-fertile",
+   "name": "La Cité Fertile",
+   "type": "venue",
+   "tier": 2,
+   "capacity": 1500,
+   "address": "14 Avenue Édouard Vaillant, 93500 Pantin",
+   "url": "https://citefertile.com",
+   "genres": [
+    "house",
+    "techno"
+   ]
   },
   {
    "id": "la-defense-arena",
@@ -1025,16 +1061,6 @@
    ]
   },
   {
-   "id": "peniche-antipode",
-   "name": "Péniche Antipode",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "petit-bain",
    "name": "Petit Bain",
    "type": "venue",
@@ -1341,6 +1367,19 @@
    "genres": []
   },
   {
+   "id": "yoyo-palais-de-tokyo",
+   "name": "YoYo - Palais de Tokyo",
+   "type": "club",
+   "tier": 2,
+   "capacity": null,
+   "address": "13 Avenue du Président Wilson, 75116",
+   "url": "",
+   "genres": [
+    "house",
+    "techno"
+   ]
+  },
+  {
    "id": "zenith-paris-la-villette",
    "name": "Zénith Paris - La Villette",
    "type": "club",
@@ -1470,16 +1509,6 @@
    "popularity": 40,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178da498788c800b71525fc7057",
-   "known": false
-  },
-  {
-   "id": "acidboy",
-   "name": "Acidboy",
-   "tier": 0,
-   "score": 32,
-   "popularity": 32,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178477855fac54efbaea12abe8f",
    "known": false
   },
   {
@@ -2012,6 +2041,16 @@
    "popularity": 2,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/87039a167e49fa2f5d7d2ecd7577f43a/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "babybear",
+   "name": "Babybear",
+   "tier": 0,
+   "score": 37,
+   "popularity": 37,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048512a799dac35b8f2d96e24f88f",
    "known": false
   },
   {
@@ -2797,6 +2836,16 @@
    "known": false
   },
   {
+   "id": "daniel-meister",
+   "name": "Daniel Meister",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fed38eb84681e976c6f12f05",
+   "known": false
+  },
+  {
    "id": "danilo-filipe",
    "name": "Danilo Filipe",
    "tier": 0,
@@ -3107,16 +3156,6 @@
    "known": false
   },
   {
-   "id": "dj-epi",
-   "name": "Dj Epi",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178dec2202628989e16a8bf4029",
-   "known": false
-  },
-  {
    "id": "dj-guestlist",
    "name": "DJ GUESTLIST",
    "tier": 0,
@@ -3214,6 +3253,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "dj-set",
+   "name": "DJ set",
+   "tier": 0,
+   "score": 26,
+   "popularity": 26,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fd5991b193cdb1c9b4ff5620",
    "known": false
   },
   {
@@ -3640,8 +3689,8 @@
    "id": "etienne-de-crecy",
    "name": "Etienne De Crecy",
    "tier": 0,
-   "score": 55,
-   "popularity": 55,
+   "score": 78,
+   "popularity": 78,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178976162a7d8f6d64d20b9874f",
    "known": false
@@ -4963,8 +5012,8 @@
    "id": "kenny-dope",
    "name": "Kenny Dope",
    "tier": 0,
-   "score": 73,
-   "popularity": 73,
+   "score": 72,
+   "popularity": 72,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f5f788f94c0748cbd57e555b",
    "known": false
@@ -5087,6 +5136,16 @@
    "popularity": 54,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a330049c04c1adb0aaf7825f",
+   "known": false
+  },
+  {
+   "id": "kouss-kouss-twerkistan",
+   "name": "Kouss Kouss - Twerkistan",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5867,6 +5926,16 @@
    "popularity": 32,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783d1a879a7f6c90bb4a735cd1",
+   "known": false
+  },
+  {
+   "id": "mason-collective",
+   "name": "Mason Collective",
+   "tier": 0,
+   "score": 56,
+   "popularity": 56,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785cae8a863816980f7fd1f4e3",
    "known": false
   },
   {
@@ -6898,8 +6967,8 @@
    "id": "perel",
    "name": "Perel",
    "tier": 0,
-   "score": 35,
-   "popularity": 35,
+   "score": 36,
+   "popularity": 36,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17817ac4c44a8c23d259e9dcf34",
    "known": false
@@ -7568,16 +7637,6 @@
    "known": false
   },
   {
-   "id": "sexydelic-release-party",
-   "name": "SEXYDELIC RELEASE PARTY",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "shaolin-cowboy",
    "name": "Shaolin Cowboy",
    "tier": 0,
@@ -7948,13 +8007,13 @@
    "known": false
   },
   {
-   "id": "stax",
-   "name": "Stax",
+   "id": "steel-dreams",
+   "name": "Steel Dreams",
    "tier": 0,
-   "score": 1,
-   "popularity": 1,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/3d4a99ac012184be8b9720d5efbb24be/250x250-000000-80-0-0.jpg",
+   "image": "",
    "known": false
   },
   {
@@ -8261,6 +8320,16 @@
    "known": false
   },
   {
+   "id": "the-martinez-brothers",
+   "name": "The Martinez Brothers",
+   "tier": 0,
+   "score": 62,
+   "popularity": 62,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17878549f737e1b3869cfe7e566",
+   "known": false
+  },
+  {
    "id": "the-velvet-brothers",
    "name": "The Velvet Brothers",
    "tier": 0,
@@ -8324,8 +8393,8 @@
    "id": "tiga",
    "name": "Tiga",
    "tier": 0,
-   "score": 69,
-   "popularity": 69,
+   "score": 68,
+   "popularity": 68,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784cadec9a07cd964d1420a7bc",
    "known": false
@@ -8474,8 +8543,8 @@
    "id": "uffie",
    "name": "Uffie",
    "tier": 0,
-   "score": 63,
-   "popularity": 63,
+   "score": 62,
+   "popularity": 62,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178136657586494d9b9340b0a94",
    "known": false
@@ -8962,100 +9031,6 @@
   }
  ],
  "events": [
-  {
-   "id": "1c53f55fef66",
-   "title": "Core W/ Acidboy , Stax , Dj Epi",
-   "venue_id": "studio56",
-   "night": "2026-10-19",
-   "start": "2026-10-19T23:59:00.000",
-   "end": "2026-10-20T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "acidboy",
-     "name": "Acidboy",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "stax",
-     "name": "Stax",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dj-epi",
-     "name": "Dj Epi",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2562988",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2562988"
-    }
-   ],
-   "interest": {
-    "score": 35,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Acidboy (32)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "28bb5389a9a4",
-   "title": "SEXYDELIC RELEASE PARTY",
-   "venue_id": "peniche-antipode",
-   "night": "2026-10-19",
-   "start": "2026-10-19T19:30:00.000",
-   "end": "2026-10-20T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sexydelic-release-party",
-     "name": "SEXYDELIC RELEASE PARTY",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "jazz",
-    "r&b"
-   ],
-   "families": [
-    "Pop & club",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2541312",
-   "event_url": "https://ra.co/events/2541312",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2541312"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2541312"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : SEXYDELIC RELEASE PARTY (8)",
-     "lieu : Péniche Antipode (palier 1)"
-    ]
-   }
-  },
   {
    "id": "c76c73f2c1f7",
    "title": "Signal W/ Maktid , Fluffyboy, Lothar",
@@ -13824,6 +13799,53 @@
      "tête d'affiche : Pendulum (74)",
      "lieu : Parc des Expositions Paris Nord (palier 1)",
      "plateau dense"
+    ]
+   }
+  },
+  {
+   "id": "852e3280ca12",
+   "title": "ATARASHI PARIS: HALLOWEEN EDITION W/ The Martinez Brothers & CO",
+   "venue_id": "yoyo-palais-de-tokyo",
+   "night": "2026-10-30",
+   "start": "2026-10-30T23:30:00.000",
+   "end": "2026-10-31T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "the-martinez-brothers",
+     "name": "The Martinez Brothers",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mason-collective",
+     "name": "Mason Collective",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2564872",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2564872"
+    }
+   ],
+   "interest": {
+    "score": 57,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : The Martinez Brothers (62)",
+     "lieu : YoYo - Palais de Tokyo (palier 2)"
     ]
    }
   },
@@ -18684,6 +18706,93 @@
    }
   },
   {
+   "id": "fbf2bb476aa1",
+   "title": "MENERGY - EG / Nelson D'Araujo / Babybear",
+   "venue_id": "gibus-club",
+   "night": "2026-11-07",
+   "start": "2026-11-07T23:59:00.000",
+   "end": "2026-11-08T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "babybear",
+     "name": "Babybear",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2564901",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2564901"
+    }
+   ],
+   "interest": {
+    "score": 33,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Babybear (37)",
+     "lieu : Gibus Club (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "cb38a223c36e",
+   "title": "Kouss Kouss - Twerkistan + DJ set",
+   "venue_id": "ground-control-gare-de-lyon",
+   "night": "2026-11-07",
+   "start": "2026-11-07T20:30:00+01:00",
+   "end": "2026-11-08T00:30:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "dj-set",
+     "name": "DJ set",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "kouss-kouss-twerkistan",
+     "name": "Kouss Kouss - Twerkistan",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/g5vmeb-kouss-kouss-twerkistan-dj-set-7th-nov-ground-control-gare-de-lyon-paris-tickets",
+   "event_url": "https://dice.fm/event/g5vmeb-kouss-kouss-twerkistan-dj-set-7th-nov-ground-control-gare-de-lyon-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-19/5f5ba329-0d20-425a-ac55-3fd4368fbcf4.jpg?rect=0%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/g5vmeb-kouss-kouss-twerkistan-dj-set-7th-nov-ground-control-gare-de-lyon-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 25,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ set (26)",
+     "lieu : Ground Control Gare de Lyon (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "2de400ba13be",
    "title": "ORCHESTRE TOUT PUISSANT MARCEL DUCHAMP",
    "venue_id": "theatre-silvia-monfort",
@@ -18770,16 +18879,20 @@
    "families": [
     "Techno"
    ],
-   "price_min": null,
+   "price_min": 14.42,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2564446",
    "event_url": "https://ra.co/events/2564446",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-19/20318877-1973-4084-88c4-6f0eadcd5121.jpg?rect=0%2C0%2C1440%2C1440",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2564446"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/nvr9b5-2222-beste-hira-alhena-dj-angel-sole-dosi-more-7th-nov-virage-paris-tickets"
     }
    ],
    "interest": {
@@ -19166,16 +19279,20 @@
     "House",
     "Disco & funk"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2564475",
    "event_url": "https://ra.co/events/2564475",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-19/9428c539-8877-40d3-91d6-3007fb028d1b.jpg?rect=36%2C0%2C1012%2C1011",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2564475"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/av8pmq-house-in-symphony-soul-frequency-onibaku-more-10th-nov-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -19893,8 +20010,8 @@
     }
    ],
    "genres": [
-    "hardcore",
-    "acid"
+    "acid",
+    "hardcore"
    ],
    "families": [
     "Techno",
@@ -20073,16 +20190,20 @@
    "families": [
     "House"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2564485",
    "event_url": "https://ra.co/events/2564485",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-19/c146c3a8-8062-4c55-9fc2-4bc284b8be9b.jpg?rect=236%2C672%2C3108%2C3105",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2564485"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/pyx92y-marli-b2b-master-c-fu-all-night-long-13th-nov-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -20276,16 +20397,20 @@
    "families": [
     "House"
    ],
-   "price_min": null,
+   "price_min": 14.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2564740",
    "event_url": "https://ra.co/events/2564740",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-19/f52f7468-d978-4115-a326-e70c294a4db7.jpg?rect=0%2C300%2C1086%2C1086",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2564740"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/2wn86p-saverio-lamorosso-lana-more-revival-14th-nov-la-java-paris-tickets"
     }
    ],
    "interest": {
@@ -23299,6 +23424,49 @@
    }
   },
   {
+   "id": "febaf7cd1c41",
+   "title": "SUBSILENCE: warehouse with Daniel Meister,Lukea,Mateba,Trofin",
+   "venue_id": "la-cite-fertile",
+   "night": "2026-11-28",
+   "start": "2026-11-28T12:00:00.000",
+   "end": "2026-11-29T00:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "daniel-meister",
+     "name": "Daniel Meister",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "minimal",
+    "deep house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2564990",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2564990"
+    }
+   ],
+   "interest": {
+    "score": 31,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Daniel Meister (27)",
+     "lieu : La Cité Fertile (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "7fb01b26ba38",
    "title": "Forensics",
    "venue_id": "la-rotonde-stalingrad",
@@ -24500,9 +24668,14 @@
    "end": "2026-12-19T23:59:00.000",
    "lineup": [
     {
+     "artist_id": "etienne-de-crecy",
+     "name": "Etienne De Crecy",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "kenny-dope",
      "name": "Kenny Dope",
-     "billing": "headliner"
+     "billing": "support"
     },
     {
      "artist_id": "tiga",
@@ -24522,11 +24695,6 @@
     {
      "artist_id": "uffie",
      "name": "Uffie",
-     "billing": "support"
-    },
-    {
-     "artist_id": "etienne-de-crecy",
-     "name": "Etienne De Crecy",
      "billing": "support"
     },
     {
@@ -24559,10 +24727,10 @@
     }
    ],
    "interest": {
-    "score": 68,
+    "score": 72,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : Kenny Dope (73)",
+     "tête d'affiche : Etienne De Crecy (78)",
      "lieu : 104 CENTQUATRE (palier 1)",
      "plateau dense"
     ]
@@ -25491,6 +25659,43 @@
      "lieu : Cité De La Musique (palier 1)"
     ]
    }
+  },
+  {
+   "id": "5f0806511626",
+   "title": "Steel Dreams",
+   "venue_id": "philharmonie-de-paris",
+   "night": "2027-04-18",
+   "start": "2027-04-18T19:00:00.000",
+   "end": "2027-04-19T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "steel-dreams",
+     "name": "Steel Dreams",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2459443",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2459443"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Steel Dreams (8)",
+     "lieu : Philharmonie de Paris (palier 1)"
+    ]
+   }
   }
  ],
  "announcements": [
@@ -25509,11 +25714,11 @@
    "photo": "https://i.scdn.co/image/ab6761610000f17885dbfda697c02bc156872fcd"
   },
   {
-   "id": "1f19526631c3",
-   "name": "MrD",
-   "night": "2026-11-13",
-   "venue": "Rex Club",
-   "photo": "https://i.scdn.co/image/ab6761610000f17856b1dc7a3a78898e9f22db4e"
+   "id": "852e3280ca12",
+   "name": "The Martinez Brothers",
+   "night": "2026-10-30",
+   "venue": "YoYo - Palais de Tokyo",
+   "photo": "https://i.scdn.co/image/ab6761610000f17878549f737e1b3869cfe7e566"
   }
  ],
  "families": [
