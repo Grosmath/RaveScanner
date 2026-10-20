@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-20T14:09:49Z",
+ "generated_at": "2026-10-20T23:44:29Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 195
+   "events": 201
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 48
+   "events": 50
   }
  ],
  "venue_order": [
@@ -50,6 +50,7 @@
   "olympia",
   "theatre-fairmount",
   "systeme",
+  "casa-del-popolo",
   "salon-daome",
   "theatre-beanfield",
   "sainte-catherine-hall",
@@ -62,11 +63,11 @@
   "salon-badin",
   "le-red-room",
   "le-ritz",
-  "white-wall-studio",
   "l-escogriffe-bar-spectacle",
   "tba-mile-ex",
   "vino-disco",
   "le-balcon",
+  "white-wall-studio",
   "les-7-doigts-de-la-main",
   "la-recre",
   "tba-down-by-the-water",
@@ -81,6 +82,7 @@
   "subterra",
   "ausgang-plaza",
   "club-soda",
+  "tba-cafe-marigold-1677-avenue-laurier-est-montreal-qc-h2j-1j3",
   "barbossa",
   "entre-nous",
   "foufounes",
@@ -92,6 +94,7 @@
   "blue-room",
   "breakglass-studios",
   "complexe-sky",
+  "union-francaise-de-montreal",
   "usine-c"
  ],
  "venues": [
@@ -186,6 +189,16 @@
   {
    "id": "cafe-social-b-hive",
    "name": "Café Social B Hive",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "casa-del-popolo",
+   "name": "Casa Del Popolo",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -614,6 +627,16 @@
    "genres": []
   },
   {
+   "id": "tba-cafe-marigold-1677-avenue-laurier-est-montreal-qc-h2j-1j3",
+   "name": "TBA - Cafe Marigold 1677 Avenue Laurier Est, Montréal, QC H2J 1J3",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "tba-down-by-the-water",
    "name": "TBA - down by the water",
    "type": "club",
@@ -660,6 +683,16 @@
   {
    "id": "theatre-paradoxe",
    "name": "Théâtre Paradoxe",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "union-francaise-de-montreal",
+   "name": "Union Française de Montréal",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1278,16 +1311,6 @@
    "known": false
   },
   {
-   "id": "bed",
-   "name": "Bed",
-   "tier": 0,
-   "score": 5,
-   "popularity": 5,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/f542a60eaee44b6794c9fda2e4e7b583/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "bell-pierre",
    "name": "bell.pierre",
    "tier": 0,
@@ -1325,6 +1348,16 @@
    "popularity": 66,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785f75c98f9a42bd59b3b66d66",
+   "known": false
+  },
+  {
+   "id": "bisoubizou",
+   "name": "BisouBizou",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1648,6 +1681,16 @@
    "known": false
   },
   {
+   "id": "complet-rebecca-black-montreal",
+   "name": "COMPLET* Rebecca Black - Montréal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "con-secuencias",
    "name": "Con Secuencias",
    "tier": 0,
@@ -1885,6 +1928,16 @@
    "popularity": 74,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178cd52349abc056592e95849bc",
+   "known": false
+  },
+  {
+   "id": "dim-kelly",
+   "name": "Dim Kelly",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788d59578eb13f89987a49cf92",
    "known": false
   },
   {
@@ -2228,6 +2281,16 @@
    "known": false
   },
   {
+   "id": "elicia-martin",
+   "name": "Elicia Martin",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786aed95059e63682002a900fa",
+   "known": false
+  },
+  {
    "id": "ely-oaks",
    "name": "Ely Oaks",
    "tier": 0,
@@ -2435,16 +2498,6 @@
    "popularity": 38,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c65426d726b91d702250746e",
-   "known": false
-  },
-  {
-   "id": "frontrite-halloween",
-   "name": "FrontRite Halloween",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2708,6 +2761,16 @@
    "known": false
   },
   {
+   "id": "hoopalai",
+   "name": "HOOPALAÏ",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785e45875d6ddc1737b17b3eb6",
+   "known": false
+  },
+  {
    "id": "horse-meat-disco",
    "name": "Horse Meat Disco",
    "tier": 0,
@@ -2715,6 +2778,16 @@
    "popularity": 56,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178301f8f153fb5d485418fcefc",
+   "known": false
+  },
+  {
+   "id": "hues",
+   "name": "Hues",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/5c8924517217f98e01a404974a9a0d5f/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2851,16 +2924,6 @@
    "known": false
   },
   {
-   "id": "irl",
-   "name": "IRL",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/411a1b6926e11af351ff8b162e9af658/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "isla-den",
    "name": "Isla Den",
    "tier": 0,
@@ -2958,6 +3021,16 @@
    "popularity": 61,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f78eee5fd35b281cb3fae05e",
+   "known": false
+  },
+  {
+   "id": "jen-cardini",
+   "name": "Jen Cardini",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d7c7de6782f5f79be339bd0e",
    "known": false
   },
   {
@@ -3211,6 +3284,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178585ae407cf955cf680e4bcf3",
+   "known": false
+  },
+  {
+   "id": "kostello",
+   "name": "Kostello",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3627,6 +3710,16 @@
    "known": false
   },
   {
+   "id": "measure",
+   "name": "Measure",
+   "tier": 0,
+   "score": 26,
+   "popularity": 26,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048514702d2a8fb33793742d0d4bf",
+   "known": false
+  },
+  {
    "id": "meen-moreen",
    "name": "Meen Moreen",
    "tier": 0,
@@ -3674,6 +3767,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ebeb6817c3c969883de9da44",
+   "known": false
+  },
+  {
+   "id": "mightykat",
+   "name": "MightyKat",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4072,6 +4175,16 @@
    "known": false
   },
   {
+   "id": "olympe4000",
+   "name": "Olympe4000",
+   "tier": 0,
+   "score": 17,
+   "popularity": 17,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782b84bd65a2e74587b6504e9a",
+   "known": false
+  },
+  {
    "id": "omar-krivit",
    "name": "Omar Krivit",
    "tier": 0,
@@ -4112,6 +4225,16 @@
    "known": false
   },
   {
+   "id": "opposite-direktion",
+   "name": "Opposite Direktion",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "orion",
    "name": "Orion",
    "tier": 0,
@@ -4139,6 +4262,16 @@
    "popularity": 21,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c576f4046a19199a6fe470c5",
+   "known": false
+  },
+  {
+   "id": "ourson",
+   "name": "Ourson",
+   "tier": 0,
+   "score": 62,
+   "popularity": 62,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178adf5fbdfd0022046b4921ae4",
    "known": false
   },
   {
@@ -4179,6 +4312,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785228fe95d7db28d7b98b7bb8",
+   "known": false
+  },
+  {
+   "id": "paso-doble",
+   "name": "Paso Doble",
+   "tier": 0,
+   "score": 48,
+   "popularity": 48,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178bbfec10dcb44f0872c1dcee9",
    "known": false
   },
   {
@@ -4302,6 +4445,16 @@
    "known": false
   },
   {
+   "id": "pulsum",
+   "name": "Pulsum",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048512f969c4b742c424ab3727d87",
+   "known": false
+  },
+  {
    "id": "puzzle",
    "name": "Puzzle",
    "tier": 0,
@@ -4382,16 +4535,6 @@
    "known": false
   },
   {
-   "id": "rebecca-black-montreal",
-   "name": "Rebecca Black - Montréal",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "refanged",
    "name": "refanged",
    "tier": 0,
@@ -4412,13 +4555,13 @@
    "known": false
   },
   {
-   "id": "requiem-v-the-hands-of-time",
-   "name": "REQUIEM V: The Hands of Time",
+   "id": "rhythm",
+   "name": "Rhythm",
    "tier": 0,
-   "score": 8,
-   "popularity": null,
+   "score": 15,
+   "popularity": 15,
    "genres": [],
-   "image": "",
+   "image": "https://cdn-images.dzcdn.net/images/artist/f80a3d84458e79cbf6a03160965ebf29/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4632,6 +4775,16 @@
    "known": false
   },
   {
+   "id": "shirlee",
+   "name": "Shirlee",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "silktits",
    "name": "Silktits",
    "tier": 0,
@@ -4719,6 +4872,16 @@
    "popularity": 26,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783afe574458dcede70a537461",
+   "known": false
+  },
+  {
+   "id": "sports",
+   "name": "Sports",
+   "tier": 0,
+   "score": 81,
+   "popularity": 81,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785be1f192b1f34f06bf6be4a8",
    "known": false
   },
   {
@@ -4932,6 +5095,16 @@
    "known": false
   },
   {
+   "id": "thomas-von-party",
+   "name": "Thomas Von Party",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789e3574877cb7185d5cc7488a",
+   "known": false
+  },
+  {
    "id": "tinzo",
    "name": "Tinzo",
    "tier": 0,
@@ -5084,6 +5257,16 @@
   {
    "id": "venus-in-bed",
    "name": "venus in bed",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "vibran",
+   "name": "VIBRAN",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5402,16 +5585,16 @@
    }
   },
   {
-   "id": "e9ed65e1769d",
-   "title": "Rebecca Black - Montréal",
+   "id": "42f8ca2080cd",
+   "title": "COMPLET* Rebecca Black - Montréal",
    "venue_id": "club-soda",
    "night": "2026-10-20",
    "start": "2026-10-20T19:00:00.000",
    "end": "2026-10-20T22:30:00.000",
    "lineup": [
     {
-     "artist_id": "rebecca-black-montreal",
-     "name": "Rebecca Black - Montréal",
+     "artist_id": "complet-rebecca-black-montreal",
+     "name": "COMPLET* Rebecca Black - Montréal",
      "billing": "headliner"
     }
    ],
@@ -5439,7 +5622,7 @@
     "score": 18,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Rebecca Black - Montréal (8)",
+     "tête d'affiche : COMPLET* Rebecca Black - Montréal (8)",
      "lieu : Club Soda (palier 2)"
     ]
    }
@@ -5898,6 +6081,62 @@
     "reasons": [
      "tête d'affiche : Eldi (27)",
      "lieu : Vino Disco (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "14ea7b0cbd8f",
+   "title": "Kostello, Elicia Martin, Hopecore",
+   "venue_id": "salon-daome",
+   "night": "2026-10-22",
+   "start": "2026-10-22T22:30:00.000",
+   "end": "2026-10-25T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "kostello",
+     "name": "Kostello",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "elicia-martin",
+     "name": "Elicia Martin",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "dub techno",
+    "progressive house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2566105",
+   "event_url": "https://ra.co/events/2566105",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566105"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566105"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566105"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Kostello (8)",
+     "lieu : Salon Daome (palier 2)"
     ]
    }
   },
@@ -8618,6 +8857,59 @@
    }
   },
   {
+   "id": "4ed3b8ace033",
+   "title": "Marigold's Anniversary",
+   "venue_id": "tba-cafe-marigold-1677-avenue-laurier-est-montreal-qc-h2j-1j3",
+   "night": "2026-10-29",
+   "start": "2026-10-29T18:00:00.000",
+   "end": "2026-10-29T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "rhythm",
+     "name": "Rhythm",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "cidoine",
+     "name": "Cidoine",
+     "billing": "support"
+    },
+    {
+     "artist_id": "hues",
+     "name": "Hues",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "funk / soul",
+    "latin bass"
+   ],
+   "families": [
+    "Disco & funk",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2566041",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566041"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Rhythm (15)",
+     "lieu : TBA - Cafe Marigold 1677 Avenue Laurier Est, Montréal, QC H2J 1J3 (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "cc5d2e2cf6fe",
    "title": "Open_Secret___",
    "venue_id": "sans-soleil",
@@ -9925,6 +10217,53 @@
    }
   },
   {
+   "id": "d55065714246",
+   "title": "30 OCTOBRE",
+   "venue_id": "union-francaise-de-montreal",
+   "night": "2026-10-30",
+   "start": "2026-10-30T17:00:00.000",
+   "end": "2026-10-31T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "cpr-annie",
+     "name": "CPR Annie",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "pulsum",
+     "name": "Pulsum",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "ebm",
+    "post-punk"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565926",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565926"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : CPR Annie (0)",
+     "lieu : Union Française de Montréal (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "c2cdde833d2a",
    "title": "Symbiosis – Le 30 Octobre",
    "venue_id": "complexe-sky",
@@ -10268,6 +10607,87 @@
     "reasons": [
      "tête d'affiche : hÿdra (42)",
      "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "aab6253f194d",
+   "title": "REQUIEM V: The Hands of Time | FrontRite Halloween",
+   "venue_id": "sainte-catherine-hall",
+   "night": "2026-10-31",
+   "start": "2026-10-31T19:30:00.000",
+   "end": "2026-11-01T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "paso-doble",
+     "name": "Paso Doble",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "dim-kelly",
+     "name": "Dim Kelly",
+     "billing": "support"
+    },
+    {
+     "artist_id": "vibran",
+     "name": "VIBRAN",
+     "billing": "support"
+    },
+    {
+     "artist_id": "opposite-direktion",
+     "name": "Opposite Direktion",
+     "billing": "support"
+    },
+    {
+     "artist_id": "shirlee",
+     "name": "Shirlee",
+     "billing": "support"
+    },
+    {
+     "artist_id": "bisoubizou",
+     "name": "BisouBizou",
+     "billing": "support"
+    },
+    {
+     "artist_id": "hoopalai",
+     "name": "HOOPALAÏ",
+     "billing": "support"
+    },
+    {
+     "artist_id": "thomas-von-party",
+     "name": "Thomas Von Party",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mightykat",
+     "name": "MightyKat",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2557781",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2557781"
+    }
+   ],
+   "interest": {
+    "score": 41,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Paso Doble (48)",
+     "lieu : Sainte-Catherine Hall (palier 1)"
     ]
    }
   },
@@ -11043,52 +11463,6 @@
     "reasons": [
      "tête d'affiche : HALLOWEEN: UNE NUIT AU Vino Disco (EXTENDED 6AM) (8)",
      "lieu : Vino Disco (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "aab6253f194d",
-   "title": "REQUIEM V: The Hands of Time | FrontRite Halloween",
-   "venue_id": "sainte-catherine-hall",
-   "night": "2026-10-31",
-   "start": "2026-10-31T19:30:00.000",
-   "end": "2026-11-01T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "requiem-v-the-hands-of-time",
-     "name": "REQUIEM V: The Hands of Time",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "frontrite-halloween",
-     "name": "FrontRite Halloween",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "progressive house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2557781",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2557781"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : REQUIEM V: The Hands of Time (8)",
-     "lieu : Sainte-Catherine Hall (palier 1)"
     ]
    }
   },
@@ -12378,6 +12752,45 @@
    }
   },
   {
+   "id": "49361b97f8a4",
+   "title": "sports.",
+   "venue_id": "casa-del-popolo",
+   "night": "2026-11-09",
+   "start": "2026-11-09T20:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "sports",
+     "name": "Sports",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.universe.com/events/sports-tickets-LXN1CD?ref=ticketmaster",
+   "event_url": "https://www.universe.com/events/sports-tickets-LXN1CD?ref=ticketmaster",
+   "image": "https://s1.ticketm.net/dam/a/352/4326e8ee-5a47-4278-bdbe-fa479cdcf352_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.universe.com/events/sports-tickets-LXN1CD?ref=ticketmaster"
+    }
+   ],
+   "interest": {
+    "score": 64,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Sports (81)",
+     "lieu : Casa Del Popolo (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "fa0d28d638be",
    "title": "Nia Archives - Montréal",
    "venue_id": "sat",
@@ -13175,27 +13588,17 @@
    }
   },
   {
-   "id": "c804054f7914",
-   "title": "Bed with IRL, NGL Flounce, Wolfgang Gray & more",
+   "id": "f4d3eb4c8cd4",
+   "title": "Bed with IRL, NGL Flounce, Wolfgang Gray & Measure",
    "venue_id": "white-wall-studio",
    "night": "2026-11-14",
    "start": "2026-11-14T20:00:00.000",
    "end": "2026-11-14T22:30:00.000",
    "lineup": [
     {
-     "artist_id": "morse",
-     "name": "Morse",
+     "artist_id": "measure",
+     "name": "Measure",
      "billing": "headliner"
-    },
-    {
-     "artist_id": "bed",
-     "name": "Bed",
-     "billing": "support"
-    },
-    {
-     "artist_id": "irl",
-     "name": "IRL",
-     "billing": "support"
     },
     {
      "artist_id": "ngl-flounce",
@@ -13228,10 +13631,10 @@
     }
    ],
    "interest": {
-    "score": 40,
+    "score": 25,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Morse (47)",
+     "tête d'affiche : Measure (26)",
      "lieu : White Wall Studio (palier 1)"
     ]
    }
@@ -14448,6 +14851,67 @@
    }
   },
   {
+   "id": "dcde17f27370",
+   "title": "ALL NIGHT x Dure Vie — Jen Cardini • Olympe4000 • Metizo • Evita",
+   "venue_id": "sat",
+   "night": "2026-11-27",
+   "start": "2026-11-27T22:00:00.000",
+   "end": "2026-11-28T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jen-cardini",
+     "name": "Jen Cardini",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "evita",
+     "name": "Evita",
+     "billing": "support"
+    },
+    {
+     "artist_id": "olympe4000",
+     "name": "Olympe4000",
+     "billing": "support"
+    },
+    {
+     "artist_id": "metizo",
+     "name": "Metizo",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "ambient",
+    "trance",
+    "techno",
+    "minimal techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2566044",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566044"
+    }
+   ],
+   "interest": {
+    "score": 42,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Jen Cardini (42)",
+     "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "0e7b120a5862",
    "title": "Cidoine & Friends W/Frits Wentink",
    "venue_id": "la-recre",
@@ -14650,12 +15114,12 @@
     }
    ],
    "genres": [
+    "ebm",
     "electro",
     "house",
     "acid",
     "minimal",
-    "minimal techno",
-    "club"
+    "minimal techno"
    ],
    "families": [
     "Techno",
@@ -15648,6 +16112,45 @@
     "reasons": [
      "tête d'affiche : Clarion (73)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "74a7f98f17aa",
+   "title": "Ourson",
+   "venue_id": "systeme",
+   "night": "2027-01-28",
+   "start": "2027-01-28T20:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "ourson",
+     "name": "Ourson",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/ourson-montreal-quebec-01-28-2027/event/3100654EBE317277",
+   "event_url": "https://www.ticketmaster.ca/ourson-montreal-quebec-01-28-2027/event/3100654EBE317277",
+   "image": "https://s1.ticketm.net/dam/e/1f7/e485a1b0-408f-4cb1-9492-995c9b9241f7_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/ourson-montreal-quebec-01-28-2027/event/3100654EBE317277"
+    }
+   ],
+   "interest": {
+    "score": 51,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Ourson (62)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
