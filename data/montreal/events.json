@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-20T00:11:48Z",
+ "generated_at": "2026-10-20T14:09:49Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 185
+   "events": 195
   },
   {
    "id": "piknic",
@@ -59,6 +59,7 @@
   "entrepots-dominion-les",
   "stereo-bar",
   "nwhr",
+  "salon-badin",
   "le-red-room",
   "le-ritz",
   "white-wall-studio",
@@ -71,9 +72,9 @@
   "tba-down-by-the-water",
   "warehouse",
   "collectif-mtl",
+  "bain-mathieu",
   "sans-soleil",
   "theatre-paradoxe",
-  "bain-mathieu",
   "1088-rue-clark",
   "red-roof-church",
   "cafe-social-b-hive",
@@ -81,6 +82,7 @@
   "ausgang-plaza",
   "club-soda",
   "barbossa",
+  "entre-nous",
   "foufounes",
   "sanctuary",
   "cabaret-lion-d-or",
@@ -89,6 +91,7 @@
   "piranha-bar",
   "blue-room",
   "breakglass-studios",
+  "complexe-sky",
   "usine-c"
  ],
  "venues": [
@@ -219,6 +222,26 @@
   {
    "id": "collectif-mtl",
    "name": "Collectif MTL",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "complexe-sky",
+   "name": "Complexe Sky",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "entre-nous",
+   "name": "Entre Nous",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -465,6 +488,16 @@
   {
    "id": "sainte-catherine-hall",
    "name": "Sainte-Catherine Hall",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "salon-badin",
+   "name": "Salon Badin",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -790,6 +823,16 @@
    "known": false
   },
   {
+   "id": "ael-solara",
+   "name": "Aël Solara",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "aguma",
    "name": "Aguma",
    "tier": 0,
@@ -1049,6 +1092,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d954177b1cd978032d590df5",
+   "known": false
+  },
+  {
+   "id": "astroboii",
+   "name": "Astroboii",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048515b82ddf4a10f7e7b155b73ac",
    "known": false
   },
   {
@@ -1775,6 +1828,16 @@
    "known": false
   },
   {
+   "id": "desbike",
+   "name": "Desbike",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "destiny",
    "name": "Destiny (CA)",
    "tier": 0,
@@ -1832,16 +1895,6 @@
    "popularity": 8,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048518f01a2ed4909f851da1aabaa",
-   "known": false
-  },
-  {
-   "id": "dj-also-cool",
-   "name": "DJ Also Cool",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2385,6 +2438,16 @@
    "known": false
   },
   {
+   "id": "frontrite-halloween",
+   "name": "FrontRite Halloween",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "frost-children",
    "name": "Frost Children",
    "tier": 0,
@@ -2557,6 +2620,16 @@
   {
    "id": "h1bou",
    "name": "h1bou",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "halloween-haunted-rave",
+   "name": "Halloween Haunted Rave",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3081,6 +3154,16 @@
    "known": false
   },
   {
+   "id": "kentsuji",
+   "name": "Kentsuji",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "key-watch",
    "name": "key watch",
    "tier": 0,
@@ -3411,6 +3494,16 @@
    "known": false
   },
   {
+   "id": "magniphi",
+   "name": "Magniphi",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "make-sense",
    "name": "Make Sense",
    "tier": 0,
@@ -3481,6 +3574,16 @@
    "popularity": 11,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178600c0148af23814578efd25b",
+   "known": false
+  },
+  {
+   "id": "mat-moebius",
+   "name": "Mat Moebius",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048515857a5c100050c366232d28d",
    "known": false
   },
   {
@@ -3591,6 +3694,16 @@
    "popularity": 66,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b8028862eeb5ccaf303d71ce",
+   "known": false
+  },
+  {
+   "id": "mks",
+   "name": "Mks",
+   "tier": 0,
+   "score": 45,
+   "popularity": 45,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786831523fecbcf809a2f4f062",
    "known": false
   },
   {
@@ -3771,6 +3884,16 @@
    "popularity": 2,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17888c43626f38ceecabb20d0cc",
+   "known": false
+  },
+  {
+   "id": "nctrnl-001",
+   "name": "NCTRNL_001",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4119,6 +4242,16 @@
    "known": false
   },
   {
+   "id": "pleurire",
+   "name": "Pleurire",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "ploy",
    "name": "Ploy",
    "tier": 0,
@@ -4366,6 +4499,26 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783d39f1872eecfa17fe445f1f",
+   "known": false
+  },
+  {
+   "id": "salon-badin-ajibyrd",
+   "name": "Salon Badin: Ajibyrd",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "salon-badin-dusty-fingerz",
+   "name": "Salon Badin: Dusty FingerZ",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5049,6 +5202,16 @@
    "known": false
   },
   {
+   "id": "walla-p",
+   "name": "Walla P",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "wetdogg",
    "name": "wetdogg",
    "tier": 0,
@@ -5136,6 +5299,16 @@
    "popularity": 58,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785dca67d415795c29f230f4aa",
+   "known": false
+  },
+  {
+   "id": "yorel",
+   "name": "Yorel",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048511f73d6db127e590aa7bbd605",
    "known": false
   },
   {
@@ -5866,6 +6039,43 @@
    }
   },
   {
+   "id": "89ac36738e3a",
+   "title": "Salon Badin: Dusty FingerZ",
+   "venue_id": "salon-badin",
+   "night": "2026-10-22",
+   "start": "2026-10-22T19:00:00.000",
+   "end": "2026-10-23T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "salon-badin-dusty-fingerz",
+     "name": "Salon Badin: Dusty FingerZ",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565186",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565186"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Salon Badin: Dusty FingerZ (8)",
+     "lieu : Salon Badin (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "afcfab3be5bd",
    "title": "Sans Soleil w/ Silktits + Cidoine",
    "venue_id": "sans-soleil",
@@ -6293,6 +6503,43 @@
     "reasons": [
      "tête d'affiche : Dust-E-1 (31)",
      "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "20951aa5b77a",
+   "title": "Salon Badin: MKS (Tupi Collective)",
+   "venue_id": "salon-badin",
+   "night": "2026-10-23",
+   "start": "2026-10-23T19:00:00.000",
+   "end": "2026-10-24T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mks",
+     "name": "Mks",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565187",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565187"
+    }
+   ],
+   "interest": {
+    "score": 38,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Mks (45)",
+     "lieu : Salon Badin (palier 1)"
     ]
    }
   },
@@ -7466,6 +7713,11 @@
      "artist_id": "arielle-roberge",
      "name": "Arielle Roberge",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "gwinestefani",
+     "name": "Gwinestefani",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -7626,6 +7878,43 @@
     "reasons": [
      "tête d'affiche : h1bou (8)",
      "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "6d97efcfbc5a",
+   "title": "Salon Badin: Ajibyrd",
+   "venue_id": "salon-badin",
+   "night": "2026-10-24",
+   "start": "2026-10-24T19:00:00.000",
+   "end": "2026-10-25T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "salon-badin-ajibyrd",
+     "name": "Salon Badin: Ajibyrd",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565189",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565189"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Salon Badin: Ajibyrd (8)",
+     "lieu : Salon Badin (palier 1)"
     ]
    }
   },
@@ -8453,6 +8742,43 @@
     "reasons": [
      "tête d'affiche : À Gogo No. 1 (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b593402fd865",
+   "title": "Salon Badin: THe LYONZ",
+   "venue_id": "salon-badin",
+   "night": "2026-10-29",
+   "start": "2026-10-29T19:00:00.000",
+   "end": "2026-10-30T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "the-lyonz",
+     "name": "THe LYONZ",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565192",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565192"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : THe LYONZ (0)",
+     "lieu : Salon Badin (palier 1)"
     ]
    }
   },
@@ -9392,6 +9718,49 @@
    }
   },
   {
+   "id": "57acb6327289",
+   "title": "Halloween Haunted Rave",
+   "venue_id": "entre-nous",
+   "night": "2026-10-30",
+   "start": "2026-10-30T09:00:00.000",
+   "end": "2026-10-31T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "halloween-haunted-rave",
+     "name": "Halloween Haunted Rave",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565200",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565200"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Halloween Haunted Rave (8)",
+     "lieu : Entre Nous (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "01d44e7633e7",
    "title": "STUDIO 666: NOVA ONDAS",
    "venue_id": "vino-disco",
@@ -9431,6 +9800,43 @@
     "reasons": [
      "tête d'affiche : Fred [Note Vocale] (8)",
      "lieu : Vino Disco (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "81a01a3ff687",
+   "title": "Salon Badin: Walla P",
+   "venue_id": "salon-badin",
+   "night": "2026-10-30",
+   "start": "2026-10-30T19:00:00.000",
+   "end": "2026-10-31T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "walla-p",
+     "name": "Walla P",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565194",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565194"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Walla P (8)",
+     "lieu : Salon Badin (palier 1)"
     ]
    }
   },
@@ -9515,6 +9921,48 @@
     "reasons": [
      "tête d'affiche : venus in bed (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "c2cdde833d2a",
+   "title": "Symbiosis – Le 30 Octobre",
+   "venue_id": "complexe-sky",
+   "night": "2026-10-30",
+   "start": "2026-10-30T22:00:00.000",
+   "end": "2026-10-31T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ael-solara",
+     "name": "Aël Solara",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565222",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565222"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Aël Solara (0)",
+     "lieu : Complexe Sky (palier 1)"
     ]
    }
   },
@@ -10599,8 +11047,8 @@
    }
   },
   {
-   "id": "5e7883059853",
-   "title": "REQUIEM V: The Hands of Time",
+   "id": "aab6253f194d",
+   "title": "REQUIEM V: The Hands of Time | FrontRite Halloween",
    "venue_id": "sainte-catherine-hall",
    "night": "2026-10-31",
    "start": "2026-10-31T19:30:00.000",
@@ -10610,6 +11058,11 @@
      "artist_id": "requiem-v-the-hands-of-time",
      "name": "REQUIEM V: The Hands of Time",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "frontrite-halloween",
+     "name": "FrontRite Halloween",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -10636,6 +11089,43 @@
     "reasons": [
      "tête d'affiche : REQUIEM V: The Hands of Time (8)",
      "lieu : Sainte-Catherine Hall (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "368a5033a58a",
+   "title": "Salon Badin: Desbike",
+   "venue_id": "salon-badin",
+   "night": "2026-10-31",
+   "start": "2026-10-31T19:00:00.000",
+   "end": "2026-11-01T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "desbike",
+     "name": "Desbike",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565195",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565195"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Desbike (8)",
+     "lieu : Salon Badin (palier 1)"
     ]
    }
   },
@@ -10732,6 +11222,48 @@
     "reasons": [
      "tête d'affiche : Sydney Sarayeva (0)",
      "lieu : Blue Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b71f78a3a6bf",
+   "title": "⭐️SANCTUARY 2026 ⭐️ SOLD OUT ⭐️",
+   "venue_id": "bain-mathieu",
+   "night": "2026-10-31",
+   "start": "2026-10-31T21:00:00.000",
+   "end": "2026-11-01T08:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mat-moebius",
+     "name": "Mat Moebius",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "yorel",
+     "name": "Yorel",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565196",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565196"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Mat Moebius (0)",
+     "lieu : Bain Mathieu (palier 1)"
     ]
    }
   },
@@ -12348,6 +12880,63 @@
    }
   },
   {
+   "id": "448f1254e40e",
+   "title": "Inframundo",
+   "venue_id": "entre-nous",
+   "night": "2026-11-13",
+   "start": "2026-11-13T21:00:00.000",
+   "end": "2026-11-14T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "pleurire",
+     "name": "Pleurire",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "kentsuji",
+     "name": "Kentsuji",
+     "billing": "support"
+    },
+    {
+     "artist_id": "magniphi",
+     "name": "Magniphi",
+     "billing": "support"
+    },
+    {
+     "artist_id": "astroboii",
+     "name": "Astroboii",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "drum & bass",
+    "dubstep"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565602",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565602"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Pleurire (8)",
+     "lieu : Entre Nous (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "ae21a490c926",
    "title": "★Virtualis presents: a Slasher Party★",
    "venue_id": "nwhr",
@@ -12870,39 +13459,45 @@
    }
   },
   {
-   "id": "350efe4a8bb4",
-   "title": "Drink N Draw",
-   "venue_id": "systeme",
+   "id": "2a44777d8f25",
+   "title": "NCTRNL_001",
+   "venue_id": "le-red-room",
    "night": "2026-11-19",
-   "start": "2026-11-19T19:00:00.000",
-   "end": "2026-11-19T22:00:00.000",
+   "start": "2026-11-19T22:00:00.000",
+   "end": "2026-11-20T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "dj-also-cool",
-     "name": "DJ Also Cool",
+     "artist_id": "nctrnl-001",
+     "name": "NCTRNL_001",
      "billing": "headliner"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "drum & bass",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2563786",
-   "event_url": "https://ra.co/events/2563786",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565653",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2563786"
+     "url": "https://ra.co/events/2565653"
     }
    ],
    "interest": {
-    "score": 12,
+    "score": 18,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : DJ Also Cool (8)",
-     "lieu : Système (palier 1)"
+     "tête d'affiche : NCTRNL_001 (8)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -13565,8 +14160,14 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "disco",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2565062",
@@ -15832,13 +16433,6 @@
   }
  ],
  "announcements": [
-  {
-   "id": "2a15ab27b165",
-   "name": "D.O.D.",
-   "night": "2027-03-13",
-   "venue": "New City Gas",
-   "photo": "https://i.scdn.co/image/ab6761610000f17830a4fa2462f1d9a9cdd17360"
-  },
   {
    "id": "6d942dcdfce9",
    "name": "Alan Walker",
