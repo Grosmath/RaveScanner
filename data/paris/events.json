@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-21T14:24:10Z",
+ "generated_at": "2026-10-21T23:58:08Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 380
+   "events": 388
   },
   {
    "id": "dice",
@@ -42,9 +42,9 @@
   "magasins-generaux",
   "t7",
   "djoon",
+  "panic-room",
   "essaim",
   "kilometre25",
-  "panic-room",
   "la-station-gare-des-mines",
   "la-boule-noire",
   "42-marches",
@@ -52,11 +52,11 @@
   "elysee-montmartre",
   "palais-brongniart",
   "parc-des-expositions",
+  "silencio",
   "yoyo-palais-de-tokyo",
   "le-trabendo",
   "la-bellevilloise",
   "tba-paris",
-  "silencio",
   "la-gaite-lyrique",
   "virage",
   "main-room",
@@ -76,6 +76,7 @@
   "la-cigale",
   "cartilage",
   "le-bateau-phare",
+  "chalet-du-lac-bois-de-vincennes",
   "le-trianon",
   "zenith-paris-la-villette",
   "tba",
@@ -95,6 +96,7 @@
   "la-cite-fertile",
   "tba-75013",
   "le-klub",
+  "folies-pigalle",
   "brasserie-gallia",
   "theatre-silvia-monfort",
   "folia",
@@ -320,6 +322,16 @@
    "genres": []
   },
   {
+   "id": "chalet-du-lac-bois-de-vincennes",
+   "name": "Chalet du Lac Bois de Vincennes",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "chateau-ephemere",
    "name": "Chateau Ephémère",
    "type": "club",
@@ -438,6 +450,16 @@
   {
    "id": "folia",
    "name": "FOLIA",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "folies-pigalle",
+   "name": "Folies Pigalle",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1656,6 +1678,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "agathe-mougin",
+   "name": "Agathe Mougin",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788e7122edc2a16aedacf5a40e",
    "known": false
   },
   {
@@ -3073,6 +3105,16 @@
    "known": false
   },
   {
+   "id": "david-carretta",
+   "name": "David Carretta",
+   "tier": 0,
+   "score": 23,
+   "popularity": 23,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785a2ccdea05c4f91323b69da1",
+   "known": false
+  },
+  {
    "id": "davide-dev",
    "name": "Davide Dev",
    "tier": 0,
@@ -3683,6 +3725,16 @@
    "known": false
   },
   {
+   "id": "echoes-collective",
+   "name": "ECHOES COLLECTIVE",
+   "tier": 0,
+   "score": 43,
+   "popularity": 43,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a1cbbc112858de4d55d14fc6",
+   "known": false
+  },
+  {
    "id": "eczodia",
    "name": "ECZODIA",
    "tier": 0,
@@ -4040,6 +4092,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048513aa2b2b4fb4c6d0c574ee2cd",
+   "known": false
+  },
+  {
+   "id": "fasme",
+   "name": "Fasme",
+   "tier": 0,
+   "score": 33,
+   "popularity": 33,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a7b794b44d67adacded30dcb",
    "known": false
   },
   {
@@ -5136,6 +5198,16 @@
    "known": false
   },
   {
+   "id": "julio-red",
+   "name": "Julio Red",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b17dabcd99543a0cc2f4ceca",
+   "known": false
+  },
+  {
    "id": "jungle",
    "name": "Jungle (UK)",
    "tier": 0,
@@ -5253,6 +5325,16 @@
    "popularity": 16,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f2cd87e0e842bfa5459eef24",
+   "known": false
+  },
+  {
+   "id": "karl-jefferson",
+   "name": "Karl Jefferson",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -6106,6 +6188,16 @@
    "known": false
   },
   {
+   "id": "madeleine-records",
+   "name": "MADELEINE RECORDS",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "maemm",
    "name": "Maemm",
    "tier": 0,
@@ -6646,6 +6738,16 @@
    "known": false
   },
   {
+   "id": "mon-cher-guy",
+   "name": "Mon cher Guy",
+   "tier": 0,
+   "score": 14,
+   "popularity": 14,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e652a2ae0bd3432103f0f04a",
+   "known": false
+  },
+  {
    "id": "mon-to",
    "name": "Mon.To",
    "tier": 0,
@@ -6693,6 +6795,16 @@
    "popularity": 59,
    "genres": [],
    "image": "https://i.scdn.co/image/919e5830a9fd786239aec363a13d33bee0fab2aa",
+   "known": false
+  },
+  {
+   "id": "moon",
+   "name": "MOON",
+   "tier": 0,
+   "score": 29,
+   "popularity": 29,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/bce6a934021ebf41a40503e5f26a692f/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -7401,6 +7513,16 @@
    "known": false
   },
   {
+   "id": "patrick-mason",
+   "name": "Patrick Mason",
+   "tier": 0,
+   "score": 28,
+   "popularity": 28,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782d5009bf8ee183d36c35e404",
+   "known": false
+  },
+  {
    "id": "paul-seul",
    "name": "Paul Seul",
    "tier": 0,
@@ -7648,6 +7770,16 @@
    "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789dc953255789bbef8db70c40",
+   "known": false
+  },
+  {
+   "id": "proxyma",
+   "name": "PROXYMA",
+   "tier": 0,
+   "score": 8,
+   "popularity": 8,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f30aa773be849af59cc0cb49",
    "known": false
   },
   {
@@ -8024,6 +8156,16 @@
    "known": false
   },
   {
+   "id": "sam-karlson",
+   "name": "Sam Karlson",
+   "tier": 0,
+   "score": 30,
+   "popularity": 30,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e93fd162bebbf21af04bde65",
+   "known": false
+  },
+  {
    "id": "sama-abdulhadi",
    "name": "Sama' Abdulhadi",
    "tier": 0,
@@ -8244,6 +8386,16 @@
    "known": false
   },
   {
+   "id": "shred-2000",
+   "name": "SHRED 2000",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17874e9be6d81da821e3f22c823",
+   "known": false
+  },
+  {
    "id": "sicion",
    "name": "Sicion",
    "tier": 0,
@@ -8394,6 +8546,16 @@
    "known": false
   },
   {
+   "id": "soldd6",
+   "name": "SOLDD6",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "sole-dosi",
    "name": "SOLE DOSI",
    "tier": 0,
@@ -8491,6 +8653,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/b94a66514621c35ee42ea1ea01d9e1f9/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "sous-le-radar",
+   "name": "SOUS LE RADAR",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786736019ea66dc27136cc11d3",
    "known": false
   },
   {
@@ -10295,7 +10467,7 @@
   },
   {
    "id": "afdac09cc07d",
-   "title": "Tonak, Tactic & Hyas (All Night Long)",
+   "title": "TONAK, Tactic & Hyas (All Night Long)",
    "venue_id": "folia",
    "night": "2026-10-22",
    "start": "2026-10-22T21:00:00.000",
@@ -11165,6 +11337,54 @@
     "reasons": [
      "tête d'affiche : Vv Pete (34)",
      "lieu : La Station - Gare des Mines (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "3e9afb2750fa",
+   "title": "Patrick Mason, Agathe Mougin, EMMANUEL CAUREL",
+   "venue_id": "silencio",
+   "night": "2026-10-23",
+   "start": "2026-10-23T23:00:00.000",
+   "end": "2026-10-24T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "patrick-mason",
+     "name": "Patrick Mason",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "agathe-mougin",
+     "name": "Agathe Mougin",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2567089",
+   "event_url": "https://ra.co/events/2567089",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2567089"
+    }
+   ],
+   "interest": {
+    "score": 26,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Patrick Mason (28)",
+     "lieu : Silencio (palier 1)"
     ]
    }
   },
@@ -19189,6 +19409,68 @@
    }
   },
   {
+   "id": "9053cdbadcdf",
+   "title": "Virage Présente: Phase Fatale, Fasme (live), David Caretta, Mon cher Guy",
+   "venue_id": "virage",
+   "night": "2026-11-06",
+   "start": "2026-11-06T23:30:00.000",
+   "end": "2026-11-07T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "fasme",
+     "name": "Fasme",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "phase-fatale",
+     "name": "Phase Fatale",
+     "billing": "support"
+    },
+    {
+     "artist_id": "david-carretta",
+     "name": "David Carretta",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mon-cher-guy",
+     "name": "Mon cher Guy",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "ebm"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": 14.42,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2563265",
+   "event_url": "https://ra.co/events/2563265",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-16/6d87230d-d53e-463a-b977-32987a7027ee.jpg?rect=504%2C0%2C3024%2C3024",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2563265"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/92vw56-phase-fatale-guests-6th-nov-virage-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 31,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Fasme (33)",
+     "lieu : Virage (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "f4946958ed85",
    "title": "Motus XXL - ADB, NEVERMIND & MORE",
    "venue_id": "la-rotonde-stalingrad",
@@ -19253,49 +19535,6 @@
     "reasons": [
      "tête d'affiche : SHAA (29)",
      "lieu : La Rotonde Stalingrad (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "d686d06f3f0b",
-   "title": "Phase Fatale & guests",
-   "venue_id": "virage",
-   "night": "2026-11-06",
-   "start": "2026-11-06T23:30:00.000",
-   "end": "2026-11-07T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "phase-fatale",
-     "name": "Phase Fatale",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 14.42,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2563265",
-   "event_url": "https://ra.co/events/2563265",
-   "image": "https://dice-media.imgix.net/attachments/2026-10-16/6d87230d-d53e-463a-b977-32987a7027ee.jpg?rect=504%2C0%2C3024%2C3024",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563265"
-    },
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/92vw56-phase-fatale-guests-6th-nov-virage-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 26,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Phase Fatale (28)",
-     "lieu : Virage (palier 1)"
     ]
    }
   },
@@ -21028,8 +21267,8 @@
    "title": "BDE IFM",
    "venue_id": "panic-room",
    "night": "2026-11-11",
-   "start": "2026-11-11T19:00:00.000",
-   "end": "2026-11-12T05:00:00.000",
+   "start": "2026-11-11T20:00:00.000",
+   "end": "2026-11-12T02:00:00.000",
    "lineup": [
     {
      "artist_id": "bde-ifm",
@@ -21541,6 +21780,49 @@
     "reasons": [
      "tête d'affiche : Nosaj Thing (53)",
      "lieu : La Gaîté Lyrique (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "46ffe63208ad",
+   "title": "Disco Touch",
+   "venue_id": "chalet-du-lac-bois-de-vincennes",
+   "night": "2026-11-13",
+   "start": "2026-11-13T21:00:00.000",
+   "end": "2026-11-14T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "baccus",
+     "name": "Baccus",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2566893",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566893"
+    }
+   ],
+   "interest": {
+    "score": 43,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Baccus (51)",
+     "lieu : Chalet du Lac Bois de Vincennes (palier 1)"
     ]
    }
   },
@@ -22541,6 +22823,63 @@
    }
   },
   {
+   "id": "9f1cec578d5f",
+   "title": "UNDERGROUND LEGENDS #3 with Sam Karlson",
+   "venue_id": "folies-pigalle",
+   "night": "2026-11-14",
+   "start": "2026-11-14T23:30:00.000",
+   "end": "2026-11-15T07:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "sam-karlson",
+     "name": "Sam Karlson",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "moon",
+     "name": "MOON",
+     "billing": "support"
+    },
+    {
+     "artist_id": "karl-jefferson",
+     "name": "Karl Jefferson",
+     "billing": "support"
+    },
+    {
+     "artist_id": "julio-red",
+     "name": "Julio Red",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2567056",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2567056"
+    }
+   ],
+   "interest": {
+    "score": 28,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Sam Karlson (30)",
+     "lieu : Folies Pigalle (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8b87a0ace8de",
    "title": "Gang Bambi X Chéries Chéris After Party",
    "venue_id": "le-klub",
@@ -23075,6 +23414,49 @@
    }
   },
   {
+   "id": "57842d1d8e8d",
+   "title": "SOUS LE RADAR",
+   "venue_id": "panic-room",
+   "night": "2026-11-18",
+   "start": "2026-11-18T19:00:00.000",
+   "end": "2026-11-19T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sous-le-radar",
+     "name": "SOUS LE RADAR",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2566793",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566793"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SOUS LE RADAR (0)",
+     "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "c8ef075a3022",
    "title": "Maria Arnal",
    "venue_id": "badaboum",
@@ -23160,6 +23542,49 @@
    }
   },
   {
+   "id": "c6aaf30aebf6",
+   "title": "ECHOES COLLECTIVE",
+   "venue_id": "panic-room",
+   "night": "2026-11-19",
+   "start": "2026-11-19T19:00:00.000",
+   "end": "2026-11-20T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "echoes-collective",
+     "name": "ECHOES COLLECTIVE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "trance",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2566795",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566795"
+    }
+   ],
+   "interest": {
+    "score": 37,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ECHOES COLLECTIVE (43)",
+     "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "e41308f5be4f",
    "title": "La Discotaco : disco, paillettes & tacos !",
    "venue_id": "le-mazette",
@@ -23236,6 +23661,52 @@
     "reasons": [
      "tête d'affiche : Hortense de Beauharnais (0)",
      "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "03bb62945ac9",
+   "title": "RESONANCE: JOCKEY NARVAL, OYO B2B CAMPOREALE",
+   "venue_id": "mia-mao",
+   "night": "2026-11-19",
+   "start": "2026-11-19T23:00:00.000",
+   "end": "2026-11-20T06:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "proxyma",
+     "name": "PROXYMA",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "shred-2000",
+     "name": "SHRED 2000",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2566428",
+   "event_url": "https://ra.co/events/2566428",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566428"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : PROXYMA (8)",
+     "lieu : Mia Mao (palier 1)"
     ]
    }
   },
@@ -23721,6 +24192,49 @@
     "reasons": [
      "tête d'affiche : JOHN DIXON (12)",
      "lieu : Le Klub (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "0e448beb2ba8",
+   "title": "MADELEINE RECORDS",
+   "venue_id": "panic-room",
+   "night": "2026-11-20",
+   "start": "2026-11-20T19:00:00.000",
+   "end": "2026-11-21T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "madeleine-records",
+     "name": "MADELEINE RECORDS",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2566799",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566799"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : MADELEINE RECORDS (8)",
+     "lieu : Panic Room (palier 1)"
     ]
    }
   },
@@ -24420,6 +24934,49 @@
     "reasons": [
      "tête d'affiche : Oslo Import Vol. 3 (8)",
      "lieu : TBA - Carburant — 60 Rue de Lancry, 75010 Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "4f3ec3e1a5fd",
+   "title": "SOLDD6",
+   "venue_id": "panic-room",
+   "night": "2026-11-21",
+   "start": "2026-11-21T19:00:00.000",
+   "end": "2026-11-22T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "soldd6",
+     "name": "SOLDD6",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2566803",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566803"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SOLDD6 (8)",
+     "lieu : Panic Room (palier 1)"
     ]
    }
   },
@@ -27944,20 +28501,6 @@
    "night": "2026-10-30",
    "venue": "YoYo - Palais de Tokyo",
    "photo": "https://i.scdn.co/image/ab6761610000f17878549f737e1b3869cfe7e566"
-  },
-  {
-   "id": "8796225dc745",
-   "name": "TEXTUR",
-   "night": "2026-11-14",
-   "venue": "Panic Room",
-   "photo": "https://i.scdn.co/image/ab6761610000f178cd679db55aebe16ef752db0c"
-  },
-  {
-   "id": "85a4e7cad792",
-   "name": "Komodo",
-   "night": "2026-11-12",
-   "venue": "Rex Club",
-   "photo": "https://i.scdn.co/image/ab6761610000f178680f7ba80c8cb3d350b37d72"
   }
  ],
  "families": [
