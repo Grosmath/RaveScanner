@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-21T23:57:28Z",
+ "generated_at": "2026-10-22T14:23:31Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-10-21",
-  "end": "2027-04-19"
+  "start": "2026-10-22",
+  "end": "2027-04-20"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 214
+   "events": 211
   },
   {
    "id": "piknic",
@@ -75,18 +75,19 @@
   "collectif-mtl",
   "bain-mathieu",
   "theatre-paradoxe",
-  "sans-soleil",
   "1088-rue-clark",
+  "sans-soleil",
   "red-roof-church",
+  "entre-nous",
   "cafe-social-b-hive",
   "subterra",
   "ausgang-plaza",
   "tba-cafe-marigold-1677-avenue-laurier-est-montreal-qc-h2j-1j3",
   "barbossa",
-  "entre-nous",
   "foufounes",
   "sanctuary",
   "cabaret-lion-d-or",
+  "grenade-bar",
   "la-gare-dalhousie",
   "le-ministere",
   "p-tit-ours",
@@ -96,8 +97,7 @@
   "breakglass-studios",
   "complexe-sky",
   "tba-the-red-roof-chuch-132-av-president-kennedy",
-  "union-francaise-de-montreal",
-  "usine-c"
+  "union-francaise-de-montreal"
  ],
  "venues": [
   {
@@ -284,6 +284,16 @@
     "industrial",
     "punk"
    ]
+  },
+  {
+   "id": "grenade-bar",
+   "name": "Grenade Bar",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "hall-est-du-stade-olympique",
@@ -720,16 +730,6 @@
    "genres": []
   },
   {
-   "id": "usine-c",
-   "name": "Usine C",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "vino-disco",
    "name": "Vino Disco",
    "type": "club",
@@ -772,16 +772,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "0mizs",
-   "name": "0MIZS",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2123,16 +2113,6 @@
    "known": false
   },
   {
-   "id": "dj-set",
-   "name": "DJ set",
-   "tier": 0,
-   "score": 26,
-   "popularity": 26,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178fd5991b193cdb1c9b4ff5620",
-   "known": false
-  },
-  {
    "id": "dj-snake",
    "name": "DJ Snake",
    "tier": 0,
@@ -2433,16 +2413,6 @@
    "known": false
   },
   {
-   "id": "exzald-s",
-   "name": "Exzald S",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17872cbd1939c9f0fe560ec9251",
-   "known": false
-  },
-  {
    "id": "fangsie",
    "name": "fangsie",
    "tier": 0,
@@ -2570,6 +2540,16 @@
    "popularity": 72,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a2d0d7d6550e7c1b504f6ba8",
+   "known": false
+  },
+  {
+   "id": "frequence-commune",
+   "name": "Fréquence Commune",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3219,16 +3199,6 @@
    "known": false
   },
   {
-   "id": "jordan-gardner",
-   "name": "Jordan Gardner",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178880d66b183a36d13009c9e82",
-   "known": false
-  },
-  {
    "id": "joseph-crime",
    "name": "Joseph Crime",
    "tier": 0,
@@ -3286,26 +3256,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "k657",
-   "name": "K657",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1781d342c022a2956301a5613bb",
-   "known": false
-  },
-  {
-   "id": "ka-baird",
-   "name": "Ka Baird",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1780f64472c6a50384972697e99",
    "known": false
   },
   {
@@ -4533,16 +4483,6 @@
    "known": false
   },
   {
-   "id": "palmeer",
-   "name": "PALMEER (FR)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "parra-for-cuva",
    "name": "Parra for Cuva",
    "tier": 0,
@@ -4573,13 +4513,13 @@
    "known": false
   },
   {
-   "id": "patche",
-   "name": "Patche (Live)",
+   "id": "patch",
+   "name": "Patch",
    "tier": 0,
-   "score": 8,
-   "popularity": null,
+   "score": 43,
+   "popularity": 43,
    "genres": [],
-   "image": "",
+   "image": "https://i.scdn.co/image/ab6761610000f1789443b468bb6d1dbfedbad9ab",
    "known": false
   },
   {
@@ -4615,6 +4555,16 @@
   {
    "id": "philippa-pacho",
    "name": "Philippa Pacho",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "pio-bandgi",
+   "name": "Pio Bandgi",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5543,6 +5493,16 @@
    "known": false
   },
   {
+   "id": "ultreme",
+   "name": "Ultreme",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "ume",
    "name": "UME (CAN)",
    "tier": 0,
@@ -5924,244 +5884,6 @@
   }
  ],
  "events": [
-  {
-   "id": "dc5eb5ad84c7",
-   "title": "Patche (Live) + DJ set",
-   "venue_id": "systeme",
-   "night": "2026-10-21",
-   "start": "2026-10-21T22:00:00.000",
-   "end": "2026-10-22T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dj-set",
-     "name": "DJ set",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "patche",
-     "name": "Patche (Live)",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electro",
-    "pop"
-   ],
-   "families": [
-    "Électro & bass",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2562893",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2562893"
-    }
-   ],
-   "interest": {
-    "score": 25,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DJ set (26)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "ead497f5d720",
-   "title": "0MIZS X PALMEER (FR)",
-   "venue_id": "vino-disco",
-   "night": "2026-10-21",
-   "start": "2026-10-21T22:00:00.000",
-   "end": "2026-10-22T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "0mizs",
-     "name": "0MIZS",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "palmeer",
-     "name": "PALMEER (FR)",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "tech house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2558374",
-   "event_url": "https://ra.co/events/2558374",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2558374"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : 0MIZS (8)",
-     "lieu : Vino Disco (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "23ae82c456bc",
-   "title": "DOWN2TECHNO: Every Wednesday",
-   "venue_id": "le-red-room",
-   "night": "2026-10-21",
-   "start": "2026-10-21T22:00:00.000",
-   "end": "2026-10-22T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "k657",
-     "name": "K657",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2555126",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2555126"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : K657 (0)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "e9036981a3dd",
-   "title": "Sans Soleil w/ Groceries + Jordan Gardner",
-   "venue_id": "sans-soleil",
-   "night": "2026-10-21",
-   "start": "2026-10-21T20:00:00.000",
-   "end": "2026-10-22T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "groceries",
-     "name": "Groceries",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "jordan-gardner",
-     "name": "Jordan Gardner",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2563386",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563386"
-    }
-   ],
-   "interest": {
-    "score": 7,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Groceries (2)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "2df7aba595ac",
-   "title": "Festival Akousma",
-   "venue_id": "usine-c",
-   "night": "2026-10-21",
-   "start": "2026-10-21T19:30:00.000",
-   "end": "2026-10-23T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ka-baird",
-     "name": "Ka Baird",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "exzald-s",
-     "name": "Exzald S",
-     "billing": "support"
-    },
-    {
-     "artist_id": "myriam-bleau",
-     "name": "Myriam Bleau",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "experimental",
-    "drone"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2536023",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2536023"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2536023"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2536023"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Ka Baird (0)",
-     "lieu : Usine C (palier 1)"
-    ]
-   }
-  },
   {
    "id": "2b5253394d88",
    "title": "Stavroz",
@@ -10552,7 +10274,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2565926",
    "event_url": "https://ra.co/events/2565926",
    "image": "",
    "status": "confirmed",
@@ -12307,8 +12029,8 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "patche",
-     "name": "Patche (Live)",
+     "artist_id": "patch",
+     "name": "Patch",
      "billing": "support"
     }
    ],
@@ -12956,6 +12678,54 @@
     "reasons": [
      "tête d'affiche : Fatal Gravity (0)",
      "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "c061ae899613",
+   "title": "SILLON #01: 100% Vinyl with La Rose, Ultreme & Pio Bandgi",
+   "venue_id": "grenade-bar",
+   "night": "2026-11-07",
+   "start": "2026-11-07T22:00:00.000",
+   "end": "2026-11-08T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ultreme",
+     "name": "Ultreme",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "pio-bandgi",
+     "name": "Pio Bandgi",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2567285",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2567285"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ultreme (8)",
+     "lieu : Grenade Bar (palier 1)"
     ]
    }
   },
@@ -15035,6 +14805,47 @@
    }
   },
   {
+   "id": "205f874a17e9",
+   "title": "Fréquence Commune",
+   "venue_id": "entre-nous",
+   "night": "2026-11-21",
+   "start": "2026-11-21T21:00:00.000",
+   "end": "2026-11-22T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "frequence-commune",
+     "name": "Fréquence Commune",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "dubstep"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2567153",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2567153"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Fréquence Commune (8)",
+     "lieu : Entre Nous (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "96c0dbd087b4",
    "title": "Arder:",
    "venue_id": "nwhr",
@@ -16414,12 +16225,12 @@
    ],
    "genres": [
     "house",
-    "electro",
+    "funk / soul",
     "hiphop"
    ],
    "families": [
     "House",
-    "Électro & bass",
+    "Disco & funk",
     "Pop & club"
    ],
    "price_min": null,
@@ -17429,7 +17240,7 @@
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/3100650497297E1A?lang=fr-ca&brand=mtelus",
    "event_url": "https://evenko.ca/fr/evenements/mtelus/northern-invasion?code=e008879",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/47Eu9ddvpNsLqDdRLgxTP4/437719be83d3644982236b8635e28db6/northern_invasion_2027.jpg",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/4JyIVqaLQpLel5V3oo1gZ7/e20e66f423ead112cbe2e0d1af17693d/northern_invasion_2027.jpg",
    "status": "confirmed",
    "sources": [
     {
@@ -18173,21 +17984,6 @@
   },
   {
    "kind": "event",
-   "day": "SAM 24 OCT",
-   "title": "Luch (All Night Long)",
-   "venue": "Stereo",
-   "time": "23:59 → 09:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5ebdf64bb4f8dffa3f27ec389f7",
-   "event_id": "bb9696603479"
-  },
-  {
-   "kind": "event",
    "day": "VEN 30 OCT",
    "title": "Bob Sinclar",
    "venue": "New City Gas",
@@ -18308,18 +18104,33 @@
   },
   {
    "kind": "event",
-   "day": "SAM 14 NOV",
-   "title": "Miss Monique",
+   "day": "VEN 20 NOV",
+   "title": "MALIVE",
    "venue": "New City Gas",
    "time": "22:00 → 03:00",
-   "tier": 2,
+   "tier": 3,
    "reason": "",
-   "supports": "Henri Bergmann, STRIKE BLIND",
+   "supports": "Ekho, Mezz",
    "subtitle": "",
    "footer": "",
    "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5ebb8028862eeb5ccaf303d71ce",
-   "event_id": "2757a431a3f6"
+   "photo": "https://i.scdn.co/image/ab6761610000e5ebdf90c83a6f5518167f1da889",
+   "event_id": "7844d9cc5250"
+  },
+  {
+   "kind": "event",
+   "day": "VEN 20 NOV",
+   "title": "Wooli",
+   "venue": "Hall Est du Stade olympique",
+   "time": "20:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Kai Wachi, HOL!, The Masquerade",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb806d12e80046abfbcd89db44",
+   "event_id": "2dbdbd320425"
   }
  ]
 }
