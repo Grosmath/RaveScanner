@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-22T14:23:31Z",
+ "generated_at": "2026-10-22T23:56:22Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 211
+   "events": 212
   },
   {
    "id": "piknic",
@@ -61,6 +61,7 @@
   "stereo-bar",
   "nwhr",
   "salon-badin",
+  "tba-montreal",
   "le-red-room",
   "le-ritz",
   "l-escogriffe-bar-spectacle",
@@ -668,6 +669,16 @@
   {
    "id": "tba-mile-ex",
    "name": "TBA - Mile-Ex",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "tba-montreal",
+   "name": "TBA - Montreal",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1750,6 +1761,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d019cc35b913d69a34a0775c",
+   "known": false
+  },
+  {
+   "id": "cori",
+   "name": "cori",
+   "tier": 0,
+   "score": 4,
+   "popularity": 4,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/836072ae24d005dee5aa2711f2df6473/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3003,6 +3024,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "iration-steppas",
+   "name": "Iration Steppas",
+   "tier": 0,
+   "score": 31,
+   "popularity": 31,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ade992e7a04424d7f201ff5a",
    "known": false
   },
   {
@@ -4350,6 +4381,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485169243a5e9f28da641d1caee7",
+   "known": false
+  },
+  {
+   "id": "o-b-f",
+   "name": "O.B.F",
+   "tier": 0,
+   "score": 58,
+   "popularity": 58,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782c870d65a4841b3f91d98f94",
    "known": false
   },
   {
@@ -12682,8 +12723,8 @@
    }
   },
   {
-   "id": "c061ae899613",
-   "title": "SILLON #01: 100% Vinyl with La Rose, Ultreme & Pio Bandgi",
+   "id": "fa1398af3247",
+   "title": "SILLON #01: Vinyl Only with La Rose, Ultreme & Pio Bandgi",
    "venue_id": "grenade-bar",
    "night": "2026-11-07",
    "start": "2026-11-07T22:00:00.000",
@@ -12784,6 +12825,11 @@
      "artist_id": "nina-kraviz",
      "name": "Nina Kraviz",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "cori",
+     "name": "cori",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -15338,6 +15384,54 @@
    }
   },
   {
+   "id": "d125311cfc26",
+   "title": "Bridges to Dub presents: Dubwise Sessions 5 with OBF x Iration Steppas",
+   "venue_id": "tba-montreal",
+   "night": "2026-11-28",
+   "start": "2026-11-28T22:00:00.000",
+   "end": "2026-11-29T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "o-b-f",
+     "name": "O.B.F",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "iration-steppas",
+     "name": "Iration Steppas",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "bass",
+    "dub"
+   ],
+   "families": [
+    "Électro & bass",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2567830",
+   "event_url": "https://ra.co/events/2567830",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2567830"
+    }
+   ],
+   "interest": {
+    "score": 48,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : O.B.F (58)",
+     "lieu : TBA - Montreal (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "772e54a2ecc0",
    "title": "Sugar + CPR Annie + wetdogg + DJ Frog",
    "venue_id": "systeme",
@@ -16743,10 +16837,10 @@
     }
    ],
    "genres": [
-    "trance"
+    "house"
    ],
    "families": [
-    "Trance & hard"
+    "House"
    ],
    "price_min": null,
    "currency": "CAD",
@@ -16833,10 +16927,13 @@
     }
    ],
    "genres": [
-    "tech house"
+    "tech house",
+    "disco",
+    "house"
    ],
    "families": [
-    "House"
+    "House",
+    "Disco & funk"
    ],
    "price_min": null,
    "currency": "CAD",
