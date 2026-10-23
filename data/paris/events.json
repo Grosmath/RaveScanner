@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-23T14:08:06Z",
+ "generated_at": "2026-10-23T23:49:11Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 381
+   "events": 386
   },
   {
    "id": "dice",
@@ -39,7 +39,6 @@
   "sacre",
   "parc-des-expositions-paris-nord",
   "magasins-generaux",
-  "t7",
   "djoon",
   "mia-mao",
   "panic-room",
@@ -65,13 +64,13 @@
   "workshow",
   "point-ephemere",
   "la-gaite-lyrique",
+  "petit-bain",
   "le-mazette",
   "main-room",
   "la-maroquinerie",
   "fondation-cartier",
   "le-pop-up-du-label",
   "la-rotonde-stalingrad",
-  "petit-bain",
   "le-consulat-voltaire",
   "nouveau-casino",
   "la-cigale",
@@ -79,6 +78,7 @@
   "le-bateau-phare",
   "chalet-du-lac-bois-de-vincennes",
   "le-trianon",
+  "la-compagnie-1837",
   "zenith-paris-la-villette",
   "bal-chavaux",
   "tba-saint-denis",
@@ -120,7 +120,9 @@
   "alimentation-generale",
   "chalet-du-lac",
   "chateau-ephemere",
+  "chateau-de-longchamp",
   "cite-du-cinema",
+  "club-haussmann",
   "cocobeach-river-island",
   "concorde-atlantique",
   "frequence-paris",
@@ -342,6 +344,16 @@
    "genres": []
   },
   {
+   "id": "chateau-de-longchamp",
+   "name": "Château de Longchamp",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "chateau-ephemere",
    "name": "Chateau Ephémère",
    "type": "club",
@@ -364,6 +376,16 @@
   {
    "id": "cite-du-cinema",
    "name": "Cité du Cinéma",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "club-haussmann",
+   "name": "Club Haussmann",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -609,6 +631,16 @@
     "house",
     "techno"
    ]
+  },
+  {
+   "id": "la-compagnie-1837",
+   "name": "La Compagnie 1837",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "la-defense-arena",
@@ -1257,18 +1289,6 @@
    "address": "",
    "url": "",
    "genres": []
-  },
-  {
-   "id": "t7",
-   "name": "T7",
-   "type": "club",
-   "tier": 2,
-   "capacity": 1500,
-   "address": "7 Avenue de la Porte de Pantin, 75019",
-   "url": "",
-   "genres": [
-    "techno"
-   ]
   },
   {
    "id": "tba",
@@ -4612,6 +4632,16 @@
    "known": false
   },
   {
+   "id": "gomez",
+   "name": "Gomez",
+   "tier": 0,
+   "score": 50,
+   "popularity": 50,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67726900008f7435d6cced3beb43da6a850b83",
+   "known": false
+  },
+  {
    "id": "grand-v",
    "name": "Grand V",
    "tier": 0,
@@ -5785,6 +5815,26 @@
    "known": false
   },
   {
+   "id": "la-ch-ck-mother-monster-halloween",
+   "name": "LA CH!CK: MOTHER MONSTER HALLOWEEN",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "la-ch-ck-remembering-brat-summer",
+   "name": "LA CH!CK: REMEMBERING BRAT SUMMER",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "la-scarlette",
    "name": "LA SCARLETTE",
    "tier": 0,
@@ -5895,6 +5945,16 @@
    "known": false
   },
   {
+   "id": "le-grand-royaume-des-tenebres-halloween-2026-chateau-de-longchamp",
+   "name": "Le Grand Royaume Des Ténèbres Halloween 2026 Château de Longchamp",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "le-loup",
    "name": "Le Loup",
    "tier": 0,
@@ -5902,6 +5962,16 @@
    "popularity": 20,
    "genres": [],
    "image": "https://i.scdn.co/image/f444ef83ab61ad72912cef564533a61059553e44",
+   "known": false
+  },
+  {
+   "id": "le-plus-grand-chateau-hante-de-paris-halloween-party",
+   "name": "Le Plus Grand Château Hanté De Paris Halloween Party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -6292,6 +6362,16 @@
    "popularity": 72,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789981d0fb9b0cfa3ac351be78",
+   "known": false
+  },
+  {
+   "id": "maia-k",
+   "name": "Maia K",
+   "tier": 0,
+   "score": 18,
+   "popularity": 18,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/7514d37a4d087d6ff533dfa55d8ee038/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -7550,6 +7630,16 @@
    "known": false
   },
   {
+   "id": "paris",
+   "name": "PARIS (AU)",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ef7e98e26b3fa64a0950dfb6",
+   "known": false
+  },
+  {
    "id": "paris-roots-cafe",
    "name": "Paris Roots Café",
    "tier": 0,
@@ -8420,16 +8510,6 @@
    "popularity": 44,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b2050313a83525aa405e792d",
-   "known": false
-  },
-  {
-   "id": "showtek",
-   "name": "Showtek",
-   "tier": 0,
-   "score": 79,
-   "popularity": 79,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17872059dbcd979a5edc2e59cf0",
    "known": false
   },
   {
@@ -9786,6 +9866,16 @@
    "known": false
   },
   {
+   "id": "xyears",
+   "name": "XYears",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851e59c00b7874cadd52b2eb01a",
+   "known": false
+  },
+  {
    "id": "yamour",
    "name": "Yamour",
    "tier": 0,
@@ -9907,43 +9997,6 @@
   }
  ],
  "events": [
-  {
-   "id": "7df5a4dab597",
-   "title": "T7: Showtek",
-   "venue_id": "t7",
-   "night": "2026-10-23",
-   "start": "2026-10-23T23:00:00.000",
-   "end": "2026-10-24T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "showtek",
-     "name": "Showtek",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2539829",
-   "event_url": "https://ra.co/events/2539829",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2539829"
-    }
-   ],
-   "interest": {
-    "score": 69,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Showtek (79)",
-     "lieu : T7 (palier 2)"
-    ]
-   }
-  },
   {
    "id": "2b9b2e5108c3",
    "title": "MARATHON!: Eliza Rose, Jeremy Underground, Mayou Picchu, Cabaret Contemporain, Pierrinski",
@@ -14215,6 +14268,47 @@
    }
   },
   {
+   "id": "b2367d9e6d8b",
+   "title": "LA CH!CK: MOTHER MONSTER HALLOWEEN",
+   "venue_id": "badaboum",
+   "night": "2026-10-29",
+   "start": "2026-10-29T23:30:00.000",
+   "end": "2026-10-30T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-ch-ck-mother-monster-halloween",
+     "name": "LA CH!CK: MOTHER MONSTER HALLOWEEN",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "pop"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2568555",
+   "event_url": "https://ra.co/events/2568555",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2568555"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA CH!CK: MOTHER MONSTER HALLOWEEN (8)",
+     "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "3a2358f701cd",
    "title": "Vendredear and Emma DJ",
    "venue_id": "le-poisson-volant",
@@ -16062,6 +16156,59 @@
    }
   },
   {
+   "id": "bec94a37d06a",
+   "title": "NEO TONY LEE & Maia K for Halloween Paris",
+   "venue_id": "la-compagnie-1837",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:30:00.000",
+   "end": "2026-11-01T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "gomez",
+     "name": "Gomez",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "paris",
+     "name": "PARIS (AU)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "maia-k",
+     "name": "Maia K",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "ballroom",
+    "electronica"
+   ],
+   "families": [
+    "House",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2568647",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2568647"
+    }
+   ],
+   "interest": {
+    "score": 42,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Gomez (50)",
+     "lieu : La Compagnie 1837 (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "4db039f25f83",
    "title": "Pentagon X Happiness Therapy: Halloween Edition",
    "venue_id": "la-java",
@@ -16953,6 +17100,92 @@
     "reasons": [
      "tête d'affiche : LE CHALET DES MONSTRES HALLOWEEN PARTY GEANTE (8)",
      "lieu : Chalet du Lac (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "e91be751485f",
+   "title": "Le Grand Royaume Des Ténèbres Halloween 2026 Château de Longchamp",
+   "venue_id": "chateau-de-longchamp",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00.000",
+   "end": "2026-11-01T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "le-grand-royaume-des-tenebres-halloween-2026-chateau-de-longchamp",
+     "name": "Le Grand Royaume Des Ténèbres Halloween 2026 Château de Longchamp",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2568429",
+   "event_url": "https://ra.co/events/2568429",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2568429"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Le Grand Royaume Des Ténèbres Halloween 2026 Château de Longchamp (8)",
+     "lieu : Château de Longchamp (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "e91a4a431a40",
+   "title": "Le Plus Grand Château Hanté De Paris Halloween Party",
+   "venue_id": "club-haussmann",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00.000",
+   "end": "2026-11-01T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "le-plus-grand-chateau-hante-de-paris-halloween-party",
+     "name": "Le Plus Grand Château Hanté De Paris Halloween Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2568446",
+   "event_url": "https://ra.co/events/2568446",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2568446"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Le Plus Grand Château Hanté De Paris Halloween Party (8)",
+     "lieu : Club Haussmann (palier 1)"
     ]
    }
   },
@@ -19933,6 +20166,49 @@
     "reasons": [
      "tête d'affiche : Enzo Leep (14)",
      "lieu : Amaluna Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "cfff5d16789c",
+   "title": "Club Late Music presents XYears",
+   "venue_id": "petit-bain",
+   "night": "2026-11-07",
+   "start": "2026-11-07T23:59:00.000",
+   "end": "2026-11-08T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "xyears",
+     "name": "XYears",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "club"
+   ],
+   "families": [
+    "Pop & club",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2568333",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2568333"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : XYears (0)",
+     "lieu : Petit Bain (palier 2)"
     ]
    }
   },
@@ -23248,6 +23524,47 @@
     "reasons": [
      "tête d'affiche : Hortense de Beauharnais (0)",
      "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "809d01e621b9",
+   "title": "LA CH!CK: REMEMBERING BRAT SUMMER",
+   "venue_id": "badaboum",
+   "night": "2026-11-19",
+   "start": "2026-11-19T23:30:00.000",
+   "end": "2026-11-20T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-ch-ck-remembering-brat-summer",
+     "name": "LA CH!CK: REMEMBERING BRAT SUMMER",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "pop"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2568563",
+   "event_url": "https://ra.co/events/2568563",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2568563"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA CH!CK: REMEMBERING BRAT SUMMER (8)",
+     "lieu : Badaboum (palier 2)"
     ]
    }
   },
@@ -28337,21 +28654,6 @@
   {
    "kind": "event",
    "day": "VEN 23 OCT",
-   "title": "Showtek",
-   "venue": "T7",
-   "time": "23:00 → 06:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb72059dbcd979a5edc2e59cf0",
-   "event_id": "7df5a4dab597"
-  },
-  {
-   "kind": "event",
-   "day": "VEN 23 OCT",
    "title": "Eliza Rose",
    "venue": "Cabaret Sauvage",
    "time": "23:59 → 06:00",
@@ -28483,6 +28785,21 @@
    "footer2": "",
    "photo": "https://cdn-images.dzcdn.net/images/artist/632a1532ee86dedf6efa5fb8e9a385e4/1000x1000-000000-80-0-0.jpg",
    "event_id": "8f33f1b4dd66"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 31 OCT",
+   "title": "Marten Lou",
+   "venue": "Palais Brongniart",
+   "time": "22:00 → 05:30",
+   "tier": 2,
+   "reason": "",
+   "supports": "",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb973d5456d874142c2404a853",
+   "event_id": "6ffcbf99e721"
   },
   {
    "kind": "event",
