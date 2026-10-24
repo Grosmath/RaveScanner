@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-24T13:11:37Z",
+ "generated_at": "2026-10-24T23:02:59Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 354
+   "events": 355
   },
   {
    "id": "dice",
@@ -91,6 +91,7 @@
   "le-bazar",
   "glazart",
   "philharmonie-de-paris",
+  "tba-espace-reuilly-21-rue-julien-antoine-henard-75012-paris",
   "tba-75013",
   "le-klub",
   "folies-pigalle",
@@ -1256,6 +1257,16 @@
   {
    "id": "tba-carburant-60-rue-de-lancry-75010-paris",
    "name": "TBA - Carburant — 60 Rue de Lancry, 75010 Paris",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "tba-espace-reuilly-21-rue-julien-antoine-henard-75012-paris",
+   "name": "TBA - Espace Reuilly - 21 rue Julien Antoine Hénard 75012 Paris",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -8446,6 +8457,16 @@
    "known": false
   },
   {
+   "id": "sylvain",
+   "name": "Sylvain",
+   "tier": 0,
+   "score": 35,
+   "popularity": 35,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e5bf2daa8a99e4694f0e9b4c",
+   "known": false
+  },
+  {
    "id": "taieb-chekir",
    "name": "Taieb Chékir",
    "tier": 0,
@@ -8746,6 +8767,16 @@
    "popularity": 24,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178247165685990e551a1009026",
+   "known": false
+  },
+  {
+   "id": "tonak",
+   "name": "TONAK",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -18275,6 +18306,54 @@
     "reasons": [
      "tête d'affiche : Sweely (50)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "a5991bb659a6",
+   "title": "PARIS LOVES VINYL 17 - 100 000 vinyles - 70 Vendeurs - 8 DJs",
+   "venue_id": "tba-espace-reuilly-21-rue-julien-antoine-henard-75012-paris",
+   "night": "2026-11-08",
+   "start": "2026-11-08T10:00:00.000",
+   "end": "2026-11-08T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sylvain",
+     "name": "Sylvain",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "tonak",
+     "name": "TONAK",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "deep house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2568851",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2568851"
+    }
+   ],
+   "interest": {
+    "score": 31,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Sylvain (35)",
+     "lieu : TBA - Espace Reuilly - 21 rue Julien Antoine Hénard 75012 Paris (palier 1)"
     ]
    }
   },
