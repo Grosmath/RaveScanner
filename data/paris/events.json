@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-25T13:36:55Z",
+ "generated_at": "2026-10-25T23:08:07Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 317
+   "events": 320
   },
   {
    "id": "dice",
@@ -98,10 +98,10 @@
   "ground-control-gare-de-lyon",
   "l-olympia",
   "la-maison-de-la-conversation",
+  "tba",
   "silencio",
   "le-poisson-volant",
   "bourse-de-commerce-pinault-collection",
-  "tba",
   "babour-sauvage",
   "communale-saint-ouen",
   "amaluna-paris",
@@ -126,6 +126,7 @@
   "mira",
   "punk-paradise",
   "tba-carburant-60-rue-de-lancry-75010-paris",
+  "tba-espace-reuilly-paris-12",
   "tba-line-up-secret",
   "tba-secret-location",
   "tba-secret-warehouse",
@@ -1166,6 +1167,16 @@
   {
    "id": "tba-espace-reuilly-21-rue-julien-antoine-henard-75012-paris",
    "name": "TBA - Espace Reuilly - 21 rue Julien Antoine Hénard 75012 Paris",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "tba-espace-reuilly-paris-12",
+   "name": "TBA - Espace Reuilly Paris 12",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -3325,6 +3336,16 @@
    "known": false
   },
   {
+   "id": "esilise",
+   "name": "Esilise",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "etienne-de-crecy",
    "name": "Etienne De Crecy",
    "tier": 0,
@@ -3978,6 +3999,16 @@
    "known": false
   },
   {
+   "id": "hemei",
+   "name": "Hemei",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "hermeth",
    "name": "Hermeth",
    "tier": 0,
@@ -4475,6 +4506,16 @@
    "popularity": 18,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785a9e4745c94406e4e35c10b2",
+   "known": false
+  },
+  {
+   "id": "k0uci",
+   "name": "K0uci",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -6343,6 +6384,16 @@
    "known": false
   },
   {
+   "id": "otezuka",
+   "name": "Otezuka",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785fd121d9f93206eea4a4c465",
+   "known": false
+  },
+  {
    "id": "ottoman-gruw",
    "name": "Ottoman Gruw",
    "tier": 0,
@@ -6920,6 +6971,16 @@
    "popularity": 50,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a27840f1fd5ea1f3e7a1ff05",
+   "known": false
+  },
+  {
+   "id": "sasa",
+   "name": "Sasa (FR)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7873,6 +7934,16 @@
    "popularity": 62,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178136657586494d9b9340b0a94",
+   "known": false
+  },
+  {
+   "id": "ulysse",
+   "name": "Ulysse",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851142e06ed24a3e9f1d35ce8f4",
    "known": false
   },
   {
@@ -10336,6 +10407,59 @@
    }
   },
   {
+   "id": "401abec1de2c",
+   "title": "PSYCHEDELIGHT: FREAKTALES",
+   "venue_id": "tba",
+   "night": "2026-10-30",
+   "start": "2026-10-30T23:00:00.000",
+   "end": "2026-10-31T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "hemei",
+     "name": "Hemei",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "k0uci",
+     "name": "K0uci",
+     "billing": "support"
+    },
+    {
+     "artist_id": "otezuka",
+     "name": "Otezuka",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2569201",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2569201"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Hemei (8)",
+     "lieu : TBA (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "823e5961bac4",
    "title": "Vinyles Market à Boom Boom Villette #8",
    "venue_id": "boom-boom-villette",
@@ -12648,12 +12772,12 @@
    }
   },
   {
-   "id": "60d131526280",
-   "title": "Soichi Terada presents SUMO x APES LIVE AV",
+   "id": "337ed9eba376",
+   "title": "Dure Vie x Gaîté Lyrique : Soichi Terada",
    "venue_id": "la-gaite-lyrique",
    "night": "2026-11-04",
    "start": "2026-11-04T19:30:00.000",
-   "end": "2026-11-05T23:00:00.000",
+   "end": "2026-11-05T23:30:00.000",
    "lineup": [
     {
      "artist_id": "soichi-terada",
@@ -12672,16 +12796,12 @@
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
-   "event_url": "https://ra.co/events/2566293",
+   "event_url": "https://ra.co/events/2563799",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2566293"
-    },
-    {
-     "id": "ra",
      "url": "https://ra.co/events/2563799"
     },
     {
@@ -12691,6 +12811,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2563799"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566293"
     }
    ],
    "interest": {
@@ -15333,6 +15457,49 @@
    }
   },
   {
+   "id": "623ae86383a8",
+   "title": "PARIS LOVES VINYL 17",
+   "venue_id": "tba-espace-reuilly-paris-12",
+   "night": "2026-11-08",
+   "start": "2026-11-08T10:00:00.000",
+   "end": "2026-11-08T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "tonak",
+     "name": "TONAK",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "deep house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2568881",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2568881"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : TONAK (8)",
+     "lieu : TBA - Espace Reuilly Paris 12 (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "78136121d1d9",
    "title": "Pisica: Noise Mafia, DJ GUESTLIST, two girls one mom & More",
    "venue_id": "mia-mao",
@@ -16015,6 +16182,57 @@
     "reasons": [
      "tête d'affiche : Loke Rahbek (14)",
      "lieu : Communale Saint-Ouen (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "4c6c623bb550",
+   "title": "Jeudi Protocol: Ghostface, Uzi Nas, Esilise &More",
+   "venue_id": "mia-mao",
+   "night": "2026-11-12",
+   "start": "2026-11-12T23:00:00.000",
+   "end": "2026-11-13T06:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "esilise",
+     "name": "Esilise",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "sasa",
+     "name": "Sasa (FR)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ulysse",
+     "name": "Ulysse",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2568298",
+   "event_url": "https://ra.co/events/2568298",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2568298"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Esilise (8)",
+     "lieu : Mia Mao (palier 1)"
     ]
    }
   },
