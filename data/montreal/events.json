@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-24T23:02:40Z",
+ "generated_at": "2026-10-25T13:36:31Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-10-24",
-  "end": "2027-04-22"
+  "start": "2026-10-25",
+  "end": "2027-04-23"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 199
+   "events": 180
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 45
+   "events": 40
   }
  ],
  "venue_order": [
@@ -43,13 +43,12 @@
   "igloofest",
   "place-bell",
   "mtelus",
-  "centre-bell",
   "newspeak",
   "studio-td",
-  "stereo",
-  "sat",
   "olympia",
+  "stereo",
   "theatre-fairmount",
+  "sat",
   "systeme",
   "salon-daome",
   "casa-del-popolo",
@@ -58,7 +57,6 @@
   "bar-datcha",
   "sainte-catherine-hall",
   "entrepots-dominion-les",
-  "stereo-bar",
   "tba-montreal",
   "nwhr",
   "le-red-room",
@@ -66,28 +64,26 @@
   "l-escogriffe-bar-spectacle",
   "tba-mile-ex",
   "esc",
-  "le-balcon",
-  "white-wall-studio",
   "les-7-doigts-de-la-main",
   "la-recre",
   "tba-down-by-the-water",
-  "warehouse",
+  "white-wall-studio",
+  "le-balcon",
   "collectif-mtl",
   "theatre-paradoxe",
-  "bain-mathieu",
-  "vino-disco",
   "1088-rue-clark",
-  "salon-badin",
   "red-roof-church",
   "entre-nous",
   "cafe-social-b-hive",
+  "salon-badin",
+  "vino-disco",
   "ausgang-plaza",
+  "warehouse",
   "tba-cafe-marigold-1677-avenue-laurier-est-montreal-qc-h2j-1j3",
-  "barbossa",
   "sanctuary",
   "blue-room",
   "sans-soleil",
-  "subterra",
+  "barbossa",
   "cabaret-lion-d-or",
   "esplanade-tranquille",
   "foufounes",
@@ -96,6 +92,8 @@
   "le-ministere",
   "p-tit-ours",
   "piranha-bar",
+  "subterra",
+  "bain-mathieu",
   "complexe-sky",
   "next-by-house-nation-montreal",
   "tba-the-red-roof-chuch-132-av-president-kennedy",
@@ -199,19 +197,6 @@
    "address": "",
    "url": "",
    "genres": []
-  },
-  {
-   "id": "centre-bell",
-   "name": "Centre Bell",
-   "type": "arena",
-   "tier": 3,
-   "capacity": 21000,
-   "address": "1909 Avenue des Canadiens-de-Montreal",
-   "url": "https://centrebell.ca",
-   "genres": [
-    "mainstream",
-    "edm"
-   ]
   },
   {
    "id": "collectif-mtl",
@@ -612,19 +597,6 @@
    ]
   },
   {
-   "id": "stereo-bar",
-   "name": "Stereo Bar",
-   "type": "bar",
-   "tier": 3,
-   "capacity": 200,
-   "address": "858 Rue Sainte-Catherine E",
-   "url": "https://stereonightclub.net",
-   "genres": [
-    "house",
-    "techno"
-   ]
-  },
-  {
    "id": "studio-td",
    "name": "Studio TD",
    "type": "venue",
@@ -887,26 +859,6 @@
    "known": false
   },
   {
-   "id": "aguma",
-   "name": "Aguma",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851f63dcc89c96360fd402736a3",
-   "known": false
-  },
-  {
-   "id": "aiza",
-   "name": "Aiza",
-   "tier": 0,
-   "score": 3,
-   "popularity": 3,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/c95807b8455c7c9db78190891ae06675/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "akl",
    "name": "AKL!",
    "tier": 0,
@@ -947,16 +899,6 @@
    "known": false
   },
   {
-   "id": "alex-rev",
-   "name": "ALEX REV",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "algarete",
    "name": "Algarete",
    "tier": 0,
@@ -969,16 +911,6 @@
   {
    "id": "alina",
    "name": "Alina (MTL)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "all-your-friends-the-indie-sleaze-dance-party",
-   "name": "All Your Friends - The Indie Sleaze Dance Party",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -1077,16 +1009,6 @@
    "known": false
   },
   {
-   "id": "arielle-roberge",
-   "name": "Arielle Roberge",
-   "tier": 0,
-   "score": 12,
-   "popularity": 12,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17863f2fa13ed4eebbd1be8f0b8",
-   "known": false
-  },
-  {
    "id": "ariovistus",
    "name": "ArioVistus",
    "tier": 0,
@@ -1179,16 +1101,6 @@
    "known": false
   },
   {
-   "id": "aya-nakamura",
-   "name": "Aya Nakamura",
-   "tier": 0,
-   "score": 92,
-   "popularity": 92,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1781b1d1a60a2e95efc4eea8259",
-   "known": false
-  },
-  {
    "id": "aydo8",
    "name": "AYDO8",
    "tier": 0,
@@ -1236,16 +1148,6 @@
    "popularity": 65,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788b7876b45ab80643582a144a",
-   "known": false
-  },
-  {
-   "id": "babaganouschka",
-   "name": "Babaganouschka",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1352,16 +1254,6 @@
    "known": false
   },
   {
-   "id": "biga-ranx",
-   "name": "Biga*Ranx",
-   "tier": 0,
-   "score": 66,
-   "popularity": 66,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178779fca46afca43be8856db6c",
-   "known": false
-  },
-  {
    "id": "biscits",
    "name": "Biscits",
    "tier": 0,
@@ -1438,10 +1330,10 @@
    "id": "brat-star",
    "name": "Brat Star",
    "tier": 0,
-   "score": 30,
-   "popularity": 30,
+   "score": 29,
+   "popularity": 29,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17848dd4985df55be604b204937",
+   "image": "https://i.scdn.co/image/ab6761610000f178abeb54b10aea6d18e1255692",
    "known": false
   },
   {
@@ -1565,16 +1457,6 @@
    "known": false
   },
   {
-   "id": "ced-ullberg",
-   "name": "Ced Ullberg",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "chago-91",
    "name": "chago_91",
    "tier": 0,
@@ -1642,16 +1524,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "city",
-   "name": "CITY",
-   "tier": 0,
-   "score": 50,
-   "popularity": 50,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/697df3c0ee86827d45fda178b144bacf/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1865,16 +1737,6 @@
    "known": false
   },
   {
-   "id": "dante",
-   "name": "DANTE (CA)",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851976d517bf589d3ee9277cff5",
-   "known": false
-  },
-  {
    "id": "david-morales",
    "name": "David Morales",
    "tier": 0,
@@ -1882,16 +1744,6 @@
    "popularity": 69,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17895985c17f4964a0417da944b",
-   "known": false
-  },
-  {
-   "id": "dawny",
-   "name": "dawny",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851491f5b7cc5fce7e92b29bdca",
    "known": false
   },
   {
@@ -2002,16 +1854,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/217dda88979d0006cb2b4a0b31dd5907/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "disorder",
-   "name": "DISORDER",
-   "tier": 0,
-   "score": 8,
-   "popularity": 8,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048518f01a2ed4909f851da1aabaa",
    "known": false
   },
   {
@@ -2132,16 +1974,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048515a3e0d3d66f72160453adbf8",
-   "known": false
-  },
-  {
-   "id": "dj-sprinter",
-   "name": "DJ Sprinter",
-   "tier": 0,
-   "score": 23,
-   "popularity": 23,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1786a06cf4aaa9ec2bbc1eb3d63",
    "known": false
   },
   {
@@ -2418,10 +2250,10 @@
    "id": "fennx",
    "name": "FennX",
    "tier": 0,
-   "score": 32,
-   "popularity": 32,
+   "score": 33,
+   "popularity": 33,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17855219f8df6098ba1387eac19",
+   "image": "https://i.scdn.co/image/ab6761610000f17897bcd0f2d273817e10220b08",
    "known": false
   },
   {
@@ -2452,16 +2284,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17853dd55bfd23007b0a1682348",
-   "known": false
-  },
-  {
-   "id": "flleur",
-   "name": "Flleur",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2585,26 +2407,6 @@
    "known": false
   },
   {
-   "id": "gaelle",
-   "name": "Gaelle",
-   "tier": 0,
-   "score": 41,
-   "popularity": 41,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048515bb4fe1da4e84bf3bba01daa",
-   "known": false
-  },
-  {
-   "id": "gareth-emery",
-   "name": "Gareth Emery",
-   "tier": 0,
-   "score": 69,
-   "popularity": 69,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178ab8b3e2e7218ed4714d64d2f",
-   "known": false
-  },
-  {
    "id": "gaston-fiore",
    "name": "Gaston Fiore",
    "tier": 0,
@@ -2715,16 +2517,6 @@
    "known": false
   },
   {
-   "id": "h1bou",
-   "name": "h1bou",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "h4ssett",
    "name": "H4SSETT",
    "tier": 0,
@@ -2758,8 +2550,8 @@
    "id": "henri-bergmann",
    "name": "Henri Bergmann",
    "tier": 0,
-   "score": 48,
-   "popularity": 48,
+   "score": 52,
+   "popularity": 52,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ef59839b6ee636c7d4fa5bfa",
    "known": false
@@ -3198,16 +2990,6 @@
    "known": false
   },
   {
-   "id": "jwon",
-   "name": "jwon",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "kai-wachi",
    "name": "Kai Wachi",
    "tier": 0,
@@ -3301,16 +3083,6 @@
    "popularity": 72,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1781e7e712ff8502aaeaa0109d6",
-   "known": false
-  },
-  {
-   "id": "kidcrayola",
-   "name": "KidCrayola",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -3537,8 +3309,8 @@
    "id": "loukeman",
    "name": "Loukeman",
    "tier": 0,
-   "score": 52,
-   "popularity": 52,
+   "score": 53,
+   "popularity": 53,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c5e5ca3979afd9a2d021569e",
    "known": false
@@ -3551,26 +3323,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "lsr",
-   "name": "LSR",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/4ea9e8552f2ca734f0d66e7d998d0dd0/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "luch",
-   "name": "Luch (All Night Long)",
-   "tier": 0,
-   "score": 67,
-   "popularity": 67,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178df64bb4f8dffa3f27ec389f7",
    "known": false
   },
   {
@@ -3652,19 +3404,6 @@
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178df90c83a6f5518167f1da889",
    "known": false
-  },
-  {
-   "id": "mall-grab",
-   "name": "Mall Grab",
-   "tier": 3,
-   "score": 70,
-   "popularity": 74,
-   "genres": [
-    "house",
-    "breaks"
-   ],
-   "image": "https://i.scdn.co/image/ab6761610000f1782c2530414271bffa12c9e85b",
-   "known": true
   },
   {
    "id": "manny-m",
@@ -3990,16 +3729,6 @@
    "known": false
   },
   {
-   "id": "mtl-dark-danz-ft-odonis-odonis",
-   "name": ": MTL DARK DANZ ft ODONIS ODONIS",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "myriam-bleau",
    "name": "Myriam Bleau",
    "tier": 0,
@@ -4103,26 +3832,6 @@
    "known": true
   },
   {
-   "id": "nick-cheo",
-   "name": "Nick Cheo",
-   "tier": 0,
-   "score": 37,
-   "popularity": 37,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178a77297df791bc7d6ca56d0e4",
-   "known": false
-  },
-  {
-   "id": "nick-cheo-montreal",
-   "name": "Nick Cheo - Montréal",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "nico-de-andrea",
    "name": "Nico de Andrea",
    "tier": 0,
@@ -4202,16 +3911,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "nosh",
-   "name": "Nosh",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/04eb1f90ac95f5845ffa5e3b95205e4c/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4495,36 +4194,6 @@
    "known": false
   },
   {
-   "id": "poirier",
-   "name": "Poirier",
-   "tier": 0,
-   "score": 49,
-   "popularity": 49,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1786a1604c271ec69ef97e88238",
-   "known": false
-  },
-  {
-   "id": "pom-1",
-   "name": "POM (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "ponsif",
-   "name": "Ponsif",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178d84baf6caacb3cb30e35bbb3",
-   "known": false
-  },
-  {
    "id": "pria",
    "name": "Prïa",
    "tier": 0,
@@ -4705,16 +4374,6 @@
    "known": false
   },
   {
-   "id": "runa",
-   "name": "Runa",
-   "tier": 0,
-   "score": 21,
-   "popularity": 21,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/431b6fac0064b97f10ccb7cbe555a3ee/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "sabafrap",
    "name": "sabafrap",
    "tier": 0,
@@ -4722,16 +4381,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "safia-nihil",
-   "name": "Safia Nihil",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178172d8f58aed4abe4840bdb13",
    "known": false
   },
   {
@@ -4762,16 +4411,6 @@
    "popularity": 22,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178741483fa8a6515a00a7fe63f",
-   "known": false
-  },
-  {
-   "id": "salon-badin-ajibyrd",
-   "name": "Salon Badin: Ajibyrd",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4935,16 +4574,6 @@
    "known": false
   },
   {
-   "id": "slm",
-   "name": "SLM",
-   "tier": 0,
-   "score": 48,
-   "popularity": 48,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178a79300d9812a8febf0720020",
-   "known": false
-  },
-  {
    "id": "smoakland",
    "name": "Smoakland",
    "tier": 0,
@@ -4955,16 +4584,6 @@
    "known": false
   },
   {
-   "id": "sobaka",
-   "name": "SOBAKA",
-   "tier": 0,
-   "score": 30,
-   "popularity": 30,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17824f2881f75b4f09fae489e68",
-   "known": false
-  },
-  {
    "id": "somebody3lse",
    "name": "somebody3lse",
    "tier": 0,
@@ -4972,16 +4591,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "special-k",
-   "name": "Special K (CA)",
-   "tier": 0,
-   "score": 26,
-   "popularity": 26,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1783afe574458dcede70a537461",
    "known": false
   },
   {
@@ -5245,16 +4854,6 @@
    "known": false
   },
   {
-   "id": "toltech",
-   "name": "Toltech",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1784f1449b8d4fcf83c2b887b24",
-   "known": false
-  },
-  {
    "id": "tommy-fleece-montreal",
    "name": "Tommy Fleece - Montréal",
    "tier": 0,
@@ -5312,16 +4911,6 @@
    "popularity": 68,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a8b8bb3cdad637364db0b269",
-   "known": false
-  },
-  {
-   "id": "ugo-banchi",
-   "name": "Ugo Banchi",
-   "tier": 0,
-   "score": 42,
-   "popularity": 42,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17871f12143bbfca32d20f329c7",
    "known": false
   },
   {
@@ -5455,16 +5044,6 @@
    "known": false
   },
   {
-   "id": "vike-king",
-   "name": "VIKE KING",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "virtual-riot",
    "name": "Virtual Riot",
    "tier": 0,
@@ -5512,16 +5091,6 @@
    "popularity": 69,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17828eb3ef8ecd29ca04527dd20",
-   "known": false
-  },
-  {
-   "id": "volvox",
-   "name": "Volvox",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178c4c0e855c52323298acb32a8",
    "known": false
   },
   {
@@ -5736,1084 +5305,6 @@
   }
  ],
  "events": [
-  {
-   "id": "41b74a2ea40f",
-   "title": "Aya Nakamura",
-   "venue_id": "centre-bell",
-   "night": "2026-10-24",
-   "start": "2026-10-24T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "aya-nakamura",
-     "name": "Aya Nakamura",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "slm",
-     "name": "SLM",
-     "billing": "support"
-    },
-    {
-     "artist_id": "gaelle",
-     "name": "Gaelle",
-     "billing": "support"
-    },
-    {
-     "artist_id": "kidcrayola",
-     "name": "KidCrayola",
-     "billing": "support"
-    },
-    {
-     "artist_id": "aiza",
-     "name": "Aiza",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-24-2026/event/310064C5D7869721",
-   "event_url": "https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-24-2026/event/310064C5D7869721",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/aya-nakamura-montreal-quebec-10-24-2026/event/310064C5D7869721"
-    }
-   ],
-   "interest": {
-    "score": 84,
-    "tier": 3,
-    "reasons": [
-     "tête d'affiche : Aya Nakamura (92)",
-     "lieu : Centre Bell (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "681a738f0ee2",
-   "title": "LSR/CITY X",
-   "venue_id": "new-city-gas",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00.000",
-   "end": "2026-10-25T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "gareth-emery",
-     "name": "Gareth Emery",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "city",
-     "name": "CITY",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ced-ullberg",
-     "name": "Ced Ullberg",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lsr",
-     "name": "LSR",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/lsr-city-x-by-gareth-emery-cvmrn-dj-try-188085/",
-   "event_url": "https://ra.co/events/2463273",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2463273"
-    },
-    {
-     "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/lsr-city-x-by-gareth-emery-cvmrn-dj-try-188085/"
-    }
-   ],
-   "interest": {
-    "score": 68,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Gareth Emery (69)",
-     "lieu : New City Gas (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "bb9696603479",
-   "title": "Luch (All Night Long)",
-   "venue_id": "stereo",
-   "night": "2026-10-24",
-   "start": "2026-10-24T23:59:00.000",
-   "end": "2026-10-25T09:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "luch",
-     "name": "Luch (All Night Long)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2548576",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2548576"
-    }
-   ],
-   "interest": {
-    "score": 66,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Luch (All Night Long) (67)",
-     "lieu : Stereo (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "9d14017875c6",
-   "title": "Mall Grab - Montréal",
-   "venue_id": "sat",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00.000",
-   "end": "2026-10-25T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "mall-grab",
-     "name": "Mall Grab",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "dj-cinema-quartier-latin",
-     "name": "DJ Cinéma Quartier Latin",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lia-plutonic",
-     "name": "Lia Plutonic",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "house",
-    "breaks"
-   ],
-   "families": [
-    "Techno",
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2529098",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2529098"
-    }
-   ],
-   "interest": {
-    "score": 62,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Mall Grab (70)",
-     "lieu : SAT (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "d07f30e11aac",
-   "title": "Biga*Ranx",
-   "venue_id": "mtelus",
-   "night": "2026-10-24",
-   "start": "2026-10-24T20:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "biga-ranx",
-     "name": "Biga*Ranx",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "poirier",
-     "name": "Poirier",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/bigaranx-montreal-quebec-10-24-2026/event/3100649C9A9050E5",
-   "event_url": "https://www.ticketmaster.ca/bigaranx-montreal-quebec-10-24-2026/event/3100649C9A9050E5",
-   "image": "https://s1.ticketm.net/dam/a/6cd/209c343f-5e6f-4095-9c81-3f6f7ad586cd_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/bigaranx-montreal-quebec-10-24-2026/event/3100649C9A9050E5"
-    }
-   ],
-   "interest": {
-    "score": 54,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Biga*Ranx (66)",
-     "lieu : MTELUS (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "5c49e88a31b5",
-   "title": "Ugo Banchi (All Night Long)",
-   "venue_id": "stereo-bar",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00.000",
-   "end": "2026-10-25T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ugo-banchi",
-     "name": "Ugo Banchi",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2548622",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2548622"
-    }
-   ],
-   "interest": {
-    "score": 48,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Ugo Banchi (42)",
-     "lieu : Stereo Bar (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "19e422eb868b",
-   "title": "@NICKCHEO the *TOUR* the *MOVIE*",
-   "venue_id": "newspeak",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "nick-cheo",
-     "name": "Nick Cheo",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.universe.com/events/nickcheo-the-tour-the-movie-tickets-94T3DP?ref=ticketmaster",
-   "event_url": "https://www.universe.com/events/nickcheo-the-tour-the-movie-tickets-94T3DP?ref=ticketmaster",
-   "image": "https://s1.ticketm.net/dam/a/11a/fad6ecbe-d56e-4624-ae85-b2ff822f011a_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.universe.com/events/nickcheo-the-tour-the-movie-tickets-94T3DP?ref=ticketmaster"
-    }
-   ],
-   "interest": {
-    "score": 39,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Nick Cheo (37)",
-     "lieu : Newspeak (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "4efa404df2bf",
-   "title": "METAMORPHOSIS with DJ Sprinter: Communal Art Expo & Rave",
-   "venue_id": "warehouse",
-   "night": "2026-10-24",
-   "start": "2026-10-24T21:00:00.000",
-   "end": "2026-10-25T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dj-sprinter",
-     "name": "DJ Sprinter",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "runa",
-     "name": "Runa",
-     "billing": "support"
-    },
-    {
-     "artist_id": "asha-4",
-     "name": "Asha (4)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "jwon",
-     "name": "jwon",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dante",
-     "name": "DANTE (CA)",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "breakbeat",
-    "bass"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2545559",
-   "event_url": "https://ra.co/events/2545559",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2545559"
-    }
-   ],
-   "interest": {
-    "score": 29,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DJ Sprinter (23)",
-     "lieu : Lieu secret / Warehouse (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "daa2271cc3f0",
-   "title": "Source Material",
-   "venue_id": "systeme",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00.000",
-   "end": "2026-10-25T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sobaka",
-     "name": "SOBAKA",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "flleur",
-     "name": "Flleur",
-     "billing": "support"
-    },
-    {
-     "artist_id": "nosh",
-     "name": "Nosh",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dawny",
-     "name": "dawny",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "disco",
-    "house",
-    "electro",
-    "pop"
-   ],
-   "families": [
-    "House",
-    "Électro & bass",
-    "Disco & funk",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2544490",
-   "event_url": "https://ra.co/events/2544490",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544490"
-    }
-   ],
-   "interest": {
-    "score": 28,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : SOBAKA (30)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "5f83e8cf616a",
-   "title": "DARK AREA",
-   "venue_id": "bain-mathieu",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00.000",
-   "end": "2026-10-25T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "special-k",
-     "name": "Special K (CA)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "babaganouschka",
-     "name": "Babaganouschka",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ponsif",
-     "name": "Ponsif",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2493690",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2493690"
-    }
-   ],
-   "interest": {
-    "score": 25,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Special K (CA) (26)",
-     "lieu : Bain Mathieu (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "834bd7c3f7d9",
-   "title": "//CLOUD9\\\\ music show + rave",
-   "venue_id": "esc",
-   "night": "2026-10-24",
-   "start": "2026-10-24T09:30:00.000",
-   "end": "2026-10-25T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "the-bald-girl",
-     "name": "the bald girl",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "nastygloss",
-     "name": "nastygloss",
-     "billing": "support"
-    },
-    {
-     "artist_id": "pom-1",
-     "name": "POM (1)",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "pop"
-   ],
-   "families": [
-    "Techno",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2564651",
-   "event_url": "https://ra.co/events/2564651",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2564651"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : the bald girl (8)",
-     "lieu : ESC (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "c1d3762e853b",
-   "title": "All Your Friends",
-   "venue_id": "theatre-fairmount",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "all-your-friends-the-indie-sleaze-dance-party",
-     "name": "All Your Friends - The Indie Sleaze Dance Party",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.universe.com/events/all-your-friends-tickets-DL9HYB?ref=ticketmaster",
-   "event_url": "https://www.universe.com/events/all-your-friends-tickets-DL9HYB?ref=ticketmaster",
-   "image": "https://s1.ticketm.net/dam/a/be0/e5bdf1fc-e7ea-4589-a4b6-6b76dcbabbe0_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.universe.com/events/all-your-friends-tickets-DL9HYB?ref=ticketmaster"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : All Your Friends - The Indie Sleaze Dance Party (8)",
-     "lieu : Theatre Fairmount (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "78821d22d1e5",
-   "title": "Kinetic",
-   "venue_id": "salon-daome",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:30:00.000",
-   "end": "2026-10-25T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "lara-bee",
-     "name": "Lara Bee",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "high-tech minimal",
-    "house"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2552534",
-   "event_url": "https://ra.co/events/2552534",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552534"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Lara Bee (8)",
-     "lieu : Salon Daome (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "6e2666c68580",
-   "title": "Nick Cheo - Montréal",
-   "venue_id": "newspeak",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00.000",
-   "end": "2026-10-25T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "nick-cheo-montreal",
-     "name": "Nick Cheo - Montréal",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "hip-hop",
-    "club"
-   ],
-   "families": [
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2523092",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2523092"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Nick Cheo - Montréal (8)",
-     "lieu : Newspeak (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "39e2df12f74d",
-   "title": "Vino Disco SATURDAY EXTENDED",
-   "venue_id": "vino-disco",
-   "night": "2026-10-24",
-   "start": "2026-10-24T20:00:00.000",
-   "end": "2026-10-25T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "arielle-roberge",
-     "name": "Arielle Roberge",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "gwinestefani",
-     "name": "Gwinestefani",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2552948",
-   "event_url": "https://ra.co/events/2552948",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552948"
-    }
-   ],
-   "interest": {
-    "score": 15,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Arielle Roberge (12)",
-     "lieu : Vino Disco (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "4145fa1ae13e",
-   "title": "DISORDER/: MTL DARK DANZ ft ODONIS ODONIS",
-   "venue_id": "le-ritz",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00.000",
-   "end": "2026-10-25T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "disorder",
-     "name": "DISORDER",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "mtl-dark-danz-ft-odonis-odonis",
-     "name": ": MTL DARK DANZ ft ODONIS ODONIS",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2563392",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563392"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DISORDER (8)",
-     "lieu : Le Ritz PDB (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "0f5269fd6498",
-   "title": "L'Ultime Soirée Disco Chic",
-   "venue_id": "le-balcon",
-   "night": "2026-10-24",
-   "start": "2026-10-24T20:30:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "l-ultime-soiree-disco-chic",
-     "name": "L'Ultime Soirée Disco Chic",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/lultime-soiree-disco-chic-montreal-quebec-10-24-2026/event/310064EECA5C6E52",
-   "event_url": "https://www.ticketmaster.ca/lultime-soiree-disco-chic-montreal-quebec-10-24-2026/event/310064EECA5C6E52",
-   "image": "https://s1.ticketm.net/dam/a/d01/5cb01496-1393-4297-b165-86bc05c48d01_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/lultime-soiree-disco-chic-montreal-quebec-10-24-2026/event/310064EECA5C6E52"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : L'Ultime Soirée Disco Chic (8)",
-     "lieu : Le Balcon (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "bd4343d73041",
-   "title": "NWHR Invites Volvox [NYC]",
-   "venue_id": "nwhr",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00.000",
-   "end": "2026-10-25T08:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "h1bou",
-     "name": "h1bou",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "kris-tin",
-     "name": "Kris Tin",
-     "billing": "support"
-    },
-    {
-     "artist_id": "volvox",
-     "name": "Volvox",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2544233",
-   "event_url": "https://ra.co/events/2544233",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544233"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : h1bou (8)",
-     "lieu : NWHR (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "6d97efcfbc5a",
-   "title": "Salon Badin: Ajibyrd",
-   "venue_id": "salon-badin",
-   "night": "2026-10-24",
-   "start": "2026-10-24T19:00:00.000",
-   "end": "2026-10-25T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "salon-badin-ajibyrd",
-     "name": "Salon Badin: Ajibyrd",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2565189",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2565189"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Salon Badin: Ajibyrd (8)",
-     "lieu : Salon Badin (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "f7adfaa26936",
-   "title": "Subnoir: Yaya, Noel, Syana",
-   "venue_id": "bar-datcha",
-   "night": "2026-10-24",
-   "start": "2026-10-24T22:00:00.000",
-   "end": "2026-10-25T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "syana",
-     "name": "Syana",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2547795",
-   "event_url": "https://ra.co/events/2547795",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2547795"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Syana (0)",
-     "lieu : Bar Datcha (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "96482857a906",
-   "title": "Techno Crudo",
-   "venue_id": "barbossa",
-   "night": "2026-10-24",
-   "start": "2026-10-24T20:00:00.000",
-   "end": "2026-10-25T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "vike-king",
-     "name": "VIKE KING",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "alex-rev",
-     "name": "ALEX REV",
-     "billing": "support"
-    },
-    {
-     "artist_id": "toltech",
-     "name": "Toltech",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "minimal techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2563920",
-   "event_url": "https://ra.co/events/2563920",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563920"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : VIKE KING (8)",
-     "lieu : Barbossa (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "92fd574f9ddd",
-   "title": "Aguma + Safia Nihil + IRL + Element Kuuda - DOUBLE RELEASE PARTY",
-   "venue_id": "white-wall-studio",
-   "night": "2026-10-24",
-   "start": "2026-10-24T18:00:00.000",
-   "end": "2026-10-24T22:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "aguma",
-     "name": "Aguma",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "safia-nihil",
-     "name": "Safia Nihil",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "ambient",
-    "dub"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2533852",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2533852"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Aguma (0)",
-     "lieu : White Wall Studio (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "0525802f4428",
-   "title": "Sélecteurs vinyles",
-   "venue_id": "subterra",
-   "night": "2026-10-24",
-   "start": "2026-10-24T20:00:00.000",
-   "end": "2026-10-25T00:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "jojoflores",
-     "name": "Jojoflores",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2552894",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552894"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Jojoflores (0)",
-     "lieu : Subterra (palier 1)"
-    ]
-   }
-  },
   {
    "id": "1d748b2b53b3",
    "title": "Mundo Disko x Stereo: Horse Meat Disco (Day Dance)",
@@ -14966,10 +13457,10 @@
     }
    ],
    "interest": {
-    "score": 49,
+    "score": 50,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Loukeman (52)",
+     "tête d'affiche : Loukeman (53)",
      "lieu : Newspeak (palier 2)"
     ]
    }
@@ -17262,36 +15753,6 @@
  "spotlight": [
   {
    "kind": "event",
-   "day": "SAM 24 OCT",
-   "title": "Aya Nakamura",
-   "venue": "Centre Bell",
-   "time": "20:00",
-   "tier": 3,
-   "reason": "Aréna",
-   "supports": "SLM, Gaelle, KidCrayola",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb1b1d1a60a2e95efc4eea8259",
-   "event_id": "41b74a2ea40f"
-  },
-  {
-   "kind": "event",
-   "day": "SAM 24 OCT",
-   "title": "Gareth Emery",
-   "venue": "New City Gas",
-   "time": "22:00 → 03:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "CITY, Ced Ullberg, LSR",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5ebab8b3e2e7218ed4714d64d2f",
-   "event_id": "681a738f0ee2"
-  },
-  {
-   "kind": "event",
    "day": "VEN 30 OCT",
    "title": "Bob Sinclar",
    "venue": "New City Gas",
@@ -17304,6 +15765,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb9bf03e6d3ab7ceb543638845",
    "event_id": "360fb58e2c3c"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 31 OCT",
+   "title": "Max Styler",
+   "venue": "New City Gas",
+   "time": "21:00 → 03:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "JØRD, Andrew Pololos",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5ebddeee9f034ca94bb6a08b66a",
+   "event_id": "fcb73ab631a5"
   },
   {
    "kind": "event",
@@ -17379,6 +15855,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb175df1a8848d8ff67c6d5600",
    "event_id": "8a5402c9c4b9"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 14 NOV",
+   "title": "I Hate Models",
+   "venue": "Hall Est du Stade olympique",
+   "time": "22:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Teletech",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb1a0d54ab853f86eba713585b",
+   "event_id": "5d184e1ab07e"
   },
   {
    "kind": "event",
