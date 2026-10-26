@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-25T23:07:46Z",
+ "generated_at": "2026-10-26T15:55:11Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-10-25",
-  "end": "2027-04-23"
+  "start": "2026-10-26",
+  "end": "2027-04-24"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 181
+   "events": 177
   },
   {
    "id": "piknic",
@@ -46,10 +46,10 @@
   "newspeak",
   "studio-td",
   "olympia",
-  "stereo",
   "theatre-fairmount",
   "sat",
   "systeme",
+  "stereo",
   "salon-daome",
   "casa-del-popolo",
   "s-a-t",
@@ -81,8 +81,8 @@
   "warehouse",
   "tba-cafe-marigold-1677-avenue-laurier-est-montreal-qc-h2j-1j3",
   "sanctuary",
+  "tba-velours-323-ontario-est-montreal",
   "blue-room",
-  "sans-soleil",
   "barbossa",
   "cabaret-lion-d-or",
   "esplanade-tranquille",
@@ -92,11 +92,11 @@
   "le-ministere",
   "p-tit-ours",
   "piranha-bar",
+  "sans-soleil",
   "subterra",
   "savoir-faire",
   "bain-mathieu",
   "complexe-sky",
-  "next-by-house-nation-montreal",
   "tba-the-red-roof-chuch-132-av-president-kennedy",
   "union-francaise-de-montreal"
  ],
@@ -430,16 +430,6 @@
    ]
   },
   {
-   "id": "next-by-house-nation-montreal",
-   "name": "Next by House Nation Montreal",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "nwhr",
    "name": "NWHR",
    "type": "club",
@@ -683,6 +673,16 @@
   {
    "id": "tba-the-red-roof-chuch-132-av-president-kennedy",
    "name": "TBA - The Red Roof Chuch (132 Av President Kennedy)",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "tba-velours-323-ontario-est-montreal",
+   "name": "TBA - Velours 323 Ontario Est Montréal ",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1142,16 +1142,6 @@
    "known": false
   },
   {
-   "id": "b-ugo",
-   "name": "B'UGO",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "baauer",
    "name": "Baauer",
    "tier": 0,
@@ -1245,6 +1235,16 @@
    "known": false
   },
   {
+   "id": "behind-the-fog",
+   "name": "Behind the Fog",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "bell-pierre",
    "name": "bell.pierre",
    "tier": 0,
@@ -1302,6 +1302,16 @@
    "popularity": 58,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17833e502d7a9af1c299abf1f8d",
+   "known": false
+  },
+  {
+   "id": "blvnkspvce",
+   "name": "BLVNKSPVCE",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17864071750d8452e7463342e9e",
    "known": false
   },
   {
@@ -1375,16 +1385,6 @@
    "popularity": 8,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851e2178dd07dd929850208f0ed",
-   "known": false
-  },
-  {
-   "id": "cait",
-   "name": "CAIT.",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1918,16 +1918,6 @@
    "known": false
   },
   {
-   "id": "dj-friend-matgpt",
-   "name": "DJ.Friend MatGPT",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "dj-frog",
    "name": "DJ Frog",
    "tier": 0,
@@ -2018,16 +2008,6 @@
    "known": false
   },
   {
-   "id": "don-barbarino",
-   "name": "Don Barbarino",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178a4f55443eaac3774929eba95",
-   "known": false
-  },
-  {
    "id": "don-barbarino-vs-shelton-cooper",
    "name": "Don Barbarino vs Shelton Cooper",
    "tier": 0,
@@ -2061,20 +2041,10 @@
    "id": "dust-e-1",
    "name": "Dust-E-1",
    "tier": 0,
-   "score": 31,
-   "popularity": 31,
+   "score": 30,
+   "popularity": 30,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b4d47556a7457cd934e199f2",
-   "known": false
-  },
-  {
-   "id": "dusty-fingerz",
-   "name": "Dusty FingerZ",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1786fac2a58e4c8d9580961f964",
    "known": false
   },
   {
@@ -2498,16 +2468,6 @@
    "known": false
   },
   {
-   "id": "gufaah",
-   "name": "Gufaah",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789eb5137f75bec5eaa2328de0",
-   "known": false
-  },
-  {
    "id": "gulod-tanawin",
    "name": "Gulod Tanawin",
    "tier": 0,
@@ -2545,6 +2505,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "halloween",
+   "name": "Halloween",
+   "tier": 0,
+   "score": 13,
+   "popularity": 13,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17894ad9d9b7e4625a099023d57",
    "known": false
   },
   {
@@ -2645,16 +2615,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785e45875d6ddc1737b17b3eb6",
-   "known": false
-  },
-  {
-   "id": "horse-meat-disco",
-   "name": "Horse Meat Disco",
-   "tier": 0,
-   "score": 56,
-   "popularity": 56,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178301f8f153fb5d485418fcefc",
    "known": false
   },
   {
@@ -2828,6 +2788,16 @@
    "popularity": 75,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17844f42433d8924aa0c9ff0878",
+   "known": false
+  },
+  {
+   "id": "j-rom",
+   "name": "J.Rom",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3277,6 +3247,16 @@
    "known": false
   },
   {
+   "id": "level-up",
+   "name": "Level Up",
+   "tier": 0,
+   "score": 57,
+   "popularity": 57,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17869d09de64471e6828da3b367",
+   "known": false
+  },
+  {
    "id": "lexis-music-is-my-sanctuary",
    "name": "Lexis (Music Is My Sanctuary)",
    "tier": 0,
@@ -3660,6 +3640,16 @@
    "known": false
   },
   {
+   "id": "modal-nodes",
+   "name": "Modal Nodes",
+   "tier": 0,
+   "score": 29,
+   "popularity": 29,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e23a1e0110e1ef89bc5da2ab",
+   "known": false
+  },
+  {
    "id": "modeselektor",
    "name": "Modeselektor",
    "tier": 0,
@@ -3677,6 +3667,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782db58ae7d6f9b903b35577ec",
+   "known": false
+  },
+  {
+   "id": "mongrel",
+   "name": "Mongrel",
+   "tier": 0,
+   "score": 35,
+   "popularity": 35,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17891ba43e80257e53f27b66ba8",
    "known": false
   },
   {
@@ -3870,16 +3870,6 @@
    "popularity": 69,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788a631b545e7424116d5013ab",
-   "known": false
-  },
-  {
-   "id": "nihility",
-   "name": "Nihility",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1787a6c9f39f2071ce02827e401",
    "known": false
   },
   {
@@ -4235,16 +4225,6 @@
    "known": false
   },
   {
-   "id": "princesstreatment",
-   "name": "Princesstreatment",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "pulsum",
    "name": "Pulsum",
    "tier": 0,
@@ -4385,16 +4365,6 @@
    "known": false
   },
   {
-   "id": "roland-gonzales",
-   "name": "Roland Gonzales",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851fd5d2ceaeb331469d9c32edc",
-   "known": false
-  },
-  {
    "id": "roudy",
    "name": "ROUDY",
    "tier": 0,
@@ -4402,6 +4372,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/0e8566e41a5865d6aaa2f9b11b4b1352/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "runa",
+   "name": "Runa",
+   "tier": 0,
+   "score": 21,
+   "popularity": 21,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/431b6fac0064b97f10ccb7cbe555a3ee/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4965,16 +4945,6 @@
    "known": false
   },
   {
-   "id": "un-zoo-le-jour",
-   "name": "Un Zoo Le Jour",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178e33e5db36bcf06c523b75238",
-   "known": false
-  },
-  {
    "id": "unkle",
    "name": "Unkle",
    "tier": 0,
@@ -5002,16 +4972,6 @@
    "popularity": 40,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178051c2e98ca4ee3f3dcbef64d",
-   "known": false
-  },
-  {
-   "id": "uzi-soulmeka",
-   "name": "UZI (Soulmeka)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -5336,273 +5296,6 @@
   }
  ],
  "events": [
-  {
-   "id": "1d748b2b53b3",
-   "title": "Mundo Disko x Stereo: Horse Meat Disco (Day Dance)",
-   "venue_id": "stereo",
-   "night": "2026-10-25",
-   "start": "2026-10-25T17:00:00.000",
-   "end": "2026-10-25T23:59:00.000",
-   "lineup": [
-    {
-     "artist_id": "horse-meat-disco",
-     "name": "Horse Meat Disco",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "lost-heroes",
-     "name": "Lost Heroes",
-     "billing": "support"
-    },
-    {
-     "artist_id": "b-ugo",
-     "name": "B'UGO",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2513731",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2513731"
-    }
-   ],
-   "interest": {
-    "score": 58,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Horse Meat Disco (56)",
-     "lieu : Stereo (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "6406f701f31e",
-   "title": "Dahomey T-Dance - Don Barbarino, Uzi, Pattes de Velour",
-   "venue_id": "salon-daome",
-   "night": "2026-10-25",
-   "start": "2026-10-25T18:00:00.000",
-   "end": "2026-10-25T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "uzi-soulmeka",
-     "name": "UZI (Soulmeka)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "don-barbarino",
-     "name": "Don Barbarino",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2560585",
-   "event_url": "https://ra.co/events/2560585",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2560585"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : UZI (Soulmeka) (8)",
-     "lieu : Salon Daome (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "131bf572ad6e",
-   "title": "Proper MTL X DIALD: MORE FYAH",
-   "venue_id": "le-red-room",
-   "night": "2026-10-25",
-   "start": "2026-10-25T21:00:00.000",
-   "end": "2026-10-26T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "cait",
-     "name": "CAIT.",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "nihility",
-     "name": "Nihility",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "garage"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2558189",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2558189"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : CAIT. (8)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "181b21dd94d0",
-   "title": "Canned Heat with Roland Gonzales",
-   "venue_id": "sans-soleil",
-   "night": "2026-10-25",
-   "start": "2026-10-25T20:00:00.000",
-   "end": "2026-10-26T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "roland-gonzales",
-     "name": "Roland Gonzales",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2535155",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2535155"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Roland Gonzales (0)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "61b2a4c2f265",
-   "title": "Systeme Sundays w/ Beiroots Groove Ensemble (NotAnthony & Dusty FingerZ)",
-   "venue_id": "systeme",
-   "night": "2026-10-25",
-   "start": "2026-10-25T21:00:00.000",
-   "end": "2026-10-26T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dusty-fingerz",
-     "name": "Dusty FingerZ",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2544491",
-   "event_url": "https://ra.co/events/2544491",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544491"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Dusty FingerZ (0)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "3dc5bbbc8fd3",
-   "title": "THE DAY AFTER - Daylight - Saison 3",
-   "venue_id": "next-by-house-nation-montreal",
-   "night": "2026-10-25",
-   "start": "2026-10-25T09:00:00.000",
-   "end": "2026-10-25T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "un-zoo-le-jour",
-     "name": "Un Zoo Le Jour",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "progressive house",
-    "tech house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2568115",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2568115"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Un Zoo Le Jour (0)",
-     "lieu : Next by House Nation Montreal (palier 1)"
-    ]
-   }
-  },
   {
    "id": "b305e8fe3be8",
    "title": "5:14 Sessions with ccil [All Night Long - Free]",
@@ -5987,21 +5680,6 @@
      "artist_id": "h4ssett",
      "name": "H4SSETT",
      "billing": "headliner"
-    },
-    {
-     "artist_id": "dj-friend-matgpt",
-     "name": "DJ.Friend MatGPT",
-     "billing": "support"
-    },
-    {
-     "artist_id": "princesstreatment",
-     "name": "Princesstreatment",
-     "billing": "support"
-    },
-    {
-     "artist_id": "gufaah",
-     "name": "Gufaah",
-     "billing": "support"
     }
    ],
    "genres": [],
@@ -8486,6 +8164,49 @@
    }
   },
   {
+   "id": "21126a8b56a6",
+   "title": "Halloween",
+   "venue_id": "tba-velours-323-ontario-est-montreal",
+   "night": "2026-10-31",
+   "start": "2026-10-31T20:00:00.000",
+   "end": "2026-11-01T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "halloween",
+     "name": "Halloween",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "downtempo"
+   ],
+   "families": [
+    "House",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2569387",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2569387"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Halloween (13)",
+     "lieu : TBA - Velours 323 Ontario Est Montréal  (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "ed706290fa62",
    "title": "ACID DREAMS HALLOWEEN [100% vinyl]",
    "venue_id": "le-ritz",
@@ -8905,10 +8626,8 @@
     }
    ],
    "genres": [
-    "high-tech minimal",
-    "house",
-    "minimal",
-    "techno"
+    "techno",
+    "house"
    ],
    "families": [
     "Techno",
@@ -9982,6 +9701,49 @@
    }
   },
   {
+   "id": "d9b4facdae54",
+   "title": "Behind the Fog",
+   "venue_id": "la-recre",
+   "night": "2026-11-07",
+   "start": "2026-11-07T20:00:00.000",
+   "end": "2026-11-08T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "behind-the-fog",
+     "name": "Behind the Fog",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2569262",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2569262"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Behind the Fog (0)",
+     "lieu : La Récré (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "03dd98b99338",
    "title": "Main Maudite & Nights of Worship present: VISITOR",
    "venue_id": "tba-the-red-roof-chuch-132-av-president-kennedy",
@@ -10741,6 +10503,64 @@
    }
   },
   {
+   "id": "e0e9aaa25fa0",
+   "title": "Halte",
+   "venue_id": "systeme",
+   "night": "2026-11-13",
+   "start": "2026-11-13T23:00:00.000",
+   "end": "2026-11-14T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "j-rom",
+     "name": "J.Rom",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "groceries",
+     "name": "Groceries",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ficilio",
+     "name": "Ficilio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kiju",
+     "name": "Kiju",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "bass",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2563780",
+   "event_url": "https://ra.co/events/2563780",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2563780"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : J.Rom (8)",
+     "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "448f1254e40e",
    "title": "Inframundo",
    "venue_id": "entre-nous",
@@ -10894,59 +10714,6 @@
     "reasons": [
      "tête d'affiche : sam blake (8)",
      "lieu : NWHR (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "e0e9aaa25fa0",
-   "title": "Halte",
-   "venue_id": "systeme",
-   "night": "2026-11-13",
-   "start": "2026-11-13T23:00:00.000",
-   "end": "2026-11-14T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "groceries",
-     "name": "Groceries",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ficilio",
-     "name": "Ficilio",
-     "billing": "support"
-    },
-    {
-     "artist_id": "kiju",
-     "name": "Kiju",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "bass",
-    "house"
-   ],
-   "families": [
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2563780",
-   "event_url": "https://ra.co/events/2563780",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563780"
-    }
-   ],
-   "interest": {
-    "score": 7,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Groceries (2)",
-     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -11770,8 +11537,9 @@
     }
    ],
    "genres": [
-    "high-tech minimal",
     "house",
+    "techno",
+    "high-tech minimal",
     "minimal"
    ],
    "families": [
@@ -12259,7 +12027,7 @@
     "score": 28,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Dust-E-1 (31)",
+     "tête d'affiche : Dust-E-1 (30)",
      "lieu : Système (palier 1)"
     ]
    }
@@ -13005,6 +12773,21 @@
     {
      "artist_id": "iration-steppas",
      "name": "Iration Steppas",
+     "billing": "support"
+    },
+    {
+     "artist_id": "runa",
+     "name": "Runa",
+     "billing": "support"
+    },
+    {
+     "artist_id": "asha-4",
+     "name": "Asha (4)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "icky-magdala",
+     "name": "Icky Magdala",
      "billing": "support"
     }
    ],
@@ -15781,6 +15564,60 @@
      "lieu : Theatre Fairmount (palier 2)"
     ]
    }
+  },
+  {
+   "id": "0ad232edd68e",
+   "title": "LEVEL UP",
+   "venue_id": "mtelus",
+   "night": "2027-04-24",
+   "start": "2027-04-24T22:00:00-04:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "level-up",
+     "name": "Level Up",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mongrel",
+     "name": "Mongrel",
+     "billing": "support"
+    },
+    {
+     "artist_id": "modal-nodes",
+     "name": "Modal Nodes",
+     "billing": "support"
+    },
+    {
+     "artist_id": "blvnkspvce",
+     "name": "BLVNKSPVCE",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/event/3100653DEDCE9C8D?lang=fr-ca&brand=mtelus",
+   "event_url": "https://evenko.ca/fr/evenements/mtelus/level-up?code=e009245",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/6yqd9sjGZSNvglDXdzxaoW/8f40718d4669cdc82f632f0e9d054278/Level-Up.png",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "mtelus",
+     "url": "https://evenko.ca/fr/evenements/mtelus/level-up?code=e009245"
+    }
+   ],
+   "interest": {
+    "score": 47,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Level Up (57)",
+     "lieu : MTELUS (palier 1)"
+    ]
+   }
   }
  ],
  "announcements": [
@@ -15797,13 +15634,6 @@
    "night": "2026-11-06",
    "venue": "New City Gas",
    "photo": "https://i.scdn.co/image/ab6761610000f17808faa46da03ce1a1de05e35e"
-  },
-  {
-   "id": "19f846063e8f",
-   "name": "Puzzle",
-   "night": "2026-11-26",
-   "venue": "Système",
-   "photo": "https://i.scdn.co/image/ab6761610000f178cb36591ec141b9ea847f1a54"
   },
   {
    "id": "34b3e4db39f0",
