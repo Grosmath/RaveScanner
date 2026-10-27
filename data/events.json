@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-26T15:55:11Z",
+ "generated_at": "2026-10-27T00:19:29Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-10-26",
-  "end": "2027-04-24"
+  "start": "2026-10-27",
+  "end": "2027-04-25"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 177
+   "events": 180
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 40
+   "events": 39
   }
  ],
  "venue_order": [
@@ -57,11 +57,12 @@
   "bar-datcha",
   "sainte-catherine-hall",
   "entrepots-dominion-les",
+  "sms-514-613-5811-for-location",
   "tba-montreal",
   "nwhr",
   "le-red-room",
-  "le-ritz",
   "l-escogriffe-bar-spectacle",
+  "club-soda",
   "tba-mile-ex",
   "esc",
   "les-7-doigts-de-la-main",
@@ -71,6 +72,7 @@
   "le-balcon",
   "collectif-mtl",
   "theatre-paradoxe",
+  "le-ritz",
   "1088-rue-clark",
   "red-roof-church",
   "entre-nous",
@@ -90,6 +92,7 @@
   "grenade-bar",
   "la-gare-dalhousie",
   "le-ministere",
+  "loft-14",
   "p-tit-ours",
   "piranha-bar",
   "sans-soleil",
@@ -198,6 +201,19 @@
    "address": "",
    "url": "",
    "genres": []
+  },
+  {
+   "id": "club-soda",
+   "name": "Club Soda",
+   "type": "venue",
+   "tier": 2,
+   "capacity": 900,
+   "address": "1225 Boulevard Saint-Laurent",
+   "url": "https://clubsoda.ca",
+   "genres": [
+    "electronic",
+    "bass"
+   ]
   },
   {
    "id": "collectif-mtl",
@@ -379,6 +395,16 @@
   {
    "id": "les-7-doigts-de-la-main",
    "name": "Les 7 Doigts de la Main",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "loft-14",
+   "name": "Loft 14",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -576,6 +602,16 @@
   {
    "id": "savoir-faire",
    "name": "Savoir Faire",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "sms-514-613-5811-for-location",
+   "name": "SMS 514.613.5811 FOR LOCATION",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1215,6 +1251,16 @@
    "known": true
   },
   {
+   "id": "barbara-preisinger",
+   "name": "Barbara Preisinger",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "bass-ship",
    "name": "Bass Ship",
    "tier": 0,
@@ -1495,6 +1541,16 @@
    "popularity": 51,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178233175d2e7f1e20923a7d3e2",
+   "known": false
+  },
+  {
+   "id": "cherry-lena",
+   "name": "Cherry Lena",
+   "tier": 0,
+   "score": 53,
+   "popularity": 53,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dd270fc23234bed8d2adb8b7",
    "known": false
   },
   {
@@ -2711,26 +2767,6 @@
    "known": false
   },
   {
-   "id": "ilykimchi",
-   "name": "ILYKIMCHI",
-   "tier": 0,
-   "score": 42,
-   "popularity": 42,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178c86bb670f52a73da3f89e768",
-   "known": false
-  },
-  {
-   "id": "ilykimchi-montreal",
-   "name": "ilykimchi - Montréal",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "inedit-by-underpulse",
    "name": "INEDIT BY UNDERPULSE",
    "tier": 0,
@@ -3337,6 +3373,16 @@
    "known": false
   },
   {
+   "id": "lunice",
+   "name": "Lunice",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782a8fe95f638e2023b92ea613",
+   "known": false
+  },
+  {
    "id": "m-salaciak",
    "name": "M Salaciak",
    "tier": 0,
@@ -3467,6 +3513,16 @@
    "popularity": 17,
    "genres": [],
    "image": "https://i.scdn.co/image/3bbeb1ad9fbb475c8f8bbeb9d52dcda8ce73ede7",
+   "known": false
+  },
+  {
+   "id": "martinses",
+   "name": "martinses",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178864a92ca0418ae033502ceea",
    "known": false
   },
   {
@@ -3677,6 +3733,16 @@
    "popularity": 35,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17891ba43e80257e53f27b66ba8",
+   "known": false
+  },
+  {
+   "id": "moonshine",
+   "name": "Moonshine",
+   "tier": 0,
+   "score": 63,
+   "popularity": 63,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a7a5c8aa50b56ed279f665b9",
    "known": false
   },
   {
@@ -4175,6 +4241,16 @@
    "known": false
   },
   {
+   "id": "pierre-kwenders",
+   "name": "Pierre Kwenders",
+   "tier": 0,
+   "score": 36,
+   "popularity": 36,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788898b1f7362869d9c25ed147",
+   "known": false
+  },
+  {
    "id": "pio-bandgi",
    "name": "Pio Bandgi",
    "tier": 0,
@@ -4257,16 +4333,6 @@
   {
    "id": "racil",
    "name": "Racil",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "raef",
-   "name": "Raef (US)",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -4435,6 +4501,16 @@
    "known": false
   },
   {
+   "id": "san-farafina",
+   "name": "San Farafina",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "sarah-kay",
    "name": "Sarah Kay",
    "tier": 0,
@@ -4552,6 +4628,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851e13113218d2101f22cf4b478",
+   "known": false
+  },
+  {
+   "id": "sina-bathaie",
+   "name": "Sina Bathaie",
+   "tier": 0,
+   "score": 43,
+   "popularity": 43,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dc65a731cea5dddce9255fe2",
    "known": false
   },
   {
@@ -5102,6 +5188,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "wes-lee",
+   "name": "Wes Lee",
+   "tier": 0,
+   "score": 2,
+   "popularity": 2,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17896c5173576ab2351234d41a8",
    "known": false
   },
   {
@@ -6025,12 +6121,17 @@
    "venue_id": "newspeak",
    "night": "2026-10-30",
    "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T05:00:00.000",
+   "end": "2026-10-31T03:00:00.000",
    "lineup": [
     {
      "artist_id": "baauer",
      "name": "Baauer",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "lunice",
+     "name": "Lunice",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -7242,6 +7343,74 @@
    }
   },
   {
+   "id": "53d3f5a7354a",
+   "title": "Moonshine Halloween",
+   "venue_id": "sms-514-613-5811-for-location",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00.000",
+   "end": "2026-11-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "moonshine",
+     "name": "Moonshine",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "pierre-kwenders",
+     "name": "Pierre Kwenders",
+     "billing": "support"
+    },
+    {
+     "artist_id": "wes-lee",
+     "name": "Wes Lee",
+     "billing": "support"
+    },
+    {
+     "artist_id": "martinses",
+     "name": "martinses",
+     "billing": "support"
+    },
+    {
+     "artist_id": "san-farafina",
+     "name": "San Farafina",
+     "billing": "support"
+    },
+    {
+     "artist_id": "akpossoul",
+     "name": "Akpossoul",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "club",
+    "afro tech"
+   ],
+   "families": [
+    "Afro & latin",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2569811",
+   "event_url": "https://ra.co/events/2569811",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2569811"
+    }
+   ],
+   "interest": {
+    "score": 51,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Moonshine (63)",
+     "lieu : SMS 514.613.5811 FOR LOCATION (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "aa2a53c97da1",
    "title": "Punkdt - Halloween",
    "venue_id": "salon-daome",
@@ -7554,11 +7723,6 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "raef",
-     "name": "Raef (US)",
-     "billing": "support"
-    },
-    {
      "artist_id": "chago-91",
      "name": "chago_91",
      "billing": "support"
@@ -7572,14 +7736,22 @@
      "artist_id": "excalibur",
      "name": "Excalibur",
      "billing": "support"
+    },
+    {
+     "artist_id": "kiju",
+     "name": "Kiju",
+     "billing": "support"
     }
    ],
    "genres": [
+    "bass",
+    "house",
     "jungle",
     "techno"
    ],
    "families": [
     "Techno",
+    "House",
     "Électro & bass"
    ],
    "price_min": null,
@@ -8651,6 +8823,47 @@
     "reasons": [
      "tête d'affiche : Lara Bee (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "11cb4544248e",
+   "title": "Sina Bathaie — White Lotus World Tour: Back Together: Montreal",
+   "venue_id": "club-soda",
+   "night": "2026-11-03",
+   "start": "2026-11-03T19:30:00.000",
+   "end": "2026-11-03T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sina-bathaie",
+     "name": "Sina Bathaie",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "downtempo"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2569737",
+   "event_url": "https://ra.co/events/2569737",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2569737"
+    }
+   ],
+   "interest": {
+    "score": 43,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Sina Bathaie (43)",
+     "lieu : Club Soda (palier 2)"
     ]
    }
   },
@@ -10103,58 +10316,6 @@
    }
   },
   {
-   "id": "c9c43cf3a3cc",
-   "title": "ilykimchi - Montréal",
-   "venue_id": "le-ritz",
-   "night": "2026-11-12",
-   "start": "2026-11-12T19:00:00.000",
-   "end": "2026-11-12T22:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "ilykimchi",
-     "name": "ILYKIMCHI",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ilykimchi-montreal",
-     "name": "ilykimchi - Montréal",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electro",
-    "pop"
-   ],
-   "families": [
-    "Électro & bass",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.universe.com/events/ilykimchi-tickets-9FBTHM?ref=ticketmaster",
-   "event_url": "https://ra.co/events/2544399",
-   "image": "https://s1.ticketm.net/dam/a/230/28741849-09bb-43a8-9607-9cd65942b230_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544399"
-    },
-    {
-     "id": "ticketmaster",
-     "url": "https://www.universe.com/events/ilykimchi-tickets-9FBTHM?ref=ticketmaster"
-    }
-   ],
-   "interest": {
-    "score": 36,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : ILYKIMCHI (42)",
-     "lieu : Le Ritz PDB (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "dba564517bb5",
    "title": "Andie b2b DJ Cooldad, Melek b2b Nad",
    "venue_id": "bar-datcha",
@@ -10999,6 +11160,54 @@
    }
   },
   {
+   "id": "f1ad74874939",
+   "title": "Feelings Mostly: Barbara Preisinger (Tresor/Berlin), MightyKat & Wheelie Houdini",
+   "venue_id": "loft-14",
+   "night": "2026-11-14",
+   "start": "2026-11-14T18:00:00.000",
+   "end": "2026-11-15T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "barbara-preisinger",
+     "name": "Barbara Preisinger",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mightykat",
+     "name": "MightyKat",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2569891",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2569891"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Barbara Preisinger (8)",
+     "lieu : Loft 14 (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "44be76d4e97b",
    "title": "Le Rotary Club + Tapioca Discos",
    "venue_id": "systeme",
@@ -11176,40 +11385,55 @@
    }
   },
   {
-   "id": "efb09ce83318",
-   "title": "Sassy 009",
+   "id": "de75eb4a934c",
+   "title": "Sassy 009 avec Cherry Lena & sineila",
    "venue_id": "l-escogriffe-bar-spectacle",
    "night": "2026-11-17",
    "start": "2026-11-17T20:30:00-05:00",
    "end": null,
    "lineup": [
     {
+     "artist_id": "cherry-lena",
+     "name": "Cherry Lena",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "sassy-009",
      "name": "Sassy 009",
-     "billing": "headliner"
+     "billing": "support"
+    },
+    {
+     "artist_id": "sineila",
+     "name": "sineila",
+     "billing": "support"
     }
    ],
    "genres": [
-    "electronic"
+    "electronica",
+    "experimental",
+    "electro"
    ],
-   "families": [],
+   "families": [
+    "Électro & bass",
+    "Expérimental"
+   ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/sassy-009-montreal-quebec-11-17-2026/event/310064C1E7D5AF50",
-   "event_url": "https://www.ticketmaster.ca/sassy-009-montreal-quebec-11-17-2026/event/310064C1E7D5AF50",
+   "ticket_url": "https://www.ticketmaster.ca/sassy-009-avec-cherry-lena-sineila-montreal-quebec-11-17-2026/event/310064C1E7D5AF50",
+   "event_url": "https://www.ticketmaster.ca/sassy-009-avec-cherry-lena-sineila-montreal-quebec-11-17-2026/event/310064C1E7D5AF50",
    "image": "https://s1.ticketm.net/dam/a/97e/1fd95e4a-2a6e-4041-bf42-74565278297e_SOURCE",
    "status": "confirmed",
    "sources": [
     {
      "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/sassy-009-montreal-quebec-11-17-2026/event/310064C1E7D5AF50"
+     "url": "https://www.ticketmaster.ca/sassy-009-avec-cherry-lena-sineila-montreal-quebec-11-17-2026/event/310064C1E7D5AF50"
     }
    ],
    "interest": {
-    "score": 42,
+    "score": 44,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Sassy 009 (50)",
+     "tête d'affiche : Cherry Lena (53)",
      "lieu : l'Escogriffe Bar Spectacle (palier 1)"
     ]
    }
@@ -12175,6 +12399,51 @@
     "reasons": [
      "tête d'affiche : Gwinestefani (8)",
      "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "5e40fb0c9fd3",
+   "title": "Off Dômesicle x M Pour MTL: Juju le Moko, Moaad BKR et CPR Annie",
+   "venue_id": "sat",
+   "night": "2026-11-21",
+   "start": "2026-11-21T22:00:00.000",
+   "end": "2026-11-22T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "juju-le-moko",
+     "name": "Juju le Moko",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Disco & funk",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2569901",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2569901"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Juju le Moko (8)",
+     "lieu : SAT (palier 2)"
     ]
    }
   },
@@ -13342,7 +13611,8 @@
    ],
    "genres": [
     "afro house",
-    "house"
+    "house",
+    "afro tech"
    ],
    "families": [
     "House",
@@ -15634,13 +15904,6 @@
    "night": "2026-11-06",
    "venue": "New City Gas",
    "photo": "https://i.scdn.co/image/ab6761610000f17808faa46da03ce1a1de05e35e"
-  },
-  {
-   "id": "34b3e4db39f0",
-   "name": "GorillaT",
-   "night": "2027-01-15",
-   "venue": "Studio TD",
-   "photo": "https://i.scdn.co/image/ab6761610000f17808ee4fd0a0f0b52748e5945c"
   }
  ],
  "families": [

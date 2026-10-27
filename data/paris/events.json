@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-26T15:56:49Z",
+ "generated_at": "2026-10-27T00:20:26Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-10-26",
-  "end": "2027-04-24"
+  "start": "2026-10-27",
+  "end": "2027-04-25"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 321
+   "events": 323
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 44
+   "events": 46
   }
  ],
  "venue_order": [
@@ -40,12 +40,12 @@
   "djoon",
   "mia-mao",
   "la-boule-noire",
+  "parc-des-expositions",
   "42-marches",
   "cite-de-la-musique",
   "elysee-montmartre",
   "cabaret-sauvage",
   "miniwax",
-  "parc-des-expositions",
   "kilometre25",
   "la-cite-fertile",
   "palais-brongniart",
@@ -120,6 +120,7 @@
   "cite-du-cinema",
   "club-haussmann",
   "frequence-paris",
+  "l-impasse",
   "larocafe",
   "le-9b",
   "le-chinois",
@@ -524,6 +525,16 @@
     "techno",
     "house"
    ]
+  },
+  {
+   "id": "l-impasse",
+   "name": "L'impasse",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "l-olympia",
@@ -4961,6 +4972,16 @@
    "known": false
   },
   {
+   "id": "la-feve-finis-les-party",
+   "name": "LA FÈVE - FINIS-LES PARTY",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "la-scarlette",
    "name": "LA SCARLETTE",
    "tier": 0,
@@ -6311,6 +6332,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "omaks",
+   "name": "OMAKS",
+   "tier": 0,
+   "score": 50,
+   "popularity": 50,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178de4c803a57c3145da0889bfa",
    "known": false
   },
   {
@@ -7777,6 +7808,16 @@
    "known": false
   },
   {
+   "id": "the-haunted-gallery",
+   "name": "THE HAUNTED GALLERY",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "the-martinez-brothers",
    "name": "The Martinez Brothers",
    "tier": 0,
@@ -7974,6 +8015,16 @@
    "popularity": 9,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/33d6cabd34362dfaa01da0f26cf906e3/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "tresor-paris",
+   "name": "Tresor · Paris",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -8935,6 +8986,47 @@
    }
   },
   {
+   "id": "8b91ff460eda",
+   "title": "LA FÈVE - FINIS-LES PARTY",
+   "venue_id": "la-machine-du-moulin-rouge",
+   "night": "2026-10-29",
+   "start": "2026-10-29T23:59:00.000",
+   "end": "2026-10-30T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-feve-finis-les-party",
+     "name": "LA FÈVE - FINIS-LES PARTY",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "hip-hop"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2569791",
+   "event_url": "https://ra.co/events/2569791",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2569791"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA FÈVE - FINIS-LES PARTY (8)",
+     "lieu : La Machine du Moulin Rouge (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "b2367d9e6d8b",
    "title": "LA CH!CK: MOTHER MONSTER HALLOWEEN",
    "venue_id": "badaboum",
@@ -9048,16 +9140,20 @@
    "families": [
     "Afro & latin"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://dice.fm/event/92v3r6-tropical-after-work-spcial-latino-29th-oct-la-cit-fertile-paris-tickets",
    "event_url": "https://ra.co/events/2569529",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-26/39c6c299-be80-4504-b1e4-81ac23bc106e.jpg?rect=0%2C181%2C1086%2C1086",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2569529"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/92v3r6-tropical-after-work-spcial-latino-29th-oct-la-cit-fertile-paris-tickets"
     }
    ],
    "interest": {
@@ -11534,8 +11630,8 @@
    "title": "Café Croissant & 22recordings - Halloween Edition (16h)",
    "venue_id": "tba-75013",
    "night": "2026-10-31",
-   "start": "2026-10-31T07:00:00.000",
-   "end": "2026-10-31T23:00:00.000",
+   "start": "2026-10-31T12:00:00.000",
+   "end": "2026-10-31T23:59:00.000",
    "lineup": [
     {
      "artist_id": "dizzy",
@@ -12253,6 +12349,45 @@
     "reasons": [
      "tête d'affiche : Shattaween - Afro (8)",
      "lieu : Le Chinois (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "c8a626d2e260",
+   "title": "THE HAUNTED GALLERY",
+   "venue_id": "l-impasse",
+   "night": "2026-10-31",
+   "start": "2026-10-31T21:00:00+01:00",
+   "end": "2026-11-01T02:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "the-haunted-gallery",
+     "name": "THE HAUNTED GALLERY",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/k675x8-the-haunted-gallery-31st-oct-limpasse-paris-tickets",
+   "event_url": "https://dice.fm/event/k675x8-the-haunted-gallery-31st-oct-limpasse-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-24/66c3ec11-f61c-4811-af02-095f306a16c9.jpg?rect=0%2C245%2C1179%2C1179",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/k675x8-the-haunted-gallery-31st-oct-limpasse-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : THE HAUNTED GALLERY (8)",
+     "lieu : L'impasse (palier 1)"
     ]
    }
   },
@@ -22901,6 +23036,43 @@
    }
   },
   {
+   "id": "ccdd5c58c5ce",
+   "title": "Tresor · Paris",
+   "venue_id": "mia-mao",
+   "night": "2026-12-18",
+   "start": "2026-12-18T22:00:00.000",
+   "end": "2026-12-19T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "tresor-paris",
+     "name": "Tresor · Paris",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2569789",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2569789"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Tresor · Paris (8)",
+     "lieu : Mia Mao (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "c5faeca8f216",
    "title": "Organïk XXL 2026 - INDOOR",
    "venue_id": "parc-des-expositions",
@@ -22914,8 +23086,23 @@
      "billing": "headliner"
     },
     {
+     "artist_id": "todiefor",
+     "name": "Todiefor",
+     "billing": "support"
+    },
+    {
+     "artist_id": "eczodia",
+     "name": "ECZODIA",
+     "billing": "support"
+    },
+    {
      "artist_id": "dj-mad-dog",
      "name": "DJ Mad Dog",
+     "billing": "support"
+    },
+    {
+     "artist_id": "omaks",
+     "name": "OMAKS",
      "billing": "support"
     },
     {
@@ -22960,7 +23147,7 @@
     }
    ],
    "interest": {
-    "score": 61,
+    "score": 63,
     "tier": 2,
     "reasons": [
      "tête d'affiche : Krowdexx (67)",
@@ -23887,13 +24074,6 @@
    "photo": "https://i.scdn.co/image/ab6761610000f1781bdf4994664f0ab0e6cfd2ba"
   },
   {
-   "id": "972d4873fda1",
-   "name": "Lana",
-   "night": "2026-11-14",
-   "venue": "La Java",
-   "photo": "https://i.scdn.co/image/ab6761610000f17885dbfda697c02bc156872fcd"
-  },
-  {
    "id": "852e3280ca12",
    "name": "The Martinez Brothers",
    "night": "2026-10-30",
@@ -24078,21 +24258,6 @@
   },
   {
    "kind": "event",
-   "day": "SAM 14 NOV",
-   "title": "Lana",
-   "venue": "La Java",
-   "time": "23:59 → 07:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "Jeremy Weizman, More : Revival, Saverio",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb85dbfda697c02bc156872fcd",
-   "event_id": "972d4873fda1"
-  },
-  {
-   "kind": "event",
    "day": "VEN 20 NOV",
    "title": "Sybil",
    "venue": "Magasins Généraux",
@@ -24105,6 +24270,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/0daf6cbd2c57753fa45f74054d0d6c054e1136d6",
    "event_id": "69eefb69b8a5"
+  },
+  {
+   "kind": "event",
+   "day": "MER 25 NOV",
+   "title": "Bob Sinclar",
+   "venue": "Pavillon Tilsitt",
+   "time": "21:00 → 03:00",
+   "tier": 3,
+   "reason": "",
+   "supports": "",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb9bf03e6d3ab7ceb543638845",
+   "event_id": "2b8e9a31fa7c"
   }
  ]
 }
