@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-27T00:20:26Z",
+ "generated_at": "2026-10-27T15:11:41Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 323
+   "events": 332
   },
   {
    "id": "dice",
@@ -33,12 +33,13 @@
   "104-centquatre",
   "la-java",
   "la-machine-du-moulin-rouge",
+  "mia-mao",
   "sacre",
   "phantom-paris",
   "parc-des-expositions-paris-nord",
   "magasins-generaux",
   "djoon",
-  "mia-mao",
+  "la-bellevilloise",
   "la-boule-noire",
   "parc-des-expositions",
   "42-marches",
@@ -60,11 +61,11 @@
   "petit-bain",
   "glazart",
   "le-mazette",
+  "a-side",
   "panic-room",
   "main-room",
   "la-maroquinerie",
   "fondation-cartier",
-  "la-bellevilloise",
   "le-211",
   "point-ephemere",
   "le-pop-up-du-label",
@@ -121,10 +122,13 @@
   "club-haussmann",
   "frequence-paris",
   "l-impasse",
+  "la-mutinerie",
   "larocafe",
   "le-9b",
   "le-chinois",
+  "le-cirque-electrique",
   "le-discobar",
+  "le-gambetta-club",
   "maison-3",
   "matchplay-society",
   "mira",
@@ -163,6 +167,16 @@
   {
    "id": "a-la-folie-paris",
    "name": "à la Folie Paris",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "a-side",
+   "name": "A-Side",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -700,6 +714,16 @@
    "genres": []
   },
   {
+   "id": "la-mutinerie",
+   "name": "La Mutinerie",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "la-nuit",
    "name": "La Nuit",
    "type": "club",
@@ -816,6 +840,16 @@
    "genres": []
   },
   {
+   "id": "le-cirque-electrique",
+   "name": "Le Cirque Electrique",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "le-consulat-voltaire",
    "name": "Le Consulat Voltaire",
    "type": "club",
@@ -828,6 +862,16 @@
   {
    "id": "le-discobar",
    "name": "Le Discobar",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "le-gambetta-club",
+   "name": "Le Gambetta Club",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1536,7 +1580,7 @@
   },
   {
    "id": "akalex",
-   "name": "AKALEX",
+   "name": "Akalex",
    "tier": 0,
    "score": 43,
    "popularity": 43,
@@ -2027,6 +2071,19 @@
    "known": false
   },
   {
+   "id": "bambii",
+   "name": "Bambii",
+   "tier": 2,
+   "score": 50,
+   "popularity": 57,
+   "genres": [
+    "club",
+    "dancehall"
+   ],
+   "image": "https://i.scdn.co/image/ab6761610000f1781bd63a9190981624ea7e016f",
+   "known": true
+  },
+  {
    "id": "barbara-boeing",
    "name": "Barbara Boeing",
    "tier": 0,
@@ -2179,6 +2236,16 @@
    "known": false
   },
   {
+   "id": "bingo-drag-latino-desacato-a-la-mutinerie",
+   "name": "BINGO DRAG LATINO: DESACATO À La Mutinerie",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "binh",
    "name": "Binh",
    "tier": 0,
@@ -2281,6 +2348,16 @@
   {
    "id": "caribbean-halloween-party",
    "name": "Caribbean Halloween Party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "carole-fe",
+   "name": "Carole Fe",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2519,6 +2596,16 @@
    "known": false
   },
   {
+   "id": "crustasex",
+   "name": "Crustasex",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "curses",
    "name": "Curses",
    "tier": 0,
@@ -2716,6 +2803,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "decoder",
+   "name": "Decoder",
+   "tier": 0,
+   "score": 26,
+   "popularity": 26,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f0ab7f9f64b181c4ba4f4afd",
    "known": false
   },
   {
@@ -3086,6 +3183,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "donna-leake",
+   "name": "Donna Leake",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3769,6 +3876,16 @@
    "known": false
   },
   {
+   "id": "geiste",
+   "name": "GEISTE",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fc83847e942eb33f29532013",
+   "known": false
+  },
+  {
    "id": "gene-on-earth",
    "name": "Gene On Earth",
    "tier": 0,
@@ -4039,6 +4156,16 @@
    "popularity": 36,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783dfd2954c30274b2011d90e4",
+   "known": false
+  },
+  {
+   "id": "heures-troubles-exe",
+   "name": "HEURES TROUBLES.exe",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5392,6 +5519,16 @@
    "known": false
   },
   {
+   "id": "maco-maria",
+   "name": "Maco Maria",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "mad-rey",
    "name": "Mad Rey",
    "tier": 0,
@@ -5892,6 +6029,16 @@
    "known": false
   },
   {
+   "id": "moostik",
+   "name": "Moostik",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fbcee58546e07e1a49c98fb6",
+   "known": false
+  },
+  {
    "id": "more",
    "name": "More",
    "tier": 0,
@@ -5952,13 +6099,13 @@
    "known": false
   },
   {
-   "id": "myd-invites-salute",
-   "name": "MYD INVITES SALUTE",
+   "id": "myd",
+   "name": "Myd",
    "tier": 0,
-   "score": 8,
-   "popularity": null,
+   "score": 67,
+   "popularity": 67,
    "genres": [],
-   "image": "",
+   "image": "https://i.scdn.co/image/ab6761610000f1786a95675caf7f6a92f5c7f286",
    "known": false
   },
   {
@@ -6785,6 +6932,16 @@
    "known": false
   },
   {
+   "id": "quantic",
+   "name": "Quantic",
+   "tier": 0,
+   "score": 73,
+   "popularity": 73,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17871337edb39ba6789777dc44b",
+   "known": false
+  },
+  {
    "id": "quelza",
    "name": "Quelza",
    "tier": 0,
@@ -6945,6 +7102,16 @@
    "known": false
   },
   {
+   "id": "riria",
+   "name": "RIRIA",
+   "tier": 0,
+   "score": 59,
+   "popularity": 59,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178edeeb8d1058265cf5a4a54d0",
+   "known": false
+  },
+  {
    "id": "romane-santarelli",
    "name": "Romane Santarelli",
    "tier": 0,
@@ -7043,6 +7210,19 @@
    "genres": [],
    "image": "",
    "known": false
+  },
+  {
+   "id": "salute",
+   "name": "Salute",
+   "tier": 3,
+   "score": 69,
+   "popularity": 59,
+   "genres": [
+    "uk garage",
+    "club"
+   ],
+   "image": "https://i.scdn.co/image/ab6761610000f178f431bdb80cf96cc5a3926e6c",
+   "known": true
   },
   {
    "id": "sam-karlson",
@@ -7435,6 +7615,16 @@
    "known": false
   },
   {
+   "id": "soyoon",
+   "name": "Soyoon",
+   "tier": 0,
+   "score": 60,
+   "popularity": 60,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789c5731995a04af6e4cf5d746",
+   "known": false
+  },
+  {
    "id": "spectrum-waves-anniversary",
    "name": "Spectrum Waves: Anniversary",
    "tier": 0,
@@ -7635,16 +7825,6 @@
    "known": false
   },
   {
-   "id": "synapse",
-   "name": "Synapse",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789f58c203cb1720e88ae8ddb3",
-   "known": false
-  },
-  {
    "id": "taieb-chekir",
    "name": "Taieb Chékir",
    "tier": 0,
@@ -7752,6 +7932,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17832f63f6b24177081f261fe74",
+   "known": false
+  },
+  {
+   "id": "terreurs-nocturnes-v0-1b",
+   "name": "TERREURS NOCTURNES v0.1b",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -8465,6 +8655,16 @@
    "popularity": 36,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f6260cfe733f5bc86ada7346",
+   "known": false
+  },
+  {
+   "id": "zaltan",
+   "name": "Zaltan",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -10062,6 +10262,52 @@
    }
   },
   {
+   "id": "a72ecd5e9207",
+   "title": "Ma sœur, j'ai raté Halloween",
+   "venue_id": "le-trabendo",
+   "night": "2026-10-30",
+   "start": "2026-10-30T23:59:00.000",
+   "end": "2026-10-31T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "crustasex",
+     "name": "Crustasex",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "aubry",
+     "name": "Aubry",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2570436",
+   "event_url": "https://ra.co/events/2570436",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2570436"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Crustasex (8)",
+     "lieu : Le Trabendo (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "c7adb761e3ab",
    "title": "Spectrum Waves: Closing Station (Nord + Sud)",
    "venue_id": "la-station-gare-des-mines",
@@ -10210,8 +10456,14 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "club",
+    "dancehall"
+   ],
+   "families": [
+    "Afro & latin",
+    "Pop & club"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
@@ -11979,6 +12231,54 @@
    }
   },
   {
+   "id": "c96048373792",
+   "title": "HEURES TROUBLES.exe // TERREURS NOCTURNES v0.1b",
+   "venue_id": "le-gambetta-club",
+   "night": "2026-10-31",
+   "start": "2026-10-31T22:00:00.000",
+   "end": "2026-11-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "heures-troubles-exe",
+     "name": "HEURES TROUBLES.exe",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "terreurs-nocturnes-v0-1b",
+     "name": "TERREURS NOCTURNES v0.1b",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "trance",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2569991",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2569991"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : HEURES TROUBLES.exe (8)",
+     "lieu : Le Gambetta Club (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "ae33aaf9f529",
    "title": "Halloween Party",
    "venue_id": "maison-3",
@@ -13023,12 +13323,12 @@
    }
   },
   {
-   "id": "337ed9eba376",
-   "title": "Dure Vie x Gaîté Lyrique : Soichi Terada",
+   "id": "60d131526280",
+   "title": "Soichi Terada presents SUMO x APES LIVE AV",
    "venue_id": "la-gaite-lyrique",
    "night": "2026-11-04",
    "start": "2026-11-04T19:30:00.000",
-   "end": "2026-11-05T23:30:00.000",
+   "end": "2026-11-05T23:00:00.000",
    "lineup": [
     {
      "artist_id": "soichi-terada",
@@ -13047,16 +13347,12 @@
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
-   "event_url": "https://ra.co/events/2563799",
+   "event_url": "https://ra.co/events/2566293",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2563799"
-    },
-    {
-     "id": "ra",
      "url": "https://ra.co/events/2566293"
     },
     {
@@ -13066,6 +13362,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2566293"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2563799"
     }
    ],
    "interest": {
@@ -13474,6 +13774,65 @@
     "tier": 0,
     "reasons": [
      "tête d'affiche : Mon.To (0)",
+     "lieu : Mia Mao (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "82616750ff90",
+   "title": "MYD INVITES SALUTE, TSHA, AKALEX",
+   "venue_id": "mia-mao",
+   "night": "2026-11-06",
+   "start": "2026-11-06T23:00:00.000",
+   "end": "2026-11-07T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "salute",
+     "name": "Salute",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "myd",
+     "name": "Myd",
+     "billing": "support"
+    },
+    {
+     "artist_id": "akalex",
+     "name": "Akalex",
+     "billing": "support"
+    },
+    {
+     "artist_id": "tasha",
+     "name": "Tasha",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "uk garage",
+    "club"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2543048",
+   "event_url": "https://ra.co/events/2543048",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2543048"
+    }
+   ],
+   "interest": {
+    "score": 59,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Salute (69)",
      "lieu : Mia Mao (palier 1)"
     ]
    }
@@ -14020,57 +14379,6 @@
     "reasons": [
      "tête d'affiche : Young Pulse (36)",
      "lieu : Cabaret Sauvage (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "82616750ff90",
-   "title": "MYD INVITES SALUTE, TSHA, AKALEX",
-   "venue_id": "mia-mao",
-   "night": "2026-11-06",
-   "start": "2026-11-06T23:00:00.000",
-   "end": "2026-11-07T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "akalex",
-     "name": "AKALEX",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "tasha",
-     "name": "Tasha",
-     "billing": "support"
-    },
-    {
-     "artist_id": "myd-invites-salute",
-     "name": "MYD INVITES SALUTE",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electro"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2543048",
-   "event_url": "https://ra.co/events/2543048",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2543048"
-    }
-   ],
-   "interest": {
-    "score": 37,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : AKALEX (43)",
-     "lieu : Mia Mao (palier 1)"
     ]
    }
   },
@@ -16754,6 +17062,98 @@
    }
   },
   {
+   "id": "ebb2e1083b0b",
+   "title": "RA25 x Dig Deep: Free Pop-Up Charity Record Store with a-side",
+   "venue_id": "a-side",
+   "night": "2026-11-13",
+   "start": "2026-11-13T11:00:00.000",
+   "end": "2026-11-14T20:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "soyoon",
+     "name": "Soyoon",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "bambii",
+     "name": "Bambii",
+     "billing": "support"
+    },
+    {
+     "artist_id": "danilo-plessow",
+     "name": "Danilo Plessow",
+     "billing": "support"
+    },
+    {
+     "artist_id": "carole-fe",
+     "name": "Carole Fe",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dj-sundae",
+     "name": "DJ Sundae",
+     "billing": "support"
+    },
+    {
+     "artist_id": "maco-maria",
+     "name": "Maco Maria",
+     "billing": "support"
+    },
+    {
+     "artist_id": "olga-b",
+     "name": "OLGA B.",
+     "billing": "support"
+    },
+    {
+     "artist_id": "tonak",
+     "name": "TONAK",
+     "billing": "support"
+    },
+    {
+     "artist_id": "tweak-soundsystem",
+     "name": "TWEAK SOUNDSYSTEM",
+     "billing": "support"
+    },
+    {
+     "artist_id": "zaltan",
+     "name": "Zaltan",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "club",
+    "dancehall"
+   ],
+   "families": [
+    "Afro & latin",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565650",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565650"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565650"
+    }
+   ],
+   "interest": {
+    "score": 49,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Soyoon (60)",
+     "lieu : A-Side (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "cc0869652fa9",
    "title": "Nosaj Thing & Daito Manabe",
    "venue_id": "la-gaite-lyrique",
@@ -17489,6 +17889,47 @@
     "reasons": [
      "tête d'affiche : SCORPIOS (13)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "fb35910e8ecb",
+   "title": "BINGO DRAG LATINO: DESACATO À La Mutinerie",
+   "venue_id": "la-mutinerie",
+   "night": "2026-11-13",
+   "start": "2026-11-13T20:00:00.000",
+   "end": "2026-11-14T01:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "bingo-drag-latino-desacato-a-la-mutinerie",
+     "name": "BINGO DRAG LATINO: DESACATO À La Mutinerie",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "reggaeton"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2569984",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2569984"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : BINGO DRAG LATINO: DESACATO À La Mutinerie (8)",
+     "lieu : La Mutinerie (palier 1)"
     ]
    }
   },
@@ -18400,11 +18841,6 @@
      "artist_id": "vice-experience",
      "name": "Vice Experience",
      "billing": "headliner"
-    },
-    {
-     "artist_id": "synapse",
-     "name": "Synapse",
-     "billing": "support"
     }
    ],
    "genres": [
@@ -18689,8 +19125,8 @@
    }
   },
   {
-   "id": "c8ef075a3022",
-   "title": "Maria Arnal",
+   "id": "a2163d1dc4f4",
+   "title": "Maria Arnal, GEISTE",
    "venue_id": "badaboum",
    "night": "2026-11-19",
    "start": "2026-11-19T19:30:00.000",
@@ -18700,6 +19136,11 @@
      "artist_id": "maria-arnal",
      "name": "Maria Arnal",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "geiste",
+     "name": "GEISTE",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -21541,6 +21982,49 @@
    }
   },
   {
+   "id": "97f5019bb124",
+   "title": "Ornorm présente ACROBAT",
+   "venue_id": "le-cirque-electrique",
+   "night": "2026-11-28",
+   "start": "2026-11-28T20:00:00.000",
+   "end": "2026-11-29T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "moostik",
+     "name": "Moostik",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2570596",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2570596"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Moostik (8)",
+     "lieu : Le Cirque Electrique (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "fb9e8b7cff60",
    "title": "Lowless Sound System #1 invites Mersel",
    "venue_id": "le-211",
@@ -22139,6 +22623,47 @@
    }
   },
   {
+   "id": "4c91ed4c6ddc",
+   "title": "Decoder - all night long",
+   "venue_id": "essaim",
+   "night": "2026-12-05",
+   "start": "2026-12-05T23:00:00.000",
+   "end": "2026-12-06T06:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "decoder",
+     "name": "Decoder",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2516734",
+   "event_url": "https://ra.co/events/2516734",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2516734"
+    }
+   ],
+   "interest": {
+    "score": 25,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Decoder (26)",
+     "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "2c176cbf1131",
    "title": "Jazzy: Peace & Patience Tour — Central Chapelle",
    "venue_id": "central-chapelle",
@@ -22490,6 +23015,48 @@
     "reasons": [
      "tête d'affiche : Anyma (79)",
      "lieu : Paris La Défense Arena (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "02eb16fc4c1c",
+   "title": "RIRIA presents : FLOATING",
+   "venue_id": "rex-club",
+   "night": "2026-12-12",
+   "start": "2026-12-12T23:59:00.000",
+   "end": "2026-12-13T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "riria",
+     "name": "RIRIA",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "bass",
+    "garage"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2570543",
+   "event_url": "https://ra.co/events/2570543",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2570543"
+    }
+   ],
+   "interest": {
+    "score": 60,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : RIRIA (59)",
+     "lieu : Rex Club (palier 3)"
     ]
    }
   },
@@ -23153,6 +23720,59 @@
      "tête d'affiche : Krowdexx (67)",
      "lieu : Parc Des Expositions (palier 1)",
      "plateau dense"
+    ]
+   }
+  },
+  {
+   "id": "0ee41beca706",
+   "title": "Free Your Funk Xmas Party Power: Quantic & Friends",
+   "venue_id": "la-bellevilloise",
+   "night": "2026-12-19",
+   "start": "2026-12-19T23:00:00.000",
+   "end": "2026-12-20T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "quantic",
+     "name": "Quantic",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "donna-leake",
+     "name": "Donna Leake",
+     "billing": "support"
+    },
+    {
+     "artist_id": "donna-gibson",
+     "name": "Donna Gibson",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "funk / soul"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2570534",
+   "event_url": "https://ra.co/events/2570534",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2570534"
+    }
+   ],
+   "interest": {
+    "score": 59,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Quantic (73)",
+     "lieu : La Bellevilloise (palier 1)"
     ]
    }
   },
@@ -24072,6 +24692,20 @@
    "night": "2026-10-29",
    "venue": "Miniwax",
    "photo": "https://i.scdn.co/image/ab6761610000f1781bdf4994664f0ab0e6cfd2ba"
+  },
+  {
+   "id": "02eb16fc4c1c",
+   "name": "RIRIA",
+   "night": "2026-12-12",
+   "venue": "Rex Club",
+   "photo": "https://i.scdn.co/image/ab6761610000f178edeeb8d1058265cf5a4a54d0"
+  },
+  {
+   "id": "0ee41beca706",
+   "name": "Quantic",
+   "night": "2026-12-19",
+   "venue": "La Bellevilloise",
+   "photo": "https://i.scdn.co/image/ab6761610000f17871337edb39ba6789777dc44b"
   },
   {
    "id": "852e3280ca12",
