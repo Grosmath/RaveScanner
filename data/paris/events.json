@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-28T00:24:09Z",
+ "generated_at": "2026-10-28T15:47:52Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 347
+   "events": 362
   },
   {
    "id": "dice",
@@ -36,13 +36,14 @@
   "la-machine-du-moulin-rouge",
   "mia-mao",
   "sacre",
+  "la-bellevilloise",
   "parc-des-expositions-paris-nord",
   "magasins-generaux",
   "djoon",
-  "la-bellevilloise",
+  "panic-room",
+  "42-marches",
   "la-boule-noire",
   "parc-des-expositions",
-  "42-marches",
   "cite-de-la-musique",
   "elysee-montmartre",
   "cabaret-sauvage",
@@ -57,16 +58,15 @@
   "tba-paris",
   "le-bataclan",
   "workshow",
+  "glazart",
+  "point-ephemere",
   "la-gaite-lyrique",
   "petit-bain",
-  "glazart",
   "le-mazette",
   "a-side",
-  "panic-room",
   "main-room",
   "fondation-cartier",
   "le-211",
-  "point-ephemere",
   "la-maroquinerie",
   "la-cigale",
   "la-rotonde-stalingrad",
@@ -75,17 +75,17 @@
   "virage",
   "la-station-gare-des-mines",
   "nouveau-casino",
+  "cartilage",
   "chalet-du-lac-bois-de-vincennes",
   "le-trianon",
-  "cartilage",
   "la-compagnie-1837",
   "le-grand-dome",
   "zenith-paris-la-villette",
+  "bal-chavaux",
   "tba-saint-denis",
   "dojo-de-paris",
   "le-chinois",
   "la-nuit",
-  "bal-chavaux",
   "la-marbrerie",
   "lafayette-anticipations",
   "bus-palladium",
@@ -100,12 +100,12 @@
   "folies-pigalle",
   "la-peniche-cinema",
   "a-la-folie-paris",
+  "tba",
   "theatre-silvia-monfort",
   "ground-control-gare-de-lyon",
   "l-olympia",
   "wanderlust",
   "la-maison-de-la-conversation",
-  "tba",
   "silencio",
   "le-poisson-volant",
   "bourse-de-commerce-pinault-collection",
@@ -146,6 +146,7 @@
   "centre-culturel-chambre-noire",
   "la-mecanique-ondulatoire",
   "le-hasard-ludique",
+  "le-point-fort-d-aubervilliers",
   "signorvino-pl-saint-michel"
  ],
  "venues": [
@@ -955,6 +956,16 @@
    "genres": []
   },
   {
+   "id": "le-point-fort-d-aubervilliers",
+   "name": "Le point fort d'Aubervilliers",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "le-poisson-volant",
    "name": "Le Poisson Volant",
    "type": "club",
@@ -1494,6 +1505,16 @@
    "known": false
   },
   {
+   "id": "3am",
+   "name": "3AM",
+   "tier": 0,
+   "score": 72,
+   "popularity": 72,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784f63ee1f0c6880045f917407",
+   "known": false
+  },
+  {
    "id": "6ejou",
    "name": "6EJOU",
    "tier": 0,
@@ -1511,6 +1532,16 @@
    "popularity": 43,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784867693cd5d7e84ce0fe729c",
+   "known": false
+  },
+  {
+   "id": "a-l-a-e",
+   "name": "A.L.A.E",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2016,6 +2047,16 @@
    "known": false
   },
   {
+   "id": "audrey-danza",
+   "name": "Audrey Danza",
+   "tier": 0,
+   "score": 16,
+   "popularity": 16,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178085a56bbd40425923545f941",
+   "known": false
+  },
+  {
    "id": "aurian",
    "name": "Aurian",
    "tier": 0,
@@ -2368,6 +2409,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "bnjr",
+   "name": "BNJR",
+   "tier": 0,
+   "score": 5,
+   "popularity": 5,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782bf44e00bc17019009d47160",
    "known": false
   },
   {
@@ -2818,6 +2869,16 @@
    "popularity": 16,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a3afa9937888bddba40a0ad7",
+   "known": false
+  },
+  {
+   "id": "daisylusion",
+   "name": "DAISYLUSION",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3321,6 +3382,16 @@
    "known": false
   },
   {
+   "id": "dj-tallboy",
+   "name": "DJ Tallboy",
+   "tier": 0,
+   "score": 51,
+   "popularity": 51,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ee7474065aa5d10762781333",
+   "known": false
+  },
+  {
    "id": "dje-dje-from-the-block",
    "name": "Djé Djé from the block",
    "tier": 0,
@@ -3388,6 +3459,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17841c8403ca7508317b0b9b2b0",
+   "known": false
+  },
+  {
+   "id": "duperre",
+   "name": "Duperré",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4071,6 +4152,16 @@
    "known": false
   },
   {
+   "id": "gabriel-belabbas",
+   "name": "Gabriel Belabbas",
+   "tier": 0,
+   "score": 36,
+   "popularity": 36,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485152bd0d97df0bcef85730808d",
+   "known": false
+  },
+  {
    "id": "gabrielle-kwarteng",
    "name": "Gabrielle Kwarteng",
    "tier": 0,
@@ -4268,6 +4359,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "groove-solution",
+   "name": "GROOVE SOLUTION",
+   "tier": 0,
+   "score": 8,
+   "popularity": 8,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485138690a438a478c2f7101911e",
    "known": false
   },
   {
@@ -5324,8 +5425,28 @@
    "known": false
   },
   {
+   "id": "la-nik-tes-morts-mourirdeux",
+   "name": "LA 'NIK TES MORTS' Mourirdeux",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "la-scarlette",
    "name": "LA SCARLETTE",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "la-shattarena-11-afro-caribbean-tropical-party",
+   "name": "La Shattarena #11 ~ Afro-Caribbean-Tropical Party",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5714,6 +5835,16 @@
    "known": false
   },
   {
+   "id": "lucifer",
+   "name": "Lucifer",
+   "tier": 0,
+   "score": 29,
+   "popularity": 29,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f64098c7eaa491a5608ab62e",
+   "known": false
+  },
+  {
    "id": "luksek",
    "name": "Luksek",
    "tier": 0,
@@ -5801,6 +5932,16 @@
    "popularity": 26,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783b73e02b0842b11349307db7",
+   "known": false
+  },
+  {
+   "id": "majdolen",
+   "name": "Majdolen",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e98ed92c3f3a7d061d63dec2",
    "known": false
   },
   {
@@ -6153,6 +6294,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178875e26aa89294635b1324523",
+   "known": false
+  },
+  {
+   "id": "michel-lauriola",
+   "name": "Michel Lauriola",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ee8410710245377734050252",
    "known": false
   },
   {
@@ -6939,6 +7090,16 @@
    "known": false
   },
   {
+   "id": "outrebleu",
+   "name": "OUTREBLEU",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "pak-e",
    "name": "PAK-E",
    "tier": 0,
@@ -6986,6 +7147,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "parodia",
+   "name": "Parodia",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851e54c30ce267ed1be58c0a1e0",
    "known": false
   },
   {
@@ -8072,6 +8243,16 @@
    "known": false
   },
   {
+   "id": "stella-k",
+   "name": "Stella K",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "stella-zekri",
    "name": "Stella Zekri",
    "tier": 0,
@@ -8179,6 +8360,16 @@
    "popularity": 35,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e5bf2daa8a99e4694f0e9b4c",
+   "known": false
+  },
+  {
+   "id": "t-aimes-les-roses",
+   "name": "T'AIMES LES ROSES",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -8702,6 +8893,16 @@
    "popularity": 51,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786e6ecf521337e42bb7c227a2",
+   "known": false
+  },
+  {
+   "id": "una",
+   "name": "UNA",
+   "tier": 0,
+   "score": 18,
+   "popularity": 18,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851606cbe64be2ece872469f0b1",
    "known": false
   },
   {
@@ -11800,12 +12001,15 @@
     "bass",
     "hip-hop",
     "club",
-    "ambient",
-    "techno"
+    "afro house",
+    "house",
+    "ambient"
    ],
    "families": [
     "Techno",
+    "House",
     "Électro & bass",
+    "Afro & latin",
     "Pop & club",
     "Expérimental"
    ],
@@ -13336,6 +13540,53 @@
     "reasons": [
      "tête d'affiche : WAYKIKI BOYS (0)",
      "lieu : La Mécanique Ondulatoire (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "5117cb1c5ed5",
+   "title": "Cabaraï",
+   "venue_id": "le-point-fort-d-aubervilliers",
+   "night": "2026-10-31",
+   "start": "2026-10-31T19:30:00.000",
+   "end": "2026-11-01T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "mystique",
+     "name": "Mystique",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571703",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571703"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571703"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Mystique (0)",
+     "lieu : Le point fort d'Aubervilliers (palier 1)"
     ]
    }
   },
@@ -15470,6 +15721,48 @@
    }
   },
   {
+   "id": "d47173940efe",
+   "title": "LA 'NIK TES MORTS' Mourirdeux x Duperré",
+   "venue_id": "cartilage",
+   "night": "2026-11-06",
+   "start": "2026-11-06T23:30:00.000",
+   "end": "2026-11-07T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-nik-tes-morts-mourirdeux",
+     "name": "LA 'NIK TES MORTS' Mourirdeux",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "duperre",
+     "name": "Duperré",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571701",
+   "event_url": "https://ra.co/events/2571701",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571701"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA 'NIK TES MORTS' Mourirdeux (8)",
+     "lieu : Cartilage (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "7c40fd352d54",
    "title": "MYOTIS V",
    "venue_id": "theatre-silvia-monfort",
@@ -16831,6 +17124,54 @@
    }
   },
   {
+   "id": "d1e263dba4bd",
+   "title": "Rex Club presents: Gabriel Belabbas b2b Poggio all night long",
+   "venue_id": "rex-club",
+   "night": "2026-11-10",
+   "start": "2026-11-10T23:59:00.000",
+   "end": "2026-11-11T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "gabriel-belabbas",
+     "name": "Gabriel Belabbas",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "poggio",
+     "name": "Poggio",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2559751",
+   "event_url": "https://ra.co/events/2559751",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2559751"
+    }
+   ],
+   "interest": {
+    "score": 44,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Gabriel Belabbas (36)",
+     "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "5b87ae502211",
    "title": "House in Symphony: Soul Frequency, Onibaku, in aerem, Canapé Bleu",
    "venue_id": "badaboum",
@@ -17019,49 +17360,6 @@
    }
   },
   {
-   "id": "9a3fc911d8d4",
-   "title": "Rex Club presents: Gabriel Belabas b2b Poggio all night long",
-   "venue_id": "rex-club",
-   "night": "2026-11-10",
-   "start": "2026-11-10T23:59:00.000",
-   "end": "2026-11-11T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "poggio",
-     "name": "Poggio",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "minimal"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2559751",
-   "event_url": "https://ra.co/events/2559751",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2559751"
-    }
-   ],
-   "interest": {
-    "score": 24,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Poggio (8)",
-     "lieu : Rex Club (palier 3)"
-    ]
-   }
-  },
-  {
    "id": "d0bf714890a5",
    "title": "Suze Ijó, Eileen, Adri [Djoon X DOKA]",
    "venue_id": "djoon",
@@ -17189,6 +17487,101 @@
     "reasons": [
      "tête d'affiche : Diggers Factory turns 10. Let's make some noise (8)",
      "lieu : Point Ephémère (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "578c6df1148c",
+   "title": "La Shattarena #11 ~ Afro-Caribbean-Tropical Party",
+   "venue_id": "la-bellevilloise",
+   "night": "2026-11-10",
+   "start": "2026-11-10T23:00:00.000",
+   "end": "2026-11-11T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-shattarena-11-afro-caribbean-tropical-party",
+     "name": "La Shattarena #11 ~ Afro-Caribbean-Tropical Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "dancehall",
+    "afrobeats"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571492",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571492"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : La Shattarena #11 ~ Afro-Caribbean-Tropical Party (8)",
+     "lieu : La Bellevilloise (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "533dab268d8a",
+   "title": "AFTER O'CLOCK: YUADA, Michel Lauriola, A.L.A.E. B2B BNJR",
+   "venue_id": "glazart",
+   "night": "2026-11-11",
+   "start": "2026-11-11T06:00:00.000",
+   "end": "2026-11-11T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bnjr",
+     "name": "BNJR",
+     "billing": "headliner",
+     "b2b_with": "a-l-a-e"
+    },
+    {
+     "artist_id": "michel-lauriola",
+     "name": "Michel Lauriola",
+     "billing": "support"
+    },
+    {
+     "artist_id": "a-l-a-e",
+     "name": "A.L.A.E",
+     "billing": "support",
+     "b2b_with": "bnjr"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571507",
+   "event_url": "https://ra.co/events/2571507",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571507"
+    }
+   ],
+   "interest": {
+    "score": 16,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : BNJR (5)",
+     "lieu : Glazart (palier 2)"
     ]
    }
   },
@@ -20764,6 +21157,58 @@
    }
   },
   {
+   "id": "b0e2d32db434",
+   "title": "Club Humide for TDOR",
+   "venue_id": "bal-chavaux",
+   "night": "2026-11-20",
+   "start": "2026-11-20T23:00:00.000",
+   "end": "2026-11-21T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lucifer",
+     "name": "Lucifer",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "stella-k",
+     "name": "Stella K",
+     "billing": "support"
+    },
+    {
+     "artist_id": "majdolen",
+     "name": "Majdolen",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571754",
+   "event_url": "https://ra.co/events/2571754",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571754"
+    }
+   ],
+   "interest": {
+    "score": 27,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lucifer (29)",
+     "lieu : Bal Chavaux (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "260587bc86c1",
    "title": "DARKXROOM",
    "venue_id": "le-klub",
@@ -21865,6 +22310,91 @@
    }
   },
   {
+   "id": "52078c1e34a8",
+   "title": "UNA",
+   "venue_id": "panic-room",
+   "night": "2026-11-25",
+   "start": "2026-11-25T19:00:00.000",
+   "end": "2026-11-26T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "una",
+     "name": "UNA",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571475",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571475"
+    }
+   ],
+   "interest": {
+    "score": 19,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : UNA (18)",
+     "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "489631914bc1",
+   "title": "3AM",
+   "venue_id": "panic-room",
+   "night": "2026-11-26",
+   "start": "2026-11-26T19:00:00.000",
+   "end": "2026-11-27T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "3am",
+     "name": "3AM",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "uk funky"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571626",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571626"
+    }
+   ],
+   "interest": {
+    "score": 58,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : 3AM (72)",
+     "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "378752f4b4cc",
    "title": "LIV DEL ESTAL",
    "venue_id": "elysee-montmartre",
@@ -21985,6 +22515,54 @@
     "reasons": [
      "tête d'affiche : horsegiirL (66)",
      "lieu : Élysée Montmartre (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "23a123bf7b7b",
+   "title": "DJ Tallboy, Westfall, Ayam Dj & More: Born 2 Bounce",
+   "venue_id": "la-java",
+   "night": "2026-11-27",
+   "start": "2026-11-27T23:30:00.000",
+   "end": "2026-11-28T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-tallboy",
+     "name": "DJ Tallboy",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "westfall",
+     "name": "Westfall",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571777",
+   "event_url": "https://ra.co/events/2571777",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571777"
+    }
+   ],
+   "interest": {
+    "score": 49,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : DJ Tallboy (51)",
+     "lieu : La Java (palier 2)"
     ]
    }
   },
@@ -22325,6 +22903,91 @@
     "reasons": [
      "tête d'affiche : Tommy Four Seven (24)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "bb492a691047",
+   "title": "2 years of Better Rave: Audrey Danza, Phelowe, & friends",
+   "venue_id": "42-marches",
+   "night": "2026-11-27",
+   "start": "2026-11-27T23:00:00.000",
+   "end": "2026-11-28T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "audrey-danza",
+     "name": "Audrey Danza",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "trance",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2570159",
+   "event_url": "https://ra.co/events/2570159",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2570159"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Audrey Danza (16)",
+     "lieu : 42 Marches (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "bab39caa148b",
+   "title": "DAISYLUSION",
+   "venue_id": "panic-room",
+   "night": "2026-11-27",
+   "start": "2026-11-27T19:00:00.000",
+   "end": "2026-11-28T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "daisylusion",
+     "name": "DAISYLUSION",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571627",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571627"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DAISYLUSION (8)",
+     "lieu : Panic Room (palier 1)"
     ]
    }
   },
@@ -22929,6 +23592,49 @@
    }
   },
   {
+   "id": "1adec4c17a16",
+   "title": "T'AIMES LES ROSES",
+   "venue_id": "panic-room",
+   "night": "2026-11-28",
+   "start": "2026-11-28T19:00:00.000",
+   "end": "2026-11-29T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "t-aimes-les-roses",
+     "name": "T'AIMES LES ROSES",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "breakbeat",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571637",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571637"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : T'AIMES LES ROSES (8)",
+     "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "fb9e8b7cff60",
    "title": "Lowless Sound System #1 invites Mersel",
    "venue_id": "le-211",
@@ -23151,6 +23857,48 @@
     "reasons": [
      "tête d'affiche : Modestep (57)",
      "lieu : La Maroquinerie (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b469f4226b94",
+   "title": "GROOVE SOLUTION",
+   "venue_id": "panic-room",
+   "night": "2026-12-02",
+   "start": "2026-12-02T19:00:00.000",
+   "end": "2026-12-03T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "groove-solution",
+     "name": "GROOVE SOLUTION",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571643",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571643"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : GROOVE SOLUTION (8)",
+     "lieu : Panic Room (palier 1)"
     ]
    }
   },
@@ -23409,6 +24157,53 @@
     "reasons": [
      "tête d'affiche : ell.iot (8)",
      "lieu : Fréquence Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "d012b76fd68f",
+   "title": "RADIO SOFA x Parodia",
+   "venue_id": "point-ephemere",
+   "night": "2026-12-04",
+   "start": "2026-12-04T23:59:00.000",
+   "end": "2026-12-05T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "radio-sofa",
+     "name": "RADIO SOFA",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "parodia",
+     "name": "Parodia",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "post-punk"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2562629",
+   "event_url": "https://ra.co/events/2562629",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2562629"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : RADIO SOFA (8)",
+     "lieu : Point Ephémère (palier 1)"
     ]
    }
   },
@@ -25348,6 +26143,43 @@
    }
   },
   {
+   "id": "a73da1098f4a",
+   "title": "OUTREBLEU",
+   "venue_id": "tba",
+   "night": "2027-02-06",
+   "start": "2027-02-06T14:00:00.000",
+   "end": "2027-02-07T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "outrebleu",
+     "name": "OUTREBLEU",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571606",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571606"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : OUTREBLEU (8)",
+     "lieu : TBA (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "c5c9752fc190",
    "title": "Better Together : Julian Fijma — Rex Club",
    "venue_id": "rex-club",
@@ -25777,13 +26609,6 @@
  ],
  "announcements": [
   {
-   "id": "928f4860ff90",
-   "name": "Bassjackers",
-   "night": "2027-02-20",
-   "venue": "Phantom, Paris",
-   "photo": "https://i.scdn.co/image/ab6761610000f1785e1bdd182fbd98a3dc841d38"
-  },
-  {
    "id": "c5c9752fc190",
    "name": "Julian Fijma",
    "night": "2027-02-19",
@@ -25805,13 +26630,6 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178edeeb8d1058265cf5a4a54d0"
   },
   {
-   "id": "55d5931ed80e",
-   "name": "Coone",
-   "night": "2026-11-07",
-   "venue": "Phantom, Paris",
-   "photo": "https://i.scdn.co/image/ab6761610000f178016ec9c8653ee0a365389b20"
-  },
-  {
    "id": "0ee41beca706",
    "name": "Quantic",
    "night": "2026-12-19",
@@ -25824,13 +26642,6 @@
    "night": "2026-11-29",
    "venue": "La Cité Fertile",
    "photo": "https://i.scdn.co/image/ab6761610000f178354d3b6bacb847ae6325e9b5"
-  },
-  {
-   "id": "6f2572c92973",
-   "name": "Funk Tribu",
-   "night": "2026-11-20",
-   "venue": "Phantom, Paris",
-   "photo": "https://i.scdn.co/image/ab6761610000f17803d24f1203d1e67917a2737a"
   },
   {
    "id": "09286528560c",

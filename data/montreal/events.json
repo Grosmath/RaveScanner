@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-28T00:22:35Z",
+ "generated_at": "2026-10-28T15:47:02Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 198
+   "events": 209
   },
   {
    "id": "piknic",
@@ -58,13 +58,14 @@
   "sainte-catherine-hall",
   "entrepots-dominion-les",
   "sms-514-613-5811-for-location",
+  "vino-disco",
   "tba-montreal",
   "nwhr",
   "le-red-room",
   "l-escogriffe-bar-spectacle",
+  "esc",
   "club-soda",
   "tba-mile-ex",
-  "esc",
   "le-balcon",
   "les-7-doigts-de-la-main",
   "la-recre",
@@ -80,11 +81,11 @@
   "cafe-social-b-hive",
   "blue-room",
   "salon-badin",
-  "vino-disco",
   "warehouse",
   "tba-cafe-marigold-1677-avenue-laurier-est-montreal-qc-h2j-1j3",
   "sanctuary",
   "tba-velours-323-ontario-est-montreal",
+  "xs-ujo-club",
   "barbossa",
   "cabaret-lion-d-or",
   "esplanade-tranquille",
@@ -97,7 +98,6 @@
   "piranha-bar",
   "sans-soleil",
   "subterra",
-  "savoir-faire",
   "bain-mathieu",
   "complexe-sky",
   "tba-the-red-roof-chuch-132-av-president-kennedy",
@@ -600,16 +600,6 @@
    ]
   },
   {
-   "id": "savoir-faire",
-   "name": "Savoir Faire",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "sms-514-613-5811-for-location",
    "name": "SMS 514.613.5811 FOR LOCATION",
    "type": "club",
@@ -802,6 +792,16 @@
    "address": "",
    "url": "",
    "genres": []
+  },
+  {
+   "id": "xs-ujo-club",
+   "name": "Xs Ujo Club",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   }
  ],
  "artists": [
@@ -976,6 +976,16 @@
    "known": false
   },
   {
+   "id": "ali-coleman",
+   "name": "Ali Coleman",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048517c102ead5ad0ce1e74f0c575",
+   "known": false
+  },
+  {
    "id": "alina",
    "name": "Alina (MTL)",
    "tier": 0,
@@ -1125,6 +1135,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "asia",
+   "name": "ASIA (DE)",
+   "tier": 0,
+   "score": 12,
+   "popularity": 12,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1780ff02f3baabc96ad3cfb4469",
    "known": false
   },
   {
@@ -1411,6 +1431,16 @@
    "known": false
   },
   {
+   "id": "bolarinho",
+   "name": "Bolarinho",
+   "tier": 0,
+   "score": 4,
+   "popularity": 4,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c0dbdd36f789b515875fa04c",
+   "known": false
+  },
+  {
    "id": "bonobo",
    "name": "Bonobo",
    "tier": 0,
@@ -1418,6 +1448,16 @@
    "popularity": 77,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c66e2d7422967d6f6f5ab905",
+   "known": false
+  },
+  {
+   "id": "boomy",
+   "name": "Boomy",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851e84d68f7e825dded10e1bb3f",
    "known": false
   },
   {
@@ -1597,16 +1637,6 @@
    "known": false
   },
   {
-   "id": "chess",
-   "name": "CHESS",
-   "tier": 0,
-   "score": 7,
-   "popularity": 7,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/43926c8040f23ce3655fc914d11fdf79/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "chippy-nonstop",
    "name": "Chippy Nonstop",
    "tier": 0,
@@ -1734,6 +1764,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "colmee",
+   "name": "Colmee",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485119a4aa019e78eb21ab327812",
    "known": false
   },
   {
@@ -2277,6 +2317,16 @@
    "known": false
   },
   {
+   "id": "emn-1",
+   "name": "EMN (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "ens",
    "name": "Ensø",
    "tier": 0,
@@ -2697,6 +2747,16 @@
    "known": false
   },
   {
+   "id": "headquarters",
+   "name": "HEADQUARTERS",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f24fface0527834e31a1673a",
+   "known": false
+  },
+  {
    "id": "henri-bergmann",
    "name": "Henri Bergmann",
    "tier": 0,
@@ -3010,13 +3070,13 @@
    "known": false
   },
   {
-   "id": "jazz",
-   "name": "JAZZ",
+   "id": "jean-pascal-groove",
+   "name": "Jean Pascal Groove",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178ebfd4d64802f677550747fd4",
+   "image": "",
    "known": false
   },
   {
@@ -3356,6 +3416,16 @@
    "known": false
   },
   {
+   "id": "layz-presente-outnumbed-tour",
+   "name": "LAYZ présente: OUTNUMBED Tour",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "le-red-room",
    "name": "Le Red Room",
    "tier": 0,
@@ -3596,6 +3666,16 @@
    "known": false
   },
   {
+   "id": "malka",
+   "name": "MALKA (CA)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "manny-m",
    "name": "Manny M",
    "tier": 0,
@@ -3613,6 +3693,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851ca2018047df702f5e27367c5",
+   "known": false
+  },
+  {
+   "id": "manuel-falardeau",
+   "name": "Manuel Falardeau",
+   "tier": 0,
+   "score": 36,
+   "popularity": 36,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17887537f746042c1867ee666d3",
    "known": false
   },
   {
@@ -4494,6 +4584,16 @@
    "known": false
   },
   {
+   "id": "pom-1",
+   "name": "POM (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "pria",
    "name": "Prïa",
    "tier": 0,
@@ -4521,6 +4621,16 @@
    "popularity": 74,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178cb36591ec141b9ea847f1a54",
+   "known": false
+  },
+  {
+   "id": "pyromane",
+   "name": "Pyromane",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/ef96bda54957c9f61f3cff194483ac71/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4914,6 +5024,16 @@
    "known": false
   },
   {
+   "id": "sobaka",
+   "name": "SOBAKA",
+   "tier": 0,
+   "score": 30,
+   "popularity": 30,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17824f2881f75b4f09fae489e68",
+   "known": false
+  },
+  {
    "id": "somebody3lse",
    "name": "somebody3lse",
    "tier": 0,
@@ -5051,6 +5171,16 @@
    "popularity": 39,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b3f6d66bf5d0ad5401ab6844",
+   "known": false
+  },
+  {
+   "id": "teeto",
+   "name": "Teeto",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178175bd966456ad88c76a18b88",
    "known": false
   },
   {
@@ -5374,6 +5504,16 @@
    "known": false
   },
   {
+   "id": "vino-disco-thursdays-tony-jacks",
+   "name": "Vino Disco Thursdays: Tony Jacks",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "virtual-riot",
    "name": "Virtual Riot",
    "tier": 0,
@@ -5534,6 +5674,16 @@
    "known": false
   },
   {
+   "id": "yambow",
+   "name": "Yambow",
+   "tier": 0,
+   "score": 44,
+   "popularity": 44,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178909bff178fed6333d67ad94c",
+   "known": false
+  },
+  {
    "id": "yarra-sound",
    "name": "Yarra Sound",
    "tier": 0,
@@ -5683,48 +5833,6 @@
     "reasons": [
      "tête d'affiche : DOWN2TECHNO: Every Wednesday (8)",
      "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "7a1e64b94a78",
-   "title": "JAZZ & CHESS",
-   "venue_id": "savoir-faire",
-   "night": "2026-10-28",
-   "start": "2026-10-28T17:00:00.000",
-   "end": "2026-10-29T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "chess",
-     "name": "CHESS",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "jazz",
-     "name": "JAZZ",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2569040",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2569040"
-    }
-   ],
-   "interest": {
-    "score": 11,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : CHESS (7)",
-     "lieu : Savoir Faire (palier 1)"
     ]
    }
   },
@@ -8558,6 +8666,48 @@
    }
   },
   {
+   "id": "9db5edaa6b21",
+   "title": "+1 [833] 246*4622 || Iberia Airlines Headquarters Office",
+   "venue_id": "xs-ujo-club",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:00:00.000",
+   "end": "2026-11-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "asia",
+     "name": "ASIA (DE)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "headquarters",
+     "name": "HEADQUARTERS",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571594",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571594"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ASIA (DE) (12)",
+     "lieu : Xs Ujo Club (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "21126a8b56a6",
    "title": "Halloween",
    "venue_id": "tba-velours-323-ontario-est-montreal",
@@ -9196,6 +9346,48 @@
    }
   },
   {
+   "id": "bcec86c54575",
+   "title": "Vino Disco Thursdays: BENJI, ZAKK & Colmee",
+   "venue_id": "vino-disco",
+   "night": "2026-11-05",
+   "start": "2026-11-05T20:00:00.000",
+   "end": "2026-11-06T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "colmee",
+     "name": "Colmee",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571504",
+   "event_url": "https://ra.co/events/2571504",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571504"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Colmee (0)",
+     "lieu : Vino Disco (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8a562d34a2ca",
    "title": "Kasango, Rim SDL, Ensø",
    "venue_id": "new-city-gas",
@@ -9633,6 +9825,62 @@
    }
   },
   {
+   "id": "c4fb4fd9f991",
+   "title": "FREE TECHNO: LANORTH",
+   "venue_id": "esc",
+   "night": "2026-11-06",
+   "start": "2026-11-06T22:00:00.000",
+   "end": "2026-11-07T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "emn-1",
+     "name": "EMN (1)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "kris-tin",
+     "name": "Kris Tin",
+     "billing": "support"
+    },
+    {
+     "artist_id": "pom-1",
+     "name": "POM (1)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "boomy",
+     "name": "Boomy",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571185",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571185"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : EMN (1) (8)",
+     "lieu : ESC (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "cd6c23a5cdc5",
    "title": "Music is My Sanctuary",
    "venue_id": "systeme",
@@ -9727,6 +9975,47 @@
     "reasons": [
      "tête d'affiche : Trance Classics vol.2 (8)",
      "lieu : Piranha Bar (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "2d92d8fa2d23",
+   "title": "Vino Disco Fridays: Cel Ullberg, Malka & Fred Sadoun",
+   "venue_id": "vino-disco",
+   "night": "2026-11-06",
+   "start": "2026-11-06T20:00:00.000",
+   "end": "2026-11-07T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "malka",
+     "name": "MALKA (CA)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571511",
+   "event_url": "https://ra.co/events/2571511",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571511"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : MALKA (CA) (8)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -9978,6 +10267,57 @@
     "reasons": [
      "tête d'affiche : Akufen (25)",
      "lieu : Salon Daome (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "3de1a77791d1",
+   "title": "Vino Disco Saturdays: Andie, Cooldad, YVNNI & VIBRAN",
+   "venue_id": "vino-disco",
+   "night": "2026-11-07",
+   "start": "2026-11-07T20:00:00.000",
+   "end": "2026-11-08T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "andie",
+     "name": "Andie",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "yvnni",
+     "name": "YVNNI",
+     "billing": "support"
+    },
+    {
+     "artist_id": "vibran",
+     "name": "VIBRAN",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571514",
+   "event_url": "https://ra.co/events/2571514",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571514"
+    }
+   ],
+   "interest": {
+    "score": 25,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Andie (26)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -11012,6 +11352,47 @@
    }
   },
   {
+   "id": "948f0d12c015",
+   "title": "Vino Disco Thursdays: Keimy Goddard & Pyromane",
+   "venue_id": "vino-disco",
+   "night": "2026-11-12",
+   "start": "2026-11-12T20:00:00.000",
+   "end": "2026-11-13T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "pyromane",
+     "name": "Pyromane",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571519",
+   "event_url": "https://ra.co/events/2571519",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571519"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Pyromane (0)",
+     "lieu : Vino Disco (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8a5402c9c4b9",
    "title": "DJ Snake",
    "venue_id": "place-bell",
@@ -11233,6 +11614,52 @@
     "reasons": [
      "tête d'affiche : Satoshi Tomiie (40)",
      "lieu : Salon Daome (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "93b8527a08cb",
+   "title": "Vino Disco Fridays: Bolarinho & Yambow",
+   "venue_id": "vino-disco",
+   "night": "2026-11-13",
+   "start": "2026-11-13T20:00:00.000",
+   "end": "2026-11-14T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "yambow",
+     "name": "Yambow",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "bolarinho",
+     "name": "Bolarinho",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571522",
+   "event_url": "https://ra.co/events/2571522",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571522"
+    }
+   ],
+   "interest": {
+    "score": 38,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Yambow (44)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -11699,6 +12126,52 @@
    }
   },
   {
+   "id": "55e99675c823",
+   "title": "Vino Disco Saturdays: Steph Belfort, Ali Coleman (NYC) & more",
+   "venue_id": "vino-disco",
+   "night": "2026-11-14",
+   "start": "2026-11-14T20:00:00.000",
+   "end": "2026-11-15T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "manuel-falardeau",
+     "name": "Manuel Falardeau",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ali-coleman",
+     "name": "Ali Coleman",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571528",
+   "event_url": "https://ra.co/events/2571528",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571528"
+    }
+   ],
+   "interest": {
+    "score": 32,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Manuel Falardeau (36)",
+     "lieu : Vino Disco (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "f4d3eb4c8cd4",
    "title": "Bed with IRL, NGL Flounce, Wolfgang Gray & Measure",
    "venue_id": "white-wall-studio",
@@ -12137,8 +12610,8 @@
    "genres": [
     "dub techno",
     "minimal",
-    "funk / soul",
     "house",
+    "funk / soul",
     "progressive house"
    ],
    "families": [
@@ -12164,6 +12637,52 @@
     "reasons": [
      "tête d'affiche : Jino K (8)",
      "lieu : Salon Daome (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "6d491e60aa3d",
+   "title": "Vino Disco Thursdays: Tony Jacks & Teeto",
+   "venue_id": "vino-disco",
+   "night": "2026-11-19",
+   "start": "2026-11-19T20:00:00.000",
+   "end": "2026-11-20T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vino-disco-thursdays-tony-jacks",
+     "name": "Vino Disco Thursdays: Tony Jacks",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "teeto",
+     "name": "Teeto",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571533",
+   "event_url": "https://ra.co/events/2571533",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571533"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Vino Disco Thursdays: Tony Jacks (8)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -12525,6 +13044,52 @@
     "reasons": [
      "tête d'affiche : Dick Lee (23)",
      "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "1fc961ab4eef",
+   "title": "Vino Disco Fridays: Groovy Castle - JP Groove & SOBAKA",
+   "venue_id": "vino-disco",
+   "night": "2026-11-20",
+   "start": "2026-11-20T20:00:00.000",
+   "end": "2026-11-21T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sobaka",
+     "name": "SOBAKA",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "jean-pascal-groove",
+     "name": "Jean Pascal Groove",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571538",
+   "event_url": "https://ra.co/events/2571538",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571538"
+    }
+   ],
+   "interest": {
+    "score": 28,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SOBAKA (30)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -13240,6 +13805,47 @@
     "reasons": [
      "tête d'affiche : Arder: (0)",
      "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "f7062f31dd34",
+   "title": "Vino Disco Saturdays: Akpossoul & Friends (EXTENDED 6AM)",
+   "venue_id": "vino-disco",
+   "night": "2026-11-21",
+   "start": "2026-11-21T20:00:00.000",
+   "end": "2026-11-22T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "akpossoul",
+     "name": "Akpossoul",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571543",
+   "event_url": "https://ra.co/events/2571543",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571543"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Akpossoul (0)",
+     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -14483,8 +15089,8 @@
     }
    ],
    "genres": [
-    "afro house",
     "house",
+    "afro house",
     "afro tech"
    ],
    "families": [
@@ -16730,6 +17336,47 @@
    }
   },
   {
+   "id": "6d2679f5fffc",
+   "title": "LAYZ présente: OUTNUMBED Tour",
+   "venue_id": "mtelus",
+   "night": "2027-04-10",
+   "start": "2027-04-10T22:00:00.000",
+   "end": "2027-04-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "layz-presente-outnumbed-tour",
+     "name": "LAYZ présente: OUTNUMBED Tour",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "dubstep"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571691",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571691"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LAYZ présente: OUTNUMBED Tour (8)",
+     "lieu : MTELUS (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "352812f2790b",
    "title": "CHASING ABBEY",
    "venue_id": "theatre-fairmount",
@@ -16841,13 +17488,6 @@
    "night": "2026-11-06",
    "venue": "New City Gas",
    "photo": "https://i.scdn.co/image/ab6761610000f17808faa46da03ce1a1de05e35e"
-  },
-  {
-   "id": "6e4ea8443bab",
-   "name": "Lynnic",
-   "night": "2026-12-16",
-   "venue": "Newspeak",
-   "photo": "https://i.scdn.co/image/ab6761610000f178f0a6c56cd3bb8946a407c3d7"
   }
  ],
  "families": [
