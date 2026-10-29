@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-28T15:47:52Z",
+ "generated_at": "2026-10-29T00:44:45Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-10-28",
-  "end": "2027-04-26"
+  "start": "2026-10-29",
+  "end": "2027-04-27"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 362
+   "events": 366
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 47
+   "events": 51
   }
  ],
  "venue_order": [
@@ -27,7 +27,6 @@
   "badaboum",
   "pavillon-tilsitt",
   "accor-arena",
-  "central-chapelle",
   "rex-club",
   "fvtvr",
   "la-defense-arena",
@@ -41,6 +40,7 @@
   "magasins-generaux",
   "djoon",
   "panic-room",
+  "central-chapelle",
   "42-marches",
   "la-boule-noire",
   "parc-des-expositions",
@@ -65,6 +65,7 @@
   "le-mazette",
   "a-side",
   "main-room",
+  "cartilage",
   "fondation-cartier",
   "le-211",
   "la-maroquinerie",
@@ -75,7 +76,6 @@
   "virage",
   "la-station-gare-des-mines",
   "nouveau-casino",
-  "cartilage",
   "chalet-du-lac-bois-de-vincennes",
   "le-trianon",
   "la-compagnie-1837",
@@ -91,16 +91,17 @@
   "bus-palladium",
   "gibus-club",
   "le-bazar",
+  "tba-secret-place",
   "le-zeralda",
   "philharmonie-de-paris",
   "tba-espace-reuilly-21-rue-julien-antoine-henard-75012-paris",
   "tba-75013",
+  "tba",
   "le-klub",
   "pamela-club",
   "folies-pigalle",
   "la-peniche-cinema",
   "a-la-folie-paris",
-  "tba",
   "theatre-silvia-monfort",
   "ground-control-gare-de-lyon",
   "l-olympia",
@@ -113,6 +114,7 @@
   "communale-saint-ouen",
   "amaluna-paris",
   "quai-de-la-photo",
+  "popup",
   "tout-le-monde-en-parle",
   "canal-93",
   "la-marquise-club",
@@ -140,8 +142,8 @@
   "tba-espace-reuilly-paris-12",
   "tba-line-up-secret",
   "tba-secret-location",
-  "tba-secret-warehouse",
   "vice-versa",
+  "voix-machine",
   "boom-boom-villette",
   "centre-culturel-chambre-noire",
   "la-mecanique-ondulatoire",
@@ -1212,6 +1214,16 @@
    "genres": []
   },
   {
+   "id": "popup",
+   "name": "POPUP!",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "punk-paradise",
    "name": "Punk Paradise",
    "type": "club",
@@ -1368,8 +1380,8 @@
    "genres": []
   },
   {
-   "id": "tba-secret-warehouse",
-   "name": "TBA - Secret Warehouse",
+   "id": "tba-secret-place",
+   "name": "TBA - Secret Place",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1428,6 +1440,16 @@
    "genres": [
     "techno"
    ]
+  },
+  {
+   "id": "voix-machine",
+   "name": "Voix Machine",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "wanderlust",
@@ -1595,6 +1617,16 @@
    "known": false
   },
   {
+   "id": "abs8lute",
+   "name": "abs8lute",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "acid-arab",
    "name": "Acid Arab",
    "tier": 0,
@@ -1712,6 +1744,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17818c9a593f4b5d208938bfeaf",
+   "known": false
+  },
+  {
+   "id": "alex-nantaya",
+   "name": "Alex Nantaya",
+   "tier": 0,
+   "score": 28,
+   "popularity": 28,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787ec54355e00b0115cac46fb7",
    "known": false
   },
   {
@@ -1922,6 +1964,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d863a826a0c15a90fbfe1a76",
+   "known": false
+  },
+  {
+   "id": "antigone",
+   "name": "Antigone",
+   "tier": 0,
+   "score": 33,
+   "popularity": 33,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ba145cb11d8b09241b758aca",
    "known": false
   },
   {
@@ -2342,16 +2394,6 @@
    "known": false
   },
   {
-   "id": "betises",
-   "name": "BETÏSES",
-   "tier": 0,
-   "score": 19,
-   "popularity": 19,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17852e1714f6fb8ad130b9ffc9a",
-   "known": false
-  },
-  {
    "id": "bigstate",
    "name": "Bigstate",
    "tier": 0,
@@ -2439,16 +2481,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786660659fa2f8111cdd4ef3f8",
-   "known": false
-  },
-  {
-   "id": "britney-speed",
-   "name": "Britney Speed",
-   "tier": 0,
-   "score": 10,
-   "popularity": 10,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178ad70211167370726d2d5e7cc",
    "known": false
   },
   {
@@ -2885,8 +2917,8 @@
    "id": "daito-manabe",
    "name": "Daito Manabe",
    "tier": 0,
-   "score": 21,
-   "popularity": 21,
+   "score": 22,
+   "popularity": 22,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c14e30b8793cf109764c7cb8",
    "known": false
@@ -3502,6 +3534,16 @@
    "known": false
   },
   {
+   "id": "dvs1",
+   "name": "DVS1",
+   "tier": 0,
+   "score": 35,
+   "popularity": 35,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17862352bca3d416122557b3700",
+   "known": false
+  },
+  {
    "id": "dylan-dylan",
    "name": "Dylan Dylan",
    "tier": 0,
@@ -3549,6 +3591,16 @@
    "popularity": 52,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f5e257a942341a2975443307",
+   "known": false
+  },
+  {
+   "id": "edgussss",
+   "name": "Edgussss",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3622,6 +3674,16 @@
    "known": false
   },
   {
+   "id": "elli-acula",
+   "name": "Elli Acula",
+   "tier": 0,
+   "score": 26,
+   "popularity": 26,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1780872487d91083cc94021dc23",
+   "known": false
+  },
+  {
    "id": "eloi",
    "name": "Eloi",
    "tier": 0,
@@ -3649,16 +3711,6 @@
    "popularity": 0,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "ely-oaks",
-   "name": "Ely Oaks",
-   "tier": 0,
-   "score": 86,
-   "popularity": 86,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1783e75cf25e89d1ea730b48c73",
    "known": false
   },
   {
@@ -4372,16 +4424,6 @@
    "known": false
   },
   {
-   "id": "gruv-nye-2026",
-   "name": "GRÜV NYE 2026",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "hadone",
    "name": "Hadone",
    "tier": 0,
@@ -4517,6 +4559,16 @@
   {
    "id": "hors-sol",
    "name": "HORS-SOL",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "hors-sol-10-years",
+   "name": "HORS-SOL — 10 YEARS",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -4885,6 +4937,16 @@
    "known": false
   },
   {
+   "id": "jolly",
+   "name": "Jolly (FR)",
+   "tier": 0,
+   "score": 16,
+   "popularity": 16,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783b8f397cdec2361185b2e602",
+   "known": false
+  },
+  {
    "id": "joren",
    "name": "Joren",
    "tier": 0,
@@ -5048,8 +5110,8 @@
    "id": "karboni",
    "name": "KARBONI",
    "tier": 0,
-   "score": 24,
-   "popularity": 24,
+   "score": 23,
+   "popularity": 23,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048515135309b673271f6ba25a9bb",
    "known": false
@@ -5435,6 +5497,16 @@
    "known": false
   },
   {
+   "id": "la-ribouldingue",
+   "name": "La Ribouldingue",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "la-scarlette",
    "name": "LA SCARLETTE",
    "tier": 0,
@@ -5475,6 +5547,16 @@
    "known": false
   },
   {
+   "id": "lastvuska",
+   "name": "Lastvuska",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "laura-de-greef",
    "name": "Laura De Greef",
    "tier": 0,
@@ -5492,6 +5574,16 @@
    "popularity": 21,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/628b8729692eafd75ccb94b132b1cb3d/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "lb-honne",
+   "name": "Lb Honne",
+   "tier": 0,
+   "score": 21,
+   "popularity": 21,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17895d07b97f70824c12031b364",
    "known": false
   },
   {
@@ -5642,6 +5734,16 @@
    "popularity": 27,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/e0b5192e2525c2bb7b57436562bbca9d/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "les-mauvaises-habitudes-sinvitent-a-halloween",
+   "name": "LES MAUVAISES HABITUDES S’INVITENT À HALLOWEEN",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5955,6 +6057,16 @@
    "known": false
   },
   {
+   "id": "mana-mind",
+   "name": "Mana Mind",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784903ded252b52666a88ffcd5",
+   "known": false
+  },
+  {
    "id": "mandragora",
    "name": "Mandragora",
    "tier": 0,
@@ -6124,6 +6236,16 @@
    "popularity": 76,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178973d5456d874142c2404a853",
+   "known": false
+  },
+  {
+   "id": "maryu",
+   "name": "Maryu",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7030,13 +7152,23 @@
    "known": false
   },
   {
+   "id": "oscar-mulero",
+   "name": "Oscar Mulero",
+   "tier": 0,
+   "score": 38,
+   "popularity": 38,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787ffe994564fe75ed0c189313",
+   "known": false
+  },
+  {
    "id": "oshana",
    "name": "Oshana",
    "tier": 0,
-   "score": 8,
-   "popularity": 8,
+   "score": 10,
+   "popularity": 10,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851d1c574f84a78bfd18c717087",
+   "image": "https://i.scdn.co/image/ab67616d0000485190c5c539a718c940f815643e",
    "known": false
   },
   {
@@ -7700,6 +7832,16 @@
    "known": false
   },
   {
+   "id": "ruiz-osc1",
+   "name": "RUIZ OSC1",
+   "tier": 0,
+   "score": 23,
+   "popularity": 23,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785494a115b836bde607340ba9",
+   "known": false
+  },
+  {
    "id": "ry",
    "name": "RY",
    "tier": 0,
@@ -8090,16 +8232,6 @@
    "popularity": 36,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178263e6307cda1d8a4c804217e",
-   "known": false
-  },
-  {
-   "id": "soss-tard-tard",
-   "name": "SOSS TARD TARD",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -9216,6 +9348,16 @@
    "known": false
   },
   {
+   "id": "yamajoy-release-party-by-peaktime",
+   "name": "Yamajoy Release Party by Peaktime",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "yamour",
    "name": "Yamour",
    "tier": 0,
@@ -9229,8 +9371,8 @@
    "id": "yasuaki-shimizu",
    "name": "Yasuaki Shimizu",
    "tier": 0,
-   "score": 42,
-   "popularity": 42,
+   "score": 41,
+   "popularity": 41,
    "genres": [],
    "image": "https://i.scdn.co/image/364246aaf3814087a06d8bdfa581c186d90c77fe",
    "known": false
@@ -9337,134 +9479,6 @@
   }
  ],
  "events": [
-  {
-   "id": "1b32b2eb412f",
-   "title": "Ely Oaks",
-   "venue_id": "central-chapelle",
-   "night": "2026-10-28",
-   "start": "2026-10-28T20:00:00.000",
-   "end": "2026-10-29T22:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "ely-oaks",
-     "name": "Ely Oaks",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2490437",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2490437"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2490437"
-    }
-   ],
-   "interest": {
-    "score": 68,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Ely Oaks (86)",
-     "lieu : Central Chapelle (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "5674f8f5ec93",
-   "title": "HOTLINE AGENCY presents BETÏSES & Britney Speed extended set",
-   "venue_id": "rex-club",
-   "night": "2026-10-28",
-   "start": "2026-10-28T23:59:00.000",
-   "end": "2026-10-29T07:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "betises",
-     "name": "BETÏSES",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "britney-speed",
-     "name": "Britney Speed",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "trance"
-   ],
-   "families": [
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2554117",
-   "event_url": "https://ra.co/events/2554117",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2554117"
-    }
-   ],
-   "interest": {
-    "score": 32,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : BETÏSES (19)",
-     "lieu : Rex Club (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "78c9e291a249",
-   "title": "SOSS TARD TARD",
-   "venue_id": "panic-room",
-   "night": "2026-10-28",
-   "start": "2026-10-28T19:00:00.000",
-   "end": "2026-10-29T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "soss-tard-tard",
-     "name": "SOSS TARD TARD",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2551144",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2551144"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : SOSS TARD TARD (8)",
-     "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
   {
    "id": "b4080b7adcdc",
    "title": "Release party Chloé",
@@ -10713,7 +10727,7 @@
     "score": 35,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : KARBONI (24)",
+     "tête d'affiche : KARBONI (23)",
      "lieu : Rex Club (palier 3)"
     ]
    }
@@ -11422,6 +11436,45 @@
     "reasons": [
      "tête d'affiche : Hemei (8)",
      "lieu : TBA (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "8b28e56c6c36",
+   "title": "Yamajoy Release Party by Peaktime",
+   "venue_id": "popup",
+   "night": "2026-10-30",
+   "start": "2026-10-30T23:00:00+01:00",
+   "end": "2026-10-31T04:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "yamajoy-release-party-by-peaktime",
+     "name": "Yamajoy Release Party by Peaktime",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/q2336x-yamajoy-release-party-by-peaktime-30th-oct-popup-paris-tickets",
+   "event_url": "https://dice.fm/event/q2336x-yamajoy-release-party-by-peaktime-30th-oct-popup-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-28/a2d38ebb-fb33-40d7-b29c-1053566c4bad.jpg?rect=0%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/q2336x-yamajoy-release-party-by-peaktime-30th-oct-popup-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Yamajoy Release Party by Peaktime (8)",
+     "lieu : POPUP! (palier 1)"
     ]
    }
   },
@@ -13172,6 +13225,45 @@
    }
   },
   {
+   "id": "9cd1c7aac5db",
+   "title": "LES MAUVAISES HABITUDES S’INVITENT À HALLOWEEN",
+   "venue_id": "popup",
+   "night": "2026-10-31",
+   "start": "2026-10-31T23:00:00+01:00",
+   "end": "2026-11-01T04:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "les-mauvaises-habitudes-sinvitent-a-halloween",
+     "name": "LES MAUVAISES HABITUDES S’INVITENT À HALLOWEEN",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/nvrr75-les-mauvaises-habitudes-sinvitent-halloween-31st-oct-popup-paris-tickets",
+   "event_url": "https://dice.fm/event/nvrr75-les-mauvaises-habitudes-sinvitent-halloween-31st-oct-popup-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-28/ca06f6d1-51d1-406d-9ed6-c9904d8584f5.jpg?rect=0%2C65%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/nvrr75-les-mauvaises-habitudes-sinvitent-halloween-31st-oct-popup-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LES MAUVAISES HABITUDES S’INVITENT À HALLOWEEN (8)",
+     "lieu : POPUP! (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "e91be751485f",
    "title": "Le Grand Royaume Des Ténèbres Halloween 2026 Château de Longchamp",
    "venue_id": "chateau-de-longchamp",
@@ -13681,7 +13773,7 @@
    "venue_id": "point-ephemere",
    "night": "2026-10-31",
    "start": "2026-10-31T20:00:00.000",
-   "end": "2026-11-01T04:00:00.000",
+   "end": "2026-11-01T05:00:00.000",
    "lineup": [
     {
      "artist_id": "studerkel",
@@ -14094,7 +14186,7 @@
     "score": 36,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Yasuaki Shimizu (42)",
+     "tête d'affiche : Yasuaki Shimizu (41)",
      "lieu : Lafayette Anticipations (palier 1)"
     ]
    }
@@ -16764,6 +16856,48 @@
     "reasons": [
      "tête d'affiche : VINTARPE (8)",
      "lieu : Le Mazette (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "d644c6357317",
+   "title": "La Ribouldingue",
+   "venue_id": "voix-machine",
+   "night": "2026-11-07",
+   "start": "2026-11-07T18:00:00.000",
+   "end": "2026-11-08T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-ribouldingue",
+     "name": "La Ribouldingue",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "dubstep",
+    "post-punk"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571789",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571789"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : La Ribouldingue (8)",
+     "lieu : Voix Machine (palier 1)"
     ]
    }
   },
@@ -21465,6 +21599,49 @@
    }
   },
   {
+   "id": "1f523f6de103",
+   "title": "TRIBE TEUF ! CARTILAGE INVITE EDOARDO FIGARA & CH'ASKA",
+   "venue_id": "cartilage",
+   "night": "2026-11-20",
+   "start": "2026-11-20T23:00:00.000",
+   "end": "2026-11-21T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "edgussss",
+     "name": "Edgussss",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571893",
+   "event_url": "https://ra.co/events/2571893",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571893"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Edgussss (8)",
+     "lieu : Cartilage (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "0ab960d364cd",
    "title": "ElectroRoller x La Bellevilloise 'Roller Party'",
    "venue_id": "la-bellevilloise",
@@ -22545,16 +22722,20 @@
     "Techno",
     "Trance & hard"
    ],
-   "price_min": null,
+   "price_min": 14.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2571777",
    "event_url": "https://ra.co/events/2571777",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-28/7ea335f0-2205-4355-97df-d149851e7e78.jpg?rect=0%2C21%2C1440%2C1440",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2571777"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/2wnn6m-dj-tallboy-westfall-ayam-dj-more-born-2-bounce-27th-nov-la-java-paris-tickets"
     }
    ],
    "interest": {
@@ -24124,6 +24305,52 @@
    }
   },
   {
+   "id": "c921c9be0a61",
+   "title": "tribalism - Céline B., Oscar Mulero",
+   "venue_id": "essaim",
+   "night": "2026-12-04",
+   "start": "2026-12-04T23:00:00.000",
+   "end": "2026-12-05T06:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "oscar-mulero",
+     "name": "Oscar Mulero",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "celine-technorama",
+     "name": "Céline Technorama",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2516730",
+   "event_url": "https://ra.co/events/2516730",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2516730"
+    }
+   ],
+   "interest": {
+    "score": 33,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Oscar Mulero (38)",
+     "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "5923b731a043",
    "title": "25 Years of Cafe 1001 On Tour - Frequence, Paris",
    "venue_id": "frequence-paris",
@@ -24186,16 +24413,20 @@
    "families": [
     "House"
    ],
-   "price_min": null,
+   "price_min": 11.33,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2562629",
    "event_url": "https://ra.co/events/2562629",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-15/57a1be0e-073f-481b-a1b1-d9edebbce2b7.jpg?rect=0%2C455%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2562629"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/l8pb8l-radio-sofa-x-parodia-4th-dec-point-ephmre-paris-tickets"
     }
    ],
    "interest": {
@@ -24730,6 +24961,47 @@
     "reasons": [
      "tête d'affiche : Spectrum Waves: Anniversary (8)",
      "lieu : TBA - Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "9f148ff3f96f",
+   "title": "tribalism - abs8lute - all night long",
+   "venue_id": "essaim",
+   "night": "2026-12-11",
+   "start": "2026-12-11T23:00:00.000",
+   "end": "2026-12-12T06:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "abs8lute",
+     "name": "abs8lute",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2516741",
+   "event_url": "https://ra.co/events/2516741",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2516741"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : abs8lute (8)",
+     "lieu : essaim (palier 1)"
     ]
    }
   },
@@ -25362,6 +25634,52 @@
    }
   },
   {
+   "id": "68bec6ddd117",
+   "title": "tribalism - DVS1, Mana Mind",
+   "venue_id": "essaim",
+   "night": "2026-12-18",
+   "start": "2026-12-18T23:00:00.000",
+   "end": "2026-12-19T06:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "dvs1",
+     "name": "DVS1",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mana-mind",
+     "name": "Mana Mind",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2516755",
+   "event_url": "https://ra.co/events/2516755",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2516755"
+    }
+   ],
+   "interest": {
+    "score": 31,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DVS1 (35)",
+     "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8c35cb1dd5e8",
    "title": "HORS-SOL (DJ act) all night long",
    "venue_id": "le-trabendo",
@@ -25370,9 +25688,24 @@
    "end": "2026-12-19T06:00:00.000",
    "lineup": [
     {
+     "artist_id": "jolly",
+     "name": "Jolly (FR)",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "hors-sol",
      "name": "HORS-SOL",
-     "billing": "headliner"
+     "billing": "support"
+    },
+    {
+     "artist_id": "maryu",
+     "name": "Maryu",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lastvuska",
+     "name": "Lastvuska",
+     "billing": "support"
     }
    ],
    "genres": [],
@@ -25390,10 +25723,10 @@
     }
    ],
    "interest": {
-    "score": 18,
+    "score": 24,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : HORS-SOL (8)",
+     "tête d'affiche : Jolly (FR) (16)",
      "lieu : Le Trabendo (palier 2)"
     ]
    }
@@ -25848,6 +26181,67 @@
    }
   },
   {
+   "id": "63af4402c044",
+   "title": "GRÜV NYE • Elli Acula, RUIZ OSC1, Antigone, KALTBLUME, Alex Nantaya",
+   "venue_id": "tba-secret-place",
+   "night": "2026-12-31",
+   "start": "2026-12-31T23:00:00.000",
+   "end": "2027-01-01T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "antigone",
+     "name": "Antigone",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "alex-nantaya",
+     "name": "Alex Nantaya",
+     "billing": "support"
+    },
+    {
+     "artist_id": "elli-acula",
+     "name": "Elli Acula",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kaltblume",
+     "name": "KALTBLUME",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ruiz-osc1",
+     "name": "RUIZ OSC1",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2494631",
+   "event_url": "https://ra.co/events/2494631",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2494631"
+    }
+   ],
+   "interest": {
+    "score": 32,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Antigone (33)",
+     "lieu : TBA - Secret Place (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "54797d046b05",
    "title": "DEVIANCE New Year - Party + After - LGBT+ FRIENDLY",
    "venue_id": "workshow",
@@ -25895,47 +26289,6 @@
     "reasons": [
      "tête d'affiche : DEVIANCE New Year - Party (8)",
      "lieu : Workshow (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "c61aa4b6f7d0",
-   "title": "GRÜV NYE 2026",
-   "venue_id": "tba-secret-warehouse",
-   "night": "2026-12-31",
-   "start": "2026-12-31T23:00:00.000",
-   "end": "2027-01-01T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "gruv-nye-2026",
-     "name": "GRÜV NYE 2026",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2494631",
-   "event_url": "https://ra.co/events/2494631",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2494631"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : GRÜV NYE 2026 (8)",
-     "lieu : TBA - Secret Warehouse (palier 1)"
     ]
    }
   },
@@ -26014,6 +26367,58 @@
     "reasons": [
      "tête d'affiche : Jersey (54)",
      "lieu : La Cigale (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "f685cef4c75d",
+   "title": "HORS-SOL",
+   "venue_id": "le-trabendo",
+   "night": "2027-01-15",
+   "start": "2027-01-15T23:59:00.000",
+   "end": "2027-01-16T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lb-honne",
+     "name": "Lb Honne",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "jolly",
+     "name": "Jolly (FR)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "tau-car",
+     "name": "Tau Car",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "deep house",
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571951",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571951"
+    }
+   ],
+   "interest": {
+    "score": 27,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lb Honne (21)",
+     "lieu : Le Trabendo (palier 2)"
     ]
    }
   },
@@ -26277,6 +26682,43 @@
      "tête d'affiche : Bassjackers (77)",
      "lieu : Phantom, Paris (palier 1)",
      "plateau dense"
+    ]
+   }
+  },
+  {
+   "id": "1ac7f175392d",
+   "title": "HORS-SOL — 10 YEARS",
+   "venue_id": "tba",
+   "night": "2027-02-27",
+   "start": "2027-02-27T12:00:00.000",
+   "end": "2027-02-28T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "hors-sol-10-years",
+     "name": "HORS-SOL — 10 YEARS",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571955",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571955"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : HORS-SOL — 10 YEARS (8)",
+     "lieu : TBA (palier 1)"
     ]
    }
   },
@@ -26664,21 +27106,6 @@
  "spotlight": [
   {
    "kind": "event",
-   "day": "MER 28 OCT",
-   "title": "Ely Oaks",
-   "venue": "Central Chapelle",
-   "time": "20:00 → 22:30",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb3e75cf25e89d1ea730b48c73",
-   "event_id": "1b32b2eb412f"
-  },
-  {
-   "kind": "event",
    "day": "JEU 29 OCT",
    "title": "Chloé",
    "venue": "Miniwax",
@@ -26811,6 +27238,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5ebe48c95d6038308f4f7b33799",
    "event_id": "5216f8213493"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 14 NOV",
+   "title": "Lana",
+   "venue": "La Java",
+   "time": "23:59 → 07:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Jeremy Weizman, More : Revival, Saverio",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb85dbfda697c02bc156872fcd",
+   "event_id": "972d4873fda1"
   },
   {
    "kind": "event",

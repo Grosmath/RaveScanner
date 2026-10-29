@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-28T15:47:02Z",
+ "generated_at": "2026-10-29T00:43:37Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-10-28",
-  "end": "2027-04-26"
+  "start": "2026-10-29",
+  "end": "2027-04-27"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 209
+   "events": 212
   },
   {
    "id": "piknic",
@@ -66,6 +66,7 @@
   "esc",
   "club-soda",
   "tba-mile-ex",
+  "centre-phi",
   "le-balcon",
   "les-7-doigts-de-la-main",
   "la-recre",
@@ -75,11 +76,11 @@
   "theatre-paradoxe",
   "le-ritz",
   "1088-rue-clark",
+  "blue-room",
   "ausgang-plaza",
   "red-roof-church",
   "entre-nous",
   "cafe-social-b-hive",
-  "blue-room",
   "salon-badin",
   "warehouse",
   "tba-cafe-marigold-1677-avenue-laurier-est-montreal-qc-h2j-1j3",
@@ -91,6 +92,7 @@
   "esplanade-tranquille",
   "foufounes",
   "grenade-bar",
+  "la-30",
   "la-gare-dalhousie",
   "le-ministere",
   "loft-14",
@@ -195,6 +197,16 @@
   {
    "id": "casa-del-popolo",
    "name": "Casa Del Popolo",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "centre-phi",
+   "name": "Centre PHI",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -322,6 +334,16 @@
   {
    "id": "l-escogriffe-bar-spectacle",
    "name": "l'Escogriffe Bar Spectacle",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "la-30",
+   "name": "La 30",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -913,6 +935,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "aftersix",
+   "name": "Aftersix",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/f7247560e67c78cf77f0de24139929da/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1597,6 +1629,16 @@
    "known": false
   },
   {
+   "id": "ced-ullberg",
+   "name": "Ced Ullberg",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "chago-91",
    "name": "chago_91",
    "tier": 0,
@@ -1754,6 +1796,16 @@
    "popularity": 53,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/ca10aa765049d1affd657d0abbce58a3/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "coldchainlogistics",
+   "name": "coldchainlogistics",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048517005c40e65a9ac7bbb5e1c2f",
    "known": false
   },
   {
@@ -2147,6 +2199,16 @@
    "known": false
   },
   {
+   "id": "don-barbarino",
+   "name": "Don Barbarino",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a4f55443eaac3774929eba95",
+   "known": false
+  },
+  {
    "id": "don-barbarino-vs-shelton-cooper",
    "name": "Don Barbarino vs Shelton Cooper",
    "tier": 0,
@@ -2164,16 +2226,6 @@
    "popularity": 44,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780809bc2d0bc48c268a3b4309",
-   "known": false
-  },
-  {
-   "id": "down2techno-every-wednesday",
-   "name": "DOWN2TECHNO: Every Wednesday",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2940,6 +2992,36 @@
    "known": false
   },
   {
+   "id": "ilesoniq-presente-gorillat",
+   "name": "îLESONIQ présente: GorillaT",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "ilesoniq-presente-layz-outnumbered-tour",
+   "name": "îLESONIQ présente: LAYZ - OUTNUMBERED Tour",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "ilesoniq-presente-virtual-riot",
+   "name": "îLESONIQ présente: Virtual Riot",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "inedit-by-underpulse",
    "name": "INEDIT BY UNDERPULSE",
    "tier": 0,
@@ -3416,16 +3498,6 @@
    "known": false
   },
   {
-   "id": "layz-presente-outnumbed-tour",
-   "name": "LAYZ présente: OUTNUMBED Tour",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "le-red-room",
    "name": "Le Red Room",
    "tier": 0,
@@ -3498,6 +3570,16 @@
   {
    "id": "lia-plutonic",
    "name": "Lia Plutonic",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "lizzi",
+   "name": "Lizzi",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5084,6 +5166,16 @@
    "known": false
   },
   {
+   "id": "studio-666-nova-ondas",
+   "name": "STUDIO 666: NOVA ONDAS",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "sugar",
    "name": "Sugar",
    "tier": 0,
@@ -5264,6 +5356,16 @@
    "known": false
   },
   {
+   "id": "theo-parrish",
+   "name": "Theo Parrish",
+   "tier": 0,
+   "score": 45,
+   "popularity": 45,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788e32002764f1ee24b990e133",
+   "known": false
+  },
+  {
    "id": "thomas-von-party",
    "name": "Thomas Von Party",
    "tier": 0,
@@ -5427,8 +5529,8 @@
    "id": "usaybflow",
    "name": "Usaybflow",
    "tier": 0,
-   "score": 40,
-   "popularity": 40,
+   "score": 42,
+   "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178051c2e98ca4ee3f3dcbef64d",
    "known": false
@@ -5576,6 +5678,16 @@
   {
    "id": "walla-p",
    "name": "Walla P",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "wencat",
+   "name": "Wencat",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5795,47 +5907,6 @@
   }
  ],
  "events": [
-  {
-   "id": "b5cb37d3e786",
-   "title": "DOWN2TECHNO: Every Wednesday",
-   "venue_id": "le-red-room",
-   "night": "2026-10-28",
-   "start": "2026-10-28T22:00:00.000",
-   "end": "2026-10-29T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "down2techno-every-wednesday",
-     "name": "DOWN2TECHNO: Every Wednesday",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2555130",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2555130"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DOWN2TECHNO: Every Wednesday (8)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
   {
    "id": "9212d3f54a70",
    "title": "THEMBA, Andrew Pololos, Malena",
@@ -7141,6 +7212,63 @@
    }
   },
   {
+   "id": "f093a1beae7c",
+   "title": "Ced Ullberg / Lizzi / Aftersix",
+   "venue_id": "blue-room",
+   "night": "2026-10-30",
+   "start": "2026-10-30T22:00:00.000",
+   "end": "2026-11-01T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ced-ullberg",
+     "name": "Ced Ullberg",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lizzi",
+     "name": "Lizzi",
+     "billing": "support"
+    },
+    {
+     "artist_id": "aftersix",
+     "name": "Aftersix",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "deep house",
+    "electronica"
+   ],
+   "families": [
+    "House",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571915",
+   "event_url": "https://ra.co/events/2571915",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571915"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571915"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ced Ullberg (8)",
+     "lieu : Blue Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "7b267478bb1e",
    "title": "DEVIL'S NIGHT [30 OCT 2026] | GOTH HALLOWEEN AT FOUFS",
    "venue_id": "foufounes",
@@ -7328,8 +7456,8 @@
    "end": "2026-10-31T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "fred",
-     "name": "Fred [Note Vocale]",
+     "artist_id": "studio-666-nova-ondas",
+     "name": "STUDIO 666: NOVA ONDAS",
      "billing": "headliner"
     }
    ],
@@ -7357,7 +7485,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Fred [Note Vocale] (8)",
+     "tête d'affiche : STUDIO 666: NOVA ONDAS (8)",
      "lieu : Vino Disco (palier 1)"
     ]
    }
@@ -10620,6 +10748,53 @@
    }
   },
   {
+   "id": "c7fa1d615da5",
+   "title": "Ripple",
+   "venue_id": "la-30",
+   "night": "2026-11-07",
+   "start": "2026-11-07T23:00:00.000",
+   "end": "2026-11-08T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "wencat",
+     "name": "Wencat",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "coldchainlogistics",
+     "name": "coldchainlogistics",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "bass",
+    "dubstep"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2570267",
+   "event_url": "https://ra.co/events/2570267",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2570267"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Wencat (8)",
+     "lieu : La 30 (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "fa1398af3247",
    "title": "SILLON #01: Vinyl Only with La Rose, Ultreme & Pio Bandgi",
    "venue_id": "grenade-bar",
@@ -12992,6 +13167,70 @@
    }
   },
   {
+   "id": "1570ffa32d5d",
+   "title": "Ferias + MIMS w. Theo Parrish [Open to Close]",
+   "venue_id": "centre-phi",
+   "night": "2026-11-20",
+   "start": "2026-11-20T21:00:00.000",
+   "end": "2026-11-21T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "theo-parrish",
+     "name": "Theo Parrish",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ferias",
+     "name": "Ferias",
+     "billing": "support"
+    },
+    {
+     "artist_id": "alina",
+     "name": "Alina (MTL)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lexis-music-is-my-sanctuary",
+     "name": "Lexis (Music Is My Sanctuary)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "guthrie",
+     "name": "Guthrie",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "disco",
+    "house",
+    "funk / soul"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571978",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571978"
+    }
+   ],
+   "interest": {
+    "score": 38,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Theo Parrish (45)",
+     "lieu : Centre PHI (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "d37009a7cedb",
    "title": "Club SAT — Turbine (Live A/V) • Musik Me Luv (Melek b3b Dick Lee b3b nad)",
    "venue_id": "sat",
@@ -13809,8 +14048,8 @@
    }
   },
   {
-   "id": "f7062f31dd34",
-   "title": "Vino Disco Saturdays: Akpossoul & Friends (EXTENDED 6AM)",
+   "id": "5621915202cf",
+   "title": "Vino Disco Saturdays: Akpossoul, Don Barbarino, Minzi Roberta (EXTENDED 6AM)",
    "venue_id": "vino-disco",
    "night": "2026-11-21",
    "start": "2026-11-21T20:00:00.000",
@@ -13820,6 +14059,11 @@
      "artist_id": "akpossoul",
      "name": "Akpossoul",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "don-barbarino",
+     "name": "Don Barbarino",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -15321,8 +15565,8 @@
    }
   },
   {
-   "id": "473993f3ad4c",
-   "title": "Virtual Riot & Blanke - Far From Home Tour",
+   "id": "3b07ba951551",
+   "title": "îLESONIQ présente: Virtual Riot & Blanke - Far From Home Tour",
    "venue_id": "mtelus",
    "night": "2026-12-18",
    "start": "2026-12-18T22:00:00.000",
@@ -15349,8 +15593,73 @@
      "billing": "support"
     },
     {
+     "artist_id": "ilesoniq-presente-virtual-riot",
+     "name": "îLESONIQ présente: Virtual Riot",
+     "billing": "support"
+    },
+    {
      "artist_id": "blanke-far-from-home-tour",
      "name": "Blanke - Far From Home Tour",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mholy",
+     "name": "MHOLY",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "dubstep"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/virtual-riot-blanke-far-from-home-montreal-quebec-12-18-2026/event/310064D278322940",
+   "event_url": "https://ra.co/events/2571027",
+   "image": "https://s1.ticketm.net/dam/a/6bf/d029e880-324b-4138-9150-7331553f06bf_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571027"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/virtual-riot-blanke-far-from-home-montreal-quebec-12-18-2026/event/310064D278322940"
+    }
+   ],
+   "interest": {
+    "score": 51,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Virtual Riot (61)",
+     "lieu : MTELUS (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "96617a3540ed",
+   "title": "Virtual Riot & Blanke",
+   "venue_id": "mtelus",
+   "night": "2026-12-18",
+   "start": "2026-12-18T22:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "virtual-riot",
+     "name": "Virtual Riot",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "blanke",
+     "name": "Blanke",
+     "billing": "support"
+    },
+    {
+     "artist_id": "future-exit",
+     "name": "Future Exit",
      "billing": "support"
     },
     {
@@ -15373,25 +15682,17 @@
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/310064D278322940?lang=fr-ca&brand=mtelus",
-   "event_url": "https://ra.co/events/2571027",
+   "event_url": "https://evenko.ca/fr/evenements/mtelus/virtual-riot-blanke?code=e008671",
    "image": "https://images.ctfassets.net/3yxl57nu0yl4/DFO1Ttq53DMdHmWJmXGeG/2e57666083db6ac2147b5c3ce1a4d111/virtual_riot_2026.jpg",
    "status": "confirmed",
    "sources": [
     {
-     "id": "ra",
-     "url": "https://ra.co/events/2571027"
-    },
-    {
      "id": "mtelus",
      "url": "https://evenko.ca/fr/evenements/mtelus/virtual-riot-blanke?code=e008671"
-    },
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/virtual-riot-blanke-far-from-home-montreal-quebec-12-18-2026/event/310064D278322940"
     }
    ],
    "interest": {
-    "score": 51,
+    "score": 50,
     "tier": 1,
     "reasons": [
      "tête d'affiche : Virtual Riot (61)",
@@ -15654,8 +15955,8 @@
    "title": "GorillaT",
    "venue_id": "studio-td",
    "night": "2027-01-15",
-   "start": "2027-01-15T22:00:00.000",
-   "end": "2027-01-16T03:00:00.000",
+   "start": "2027-01-15T22:00:00-05:00",
+   "end": null,
    "lineup": [
     {
      "artist_id": "gorillat",
@@ -15672,14 +15973,10 @@
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/gorillat-montreal-quebec-01-15-2027/event/31006541991D3F1F",
-   "event_url": "https://ra.co/events/2571051",
+   "event_url": "https://www.ticketmaster.ca/gorillat-montreal-quebec-01-15-2027/event/31006541991D3F1F",
    "image": "https://s1.ticketm.net/dam/a/595/9ededca6-2796-4642-80ef-2a79bf89d595_SOURCE",
    "status": "confirmed",
    "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2571051"
-    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.ca/gorillat-montreal-quebec-01-15-2027/event/31006541991D3F1F"
@@ -15690,6 +15987,47 @@
     "tier": 2,
     "reasons": [
      "tête d'affiche : GorillaT (58)",
+     "lieu : Studio TD (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "d786ec594af3",
+   "title": "îLESONIQ présente: GorillaT",
+   "venue_id": "studio-td",
+   "night": "2027-01-15",
+   "start": "2027-01-15T22:00:00.000",
+   "end": "2027-01-16T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ilesoniq-presente-gorillat",
+     "name": "îLESONIQ présente: GorillaT",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "dubstep"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2571051",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571051"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : îLESONIQ présente: GorillaT (8)",
      "lieu : Studio TD (palier 2)"
     ]
    }
@@ -17320,10 +17658,6 @@
     {
      "id": "mtelus",
      "url": "https://evenko.ca/fr/evenements/mtelus/layz?code=e009319"
-    },
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/layz-presente-outnumbered-montreal-quebec-04-10-2027/event/31006553B75366BE"
     }
    ],
    "interest": {
@@ -17336,17 +17670,32 @@
    }
   },
   {
-   "id": "6d2679f5fffc",
-   "title": "LAYZ présente: OUTNUMBED Tour",
+   "id": "3a05bc9fbef1",
+   "title": "îLESONIQ présente: LAYZ - OUTNUMBERED Tour",
    "venue_id": "mtelus",
    "night": "2027-04-10",
    "start": "2027-04-10T22:00:00.000",
    "end": "2027-04-11T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "layz-presente-outnumbed-tour",
-     "name": "LAYZ présente: OUTNUMBED Tour",
+     "artist_id": "layz",
+     "name": "Layz",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "hexx",
+     "name": "Hexx",
+     "billing": "support"
+    },
+    {
+     "artist_id": "future-exit",
+     "name": "Future Exit",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ilesoniq-presente-layz-outnumbered-tour",
+     "name": "îLESONIQ présente: LAYZ - OUTNUMBERED Tour",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -17357,21 +17706,25 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://www.ticketmaster.ca/layz-presente-outnumbered-montreal-quebec-04-10-2027/event/31006553B75366BE",
    "event_url": "https://ra.co/events/2571691",
-   "image": "",
+   "image": "https://s1.ticketm.net/dam/a/85f/d6973746-8ed2-4e04-a1c7-420407b5a85f_SOURCE",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2571691"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/layz-presente-outnumbered-montreal-quebec-04-10-2027/event/31006553B75366BE"
     }
    ],
    "interest": {
-    "score": 12,
+    "score": 39,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : LAYZ présente: OUTNUMBED Tour (8)",
+     "tête d'affiche : Layz (46)",
      "lieu : MTELUS (palier 1)"
     ]
    }
@@ -17578,21 +17931,6 @@
   },
   {
    "kind": "event",
-   "day": "SAM 7 NOV",
-   "title": "Roger Sanchez",
-   "venue": "Stereo",
-   "time": "23:59 → 09:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb16db642c25db5a35943328c3",
-   "event_id": "6cd92a9b9976"
-  },
-  {
-   "kind": "event",
    "day": "VEN 13 NOV",
    "title": "DJ Snake",
    "venue": "Place Bell",
@@ -17620,21 +17958,6 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5ebdf90c83a6f5518167f1da889",
    "event_id": "7844d9cc5250"
-  },
-  {
-   "kind": "event",
-   "day": "VEN 20 NOV",
-   "title": "Wooli",
-   "venue": "Hall Est du Stade olympique",
-   "time": "20:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "Kai Wachi, HOL!, The Masquerade",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb806d12e80046abfbcd89db44",
-   "event_id": "2dbdbd320425"
   },
   {
    "kind": "event",
@@ -17680,6 +18003,36 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5ebedb3ce2bc522e2abbf098083",
    "event_id": "e3faa9d33f4b"
+  },
+  {
+   "kind": "event",
+   "day": "VEN 27 NOV",
+   "title": "Ian Asher",
+   "venue": "New City Gas",
+   "time": "22:00 → 03:00",
+   "tier": 3,
+   "reason": "",
+   "supports": "",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5ebd187406161b028580b4903c1",
+   "event_id": "1ada259b9fc8"
+  },
+  {
+   "kind": "event",
+   "day": "VEN 27 NOV",
+   "title": "Franky Rizardo",
+   "venue": "Stereo",
+   "time": "23:59 → 08:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb71d730a241b960a71e93483b",
+   "event_id": "bef711e1fbec"
   }
  ]
 }
