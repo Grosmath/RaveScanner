@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-30T00:45:16Z",
+ "generated_at": "2026-10-30T15:39:28Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 369
+   "events": 375
   },
   {
    "id": "dice",
@@ -29,11 +29,11 @@
   "accor-arena",
   "rex-club",
   "fvtvr",
+  "mia-mao",
   "la-defense-arena",
   "104-centquatre",
   "la-java",
   "la-machine-du-moulin-rouge",
-  "mia-mao",
   "sacre",
   "la-bellevilloise",
   "parc-des-expositions-paris-nord",
@@ -69,9 +69,9 @@
   "la-maroquinerie",
   "la-cigale",
   "le-pop-up-du-label",
+  "la-station-gare-des-mines",
   "virage",
   "le-consulat-voltaire",
-  "la-station-gare-des-mines",
   "nouveau-casino",
   "bal-chavaux",
   "chalet-du-lac-bois-de-vincennes",
@@ -101,6 +101,7 @@
   "folies-pigalle",
   "la-peniche-cinema",
   "a-la-folie-paris",
+  "silencio",
   "pamela-club",
   "theatre-silvia-monfort",
   "ground-control-gare-de-lyon",
@@ -109,8 +110,8 @@
   "la-maison-de-la-conversation",
   "le-son-de-la-terre",
   "babour-sauvage",
-  "silencio",
   "bourse-de-commerce-pinault-collection",
+  "la-gare-le-gore",
   "communale-saint-ouen",
   "amaluna-paris",
   "quai-de-la-photo",
@@ -678,6 +679,16 @@
   {
    "id": "la-gaite-lyrique",
    "name": "La Gaîté Lyrique",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "la-gare-le-gore",
+   "name": "La Gare / Le Gore",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1718,6 +1729,16 @@
    "known": false
   },
   {
+   "id": "akua",
+   "name": "Akua",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178146a98dd5f95372bff333ffb",
+   "known": false
+  },
+  {
    "id": "alarico",
    "name": "Alarico",
    "tier": 0,
@@ -2373,6 +2394,16 @@
    "known": false
   },
   {
+   "id": "bcco-daytime-sesh",
+   "name": "BCCO: Daytime Sesh",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "bde-ifm",
    "name": "BDE IFM",
    "tier": 0,
@@ -2552,6 +2583,16 @@
    "popularity": 0,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "camille-doe",
+   "name": "Camille Doe",
+   "tier": 0,
+   "score": 14,
+   "popularity": 14,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d29924fced4ba08a5536ba31",
    "known": false
   },
   {
@@ -3365,6 +3406,16 @@
    "known": false
   },
   {
+   "id": "dj-fuckoff",
+   "name": "DJ Fuckoff",
+   "tier": 0,
+   "score": 37,
+   "popularity": 37,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783f5b836bd2250e5e1d132489",
+   "known": false
+  },
+  {
    "id": "dj-guestlist",
    "name": "DJ GUESTLIST",
    "tier": 0,
@@ -3382,6 +3433,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "dj-holographic",
+   "name": "DJ Holographic",
+   "tier": 0,
+   "score": 17,
+   "popularity": 17,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c6650b544727a8c61438f097",
    "known": false
   },
   {
@@ -3825,6 +3886,16 @@
    "known": false
   },
   {
+   "id": "elsa-bernini",
+   "name": "Elsa Bernini",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "eman",
    "name": "EMAN (FR)",
    "tier": 0,
@@ -4075,6 +4146,16 @@
    "known": false
   },
   {
+   "id": "fdc-djs-aftershow",
+   "name": "FDC DJs AFTERSHOW",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "felix-da-housecat",
    "name": "Felix Da Housecat",
    "tier": 0,
@@ -4112,16 +4193,6 @@
    "popularity": 47,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b399c0fb7440577afe194eb5",
-   "known": false
-  },
-  {
-   "id": "flash-cocotte",
-   "name": "Flash Cocotte",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4846,6 +4917,19 @@
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048516ad6e897920ad01e31df9568",
    "known": false
+  },
+  {
+   "id": "interplanetary-criminal",
+   "name": "Interplanetary Criminal",
+   "tier": 3,
+   "score": 78,
+   "popularity": 79,
+   "genres": [
+    "uk garage",
+    "bass"
+   ],
+   "image": "https://i.scdn.co/image/ab6761610000f178aff1d657df363b64467718e3",
+   "known": true
   },
   {
    "id": "iosio",
@@ -5708,6 +5792,26 @@
    "known": false
   },
   {
+   "id": "laze",
+   "name": "Laze",
+   "tier": 0,
+   "score": 7,
+   "popularity": 7,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/eeb1d9def226b4e54d305b6bcb9d74c5/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "lb-aka-labat",
+   "name": "LB aka LABAT",
+   "tier": 0,
+   "score": 46,
+   "popularity": 46,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783b7ef1e3de8b4a8cf4a9bdba",
+   "known": false
+  },
+  {
    "id": "lb-honne",
    "name": "Lb Honne",
    "tier": 0,
@@ -6155,6 +6259,16 @@
    "popularity": 18,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/7514d37a4d087d6ff533dfa55d8ee038/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "main-phase",
+   "name": "Main Phase",
+   "tier": 0,
+   "score": 47,
+   "popularity": 47,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178683b92c5a243ca051b6e5bd4",
    "known": false
   },
   {
@@ -6837,6 +6951,16 @@
    "popularity": 48,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17856b1dc7a3a78898e9f22db4e",
+   "known": false
+  },
+  {
+   "id": "muchas-problemas",
+   "name": "Muchas Problemas",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783b7bbb0db37b6565c6ebed5a",
    "known": false
   },
   {
@@ -8083,6 +8207,16 @@
    "known": false
   },
   {
+   "id": "rza",
+   "name": "RÆZA",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "saint-james",
    "name": "Saint-James",
    "tier": 0,
@@ -8114,6 +8248,16 @@
    ],
    "image": "https://i.scdn.co/image/ab6761610000f178f431bdb80cf96cc5a3926e6c",
    "known": true
+  },
+  {
+   "id": "sam-alfred",
+   "name": "Sam Alfred",
+   "tier": 0,
+   "score": 55,
+   "popularity": 55,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ffa825ff78ede8d6238a06eb",
+   "known": false
   },
   {
    "id": "sam-karlson",
@@ -8466,6 +8610,16 @@
    "known": false
   },
   {
+   "id": "sottoh",
+   "name": "SOTTOH",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851f76cd5460857d6142ff5aaa9",
+   "known": false
+  },
+  {
    "id": "soul-frequency",
    "name": "Soul Frequency",
    "tier": 0,
@@ -8526,8 +8680,8 @@
    "known": false
   },
   {
-   "id": "spectrum-waves-closing-station-nord",
-   "name": "Spectrum Waves: Closing Station (Nord",
+   "id": "spicy-sofi",
+   "name": "Spicy Sofi",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -8536,13 +8690,13 @@
    "known": false
   },
   {
-   "id": "spicy-sofi",
-   "name": "Spicy Sofi",
+   "id": "spikey-lee",
+   "name": "Spikey Lee",
    "tier": 0,
-   "score": 8,
-   "popularity": null,
+   "score": 0,
+   "popularity": 0,
    "genres": [],
-   "image": "",
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -8653,16 +8807,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17882d6cfbba18aac33a57ad141",
-   "known": false
-  },
-  {
-   "id": "sud",
-   "name": "Sud)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -9106,6 +9250,16 @@
    "popularity": 68,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17805394d499228492f9ffdcea7",
+   "known": false
+  },
+  {
+   "id": "toscan-haas",
+   "name": "Toscan Haas",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -9656,6 +9810,16 @@
    "popularity": 41,
    "genres": [],
    "image": "https://i.scdn.co/image/364246aaf3814087a06d8bdfa581c186d90c77fe",
+   "known": false
+  },
+  {
+   "id": "yazzus",
+   "name": "Yazzus",
+   "tier": 0,
+   "score": 21,
+   "popularity": 21,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17846998fb7fe04a20ea5327ce8",
    "known": false
   },
   {
@@ -10512,6 +10676,74 @@
    }
   },
   {
+   "id": "c7adb761e3ab",
+   "title": "Spectrum Waves: Closing Station (Nord + Sud)",
+   "venue_id": "la-station-gare-des-mines",
+   "night": "2026-10-30",
+   "start": "2026-10-30T23:00:00.000",
+   "end": "2026-10-31T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-holographic",
+     "name": "DJ Holographic",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "elsa-bernini",
+     "name": "Elsa Bernini",
+     "billing": "support"
+    },
+    {
+     "artist_id": "rza",
+     "name": "RÆZA",
+     "billing": "support"
+    },
+    {
+     "artist_id": "toscan-haas",
+     "name": "Toscan Haas",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lea-occhi",
+     "name": "Lea Occhi",
+     "billing": "support"
+    },
+    {
+     "artist_id": "sottoh",
+     "name": "SOTTOH",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2392797",
+   "event_url": "https://ra.co/events/2392797",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2392797"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Holographic (17)",
+     "lieu : La Station - Gare des Mines (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "b95407decd0f",
    "title": "Groove Candy: 90s House - Garage House & Soulful",
    "venue_id": "djoon",
@@ -10602,54 +10834,6 @@
     "reasons": [
      "tête d'affiche : Crustasex (8)",
      "lieu : Le Trabendo (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "c7adb761e3ab",
-   "title": "Spectrum Waves: Closing Station (Nord + Sud)",
-   "venue_id": "la-station-gare-des-mines",
-   "night": "2026-10-30",
-   "start": "2026-10-30T23:00:00.000",
-   "end": "2026-10-31T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "spectrum-waves-closing-station-nord",
-     "name": "Spectrum Waves: Closing Station (Nord",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "sud",
-     "name": "Sud)",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "house"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2392797",
-   "event_url": "https://ra.co/events/2392797",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2392797"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Spectrum Waves: Closing Station (Nord (8)",
-     "lieu : La Station - Gare des Mines (palier 2)"
     ]
    }
   },
@@ -11583,8 +11767,8 @@
    }
   },
   {
-   "id": "5165e2cff2dd",
-   "title": "La Station — Doomsday",
+   "id": "9cadbbf85246",
+   "title": "La Station — Doomsday (PAS DE VENTE SUR PLACE)",
    "venue_id": "la-station-gare-des-mines",
    "night": "2026-10-31",
    "start": "2026-10-31T20:00:00.000",
@@ -11694,8 +11878,8 @@
    }
   },
   {
-   "id": "7ac804deba4f",
-   "title": "Halloween Party — Curses, Joe Lewandowski, Le Saint, RAG",
+   "id": "0a8de6ecbd54",
+   "title": "Halloween Party — Curses, Joe Lewandowski, Le Saint, RAG, Muchas Problemas",
    "venue_id": "badaboum",
    "night": "2026-10-31",
    "start": "2026-10-31T23:30:00.000",
@@ -11720,12 +11904,18 @@
      "artist_id": "le-saint",
      "name": "Le Saint",
      "billing": "support"
+    },
+    {
+     "artist_id": "muchas-problemas",
+     "name": "Muchas Problemas",
+     "billing": "support"
     }
    ],
    "genres": [
     "house",
     "disco",
-    "techno"
+    "techno",
+    "tech house"
    ],
    "families": [
     "Techno",
@@ -18695,6 +18885,59 @@
    }
   },
   {
+   "id": "7fa602ff202e",
+   "title": "Flash Cocotte",
+   "venue_id": "la-machine-du-moulin-rouge",
+   "night": "2026-11-13",
+   "start": "2026-11-13T23:59:00.000",
+   "end": "2026-11-14T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "yazzus",
+     "name": "Yazzus",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "spikey-lee",
+     "name": "Spikey Lee",
+     "billing": "support"
+    },
+    {
+     "artist_id": "akua",
+     "name": "Akua",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2553317",
+   "event_url": "https://ra.co/events/2553317",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2553317"
+    }
+   ],
+   "interest": {
+    "score": 33,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Yazzus (21)",
+     "lieu : La Machine du Moulin Rouge (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "02995756ccf9",
    "title": "Open herbe & Label Affaire invitent Baka G",
    "venue_id": "djoon",
@@ -18885,49 +19128,6 @@
     "reasons": [
      "tête d'affiche : Toxic (29)",
      "lieu : Le 211 (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "7fa602ff202e",
-   "title": "Flash Cocotte",
-   "venue_id": "la-machine-du-moulin-rouge",
-   "night": "2026-11-13",
-   "start": "2026-11-13T23:59:00.000",
-   "end": "2026-11-14T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "flash-cocotte",
-     "name": "Flash Cocotte",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "electro"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2553317",
-   "event_url": "https://ra.co/events/2553317",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2553317"
-    }
-   ],
-   "interest": {
-    "score": 24,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Flash Cocotte (8)",
-     "lieu : La Machine du Moulin Rouge (palier 3)"
     ]
    }
   },
@@ -19251,6 +19451,49 @@
     "reasons": [
      "tête d'affiche : BINGO DRAG LATINO: DESACATO À La Mutinerie (8)",
      "lieu : La Mutinerie (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "fd8790ce898e",
+   "title": "FDC DJs AFTERSHOW",
+   "venue_id": "silencio",
+   "night": "2026-11-13",
+   "start": "2026-11-13T23:00:00.000",
+   "end": "2026-11-14T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "fdc-djs-aftershow",
+     "name": "FDC DJs AFTERSHOW",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2573446",
+   "event_url": "https://ra.co/events/2573446",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2573446"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : FDC DJs AFTERSHOW (8)",
+     "lieu : Silencio (palier 1)"
     ]
    }
   },
@@ -21896,6 +22139,64 @@
    }
   },
   {
+   "id": "98bec3a6a97b",
+   "title": "LB aka LABAT curated tour w/ Sam Alfred, DJ Fuckoff & LAZE",
+   "venue_id": "fvtvr",
+   "night": "2026-11-21",
+   "start": "2026-11-21T23:59:00.000",
+   "end": "2026-11-22T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sam-alfred",
+     "name": "Sam Alfred",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lb-aka-labat",
+     "name": "LB aka LABAT",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dj-fuckoff",
+     "name": "DJ Fuckoff",
+     "billing": "support"
+    },
+    {
+     "artist_id": "laze",
+     "name": "Laze",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "club"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2573219",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2573219"
+    }
+   ],
+   "interest": {
+    "score": 52,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Sam Alfred (55)",
+     "lieu : FVTVR (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "f35ce6284825",
    "title": "reshape - Skee Mask b2b Vlada - all night long",
    "venue_id": "essaim",
@@ -23410,6 +23711,43 @@
    }
   },
   {
+   "id": "227803167200",
+   "title": "Osmose: Jolly + Emma Neil",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-11-27",
+   "start": "2026-11-27T23:59:00.000",
+   "end": "2026-11-28T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jolly",
+     "name": "Jolly (FR)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2573445",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2573445"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jolly (FR) (16)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "bab39caa148b",
    "title": "DAISYLUSION",
    "venue_id": "panic-room",
@@ -24256,6 +24594,43 @@
    }
   },
   {
+   "id": "362ac2918695",
+   "title": "Osmose: Lastvuska + Bobby Watson",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-11-28",
+   "start": "2026-11-28T23:59:00.000",
+   "end": "2026-11-29T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lastvuska",
+     "name": "Lastvuska",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2573447",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2573447"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lastvuska (0)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "72c5f5b9f181",
    "title": "Loophole X Complice: Interstice (Sunday Warehouse)",
    "venue_id": "la-cite-fertile",
@@ -24591,6 +24966,64 @@
      "tête d'affiche : Tour-Maubourg (61)",
      "lieu : FVTVR (palier 2)",
      "plateau dense"
+    ]
+   }
+  },
+  {
+   "id": "61fd7375c79b",
+   "title": "Atw Showcase: Interplanetary Criminal & More",
+   "venue_id": "mia-mao",
+   "night": "2026-12-04",
+   "start": "2026-12-04T23:59:00.000",
+   "end": "2026-12-05T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "interplanetary-criminal",
+     "name": "Interplanetary Criminal",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "main-phase",
+     "name": "Main Phase",
+     "billing": "support"
+    },
+    {
+     "artist_id": "camille-doe",
+     "name": "Camille Doe",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lefblom",
+     "name": "Lefblom",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "garage",
+    "uk garage",
+    "bass"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2573468",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2573468"
+    }
+   ],
+   "interest": {
+    "score": 62,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Interplanetary Criminal (78)",
+     "lieu : Mia Mao (palier 1)"
     ]
    }
   },
@@ -26583,6 +27016,47 @@
    }
   },
   {
+   "id": "80614efc6f33",
+   "title": "BCCO: Daytime Sesh",
+   "venue_id": "mia-mao",
+   "night": "2026-12-20",
+   "start": "2026-12-20T14:00:00.000",
+   "end": "2026-12-20T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "bcco-daytime-sesh",
+     "name": "BCCO: Daytime Sesh",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2573475",
+   "event_url": "https://ra.co/events/2573475",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2573475"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : BCCO: Daytime Sesh (8)",
+     "lieu : Mia Mao (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "65693660cbf1",
    "title": "Fluid Nye: Majes, ANDATA, Adb, Betïses, Kuki B2b Amrk",
    "venue_id": "mia-mao",
@@ -27594,6 +28068,13 @@
    "night": "2027-02-19",
    "venue": "Rex Club",
    "photo": "https://i.scdn.co/image/ab6761610000f178ced0f40aac584f79965fd528"
+  },
+  {
+   "id": "61fd7375c79b",
+   "name": "Interplanetary Criminal",
+   "night": "2026-12-04",
+   "venue": "Mia Mao",
+   "photo": "https://i.scdn.co/image/ab6761610000f178aff1d657df363b64467718e3"
   },
   {
    "id": "02eb16fc4c1c",
