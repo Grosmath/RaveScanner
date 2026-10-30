@@ -1,31 +1,31 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-29T15:55:33Z",
+ "generated_at": "2026-10-30T00:45:16Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-10-29",
-  "end": "2027-04-27"
+  "start": "2026-10-30",
+  "end": "2027-04-28"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 381
+   "events": 369
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 51
+   "events": 52
   }
  ],
  "venue_order": [
   "phantom-paris",
-  "badaboum",
   "pavillon-tilsitt",
+  "badaboum",
   "accor-arena",
   "rex-club",
   "fvtvr",
@@ -47,12 +47,11 @@
   "cite-de-la-musique",
   "elysee-montmartre",
   "cabaret-sauvage",
-  "miniwax",
+  "glazart",
   "kilometre25",
   "la-cite-fertile",
   "palais-brongniart",
   "yoyo-palais-de-tokyo",
-  "glazart",
   "essaim",
   "le-trabendo",
   "grande-halle-de-la-villette",
@@ -65,29 +64,29 @@
   "petit-bain",
   "le-mazette",
   "a-side",
-  "main-room",
   "cartilage",
   "fondation-cartier",
   "la-maroquinerie",
   "la-cigale",
-  "la-rotonde-stalingrad",
   "le-pop-up-du-label",
-  "le-consulat-voltaire",
   "virage",
+  "le-consulat-voltaire",
   "la-station-gare-des-mines",
   "nouveau-casino",
+  "bal-chavaux",
   "chalet-du-lac-bois-de-vincennes",
   "le-trianon",
   "la-compagnie-1837",
   "le-grand-dome",
   "zenith-paris-la-villette",
-  "bal-chavaux",
   "tba-saint-denis",
   "dojo-de-paris",
+  "main-room",
   "le-chinois",
   "la-nuit",
   "la-marbrerie",
   "lafayette-anticipations",
+  "la-rotonde-stalingrad",
   "new-morning",
   "bus-palladium",
   "gibus-club",
@@ -99,10 +98,10 @@
   "tba-75013",
   "tba",
   "le-klub",
-  "pamela-club",
   "folies-pigalle",
   "la-peniche-cinema",
   "a-la-folie-paris",
+  "pamela-club",
   "theatre-silvia-monfort",
   "ground-control-gare-de-lyon",
   "l-olympia",
@@ -111,7 +110,6 @@
   "le-son-de-la-terre",
   "babour-sauvage",
   "silencio",
-  "le-poisson-volant",
   "bourse-de-commerce-pinault-collection",
   "communale-saint-ouen",
   "amaluna-paris",
@@ -121,6 +119,7 @@
   "canal-93",
   "la-marquise-club",
   "terminus",
+  "le-poisson-volant",
   "alimentation-generale",
   "chalet-du-lac",
   "chateau-ephemere",
@@ -151,8 +150,7 @@
   "centre-culturel-chambre-noire",
   "la-mecanique-ondulatoire",
   "le-hasard-ludique",
-  "le-point-fort-d-aubervilliers",
-  "signorvino-pl-saint-michel"
+  "le-point-fort-d-aubervilliers"
  ],
  "venues": [
   {
@@ -1097,16 +1095,6 @@
    ]
   },
   {
-   "id": "miniwax",
-   "name": "Miniwax",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "mira",
    "name": "MIRA",
    "type": "club",
@@ -1301,16 +1289,6 @@
     "techno",
     "house"
    ]
-  },
-  {
-   "id": "signorvino-pl-saint-michel",
-   "name": "Signorvino (Pl. Saint-Michel)",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
   },
   {
    "id": "silencio",
@@ -1667,16 +1645,6 @@
    "popularity": 50,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789eccc6c86d94555300f514ca",
-   "known": false
-  },
-  {
-   "id": "acid-souljah",
-   "name": "Acid Souljah",
-   "tier": 0,
-   "score": 40,
-   "popularity": 40,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178da498788c800b71525fc7057",
    "known": false
   },
   {
@@ -2587,6 +2555,16 @@
    "known": false
   },
   {
+   "id": "camporeale",
+   "name": "Camporeale (FR)",
+   "tier": 0,
+   "score": 6,
+   "popularity": 6,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786b0d74f842171013f43449c0",
+   "known": false
+  },
+  {
    "id": "cannelle",
    "name": "Cannelle",
    "tier": 0,
@@ -2680,8 +2658,8 @@
    "id": "cera-khin",
    "name": "Cera Khin",
    "tier": 0,
-   "score": 39,
-   "popularity": 39,
+   "score": 37,
+   "popularity": 37,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17839b34c091cc55085995131d0",
    "known": false
@@ -2764,16 +2742,6 @@
    "popularity": 19,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178bbf422d7b86e1e49e76fbeca",
-   "known": false
-  },
-  {
-   "id": "chloe",
-   "name": "Chloé",
-   "tier": 0,
-   "score": 76,
-   "popularity": 76,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1781bdf4994664f0ab0e6cfd2ba",
    "known": false
   },
   {
@@ -3463,7 +3431,7 @@
    "score": 0,
    "popularity": 0,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485129b64daae33a411d8b97711c",
+   "image": "https://cdn-images.dzcdn.net/images/artist/ed034a9c6dc4ed55821acdfca3a07eb7/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3887,16 +3855,6 @@
    "known": false
   },
   {
-   "id": "emma-dj",
-   "name": "Emma DJ",
-   "tier": 0,
-   "score": 13,
-   "popularity": 13,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1784a8e9409406a76d2ca371765",
-   "known": false
-  },
-  {
    "id": "encore-une-autre",
    "name": "encore une autre",
    "tier": 0,
@@ -3964,16 +3922,6 @@
    "popularity": 78,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178976162a7d8f6d64d20b9874f",
-   "known": false
-  },
-  {
-   "id": "europa-1",
-   "name": "Europa (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4404,16 +4352,6 @@
    "popularity": 48,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17839164b32db594cdc4a9a721b",
-   "known": false
-  },
-  {
-   "id": "ghosty-1",
-   "name": "Ghosty (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4870,6 +4808,16 @@
    "known": false
   },
   {
+   "id": "inadiloop",
+   "name": "inadiloop",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "infected-mushroom",
    "name": "Infected Mushroom",
    "tier": 0,
@@ -4917,16 +4865,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "j-dub",
-   "name": "J-Dub",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178fee13eb032ad53601c8c285f",
    "known": false
   },
   {
@@ -5420,16 +5358,6 @@
    "known": false
   },
   {
-   "id": "kili-3",
-   "name": "Kili (3)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "kilimanjaro",
    "name": "KILIMANJARO",
    "tier": 0,
@@ -5573,8 +5501,8 @@
    "id": "ktk",
    "name": "KTK (DE)",
    "tier": 0,
-   "score": 33,
-   "popularity": 33,
+   "score": 14,
+   "popularity": 14,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f9b04ffbc1f8865fae2c97dd",
    "known": false
@@ -5660,16 +5588,6 @@
    "known": false
   },
   {
-   "id": "la-ch-ck-mother-monster-halloween",
-   "name": "LA CH!CK: MOTHER MONSTER HALLOWEEN",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "la-ch-ck-remembering-brat-summer",
    "name": "LA CH!CK: REMEMBERING BRAT SUMMER",
    "tier": 0,
@@ -5682,16 +5600,6 @@
   {
    "id": "la-ch-ck-the-golden-era-of-edm",
    "name": "LA CH!CK: THE GOLDEN ERA OF EDM",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "la-feve-finis-les-party",
-   "name": "LA FÈVE - FINIS-LES PARTY",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5807,16 +5715,6 @@
    "popularity": 21,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17895d07b97f70824c12031b364",
-   "known": false
-  },
-  {
-   "id": "le-bal-des-ombres",
-   "name": "Le Bal Des Ombres",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -6310,16 +6208,6 @@
    "known": false
   },
   {
-   "id": "manilajunkie",
-   "name": "Manilajunkie..",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "manon-demon",
    "name": "Manon Démon",
    "tier": 0,
@@ -6632,6 +6520,16 @@
    "known": false
   },
   {
+   "id": "melittah",
+   "name": "Melittah",
+   "tier": 0,
+   "score": 46,
+   "popularity": 46,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17850b6af9db71734504fdf4a2b",
+   "known": false
+  },
+  {
    "id": "mely",
    "name": "Mely",
    "tier": 0,
@@ -6882,6 +6780,16 @@
    "known": false
   },
   {
+   "id": "more-club-armor",
+   "name": "More : Club Armor",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "more-revival",
    "name": "More : Revival",
    "tier": 0,
@@ -6959,6 +6867,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178097a3453605cee032c26a558",
+   "known": false
+  },
+  {
+   "id": "mza",
+   "name": "MZA (FR)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7049,6 +6967,16 @@
    "popularity": 24,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048519c1616a81c7be2a4dc1418fb",
+   "known": false
+  },
+  {
+   "id": "nesa-azadikhah",
+   "name": "Nesa Azadikhah",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789e1c6ea0ecddfdbfe636455f",
    "known": false
   },
   {
@@ -7315,6 +7243,16 @@
    "known": false
   },
   {
+   "id": "odo",
+   "name": "Odo",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/6ba84df97769b77e6a9f9a0895595380/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "ogazon",
    "name": "Ogazón",
    "tier": 0,
@@ -7402,16 +7340,6 @@
    "popularity": 40,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785db832e29602e58bc9bb3051",
-   "known": false
-  },
-  {
-   "id": "orange-juice-asia-clara-rosa",
-   "name": "Orange Juice Asia - Clara Rosa",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -7765,26 +7693,6 @@
    "known": false
   },
   {
-   "id": "play-house",
-   "name": "Play House",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/684c1d64616f44fcdefaee245292eb64/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "pluko",
-   "name": "Pluko",
-   "tier": 0,
-   "score": 56,
-   "popularity": 56,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789e89572faffdaac2b955179b",
-   "known": false
-  },
-  {
    "id": "poggio",
    "name": "Poggio",
    "tier": 0,
@@ -8025,16 +7933,6 @@
    "known": false
   },
   {
-   "id": "reggaeton-y-mas",
-   "name": "Reggaeton y Mas",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "remain",
    "name": "REMAIN",
    "tier": 0,
@@ -8088,10 +7986,10 @@
    "id": "romane-santarelli",
    "name": "Romane Santarelli",
    "tier": 0,
-   "score": 25,
-   "popularity": 25,
+   "score": 31,
+   "popularity": 31,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1780f25f5ce5e9bdee7c09811d6",
+   "image": "https://i.scdn.co/image/ab6761610000f17832d6747eda35a103ace64a74",
    "known": false
   },
   {
@@ -8508,16 +8406,6 @@
    "known": false
   },
   {
-   "id": "sodomland",
-   "name": "Sodomland",
-   "tier": 0,
-   "score": 29,
-   "popularity": 29,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17804c5c1e6066382a6248bc196",
-   "known": false
-  },
-  {
    "id": "soeurs-malsaines-presentent-le-bal-crade",
    "name": "SOEURS MALSAINES PRÉSENTENT : LE BAL CRADE",
    "tier": 0,
@@ -8575,16 +8463,6 @@
    "popularity": 5,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851f61e61706927290aa6e7a8a3",
-   "known": false
-  },
-  {
-   "id": "sopik",
-   "name": "Sopik",
-   "tier": 0,
-   "score": 36,
-   "popularity": 36,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178263e6307cda1d8a4c804217e",
    "known": false
   },
   {
@@ -9081,16 +8959,6 @@
    "known": false
   },
   {
-   "id": "the-velvet-brothers",
-   "name": "The Velvet Brothers",
-   "tier": 0,
-   "score": 1,
-   "popularity": 1,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178f7f5fe1d6da2ca07b15f8eae",
-   "known": false
-  },
-  {
    "id": "thelma",
    "name": "THELMA",
    "tier": 0,
@@ -9331,16 +9199,6 @@
    "known": false
   },
   {
-   "id": "tropical-after-work-special-latino-salsa",
-   "name": "Tropical After-Work Spécial Latino Salsa",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "ttr-1",
    "name": "TTR#1",
    "tier": 0,
@@ -9491,16 +9349,6 @@
    "known": false
   },
   {
-   "id": "vendredear",
-   "name": "vendredear",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "venus",
    "name": "Venus",
    "tier": 0,
@@ -9581,8 +9429,18 @@
    "known": false
   },
   {
+   "id": "virage-closing-2026-secret-line-up",
+   "name": "Virage Closing 2026 : Secret line-up",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "virage-secret-closing-2026",
-   "name": "Virage Secret Closing 2026",
+   "name": "VIRAGE SECRET CLOSING 2026",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -9608,6 +9466,16 @@
    "popularity": 38,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f5fc5a2f00de54aefb836191",
+   "known": false
+  },
+  {
+   "id": "vivi909",
+   "name": "VIVI909",
+   "tier": 0,
+   "score": 38,
+   "popularity": 38,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787ad18eb7d71db20e6e984954",
    "known": false
   },
   {
@@ -9831,16 +9699,6 @@
    "known": false
   },
   {
-   "id": "youthdreams",
-   "name": "Youthdreams",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "zaltan",
    "name": "Zaltan",
    "tier": 0,
@@ -9892,676 +9750,6 @@
   }
  ],
  "events": [
-  {
-   "id": "b4080b7adcdc",
-   "title": "Release party Chloé",
-   "venue_id": "miniwax",
-   "night": "2026-10-29",
-   "start": "2026-10-29T18:00:00.000",
-   "end": "2026-10-29T21:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "chloe",
-     "name": "Chloé",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electro"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2567697",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2567697"
-    }
-   ],
-   "interest": {
-    "score": 61,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Chloé (76)",
-     "lieu : Miniwax (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "f2d7ee5f7ad0",
-   "title": "Pluko",
-   "venue_id": "main-room",
-   "night": "2026-10-29",
-   "start": "2026-10-29T20:00:00.000",
-   "end": "2026-10-29T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "pluko",
-     "name": "Pluko",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "hip-hop"
-   ],
-   "families": [
-    "House",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2549657",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2549657"
-    }
-   ],
-   "interest": {
-    "score": 46,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Pluko (56)",
-     "lieu : main room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "8be70747e052",
-   "title": "Discotaco : disco, paillettes & tacos partout !",
-   "venue_id": "le-mazette",
-   "night": "2026-10-29",
-   "start": "2026-10-29T18:00:00+01:00",
-   "end": "2026-10-30T01:00:00+01:00",
-   "lineup": [
-    {
-     "artist_id": "funky-french-league",
-     "name": "Funky French League",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/l8mlxl-discotaco-disco-paillettes-tacos-partout-29th-oct-le-mazette-paris-tickets",
-   "event_url": "https://dice.fm/event/l8mlxl-discotaco-disco-paillettes-tacos-partout-29th-oct-le-mazette-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-03/fec132f9-0f19-4cd0-92da-cf7a6be4061b.jpg?rect=420%2C0%2C1080%2C1080",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/l8mlxl-discotaco-disco-paillettes-tacos-partout-29th-oct-le-mazette-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 35,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Funky French League (40)",
-     "lieu : Le Mazette (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "5192312db37b",
-   "title": "San Louis Family Show III",
-   "venue_id": "la-rotonde-stalingrad",
-   "night": "2026-10-29",
-   "start": "2026-10-29T22:00:00.000",
-   "end": "2026-10-30T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "acid-souljah",
-     "name": "Acid Souljah",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "hip-hop",
-    "electro"
-   ],
-   "families": [
-    "Électro & bass",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2553615",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2553615"
-    }
-   ],
-   "interest": {
-    "score": 35,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Acid Souljah (40)",
-     "lieu : La Rotonde Stalingrad (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "2b6bbc590b7c",
-   "title": "Hypershot: Europa, Sodomland, The Velvet Brothers",
-   "venue_id": "badaboum",
-   "night": "2026-10-29",
-   "start": "2026-10-29T19:30:00.000",
-   "end": "2026-10-29T23:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "sodomland",
-     "name": "Sodomland",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "europa-1",
-     "name": "Europa (1)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "the-velvet-brothers",
-     "name": "The Velvet Brothers",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2533515",
-   "event_url": "https://ra.co/events/2533515",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2533515"
-    }
-   ],
-   "interest": {
-    "score": 33,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Sodomland (29)",
-     "lieu : Badaboum (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "08752653a5df",
-   "title": "Orka: Sopik, Night Owl, Dj Ratz, Keros, Skollaris",
-   "venue_id": "mia-mao",
-   "night": "2026-10-29",
-   "start": "2026-10-29T23:00:00.000",
-   "end": "2026-10-30T06:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "sopik",
-     "name": "Sopik",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "night-owl",
-     "name": "Night Owl",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2554645",
-   "event_url": "https://ra.co/events/2554645",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2554645"
-    }
-   ],
-   "interest": {
-    "score": 32,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Sopik (36)",
-     "lieu : Mia Mao (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "33aa79ad6080",
-   "title": "Furtive: Kili, Ghosty, Petit Castor",
-   "venue_id": "rex-club",
-   "night": "2026-10-29",
-   "start": "2026-10-29T23:59:00.000",
-   "end": "2026-10-30T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "kili-3",
-     "name": "Kili (3)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ghosty-1",
-     "name": "Ghosty (1)",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2549753",
-   "event_url": "https://ra.co/events/2549753",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2549753"
-    }
-   ],
-   "interest": {
-    "score": 24,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Kili (3) (8)",
-     "lieu : Rex Club (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "8b91ff460eda",
-   "title": "LA FÈVE - FINIS-LES PARTY",
-   "venue_id": "la-machine-du-moulin-rouge",
-   "night": "2026-10-29",
-   "start": "2026-10-29T23:59:00.000",
-   "end": "2026-10-30T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "la-feve-finis-les-party",
-     "name": "LA FÈVE - FINIS-LES PARTY",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "hip-hop"
-   ],
-   "families": [
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2569791",
-   "event_url": "https://ra.co/events/2569791",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2569791"
-    }
-   ],
-   "interest": {
-    "score": 24,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : LA FÈVE - FINIS-LES PARTY (8)",
-     "lieu : La Machine du Moulin Rouge (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "b2367d9e6d8b",
-   "title": "LA CH!CK: MOTHER MONSTER HALLOWEEN",
-   "venue_id": "badaboum",
-   "night": "2026-10-29",
-   "start": "2026-10-29T23:30:00.000",
-   "end": "2026-10-30T05:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "la-ch-ck-mother-monster-halloween",
-     "name": "LA CH!CK: MOTHER MONSTER HALLOWEEN",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "pop"
-   ],
-   "families": [
-    "Pop & club"
-   ],
-   "price_min": 5.0,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2568555",
-   "event_url": "https://ra.co/events/2568555",
-   "image": "https://dice-media.imgix.net/attachments/2026-10-23/d7b2bdc3-930f-4c48-a7cc-d82c89db0edf.jpg?rect=0%2C103%2C1080%2C1080",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2568555"
-    },
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/6dy8l2-la-chck-mother-monster-halloween-29th-oct-badaboum-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : LA CH!CK: MOTHER MONSTER HALLOWEEN (8)",
-     "lieu : Badaboum (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "9940d2a5c8cd",
-   "title": "Le Bal Des Ombres",
-   "venue_id": "pavillon-tilsitt",
-   "night": "2026-10-29",
-   "start": "2026-10-29T23:30:00.000",
-   "end": "2026-10-30T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "le-bal-des-ombres",
-     "name": "Le Bal Des Ombres",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "afro house"
-   ],
-   "families": [
-    "House",
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2569525",
-   "event_url": "https://ra.co/events/2569525",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2569525"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Le Bal Des Ombres (8)",
-     "lieu : Pavillon Tilsitt (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "bd917f448065",
-   "title": "Tropical After-Work Spécial Latino Salsa, Reggaeton y Mas",
-   "venue_id": "la-cite-fertile",
-   "night": "2026-10-29",
-   "start": "2026-10-29T18:00:00.000",
-   "end": "2026-10-29T23:59:00.000",
-   "lineup": [
-    {
-     "artist_id": "tropical-after-work-special-latino-salsa",
-     "name": "Tropical After-Work Spécial Latino Salsa",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "reggaeton-y-mas",
-     "name": "Reggaeton y Mas",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "reggaeton",
-    "neo perreo"
-   ],
-   "families": [
-    "Afro & latin"
-   ],
-   "price_min": 0.0,
-   "currency": "CAD",
-   "ticket_url": "https://dice.fm/event/92v3r6-tropical-after-work-spcial-latino-29th-oct-la-cit-fertile-paris-tickets",
-   "event_url": "https://ra.co/events/2569529",
-   "image": "https://dice-media.imgix.net/attachments/2026-10-26/39c6c299-be80-4504-b1e4-81ac23bc106e.jpg?rect=0%2C181%2C1086%2C1086",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2569529"
-    },
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/92v3r6-tropical-after-work-spcial-latino-29th-oct-la-cit-fertile-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Tropical After-Work Spécial Latino Salsa (8)",
-     "lieu : La Cité Fertile (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "3a2358f701cd",
-   "title": "Vendredear and Emma DJ",
-   "venue_id": "le-poisson-volant",
-   "night": "2026-10-29",
-   "start": "2026-10-29T23:59:00.000",
-   "end": "2026-10-30T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "emma-dj",
-     "name": "Emma DJ",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "vendredear",
-     "name": "vendredear",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "club"
-   ],
-   "families": [
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2549196",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2549196"
-    }
-   ],
-   "interest": {
-    "score": 15,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Emma DJ (13)",
-     "lieu : Le Poisson Volant (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "5d9f9b83f7f6",
-   "title": "Youthdreams X Orange Juice Asia - Clara Rosa, Manilajunkie..",
-   "venue_id": "pamela-club",
-   "night": "2026-10-29",
-   "start": "2026-10-29T23:00:00.000",
-   "end": "2026-11-01T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "youthdreams",
-     "name": "Youthdreams",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "orange-juice-asia-clara-rosa",
-     "name": "Orange Juice Asia - Clara Rosa",
-     "billing": "support"
-    },
-    {
-     "artist_id": "manilajunkie",
-     "name": "Manilajunkie..",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2570999",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2570999"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2570999"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2570999"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Youthdreams (8)",
-     "lieu : Pamela Club (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "ad6fe0b53347",
-   "title": "Dolce Notte By Signorvino",
-   "venue_id": "signorvino-pl-saint-michel",
-   "night": "2026-10-29",
-   "start": "2026-10-29T19:30:00.000",
-   "end": "2026-10-29T23:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "play-house",
-     "name": "Play House",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "afro house"
-   ],
-   "families": [
-    "House",
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2570887",
-   "event_url": "https://ra.co/events/2570887",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2570887"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Play House (0)",
-     "lieu : Signorvino (Pl. Saint-Michel) (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "4628effc4a43",
-   "title": "ONE NIGHT IN CHICAGO",
-   "venue_id": "panic-room",
-   "night": "2026-10-29",
-   "start": "2026-10-29T19:00:00.000",
-   "end": "2026-10-30T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "j-dub",
-     "name": "J-Dub",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2551151",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2551151"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : J-Dub (0)",
-     "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
   {
    "id": "4758e4bd3c32",
    "title": "Jungle",
@@ -11315,10 +10503,10 @@
     }
    ],
    "interest": {
-    "score": 24,
+    "score": 28,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Romane Santarelli (25)",
+     "tête d'affiche : Romane Santarelli (31)",
      "lieu : Virage (palier 1)"
     ]
    }
@@ -12880,13 +12068,13 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "ktk",
-     "name": "KTK (DE)",
+     "artist_id": "yenkov",
+     "name": "YENKOV",
      "billing": "support"
     },
     {
-     "artist_id": "yenkov",
-     "name": "YENKOV",
+     "artist_id": "ktk",
+     "name": "KTK (DE)",
      "billing": "support"
     },
     {
@@ -13333,6 +12521,57 @@
     "reasons": [
      "tête d'affiche : HOUSE FREAKS: Halloween 2026 (8)",
      "lieu : Djoon (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "1e2893e3a080",
+   "title": "Mza - Nesa Azadikhah &More - THEME010 - Mascarade Politique",
+   "venue_id": "la-cite-fertile",
+   "night": "2026-10-31",
+   "start": "2026-10-31T16:00:00.000",
+   "end": "2026-10-31T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "mza",
+     "name": "MZA (FR)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "nesa-azadikhah",
+     "name": "Nesa Azadikhah",
+     "billing": "support"
+    },
+    {
+     "artist_id": "orpheee",
+     "name": "Orpheee",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2572793",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2572793"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : MZA (FR) (8)",
+     "lieu : La Cité Fertile (palier 2)"
     ]
    }
   },
@@ -16580,16 +15819,20 @@
     "Techno",
     "Trance & hard"
    ],
-   "price_min": null,
+   "price_min": 14.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2572401",
    "event_url": "https://ra.co/events/2572401",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-29/fb0f9bc0-56fe-4c5c-97de-6774b87a6373.jpg?rect=0%2C180%2C1440%2C1440",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2572401"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/aabb92-baron-von-trax-cattoni-gray-more-connect-chicken-7th-nov-la-java-paris-tickets"
     }
    ],
    "interest": {
@@ -16809,6 +16052,54 @@
     "reasons": [
      "tête d'affiche : Antal (31)",
      "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "e29ac9eb10d1",
+   "title": "AFTER O'CLOCK: VIVI909, CAMPOREALE, CALYPSO",
+   "venue_id": "glazart",
+   "night": "2026-11-07",
+   "start": "2026-11-07T06:00:00.000",
+   "end": "2026-11-07T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vivi909",
+     "name": "VIVI909",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "camporeale",
+     "name": "Camporeale (FR)",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "garage"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2572833",
+   "event_url": "https://ra.co/events/2572833",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2572833"
+    }
+   ],
+   "interest": {
+    "score": 39,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : VIVI909 (38)",
+     "lieu : Glazart (palier 2)"
     ]
    }
   },
@@ -18117,6 +17408,11 @@
      "artist_id": "jiken",
      "name": "Jiken",
      "billing": "support"
+    },
+    {
+     "artist_id": "odo",
+     "name": "Odo",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -18127,16 +17423,20 @@
     "House",
     "Électro & bass"
    ],
-   "price_min": null,
+   "price_min": 14.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2572438",
    "event_url": "https://ra.co/events/2572438",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-29/8c9c3683-3202-4905-a319-d25226121077.jpg?rect=0%2C455%2C1365%2C1365",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2572438"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/aabbd2-invitent-dj-polo-romy-white-baile-do-gangz-couvre-x-chefs-10th-nov-la-java-paris-tickets"
     }
    ],
    "interest": {
@@ -18407,17 +17707,22 @@
    }
   },
   {
-   "id": "ddd412a4f280",
-   "title": "Virage Secret Closing 2026",
+   "id": "ba007c94286c",
+   "title": "Virage Closing 2026 : Secret line-up",
    "venue_id": "virage",
    "night": "2026-11-10",
    "start": "2026-11-10T23:30:00.000",
    "end": "2026-11-11T06:00:00.000",
    "lineup": [
     {
-     "artist_id": "virage-secret-closing-2026",
-     "name": "Virage Secret Closing 2026",
+     "artist_id": "virage-closing-2026-secret-line-up",
+     "name": "Virage Closing 2026 : Secret line-up",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "virage-secret-closing-2026",
+     "name": "VIRAGE SECRET CLOSING 2026",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -18426,23 +17731,27 @@
    "families": [
     "Techno"
    ],
-   "price_min": null,
+   "price_min": 14.42,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2572693",
    "event_url": "https://ra.co/events/2572693",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-29/82bd398d-c678-4edf-819b-627e59d260d0.jpg?rect=0%2C154%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2572693"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/aabb7d-virage-secret-closing-2026-10th-nov-virage-paris-tickets"
     }
    ],
    "interest": {
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Virage Secret Closing 2026 (8)",
+     "tête d'affiche : Virage Closing 2026 : Secret line-up (8)",
      "lieu : Virage (palier 1)"
     ]
    }
@@ -22961,6 +22270,48 @@
    }
   },
   {
+   "id": "5d04d3d5e814",
+   "title": "Cirrus Process",
+   "venue_id": "bal-chavaux",
+   "night": "2026-11-21",
+   "start": "2026-11-21T19:30:00.000",
+   "end": "2026-11-22T01:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "inadiloop",
+     "name": "inadiloop",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "dub",
+    "krautrock"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2572731",
+   "event_url": "https://ra.co/events/2572731",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2572731"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : inadiloop (8)",
+     "lieu : Bal Chavaux (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "c74ae37ec308",
    "title": "Oslo Import Vol. 3 // Frisyro Bolani & DEUX MILLE",
    "venue_id": "tba-carburant-60-rue-de-lancry-75010-paris",
@@ -24333,9 +23684,19 @@
    "end": "2026-11-29T07:00:00.000",
    "lineup": [
     {
+     "artist_id": "melittah",
+     "name": "Melittah",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "labench",
      "name": "LABENCH",
-     "billing": "headliner"
+     "billing": "support"
+    },
+    {
+     "artist_id": "more-club-armor",
+     "name": "More : Club Armor",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -24346,23 +23707,27 @@
     "House",
     "Électro & bass"
    ],
-   "price_min": null,
+   "price_min": 14.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2572506",
    "event_url": "https://ra.co/events/2572506",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-29/e4fad162-5e60-488a-b7b4-6a770586dc8b.jpg?rect=323%2C378%2C797%2C796",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2572506"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/7833rp-labench-melittah-more-club-armor-28th-nov-la-java-paris-tickets"
     }
    ],
    "interest": {
-    "score": 42,
+    "score": 45,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : LABENCH (42)",
+     "tête d'affiche : Melittah (46)",
      "lieu : La Java (palier 2)"
     ]
    }
@@ -26928,8 +26293,8 @@
    }
   },
   {
-   "id": "0ee41beca706",
-   "title": "Free Your Funk Xmas Party Power: Quantic & Friends",
+   "id": "832fe23a58ee",
+   "title": "Free Your Funk : Quantic & Friends",
    "venue_id": "la-bellevilloise",
    "night": "2026-12-19",
    "start": "2026-12-19T23:00:00.000",
@@ -27534,7 +26899,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2571951",
    "event_url": "https://ra.co/events/2571951",
    "image": "",
    "status": "confirmed",
@@ -28231,13 +27596,6 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178ced0f40aac584f79965fd528"
   },
   {
-   "id": "b4080b7adcdc",
-   "name": "Chloé",
-   "night": "2026-10-29",
-   "venue": "Miniwax",
-   "photo": "https://i.scdn.co/image/ab6761610000f1781bdf4994664f0ab0e6cfd2ba"
-  },
-  {
    "id": "02eb16fc4c1c",
    "name": "RIRIA",
    "night": "2026-12-12",
@@ -28245,18 +27603,11 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178edeeb8d1058265cf5a4a54d0"
   },
   {
-   "id": "0ee41beca706",
+   "id": "832fe23a58ee",
    "name": "Quantic",
    "night": "2026-12-19",
    "venue": "La Bellevilloise",
    "photo": "https://i.scdn.co/image/ab6761610000f17871337edb39ba6789777dc44b"
-  },
-  {
-   "id": "72c5f5b9f181",
-   "name": "Forest (PL)",
-   "night": "2026-11-29",
-   "venue": "La Cité Fertile",
-   "photo": "https://i.scdn.co/image/ab6761610000f178354d3b6bacb847ae6325e9b5"
   },
   {
    "id": "09286528560c",
@@ -28277,21 +27628,6 @@
   "Expérimental"
  ],
  "spotlight": [
-  {
-   "kind": "event",
-   "day": "JEU 29 OCT",
-   "title": "Chloé",
-   "venue": "Miniwax",
-   "time": "18:00 → 21:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb1bdf4994664f0ab0e6cfd2ba",
-   "event_id": "b4080b7adcdc"
-  },
   {
    "kind": "event",
    "day": "VEN 30 OCT",
@@ -28456,6 +27792,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb9bf03e6d3ab7ceb543638845",
    "event_id": "2b8e9a31fa7c"
+  },
+  {
+   "kind": "event",
+   "day": "VEN 27 NOV",
+   "title": "horsegiirL",
+   "venue": "Élysée Montmartre",
+   "time": "20:00 → 22:30",
+   "tier": 2,
+   "reason": "",
+   "supports": "DJ_Dave",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb50fd23946deeb6991ef1ee09",
+   "event_id": "e352b6c34934"
   }
  ]
 }
