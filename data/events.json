@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-30T15:38:51Z",
+ "generated_at": "2026-10-31T00:36:32Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-10-30",
-  "end": "2027-04-28"
+  "start": "2026-10-31",
+  "end": "2027-04-29"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 211
+   "events": 187
   },
   {
    "id": "piknic",
@@ -54,40 +54,34 @@
   "casa-del-popolo",
   "s-a-t",
   "theatre-beanfield",
-  "sainte-catherine-hall",
   "bar-datcha",
-  "entrepots-dominion-les",
   "sms-514-613-5811-for-location",
   "vino-disco",
+  "entrepots-dominion-les",
   "tba-montreal",
   "nwhr",
   "le-red-room",
+  "le-sainte-catherine-hall",
   "l-escogriffe-bar-spectacle",
-  "esc",
   "club-soda",
   "tba-mile-ex",
   "centre-phi",
+  "esc",
   "foufounes",
-  "la-recre",
   "le-balcon",
   "les-7-doigts-de-la-main",
+  "la-recre",
   "white-wall-studio",
   "tba-down-by-the-water",
-  "collectif-mtl",
   "theatre-paradoxe",
   "le-ritz",
-  "1088-rue-clark",
-  "blue-room",
   "ausgang-plaza",
   "red-roof-church",
-  "entre-nous",
   "cafe-social-b-hive",
+  "blue-room",
   "warehouse",
-  "salon-badin",
-  "sanctuary",
+  "entre-nous",
   "tba-velours-323-ontario-est-montreal",
-  "barbossa",
-  "cabaret-lion-d-or",
   "grenade-bar",
   "la-30",
   "la-gare-dalhousie",
@@ -95,23 +89,12 @@
   "loft-14",
   "p-tit-ours",
   "piranha-bar",
-  "subterra",
+  "salon-badin",
+  "sanctuary",
   "bain-mathieu",
-  "complexe-sky",
-  "tba-the-red-roof-chuch-132-av-president-kennedy",
-  "union-francaise-de-montreal"
+  "tba-the-red-roof-chuch-132-av-president-kennedy"
  ],
  "venues": [
-  {
-   "id": "1088-rue-clark",
-   "name": "1088 rue Clark",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
   {
    "id": "ausgang-plaza",
    "name": "Ausgang Plaza",
@@ -151,28 +134,8 @@
    ]
   },
   {
-   "id": "barbossa",
-   "name": "Barbossa",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "blue-room",
    "name": "Blue Room",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "cabaret-lion-d-or",
-   "name": "Cabaret Lion D'or",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -222,26 +185,6 @@
     "electronic",
     "bass"
    ]
-  },
-  {
-   "id": "collectif-mtl",
-   "name": "Collectif MTL",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "complexe-sky",
-   "name": "Complexe Sky",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
   },
   {
    "id": "entre-nous",
@@ -401,6 +344,16 @@
    ]
   },
   {
+   "id": "le-sainte-catherine-hall",
+   "name": "Le Sainte-Catherine Hall",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "les-7-doigts-de-la-main",
    "name": "Les 7 Doigts de la Main",
    "type": "club",
@@ -540,16 +493,6 @@
    "genres": []
   },
   {
-   "id": "sainte-catherine-hall",
-   "name": "Sainte-Catherine Hall",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "salon-badin",
    "name": "Salon Badin",
    "type": "club",
@@ -633,16 +576,6 @@
     "electronic",
     "house"
    ]
-  },
-  {
-   "id": "subterra",
-   "name": "Subterra",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
   },
   {
    "id": "systeme",
@@ -739,16 +672,6 @@
    "genres": []
   },
   {
-   "id": "union-francaise-de-montreal",
-   "name": "Union Française de Montréal",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "vino-disco",
    "name": "Vino Disco",
    "type": "club",
@@ -783,16 +706,6 @@
   }
  ],
  "artists": [
-  {
-   "id": "1tbsp",
-   "name": "1tbsp",
-   "tier": 0,
-   "score": 56,
-   "popularity": 56,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178a2be861b8acd55629c9cb77d",
-   "known": false
-  },
   {
    "id": "333cxt",
    "name": "333CXT",
@@ -871,26 +784,6 @@
    "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e31f828160bbd40e9d137b02",
-   "known": false
-  },
-  {
-   "id": "ael-solara",
-   "name": "Aël Solara",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "aftersix",
-   "name": "Aftersix",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/f7247560e67c78cf77f0de24139929da/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1044,16 +937,6 @@
    "known": false
   },
   {
-   "id": "anomia",
-   "name": "Anomia",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178228ea45be14d678648b6e3ef",
-   "known": false
-  },
-  {
    "id": "arder",
    "name": "Arder:",
    "tier": 0,
@@ -1136,26 +1019,6 @@
    "known": false
   },
   {
-   "id": "audrey-belanger",
-   "name": "Audrey Bélanger",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "avius",
-   "name": "avius",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1783702df685e68dc35ea03e389",
-   "known": false
-  },
-  {
    "id": "aydo8",
    "name": "AYDO8",
    "tier": 0,
@@ -1166,16 +1029,6 @@
    "known": false
   },
   {
-   "id": "ayme",
-   "name": "AYMÉ",
-   "tier": 0,
-   "score": 20,
-   "popularity": 20,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/05fa96c75ef141fe2370aaed583cea15/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "ayod8",
    "name": "AYOD8",
    "tier": 0,
@@ -1183,26 +1036,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "baauer",
-   "name": "Baauer",
-   "tier": 0,
-   "score": 65,
-   "popularity": 65,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788b7876b45ab80643582a144a",
-   "known": false
-  },
-  {
-   "id": "babies-r-stupid",
-   "name": "Babies R Stupid",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048514e936d22ba740820f68df6ee",
    "known": false
   },
   {
@@ -1349,16 +1182,6 @@
    "known": false
   },
   {
-   "id": "blade-rave",
-   "name": "Blade Rave",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "blanke",
    "name": "Blanke",
    "tier": 0,
@@ -1386,16 +1209,6 @@
    "popularity": 27,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17864071750d8452e7463342e9e",
-   "known": false
-  },
-  {
-   "id": "bob-sinclar",
-   "name": "Bob Sinclar",
-   "tier": 0,
-   "score": 93,
-   "popularity": 93,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845",
    "known": false
   },
   {
@@ -1472,16 +1285,6 @@
    "known": false
   },
   {
-   "id": "cabanne",
-   "name": "Cabanne",
-   "tier": 0,
-   "score": 8,
-   "popularity": 8,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851e2178dd07dd929850208f0ed",
-   "known": false
-  },
-  {
    "id": "cakes-da-killa",
    "name": "Cakes Da Killa",
    "tier": 0,
@@ -1553,36 +1356,6 @@
    ],
    "image": "https://i.scdn.co/image/ab6761610000f178edb3ce2bc522e2abbf098083",
    "known": true
-  },
-  {
-   "id": "carlos-souffront",
-   "name": "Carlos Souffront",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/8c0fa75d0e4bdc14abf1e9d54223ce9d/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "cashboii",
-   "name": "cashboii",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485109ab42a357a46a83eaa60ec6",
-   "known": false
-  },
-  {
-   "id": "ced-ullberg",
-   "name": "Ced Ullberg",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
   },
   {
    "id": "chago-91",
@@ -1692,16 +1465,6 @@
    "popularity": 73,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784c9c81ea4a021a1776e71de4",
-   "known": false
-  },
-  {
-   "id": "clarisa-kimskii",
-   "name": "Clarisa Kimskii",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1875,16 +1638,6 @@
    "known": false
   },
   {
-   "id": "danny-daze",
-   "name": "Danny Daze",
-   "tier": 0,
-   "score": 29,
-   "popularity": 29,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178620484deb00f6d899215f48a",
-   "known": false
-  },
-  {
    "id": "danny-tenaglia",
    "name": "Danny Tenaglia",
    "tier": 0,
@@ -1947,16 +1700,6 @@
   {
    "id": "destiny",
    "name": "Destiny (CA)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "devil-s-night",
-   "name": "DEVIL'S NIGHT [30 OCT 2026]",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2065,16 +1808,6 @@
    "known": false
   },
   {
-   "id": "dj-mushin",
-   "name": "DJ Mushin",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "dj-ruru",
    "name": "DJ RURU",
    "tier": 0,
@@ -2105,36 +1838,6 @@
    "known": false
   },
   {
-   "id": "dj-spence",
-   "name": "DJ Spence",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048515a3e0d3d66f72160453adbf8",
-   "known": false
-  },
-  {
-   "id": "dj-stingray-313",
-   "name": "DJ Stingray 313",
-   "tier": 0,
-   "score": 18,
-   "popularity": 18,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178fed53f53af51f206c4192735",
-   "known": false
-  },
-  {
-   "id": "djimmy",
-   "name": "Djimmy",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485123ec7c0bdb624047a504ff85",
-   "known": false
-  },
-  {
    "id": "don-barbarino",
    "name": "Don Barbarino",
    "tier": 0,
@@ -2142,16 +1845,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a4f55443eaac3774929eba95",
-   "known": false
-  },
-  {
-   "id": "don-barbarino-vs-shelton-cooper",
-   "name": "Don Barbarino vs Shelton Cooper",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2202,16 +1895,6 @@
    "popularity": 16,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/4e6075cef5b97581d6876b57a40729bc/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "ehua",
-   "name": "Ehua",
-   "tier": 0,
-   "score": 12,
-   "popularity": 12,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789ad4ab2356dd1707b03205a8",
    "known": false
   },
   {
@@ -2365,16 +2048,6 @@
    "known": false
   },
   {
-   "id": "fangsie",
-   "name": "fangsie",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "fantastic-twins",
    "name": "Fantastic Twins",
    "tier": 0,
@@ -2468,8 +2141,8 @@
    "id": "franky-rizardo",
    "name": "Franky Rizardo",
    "tier": 0,
-   "score": 78,
-   "popularity": 78,
+   "score": 79,
+   "popularity": 79,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17871d730a241b960a71e93483b",
    "known": false
@@ -2565,16 +2238,6 @@
    "known": false
   },
   {
-   "id": "gaston-fiore",
-   "name": "Gaston Fiore",
-   "tier": 0,
-   "score": 38,
-   "popularity": 38,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178c691fdc719c6b470e87048a9",
-   "known": false
-  },
-  {
    "id": "gene-tellem",
    "name": "Gene Tellem",
    "tier": 0,
@@ -2635,16 +2298,6 @@
    "known": false
   },
   {
-   "id": "goth-halloween-at-foufs",
-   "name": "GOTH HALLOWEEN AT FOUFS",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "groceries",
    "name": "Groceries",
    "tier": 0,
@@ -2692,16 +2345,6 @@
    "popularity": 13,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17894ad9d9b7e4625a099023d57",
-   "known": false
-  },
-  {
-   "id": "halloween-haunted-rave",
-   "name": "Halloween Haunted Rave",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2852,16 +2495,6 @@
    "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789c54f1c839290523ad5eb4b0",
-   "known": false
-  },
-  {
-   "id": "hypho",
-   "name": "Hypho",
-   "tier": 0,
-   "score": 37,
-   "popularity": 37,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17880253ab02352ba4bbc7ec427",
    "known": false
   },
   {
@@ -3128,16 +2761,6 @@
    "known": false
   },
   {
-   "id": "jokesonyou",
-   "name": "JOKESONYOU",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1780cab31ded8433ac911bc1f9c",
-   "known": false
-  },
-  {
    "id": "joseph-crime",
    "name": "Joseph Crime",
    "tier": 0,
@@ -3155,16 +2778,6 @@
    "popularity": 74,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e5cc0458e5c13ef8ab6c2441",
-   "known": false
-  },
-  {
-   "id": "joyia",
-   "name": "JOYIA",
-   "tier": 0,
-   "score": 46,
-   "popularity": 46,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178ae5868b575b75ab40f7bc4e6",
    "known": false
   },
   {
@@ -3374,16 +2987,6 @@
    "known": false
   },
   {
-   "id": "laurence-nadeau",
-   "name": "Laurence Nadeau",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "layton-giordani",
    "name": "Layton Giordani",
    "tier": 0,
@@ -3474,16 +3077,6 @@
    "known": false
   },
   {
-   "id": "lizzi",
-   "name": "Lizzi",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "loops",
    "name": "Loops",
    "tier": 0,
@@ -3554,16 +3147,6 @@
    "known": false
   },
   {
-   "id": "lunice",
-   "name": "Lunice",
-   "tier": 0,
-   "score": 42,
-   "popularity": 42,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1782a8fe95f638e2023b92ea613",
-   "known": false
-  },
-  {
    "id": "lynnic",
    "name": "Lynnic",
    "tier": 0,
@@ -3591,16 +3174,6 @@
    "popularity": 30,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788aa1282b06fdec06ceb0259d",
-   "known": false
-  },
-  {
-   "id": "magnanime",
-   "name": "Magnanime",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178d39dc10267dfdf137daf7398",
    "known": false
   },
   {
@@ -3700,8 +3273,8 @@
    "id": "markus-suckut",
    "name": "Markus Suckut",
    "tier": 0,
-   "score": 18,
-   "popularity": 18,
+   "score": 19,
+   "popularity": 19,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178235789022269e039261304b8",
    "known": false
@@ -3734,16 +3307,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178864a92ca0418ae033502ceea",
-   "known": false
-  },
-  {
-   "id": "martyn-bootyspoon",
-   "name": "Martyn Bootyspoon",
-   "tier": 0,
-   "score": 11,
-   "popularity": 11,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178600c0148af23814578efd25b",
    "known": false
   },
   {
@@ -3824,16 +3387,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "meen-moreen",
-   "name": "Meen Moreen",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178e7fc0bc7623ca4cfe51928aa",
    "known": false
   },
   {
@@ -4027,16 +3580,6 @@
    "known": false
   },
   {
-   "id": "mor-elian",
-   "name": "Mor Elian",
-   "tier": 0,
-   "score": 20,
-   "popularity": 20,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178239c35d6764742e910d92cf8",
-   "known": false
-  },
-  {
    "id": "morse",
    "name": "Morse",
    "tier": 0,
@@ -4180,16 +3723,6 @@
    "known": true
   },
   {
-   "id": "nico-de-andrea",
-   "name": "Nico de Andrea",
-   "tier": 0,
-   "score": 69,
-   "popularity": 69,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788a631b545e7424116d5013ab",
-   "known": false
-  },
-  {
    "id": "nils-hoffmann",
    "name": "Nils Hoffmann",
    "tier": 0,
@@ -4312,16 +3845,6 @@
    "known": false
   },
   {
-   "id": "omar-krivit",
-   "name": "Omar Krivit",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "omni",
    "name": "Omni",
    "tier": 0,
@@ -4329,16 +3852,6 @@
    "popularity": 29,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/c7eec0f9f32017e12e509d40eaa7e163/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "onlyhans",
-   "name": "onlyhans",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4472,16 +3985,6 @@
    "known": false
   },
   {
-   "id": "petal-supply",
-   "name": "Petal Supply",
-   "tier": 0,
-   "score": 32,
-   "popularity": 32,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178fbbdc3475377e9ebd501cb78",
-   "known": false
-  },
-  {
    "id": "peter-damian",
    "name": "PETER DAMIAN",
    "tier": 0,
@@ -4542,16 +4045,6 @@
    "known": false
   },
   {
-   "id": "ploy",
-   "name": "Ploy",
-   "tier": 0,
-   "score": 25,
-   "popularity": 25,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17812ad4fd278a14ad4e781c7a1",
-   "known": false
-  },
-  {
    "id": "pom-1",
    "name": "POM (1)",
    "tier": 0,
@@ -4569,16 +4062,6 @@
    "popularity": 14,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178fdc72a65d3abe4f42abb13b9",
-   "known": false
-  },
-  {
-   "id": "pulsum",
-   "name": "Pulsum",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048512f969c4b742c424ab3727d87",
    "known": false
   },
   {
@@ -4639,16 +4122,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/a427a1fbdc1eb8b890fc9d10225f324f/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "refanged",
-   "name": "refanged",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4852,16 +4325,6 @@
    "known": false
   },
   {
-   "id": "selecteurs-vinyles",
-   "name": "Sélecteurs vinyles",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "sev-dah",
    "name": "Sev Dah",
    "tier": 0,
@@ -4933,7 +4396,7 @@
   },
   {
    "id": "sineila",
-   "name": "sineila",
+   "name": "Sineila",
    "tier": 0,
    "score": 6,
    "popularity": 6,
@@ -5042,16 +4505,6 @@
    "known": false
   },
   {
-   "id": "studio-666-nova-ondas",
-   "name": "STUDIO 666: NOVA ONDAS",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "sugar",
    "name": "Sugar",
    "tier": 0,
@@ -5069,16 +4522,6 @@
    "popularity": 65,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780902c734a791d597ffcd4544",
-   "known": false
-  },
-  {
-   "id": "suze-ijo",
-   "name": "Suze Ijó",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851635619d308224951b786c1ce",
    "known": false
   },
   {
@@ -5209,16 +4652,6 @@
    "popularity": 26,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e9edbe7083f46be657891234",
-   "known": false
-  },
-  {
-   "id": "themuffinman",
-   "name": "TheMuffinMan",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/ccb3ae946a4278c60db94616e382e182/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5442,16 +4875,6 @@
    "known": false
   },
   {
-   "id": "venus-in-bed",
-   "name": "venus in bed",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "vibran",
    "name": "VIBRAN",
    "tier": 0,
@@ -5552,16 +4975,6 @@
    "known": false
   },
   {
-   "id": "walji",
-   "name": "Walji",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "walla-p",
    "name": "Walla P",
    "tier": 0,
@@ -5642,16 +5055,6 @@
    "known": false
   },
   {
-   "id": "wraz",
-   "name": "Wraz",
-   "tier": 0,
-   "score": 40,
-   "popularity": 40,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178c768acaca81b32f2fcf77637",
-   "known": false
-  },
-  {
    "id": "xaviera",
    "name": "Xaviera",
    "tier": 0,
@@ -5699,16 +5102,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "yookie",
-   "name": "YOOKiE",
-   "tier": 0,
-   "score": 58,
-   "popularity": 58,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1785dca67d415795c29f230f4aa",
    "known": false
   },
   {
@@ -5800,1315 +5193,19 @@
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178aff3ad3754793c6d9ea9b56a",
    "known": false
+  },
+  {
+   "id": "zorza",
+   "name": "Zorza",
+   "tier": 0,
+   "score": 34,
+   "popularity": 34,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178839277d8a45ea3a7aae6c013",
+   "known": false
   }
  ],
  "events": [
-  {
-   "id": "360fb58e2c3c",
-   "title": "Bob Sinclar, Nico de Andrea",
-   "venue_id": "new-city-gas",
-   "night": "2026-10-30",
-   "start": "2026-10-30T21:00:00.000",
-   "end": "2026-10-31T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "bob-sinclar",
-     "name": "Bob Sinclar",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "nico-de-andrea",
-     "name": "Nico de Andrea",
-     "billing": "support"
-    },
-    {
-     "artist_id": "joyia",
-     "name": "JOYIA",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "french house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/bob-sinclar-nico-de-andrea-204358/",
-   "event_url": "https://ra.co/events/2521191",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2521191"
-    },
-    {
-     "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/bob-sinclar-nico-de-andrea-204358/"
-    }
-   ],
-   "interest": {
-    "score": 85,
-    "tier": 3,
-    "reasons": [
-     "tête d'affiche : Bob Sinclar (93)",
-     "lieu : New City Gas (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "1bd0ff8d47ec",
-   "title": "Baauer - Montréal",
-   "venue_id": "newspeak",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "baauer",
-     "name": "Baauer",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "lunice",
-     "name": "Lunice",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "breakbeat",
-    "house"
-   ],
-   "families": [
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2477078",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2477078"
-    }
-   ],
-   "interest": {
-    "score": 59,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Baauer (65)",
-     "lieu : Newspeak (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "bf4218a1d779",
-   "title": "1tbsp",
-   "venue_id": "studio-td",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:30:00.000",
-   "end": "2026-10-31T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "1tbsp",
-     "name": "1tbsp",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "audrey-belanger",
-     "name": "Audrey Bélanger",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/1tbsp-montreal-quebec-10-30-2026/event/310064F5A50B5CA2",
-   "event_url": "https://ra.co/events/2561767",
-   "image": "https://s1.ticketm.net/dam/a/bcc/3828065c-a8e3-4228-9522-6aa7f5a08bcc_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2561767"
-    },
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/1tbsp-montreal-quebec-10-30-2026/event/310064F5A50B5CA2"
-    }
-   ],
-   "interest": {
-    "score": 52,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : 1tbsp (56)",
-     "lieu : Studio TD (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "98d9e84e5125",
-   "title": "BLOOD MOON 2026",
-   "venue_id": "sainte-catherine-hall",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "yookie",
-     "name": "YOOKiE",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "wraz",
-     "name": "Wraz",
-     "billing": "support"
-    },
-    {
-     "artist_id": "hypho",
-     "name": "Hypho",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "drum & bass",
-    "dubstep"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2522853",
-   "event_url": "https://ra.co/events/2522853",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2522853"
-    }
-   ],
-   "interest": {
-    "score": 48,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : YOOKiE (58)",
-     "lieu : Sainte-Catherine Hall (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "9a490c8dce41",
-   "title": "Halloween - Plaisirs Sonores",
-   "venue_id": "salon-daome",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:30:00.000",
-   "end": "2026-10-31T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "kalo",
-     "name": "Kalo",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "hicky",
-     "name": "Hicky",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronica",
-    "progressive house"
-   ],
-   "families": [
-    "House",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2555033",
-   "event_url": "https://ra.co/events/2555033",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2555033"
-    }
-   ],
-   "interest": {
-    "score": 39,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Kalo (38)",
-     "lieu : Salon Daome (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "48a04cac5ef3",
-   "title": "HALLOWEEN",
-   "venue_id": "sat",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-11-01T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "danny-daze",
-     "name": "Danny Daze",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "mor-elian",
-     "name": "Mor Elian",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dj-stingray-313",
-     "name": "DJ Stingray 313",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ehua",
-     "name": "Ehua",
-     "billing": "support"
-    },
-    {
-     "artist_id": "clarisa-kimskii",
-     "name": "Clarisa Kimskii",
-     "billing": "support"
-    },
-    {
-     "artist_id": "carlos-souffront",
-     "name": "Carlos Souffront",
-     "billing": "support"
-    },
-    {
-     "artist_id": "suze-ijo",
-     "name": "Suze Ijó",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electro",
-    "techno",
-    "house",
-    "deep house"
-   ],
-   "families": [
-    "Techno",
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2544447",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544447"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544447"
-    }
-   ],
-   "interest": {
-    "score": 33,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Danny Daze (29)",
-     "lieu : SAT (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "85ae0aa185f2",
-   "title": "Noreiner - Halloween 26",
-   "venue_id": "entrepots-dominion-les",
-   "night": "2026-10-30",
-   "start": "2026-10-30T23:00:00.000",
-   "end": "2026-10-31T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "gaston-fiore",
-     "name": "Gaston Fiore",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "jokesonyou",
-     "name": "JOKESONYOU",
-     "billing": "support"
-    },
-    {
-     "artist_id": "themuffinman",
-     "name": "TheMuffinMan",
-     "billing": "support"
-    },
-    {
-     "artist_id": "inside-blur",
-     "name": "Inside Blur",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "trance",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2552928",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552928"
-    }
-   ],
-   "interest": {
-    "score": 33,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Gaston Fiore (38)",
-     "lieu : Entrepôts Dominion, Les (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "a7207007e3b0",
-   "title": "Sonora - Cabanne FR",
-   "venue_id": "esc",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dj-frog",
-     "name": "DJ Frog",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "cabanne",
-     "name": "Cabanne",
-     "billing": "support"
-    },
-    {
-     "artist_id": "onlyhans",
-     "name": "onlyhans",
-     "billing": "support"
-    },
-    {
-     "artist_id": "magnanime",
-     "name": "Magnanime",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dj-spence",
-     "name": "DJ Spence",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "minimal",
-    "minimal techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2548838",
-   "event_url": "https://ra.co/events/2548838",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2548838"
-    }
-   ],
-   "interest": {
-    "score": 30,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DJ Frog (25)",
-     "lieu : ESC (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "1000ce8ead12",
-   "title": "TRASHED HALLOWEEN: WORLD WIDE WEB",
-   "venue_id": "collectif-mtl",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "petal-supply",
-     "name": "Petal Supply",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "outback",
-     "name": "Outback",
-     "billing": "support"
-    },
-    {
-     "artist_id": "fangsie",
-     "name": "fangsie",
-     "billing": "support"
-    },
-    {
-     "artist_id": "refanged",
-     "name": "refanged",
-     "billing": "support"
-    },
-    {
-     "artist_id": "sineila",
-     "name": "sineila",
-     "billing": "support"
-    },
-    {
-     "artist_id": "cashboii",
-     "name": "cashboii",
-     "billing": "support"
-    },
-    {
-     "artist_id": "avius",
-     "name": "avius",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "experimental",
-    "electronica"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2552867",
-   "event_url": "https://ra.co/events/2552867",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552867"
-    }
-   ],
-   "interest": {
-    "score": 29,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Petal Supply (32)",
-     "lieu : Collectif MTL (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "18985f62e10e",
-   "title": "SupporTechnique presents RedRum - Halloween Techno Special",
-   "venue_id": "le-red-room",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ayme",
-     "name": "AYMÉ",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "walji",
-     "name": "Walji",
-     "billing": "support"
-    },
-    {
-     "artist_id": "djimmy",
-     "name": "Djimmy",
-     "billing": "support"
-    },
-    {
-     "artist_id": "anomia",
-     "name": "Anomia",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2563782",
-   "event_url": "https://ra.co/events/2563782",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563782"
-    }
-   ],
-   "interest": {
-    "score": 26,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : AYMÉ (20)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "9af93d805490",
-   "title": "Homegrown Harvest presents Graveyard Shift with Ploy, M. Bootyspoon & Syd Woz",
-   "venue_id": "1088-rue-clark",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ploy",
-     "name": "Ploy",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "martyn-bootyspoon",
-     "name": "Martyn Bootyspoon",
-     "billing": "support"
-    },
-    {
-     "artist_id": "syd-woz",
-     "name": "Syd Woz",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "acid"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2554902",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2554902"
-    }
-   ],
-   "interest": {
-    "score": 24,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Ploy (25)",
-     "lieu : 1088 rue Clark (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "e8c7f748f07d",
-   "title": "Le Rotary Club, ROH, Balou",
-   "venue_id": "bar-datcha",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "le-rotary-club",
-     "name": "Le Rotary Club",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2545378",
-   "event_url": "https://ra.co/events/2545378",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2545378"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Le Rotary Club (8)",
-     "lieu : Bar Datcha (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "05134b013ab7",
-   "title": "Back to events Cirque De Boudoir Halloween 2026: BLACK MASS CABARET",
-   "venue_id": "cabaret-lion-d-or",
-   "night": "2026-10-30",
-   "start": "2026-10-30T23:00:00.000",
-   "end": "2026-10-31T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dj-mushin",
-     "name": "DJ Mushin",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "dj-davide",
-     "name": "DJ Davidé",
-     "billing": "support"
-    },
-    {
-     "artist_id": "maudite-machine",
-     "name": "Maudite Machine",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "tech house",
-    "electro"
-   ],
-   "families": [
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2544517",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544517"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DJ Mushin (8)",
-     "lieu : Cabaret Lion D'or (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "9be3a89a6ae6",
-   "title": "Blade Rave",
-   "venue_id": "le-ritz",
-   "night": "2026-10-30",
-   "start": "2026-10-30T23:00:00-04:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "blade-rave",
-     "name": "Blade Rave",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.universe.com/events/blade-rave-tickets-058HRJ?ref=ticketmaster",
-   "event_url": "https://www.universe.com/events/blade-rave-tickets-058HRJ?ref=ticketmaster",
-   "image": "https://s1.ticketm.net/dam/a/8cf/2f037293-3db1-4227-8d48-43f0e716f8cf_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.universe.com/events/blade-rave-tickets-058HRJ?ref=ticketmaster"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Blade Rave (8)",
-     "lieu : Le Ritz PDB (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "f093a1beae7c",
-   "title": "Ced Ullberg / Lizzi / Aftersix",
-   "venue_id": "blue-room",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-11-01T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ced-ullberg",
-     "name": "Ced Ullberg",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "lizzi",
-     "name": "Lizzi",
-     "billing": "support"
-    },
-    {
-     "artist_id": "aftersix",
-     "name": "Aftersix",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "deep house",
-    "electronica"
-   ],
-   "families": [
-    "House",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2571915",
-   "event_url": "https://ra.co/events/2571915",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2571915"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2571915"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Ced Ullberg (8)",
-     "lieu : Blue Room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "7b267478bb1e",
-   "title": "DEVIL'S NIGHT [30 OCT 2026] | GOTH HALLOWEEN AT FOUFS",
-   "venue_id": "foufounes",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "devil-s-night",
-     "name": "DEVIL'S NIGHT [30 OCT 2026]",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "goth-halloween-at-foufs",
-     "name": "GOTH HALLOWEEN AT FOUFS",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2563391",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563391"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DEVIL'S NIGHT [30 OCT 2026] (8)",
-     "lieu : Foufounes Electriques (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "70423d5aa202",
-   "title": "Don Barbarino vs Shelton Cooper",
-   "venue_id": "sanctuary",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "don-barbarino-vs-shelton-cooper",
-     "name": "Don Barbarino vs Shelton Cooper",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "afro house"
-   ],
-   "families": [
-    "House",
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2556260",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2556260"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Don Barbarino vs Shelton Cooper (8)",
-     "lieu : Sanctuary (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "06b35e1fa599",
-   "title": "Garage À Trois",
-   "venue_id": "barbossa",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "omar-krivit",
-     "name": "Omar Krivit",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "emil-paquin",
-     "name": "Emil Paquin",
-     "billing": "support"
-    },
-    {
-     "artist_id": "laurence-nadeau",
-     "name": "Laurence Nadeau",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "garage"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2557431",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2557431"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Omar Krivit (8)",
-     "lieu : Barbossa (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "57acb6327289",
-   "title": "Halloween Haunted Rave",
-   "venue_id": "entre-nous",
-   "night": "2026-10-30",
-   "start": "2026-10-30T09:00:00.000",
-   "end": "2026-10-31T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "halloween-haunted-rave",
-     "name": "Halloween Haunted Rave",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "house"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2565200",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2565200"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Halloween Haunted Rave (8)",
-     "lieu : Entre Nous (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "01d44e7633e7",
-   "title": "STUDIO 666: NOVA ONDAS",
-   "venue_id": "vino-disco",
-   "night": "2026-10-30",
-   "start": "2026-10-30T20:00:00.000",
-   "end": "2026-10-31T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "studio-666-nova-ondas",
-     "name": "STUDIO 666: NOVA ONDAS",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2557176",
-   "event_url": "https://ra.co/events/2557176",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2557176"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : STUDIO 666: NOVA ONDAS (8)",
-     "lieu : Vino Disco (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "81a01a3ff687",
-   "title": "Salon Badin: Walla P",
-   "venue_id": "salon-badin",
-   "night": "2026-10-30",
-   "start": "2026-10-30T19:00:00.000",
-   "end": "2026-10-31T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "walla-p",
-     "name": "Walla P",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "disco",
-    "funk / soul"
-   ],
-   "families": [
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2565194",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2565194"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Walla P (8)",
-     "lieu : Salon Badin (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "a4b2f2442033",
-   "title": "Sélecteurs vinyles",
-   "venue_id": "subterra",
-   "night": "2026-10-30",
-   "start": "2026-10-30T20:00:00.000",
-   "end": "2026-10-31T00:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "selecteurs-vinyles",
-     "name": "Sélecteurs vinyles",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2552905",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2552905"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Sélecteurs vinyles (8)",
-     "lieu : Subterra (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "b302161abf91",
-   "title": "freaky friday with T.I.T.S. & MESSY",
-   "venue_id": "systeme",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "venus-in-bed",
-     "name": "venus in bed",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "corinita",
-     "name": "Corinita",
-     "billing": "support"
-    },
-    {
-     "artist_id": "meen-moreen",
-     "name": "Meen Moreen",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "deep house",
-    "tech house",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2544493",
-   "event_url": "https://ra.co/events/2544493",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544493"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : venus in bed (8)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "d55065714246",
-   "title": "30 OCTOBRE",
-   "venue_id": "union-francaise-de-montreal",
-   "night": "2026-10-30",
-   "start": "2026-10-30T17:00:00.000",
-   "end": "2026-10-31T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "cpr-annie",
-     "name": "CPR Annie",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "pulsum",
-     "name": "Pulsum",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "ebm",
-    "post-punk"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2565926",
-   "event_url": "https://ra.co/events/2565926",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2565926"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : CPR Annie (0)",
-     "lieu : Union Française de Montréal (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "936216181bdb",
-   "title": "BABIES R STUPID",
-   "venue_id": "la-recre",
-   "night": "2026-10-30",
-   "start": "2026-10-30T20:00:00.000",
-   "end": "2026-10-31T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "babies-r-stupid",
-     "name": "Babies R Stupid",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electro",
-    "post-punk"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2572928",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2572928"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Babies R Stupid (0)",
-     "lieu : La Récré (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "c2cdde833d2a",
-   "title": "Symbiosis – Le 30 Octobre",
-   "venue_id": "complexe-sky",
-   "night": "2026-10-30",
-   "start": "2026-10-30T22:00:00.000",
-   "end": "2026-10-31T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ael-solara",
-     "name": "Aël Solara",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "progressive house",
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2565222",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2565222"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Aël Solara (0)",
-     "lieu : Complexe Sky (palier 1)"
-    ]
-   }
-  },
   {
    "id": "fcb73ab631a5",
    "title": "Max Styler, JØRD",
@@ -7484,9 +5581,9 @@
    }
   },
   {
-   "id": "aab6253f194d",
+   "id": "cd6579858ad6",
    "title": "REQUIEM V: The Hands of Time | FrontRite Halloween",
-   "venue_id": "sainte-catherine-hall",
+   "venue_id": "le-sainte-catherine-hall",
    "night": "2026-10-31",
    "start": "2026-10-31T20:00:00.000",
    "end": "2026-11-01T05:00:00.000",
@@ -7560,7 +5657,7 @@
     "tier": 1,
     "reasons": [
      "tête d'affiche : Paso Doble (48)",
-     "lieu : Sainte-Catherine Hall (palier 1)"
+     "lieu : Le Sainte-Catherine Hall (palier 1)"
     ]
    }
   },
@@ -11968,9 +10065,9 @@
    }
   },
   {
-   "id": "3ad909813039",
+   "id": "918370838468",
    "title": "Snack House presents: DJ Sexstasy",
-   "venue_id": "sainte-catherine-hall",
+   "venue_id": "le-sainte-catherine-hall",
    "night": "2026-11-14",
    "start": "2026-11-14T22:00:00.000",
    "end": "2026-11-15T06:00:00.000",
@@ -12015,7 +10112,7 @@
     "tier": 0,
     "reasons": [
      "tête d'affiche : Shirlee (8)",
-     "lieu : Sainte-Catherine Hall (palier 1)"
+     "lieu : Le Sainte-Catherine Hall (palier 1)"
     ]
    }
   },
@@ -12137,7 +10234,7 @@
     },
     {
      "artist_id": "sineila",
-     "name": "sineila",
+     "name": "Sineila",
      "billing": "support"
     }
    ],
@@ -12510,9 +10607,9 @@
    }
   },
   {
-   "id": "4d3a0ec98ede",
+   "id": "106b7cc0fb64",
    "title": "KØRE INVITES LESSSS (TECHNO)",
-   "venue_id": "sainte-catherine-hall",
+   "venue_id": "le-sainte-catherine-hall",
    "night": "2026-11-20",
    "start": "2026-11-20T22:00:00.000",
    "end": "2026-11-21T06:00:00.000",
@@ -12558,7 +10655,7 @@
     "tier": 1,
     "reasons": [
      "tête d'affiche : LESSSS (48)",
-     "lieu : Sainte-Catherine Hall (palier 1)"
+     "lieu : Le Sainte-Catherine Hall (palier 1)"
     ]
    }
   },
@@ -13899,10 +11996,10 @@
     }
    ],
    "interest": {
-    "score": 74,
+    "score": 75,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : Franky Rizardo (78)",
+     "tête d'affiche : Franky Rizardo (79)",
      "lieu : Stereo (palier 3)"
     ]
    }
@@ -15149,10 +13246,10 @@
     }
    ],
    "interest": {
-    "score": 19,
+    "score": 20,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Markus Suckut (18)",
+     "tête d'affiche : Markus Suckut (19)",
      "lieu : NWHR (palier 1)"
     ]
    }
@@ -16044,6 +14141,49 @@
      "tête d'affiche : Ninajirachi (70)",
      "lieu : Igloofest (palier 1)",
      "plateau dense"
+    ]
+   }
+  },
+  {
+   "id": "82332c984180",
+   "title": "Zorza - Montréal",
+   "venue_id": "newspeak",
+   "night": "2027-01-23",
+   "start": "2027-01-23T22:00:00.000",
+   "end": "2027-01-24T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "zorza",
+     "name": "Zorza",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "trance",
+    "electro"
+   ],
+   "families": [
+    "Électro & bass",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2572745",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2572745"
+    }
+   ],
+   "interest": {
+    "score": 36,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Zorza (34)",
+     "lieu : Newspeak (palier 2)"
     ]
    }
   },
@@ -17654,67 +15794,11 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178df90c83a6f5518167f1da889"
   },
   {
-   "id": "e3faa9d33f4b",
-   "name": "Carl Cox",
-   "night": "2026-11-26",
-   "venue": "Stereo",
-   "photo": "https://i.scdn.co/image/ab6761610000f178edb3ce2bc522e2abbf098083"
-  },
-  {
    "id": "8a562d34a2ca",
    "name": "Kasango",
    "night": "2026-11-06",
    "venue": "New City Gas",
    "photo": "https://i.scdn.co/image/ab6761610000f17808faa46da03ce1a1de05e35e"
-  },
-  {
-   "id": "bef711e1fbec",
-   "name": "Franky Rizardo",
-   "night": "2026-11-27",
-   "venue": "Stereo",
-   "photo": "https://i.scdn.co/image/ab6761610000f17871d730a241b960a71e93483b"
-  },
-  {
-   "id": "6cd92a9b9976",
-   "name": "Roger Sanchez",
-   "night": "2026-11-07",
-   "venue": "Stereo",
-   "photo": "https://i.scdn.co/image/ab6761610000f17816db642c25db5a35943328c3"
-  },
-  {
-   "id": "6e4ea8443bab",
-   "name": "Lynnic",
-   "night": "2026-12-16",
-   "venue": "Newspeak",
-   "photo": "https://i.scdn.co/image/ab6761610000f178f0a6c56cd3bb8946a407c3d7"
-  },
-  {
-   "id": "913ccd13825e",
-   "name": "Klangkarussell",
-   "night": "2027-01-30",
-   "venue": "S.A.T",
-   "photo": "https://i.scdn.co/image/ab6761610000f178c074db95ca0a0cd7c0e197f3"
-  },
-  {
-   "id": "c5e73a50990e",
-   "name": "Nina Kraviz",
-   "night": "2026-11-08",
-   "venue": "Studio TD",
-   "photo": "https://i.scdn.co/image/ab6761610000f178f088792f3f44b198770c981e"
-  },
-  {
-   "id": "b5ed742cd506",
-   "name": "FCUKERS",
-   "night": "2027-02-04",
-   "venue": "Igloofest",
-   "photo": "https://i.scdn.co/image/ab6761610000f178257b47af6ca3a62995dfef9a"
-  },
-  {
-   "id": "7a67037e254a",
-   "name": "Hex Hector",
-   "night": "2026-11-20",
-   "venue": "Stereo",
-   "photo": "https://i.scdn.co/image/ab67616d000048514e4f7b4f75f50223e0c5c41f"
   }
  ],
  "families": [
@@ -17728,21 +15812,6 @@
   "Expérimental"
  ],
  "spotlight": [
-  {
-   "kind": "event",
-   "day": "VEN 30 OCT",
-   "title": "Bob Sinclar",
-   "venue": "New City Gas",
-   "time": "21:00 → 03:00",
-   "tier": 3,
-   "reason": "",
-   "supports": "Nico de Andrea, JOYIA",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb9bf03e6d3ab7ceb543638845",
-   "event_id": "360fb58e2c3c"
-  },
   {
    "kind": "event",
    "day": "VEN 6 NOV",
@@ -17802,6 +15871,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb7f5338888bacde64445c90e8",
    "event_id": "7019ef963335"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 7 NOV",
+   "title": "Roger Sanchez",
+   "venue": "Stereo",
+   "time": "23:59 → 09:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb16db642c25db5a35943328c3",
+   "event_id": "6cd92a9b9976"
   },
   {
    "kind": "event",
