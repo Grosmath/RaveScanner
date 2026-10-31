@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-31T15:08:10Z",
+ "generated_at": "2026-10-31T23:59:40Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 187
+   "events": 189
   },
   {
    "id": "piknic",
@@ -58,8 +58,8 @@
   "sms-514-613-5811-for-location",
   "vino-disco",
   "entrepots-dominion-les",
-  "tba-montreal",
   "nwhr",
+  "tba-montreal",
   "le-red-room",
   "le-sainte-catherine-hall",
   "l-escogriffe-bar-spectacle",
@@ -91,6 +91,7 @@
   "piranha-bar",
   "salon-badin",
   "sanctuary",
+  "van-horne-studio",
   "bain-mathieu",
   "tba-the-red-roof-chuch-132-av-president-kennedy"
  ],
@@ -664,6 +665,16 @@
   {
    "id": "theatre-paradoxe",
    "name": "Théâtre Paradoxe",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "van-horne-studio",
+   "name": "Van Horne Studio",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -2801,6 +2812,16 @@
    "known": false
   },
   {
+   "id": "justine-perry",
+   "name": "Justine Perry",
+   "tier": 0,
+   "score": 18,
+   "popularity": 18,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785a9e4745c94406e4e35c10b2",
+   "known": false
+  },
+  {
    "id": "kai-wachi",
    "name": "Kai Wachi",
    "tier": 0,
@@ -3019,6 +3040,16 @@
   {
    "id": "ledisko",
    "name": "Ledisko",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "leftfield-encounters-001",
+   "name": "Leftfield Encounters 001",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3440,6 +3471,16 @@
    "known": false
   },
   {
+   "id": "mike-chidiac",
+   "name": "Mike Chidiac",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "milsif",
    "name": "MilSif",
    "tier": 0,
@@ -3617,6 +3658,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "mphs",
+   "name": "MPHS",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/99db76bcf80579ca18c807be5f04f28d/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -9397,6 +9448,49 @@
    }
   },
   {
+   "id": "d0a42da073b7",
+   "title": "Leftfield Encounters 001",
+   "venue_id": "van-horne-studio",
+   "night": "2026-11-13",
+   "start": "2026-11-13T19:00:00.000",
+   "end": "2026-11-13T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "leftfield-encounters-001",
+     "name": "Leftfield Encounters 001",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electro",
+    "experimental"
+   ],
+   "families": [
+    "Électro & bass",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2573662",
+   "event_url": "https://ra.co/events/2573662",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2573662"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Leftfield Encounters 001 (8)",
+     "lieu : Van Horne Studio (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "3b453e67a775",
    "title": "NAE, No Police , Shadya",
    "venue_id": "bar-datcha",
@@ -9895,6 +9989,57 @@
    }
   },
   {
+   "id": "7cf24488c921",
+   "title": "NWHR Invites Justine Perry [Berlin] // Mike Chidiac // MPHS",
+   "venue_id": "nwhr",
+   "night": "2026-11-14",
+   "start": "2026-11-14T22:00:00.000",
+   "end": "2026-11-15T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "justine-perry",
+     "name": "Justine Perry",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mike-chidiac",
+     "name": "Mike Chidiac",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mphs",
+     "name": "MPHS",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2573663",
+   "event_url": "https://ra.co/events/2573663",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2573663"
+    }
+   ],
+   "interest": {
+    "score": 19,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Justine Perry (18)",
+     "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "36f9d4f75d1c",
    "title": "Fence Hop: MLLE CEE, Uyaz, Softwarewolfe, Ldriivy",
    "venue_id": "bar-datcha",
@@ -10334,8 +10479,8 @@
     "dub techno",
     "minimal",
     "house",
-    "funk / soul",
-    "progressive house"
+    "progressive house",
+    "funk / soul"
    ],
    "families": [
     "Techno",
@@ -10930,6 +11075,49 @@
    }
   },
   {
+   "id": "f1161fadb8b2",
+   "title": "AFRODITE X BATIDA SOLTA",
+   "venue_id": "bar-datcha",
+   "night": "2026-11-20",
+   "start": "2026-11-20T23:00:00.000",
+   "end": "2026-11-21T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "badjuda",
+     "name": "BADJUDA",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "baile funk",
+    "latin bass",
+    "afro house"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2565063",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2565063"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : BADJUDA (0)",
+     "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "7cddda08f543",
    "title": "Ledisko + mayalabae + M Salaciak + Richard",
    "venue_id": "systeme",
@@ -10973,49 +11161,6 @@
     "reasons": [
      "tête d'affiche : Ledisko (8)",
      "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "dc405748656c",
-   "title": "NONSTOP Afrodite: BADJUDA, Léon Suave, Mlle CEE, Troubleviews, and Netto",
-   "venue_id": "bar-datcha",
-   "night": "2026-11-20",
-   "start": "2026-11-20T23:00:00.000",
-   "end": "2026-11-21T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "badjuda",
-     "name": "BADJUDA",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "baile funk",
-    "latin bass",
-    "afro house"
-   ],
-   "families": [
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2565063",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2565063"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : BADJUDA (0)",
-     "lieu : Bar Datcha (palier 2)"
     ]
    }
   },
