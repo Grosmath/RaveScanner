@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-10-31T00:37:28Z",
+ "generated_at": "2026-10-31T15:08:27Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 348
+   "events": 349
   },
   {
    "id": "dice",
@@ -61,6 +61,7 @@
   "petit-bain",
   "le-mazette",
   "a-side",
+  "cartilage",
   "fondation-cartier",
   "la-maroquinerie",
   "la-cigale",
@@ -69,7 +70,6 @@
   "virage",
   "la-station-gare-des-mines",
   "nouveau-casino",
-  "cartilage",
   "bal-chavaux",
   "chalet-du-lac-bois-de-vincennes",
   "le-trianon",
@@ -5970,6 +5970,16 @@
    ],
    "image": "https://i.scdn.co/image/ab6761610000f178c7306896f667b528a221ed2f",
    "known": true
+  },
+  {
+   "id": "marginal-club",
+   "name": "MARGINAL CLUB",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
   },
   {
    "id": "mari-ella",
@@ -17215,6 +17225,47 @@
     "reasons": [
      "tête d'affiche : BINGO DRAG LATINO: DESACATO À La Mutinerie (8)",
      "lieu : La Mutinerie (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "ada44243794b",
+   "title": "MARGINAL CLUB",
+   "venue_id": "cartilage",
+   "night": "2026-11-13",
+   "start": "2026-11-13T22:00:00.000",
+   "end": "2026-11-14T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "marginal-club",
+     "name": "MARGINAL CLUB",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "hip-hop"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2573807",
+   "event_url": "https://ra.co/events/2573807",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2573807"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : MARGINAL CLUB (8)",
+     "lieu : Cartilage (palier 1)"
     ]
    }
   },
