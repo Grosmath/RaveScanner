@@ -114,6 +114,52 @@ async function chargerVille(city) {
   for (const e of store.data.events || []) store.events.set(e.id, e);
 }
 
+/* Age du planning, en heures. Le cron publie deux fois par jour : au-dela
+   d'une journee, ce n'est plus un retard, c'est une panne. Le 2026-11-03,
+   Montreal a servi pendant deux jours un fichier du 23 septembre sans que rien
+   ne le dise, et « a ne pas rater » proposait le 24 septembre. Le site ne peut
+   pas reparer ca, mais il peut refuser de faire comme si de rien n'etait. */
+const HEURES_AVANT_ALERTE = 30;
+
+function ageEnHeures(payload) {
+  const brut = payload && payload.generated_at;
+  if (!brut) return null;
+  const quand = new Date(brut);
+  if (Number.isNaN(quand.getTime())) return null;
+  return (Date.now() - quand.getTime()) / 3600000;
+}
+
+function direSiPerime() {
+  const el = $('#perime');
+  if (!el) return;
+  const age = ageEnHeures(store.data);
+  if (age === null || age < HEURES_AVANT_ALERTE) { el.hidden = true; return; }
+  const jours = Math.floor(age / 24);
+  const depuis = jours >= 1 ? `${jours} jour${jours > 1 ? 's' : ''}` : `${Math.floor(age)} heures`;
+  el.hidden = false;
+  el.textContent = `Ce planning n'a pas été mis à jour depuis ${depuis}. `
+    + `Des soirées peuvent manquer, et les dernières annonces n'y sont pas.`;
+}
+
+/* Une nuit passee n'a rien a faire dans un rail. Les cartes du haut de page
+   viennent du moteur, qui ne produit que du futur : une date passee veut donc
+   dire que le planning lu est perime. On la retire plutot que de la montrer,
+   et `direSiPerime` explique pourquoi la bande a maigri.
+   La carte « a ne pas rater » ne porte pas sa nuit, seulement son libelle
+   (« JEU 24 SEP ») : on la retrouve par l'evenement. */
+function nuitDeCarte(carte) {
+  if (carte.night) return carte.night;
+  const ev = store.events.get(carte.event_id);
+  return (ev && ev.night) || '';
+}
+
+/* Nuit introuvable : on garde. Mieux vaut une carte de trop qu'une carte
+   legitime effacee par un identifiant qui a bouge. */
+const carteEncoreAVenir = (carte) => {
+  const nuit = nuitDeCarte(carte);
+  return !nuit || nuit >= todayISO();
+};
+
 /* --------------------------------------------------------------- sélection */
 
 /* Toute la fenetre scannee, a partir d'aujourd'hui. Le choix « 7 / 14 jours /
@@ -343,7 +389,7 @@ function autoDefiler(rail) {
 function renderNews() {
   const section = $('#news');
   const rail = $('#news-rail');
-  const cartes = store.data.announcements || [];
+  const cartes = (store.data.announcements || []).filter(carteEncoreAVenir);
 
   // Masquee plutot que vide : le premier jour d'une ville, on ne peut pas
   // distinguer « nouveau » de « decouvert en meme temps que le reste », donc
@@ -395,7 +441,7 @@ function indiceDefilement() {
 
 function renderRail() {
   const rail = $('#rail');
-  const cards = store.data.spotlight || [];
+  const cards = (store.data.spotlight || []).filter(carteEncoreAVenir);
   if (!cards.length) { rail.closest('.rail-section').hidden = true; return; }
 
   const { W, H, draw, loadPhoto } = window.ENCORE_CARDS;
@@ -640,6 +686,7 @@ function wire() {
       }
       $('#error').hidden = true;
       titrer();
+      direSiPerime();
       renderGenres();
       renderFavoris();
       renderNews();
@@ -759,6 +806,7 @@ async function boot() {
   $('#q').value = state.q;
 
   wire();
+  direSiPerime();
   renderGenres();
   renderFavoris();
   renderNews();
