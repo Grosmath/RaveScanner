@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-03T06:16:35Z",
+ "generated_at": "2026-11-03T15:45:59Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 338
+   "events": 347
   },
   {
    "id": "dice",
@@ -57,6 +57,7 @@
   "a-side",
   "pamela-club",
   "cartilage",
+  "glazart",
   "fondation-cartier",
   "le-zeralda",
   "point-ephemere",
@@ -67,7 +68,6 @@
   "bal-chavaux",
   "nouveau-casino",
   "petit-bain",
-  "glazart",
   "chalet-du-lac-bois-de-vincennes",
   "le-trianon",
   "le-grand-dome",
@@ -85,14 +85,16 @@
   "gibus-club",
   "le-bazar",
   "tba-secret-place",
+  "le-poisson-volant",
   "philharmonie-de-paris",
   "tba-espace-reuilly-21-rue-julien-antoine-henard-75012-paris",
   "le-klub",
+  "espace-francis-delage-salle-concorde",
   "folies-pigalle",
   "la-peniche-cinema",
   "a-la-folie-paris",
   "42-marches",
-  "le-poisson-volant",
+  "maison-de-la-radio",
   "theatre-silvia-monfort",
   "ground-control-gare-de-lyon",
   "l-olympia",
@@ -106,6 +108,7 @@
   "communale-saint-ouen",
   "amaluna-paris",
   "quai-de-la-photo",
+  "punk-paradise",
   "la-marquise-club",
   "le-hasard-ludique",
   "terminus",
@@ -118,7 +121,6 @@
   "le-cirque-electrique",
   "le-discobar",
   "mira",
-  "punk-paradise",
   "tba-carburant-60-rue-de-lancry-75010-paris",
   "tba-espace-reuilly-paris-12",
   "tba-katapoull",
@@ -362,6 +364,16 @@
    "genres": [
     "electronic"
    ]
+  },
+  {
+   "id": "espace-francis-delage-salle-concorde",
+   "name": "Espace Francis Delage - Salle Concorde",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "essaim",
@@ -851,6 +863,16 @@
   {
    "id": "main-room",
    "name": "main room",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "maison-de-la-radio",
+   "name": "Maison de la Radio",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1575,6 +1597,26 @@
    "known": false
   },
   {
+   "id": "amnaye",
+   "name": "Amnaye",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485157e47e079f9c50e0ee97441c",
+   "known": false
+  },
+  {
+   "id": "amosphere",
+   "name": "Amosphère",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851390856b9255cf35a1134da6b",
+   "known": false
+  },
+  {
    "id": "amplify-take-over",
    "name": "Amplify Take Over",
    "tier": 0,
@@ -2172,6 +2214,16 @@
    "known": false
   },
   {
+   "id": "brasil-club-halloween-edition",
+   "name": "Brasil Club - Halloween édition",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "broodoo-ramses",
    "name": "Broodoo Ramses",
    "tier": 0,
@@ -2479,6 +2531,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851756164a2c9d616eef5dc9692",
+   "known": false
+  },
+  {
+   "id": "coni",
+   "name": "Coni",
+   "tier": 0,
+   "score": 26,
+   "popularity": 26,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/6f9074d6f5d677275455a01f83270a4b/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2872,6 +2934,16 @@
    "known": false
   },
   {
+   "id": "dj-deep",
+   "name": "DJ Deep",
+   "tier": 0,
+   "score": 31,
+   "popularity": 31,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178eb2ee913a3d080d436e52916",
+   "known": false
+  },
+  {
    "id": "dj-epi",
    "name": "Dj Épi",
    "tier": 0,
@@ -2959,6 +3031,16 @@
    "popularity": 51,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17875770cd028210da2ec0ddc1a",
+   "known": false
+  },
+  {
+   "id": "dj-maria",
+   "name": "DJ MARIA.",
+   "tier": 0,
+   "score": 15,
+   "popularity": 15,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b8f41f319460e352e88ca759",
    "known": false
   },
   {
@@ -3532,6 +3614,26 @@
    "known": false
   },
   {
+   "id": "flo-masse",
+   "name": "Flo Massé",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851f950b6d8b8e055c2abb072e9",
+   "known": false
+  },
+  {
+   "id": "floorfillers-1",
+   "name": "Floorfillers (1)",
+   "tier": 0,
+   "score": 13,
+   "popularity": 13,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17811d635b4ef66da5c22868d2a",
+   "known": false
+  },
+  {
    "id": "florian-defresne",
    "name": "Florian Defresne",
    "tier": 0,
@@ -4025,6 +4127,16 @@
    "known": false
   },
   {
+   "id": "identified-patient",
+   "name": "Identified Patient",
+   "tier": 0,
+   "score": 22,
+   "popularity": 22,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784893e9508a63207a346cac51",
+   "known": false
+  },
+  {
    "id": "ill-spleen",
    "name": "Ill Spleen",
    "tier": 0,
@@ -4082,6 +4194,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048516ad6e897920ad01e31df9568",
+   "known": false
+  },
+  {
+   "id": "inox-traxx",
+   "name": "Inox Traxx",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a68ab92e5cdef33078a7e50e",
    "known": false
   },
   {
@@ -4628,6 +4750,16 @@
    "known": false
   },
   {
+   "id": "kmyle",
+   "name": "Kmyle",
+   "tier": 0,
+   "score": 12,
+   "popularity": 12,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f1c8eb34880e69d73babc4f5",
+   "known": false
+  },
+  {
    "id": "koan-sound",
    "name": "KOAN Sound",
    "tier": 0,
@@ -5065,6 +5197,16 @@
    "popularity": 15,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780cded6807720ddb8684d9702",
+   "known": false
+  },
+  {
+   "id": "lina-k",
+   "name": "Lina K",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/96e53a98d10254ee23e913db2d270674/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -6000,6 +6142,16 @@
    "known": false
   },
   {
+   "id": "nesa-azadikhah",
+   "name": "Nesa Azadikhah",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789e1c6ea0ecddfdbfe636455f",
+   "known": false
+  },
+  {
    "id": "neska",
    "name": "neska",
    "tier": 0,
@@ -6170,6 +6322,16 @@
    "popularity": 69,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786ea1974d71c81a203647ce06",
+   "known": false
+  },
+  {
+   "id": "nyege-nyege",
+   "name": "Nyege Nyege",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -6813,6 +6975,16 @@
    "known": false
   },
   {
+   "id": "regal",
+   "name": "Regal",
+   "tier": 0,
+   "score": 44,
+   "popularity": 44,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782f67f0a650567293a29a68c6",
+   "known": false
+  },
+  {
    "id": "rhadoo",
    "name": "Rhadoo",
    "tier": 0,
@@ -6860,6 +7032,16 @@
    "popularity": 59,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178edeeb8d1058265cf5a4a54d0",
+   "known": false
+  },
+  {
+   "id": "rmbo",
+   "name": "RMBO",
+   "tier": 0,
+   "score": 17,
+   "popularity": 17,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048515951fd7717c5488bad73da4d",
    "known": false
   },
   {
@@ -7123,6 +7305,16 @@
    "popularity": 29,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/0411c830f31075af41d6e03ad8b305c2/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "serokolo-7",
+   "name": "Serokolo 7",
+   "tier": 0,
+   "score": 13,
+   "popularity": 13,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851f362a311d21a339c412841e2",
    "known": false
   },
   {
@@ -10773,6 +10965,52 @@
    }
   },
   {
+   "id": "2d04eee3b9a5",
+   "title": "Fvtvr presents Regal, Inox Traxx & Propolys",
+   "venue_id": "fvtvr",
+   "night": "2026-11-07",
+   "start": "2026-11-07T23:59:00.000",
+   "end": "2026-11-08T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "regal",
+     "name": "Regal",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "inox-traxx",
+     "name": "Inox Traxx",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575848",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575848"
+    }
+   ],
+   "interest": {
+    "score": 44,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Regal (44)",
+     "lieu : FVTVR (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "dd2583d62465",
    "title": "Le Wanski & Friends: Sköne, N-Xd, Mosmoz",
    "venue_id": "mia-mao",
@@ -10924,7 +11162,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2575036",
    "event_url": "https://ra.co/events/2575036",
    "image": "",
    "status": "confirmed",
@@ -11542,6 +11780,53 @@
    }
   },
   {
+   "id": "2502f7f5ac68",
+   "title": "Nyege Nyege with Serokolo 7 & RMBO",
+   "venue_id": "le-poisson-volant",
+   "night": "2026-11-07",
+   "start": "2026-11-07T23:59:00.000",
+   "end": "2026-11-08T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "rmbo",
+     "name": "RMBO",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "serokolo-7",
+     "name": "Serokolo 7",
+     "billing": "support"
+    },
+    {
+     "artist_id": "nyege-nyege",
+     "name": "Nyege Nyege",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575186",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575186"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : RMBO (17)",
+     "lieu : Le Poisson Volant (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "04bcf4be8bc4",
    "title": "Onywave",
    "venue_id": "studio56",
@@ -11675,6 +11960,48 @@
     "reasons": [
      "tête d'affiche : Amplify Take Over (8)",
      "lieu : Point Ephémère (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "cbbc1a21e01d",
+   "title": "Brasil Club - Halloween édition",
+   "venue_id": "punk-paradise",
+   "night": "2026-11-07",
+   "start": "2026-11-07T19:00:00.000",
+   "end": "2026-11-08T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "brasil-club-halloween-edition",
+     "name": "Brasil Club - Halloween édition",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "baile funk",
+    "rio funk"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575740",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575740"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Brasil Club - Halloween édition (8)",
+     "lieu : Punk Paradise (palier 1)"
     ]
    }
   },
@@ -11885,6 +12212,63 @@
     "reasons": [
      "tête d'affiche : La Ribouldingue (8)",
      "lieu : Voix Machine (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "2e7bb81d5318",
+   "title": "SEANCES II",
+   "venue_id": "maison-de-la-radio",
+   "night": "2026-11-07",
+   "start": "2026-11-07T15:00:00.000",
+   "end": "2026-11-08T22:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-sundae",
+     "name": "DJ Sundae",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "amosphere",
+     "name": "Amosphère",
+     "billing": "support"
+    },
+    {
+     "artist_id": "amnaye",
+     "name": "Amnaye",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "club",
+    "dancehall"
+   ],
+   "families": [
+    "Afro & latin",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575866",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575866"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575866"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Sundae (8)",
+     "lieu : Maison de la Radio (palier 1)"
     ]
    }
   },
@@ -12206,6 +12590,43 @@
     "reasons": [
      "tête d'affiche : Sylvain (35)",
      "lieu : TBA - Espace Reuilly - 21 rue Julien Antoine Hénard 75012 Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "0d8167d53a5e",
+   "title": "SEANCES II",
+   "venue_id": "maison-de-la-radio",
+   "night": "2026-11-08",
+   "start": "2026-11-08T11:00:00.000",
+   "end": "2026-11-08T19:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "coni",
+     "name": "Coni",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575868",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575868"
+    }
+   ],
+   "interest": {
+    "score": 25,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Coni (26)",
+     "lieu : Maison de la Radio (palier 1)"
     ]
    }
   },
@@ -13882,7 +14303,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2565650",
    "event_url": "https://ra.co/events/2565650",
    "image": "",
    "status": "confirmed",
@@ -15501,6 +15922,52 @@
     "reasons": [
      "tête d'affiche : bb (3) (8)",
      "lieu : La Machine du Moulin Rouge (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "8e3afd1ad473",
+   "title": "AFTER O'CLOCK: Kmyle, Lina K, ZOÉ DEL REZ",
+   "venue_id": "glazart",
+   "night": "2026-11-14",
+   "start": "2026-11-14T06:00:00.000",
+   "end": "2026-11-14T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "kmyle",
+     "name": "Kmyle",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lina-k",
+     "name": "Lina K",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2575965",
+   "event_url": "https://ra.co/events/2575965",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575965"
+    }
+   ],
+   "interest": {
+    "score": 21,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Kmyle (12)",
+     "lieu : Glazart (palier 2)"
     ]
    }
   },
@@ -19953,6 +20420,58 @@
    }
   },
   {
+   "id": "0004bfa82cdd",
+   "title": "Live_in_asnr",
+   "venue_id": "espace-francis-delage-salle-concorde",
+   "night": "2026-11-28",
+   "start": "2026-11-28T17:00:00.000",
+   "end": "2026-11-29T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-deep",
+     "name": "DJ Deep",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "floorfillers-1",
+     "name": "Floorfillers (1)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "flo-masse",
+     "name": "Flo Massé",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "deep house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2574540",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574540"
+    }
+   ],
+   "interest": {
+    "score": 28,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Deep (31)",
+     "lieu : Espace Francis Delage - Salle Concorde (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "4deb4025ed62",
    "title": "Otter Space 3rd Anniversary: Umberto! , Marabou, Burachos",
    "venue_id": "42-marches",
@@ -20851,6 +21370,58 @@
     "reasons": [
      "tête d'affiche : geneva (42)",
      "lieu : La Marbrerie (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "3a552c7b6e00",
+   "title": "Rex Club presents: DJ MARIA. Identified Patient, Nesa Azadikhah",
+   "venue_id": "rex-club",
+   "night": "2026-12-04",
+   "start": "2026-12-04T23:59:00.000",
+   "end": "2026-12-05T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "identified-patient",
+     "name": "Identified Patient",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "dj-maria",
+     "name": "DJ MARIA.",
+     "billing": "support"
+    },
+    {
+     "artist_id": "nesa-azadikhah",
+     "name": "Nesa Azadikhah",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "ebm"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2575544",
+   "event_url": "https://ra.co/events/2575544",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575544"
+    }
+   ],
+   "interest": {
+    "score": 34,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Identified Patient (22)",
+     "lieu : Rex Club (palier 3)"
     ]
    }
   },
