@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-02T19:15:49Z",
+ "generated_at": "2026-11-03T02:53:23Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-11-02",
-  "end": "2027-05-01"
+  "start": "2026-11-03",
+  "end": "2027-05-02"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 322
+   "events": 338
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 36
+   "events": 39
   }
  ],
  "venue_order": [
@@ -45,6 +45,7 @@
   "cite-de-la-musique",
   "elysee-montmartre",
   "cabaret-sauvage",
+  "studio56",
   "la-cite-fertile",
   "essaim",
   "le-trabendo",
@@ -54,6 +55,7 @@
   "la-gaite-lyrique",
   "le-mazette",
   "a-side",
+  "pamela-club",
   "cartilage",
   "fondation-cartier",
   "le-zeralda",
@@ -90,6 +92,7 @@
   "la-peniche-cinema",
   "a-la-folie-paris",
   "42-marches",
+  "le-poisson-volant",
   "theatre-silvia-monfort",
   "ground-control-gare-de-lyon",
   "l-olympia",
@@ -97,7 +100,6 @@
   "le-son-de-la-terre",
   "babour-sauvage",
   "la-maison-de-la-conversation",
-  "pamela-club",
   "bourse-de-commerce-pinault-collection",
   "la-gare-le-gore",
   "tba-75013",
@@ -774,6 +776,16 @@
    "genres": []
   },
   {
+   "id": "le-poisson-volant",
+   "name": "Le Poisson Volant",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "le-pop-up-du-label",
    "name": "Le Pop-Up du Label",
    "type": "club",
@@ -1036,6 +1048,19 @@
    "genres": []
   },
   {
+   "id": "studio56",
+   "name": "Studio56",
+   "type": "club",
+   "tier": 2,
+   "capacity": 500,
+   "address": "Paris",
+   "url": "",
+   "genres": [
+    "techno",
+    "hard"
+   ]
+  },
+  {
    "id": "tba",
    "name": "TBA",
    "type": "club",
@@ -1270,6 +1295,16 @@
    "known": false
   },
   {
+   "id": "7secrets",
+   "name": "7secrets",
+   "tier": 0,
+   "score": 51,
+   "popularity": 51,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178eecfa7be6581cad634313825",
+   "known": false
+  },
+  {
    "id": "a-l-a-e",
    "name": "A.L.A.E",
    "tier": 0,
@@ -1347,6 +1382,16 @@
    "popularity": 50,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789eccc6c86d94555300f514ca",
+   "known": false
+  },
+  {
+   "id": "acidboy",
+   "name": "Acidboy",
+   "tier": 0,
+   "score": 32,
+   "popularity": 32,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178477855fac54efbaea12abe8f",
    "known": false
   },
   {
@@ -1872,6 +1917,16 @@
    "known": false
   },
   {
+   "id": "bamao-yende",
+   "name": "Bamao Yendé",
+   "tier": 0,
+   "score": 11,
+   "popularity": 11,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784077f1304451dff67894e612",
+   "known": false
+  },
+  {
    "id": "bambii",
    "name": "Bambii",
    "tier": 2,
@@ -2127,6 +2182,16 @@
    "known": false
   },
   {
+   "id": "byg-bad-gyals",
+   "name": "Byg Bad Gyals",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "camille-doe",
    "name": "Camille Doe",
    "tier": 0,
@@ -2327,6 +2392,16 @@
    "known": false
   },
   {
+   "id": "clara-rosa",
+   "name": "Clara Rosa",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178aa29de6692d6434a05e03adb",
+   "known": false
+  },
+  {
    "id": "claudio-prc",
    "name": "Claudio PRC",
    "tier": 0,
@@ -2477,6 +2552,16 @@
    "known": false
   },
   {
+   "id": "dan-attias",
+   "name": "Dan Attias",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17861465d3bcb7141a98a9f37fc",
+   "known": false
+  },
+  {
    "id": "dan-shake",
    "name": "Dan Shake",
    "tier": 0,
@@ -2557,6 +2642,16 @@
    "known": false
   },
   {
+   "id": "david-avril",
+   "name": "David Avril",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/214091e70514cec37824b281f4801139/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "david-carretta",
    "name": "David Carretta",
    "tier": 0,
@@ -2584,6 +2679,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17858948317af2b6b3bf33d70dd",
+   "known": false
+  },
+  {
+   "id": "dean-lexar",
+   "name": "Dean Lexar",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17832997da2b66f51280a41f134",
    "known": false
   },
   {
@@ -2767,6 +2872,16 @@
    "known": false
   },
   {
+   "id": "dj-epi",
+   "name": "Dj Épi",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dec2202628989e16a8bf4029",
+   "known": false
+  },
+  {
    "id": "dj-fart-in-the-club",
    "name": "DJ Fart in the Club",
    "tier": 0,
@@ -2914,6 +3029,16 @@
    "popularity": 38,
    "genres": [],
    "image": "https://i.scdn.co/image/9a706e6bdba6fec5ff47d00d5acc5dea0d00c8e8",
+   "known": false
+  },
+  {
+   "id": "dj-statik",
+   "name": "DJ Statik",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781f3d5937893f2572a6e52f7b",
    "known": false
   },
   {
@@ -4103,6 +4228,16 @@
    "known": false
   },
   {
+   "id": "jeffelhypno",
+   "name": "Jeffelhypno",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "jeremy-weizman",
    "name": "Jeremy Weizman",
    "tier": 0,
@@ -4883,6 +5018,16 @@
    "known": false
   },
   {
+   "id": "lepetitlouisviton",
+   "name": "Lepetitlouisviton",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "lessss",
    "name": "LESSSS",
    "tier": 0,
@@ -4890,6 +5035,16 @@
    "popularity": 48,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a81a68a5e8b128e812a6fc34",
+   "known": false
+  },
+  {
+   "id": "lili",
+   "name": "LILI",
+   "tier": 0,
+   "score": 14,
+   "popularity": 14,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/8a54b50c740fc429ea04904814ec071b/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5013,6 +5168,16 @@
    "known": false
   },
   {
+   "id": "lothar",
+   "name": "Lothar",
+   "tier": 0,
+   "score": 25,
+   "popularity": 25,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17813002271f347357f3fb54f9e",
+   "known": false
+  },
+  {
    "id": "louis-the-4th",
    "name": "Louis The 4th",
    "tier": 0,
@@ -5033,6 +5198,16 @@
    "known": false
   },
   {
+   "id": "low-jack",
+   "name": "Low Jack",
+   "tier": 0,
+   "score": 15,
+   "popularity": 15,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789e73d5499acc266b54e3a012",
+   "known": false
+  },
+  {
    "id": "lowsteppa",
    "name": "Lowsteppa",
    "tier": 0,
@@ -5040,6 +5215,16 @@
    "popularity": 55,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e2e8375569f8a7037288e7f3",
+   "known": false
+  },
+  {
+   "id": "ltmg",
+   "name": "Ltmg",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e2c33244be4b40cf3f77316c",
    "known": false
   },
   {
@@ -5070,6 +5255,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f2a5b6412b71d3b15a7ddc37",
+   "known": false
+  },
+  {
+   "id": "mackwood",
+   "name": "Mackwood",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a26c1d90621261983098d58a",
    "known": false
   },
   {
@@ -5332,6 +5527,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "matvei",
+   "name": "MATVEÏ",
+   "tier": 0,
+   "score": 55,
+   "popularity": 55,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784ba645f3267794284d59b61b",
    "known": false
   },
   {
@@ -5615,6 +5820,16 @@
    "known": false
   },
   {
+   "id": "montreuil-is-tropical-reggaeton-vs-baile-funk",
+   "name": "Montreuil is Tropical - Reggaeton vs Baile Funk",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "montreuil-is-tropical-special-latino-reggaeton-vs-baile-funk",
    "name": "Montreuil is Tropical spécial Latino Reggaeton vs Baile Funk",
    "tier": 0,
@@ -5717,6 +5932,16 @@
   {
    "id": "naajet-2",
    "name": "Naajet (2)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "nao-never",
+   "name": "Nao Never",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5878,6 +6103,16 @@
    "known": false
   },
   {
+   "id": "no-miss",
+   "name": "NO MISS",
+   "tier": 0,
+   "score": 4,
+   "popularity": 4,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17839f9b29c9ab77644f35e0242",
+   "known": false
+  },
+  {
    "id": "noch-2",
    "name": "NOCH (2)",
    "tier": 0,
@@ -6005,6 +6240,16 @@
    "popularity": 5,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "ohjeelo",
+   "name": "ohjeelo",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789bf23125454e5458642a429f",
    "known": false
   },
   {
@@ -6185,6 +6430,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17820438878a639043b9c056ad0",
+   "known": false
+  },
+  {
+   "id": "outflw",
+   "name": "Outflw",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b5eb2a26393ddb57cc2bb399",
    "known": false
   },
   {
@@ -6468,6 +6723,16 @@
    "known": false
   },
   {
+   "id": "pxd",
+   "name": "Pxd",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/198b727983ee86d098622c422f1baf92/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "quantic",
    "name": "Quantic",
    "tier": 0,
@@ -6558,6 +6823,16 @@
    "known": false
   },
   {
+   "id": "rhys-baker",
+   "name": "Rhys Baker",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "ricky-chong",
    "name": "Ricky Chong",
    "tier": 0,
@@ -6565,6 +6840,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780f373da7dc6a03e995978f55",
+   "known": false
+  },
+  {
+   "id": "rinzler",
+   "name": "Rinzler",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485167193a4fccb6f87b28ef8f00",
    "known": false
   },
   {
@@ -6991,6 +7276,16 @@
    "known": false
   },
   {
+   "id": "sottoh",
+   "name": "SOTTOH",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851f76cd5460857d6142ff5aaa9",
+   "known": false
+  },
+  {
    "id": "soul-frequency",
    "name": "Soul Frequency",
    "tier": 0,
@@ -7311,6 +7606,16 @@
    "known": false
   },
   {
+   "id": "thundersamurai-birthday-special-w",
+   "name": "Thundersamurai Birthday Special W",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "thx4crying",
    "name": "Thx4Crying",
    "tier": 0,
@@ -7338,6 +7643,16 @@
    "popularity": 30,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851383dc5251bbb85751d5ac81f",
+   "known": false
+  },
+  {
+   "id": "timburtek",
+   "name": "Timburtek",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7681,6 +7996,16 @@
    "known": false
   },
   {
+   "id": "vid",
+   "name": "VØID",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ccb8a5048f51d7b193058573",
+   "known": false
+  },
+  {
    "id": "vieze-asbak",
    "name": "Vieze Asbak",
    "tier": 0,
@@ -7831,6 +8156,16 @@
    "known": false
   },
   {
+   "id": "wwllmm",
+   "name": "Wwllmm",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786f40f5d40952ad250763275b",
+   "known": false
+  },
+  {
    "id": "xdb",
    "name": "XDB",
    "tier": 0,
@@ -7948,6 +8283,16 @@
    "popularity": 34,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178839277d8a45ea3a7aae6c013",
+   "known": false
+  },
+  {
+   "id": "zulu",
+   "name": "Zulu (FR)",
+   "tier": 0,
+   "score": 13,
+   "popularity": 13,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fbcac0f8511f67f3cdaa8b25",
    "known": false
   }
  ],
@@ -8079,6 +8424,53 @@
    }
   },
   {
+   "id": "b13b397cefb0",
+   "title": "Signal W/ David Avril , Dj Épi , Ltmg",
+   "venue_id": "studio56",
+   "night": "2026-11-03",
+   "start": "2026-11-03T23:59:00.000",
+   "end": "2026-11-04T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "david-avril",
+     "name": "David Avril",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "dj-epi",
+     "name": "Dj Épi",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ltmg",
+     "name": "Ltmg",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575106",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575106"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : David Avril (0)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "297c63bd8f51",
    "title": "REVIVAL: Franc Fala, SAVERIO & JEREMY WEIZMAN",
    "venue_id": "silencio",
@@ -8124,6 +8516,53 @@
     "reasons": [
      "tête d'affiche : Franc Fala (79)",
      "lieu : Silencio (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "3e6a3a70e2d8",
+   "title": "Thundersamurai Birthday Special W/7secrets,Lepetitlouisviton",
+   "venue_id": "studio56",
+   "night": "2026-11-04",
+   "start": "2026-11-04T23:59:00.000",
+   "end": "2026-11-05T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "7secrets",
+     "name": "7secrets",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "thundersamurai-birthday-special-w",
+     "name": "Thundersamurai Birthday Special W",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lepetitlouisviton",
+     "name": "Lepetitlouisviton",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575108",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575108"
+    }
+   ],
+   "interest": {
+    "score": 49,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : 7secrets (51)",
+     "lieu : Studio56 (palier 2)"
     ]
    }
   },
@@ -8540,6 +8979,43 @@
    }
   },
   {
+   "id": "cd62e40cbb08",
+   "title": "Discovery Présente : Ramen Bass Ep-03 Release Party",
+   "venue_id": "studio56",
+   "night": "2026-11-05",
+   "start": "2026-11-05T23:59:00.000",
+   "end": "2026-11-06T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "wwllmm",
+     "name": "Wwllmm",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575109",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575109"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Wwllmm (0)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "e5a3ceb4f25d",
    "title": "FREEQUENCY AGENCY",
    "venue_id": "panic-room",
@@ -8621,6 +9097,51 @@
     "reasons": [
      "tête d'affiche : Golden Bug - Live Experience (8)",
      "lieu : Silencio (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "169bbd57643a",
+   "title": "Nzassa with ohjeelo & Doido",
+   "venue_id": "le-poisson-volant",
+   "night": "2026-11-05",
+   "start": "2026-11-05T23:30:00.000",
+   "end": "2026-11-06T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ohjeelo",
+     "name": "ohjeelo",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "ambient",
+    "bass",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575179",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575179"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ohjeelo (0)",
+     "lieu : Le Poisson Volant (palier 1)"
     ]
    }
   },
@@ -9608,6 +10129,43 @@
    }
   },
   {
+   "id": "881fae39027a",
+   "title": "Byg Bad Gyals",
+   "venue_id": "studio56",
+   "night": "2026-11-06",
+   "start": "2026-11-06T23:00:00.000",
+   "end": "2026-11-07T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "byg-bad-gyals",
+     "name": "Byg Bad Gyals",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575110",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575110"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Byg Bad Gyals (8)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "341961f21ffc",
    "title": "Augure sur Seine - 1 an",
    "venue_id": "babour-sauvage",
@@ -9656,6 +10214,59 @@
    }
   },
   {
+   "id": "c301880ceb0c",
+   "title": "Carole Fe, SOTTOH & Lubetzki",
+   "venue_id": "le-poisson-volant",
+   "night": "2026-11-06",
+   "start": "2026-11-06T23:59:00.000",
+   "end": "2026-11-07T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "carole-fe",
+     "name": "Carole Fe",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "sottoh",
+     "name": "SOTTOH",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "club",
+    "dancehall",
+    "house",
+    "bass",
+    "garage"
+   ],
+   "families": [
+    "House",
+    "Électro & bass",
+    "Afro & latin",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575183",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575183"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Carole Fe (8)",
+     "lieu : Le Poisson Volant (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "539d48ee3932",
    "title": "F33L ROUGE",
    "venue_id": "panic-room",
@@ -9695,6 +10306,43 @@
     "reasons": [
      "tête d'affiche : F33L ROUGE (8)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "ffe859f60aac",
+   "title": "Fracture W/ Dj Aleathory , Shadow Thugentawa , Dj Statik",
+   "venue_id": "studio56",
+   "night": "2026-11-06",
+   "start": "2026-11-06T22:00:00.000",
+   "end": "2026-11-07T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-statik",
+     "name": "DJ Statik",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575119",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575119"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Statik (0)",
+     "lieu : Studio56 (palier 2)"
     ]
    }
   },
@@ -9842,6 +10490,11 @@
      "artist_id": "montreuil-is-tropical-special-latino-reggaeton-vs-baile-funk",
      "name": "Montreuil is Tropical spécial Latino Reggaeton vs Baile Funk",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "montreuil-is-tropical-reggaeton-vs-baile-funk",
+     "name": "Montreuil is Tropical - Reggaeton vs Baile Funk",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -9851,16 +10504,20 @@
    "families": [
     "Afro & latin"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2574650",
    "event_url": "https://ra.co/events/2574650",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-02/73369d5c-d71b-4d4c-aa08-5ae7fc8b654f.jpg?rect=0%2C181%2C1086%2C1086",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2574650"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/qnxnea-montreuil-is-tropical-reggaeton-vs-baile-funk-6th-nov-le-chinois-paris-tickets"
     }
    ],
    "interest": {
@@ -10885,6 +11542,54 @@
    }
   },
   {
+   "id": "04bcf4be8bc4",
+   "title": "Onywave",
+   "venue_id": "studio56",
+   "night": "2026-11-07",
+   "start": "2026-11-07T23:00:00.000",
+   "end": "2026-11-08T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "killoverjoy",
+     "name": "Killoverjoy",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "vid",
+     "name": "VØID",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "trance"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575111",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575111"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Killoverjoy (8)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "3c09d45d8d20",
    "title": "SIDERATIO² | 3rd Ep: Enzo Leep & Residents",
    "venue_id": "amaluna-paris",
@@ -11227,6 +11932,48 @@
    }
   },
   {
+   "id": "272e7c219c94",
+   "title": "Global Grooves - No Miss, Clara Rosa, Fanny Vilhelmsson",
+   "venue_id": "pamela-club",
+   "night": "2026-11-07",
+   "start": "2026-11-07T23:59:00.000",
+   "end": "2026-11-08T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "no-miss",
+     "name": "NO MISS",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "clara-rosa",
+     "name": "Clara Rosa",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575100",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575100"
+    }
+   ],
+   "interest": {
+    "score": 9,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : NO MISS (4)",
+     "lieu : Pamela Club (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "16981a1a0320",
    "title": "Marasma - A Year of Disorder: Stefano Andriezzi",
    "venue_id": "babour-sauvage",
@@ -11559,6 +12306,59 @@
     "reasons": [
      "tête d'affiche : TONAK (8)",
      "lieu : TBA - Espace Reuilly Paris 12 (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "efae1af7dacf",
+   "title": "Core W/ Timburtek , Lothar , Killoverjoy",
+   "venue_id": "studio56",
+   "night": "2026-11-09",
+   "start": "2026-11-09T23:59:00.000",
+   "end": "2026-11-10T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lothar",
+     "name": "Lothar",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "timburtek",
+     "name": "Timburtek",
+     "billing": "support"
+    },
+    {
+     "artist_id": "killoverjoy",
+     "name": "Killoverjoy",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "trance"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575117",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575117"
+    }
+   ],
+   "interest": {
+    "score": 30,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lothar (25)",
+     "lieu : Studio56 (palier 2)"
     ]
    }
   },
@@ -11949,6 +12749,53 @@
    }
   },
   {
+   "id": "cf025ce2aff9",
+   "title": "Signal W/ Dean Lexar , Jeffelhypno , Pxd",
+   "venue_id": "studio56",
+   "night": "2026-11-10",
+   "start": "2026-11-10T23:59:00.000",
+   "end": "2026-11-11T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jeffelhypno",
+     "name": "Jeffelhypno",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "dean-lexar",
+     "name": "Dean Lexar",
+     "billing": "support"
+    },
+    {
+     "artist_id": "pxd",
+     "name": "Pxd",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575121",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575121"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jeffelhypno (8)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "d0bf714890a5",
    "title": "Suze Ijó, Eileen, Adri [Djoon X DOKA]",
    "venue_id": "djoon",
@@ -12172,6 +13019,53 @@
    }
   },
   {
+   "id": "9c3f07ad217e",
+   "title": "Resonance W/ Acidboy, Outflw , Rinzler",
+   "venue_id": "studio56",
+   "night": "2026-11-11",
+   "start": "2026-11-11T23:59:00.000",
+   "end": "2026-11-12T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "acidboy",
+     "name": "Acidboy",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "outflw",
+     "name": "Outflw",
+     "billing": "support"
+    },
+    {
+     "artist_id": "rinzler",
+     "name": "Rinzler",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575122",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575122"
+    }
+   ],
+   "interest": {
+    "score": 35,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Acidboy (32)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "533dab268d8a",
    "title": "AFTER O'CLOCK: YUADA, Michel Lauriola, A.L.A.E. B2B BNJR",
    "venue_id": "glazart",
@@ -12391,6 +13285,43 @@
    }
   },
   {
+   "id": "51b294549e61",
+   "title": "Impact W/ Lili , Nzolito , Gwyze",
+   "venue_id": "studio56",
+   "night": "2026-11-12",
+   "start": "2026-11-12T23:59:00.000",
+   "end": "2026-11-13T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lili",
+     "name": "LILI",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575123",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575123"
+    }
+   ],
+   "interest": {
+    "score": 22,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LILI (14)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "c45e0d3841b4",
    "title": "LA CH!CK: THE GOLDEN ERA OF EDM",
    "venue_id": "badaboum",
@@ -12472,6 +13403,48 @@
     "reasons": [
      "tête d'affiche : Loke Rahbek (14)",
      "lieu : Communale Saint-Ouen (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "d2074a3aa12a",
+   "title": "Nao Never & Zulu",
+   "venue_id": "le-poisson-volant",
+   "night": "2026-11-12",
+   "start": "2026-11-12T23:30:00.000",
+   "end": "2026-11-13T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "zulu",
+     "name": "Zulu (FR)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "nao-never",
+     "name": "Nao Never",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575197",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575197"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Zulu (FR) (13)",
+     "lieu : Le Poisson Volant (palier 1)"
     ]
    }
   },
@@ -12929,6 +13902,55 @@
     "reasons": [
      "tête d'affiche : Soyoon (60)",
      "lieu : A-Side (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "cdd1503755d9",
+   "title": "Baile De House - Akalex, Matveï",
+   "venue_id": "pamela-club",
+   "night": "2026-11-13",
+   "start": "2026-11-13T23:59:00.000",
+   "end": "2026-11-14T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "matvei",
+     "name": "MATVEÏ",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "akalex",
+     "name": "Akalex",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "club",
+    "uk garage"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575101",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575101"
+    }
+   ],
+   "interest": {
+    "score": 46,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : MATVEÏ (55)",
+     "lieu : Pamela Club (palier 1)"
     ]
    }
   },
@@ -13592,6 +14614,54 @@
     "reasons": [
      "tête d'affiche : Master c-fu (8)",
      "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "c78b432ec54b",
+   "title": "Miracles Residency with DJ GAWAD, Fae Sapienta, Bamao Yendé & Low Jack",
+   "venue_id": "le-poisson-volant",
+   "night": "2026-11-13",
+   "start": "2026-11-13T23:59:00.000",
+   "end": "2026-11-14T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "low-jack",
+     "name": "Low Jack",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "bamao-yende",
+     "name": "Bamao Yendé",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "r&b"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2575204",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2575204"
+    }
+   ],
+   "interest": {
+    "score": 17,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Low Jack (15)",
+     "lieu : Le Poisson Volant (palier 1)"
     ]
    }
   },
@@ -17763,16 +18833,20 @@
    "families": [
     "Pop & club"
    ],
-   "price_min": null,
+   "price_min": 0.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2574917",
    "event_url": "https://ra.co/events/2574917",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-02/9ab3cf8c-686f-4526-a0b1-950587a46d12.jpg?rect=0%2C8%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2574917"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/lqaqnr-la-chck-minions-rave-26th-nov-badaboum-paris-tickets"
     }
    ],
    "interest": {
@@ -19848,6 +20922,21 @@
      "artist_id": "i-don-t-clean-the-house",
      "name": "I Don't Clean The House",
      "billing": "support"
+    },
+    {
+     "artist_id": "mackwood",
+     "name": "Mackwood",
+     "billing": "support"
+    },
+    {
+     "artist_id": "rhys-baker",
+     "name": "Rhys Baker",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dan-attias",
+     "name": "Dan Attias",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -19858,16 +20947,20 @@
     "Techno",
     "Expérimental"
    ],
-   "price_min": null,
+   "price_min": 18.16,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://dice.fm/event/aabag2-jazzcore-2-mackwood-carmen-sea-i-dont-clean-the-house-4th-dec-bal-chavaux-montreuil-tickets",
    "event_url": "https://ra.co/events/2574893",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-02/481b1bf8-56b8-4875-9410-de3da0cb07fe.jpg?rect=0%2C0%2C6000%2C6000",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2574893"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/aabag2-jazzcore-2-mackwood-carmen-sea-i-dont-clean-the-house-4th-dec-bal-chavaux-montreuil-tickets"
     }
    ],
    "interest": {
@@ -21906,8 +22999,8 @@
    }
   },
   {
-   "id": "4f0b73b78815",
-   "title": "Illusion Nye XXL Rave: Rooler Santos Dikke Baap",
+   "id": "59fcbdc79dd0",
+   "title": "Illusion Nye XXL Rave: Creeds Rooler SANTØS Dikke Baap",
    "venue_id": "le-grand-dome",
    "night": "2026-12-31",
    "start": "2026-12-31T20:00:00.000",
@@ -22946,13 +24039,6 @@
   }
  ],
  "announcements": [
-  {
-   "id": "c5c9752fc190",
-   "name": "Julian Fijma",
-   "night": "2027-02-19",
-   "venue": "Rex Club",
-   "photo": "https://i.scdn.co/image/ab6761610000f178ced0f40aac584f79965fd528"
-  },
   {
    "id": "61fd7375c79b",
    "name": "Interplanetary Criminal",
