@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-03T15:45:12Z",
+ "generated_at": "2026-11-04T01:10:26Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-03",
-  "end": "2027-05-02"
+  "start": "2026-11-04",
+  "end": "2027-05-03"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 182
+   "events": 188
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 41
+   "events": 43
   }
  ],
  "venue_order": [
@@ -52,23 +52,23 @@
   "sat",
   "systeme",
   "salon-daome",
+  "studio-notre-dame",
   "casa-del-popolo",
   "s-a-t",
   "theatre-beanfield",
   "union-francaise-de-montreal",
   "vino-disco",
+  "foufounes",
   "bar-datcha",
   "tba-montreal",
   "le-red-room",
   "l-escogriffe-bar-spectacle",
-  "club-soda",
+  "nwhr",
   "sainte-catherine-hall",
   "centre-phi",
   "esc",
-  "foufounes",
   "le-balcon",
   "entrepots-dominion-les",
-  "nwhr",
   "la-recre",
   "white-wall-studio",
   "ausgang-plaza",
@@ -165,19 +165,6 @@
    "address": "",
    "url": "",
    "genres": []
-  },
-  {
-   "id": "club-soda",
-   "name": "Club Soda",
-   "type": "venue",
-   "tier": 2,
-   "capacity": 900,
-   "address": "1225 Boulevard Saint-Laurent",
-   "url": "https://clubsoda.ca",
-   "genres": [
-    "electronic",
-    "bass"
-   ]
   },
   {
    "id": "entre-nous",
@@ -519,6 +506,16 @@
     "house",
     "techno"
    ]
+  },
+  {
+   "id": "studio-notre-dame",
+   "name": "Studio Notre-Dame",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "studio-td",
@@ -1271,6 +1268,16 @@
    "known": false
   },
   {
+   "id": "citizen",
+   "name": "CITIZEN",
+   "tier": 0,
+   "score": 60,
+   "popularity": 60,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17895f56bf55c93c99a8157e654",
+   "known": false
+  },
+  {
    "id": "claireyy",
    "name": "Claireyy",
    "tier": 0,
@@ -1458,6 +1465,26 @@
    "popularity": 81,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17889ffabe57a25cedeca3309e7",
+   "known": false
+  },
+  {
+   "id": "delavelour",
+   "name": "DELAVELOUR",
+   "tier": 0,
+   "score": 8,
+   "popularity": 8,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788088f1326e0204157e2bee6d",
+   "known": false
+  },
+  {
+   "id": "dennis-ferrer",
+   "name": "Dennis Ferrer",
+   "tier": 0,
+   "score": 71,
+   "popularity": 71,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17832bb268d7a099f3024ba2909",
    "known": false
   },
   {
@@ -1691,6 +1718,16 @@
    "known": false
   },
   {
+   "id": "ellxandra",
+   "name": "Ellxandra",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c3b0cd191fe3a67607f7a8e4",
+   "known": false
+  },
+  {
    "id": "ely-oaks",
    "name": "Ely Oaks",
    "tier": 0,
@@ -1901,6 +1938,16 @@
    "known": false
   },
   {
+   "id": "fred-everything",
+   "name": "Fred Everything",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17852c78daeaced513f1840aa11",
+   "known": false
+  },
+  {
    "id": "french-79",
    "name": "French 79",
    "tier": 0,
@@ -1968,6 +2015,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "galdive",
+   "name": "Galdive",
+   "tier": 0,
+   "score": 57,
+   "popularity": 57,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ab754abb098d855cbeab3e60",
    "known": false
   },
   {
@@ -2284,6 +2341,16 @@
    "known": false
   },
   {
+   "id": "ilesoniq-presente-infected-mushroom",
+   "name": "îLESONIQ présente: Infected Mushroom",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "ilesoniq-presente-layz-outnumbered-tour",
    "name": "îLESONIQ présente: LAYZ - OUTNUMBERED Tour",
    "tier": 0,
@@ -2527,8 +2594,8 @@
    "id": "joseph-crime",
    "name": "Joseph Crime",
    "tier": 0,
-   "score": 18,
-   "popularity": 18,
+   "score": 17,
+   "popularity": 17,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17882b3700f4bd2cf5aaf472e23",
    "known": false
@@ -2604,6 +2671,16 @@
    "known": false
   },
   {
+   "id": "kashii",
+   "name": "Kashii",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17889c821d076feb53a2a3d2b0e",
+   "known": false
+  },
+  {
    "id": "katzpascale-montreal",
    "name": "KatzPascale - Montréal",
    "tier": 0,
@@ -2666,7 +2743,7 @@
    "score": 72,
    "popularity": 72,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1781e7e712ff8502aaeaa0109d6",
+   "image": "https://i.scdn.co/image/ab6761610000f17824d76841c6c37911b972eac7",
    "known": false
   },
   {
@@ -3203,6 +3280,16 @@
    "known": false
   },
   {
+   "id": "mike-larry",
+   "name": "Mike Larry",
+   "tier": 0,
+   "score": 30,
+   "popularity": 30,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fff9640e9e929ed434f1add2",
+   "known": false
+  },
+  {
    "id": "milsif",
    "name": "MilSif",
    "tier": 0,
@@ -3558,6 +3645,16 @@
    "known": false
   },
   {
+   "id": "nwhr-invites-ced-ullberg",
+   "name": "NWHR invites Ced Ullberg",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "o-b-f",
    "name": "O.B.F",
    "tier": 0,
@@ -3565,6 +3662,16 @@
    "popularity": 58,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782c870d65a4841b3f91d98f94",
+   "known": false
+  },
+  {
+   "id": "odyssey",
+   "name": "Odyssey",
+   "tier": 0,
+   "score": 58,
+   "popularity": 58,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048513c8cb1c41b25d18e728d01dc",
    "known": false
   },
   {
@@ -3778,6 +3885,16 @@
    "known": false
   },
   {
+   "id": "ponsif",
+   "name": "Ponsif",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d84baf6caacb3cb30e35bbb3",
+   "known": false
+  },
+  {
    "id": "pretty-privilege",
    "name": "Pretty Privilege",
    "tier": 0,
@@ -3811,10 +3928,10 @@
    "id": "pyromane",
    "name": "Pyromane",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/ef96bda54957c9f61f3cff194483ac71/250x250-000000-80-0-0.jpg",
+   "image": "",
    "known": false
   },
   {
@@ -3845,6 +3962,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/a427a1fbdc1eb8b890fc9d10225f324f/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "raya-noire",
+   "name": "Raya Noire",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/be5d84798ea9a8193e2cf3dbf9a6cbaa/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3915,6 +4042,16 @@
    "popularity": 49,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b7a42e171a46f57cbff211df",
+   "known": false
+  },
+  {
+   "id": "rum-gold",
+   "name": "rum.gold",
+   "tier": 0,
+   "score": 56,
+   "popularity": 56,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e3fd6a6d6a692b91225bd70a",
    "known": false
   },
   {
@@ -4018,6 +4155,16 @@
    "known": false
   },
   {
+   "id": "seren-realm",
+   "name": "Seren Realm",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783fb3111ce2dac5cc09078f2e",
+   "known": false
+  },
+  {
    "id": "sev-dah",
    "name": "Sev Dah",
    "tier": 0,
@@ -4068,21 +4215,21 @@
    "known": false
   },
   {
-   "id": "sina-bathaie",
-   "name": "Sina Bathaie",
+   "id": "simbasol",
+   "name": "Simbasōl",
    "tier": 0,
-   "score": 43,
-   "popularity": 43,
+   "score": 31,
+   "popularity": 31,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178dc65a731cea5dddce9255fe2",
+   "image": "https://i.scdn.co/image/ab6761610000f178d99988fd3b68e8df80e09f08",
    "known": false
   },
   {
    "id": "sineila",
    "name": "Sineila",
    "tier": 0,
-   "score": 6,
-   "popularity": 6,
+   "score": 8,
+   "popularity": 8,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ac19bf5b41a29cc28ed1d8ae",
    "known": false
@@ -4638,6 +4785,16 @@
    "known": false
   },
   {
+   "id": "waze",
+   "name": "Waze",
+   "tier": 0,
+   "score": 45,
+   "popularity": 45,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17861de5f4b0cbe7480819cbcc9",
+   "known": false
+  },
+  {
    "id": "wencat",
    "name": "Wencat",
    "tier": 0,
@@ -4695,6 +4852,16 @@
    "popularity": 8,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17873f6f953e4507c14a6fc373c",
+   "known": false
+  },
+  {
+   "id": "xela",
+   "name": "Xela",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17809fe41d4bf7ce8c22375d04b",
    "known": false
   },
   {
@@ -4840,43 +5007,58 @@
  ],
  "events": [
   {
-   "id": "11cb4544248e",
-   "title": "Sina Bathaie — White Lotus World Tour: Back Together: Montreal",
-   "venue_id": "club-soda",
-   "night": "2026-11-03",
-   "start": "2026-11-03T19:30:00.000",
-   "end": "2026-11-03T22:00:00.000",
+   "id": "28ddbd898f9f",
+   "title": "DOWN2TECHNO: Every Wednesday",
+   "venue_id": "le-red-room",
+   "night": "2026-11-04",
+   "start": "2026-11-04T22:00:00.000",
+   "end": "2026-11-05T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "sina-bathaie",
-     "name": "Sina Bathaie",
+     "artist_id": "vike-king",
+     "name": "VIKE KING",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "miss-oana",
+     "name": "Miss Oana",
+     "billing": "support"
+    },
+    {
+     "artist_id": "toltech",
+     "name": "Toltech",
+     "billing": "support"
+    },
+    {
+     "artist_id": "xela",
+     "name": "Xela",
+     "billing": "support"
     }
    ],
    "genres": [
-    "downtempo"
+    "techno"
    ],
    "families": [
-    "Expérimental"
+    "Techno"
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2569737",
-   "event_url": "https://ra.co/events/2569737",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2576445",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2569737"
+     "url": "https://ra.co/events/2576445"
     }
    ],
    "interest": {
-    "score": 43,
-    "tier": 1,
+    "score": 18,
+    "tier": 0,
     "reasons": [
-     "tête d'affiche : Sina Bathaie (43)",
-     "lieu : Club Soda (palier 2)"
+     "tête d'affiche : VIKE KING (8)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -5266,6 +5448,16 @@
      "artist_id": "patch",
      "name": "Patch",
      "billing": "support"
+    },
+    {
+     "artist_id": "raya-noire",
+     "name": "Raya Noire",
+     "billing": "support"
+    },
+    {
+     "artist_id": "seren-realm",
+     "name": "Seren Realm",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -5515,8 +5707,12 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "progressive house"
+   ],
+   "families": [
+    "House"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
@@ -6005,6 +6201,94 @@
     "reasons": [
      "tête d'affiche : Jody Wisternoff (65)",
      "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "c4acbdb0b76d",
+   "title": "KERRI CHANDLER IN MONTREAL - NOV 7",
+   "venue_id": "studio-notre-dame",
+   "night": "2026-11-07",
+   "start": "2026-11-07T21:00:00.000",
+   "end": "2026-11-08T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dennis-ferrer",
+     "name": "Dennis Ferrer",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "citizen",
+     "name": "CITIZEN",
+     "billing": "support"
+    },
+    {
+     "artist_id": "odyssey",
+     "name": "Odyssey",
+     "billing": "support"
+    },
+    {
+     "artist_id": "waze",
+     "name": "Waze",
+     "billing": "support"
+    },
+    {
+     "artist_id": "fred-everything",
+     "name": "Fred Everything",
+     "billing": "support"
+    },
+    {
+     "artist_id": "satoshi-tomiie",
+     "name": "Satoshi Tomiie",
+     "billing": "support"
+    },
+    {
+     "artist_id": "delavelour",
+     "name": "DELAVELOUR",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ellxandra",
+     "name": "Ellxandra",
+     "billing": "support"
+    },
+    {
+     "artist_id": "vayia",
+     "name": "Vayia",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kashii",
+     "name": "Kashii",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "deep house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2576097",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2576097"
+    }
+   ],
+   "interest": {
+    "score": 65,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Dennis Ferrer (71)",
+     "lieu : Studio Notre-Dame (palier 1)",
+     "plateau dense"
     ]
    }
   },
@@ -6993,6 +7277,7 @@
     }
    ],
    "genres": [
+    "deep house",
     "house",
     "techno",
     "breaks"
@@ -7324,10 +7609,10 @@
     }
    ],
    "interest": {
-    "score": 6,
+    "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Pyromane (0)",
+     "tête d'affiche : Pyromane (8)",
      "lieu : Vino Disco (palier 1)"
     ]
    }
@@ -7529,6 +7814,8 @@
     }
    ],
    "genres": [
+    "deep house",
+    "house",
     "minimal techno",
     "tech house"
    ],
@@ -8122,6 +8409,7 @@
     }
    ],
    "genres": [
+    "deep house",
     "house"
    ],
    "families": [
@@ -9586,6 +9874,53 @@
    }
   },
   {
+   "id": "b6e8a8594252",
+   "title": "NWHR invites Ced Ullberg // Mechanic",
+   "venue_id": "nwhr",
+   "night": "2026-11-20",
+   "start": "2026-11-20T22:00:00.000",
+   "end": "2026-11-21T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "nwhr-invites-ced-ullberg",
+     "name": "NWHR invites Ced Ullberg",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mechanic",
+     "name": "Mechanic (CA)",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "deep house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2576036",
+   "event_url": "https://ra.co/events/2576036",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2576036"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : NWHR invites Ced Ullberg (8)",
+     "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "e499ebd08ee8",
    "title": "Tommy Fleece - Montréal",
    "venue_id": "le-ritz",
@@ -9893,6 +10228,47 @@
     "reasons": [
      "tête d'affiche : Flytz (23)",
      "lieu : Salon Daome (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "dcd3309606a3",
+   "title": "Birthday Bash: Mike Larry & Friends",
+   "venue_id": "nwhr",
+   "night": "2026-11-21",
+   "start": "2026-11-21T22:00:00.000",
+   "end": "2026-11-22T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mike-larry",
+     "name": "Mike Larry",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2576038",
+   "event_url": "https://ra.co/events/2576038",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2576038"
+    }
+   ],
+   "interest": {
+    "score": 28,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Mike Larry (30)",
+     "lieu : NWHR (palier 1)"
     ]
    }
   },
@@ -10365,6 +10741,52 @@
    }
   },
   {
+   "id": "26d586c9f157",
+   "title": "DOWN2TECHNO: Every Wednesday",
+   "venue_id": "le-red-room",
+   "night": "2026-11-25",
+   "start": "2026-11-25T22:00:00.000",
+   "end": "2026-11-26T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "no-police",
+     "name": "No Police",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ponsif",
+     "name": "Ponsif",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2576450",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2576450"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : No Police (0)",
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "e3faa9d33f4b",
    "title": "27 Years of Stereo: Carl Cox - Ostrich",
    "venue_id": "stereo",
@@ -10528,8 +10950,8 @@
    ],
    "genres": [
     "bass",
-    "garage",
-    "electro"
+    "electro",
+    "garage"
    ],
    "families": [
     "Électro & bass"
@@ -10929,11 +11351,14 @@
     "ambient",
     "trance",
     "techno",
+    "club",
+    "electronica",
     "minimal techno"
    ],
    "families": [
     "Techno",
     "Trance & hard",
+    "Pop & club",
     "Expérimental"
    ],
    "price_min": null,
@@ -11012,6 +11437,52 @@
     "reasons": [
      "tête d'affiche : Frits Wentink (38)",
      "lieu : La Récré (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "fc2552b1f813",
+   "title": "NOS: Moonrise - Simbasōl // FAMÜ // Kbob",
+   "venue_id": "nwhr",
+   "night": "2026-11-27",
+   "start": "2026-11-27T22:00:00.000",
+   "end": "2026-11-28T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "simbasol",
+     "name": "Simbasōl",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "famu",
+     "name": "FAMÜ",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2576033",
+   "event_url": "https://ra.co/events/2576033",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2576033"
+    }
+   ],
+   "interest": {
+    "score": 28,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Simbasōl (31)",
+     "lieu : NWHR (palier 1)"
     ]
    }
   },
@@ -11767,10 +12238,10 @@
     }
    ],
    "interest": {
-    "score": 19,
+    "score": 18,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Joseph Crime (18)",
+     "tête d'affiche : Joseph Crime (17)",
      "lieu : Café Social B Hive (palier 1)"
     ]
    }
@@ -13222,17 +13693,22 @@
    }
   },
   {
-   "id": "50c6ccc52e43",
-   "title": "Infected Mushroom",
+   "id": "f2b5a53bc34a",
+   "title": "îLESONIQ présente: Infected Mushroom",
    "venue_id": "mtelus",
    "night": "2027-01-22",
-   "start": "2027-01-22T22:00:00-05:00",
-   "end": null,
+   "start": "2027-01-22T22:00:00.000",
+   "end": "2027-01-23T03:00:00.000",
    "lineup": [
     {
      "artist_id": "infected-mushroom",
      "name": "Infected Mushroom",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "ilesoniq-presente-infected-mushroom",
+     "name": "îLESONIQ présente: Infected Mushroom",
+     "billing": "support"
     },
     {
      "artist_id": "randy-seidman",
@@ -13241,20 +13717,22 @@
     }
    ],
    "genres": [
-    "dubstep",
-    "techno"
+    "electro"
    ],
    "families": [
-    "Techno",
     "Électro & bass"
    ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/3100655DC04DC168?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/infected-mushroom?code=e009366",
+   "event_url": "https://ra.co/events/2576006",
    "image": "https://images.ctfassets.net/3yxl57nu0yl4/1taHCXT8R7K1ZShJp4BPVk/75f80db8c18e67d08d88afc032532610/infected_mushroom_2027.jpg",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2576006"
+    },
     {
      "id": "mtelus",
      "url": "https://evenko.ca/fr/evenements/mtelus/infected-mushroom?code=e009366"
@@ -14312,6 +14790,50 @@
    }
   },
   {
+   "id": "c5831a3aac94",
+   "title": "GALDIVE + rum.gold",
+   "venue_id": "foufounes",
+   "night": "2027-02-20",
+   "start": "2027-02-20T20:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "galdive",
+     "name": "Galdive",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "rum-gold",
+     "name": "rum.gold",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.universe.com/events/galdive-rum-gold-tickets-C2PNX9?ref=ticketmaster",
+   "event_url": "https://www.universe.com/events/galdive-rum-gold-tickets-C2PNX9?ref=ticketmaster",
+   "image": "https://s1.ticketm.net/dam/a/6a8/4da15be9-4ee2-45a7-8667-3544378026a8_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.universe.com/events/galdive-rum-gold-tickets-C2PNX9?ref=ticketmaster"
+    }
+   ],
+   "interest": {
+    "score": 47,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Galdive (57)",
+     "lieu : Foufounes Electriques (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "3169583d1afa",
    "title": "ALLEYCVT",
    "venue_id": "mtelus",
@@ -14528,6 +15050,45 @@
     "reasons": [
      "tête d'affiche : D.O.D. (86)",
      "lieu : New City Gas (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "d39610296d6e",
+   "title": "L'Ultime Soirée Disco Chic",
+   "venue_id": "le-balcon",
+   "night": "2027-03-13",
+   "start": "2027-03-13T20:30:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "l-ultime-soiree-disco-chic",
+     "name": "L'Ultime Soirée Disco Chic",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/lultime-soiree-disco-chic-montreal-quebec-03-13-2027/event/31006563F7687BF1",
+   "event_url": "https://www.ticketmaster.ca/lultime-soiree-disco-chic-montreal-quebec-03-13-2027/event/31006563F7687BF1",
+   "image": "https://s1.ticketm.net/dam/e/812/e3f010cc-ac4b-4b20-b4bf-954dfb73a812_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/lultime-soiree-disco-chic-montreal-quebec-03-13-2027/event/31006563F7687BF1"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : L'Ultime Soirée Disco Chic (8)",
+     "lieu : Le Balcon (palier 1)"
     ]
    }
   },
@@ -15001,25 +15562,18 @@
  ],
  "announcements": [
   {
-   "id": "e3faa9d33f4b",
-   "name": "Carl Cox",
-   "night": "2026-11-26",
-   "venue": "Stereo",
-   "photo": "https://i.scdn.co/image/ab6761610000f178edb3ce2bc522e2abbf098083"
+   "id": "7844d9cc5250",
+   "name": "MALIVE",
+   "night": "2026-11-20",
+   "venue": "New City Gas",
+   "photo": "https://i.scdn.co/image/ab6761610000f178df90c83a6f5518167f1da889"
   },
   {
-   "id": "bef711e1fbec",
-   "name": "Franky Rizardo",
-   "night": "2026-11-27",
-   "venue": "Stereo",
-   "photo": "https://i.scdn.co/image/ab6761610000f17871d730a241b960a71e93483b"
-  },
-  {
-   "id": "6cd92a9b9976",
-   "name": "Roger Sanchez",
-   "night": "2026-11-07",
-   "venue": "Stereo",
-   "photo": "https://i.scdn.co/image/ab6761610000f17816db642c25db5a35943328c3"
+   "id": "8a562d34a2ca",
+   "name": "Kasango",
+   "night": "2026-11-06",
+   "venue": "New City Gas",
+   "photo": "https://i.scdn.co/image/ab6761610000f17808faa46da03ce1a1de05e35e"
   },
   {
    "id": "6e4ea8443bab",
@@ -15036,25 +15590,11 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178117a1b9dc71591e7ba3beeae"
   },
   {
-   "id": "c5e73a50990e",
-   "name": "Nina Kraviz",
-   "night": "2026-11-08",
-   "venue": "Studio TD",
-   "photo": "https://i.scdn.co/image/ab6761610000f178f088792f3f44b198770c981e"
-  },
-  {
-   "id": "7a67037e254a",
-   "name": "Hex Hector",
-   "night": "2026-11-20",
-   "venue": "Stereo",
-   "photo": "https://i.scdn.co/image/ab67616d000048514e4f7b4f75f50223e0c5c41f"
-  },
-  {
-   "id": "8bf02d710be6",
-   "name": "Sascha Funke",
-   "night": "2026-11-14",
-   "venue": "Stereo",
-   "photo": "https://i.scdn.co/image/ab6761610000f178c673456b1c8a702ef9a60df7"
+   "id": "c4acbdb0b76d",
+   "name": "Dennis Ferrer",
+   "night": "2026-11-07",
+   "venue": "Studio Notre-Dame",
+   "photo": "https://i.scdn.co/image/ab6761610000f17832bb268d7a099f3024ba2909"
   },
   {
    "id": "2fbfa9a33e46",
