@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-04T16:55:53Z",
+ "generated_at": "2026-11-05T01:25:55Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-11-04",
-  "end": "2027-05-03"
+  "start": "2026-11-05",
+  "end": "2027-05-04"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 387
+   "events": 396
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 51
+   "events": 56
   }
  ],
  "venue_order": [
@@ -40,28 +40,27 @@
   "djoon",
   "panic-room",
   "elysee-montmartre",
-  "silencio",
   "la-boule-noire",
   "parc-des-expositions",
   "cabaret-sauvage",
-  "studio56",
   "la-gare-le-gore",
   "cite-de-la-musique",
   "la-cite-fertile",
   "le-trabendo",
-  "essaim",
   "tba-paris",
+  "essaim",
   "le-211",
   "le-bataclan",
   "point-ephemere",
-  "la-gaite-lyrique",
   "la-station-gare-des-mines",
   "le-mazette",
   "a-side",
   "pamela-club",
   "cartilage",
+  "studio56",
   "glazart",
   "le-zeralda",
+  "la-gaite-lyrique",
   "la-maroquinerie",
   "la-cigale",
   "le-pop-up-du-label",
@@ -69,11 +68,11 @@
   "nouveau-casino",
   "bal-chavaux",
   "petit-bain",
-  "fondation-cartier",
   "chalet-du-lac-bois-de-vincennes",
   "le-trianon",
   "le-grand-dome",
   "zenith-paris-la-villette",
+  "silencio",
   "tba-saint-denis",
   "main-room",
   "le-chinois",
@@ -87,7 +86,6 @@
   "le-bazar",
   "tba-secret-place",
   "le-poisson-volant",
-  "philharmonie-de-paris",
   "42-marches",
   "tba-espace-reuilly-21-rue-julien-antoine-henard-75012-paris",
   "le-klub",
@@ -116,13 +114,17 @@
   "bizz-art",
   "chateau-ephemere",
   "cite-du-cinema",
+  "folia",
   "frequence-paris",
   "instants-chavires",
   "la-mutinerie",
+  "la-mecanique-ondulatoire",
   "le-9b",
   "le-cirque-electrique",
   "le-discobar",
-  "mira",
+  "littleroom",
+  "mains-doeuvres",
+  "philharmonie-de-paris",
   "tba-carburant-60-rue-de-lancry-75010-paris",
   "tba-espace-reuilly-paris-12",
   "tba-katapoull",
@@ -387,8 +389,8 @@
    "genres": []
   },
   {
-   "id": "folies-pigalle",
-   "name": "Folies Pigalle",
+   "id": "folia",
+   "name": "FOLIA",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -397,8 +399,8 @@
    "genres": []
   },
   {
-   "id": "fondation-cartier",
-   "name": "Fondation Cartier",
+   "id": "folies-pigalle",
+   "name": "Folies Pigalle",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -619,6 +621,16 @@
   {
    "id": "la-marquise-club",
    "name": "La Marquise Club",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "la-mecanique-ondulatoire",
+   "name": "La Mécanique Ondulatoire",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -866,6 +878,16 @@
    "genres": []
   },
   {
+   "id": "littleroom",
+   "name": "Littleroom",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "magasins-generaux",
    "name": "Magasins Généraux",
    "type": "club",
@@ -884,6 +906,19 @@
    "address": "",
    "url": "",
    "genres": []
+  },
+  {
+   "id": "mains-doeuvres",
+   "name": "Mains d'Œuvres",
+   "type": "venue",
+   "tier": 2,
+   "capacity": 600,
+   "address": "1 Rue Charles Garnier, 93400 Saint-Ouen",
+   "url": "https://mainsdoeuvres.org",
+   "genres": [
+    "techno",
+    "experimental"
+   ]
   },
   {
    "id": "maison-de-la-radio",
@@ -907,16 +942,6 @@
     "house",
     "techno"
    ]
-  },
-  {
-   "id": "mira",
-   "name": "MIRA",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
   },
   {
    "id": "new-morning",
@@ -1282,16 +1307,6 @@
  ],
  "artists": [
   {
-   "id": "191",
-   "name": "191",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "25emeheure",
    "name": "25EMEHEURE",
    "tier": 0,
@@ -1322,6 +1337,16 @@
    "known": false
   },
   {
+   "id": "4000-hz",
+   "name": "4000 Hz",
+   "tier": 0,
+   "score": 32,
+   "popularity": 32,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ed62d53c3a7198a1c49d53e3",
+   "known": false
+  },
+  {
    "id": "6ejou",
    "name": "6EJOU",
    "tier": 0,
@@ -1329,16 +1354,6 @@
    "popularity": 45,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178367c10765d27ae48fa714f0f",
-   "known": false
-  },
-  {
-   "id": "7secrets",
-   "name": "7secrets",
-   "tier": 0,
-   "score": 51,
-   "popularity": 51,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178eecfa7be6581cad634313825",
    "known": false
   },
   {
@@ -2167,6 +2182,16 @@
    "known": false
   },
   {
+   "id": "belleville-boogie-is-10",
+   "name": "Belleville Boogie is 10",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "ben-hamama",
    "name": "Ben Hamama",
    "tier": 0,
@@ -2862,8 +2887,8 @@
    "id": "davide-dev",
    "name": "Davide Dev",
    "tier": 0,
-   "score": 33,
-   "popularity": 33,
+   "score": 31,
+   "popularity": 31,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a39bc42dffa3c140b1f1335b",
    "known": false
@@ -3599,6 +3624,16 @@
    "known": false
   },
   {
+   "id": "entre-ombre-et-lumiere-21-11-2026",
+   "name": "ENTRE OMBRE ET LUMIÈRE — 21.11.2026",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "enzo-leep",
    "name": "Enzo Leep",
    "tier": 0,
@@ -3856,16 +3891,6 @@
    "popularity": 62,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178354d3b6bacb847ae6325e9b5",
-   "known": false
-  },
-  {
-   "id": "franc-fala",
-   "name": "Franc Fala",
-   "tier": 0,
-   "score": 79,
-   "popularity": 79,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1782681f2534f7827ab3f7d696e",
    "known": false
   },
   {
@@ -4302,21 +4327,11 @@
    "known": false
   },
   {
-   "id": "humn-pattrn-meet-002",
-   "name": "humn pattrn - MEET 002",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "hunee",
    "name": "Hunee",
    "tier": 0,
-   "score": 37,
-   "popularity": 37,
+   "score": 36,
+   "popularity": 36,
    "genres": [],
    "image": "https://i.scdn.co/image/7b21450d1ab8a5254dcc1f9350e1e6fcb521509c",
    "known": false
@@ -4532,6 +4547,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851ee59b188c54a2050866cb0ee",
+   "known": false
+  },
+  {
+   "id": "jam-du-bpm-contest",
+   "name": "Jam Du BPM Contest",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4835,6 +4860,16 @@
    "known": false
   },
   {
+   "id": "k-pop-party-in-paris",
+   "name": "K-POP PARTY IN PARIS!",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "kaltblume",
    "name": "KALTBLUME",
    "tier": 0,
@@ -4915,6 +4950,16 @@
    "known": false
   },
   {
+   "id": "kebra-noite",
+   "name": "Kebra Noite",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "keeno",
    "name": "Keeno",
    "tier": 0,
@@ -4922,16 +4967,6 @@
    "popularity": 46,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178234556f3b3c89b5c4cd3f6c5",
-   "known": false
-  },
-  {
-   "id": "kelsey-lu",
-   "name": "Kelsey Lu",
-   "tier": 0,
-   "score": 53,
-   "popularity": 53,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1784ccbcd484bea36f4cc7fe1f3",
    "known": false
   },
   {
@@ -5465,16 +5500,6 @@
    "known": false
   },
   {
-   "id": "lepetitlouisviton",
-   "name": "Lepetitlouisviton",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "lessss",
    "name": "LESSSS",
    "tier": 0,
@@ -5815,6 +5840,16 @@
    "known": false
   },
   {
+   "id": "malesa",
+   "name": "Malesa",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048519991ddba8f0c586b371d5f17",
+   "known": false
+  },
+  {
    "id": "mana-mind",
    "name": "Mana Mind",
    "tier": 0,
@@ -6100,8 +6135,8 @@
    "id": "mefjus",
    "name": "Mefjus",
    "tier": 0,
-   "score": 60,
-   "popularity": 60,
+   "score": 59,
+   "popularity": 59,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d3b3c8272302dd78faca9d54",
    "known": false
@@ -6750,6 +6785,16 @@
    "known": false
   },
   {
+   "id": "nze-nze",
+   "name": "NZE NZE",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783fbc73d47c97d4e1ef75b794",
+   "known": false
+  },
+  {
    "id": "o-flynn",
    "name": "O'Flynn",
    "tier": 0,
@@ -7040,6 +7085,16 @@
    "known": false
   },
   {
+   "id": "pagos",
+   "name": "PAGOS",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788503607a53e03ce3dbf2afbd",
+   "known": false
+  },
+  {
    "id": "pak-e",
    "name": "PAK-E",
    "tier": 0,
@@ -7087,6 +7142,16 @@
    "popularity": 39,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485144415c1e81464038f707b815",
+   "known": false
+  },
+  {
+   "id": "paris-kids-do-it-better-new-location",
+   "name": "PARIS KIDS DO IT BETTER - NEW LOCATION",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7373,8 +7438,8 @@
    "id": "quelza",
    "name": "Quelza",
    "tier": 0,
-   "score": 23,
-   "popularity": 23,
+   "score": 24,
+   "popularity": 24,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17807b26e9dc35e5295d35aa46c",
    "known": false
@@ -7866,8 +7931,8 @@
    "id": "simula",
    "name": "Simula",
    "tier": 0,
-   "score": 50,
-   "popularity": 50,
+   "score": 51,
+   "popularity": 51,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784e98c1d1d447f8a55e19f133",
    "known": false
@@ -7916,8 +7981,8 @@
    "id": "smg",
    "name": "SMG (UK)",
    "tier": 0,
-   "score": 33,
-   "popularity": 33,
+   "score": 32,
+   "popularity": 32,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178dc519c362ae19d5d34b13478",
    "known": false
@@ -7930,16 +7995,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048513444aa9ec4fccfb36899196b",
-   "known": false
-  },
-  {
-   "id": "soichi-terada",
-   "name": "Soichi Terada",
-   "tier": 0,
-   "score": 46,
-   "popularity": 46,
-   "genres": [],
-   "image": "https://i.scdn.co/image/d69c8e1e2c5776e49857d16994a0d605e4a0030a",
    "known": false
   },
   {
@@ -8383,16 +8438,6 @@
    "known": false
   },
   {
-   "id": "thundersamurai-birthday-special-w",
-   "name": "Thundersamurai Birthday Special W",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "thx4crying",
    "name": "Thx4Crying",
    "tier": 0,
@@ -8723,16 +8768,6 @@
    "known": false
   },
   {
-   "id": "valentina-magaletti",
-   "name": "Valentina Magaletti",
-   "tier": 0,
-   "score": 34,
-   "popularity": 34,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048512c838cb5ab9421294a04938f",
-   "known": false
-  },
-  {
    "id": "vanda-forte",
    "name": "Vanda Forte",
    "tier": 0,
@@ -8946,8 +8981,8 @@
    "id": "waeys",
    "name": "Waeys",
    "tier": 0,
-   "score": 43,
-   "popularity": 43,
+   "score": 42,
+   "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17839ce9f937ee852c916fd4914",
    "known": false
@@ -9104,414 +9139,6 @@
   }
  ],
  "events": [
-  {
-   "id": "297c63bd8f51",
-   "title": "REVIVAL: Franc Fala, SAVERIO & JEREMY WEIZMAN",
-   "venue_id": "silencio",
-   "night": "2026-11-04",
-   "start": "2026-11-04T23:00:00.000",
-   "end": "2026-11-08T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "franc-fala",
-     "name": "Franc Fala",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2574638",
-   "event_url": "https://ra.co/events/2574638",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2574638"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2574638"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2574638"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2574638"
-    }
-   ],
-   "interest": {
-    "score": 63,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Franc Fala (79)",
-     "lieu : Silencio (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "3e6a3a70e2d8",
-   "title": "Thundersamurai Birthday Special W/7secrets,Lepetitlouisviton",
-   "venue_id": "studio56",
-   "night": "2026-11-04",
-   "start": "2026-11-04T23:59:00.000",
-   "end": "2026-11-05T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "7secrets",
-     "name": "7secrets",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "thundersamurai-birthday-special-w",
-     "name": "Thundersamurai Birthday Special W",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lepetitlouisviton",
-     "name": "Lepetitlouisviton",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2575108",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2575108"
-    }
-   ],
-   "interest": {
-    "score": 49,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : 7secrets (51)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "146d64a252bb",
-   "title": "Kelsey Lu",
-   "venue_id": "fondation-cartier",
-   "night": "2026-11-04",
-   "start": "2026-11-04T20:00:00.000",
-   "end": "2026-11-04T22:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "kelsey-lu",
-     "name": "Kelsey Lu",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronica"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2463333",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2463333"
-    }
-   ],
-   "interest": {
-    "score": 44,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Kelsey Lu (53)",
-     "lieu : Fondation Cartier (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "337ed9eba376",
-   "title": "Dure Vie x Gaîté Lyrique : Soichi Terada",
-   "venue_id": "la-gaite-lyrique",
-   "night": "2026-11-04",
-   "start": "2026-11-04T19:30:00.000",
-   "end": "2026-11-05T23:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "soichi-terada",
-     "name": "Soichi Terada",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "jungle"
-   ],
-   "families": [
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2563799",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563799"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2566293"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563799"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2566293"
-    }
-   ],
-   "interest": {
-    "score": 39,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Soichi Terada (46)",
-     "lieu : La Gaîté Lyrique (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "bc6e09143f10",
-   "title": "Valentina Magaletti & upsammy",
-   "venue_id": "philharmonie-de-paris",
-   "night": "2026-11-04",
-   "start": "2026-11-04T20:00:00.000",
-   "end": "2026-11-04T22:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "valentina-magaletti",
-     "name": "Valentina Magaletti",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "upsammy",
-     "name": "upsammy",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electro",
-    "experimental"
-   ],
-   "families": [
-    "Électro & bass",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2459371",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2459371"
-    }
-   ],
-   "interest": {
-    "score": 30,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Valentina Magaletti (34)",
-     "lieu : Philharmonie de Paris (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "9eabf6abe236",
-   "title": "Westfall presents Reload: Manil b2b Westfall, Shoshana, Spaece",
-   "venue_id": "rex-club",
-   "night": "2026-11-04",
-   "start": "2026-11-04T23:59:00.000",
-   "end": "2026-11-05T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "westfall",
-     "name": "Westfall",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2555395",
-   "event_url": "https://ra.co/events/2555395",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2555395"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Westfall (0)",
-     "lieu : Rex Club (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "020f2df05c24",
-   "title": "191",
-   "venue_id": "panic-room",
-   "night": "2026-11-04",
-   "start": "2026-11-04T19:00:00.000",
-   "end": "2026-11-05T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "191",
-     "name": "191",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "funk / soul"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2562549",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2562549"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : 191 (8)",
-     "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "7c8bacb91937",
-   "title": "humn pattrn - MEET 002",
-   "venue_id": "mira",
-   "night": "2026-11-04",
-   "start": "2026-11-04T19:00:00.000",
-   "end": "2026-11-05T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "humn-pattrn-meet-002",
-     "name": "humn pattrn - MEET 002",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "house"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2557725",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2557725"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : humn pattrn - MEET 002 (8)",
-     "lieu : MIRA (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "44b5ffb9c867",
-   "title": "PYGMENTS: ARTHUR PRINGLE & In-Tan",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-11-04",
-   "start": "2026-11-04T23:59:00.000",
-   "end": "2026-11-05T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "in-tan",
-     "name": "In-Tan",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2577178",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2577178"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : In-Tan (0)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
   {
    "id": "ca4a580e1943",
    "title": "DH2: Pitchfork Music Festival Paris 2026",
@@ -12794,6 +12421,45 @@
    }
   },
   {
+   "id": "d4f881118140",
+   "title": "K-POP PARTY IN PARIS!",
+   "venue_id": "la-mecanique-ondulatoire",
+   "night": "2026-11-07",
+   "start": "2026-11-07T23:00:00+01:00",
+   "end": "2026-11-08T04:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "k-pop-party-in-paris",
+     "name": "K-POP PARTY IN PARIS!",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 5.99,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/2ol99p-k-pop-party-in-paris-7th-nov-la-mcanique-ondulatoire-paris-tickets",
+   "event_url": "https://dice.fm/event/2ol99p-k-pop-party-in-paris-7th-nov-la-mcanique-ondulatoire-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-04/2cdad356-078e-4a1b-b016-d96df12e3d82.jpg?rect=0%2C181%2C1086%2C1086",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/2ol99p-k-pop-party-in-paris-7th-nov-la-mcanique-ondulatoire-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : K-POP PARTY IN PARIS! (8)",
+     "lieu : La Mécanique Ondulatoire (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "eefe93763336",
    "title": "LA GRANDE FÊTE VISÃO",
    "venue_id": "le-mazette",
@@ -14174,6 +13840,47 @@
     "reasons": [
      "tête d'affiche : Diggers Factory turns 10. Let's make some noise (8)",
      "lieu : Point Ephémère (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "58b9dc1f7160",
+   "title": "Jam Du BPM Contest",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-11-10",
+   "start": "2026-11-10T23:59:00.000",
+   "end": "2026-11-11T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jam-du-bpm-contest",
+     "name": "Jam Du BPM Contest",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2577294",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2577294"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jam Du BPM Contest (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -15865,7 +15572,7 @@
     "score": 23,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Quelza (23)",
+     "tête d'affiche : Quelza (24)",
      "lieu : essaim (palier 1)"
     ]
    }
@@ -17906,6 +17613,47 @@
    }
   },
   {
+   "id": "08e3bcd8cec0",
+   "title": "Jam Du BPM Contest",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-11-17",
+   "start": "2026-11-17T23:59:00.000",
+   "end": "2026-11-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jam-du-bpm-contest",
+     "name": "Jam Du BPM Contest",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2577330",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2577330"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jam Du BPM Contest (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "c824581a8336",
    "title": "ØUT: Saphire LeFleur, Kou2tatane, Avenir",
    "venue_id": "rex-club",
@@ -18700,10 +18448,10 @@
     }
    ],
    "interest": {
-    "score": 45,
+    "score": 44,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Hunee (37)",
+     "tête d'affiche : Hunee (36)",
      "lieu : Rex Club (palier 3)"
     ]
    }
@@ -18970,8 +18718,8 @@
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
    "night": "2026-11-20",
-   "start": "2026-11-20T23:30:00+01:00",
-   "end": "2026-11-21T06:30:00+01:00",
+   "start": "2026-11-20T23:30:00.000",
+   "end": "2026-11-21T06:30:00.000",
    "lineup": [
     {
      "artist_id": "your-local-house-club",
@@ -18980,16 +18728,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/w8382g-your-local-house-club-20th-nov-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/w8382g-your-local-house-club-20th-nov-badaboum-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2574624",
+   "event_url": "https://ra.co/events/2574624",
    "image": "https://dice-media.imgix.net/attachments/2026-11-02/34ba5c27-cb8c-46f0-9a66-75a0e0b99165.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574624"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/w8382g-your-local-house-club-20th-nov-badaboum-paris-tickets"
@@ -19886,8 +19640,8 @@
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
    "night": "2026-11-21",
-   "start": "2026-11-21T23:30:00+01:00",
-   "end": "2026-11-22T06:30:00+01:00",
+   "start": "2026-11-21T23:30:00.000",
+   "end": "2026-11-22T06:30:00.000",
    "lineup": [
     {
      "artist_id": "your-local-house-club",
@@ -19896,16 +19650,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/ok2k3m-your-local-house-club-21st-nov-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/ok2k3m-your-local-house-club-21st-nov-badaboum-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2574757",
+   "event_url": "https://ra.co/events/2574757",
    "image": "https://dice-media.imgix.net/attachments/2026-11-02/1f4eb265-0a5f-4bd3-91b6-1812203dd607.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574757"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/ok2k3m-your-local-house-club-21st-nov-badaboum-paris-tickets"
@@ -20072,6 +19832,49 @@
    }
   },
   {
+   "id": "a60ec666f535",
+   "title": "ENTRE OMBRE ET LUMIÈRE — 21.11.2026",
+   "venue_id": "tba-paris",
+   "night": "2026-11-21",
+   "start": "2026-11-21T22:30:00.000",
+   "end": "2026-11-22T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "entre-ombre-et-lumiere-21-11-2026",
+     "name": "ENTRE OMBRE ET LUMIÈRE — 21.11.2026",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electro",
+    "deep house"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2577477",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2577477"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ENTRE OMBRE ET LUMIÈRE — 21.11.2026 (8)",
+     "lieu : TBA - Paris (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "5254b1830260",
    "title": "Katapoull Invites: Hand In Hand",
    "venue_id": "tba-katapoull",
@@ -20126,6 +19929,11 @@
      "artist_id": "fvbricia",
      "name": "Fvbricia",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "kebra-noite",
+     "name": "Kebra Noite",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -20134,16 +19942,20 @@
    "families": [
     "Afro & latin"
    ],
-   "price_min": null,
+   "price_min": 11.33,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2577228",
    "event_url": "https://ra.co/events/2577228",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-04/c6112a37-b93f-49df-9765-49d1df2b6bfd.jpg?rect=0%2C135%2C905%2C905",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2577228"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/nyl399-kebra-noite-21st-nov-point-ephmre-paris-tickets"
     }
    ],
    "interest": {
@@ -20623,6 +20435,47 @@
    }
   },
   {
+   "id": "597a866c02f9",
+   "title": "Jam du BPM Contest",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-11-24",
+   "start": "2026-11-24T23:59:00.000",
+   "end": "2026-11-25T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jam-du-bpm-contest",
+     "name": "Jam Du BPM Contest",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2577364",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2577364"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jam Du BPM Contest (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "2b8e9a31fa7c",
    "title": "B-BOY ISH : BOB SINCLAR",
    "venue_id": "pavillon-tilsitt",
@@ -20834,6 +20687,50 @@
     "reasons": [
      "tête d'affiche : UNA (18)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "537a90fd673f",
+   "title": "PAGOS X PARIS KIDS DO IT BETTER - NEW LOCATION",
+   "venue_id": "littleroom",
+   "night": "2026-11-25",
+   "start": "2026-11-25T23:45:00+01:00",
+   "end": "2026-11-26T06:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "paris-kids-do-it-better-new-location",
+     "name": "PARIS KIDS DO IT BETTER - NEW LOCATION",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "pagos",
+     "name": "PAGOS",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/3kq9kg-pagos-x-paris-kids-do-it-better-new-location-25th-nov-littleroom-paris-tickets",
+   "event_url": "https://dice.fm/event/3kq9kg-pagos-x-paris-kids-do-it-better-new-location-25th-nov-littleroom-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-03/dfe0f945-c8fc-4eb2-9568-e177e54b7fb8.jpg?rect=0%2C270%2C2160%2C2160",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/3kq9kg-pagos-x-paris-kids-do-it-better-new-location-25th-nov-littleroom-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : PARIS KIDS DO IT BETTER - NEW LOCATION (8)",
+     "lieu : Littleroom (palier 1)"
     ]
    }
   },
@@ -21712,8 +21609,12 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
@@ -21724,6 +21625,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2573445"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2577392"
     }
    ],
    "interest": {
@@ -21740,8 +21645,8 @@
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
    "night": "2026-11-27",
-   "start": "2026-11-27T23:30:00+01:00",
-   "end": "2026-11-28T06:30:00+01:00",
+   "start": "2026-11-27T23:30:00.000",
+   "end": "2026-11-28T06:30:00.000",
    "lineup": [
     {
      "artist_id": "your-local-house-club",
@@ -21750,16 +21655,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/qnxnoa-your-local-house-club-27th-nov-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/qnxnoa-your-local-house-club-27th-nov-badaboum-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2574627",
+   "event_url": "https://ra.co/events/2574627",
    "image": "https://dice-media.imgix.net/attachments/2026-11-02/c931cc2a-d05f-4b1d-9f9f-f954f036f8fb.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574627"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/qnxnoa-your-local-house-club-27th-nov-badaboum-paris-tickets"
@@ -22543,8 +22454,8 @@
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
    "night": "2026-11-28",
-   "start": "2026-11-28T23:30:00+01:00",
-   "end": "2026-11-29T06:30:00+01:00",
+   "start": "2026-11-28T23:30:00.000",
+   "end": "2026-11-29T06:30:00.000",
    "lineup": [
     {
      "artist_id": "your-local-house-club",
@@ -22553,16 +22464,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/g7o7pp-your-local-house-club-28th-nov-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/g7o7pp-your-local-house-club-28th-nov-badaboum-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2574773",
+   "event_url": "https://ra.co/events/2574773",
    "image": "https://dice-media.imgix.net/attachments/2026-11-02/e58c5958-befe-4c2d-93b2-fe23501ba206.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574773"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/g7o7pp-your-local-house-club-28th-nov-badaboum-paris-tickets"
@@ -22723,6 +22640,53 @@
    }
   },
   {
+   "id": "34b5ac64fe8f",
+   "title": "NZE NZE, Malesa, HLM38, dominica dies",
+   "venue_id": "mains-doeuvres",
+   "night": "2026-11-28",
+   "start": "2026-11-28T19:00:00.000",
+   "end": "2026-11-29T00:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "nze-nze",
+     "name": "NZE NZE",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "malesa",
+     "name": "Malesa",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "dub",
+    "experimental"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2577350",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2577350"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : NZE NZE (0)",
+     "lieu : Mains d'Œuvres (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "97f5019bb124",
    "title": "Ornorm présente ACROBAT",
    "venue_id": "le-cirque-electrique",
@@ -22868,8 +22832,12 @@
      "billing": "support"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
@@ -22880,6 +22848,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2573447"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2577398"
     }
    ],
    "interest": {
@@ -23701,6 +23673,45 @@
    }
   },
   {
+   "id": "ebe1ab8dd217",
+   "title": "Apéro Techo : Peaksou, 4000HZ, G4sy b2b Lunatixx",
+   "venue_id": "la-java",
+   "night": "2026-12-04",
+   "start": "2026-12-04T23:30:00+01:00",
+   "end": "2026-12-05T07:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "4000-hz",
+     "name": "4000 Hz",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 14.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/6937b7-apro-techo-peaksou-4000hz-g4sy-b2b-lunatixx-4th-dec-la-java-paris-tickets",
+   "event_url": "https://dice.fm/event/6937b7-apro-techo-peaksou-4000hz-g4sy-b2b-lunatixx-4th-dec-la-java-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-04/37e896fd-ef11-40a7-8489-eb196832be7a.jpg?rect=0%2C156%2C1786%2C1785",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/6937b7-apro-techo-peaksou-4000hz-g4sy-b2b-lunatixx-4th-dec-la-java-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 35,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : 4000 Hz (32)",
+     "lieu : La Java (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "3a552c7b6e00",
    "title": "Rex Club presents: DJ MARIA. Identified Patient, Nesa Azadikhah",
    "venue_id": "rex-club",
@@ -23875,8 +23886,8 @@
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
    "night": "2026-12-04",
-   "start": "2026-12-04T23:30:00+01:00",
-   "end": "2026-12-05T06:30:00+01:00",
+   "start": "2026-12-04T23:30:00.000",
+   "end": "2026-12-05T06:30:00.000",
    "lineup": [
     {
      "artist_id": "your-local-house-club",
@@ -23885,16 +23896,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/dlglvo-your-local-house-club-4th-dec-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/dlglvo-your-local-house-club-4th-dec-badaboum-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2574631",
+   "event_url": "https://ra.co/events/2574631",
    "image": "https://dice-media.imgix.net/attachments/2026-11-02/ccc6c1aa-ba8d-418d-bc90-0ddc54d7b1be.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574631"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/dlglvo-your-local-house-club-4th-dec-badaboum-paris-tickets"
@@ -23943,6 +23960,49 @@
     "reasons": [
      "tête d'affiche : ell.iot (8)",
      "lieu : Fréquence Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "54a707b09913",
+   "title": "Belleville Boogie is 10",
+   "venue_id": "folia",
+   "night": "2026-12-04",
+   "start": "2026-12-04T22:00:00.000",
+   "end": "2026-12-05T04:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "belleville-boogie-is-10",
+     "name": "Belleville Boogie is 10",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2577473",
+   "event_url": "https://ra.co/events/2577473",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2577473"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Belleville Boogie is 10 (8)",
+     "lieu : FOLIA (palier 1)"
     ]
    }
   },
@@ -24199,7 +24259,7 @@
     "score": 52,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Mefjus (60)",
+     "tête d'affiche : Mefjus (59)",
      "lieu : Mia Mao (palier 1)"
     ]
    }
@@ -24291,8 +24351,8 @@
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
    "night": "2026-12-05",
-   "start": "2026-12-05T23:30:00+01:00",
-   "end": "2026-12-06T06:30:00+01:00",
+   "start": "2026-12-05T23:30:00.000",
+   "end": "2026-12-06T06:30:00.000",
    "lineup": [
     {
      "artist_id": "your-local-house-club",
@@ -24301,16 +24361,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/5wowed-your-local-house-club-5th-dec-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/5wowed-your-local-house-club-5th-dec-badaboum-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2574775",
+   "event_url": "https://ra.co/events/2574775",
    "image": "https://dice-media.imgix.net/attachments/2026-11-02/722bc637-e93f-4377-83ac-859dc4884382.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574775"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/5wowed-your-local-house-club-5th-dec-badaboum-paris-tickets"
@@ -24411,6 +24477,45 @@
     "reasons": [
      "tête d'affiche : Charleeps (0)",
      "lieu : Le 211 (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "2e3fc6208bda",
+   "title": "La Discotaco : disco, paillettes & tacos !",
+   "venue_id": "le-mazette",
+   "night": "2026-12-10",
+   "start": "2026-12-10T18:00:00+01:00",
+   "end": "2026-12-11T02:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "funky-french-league",
+     "name": "Funky French League",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/2ol98a-la-discotaco-disco-paillettes-tacos-10th-dec-le-mazette-paris-tickets",
+   "event_url": "https://dice.fm/event/2ol98a-la-discotaco-disco-paillettes-tacos-10th-dec-le-mazette-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-08/174375a1-e90c-4be8-bbe8-12d9e28db907.jpg?rect=420%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/2ol98a-la-discotaco-disco-paillettes-tacos-10th-dec-le-mazette-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 35,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Funky French League (40)",
+     "lieu : Le Mazette (palier 1)"
     ]
    }
   },
@@ -24661,8 +24766,8 @@
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
    "night": "2026-12-11",
-   "start": "2026-12-11T23:30:00+01:00",
-   "end": "2026-12-12T06:30:00+01:00",
+   "start": "2026-12-11T23:30:00.000",
+   "end": "2026-12-12T06:30:00.000",
    "lineup": [
     {
      "artist_id": "your-local-house-club",
@@ -24671,16 +24776,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/ekgk76-your-local-house-club-11th-dec-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/ekgk76-your-local-house-club-11th-dec-badaboum-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2574742",
+   "event_url": "https://ra.co/events/2574742",
    "image": "https://dice-media.imgix.net/attachments/2026-11-02/41ce7a49-28a9-4447-9a17-38120013768b.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574742"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/ekgk76-your-local-house-club-11th-dec-badaboum-paris-tickets"
@@ -25198,8 +25309,8 @@
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
    "night": "2026-12-12",
-   "start": "2026-12-12T23:30:00+01:00",
-   "end": "2026-12-13T06:30:00+01:00",
+   "start": "2026-12-12T23:30:00.000",
+   "end": "2026-12-13T06:30:00.000",
    "lineup": [
     {
      "artist_id": "your-local-house-club",
@@ -25208,16 +25319,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/nylyaq-your-local-house-club-12th-dec-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/nylyaq-your-local-house-club-12th-dec-badaboum-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2574790",
+   "event_url": "https://ra.co/events/2574790",
    "image": "https://dice-media.imgix.net/attachments/2026-11-02/e134c3d9-381e-431b-83fc-a3fb76410c6f.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574790"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/nylyaq-your-local-house-club-12th-dec-badaboum-paris-tickets"
@@ -25717,8 +25834,12 @@
      "billing": "support"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2496062",
@@ -25745,8 +25866,8 @@
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
    "night": "2026-12-18",
-   "start": "2026-12-18T23:30:00+01:00",
-   "end": "2026-12-19T06:30:00+01:00",
+   "start": "2026-12-18T23:30:00.000",
+   "end": "2026-12-19T06:30:00.000",
    "lineup": [
     {
      "artist_id": "your-local-house-club",
@@ -25755,16 +25876,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/vvpv8l-your-local-house-club-18th-dec-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/vvpv8l-your-local-house-club-18th-dec-badaboum-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2574747",
+   "event_url": "https://ra.co/events/2574747",
    "image": "https://dice-media.imgix.net/attachments/2026-11-02/9150df4e-557a-455c-b4f5-92cc1d38f8c0.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574747"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/vvpv8l-your-local-house-club-18th-dec-badaboum-paris-tickets"
@@ -26074,8 +26201,8 @@
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
    "night": "2026-12-19",
-   "start": "2026-12-19T23:30:00+01:00",
-   "end": "2026-12-20T06:30:00+01:00",
+   "start": "2026-12-19T23:30:00.000",
+   "end": "2026-12-20T06:30:00.000",
    "lineup": [
     {
      "artist_id": "your-local-house-club",
@@ -26084,16 +26211,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/pgoglk-your-local-house-club-19th-dec-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/pgoglk-your-local-house-club-19th-dec-badaboum-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2574792",
+   "event_url": "https://ra.co/events/2574792",
    "image": "https://dice-media.imgix.net/attachments/2026-11-02/82fe4aa3-0082-4461-b652-57e7011667da.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574792"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/pgoglk-your-local-house-club-19th-dec-badaboum-paris-tickets"
@@ -26238,8 +26371,8 @@
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
    "night": "2026-12-26",
-   "start": "2026-12-26T23:30:00+01:00",
-   "end": "2026-12-27T06:30:00+01:00",
+   "start": "2026-12-26T23:30:00.000",
+   "end": "2026-12-27T06:30:00.000",
    "lineup": [
     {
      "artist_id": "your-local-house-club",
@@ -26248,16 +26381,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "house"
    ],
-   "families": [],
+   "families": [
+    "House"
+   ],
    "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/8v3vp2-your-local-house-club-26th-dec-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/8v3vp2-your-local-house-club-26th-dec-badaboum-paris-tickets",
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2574794",
+   "event_url": "https://ra.co/events/2574794",
    "image": "https://dice-media.imgix.net/attachments/2026-11-02/b20db484-13a1-4eea-8ccb-e7e3100d6c57.jpg?rect=0%2C0%2C1080%2C1080",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2574794"
+    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/8v3vp2-your-local-house-club-26th-dec-badaboum-paris-tickets"
@@ -26627,10 +26766,12 @@
     }
    ],
    "genres": [
+    "techno",
     "deep house",
     "house"
    ],
    "families": [
+    "Techno",
     "House"
    ],
    "price_min": null,
@@ -27474,25 +27615,11 @@
  ],
  "announcements": [
   {
-   "id": "928f4860ff90",
-   "name": "Bassjackers",
-   "night": "2027-02-20",
-   "venue": "Phantom, Paris",
-   "photo": "https://i.scdn.co/image/ab6761610000f1785e1bdd182fbd98a3dc841d38"
-  },
-  {
    "id": "346ea8c7c15e",
    "name": "NTO",
    "night": "2027-02-05",
    "venue": "Rex Club",
    "photo": "https://i.scdn.co/image/ab6761610000f1786ea1974d71c81a203647ce06"
-  },
-  {
-   "id": "297c63bd8f51",
-   "name": "Franc Fala",
-   "night": "2026-11-04",
-   "venue": "Silencio",
-   "photo": "https://i.scdn.co/image/ab6761610000f1782681f2534f7827ab3f7d696e"
   },
   {
    "id": "61fd7375c79b",
@@ -27509,20 +27636,6 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178d499deb0171d1c9ffa67845f"
   },
   {
-   "id": "55d5931ed80e",
-   "name": "Coone",
-   "night": "2026-11-07",
-   "venue": "Phantom, Paris",
-   "photo": "https://i.scdn.co/image/ab6761610000f178016ec9c8653ee0a365389b20"
-  },
-  {
-   "id": "489631914bc1",
-   "name": "3AM",
-   "night": "2026-11-26",
-   "venue": "Panic Room",
-   "photo": "https://i.scdn.co/image/ab6761610000f1784f63ee1f0c6880045f917407"
-  },
-  {
    "id": "87bc42e3959a",
    "name": "Romain Garcia",
    "night": "2026-11-10",
@@ -27537,11 +27650,18 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178ca2a09345ea78ae4144532e8"
   },
   {
-   "id": "6f2572c92973",
-   "name": "Funk Tribu",
-   "night": "2026-11-20",
-   "venue": "Phantom, Paris",
-   "photo": "https://i.scdn.co/image/ab6761610000f17803d24f1203d1e67917a2737a"
+   "id": "377bba61a795",
+   "name": "Cleopard2000",
+   "night": "2026-11-27",
+   "venue": "Mia Mao",
+   "photo": "https://i.scdn.co/image/ab6761610000f178a4f1d2abd2130ed98b3c5618"
+  },
+  {
+   "id": "05d73b70d351",
+   "name": "camoufly",
+   "night": "2026-11-28",
+   "venue": "Badaboum",
+   "photo": "https://i.scdn.co/image/ab6761610000f178dbee33b433eda976bc7f665f"
   }
  ],
  "families": [
@@ -27555,21 +27675,6 @@
   "Expérimental"
  ],
  "spotlight": [
-  {
-   "kind": "event",
-   "day": "MER 4 NOV",
-   "title": "Franc Fala",
-   "venue": "Silencio",
-   "time": "23:00 → 06:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb2681f2534f7827ab3f7d696e",
-   "event_id": "297c63bd8f51"
-  },
   {
    "kind": "event",
    "day": "JEU 5 NOV",
@@ -27707,21 +27812,6 @@
   },
   {
    "kind": "event",
-   "day": "JEU 26 NOV",
-   "title": "3AM",
-   "venue": "Panic Room",
-   "time": "19:00 → 05:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb4f63ee1f0c6880045f917407",
-   "event_id": "489631914bc1"
-  },
-  {
-   "kind": "event",
    "day": "VEN 27 NOV",
    "title": "horsegiirL",
    "venue": "Élysée Montmartre",
@@ -27734,6 +27824,36 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb50fd23946deeb6991ef1ee09",
    "event_id": "e352b6c34934"
+  },
+  {
+   "kind": "event",
+   "day": "VEN 4 DEC",
+   "title": "Tour-Maubourg",
+   "venue": "FVTVR",
+   "time": "23:00 → 07:00",
+   "tier": 2,
+   "reason": "Plateau dense",
+   "supports": "Demuja, Black Loops, Young Marco",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb0ced403f9b4f0d1ddd07c44c",
+   "event_id": "0ab31642a2f4"
+  },
+  {
+   "kind": "event",
+   "day": "VEN 4 DEC",
+   "title": "Interplanetary Criminal",
+   "venue": "Mia Mao",
+   "time": "23:59 → 07:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Main Phase, Camille Doe, Lefblom",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5ebaff1d657df363b64467718e3",
+   "event_id": "61fd7375c79b"
   }
  ]
 }

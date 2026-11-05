@@ -1,14 +1,14 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-04T16:54:56Z",
+ "generated_at": "2026-11-05T01:24:40Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-04",
-  "end": "2027-05-03"
+  "start": "2026-11-05",
+  "end": "2027-05-04"
  },
  "sources": [
   {
@@ -76,6 +76,7 @@
   "cafe-social-b-hive",
   "blue-room",
   "entre-nous",
+  "bande-passante",
   "breakglass-studios",
   "grenade-bar",
   "la-30",
@@ -101,6 +102,16 @@
     "bass",
     "hard"
    ]
+  },
+  {
+   "id": "bande-passante",
+   "name": "Bande Passante",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "bar-datcha",
@@ -627,6 +638,16 @@
  ],
  "artists": [
   {
+   "id": "2dy4",
+   "name": "2DY4",
+   "tier": 0,
+   "score": 24,
+   "popularity": 24,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17847e32d8b6de83e2ef4e19b0c",
+   "known": false
+  },
+  {
    "id": "333cxt",
    "name": "333CXT",
    "tier": 0,
@@ -690,8 +711,8 @@
    "id": "adrian-sherwood",
    "name": "Adrian Sherwood",
    "tier": 0,
-   "score": 42,
-   "popularity": 42,
+   "score": 41,
+   "popularity": 41,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e31f828160bbd40e9d137b02",
    "known": false
@@ -974,6 +995,16 @@
   {
    "id": "beamskii",
    "name": "Beamskii",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "beetees",
+   "name": "Beetees",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3995,6 +4026,16 @@
    "known": false
   },
   {
+   "id": "robinsound",
+   "name": "Robinsound",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "rodriguez-jr",
    "name": "Rodriguez Jr.",
    "tier": 0,
@@ -4052,6 +4093,16 @@
    "popularity": 21,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/431b6fac0064b97f10ccb7cbe555a3ee/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "s-talbot",
+   "name": "s.talbot",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485126d67a82fd119be8ffdb4e73",
    "known": false
   },
   {
@@ -4172,6 +4223,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485163a48555dc5fac646e12d353",
+   "known": false
+  },
+  {
+   "id": "shango",
+   "name": "Shango.",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851931514c9cdc897749888f1b7",
    "known": false
   },
   {
@@ -4855,16 +4916,6 @@
    "known": false
   },
   {
-   "id": "xela",
-   "name": "Xela",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17809fe41d4bf7ce8c22375d04b",
-   "known": false
-  },
-  {
    "id": "xia-2",
    "name": "Xia (2)",
    "tier": 0,
@@ -5016,62 +5067,6 @@
   }
  ],
  "events": [
-  {
-   "id": "28ddbd898f9f",
-   "title": "DOWN2TECHNO: Every Wednesday",
-   "venue_id": "le-red-room",
-   "night": "2026-11-04",
-   "start": "2026-11-04T22:00:00.000",
-   "end": "2026-11-05T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "vike-king",
-     "name": "VIKE KING",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "miss-oana",
-     "name": "Miss Oana",
-     "billing": "support"
-    },
-    {
-     "artist_id": "toltech",
-     "name": "Toltech",
-     "billing": "support"
-    },
-    {
-     "artist_id": "xela",
-     "name": "Xela",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2576445",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2576445"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : VIKE KING (8)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
   {
    "id": "8fca0a786836",
    "title": "Wax Transmissions",
@@ -5363,6 +5358,16 @@
     {
      "artist_id": "usaybflow",
      "name": "Usaybflow",
+     "billing": "support"
+    },
+    {
+     "artist_id": "2dy4",
+     "name": "2DY4",
+     "billing": "support"
+    },
+    {
+     "artist_id": "beetees",
+     "name": "Beetees",
      "billing": "support"
     }
    ],
@@ -8948,6 +8953,59 @@
    }
   },
   {
+   "id": "e11852697d91",
+   "title": "SONORA Vol.2",
+   "venue_id": "bande-passante",
+   "night": "2026-11-15",
+   "start": "2026-11-15T16:00:00.000",
+   "end": "2026-11-16T00:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "robinsound",
+     "name": "Robinsound",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "shango",
+     "name": "Shango.",
+     "billing": "support"
+    },
+    {
+     "artist_id": "s-talbot",
+     "name": "s.talbot",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2577627",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2577627"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Robinsound (8)",
+     "lieu : Bande Passante (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "997ae572ec03",
    "title": "BRUK-WILD with Scott C + Moonstarr (Broken Beat & UK Vibes)",
    "venue_id": "systeme",
@@ -9876,8 +9934,8 @@
    }
   },
   {
-   "id": "bbb07679ce25",
-   "title": "AFRODITE X BATIDA SOLTA: BADJUDA, Leon Suave, Mlle Cee, TRBL, Netto",
+   "id": "5edbb2cfcd80",
+   "title": "AFRODITE X BATIDA SOLTA: BADJUDA, Leon Suave, Mlle Cee, TRBLV, Netto",
    "venue_id": "bar-datcha",
    "night": "2026-11-20",
    "start": "2026-11-20T23:00:00.000",
@@ -15440,7 +15498,7 @@
     "score": 42,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Adrian Sherwood (42)",
+     "tête d'affiche : Adrian Sherwood (41)",
      "lieu : SAT (palier 2)"
     ]
    }
@@ -15711,13 +15769,6 @@
    "night": "2026-11-06",
    "venue": "New City Gas",
    "photo": "https://i.scdn.co/image/ab6761610000f17808faa46da03ce1a1de05e35e"
-  },
-  {
-   "id": "6e4ea8443bab",
-   "name": "Lynnic",
-   "night": "2026-12-16",
-   "venue": "Newspeak",
-   "photo": "https://i.scdn.co/image/ab6761610000f178f0a6c56cd3bb8946a407c3d7"
   },
   {
    "id": "d25c99d18be3",
