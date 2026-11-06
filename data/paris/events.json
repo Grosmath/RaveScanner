@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-05T17:10:43Z",
+ "generated_at": "2026-11-06T01:28:17Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-11-05",
-  "end": "2027-05-04"
+  "start": "2026-11-06",
+  "end": "2027-05-05"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 412
+   "events": 404
   },
   {
    "id": "dice",
@@ -31,7 +31,6 @@
   "mia-mao",
   "la-defense-arena",
   "104-centquatre",
-  "badaboum",
   "la-java",
   "la-machine-du-moulin-rouge",
   "sacre",
@@ -39,6 +38,7 @@
   "magasins-generaux",
   "djoon",
   "panic-room",
+  "badaboum",
   "elysee-montmartre",
   "la-boule-noire",
   "parc-des-expositions",
@@ -87,11 +87,11 @@
   "bus-palladium",
   "gibus-club",
   "le-bazar",
-  "le-poisson-volant",
   "42-marches",
   "tba-espace-reuilly-21-rue-julien-antoine-henard-75012-paris",
   "le-klub",
   "bourse-de-commerce-pinault-collection",
+  "le-poisson-volant",
   "espace-francis-delage-salle-concorde",
   "folies-pigalle",
   "la-peniche-cinema",
@@ -113,6 +113,7 @@
   "le-hasard-ludique",
   "terminus",
   "vice-versa",
+  "batofar",
   "bizz-art",
   "chateau-ephemere",
   "cite-du-cinema",
@@ -132,6 +133,7 @@
   "tba-katapoull",
   "tba-line-up-secret",
   "tba-secret-location",
+  "tiki-playa",
   "voix-machine",
   "workshow",
   "brasserie-gallia"
@@ -214,6 +216,16 @@
   {
    "id": "bal-chavaux",
    "name": "Bal Chavaux",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "batofar",
+   "name": "Batofar",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1265,6 +1277,16 @@
    "genres": []
   },
   {
+   "id": "tiki-playa",
+   "name": "Tiki Playa",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "vice-versa",
    "name": "Vice Versa",
    "type": "club",
@@ -1335,8 +1357,8 @@
    "id": "25emeheure",
    "name": "25EMEHEURE",
    "tier": 0,
-   "score": 17,
-   "popularity": 17,
+   "score": 15,
+   "popularity": 15,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782f3e2982478320119263494b",
    "known": false
@@ -1439,16 +1461,6 @@
    "popularity": 14,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/b6b70efdea7edbc2e0b7af5d6b6dfb69/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "abby-syna",
-   "name": "Abby Syna",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048519172aa977b7024d7202d2b3c",
    "known": false
   },
   {
@@ -2279,6 +2291,16 @@
    "known": false
   },
   {
+   "id": "ben-vedren",
+   "name": "Ben Vedren",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b30cdb9d633611b5ad1a70c7",
+   "known": false
+  },
+  {
    "id": "benny-benacid",
    "name": "Benny Benacid",
    "tier": 0,
@@ -2476,6 +2498,16 @@
    "popularity": 55,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c04c73bf25113c39fa2c35fe",
+   "known": false
+  },
+  {
+   "id": "cap-de-creus",
+   "name": "Cap de Créus",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3266,16 +3298,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "dj-football",
-   "name": "DJ Football",
-   "tier": 0,
-   "score": 3,
-   "popularity": 3,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789380b2c25ae82a14cecdf3b3",
    "known": false
   },
   {
@@ -4119,16 +4141,6 @@
    "known": false
   },
   {
-   "id": "freequency-agency",
-   "name": "FREEQUENCY AGENCY",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "friendly",
    "name": "FRIENDLY",
    "tier": 0,
@@ -4269,16 +4281,6 @@
    "known": false
   },
   {
-   "id": "george-daniel",
-   "name": "George Daniel",
-   "tier": 0,
-   "score": 48,
-   "popularity": 48,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17839164b32db594cdc4a9a721b",
-   "known": false
-  },
-  {
    "id": "gi-o",
    "name": "GI.O",
    "tier": 0,
@@ -4336,16 +4338,6 @@
    "popularity": 21,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048515952b3dd926259b4344d6c64",
-   "known": false
-  },
-  {
-   "id": "golden-bug-experience",
-   "name": "Golden Bug - Live Experience",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -5495,6 +5487,16 @@
    "known": false
   },
   {
+   "id": "la-nuit-des-tubes-new-year-2027",
+   "name": "LA NUIT DES TUBES New Year 2027",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "la-ribouldingue",
    "name": "La Ribouldingue",
    "tier": 0,
@@ -6607,16 +6609,6 @@
    "known": false
   },
   {
-   "id": "mon-to",
-   "name": "Mon.To",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048513e6c4c6952e5018873721b11",
-   "known": false
-  },
-  {
    "id": "monile",
    "name": "Monile",
    "tier": 0,
@@ -6787,6 +6779,16 @@
    "known": false
   },
   {
+   "id": "naomi-1",
+   "name": "Naomi (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851866b183a5eac162d8276a22d",
+   "known": false
+  },
+  {
    "id": "nastia",
    "name": "Nastia",
    "tier": 0,
@@ -6867,6 +6869,16 @@
    "known": false
   },
   {
+   "id": "new-year-s-eve-by-belle-epoque",
+   "name": "NEW YEAR'S EVE BY BELLE ÉPOQUE",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "nia-archives",
    "name": "Nia Archives",
    "tier": 3,
@@ -6937,16 +6949,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "nikki-nair",
-   "name": "Nikki Nair",
-   "tier": 0,
-   "score": 55,
-   "popularity": 55,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178313b0d697a0476fe59bd4259",
    "known": false
   },
   {
@@ -7150,16 +7152,6 @@
    "known": false
   },
   {
-   "id": "ohjeelo",
-   "name": "ohjeelo",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789bf23125454e5458642a429f",
-   "known": false
-  },
-  {
    "id": "olga-b",
    "name": "OLGA B.",
    "tier": 0,
@@ -7287,16 +7279,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c59791e55eab6918b985fbcc",
-   "known": false
-  },
-  {
-   "id": "oscar-farrell",
-   "name": "Oscar Farrell",
-   "tier": 0,
-   "score": 50,
-   "popularity": 50,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178277a8af9919d2eef7521a86a",
    "known": false
   },
   {
@@ -7607,6 +7589,16 @@
    "popularity": 35,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b6fc54a4ae80d4bed9d0215d",
+   "known": false
+  },
+  {
+   "id": "pit-spector",
+   "name": "Pit Spector",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b494d94004f43b3d2257acee",
    "known": false
   },
   {
@@ -9056,8 +9048,8 @@
    "id": "umbra",
    "name": "UMBRA",
    "tier": 0,
-   "score": 51,
-   "popularity": 51,
+   "score": 52,
+   "popularity": 52,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786e6ecf521337e42bb7c227a2",
    "known": false
@@ -9130,6 +9122,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "vernon",
+   "name": "Vernon",
+   "tier": 0,
+   "score": 59,
+   "popularity": 59,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a6dd4d6f516dfaa9cd85a8d8",
    "known": false
   },
   {
@@ -9220,16 +9222,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "vitamine-c",
-   "name": "VITAMINE C",
-   "tier": 0,
-   "score": 55,
-   "popularity": 55,
-   "genres": [],
-   "image": "https://i.scdn.co/image/2f6ac55d5571fdc383e6da93f240686f20a73b2b",
    "known": false
   },
   {
@@ -9340,16 +9332,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17849d83d1f1c2b62a6f8c2b24c",
-   "known": false
-  },
-  {
-   "id": "wwllmm",
-   "name": "Wwllmm",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1786f40f5d40952ad250763275b",
    "known": false
   },
   {
@@ -9484,401 +9466,6 @@
   }
  ],
  "events": [
-  {
-   "id": "ca4a580e1943",
-   "title": "DH2: Pitchfork Music Festival Paris 2026",
-   "venue_id": "badaboum",
-   "night": "2026-11-05",
-   "start": "2026-11-05T23:30:00.000",
-   "end": "2026-11-06T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "nikki-nair",
-     "name": "Nikki Nair",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "vitamine-c",
-     "name": "VITAMINE C",
-     "billing": "support"
-    },
-    {
-     "artist_id": "oscar-farrell",
-     "name": "Oscar Farrell",
-     "billing": "support"
-    },
-    {
-     "artist_id": "george-daniel",
-     "name": "George Daniel",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "tech house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": 0.0,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2454718",
-   "event_url": "https://ra.co/events/2454718",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-22/b283bedc-e54d-4fee-8a6a-a32356a19add.jpg?rect=0%2C0%2C1080%2C1080",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2454718"
-    },
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/xeokdk-pitchfork-club-night-dh2-george-daniel-nikki-nair-oscar-pharrell-vitamine-c-5th-nov-badaboum-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 60,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Nikki Nair (55)",
-     "lieu : Badaboum (palier 2)",
-     "plateau dense"
-    ]
-   }
-  },
-  {
-   "id": "3fa24b9c076e",
-   "title": "La Discotaco : disco, paillettes & tacos !",
-   "venue_id": "le-mazette",
-   "night": "2026-11-05",
-   "start": "2026-11-05T18:00:00+01:00",
-   "end": "2026-11-06T02:00:00+01:00",
-   "lineup": [
-    {
-     "artist_id": "funky-french-league",
-     "name": "Funky French League",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/nvxpg8-la-discotaco-disco-paillettes-tacos-5th-nov-le-mazette-paris-tickets",
-   "event_url": "https://dice.fm/event/nvxpg8-la-discotaco-disco-paillettes-tacos-5th-nov-le-mazette-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-09-22/608a987b-528d-4203-82b8-5723e152338c.jpg?rect=420%2C0%2C1080%2C1080",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/nvxpg8-la-discotaco-disco-paillettes-tacos-5th-nov-le-mazette-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 35,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Funky French League (40)",
-     "lieu : Le Mazette (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "bfcb17b6bedb",
-   "title": "U.E.F.A Release party: DJ Football all night long",
-   "venue_id": "rex-club",
-   "night": "2026-11-05",
-   "start": "2026-11-05T23:59:00.000",
-   "end": "2026-11-06T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dj-football",
-     "name": "DJ Football",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2574480",
-   "event_url": "https://ra.co/events/2574480",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2574480"
-    }
-   ],
-   "interest": {
-    "score": 20,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DJ Football (3)",
-     "lieu : Rex Club (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "cd62e40cbb08",
-   "title": "Discovery Présente : Ramen Bass Ep-03 Release Party",
-   "venue_id": "studio56",
-   "night": "2026-11-05",
-   "start": "2026-11-05T23:59:00.000",
-   "end": "2026-11-06T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "wwllmm",
-     "name": "Wwllmm",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2575109",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2575109"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Wwllmm (0)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "e5a3ceb4f25d",
-   "title": "FREEQUENCY AGENCY",
-   "venue_id": "panic-room",
-   "night": "2026-11-05",
-   "start": "2026-11-05T19:00:00.000",
-   "end": "2026-11-06T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "freequency-agency",
-     "name": "FREEQUENCY AGENCY",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "house"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2562552",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2562552"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : FREEQUENCY AGENCY (8)",
-     "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "27af0dce90db",
-   "title": "Golden Bug - Live Experience",
-   "venue_id": "silencio",
-   "night": "2026-11-05",
-   "start": "2026-11-05T20:30:00.000",
-   "end": "2026-11-05T23:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "golden-bug-experience",
-     "name": "Golden Bug - Live Experience",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "dub",
-    "electronica"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2559271",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2559271"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Golden Bug - Live Experience (8)",
-     "lieu : Silencio (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "d271dac83b57",
-   "title": "59 BEL RECORDS: Abby Syna & Ian Maur",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-11-05",
-   "start": "2026-11-05T23:59:00.000",
-   "end": "2026-11-06T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "abby-syna",
-     "name": "Abby Syna",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ian-maur",
-     "name": "Ian Maur",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2577187",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2577187"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Abby Syna (0)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "169bbd57643a",
-   "title": "Nzassa with ohjeelo & Doido",
-   "venue_id": "le-poisson-volant",
-   "night": "2026-11-05",
-   "start": "2026-11-05T23:30:00.000",
-   "end": "2026-11-06T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ohjeelo",
-     "name": "ohjeelo",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "ambient",
-    "bass",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2575179",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2575179"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : ohjeelo (0)",
-     "lieu : Le Poisson Volant (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "5f2924232639",
-   "title": "Take Hit: Debbie, RHADAMANTHE, KD/MS, MON.TO",
-   "venue_id": "mia-mao",
-   "night": "2026-11-05",
-   "start": "2026-11-05T23:00:00.000",
-   "end": "2026-11-06T06:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "mon-to",
-     "name": "Mon.To",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2562406",
-   "event_url": "https://ra.co/events/2562406",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2562406"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Mon.To (0)",
-     "lieu : Mia Mao (palier 1)"
-    ]
-   }
-  },
   {
    "id": "82616750ff90",
    "title": "MYD INVITES SALUTE, TSHA, AKALEX",
@@ -10181,7 +9768,7 @@
     "score": 49,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : UMBRA (51)",
+     "tête d'affiche : UMBRA (52)",
      "lieu : Badaboum (palier 2)"
     ]
    }
@@ -10949,6 +10536,59 @@
     "reasons": [
      "tête d'affiche : Gira (FR) (8)",
      "lieu : Babour Sauvage (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b982c7540552",
+   "title": "Ben Vedren invite Pit Spector + special guest Cap de Créus",
+   "venue_id": "batofar",
+   "night": "2026-11-06",
+   "start": "2026-11-06T20:00:00.000",
+   "end": "2026-11-07T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "cap-de-creus",
+     "name": "Cap de Créus",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ben-vedren",
+     "name": "Ben Vedren",
+     "billing": "support"
+    },
+    {
+     "artist_id": "pit-spector",
+     "name": "Pit Spector",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2578356",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2578356"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Cap de Créus (8)",
+     "lieu : Batofar (palier 1)"
     ]
    }
   },
@@ -13743,6 +13383,48 @@
    }
   },
   {
+   "id": "a9cf990e19ca",
+   "title": "Desert Land x Orange Crush invites Shonky, Naomi, Lernon",
+   "venue_id": "fvtvr",
+   "night": "2026-11-10",
+   "start": "2026-11-10T23:59:00.000",
+   "end": "2026-11-11T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vernon",
+     "name": "Vernon",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "naomi-1",
+     "name": "Naomi (1)",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2578547",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2578547"
+    }
+   ],
+   "interest": {
+    "score": 54,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Vernon (59)",
+     "lieu : FVTVR (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "78136121d1d9",
    "title": "Pisica: Noise Mafia, DJ GUESTLIST, two girls one mom & More",
    "venue_id": "mia-mao",
@@ -13985,7 +13667,7 @@
     },
     {
      "id": "dice",
-     "url": "https://dice.fm/event/aabbd2-invitent-dj-polo-romy-white-baile-do-gangz-couvre-x-chefs-10th-nov-la-java-paris-tickets"
+     "url": "https://dice.fm/event/aabbd2-baile-do-gangz-couvre-chefs-dj-polo-romy-white-10th-nov-la-java-paris-tickets"
     }
    ],
    "interest": {
@@ -22255,10 +21937,10 @@
     }
    ],
    "interest": {
-    "score": 30,
+    "score": 29,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : 25EMEHEURE (17)",
+     "tête d'affiche : 25EMEHEURE (15)",
      "lieu : La Machine du Moulin Rouge (palier 3)"
     ]
    }
@@ -25199,16 +24881,20 @@
     "House",
     "Électro & bass"
    ],
-   "price_min": null,
+   "price_min": 14.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2578083",
    "event_url": "https://ra.co/events/2578083",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-05/ab28f85b-dc82-4b29-aa4f-f20287c45bd4.jpg?rect=0%2C240%2C1440%2C1440",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2578083"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/ok2bp5-archie-hamilton-maggy-smiss-melodic-more-5th-dec-la-java-paris-tickets"
     }
    ],
    "interest": {
@@ -27688,6 +27374,82 @@
    }
   },
   {
+   "id": "ce2ff597f097",
+   "title": "LA NUIT DES TUBES New Year 2027",
+   "venue_id": "tiki-playa",
+   "night": "2026-12-31",
+   "start": "2026-12-31T20:00:00+01:00",
+   "end": "2027-01-01T05:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "la-nuit-des-tubes-new-year-2027",
+     "name": "LA NUIT DES TUBES New Year 2027",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 27.51,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/x9vwom-la-nuit-des-tubes-new-year-2027-31st-dec-tiki-playa-paris-tickets",
+   "event_url": "https://dice.fm/event/x9vwom-la-nuit-des-tubes-new-year-2027-31st-dec-tiki-playa-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-04/30640704-a864-46c9-8ec7-5aa60fc57258.jpg?rect=0%2C0%2C1254%2C1254",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/x9vwom-la-nuit-des-tubes-new-year-2027-31st-dec-tiki-playa-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA NUIT DES TUBES New Year 2027 (8)",
+     "lieu : Tiki Playa (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "4f405aba2dfe",
+   "title": "NEW YEAR'S EVE BY BELLE ÉPOQUE",
+   "venue_id": "silencio",
+   "night": "2026-12-31",
+   "start": "2026-12-31T21:00:00.000",
+   "end": "2027-01-01T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "new-year-s-eve-by-belle-epoque",
+     "name": "NEW YEAR'S EVE BY BELLE ÉPOQUE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2578507",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2578507"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : NEW YEAR'S EVE BY BELLE ÉPOQUE (8)",
+     "lieu : Silencio (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "023890e92d0a",
    "title": "Phantom : Organïk",
    "venue_id": "phantom-paris",
@@ -28699,13 +28461,6 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178aff1d657df363b64467718e3"
   },
   {
-   "id": "901feffff814",
-   "name": "Skream",
-   "night": "2027-02-12",
-   "venue": "Rex Club",
-   "photo": "https://i.scdn.co/image/ab6761610000f178d499deb0171d1c9ffa67845f"
-  },
-  {
    "id": "87bc42e3959a",
    "name": "Romain Garcia",
    "night": "2026-11-10",
@@ -28725,6 +28480,13 @@
    "night": "2026-12-19",
    "venue": "Sacré",
    "photo": "https://i.scdn.co/image/ab6761610000f17885118f06dd2d5f75e83148f6"
+  },
+  {
+   "id": "a9cf990e19ca",
+   "name": "Vernon",
+   "night": "2026-11-10",
+   "venue": "FVTVR",
+   "photo": "https://i.scdn.co/image/ab6761610000f178a6dd4d6f516dfaa9cd85a8d8"
   },
   {
    "id": "00ae23bacaa2",
@@ -28766,21 +28528,6 @@
   "Expérimental"
  ],
  "spotlight": [
-  {
-   "kind": "event",
-   "day": "JEU 5 NOV",
-   "title": "Nikki Nair",
-   "venue": "Badaboum",
-   "time": "23:30 → 06:00",
-   "tier": 2,
-   "reason": "Plateau dense",
-   "supports": "VITAMINE C, Oscar Farrell, George Daniel",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb313b0d697a0476fe59bd4259",
-   "event_id": "ca4a580e1943"
-  },
   {
    "kind": "event",
    "day": "VEN 6 NOV",
@@ -28945,6 +28692,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5ebaff1d657df363b64467718e3",
    "event_id": "61fd7375c79b"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 5 DEC",
+   "title": "Jazzy (IRL)",
+   "venue": "Central Chapelle",
+   "time": "23:00 → 05:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb64e029d1466b4e8d38eec59c",
+   "event_id": "2c176cbf1131"
   }
  ]
 }
