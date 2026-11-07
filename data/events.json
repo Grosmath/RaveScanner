@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-06T16:38:09Z",
+ "generated_at": "2026-11-07T00:48:33Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-06",
-  "end": "2027-05-05"
+  "start": "2026-11-07",
+  "end": "2027-05-06"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 193
+   "events": 180
   },
   {
    "id": "piknic",
@@ -29,12 +29,12 @@
   {
    "id": "mtelus",
    "ok": true,
-   "events": 16
+   "events": 15
   },
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 44
+   "events": 45
   }
  ],
  "venue_order": [
@@ -48,42 +48,39 @@
   "newspeak",
   "theatre-fairmount",
   "stereo-bar",
-  "olympia",
   "sat",
   "systeme",
   "salon-daome",
+  "theatre-beanfield",
   "studio-notre-dame",
   "casa-del-popolo",
   "s-a-t",
-  "theatre-beanfield",
   "union-francaise-de-montreal",
   "vino-disco",
   "foufounes",
-  "bar-datcha",
   "tba-montreal",
   "le-red-room",
   "l-escogriffe-bar-spectacle",
+  "bar-datcha",
   "nwhr",
   "sainte-catherine-hall",
   "centre-phi",
   "le-balcon",
-  "entrepots-dominion-les",
-  "esc",
   "la-recre",
   "white-wall-studio",
+  "esc",
   "ausgang-plaza",
   "entre-nous",
   "le-ritz",
   "cafe-social-b-hive",
-  "blue-room",
   "bande-passante",
+  "blue-room",
   "breakglass-studios",
   "grenade-bar",
   "la-30",
   "le-ministere",
   "loft-14",
   "p-tit-ours",
-  "piranha-bar",
   "red-roof-church",
   "sans-soleil",
   "van-horne-studio",
@@ -181,16 +178,6 @@
   {
    "id": "entre-nous",
    "name": "Entre Nous",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "entrepots-dominion-les",
-   "name": "Entrepôts Dominion, Les",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -389,31 +376,8 @@
    "genres": []
   },
   {
-   "id": "olympia",
-   "name": "L'Olympia",
-   "type": "venue",
-   "tier": 2,
-   "capacity": 1300,
-   "address": "1004 Rue Sainte-Catherine E",
-   "url": "https://olympiamontreal.com",
-   "genres": [
-    "electronic",
-    "mainstream"
-   ]
-  },
-  {
    "id": "p-tit-ours",
    "name": "P'tit Ours",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "piranha-bar",
-   "name": "Piranha Bar",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -648,36 +612,6 @@
   }
  ],
  "artists": [
-  {
-   "id": "2dy4",
-   "name": "2DY4",
-   "tier": 0,
-   "score": 24,
-   "popularity": 24,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17847e32d8b6de83e2ef4e19b0c",
-   "known": false
-  },
-  {
-   "id": "333cxt",
-   "name": "333CXT",
-   "tier": 0,
-   "score": 39,
-   "popularity": 39,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789076d39f387245539bea8f87",
-   "known": false
-  },
-  {
-   "id": "7az-1",
-   "name": "7AZ (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
   {
    "id": "aaron-hyper",
    "name": "Aaron Hyper",
@@ -921,6 +855,16 @@
    "known": false
   },
   {
+   "id": "ayanna-heaven",
+   "name": "Ayanna Heaven",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "aydo8",
    "name": "AYDO8",
    "tier": 0,
@@ -1014,16 +958,6 @@
    "known": false
   },
   {
-   "id": "beetees",
-   "name": "Beetees",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "behind-the-fog",
    "name": "Behind the Fog",
    "tier": 0,
@@ -1041,16 +975,6 @@
    "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b0d85b2b2d85af687c72e180",
-   "known": false
-  },
-  {
-   "id": "bianca-badita",
-   "name": "Bianca Badita",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1327,16 +1251,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "clara-la-san",
-   "name": "Clara La San",
-   "tier": 0,
-   "score": 84,
-   "popularity": 84,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17867cc2232ed6b629260ea08e9",
    "known": false
   },
   {
@@ -1700,16 +1614,6 @@
    "known": false
   },
   {
-   "id": "ekitwanda",
-   "name": "Ekitwanda",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "elderbrook",
    "name": "Elderbrook",
    "tier": 0,
@@ -1790,26 +1694,6 @@
    "known": false
   },
   {
-   "id": "emn-1",
-   "name": "EMN (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "ens",
-   "name": "Ensø",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "entranas",
    "name": "Entrañas",
    "tier": 0,
@@ -1837,6 +1721,16 @@
    "popularity": 39,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780a715c7d0c477db3692612c0",
+   "known": false
+  },
+  {
+   "id": "ezra-collective",
+   "name": "Ezra Collective",
+   "tier": 0,
+   "score": 76,
+   "popularity": 76,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17874f17b856692fa4d1ed38a06",
    "known": false
   },
   {
@@ -1897,16 +1791,6 @@
    "popularity": 74,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178257b47af6ca3a62995dfef9a",
-   "known": false
-  },
-  {
-   "id": "fennx",
-   "name": "FennX",
-   "tier": 0,
-   "score": 33,
-   "popularity": 33,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17897bcd0f2d273817e10220b08",
    "known": false
   },
   {
@@ -1977,16 +1861,6 @@
    "popularity": 79,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17871d730a241b960a71e93483b",
-   "known": false
-  },
-  {
-   "id": "fred",
-   "name": "Fred [Note Vocale]",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2623,16 +2497,6 @@
    "known": false
   },
   {
-   "id": "jojoflores",
-   "name": "Jojoflores",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485105f3d79bbf30ffaaa30d857a",
-   "known": false
-  },
-  {
    "id": "joseph-crime",
    "name": "Joseph Crime",
    "tier": 0,
@@ -2700,16 +2564,6 @@
    "popularity": 38,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/7346af877dd98c83fdfc5c67bfa6105f/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "kasango",
-   "name": "Kasango",
-   "tier": 0,
-   "score": 81,
-   "popularity": 81,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17808faa46da03ce1a1de05e35e",
    "known": false
   },
   {
@@ -2831,16 +2685,6 @@
   {
    "id": "kris-guilty",
    "name": "Kris Guilty",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "kris-tin",
-   "name": "Kris Tin",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3009,16 +2853,6 @@
    "known": false
   },
   {
-   "id": "lost",
-   "name": "Lost",
-   "tier": 0,
-   "score": 25,
-   "popularity": 25,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/3a9afba71b79d6db0027367de3812b2c/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "lost-heroes",
    "name": "Lost Heroes",
    "tier": 0,
@@ -3046,16 +2880,6 @@
    "popularity": 53,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c5e5ca3979afd9a2d021569e",
-   "known": false
-  },
-  {
-   "id": "loved-3",
-   "name": "Loved 3",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -3146,16 +2970,6 @@
    "popularity": 85,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178df90c83a6f5518167f1da889",
-   "known": false
-  },
-  {
-   "id": "malka",
-   "name": "MALKA (CA)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -3369,16 +3183,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "misstress-barbara",
-   "name": "Misstress Barbara",
-   "tier": 0,
-   "score": 29,
-   "popularity": 29,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178a59ba6e6f54341c98e4f6b18",
    "known": false
   },
   {
@@ -3717,16 +3521,6 @@
    "known": false
   },
   {
-   "id": "ojc-1",
-   "name": "OJC (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "okin",
    "name": "Okin",
    "tier": 0,
@@ -3754,16 +3548,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1787ed8745ae5ca2ccffcda3883",
-   "known": false
-  },
-  {
-   "id": "osunlade",
-   "name": "Osunlade",
-   "tier": 0,
-   "score": 52,
-   "popularity": 52,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178341280d67cee5c56d7f583f0",
    "known": false
   },
   {
@@ -3804,16 +3588,6 @@
    "popularity": 75,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785d29ef2a3bb075d68947aa74",
-   "known": false
-  },
-  {
-   "id": "patch",
-   "name": "Patch",
-   "tier": 0,
-   "score": 43,
-   "popularity": 43,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1789443b468bb6d1dbfedbad9ab",
    "known": false
   },
   {
@@ -3889,16 +3663,6 @@
   {
    "id": "plier-baggage",
    "name": "Plier Baggage",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "pom-1",
-   "name": "POM (1)",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3994,16 +3758,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/a427a1fbdc1eb8b890fc9d10225f324f/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "raya-noire",
-   "name": "Raya Noire",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/be5d84798ea9a8193e2cf3dbf9a6cbaa/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4207,26 +3961,6 @@
    "known": false
   },
   {
-   "id": "sausha",
-   "name": "SAUSHA",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851567db32b53f76845631b5d27",
-   "known": false
-  },
-  {
-   "id": "seren-realm",
-   "name": "Seren Realm",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1783fb3111ce2dac5cc09078f2e",
-   "known": false
-  },
-  {
    "id": "sev-dah",
    "name": "Sev Dah",
    "tier": 0,
@@ -4307,16 +4041,6 @@
    "known": false
   },
   {
-   "id": "sinjin-hawke",
-   "name": "Sinjin Hawke",
-   "tier": 0,
-   "score": 34,
-   "popularity": 34,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17815a97c9960b7254a9ec670be",
-   "known": false
-  },
-  {
    "id": "siren-mars",
    "name": "Siren Mars",
    "tier": 0,
@@ -4364,16 +4088,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "speakeasy",
-   "name": "Speakeasy",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1781050a97dc2f854785fa2b97b",
    "known": false
   },
   {
@@ -4434,26 +4148,6 @@
    "popularity": 45,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178befa0bdb911335018ba7c321",
-   "known": false
-  },
-  {
-   "id": "sullivan-king",
-   "name": "Sullivan King",
-   "tier": 0,
-   "score": 65,
-   "popularity": 65,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1780902c734a791d597ffcd4544",
-   "known": false
-  },
-  {
-   "id": "suzy-sheer",
-   "name": "Suzy Sheer",
-   "tier": 0,
-   "score": 52,
-   "popularity": 52,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1781ba6aac26b1dc69c54621858",
    "known": false
   },
   {
@@ -4647,26 +4341,6 @@
    "known": false
   },
   {
-   "id": "trance-classics-vol-2",
-   "name": "Trance Classics vol.2",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "transition-at-blueroom",
-   "name": "Transition at BlueRoom",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "trevor-kiernander",
    "name": "Trevor Kiernander",
    "tier": 0,
@@ -4754,16 +4428,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b8feb10b69f673d96b909e87",
-   "known": false
-  },
-  {
-   "id": "usaybflow",
-   "name": "Usaybflow",
-   "tier": 0,
-   "score": 42,
-   "popularity": 42,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178051c2e98ca4ee3f3dcbef64d",
    "known": false
   },
   {
@@ -5088,792 +4752,6 @@
   }
  ],
  "events": [
-  {
-   "id": "8a562d34a2ca",
-   "title": "Kasango, Rim SDL, Ensø",
-   "venue_id": "new-city-gas",
-   "night": "2026-11-06",
-   "start": "2026-11-06T22:00:00-05:00",
-   "end": "2026-11-07T03:00:00-05:00",
-   "lineup": [
-    {
-     "artist_id": "kasango",
-     "name": "Kasango",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "rim-sdl",
-     "name": "Rim SDL",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ens",
-     "name": "Ensø",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "pop"
-   ],
-   "families": [
-    "House",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/kasango-210137/",
-   "event_url": "https://newcitygas.com/event/kasango-210137/",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/kasango-210137/"
-    }
-   ],
-   "interest": {
-    "score": 76,
-    "tier": 3,
-    "reasons": [
-     "tête d'affiche : Kasango (81)",
-     "lieu : New City Gas (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "0df78eda165b",
-   "title": "Clara La San - Chosen Silences Tour 2026",
-   "venue_id": "olympia",
-   "night": "2026-11-06",
-   "start": "2026-11-06T20:00:00-05:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "clara-la-san",
-     "name": "Clara La San",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "sausha",
-     "name": "SAUSHA",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/clara-la-san-chosen-silences-tour-montreal-quebec-11-06-2026/event/3100650DAEA067F3",
-   "event_url": "https://www.ticketmaster.ca/clara-la-san-chosen-silences-tour-montreal-quebec-11-06-2026/event/3100650DAEA067F3",
-   "image": "https://s1.ticketm.net/dam/a/ae3/a22eaa07-1a54-4a0c-9662-2bfa99c8bae3_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/clara-la-san-chosen-silences-tour-montreal-quebec-11-06-2026/event/3100650DAEA067F3"
-    }
-   ],
-   "interest": {
-    "score": 72,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Clara La San (84)",
-     "lieu : L'Olympia (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "3574083ee7e0",
-   "title": "Sullivan King",
-   "venue_id": "mtelus",
-   "night": "2026-11-06",
-   "start": "2026-11-06T22:00:00-05:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "sullivan-king",
-     "name": "Sullivan King",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "usaybflow",
-     "name": "Usaybflow",
-     "billing": "support"
-    },
-    {
-     "artist_id": "2dy4",
-     "name": "2DY4",
-     "billing": "support"
-    },
-    {
-     "artist_id": "beetees",
-     "name": "Beetees",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/event/3100650D8FB03E42?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/sullivan-king?code=e008893",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/7s45QrOZVraBZhnYNwprbu/f24715093658948f9bb9a759d830695c/sullivan_king_2026__2_.jpg",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/sullivan-king?code=e008893"
-    },
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/sullivan-king-montreal-quebec-11-06-2026/event/3100650D8FB03E42"
-    }
-   ],
-   "interest": {
-    "score": 53,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Sullivan King (65)",
-     "lieu : MTELUS (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "aedb9c903d34",
-   "title": "Osunlade, Jojoflores, D*soul, Kai Tht Guy",
-   "venue_id": "salon-daome",
-   "night": "2026-11-06",
-   "start": "2026-11-06T22:30:00.000",
-   "end": "2026-11-07T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "osunlade",
-     "name": "Osunlade",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "jojoflores",
-     "name": "Jojoflores",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2545431",
-   "event_url": "https://ra.co/events/2545431",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2545431"
-    }
-   ],
-   "interest": {
-    "score": 49,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Osunlade (52)",
-     "lieu : Salon Daome (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "2dc124b0a2a2",
-   "title": "Suzy Sheer - Montréal",
-   "venue_id": "newspeak",
-   "night": "2026-11-06",
-   "start": "2026-11-06T19:00:00.000",
-   "end": "2026-11-06T22:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "suzy-sheer",
-     "name": "Suzy Sheer",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "patch",
-     "name": "Patch",
-     "billing": "support"
-    },
-    {
-     "artist_id": "raya-noire",
-     "name": "Raya Noire",
-     "billing": "support"
-    },
-    {
-     "artist_id": "seren-realm",
-     "name": "Seren Realm",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electro",
-    "pop"
-   ],
-   "families": [
-    "Électro & bass",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.universe.com/events/suzy-sheer-tickets-63VY1Z?ref=ticketmaster",
-   "event_url": "https://ra.co/events/2514668",
-   "image": "https://images.universe.com/b77fdf19-4041-4001-b8a7-e34a1f4e9b6d/-/resize/1200x/-/crop/480x480/318,0/-/format/jpeg/-/scale_crop/1024x683/center/-/progressive/yes/-/inline/yes/",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2514668"
-    },
-    {
-     "id": "ticketmaster",
-     "url": "https://www.universe.com/events/suzy-sheer-tickets-63VY1Z?ref=ticketmaster"
-    }
-   ],
-   "interest": {
-    "score": 49,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Suzy Sheer (52)",
-     "lieu : Newspeak (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "5b9c7ca97048",
-   "title": "27 Years of Stereo: Misstress Barbara - Bianca Badita",
-   "venue_id": "stereo",
-   "night": "2026-11-06",
-   "start": "2026-11-06T23:59:00.000",
-   "end": "2026-11-07T08:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "misstress-barbara",
-     "name": "Misstress Barbara",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "bianca-badita",
-     "name": "Bianca Badita",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2570192",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2570192"
-    }
-   ],
-   "interest": {
-    "score": 39,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Misstress Barbara (29)",
-     "lieu : Stereo (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "688174f761b1",
-   "title": "Club Babies: Sinjin Hawke, OJC [NJ], Syana, Dez, Ekitwanda, Moon",
-   "venue_id": "bar-datcha",
-   "night": "2026-11-06",
-   "start": "2026-11-06T23:00:00.000",
-   "end": "2026-11-07T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sinjin-hawke",
-     "name": "Sinjin Hawke",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ojc-1",
-     "name": "OJC (1)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ekitwanda",
-     "name": "Ekitwanda",
-     "billing": "support"
-    },
-    {
-     "artist_id": "syana",
-     "name": "Syana",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "bass",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2560558",
-   "event_url": "https://ra.co/events/2560558",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2560558"
-    }
-   ],
-   "interest": {
-    "score": 36,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Sinjin Hawke (34)",
-     "lieu : Bar Datcha (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "dde3d53d5b94",
-   "title": "OUTRAGE 2.0 - REBELLION",
-   "venue_id": "entrepots-dominion-les",
-   "night": "2026-11-06",
-   "start": "2026-11-06T22:00:00.000",
-   "end": "2026-11-07T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "333cxt",
-     "name": "333CXT",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "fennx",
-     "name": "FennX",
-     "billing": "support"
-    },
-    {
-     "artist_id": "7az-1",
-     "name": "7AZ (1)",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "hardcore",
-    "industrial"
-   ],
-   "families": [
-    "Techno",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2544686",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544686"
-    }
-   ],
-   "interest": {
-    "score": 34,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : 333CXT (39)",
-     "lieu : Entrepôts Dominion, Les (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "619251d17e68",
-   "title": "Lost and Loved 3",
-   "venue_id": "le-red-room",
-   "night": "2026-11-06",
-   "start": "2026-11-06T21:00:00.000",
-   "end": "2026-11-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "lost",
-     "name": "Lost",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "loved-3",
-     "name": "Loved 3",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "tech house",
-    "minimal"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2562798",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2562798"
-    }
-   ],
-   "interest": {
-    "score": 30,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Lost (25)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "888a9cc19918",
-   "title": "FAMÜ & K.Lein",
-   "venue_id": "stereo-bar",
-   "night": "2026-11-06",
-   "start": "2026-11-06T22:00:00.000",
-   "end": "2026-11-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "famu",
-     "name": "FAMÜ",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "progressive house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2575192",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2575192"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : FAMÜ (0)",
-     "lieu : Stereo Bar (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "c4fb4fd9f991",
-   "title": "FREE TECHNO: LANORTH",
-   "venue_id": "esc",
-   "night": "2026-11-06",
-   "start": "2026-11-06T22:00:00.000",
-   "end": "2026-11-07T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "emn-1",
-     "name": "EMN (1)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "kris-tin",
-     "name": "Kris Tin",
-     "billing": "support"
-    },
-    {
-     "artist_id": "pom-1",
-     "name": "POM (1)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "boomy",
-     "name": "Boomy",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2571185",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2571185"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : EMN (1) (8)",
-     "lieu : ESC (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "cd6c23a5cdc5",
-   "title": "Music is My Sanctuary",
-   "venue_id": "systeme",
-   "night": "2026-11-06",
-   "start": "2026-11-06T22:00:00.000",
-   "end": "2026-11-07T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "lexis-music-is-my-sanctuary",
-     "name": "Lexis (Music Is My Sanctuary)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "juju-le-moko",
-     "name": "Juju le Moko",
-     "billing": "support"
-    },
-    {
-     "artist_id": "fred",
-     "name": "Fred [Note Vocale]",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "disco",
-    "afro house"
-   ],
-   "families": [
-    "House",
-    "Disco & funk",
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2563775",
-   "event_url": "https://ra.co/events/2563775",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563775"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Lexis (Music Is My Sanctuary) (8)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "95313f6bf9e8",
-   "title": "Trance Classics vol.2",
-   "venue_id": "piranha-bar",
-   "night": "2026-11-06",
-   "start": "2026-11-06T21:00:00.000",
-   "end": "2026-11-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "trance-classics-vol-2",
-     "name": "Trance Classics vol.2",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "progressive house",
-    "trance"
-   ],
-   "families": [
-    "House",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2562957",
-   "event_url": "https://ra.co/events/2562957",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2562957"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Trance Classics vol.2 (8)",
-     "lieu : Piranha Bar (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "c2869140f312",
-   "title": "Transition at BlueRoom",
-   "venue_id": "blue-room",
-   "night": "2026-11-06",
-   "start": "2026-11-06T22:00:00.000",
-   "end": "2026-11-07T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "transition-at-blueroom",
-     "name": "Transition at BlueRoom",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronica"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2572161",
-   "event_url": "https://ra.co/events/2572161",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2572161"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Transition at BlueRoom (8)",
-     "lieu : Blue Room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "c5f78fc33ddc",
-   "title": "Vino Disco Fridays: Ced Ullberg, Malka & Fred Sadoun",
-   "venue_id": "vino-disco",
-   "night": "2026-11-06",
-   "start": "2026-11-06T20:00:00.000",
-   "end": "2026-11-07T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "malka",
-     "name": "MALKA (CA)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2571511",
-   "event_url": "https://ra.co/events/2571511",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2571511"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : MALKA (CA) (8)",
-     "lieu : Vino Disco (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "39b298405c6a",
-   "title": "Speakeasy",
-   "venue_id": "nwhr",
-   "night": "2026-11-06",
-   "start": "2026-11-06T22:00:00.000",
-   "end": "2026-11-07T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "speakeasy",
-     "name": "Speakeasy",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2575084",
-   "event_url": "https://ra.co/events/2575084",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2575084"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Speakeasy (0)",
-     "lieu : NWHR (palier 1)"
-    ]
-   }
-  },
   {
    "id": "91375b74ebe4",
    "title": "[DSTRKT] CamelPhat, VOLKODER",
@@ -6443,8 +5321,8 @@
    }
   },
   {
-   "id": "a6c24b8add7e",
-   "title": "Arder: Sev Dah",
+   "id": "c65933dcda1f",
+   "title": "Arder: Sev Dah // Milkē // Opal Stavo",
    "venue_id": "nwhr",
    "night": "2026-11-07",
    "start": "2026-11-07T22:00:00.000",
@@ -9023,6 +7901,50 @@
     "reasons": [
      "tête d'affiche : Folio Magazine Launch Party: 34th Issue (8)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "fd7f827ecb97",
+   "title": "Ezra Collective",
+   "venue_id": "theatre-beanfield",
+   "night": "2026-11-19",
+   "start": "2026-11-19T20:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "ezra-collective",
+     "name": "Ezra Collective",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ayanna-heaven",
+     "name": "Ayanna Heaven",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/ezra-collective-montreal-quebec-11-19-2026/event/310064D0CE5A740B",
+   "event_url": "https://www.ticketmaster.ca/ezra-collective-montreal-quebec-11-19-2026/event/310064D0CE5A740B",
+   "image": "https://s1.ticketm.net/dam/a/398/2b4ffdcf-d915-48f8-862f-15928d5d3398_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/ezra-collective-montreal-quebec-11-19-2026/event/310064D0CE5A740B"
+    }
+   ],
+   "interest": {
+    "score": 61,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Ezra Collective (76)",
+     "lieu : Théâtre Beanfield (palier 1)"
     ]
    }
   },
@@ -15853,13 +14775,6 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178df90c83a6f5518167f1da889"
   },
   {
-   "id": "8a562d34a2ca",
-   "name": "Kasango",
-   "night": "2026-11-06",
-   "venue": "New City Gas",
-   "photo": "https://i.scdn.co/image/ab6761610000f17808faa46da03ce1a1de05e35e"
-  },
-  {
    "id": "d25c99d18be3",
    "name": "Jody Wisternoff",
    "night": "2026-11-07",
@@ -15879,6 +14794,13 @@
    "night": "2026-11-23",
    "venue": "Theatre Fairmount",
    "photo": "https://i.scdn.co/image/ab6761610000f178cf10769cce4653f3c4cfaac1"
+  },
+  {
+   "id": "fd7f827ecb97",
+   "name": "Ezra Collective",
+   "night": "2026-11-19",
+   "venue": "Théâtre Beanfield",
+   "photo": "https://i.scdn.co/image/ab6761610000f17874f17b856692fa4d1ed38a06"
   },
   {
    "id": "4f46218e95e1",
@@ -15906,36 +14828,6 @@
   "Expérimental"
  ],
  "spotlight": [
-  {
-   "kind": "event",
-   "day": "VEN 6 NOV",
-   "title": "Kasango",
-   "venue": "New City Gas",
-   "time": "22:00 → 03:00",
-   "tier": 3,
-   "reason": "",
-   "supports": "Rim SDL, Ensø",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb08faa46da03ce1a1de05e35e",
-   "event_id": "8a562d34a2ca"
-  },
-  {
-   "kind": "event",
-   "day": "VEN 6 NOV",
-   "title": "Clara La San",
-   "venue": "L'Olympia",
-   "time": "20:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "SAUSHA",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb67cc2232ed6b629260ea08e9",
-   "event_id": "0df78eda165b"
-  },
   {
    "kind": "event",
    "day": "SAM 7 NOV",
@@ -16013,6 +14905,21 @@
   },
   {
    "kind": "event",
+   "day": "VEN 20 NOV",
+   "title": "Wooli",
+   "venue": "Hall Est du Stade olympique",
+   "time": "20:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Kai Wachi, HOL!, The Masquerade",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb806d12e80046abfbcd89db44",
+   "event_id": "2dbdbd320425"
+  },
+  {
+   "kind": "event",
    "day": "SAM 21 NOV",
    "title": "Hugel",
    "venue": "Hall Est du Stade olympique",
@@ -16085,6 +14992,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb71d730a241b960a71e93483b",
    "event_id": "bef711e1fbec"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 28 NOV",
+   "title": "Layton Giordani",
+   "venue": "New City Gas",
+   "time": "22:00 → 03:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "ANNA WILDER, SARA LAZZ",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb1c4a89caa76ae4f1d3232f61",
+   "event_id": "fcc81dbf6c8c"
   }
  ]
 }
