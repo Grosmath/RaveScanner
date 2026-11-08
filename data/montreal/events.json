@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-08T00:20:16Z",
+ "generated_at": "2026-11-08T15:49:43Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 167
+   "events": 169
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 42
+   "events": 41
   }
  ],
  "venue_order": [
@@ -72,13 +72,14 @@
   "entre-nous",
   "cafe-social-b-hive",
   "le-ritz",
+  "red-roof-church",
   "bande-passante",
   "blue-room",
   "breakglass-studios",
+  "club-dd-s",
   "le-ministere",
   "loft-14",
   "p-tit-ours",
-  "red-roof-church",
   "sans-soleil",
   "van-horne-studio"
  ],
@@ -164,6 +165,16 @@
   {
    "id": "centre-phi",
    "name": "Centre PHI",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "club-dd-s",
+   "name": "Club Dd's",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1300,6 +1311,16 @@
    "known": false
   },
   {
+   "id": "delicious-dj",
+   "name": "Delicious DJ",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "destiny",
    "name": "Destiny (CA)",
    "tier": 0,
@@ -1917,6 +1938,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "headless-horseman",
+   "name": "Headless Horseman",
+   "tier": 0,
+   "score": 9,
+   "popularity": 9,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178b852fcbcbc4b7f3b3b92aa8c",
    "known": false
   },
   {
@@ -3764,6 +3795,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "shokh",
+   "name": "Shokh",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dd36bc6d7c48bb5ac27ba49e",
    "known": false
   },
   {
@@ -6976,6 +7017,49 @@
     "reasons": [
      "tête d'affiche : Jino K (8)",
      "lieu : Salon Daome (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "4a9f949e1cf9",
+   "title": "Transmasc Thursday: 90s Edition",
+   "venue_id": "club-dd-s",
+   "night": "2026-11-19",
+   "start": "2026-11-19T19:00:00.000",
+   "end": "2026-11-20T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "delicious-dj",
+     "name": "Delicious DJ",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "pop"
+   ],
+   "families": [
+    "House",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2579770",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2579770"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Delicious DJ (8)",
+     "lieu : Club Dd's (palier 1)"
     ]
    }
   },
@@ -10911,6 +10995,54 @@
     "reasons": [
      "tête d'affiche : Sloan Porter (8)",
      "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "d6e40559341d",
+   "title": "Nights of Worship with Headless Horseman LIVE & Shokh DJ set",
+   "venue_id": "red-roof-church",
+   "night": "2026-12-11",
+   "start": "2026-12-11T22:00:00.000",
+   "end": "2026-12-12T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "headless-horseman",
+     "name": "Headless Horseman",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "shokh",
+     "name": "Shokh",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2579777",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2579777"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Headless Horseman (9)",
+     "lieu : Red Roof Church (palier 1)"
     ]
    }
   },
