@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-09T00:41:30Z",
+ "generated_at": "2026-11-09T19:34:10Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 39
+   "events": 40
   }
  ],
  "venue_order": [
@@ -53,8 +53,8 @@
   "stereo-bar",
   "casa-del-popolo",
   "s-a-t",
-  "ausgang-plaza",
   "studio-td",
+  "ausgang-plaza",
   "union-francaise-de-montreal",
   "vino-disco",
   "foufounes",
@@ -71,8 +71,10 @@
   "white-wall-studio",
   "entre-nous",
   "cafe-social-b-hive",
+  "warehouse",
   "le-ritz",
   "red-roof-church",
+  "180g-cafe-disquaire",
   "bande-passante",
   "blue-room",
   "breakglass-studios",
@@ -83,6 +85,16 @@
   "van-horne-studio"
  ],
  "venues": [
+  {
+   "id": "180g-cafe-disquaire",
+   "name": "180g Café - Disquaire",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
   {
    "id": "ausgang-plaza",
    "name": "Ausgang Plaza",
@@ -557,6 +569,19 @@
    "genres": []
   },
   {
+   "id": "warehouse",
+   "name": "Lieu secret / Warehouse",
+   "type": "warehouse",
+   "tier": 2,
+   "capacity": 600,
+   "address": "TBA",
+   "url": "",
+   "genres": [
+    "techno",
+    "rave"
+   ]
+  },
+  {
    "id": "white-wall-studio",
    "name": "White Wall Studio",
    "type": "club",
@@ -974,6 +999,16 @@
    "known": false
   },
   {
+   "id": "boogie-t",
+   "name": "Boogie T",
+   "tier": 0,
+   "score": 54,
+   "popularity": 54,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178830745c7b90cace9c0d6c1e1",
+   "known": false
+  },
+  {
    "id": "boomy",
    "name": "Boomy",
    "tier": 0,
@@ -1127,16 +1162,6 @@
    "popularity": 82,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178454f6b508e265fa671caad9d",
-   "known": false
-  },
-  {
-   "id": "chris-luno",
-   "name": "Chris Luno",
-   "tier": 0,
-   "score": 55,
-   "popularity": 55,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17813377317aa37e746a51e7b8e",
    "known": false
   },
   {
@@ -1427,16 +1452,6 @@
    "popularity": 30,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b4d47556a7457cd934e199f2",
-   "known": false
-  },
-  {
-   "id": "duza",
-   "name": "DUZA",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178bfacf5c003ffa796f0a75a85",
    "known": false
   },
   {
@@ -1990,6 +2005,16 @@
    "known": false
   },
   {
+   "id": "hua-li",
+   "name": "Hua Li 化力",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782e958295fa1d4f47f9f84f57",
+   "known": false
+  },
+  {
    "id": "huerta",
    "name": "Huerta",
    "tier": 0,
@@ -2210,6 +2235,16 @@
    "popularity": 10,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ee5be77cf12b34e99b7e83e4",
+   "known": false
+  },
+  {
+   "id": "janette-king",
+   "name": "Janette King",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c772cc458e96d70ef9691663",
    "known": false
   },
   {
@@ -2709,6 +2744,16 @@
    "known": false
   },
   {
+   "id": "lumasi",
+   "name": "Lumasi",
+   "tier": 0,
+   "score": 46,
+   "popularity": 46,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fbcabcf56563e4f758a87675",
+   "known": false
+  },
+  {
    "id": "lynnic",
    "name": "Lynnic",
    "tier": 0,
@@ -3092,16 +3137,6 @@
    "known": false
   },
   {
-   "id": "moti",
-   "name": "Moti (CR)",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1780d535e9ab9fe3626abf6e284",
-   "known": false
-  },
-  {
    "id": "mowie-2",
    "name": "Mowie (2)",
    "tier": 0,
@@ -3362,6 +3397,16 @@
    "popularity": 75,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785d29ef2a3bb075d68947aa74",
+   "known": false
+  },
+  {
+   "id": "patrick-6",
+   "name": "Patrick (6)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3685,6 +3730,16 @@
    "known": false
   },
   {
+   "id": "scorpio-party",
+   "name": "Scorpio Party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "shadya",
    "name": "Shadya",
    "tier": 0,
@@ -3732,6 +3787,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178dd36bc6d7c48bb5ac27ba49e",
+   "known": false
+  },
+  {
+   "id": "shosh",
+   "name": "SHOSH",
+   "tier": 0,
+   "score": 40,
+   "popularity": 40,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e010ede148704224b4bf8621",
    "known": false
   },
   {
@@ -3952,6 +4017,16 @@
    "popularity": 62,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a9c670a753c1f0ad360992b2",
+   "known": false
+  },
+  {
+   "id": "telykast",
+   "name": "TELYKAST",
+   "tier": 0,
+   "score": 66,
+   "popularity": 66,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d34e406cb85d329a522e58ed",
    "known": false
   },
   {
@@ -4736,11 +4811,6 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "alex-rev",
-     "name": "ALEX REV",
-     "billing": "support"
-    },
-    {
      "artist_id": "miss-oana",
      "name": "Miss Oana",
      "billing": "support"
@@ -4748,6 +4818,11 @@
     {
      "artist_id": "char-l-n",
      "name": "Char.l.n",
+     "billing": "support"
+    },
+    {
+     "artist_id": "alex-rev",
+     "name": "ALEX REV",
      "billing": "support"
     },
     {
@@ -5304,6 +5379,86 @@
    }
   },
   {
+   "id": "01b332ae6116",
+   "title": "Scorpio Party",
+   "venue_id": "warehouse",
+   "night": "2026-11-13",
+   "start": "2026-11-13T20:00:00.000",
+   "end": "2026-11-14T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "scorpio-party",
+     "name": "Scorpio Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2580786",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2580786"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Scorpio Party (8)",
+     "lieu : Lieu secret / Warehouse (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "4468274021cc",
+   "title": "Groovy and Chill Merch Release",
+   "venue_id": "180g-cafe-disquaire",
+   "night": "2026-11-13",
+   "start": "2026-11-13T18:00:00.000",
+   "end": "2026-11-13T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "cidoine",
+     "name": "Cidoine",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "ambient",
+    "funk / soul"
+   ],
+   "families": [
+    "Disco & funk",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2580057",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2580057"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Cidoine (8)",
+     "lieu : 180g Café - Disquaire (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "448f1254e40e",
    "title": "Inframundo",
    "venue_id": "entre-nous",
@@ -5389,7 +5544,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2579709",
    "event_url": "https://ra.co/events/2579709",
    "image": "",
    "status": "confirmed",
@@ -6409,6 +6564,54 @@
    }
   },
   {
+   "id": "102b3f0817b2",
+   "title": "Joy Is A Weapon Vol. 5",
+   "venue_id": "entre-nous",
+   "night": "2026-11-15",
+   "start": "2026-11-15T16:30:00.000",
+   "end": "2026-11-15T21:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "hua-li",
+     "name": "Hua Li 化力",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "janette-king",
+     "name": "Janette King",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "hip-hop"
+   ],
+   "families": [
+    "House",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2579983",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2579983"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Hua Li 化力 (0)",
+     "lieu : Entre Nous (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "de75eb4a934c",
    "title": "Sassy 009 avec Cherry Lena & sineila",
    "venue_id": "l-escogriffe-bar-spectacle",
@@ -6689,6 +6892,11 @@
      "artist_id": "dj-christmas",
      "name": "DJ Christmas",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "patrick-6",
+     "name": "Patrick (6)",
+     "billing": "support"
     }
    ],
    "genres": [],
@@ -9374,58 +9582,6 @@
    }
   },
   {
-   "id": "2f8669709637",
-   "title": "Church of AlpaKa 3.0 - Techno / Psy",
-   "venue_id": "esc",
-   "night": "2026-11-27",
-   "start": "2026-11-27T21:00:00.000",
-   "end": "2026-11-29T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "beathead",
-     "name": "Beathead",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "solar-punk",
-     "name": "Solar Punk",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "psytrance"
-   ],
-   "families": [
-    "Techno",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2579320",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2579320"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2579320"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Beathead (0)",
-     "lieu : ESC (palier 2)"
-    ]
-   }
-  },
-  {
    "id": "162a78774c3a",
    "title": "Festival Triste x Humidex Records",
    "venue_id": "systeme",
@@ -10038,6 +10194,54 @@
    }
   },
   {
+   "id": "0e074581c165",
+   "title": "Church of AlpaKa 3.0 - Techno / Psy",
+   "venue_id": "esc",
+   "night": "2026-11-28",
+   "start": "2026-11-28T21:00:00.000",
+   "end": "2026-11-29T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "beathead",
+     "name": "Beathead",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "solar-punk",
+     "name": "Solar Punk",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "psytrance"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2579320",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2579320"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Beathead (0)",
+     "lieu : ESC (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "17f1f102110a",
    "title": "NONSTOP: Sydney Sarayeva, Kridelka, Hey: Albert, Benji b2b Colmee, FREEEMAN",
    "venue_id": "bar-datcha",
@@ -10191,7 +10395,7 @@
    "venue_id": "salon-daome",
    "night": "2026-11-29",
    "start": "2026-11-29T18:00:00.000",
-   "end": "2026-11-30T23:00:00.000",
+   "end": "2026-11-29T23:00:00.000",
    "lineup": [
     {
      "artist_id": "uzi-soulmeka",
@@ -10217,10 +10421,6 @@
    "image": "",
    "status": "confirmed",
    "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2577391"
-    },
     {
      "id": "ra",
      "url": "https://ra.co/events/2577391"
@@ -12095,60 +12295,6 @@
    }
   },
   {
-   "id": "c8c16cb947d6",
-   "title": "Igloofest MTL #8: Prog' à venir / Chris Luno",
-   "venue_id": "igloofest",
-   "night": "2027-01-28",
-   "start": "2027-01-28T19:30:00.000",
-   "end": "2027-01-28T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "chris-luno",
-     "name": "Chris Luno",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "moti",
-     "name": "Moti (CR)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "duza",
-     "name": "DUZA",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "tech house",
-    "disco",
-    "house"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2566140",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2566140"
-    }
-   ],
-   "interest": {
-    "score": 46,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Chris Luno (55)",
-     "lieu : Igloofest (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "4f4dedcce917",
    "title": "Back to the 80's avec NEON",
    "venue_id": "le-balcon",
@@ -12793,6 +12939,11 @@
      "artist_id": "alan-walker",
      "name": "Alan Walker",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "telykast",
+     "name": "TELYKAST",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -12805,7 +12956,7 @@
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/31006523ABBD7874?lang=fr-ca&brand=mtelus",
    "event_url": "https://ra.co/events/2571972",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/3LBvvPfv90q5l4EpVdfx1D/f0520ce0ec9b8d4fef9965d77cdd41db/alan_walker_2027.jpg",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/7gb82VnMZPs54CTlTRFAPa/5891742edc4b39b4a3c3e4572a50a149/alan_walker_2027.jpg",
    "status": "confirmed",
    "sources": [
     {
@@ -12846,6 +12997,11 @@
      "artist_id": "alan-walker",
      "name": "Alan Walker",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "telykast",
+     "name": "TELYKAST",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -13140,6 +13296,55 @@
     "reasons": [
      "tête d'affiche : D.O.D. (86)",
      "lieu : New City Gas (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "b757e5857ac0",
+   "title": "Boogie T: T-Man and the Masters of the Tuneiverse Tour",
+   "venue_id": "studio-td",
+   "night": "2027-03-13",
+   "start": "2027-03-13T22:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "boogie-t",
+     "name": "Boogie T",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lumasi",
+     "name": "Lumasi",
+     "billing": "support"
+    },
+    {
+     "artist_id": "shosh",
+     "name": "SHOSH",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/boogie-t-tman-and-the-masters-montreal-quebec-03-13-2027/event/31006565DB967A8F",
+   "event_url": "https://www.ticketmaster.ca/boogie-t-tman-and-the-masters-montreal-quebec-03-13-2027/event/31006565DB967A8F",
+   "image": "https://s1.ticketm.net/dam/a/811/b4c546f9-1cae-4421-8942-bee0d3a5e811_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/boogie-t-tman-and-the-masters-montreal-quebec-03-13-2027/event/31006565DB967A8F"
+    }
+   ],
+   "interest": {
+    "score": 51,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Boogie T (54)",
+     "lieu : Studio TD (palier 2)"
     ]
    }
   },
