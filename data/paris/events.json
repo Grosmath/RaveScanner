@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-08T15:50:02Z",
+ "generated_at": "2026-11-09T00:42:11Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-11-08",
-  "end": "2027-05-07"
+  "start": "2026-11-09",
+  "end": "2027-05-08"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 358
+   "events": 350
   },
   {
    "id": "dice",
@@ -50,13 +50,12 @@
   "point-ephemere",
   "le-trabendo",
   "tba-paris",
-  "essaim",
   "yoyo-palais-de-tokyo",
+  "essaim",
   "silencio",
   "cartilage",
   "la-station-gare-des-mines",
   "a-side",
-  "le-211",
   "pamela-club",
   "le-zeralda",
   "la-gaite-lyrique",
@@ -65,15 +64,16 @@
   "le-pop-up-du-label",
   "le-mazette",
   "nouveau-casino",
+  "le-211",
   "studio56",
   "chalet-du-lac-bois-de-vincennes",
   "le-trianon",
   "le-grand-dome",
   "petit-bain",
   "zenith-paris-la-villette",
+  "l-anomalie",
   "tba-saint-denis",
   "main-room",
-  "glazart",
   "la-nuit",
   "le-chinois",
   "la-marbrerie",
@@ -82,17 +82,16 @@
   "bus-palladium",
   "bal-chavaux",
   "42-marches",
-  "tba-espace-reuilly-21-rue-julien-antoine-henard-75012-paris",
   "a-la-folie-paris",
   "le-bazar",
   "bourse-de-commerce-pinault-collection",
   "espace-francis-delage-salle-concorde",
   "folies-pigalle",
   "la-peniche-cinema",
+  "glazart",
   "tba",
   "tba-secret-location",
   "l-olympia",
-  "maison-de-la-radio",
   "le-poisson-volant",
   "la-maison-de-la-conversation",
   "mains-doeuvres",
@@ -118,10 +117,8 @@
   "le-discobar",
   "le-son-de-la-terre",
   "littleroom",
-  "miniwax",
   "philharmonie-de-paris",
   "tba-carburant-60-rue-de-lancry-75010-paris",
-  "tba-espace-reuilly-paris-12",
   "tba-katapoull",
   "tba-le-tlm-paris-105-rue-curial-75019-paris-france",
   "tba-line-up-secret",
@@ -435,6 +432,16 @@
   {
    "id": "instants-chavires",
    "name": "Instants Chavirés",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "l-anomalie",
+   "name": "L'anomalie",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -878,16 +885,6 @@
    ]
   },
   {
-   "id": "maison-de-la-radio",
-   "name": "Maison de la Radio",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "mia-mao",
    "name": "Mia Mao",
    "type": "club",
@@ -899,16 +896,6 @@
     "house",
     "techno"
    ]
-  },
-  {
-   "id": "miniwax",
-   "name": "Miniwax",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
   },
   {
    "id": "nouveau-casino",
@@ -1104,26 +1091,6 @@
   {
    "id": "tba-carburant-60-rue-de-lancry-75010-paris",
    "name": "TBA - Carburant — 60 Rue de Lancry, 75010 Paris",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "tba-espace-reuilly-21-rue-julien-antoine-henard-75012-paris",
-   "name": "TBA - Espace Reuilly - 21 rue Julien Antoine Hénard 75012 Paris",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "tba-espace-reuilly-paris-12",
-   "name": "TBA - Espace Reuilly Paris 12",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1389,16 +1356,6 @@
    "known": false
   },
   {
-   "id": "abstraxion",
-   "name": "Abstraxion",
-   "tier": 0,
-   "score": 23,
-   "popularity": 23,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788b627e9d7b23ed98a8fb76b8",
-   "known": false
-  },
-  {
    "id": "acid-arab",
    "name": "Acid Arab",
    "tier": 0,
@@ -1536,16 +1493,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/a033dedecb167fe045a62877ada901c3/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "aleqs-notal",
-   "name": "Aleqs Notal",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17818c9a593f4b5d208938bfeaf",
    "known": false
   },
   {
@@ -2366,6 +2313,16 @@
    "known": false
   },
   {
+   "id": "clara",
+   "name": "CLARA (FR)",
+   "tier": 0,
+   "score": 47,
+   "popularity": 47,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781a936a32f1e3a7471daf4aaa",
+   "known": false
+  },
+  {
    "id": "claudio-prc",
    "name": "Claudio PRC",
    "tier": 0,
@@ -2463,16 +2420,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851756164a2c9d616eef5dc9692",
-   "known": false
-  },
-  {
-   "id": "coni",
-   "name": "Coni",
-   "tier": 0,
-   "score": 26,
-   "popularity": 26,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/6f9074d6f5d677275455a01f83270a4b/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3316,16 +3263,6 @@
    "known": false
   },
   {
-   "id": "evk-1",
-   "name": "EVK (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "extra-pdp-happy-new-year",
    "name": "Extra PDP - Happy new year",
    "tier": 0,
@@ -3669,8 +3606,8 @@
    "id": "gene-on-earth",
    "name": "Gene On Earth",
    "tier": 0,
-   "score": 6,
-   "popularity": 6,
+   "score": 7,
+   "popularity": 7,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178794a02333931786d178cfdea",
    "known": false
@@ -3926,16 +3863,6 @@
    "popularity": 36,
    "genres": [],
    "image": "https://i.scdn.co/image/7b21450d1ab8a5254dcc1f9350e1e6fcb521509c",
-   "known": false
-  },
-  {
-   "id": "hyper-sam",
-   "name": "Hyper Sam",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4369,16 +4296,6 @@
    "popularity": 65,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ced0f40aac584f79965fd528",
-   "known": false
-  },
-  {
-   "id": "julian-muller",
-   "name": "Julian Muller",
-   "tier": 0,
-   "score": 28,
-   "popularity": 28,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/91ed818efbdbe43ae735da4692b91fd3/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5744,16 +5661,6 @@
    "known": false
   },
   {
-   "id": "mila-black",
-   "name": "Mila Black",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "mila-dietrich",
    "name": "Mila Dietrich",
    "tier": 0,
@@ -6004,16 +5911,6 @@
    "known": false
   },
   {
-   "id": "nectare",
-   "name": "Nectare",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178633fff22218aa7774a11bde8",
-   "known": false
-  },
-  {
    "id": "neel",
    "name": "Neel",
    "tier": 0,
@@ -6254,16 +6151,6 @@
    "popularity": 57,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17819110b8fdc015aab573f6591",
-   "known": false
-  },
-  {
-   "id": "octo-octa",
-   "name": "Octo Octa",
-   "tier": 0,
-   "score": 36,
-   "popularity": 36,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17838467eada53e8fd9801f3185",
    "known": false
   },
   {
@@ -6907,16 +6794,6 @@
    "known": false
   },
   {
-   "id": "reem-ari-2",
-   "name": "Reem Ari (2)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "rhadoo",
    "name": "Rhadoo",
    "tier": 0,
@@ -7497,16 +7374,6 @@
    "known": false
   },
   {
-   "id": "sweely",
-   "name": "Sweely",
-   "tier": 0,
-   "score": 50,
-   "popularity": 50,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17875f59f1292ddc813c13ade7b",
-   "known": false
-  },
-  {
    "id": "sweet-apricots-8-ans",
    "name": "Sweet Apricots - 8 ans",
    "tier": 0,
@@ -7534,16 +7401,6 @@
    "popularity": 86,
    "genres": [],
    "image": "https://i.scdn.co/image/0daf6cbd2c57753fa45f74054d0d6c054e1136d6",
-   "known": false
-  },
-  {
-   "id": "sylvain",
-   "name": "Sylvain",
-   "tier": 0,
-   "score": 35,
-   "popularity": 35,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178e5bf2daa8a99e4694f0e9b4c",
    "known": false
   },
   {
@@ -7614,16 +7471,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178230335b86fb5e67f26d5a4f5",
-   "known": false
-  },
-  {
-   "id": "tehotu",
-   "name": "TEHOTU",
-   "tier": 0,
-   "score": 3,
-   "popularity": 3,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048510eee0c230e8625c05809b931",
    "known": false
   },
   {
@@ -7890,10 +7737,10 @@
    "id": "traverse",
    "name": "Traverse",
    "tier": 0,
-   "score": 9,
-   "popularity": 9,
+   "score": 29,
+   "popularity": 29,
    "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/33d6cabd34362dfaa01da0f26cf906e3/250x250-000000-80-0-0.jpg",
+   "image": "https://i.scdn.co/image/ab6761610000f1784a6f8572feaf8b13a6fabc02",
    "known": false
   },
   {
@@ -8220,10 +8067,10 @@
    "id": "xdb",
    "name": "XDB",
    "tier": 0,
-   "score": 5,
-   "popularity": 5,
+   "score": 2,
+   "popularity": 2,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851179cf6be56a7ee6b4278a68a",
+   "image": "https://i.scdn.co/image/ab67616d00004851194a9c69cc8bea270276a943",
    "known": false
   },
   {
@@ -8328,384 +8175,6 @@
   }
  ],
  "events": [
-  {
-   "id": "002488e9542c",
-   "title": "extended - Aleqs Notal, Octo Octa, Sweely",
-   "venue_id": "essaim",
-   "night": "2026-11-08",
-   "start": "2026-11-08T16:00:00.000",
-   "end": "2026-11-09T00:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sweely",
-     "name": "Sweely",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "octo-octa",
-     "name": "Octo Octa",
-     "billing": "support"
-    },
-    {
-     "artist_id": "aleqs-notal",
-     "name": "Aleqs Notal",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2516012",
-   "event_url": "https://ra.co/events/2516012",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2516012"
-    }
-   ],
-   "interest": {
-    "score": 42,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Sweely (50)",
-     "lieu : essaim (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "f90647931179",
-   "title": "AFTER O'CLOCK: Julian Muller, Mila Black, Nectare",
-   "venue_id": "glazart",
-   "night": "2026-11-08",
-   "start": "2026-11-08T06:00:00.000",
-   "end": "2026-11-08T16:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "julian-muller",
-     "name": "Julian Muller",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "mila-black",
-     "name": "Mila Black",
-     "billing": "support"
-    },
-    {
-     "artist_id": "nectare",
-     "name": "Nectare",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "garage"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2572704",
-   "event_url": "https://ra.co/events/2572704",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2572704"
-    }
-   ],
-   "interest": {
-    "score": 32,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Julian Muller (28)",
-     "lieu : Glazart (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "a5991bb659a6",
-   "title": "PARIS LOVES VINYL 17 - 100 000 vinyles - 70 Vendeurs - 8 DJs",
-   "venue_id": "tba-espace-reuilly-21-rue-julien-antoine-henard-75012-paris",
-   "night": "2026-11-08",
-   "start": "2026-11-08T10:00:00.000",
-   "end": "2026-11-08T18:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "sylvain",
-     "name": "Sylvain",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "tonak",
-     "name": "TONAK",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "deep house",
-    "disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2568851",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2568851"
-    }
-   ],
-   "interest": {
-    "score": 31,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Sylvain (35)",
-     "lieu : TBA - Espace Reuilly - 21 rue Julien Antoine Hénard 75012 Paris (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "0d8167d53a5e",
-   "title": "SEANCES II",
-   "venue_id": "maison-de-la-radio",
-   "night": "2026-11-08",
-   "start": "2026-11-08T11:00:00.000",
-   "end": "2026-11-08T19:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "coni",
-     "name": "Coni",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2575868",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2575868"
-    }
-   ],
-   "interest": {
-    "score": 25,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Coni (26)",
-     "lieu : Maison de la Radio (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "c53c98cca130",
-   "title": "MILE DIETRICH INV. Abstraxion",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-11-08",
-   "start": "2026-11-08T23:59:00.000",
-   "end": "2026-11-09T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "abstraxion",
-     "name": "Abstraxion",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "mila-dietrich",
-     "name": "Mila Dietrich",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "trance",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2577284",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2577284"
-    }
-   ],
-   "interest": {
-    "score": 23,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Abstraxion (23)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "0f771261a5a3",
-   "title": "DJ set Carole Fe",
-   "venue_id": "miniwax",
-   "night": "2026-11-08",
-   "start": "2026-11-08T16:00:00.000",
-   "end": "2026-11-08T18:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "carole-fe",
-     "name": "Carole Fe",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electro"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2578139",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2578139"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Carole Fe (8)",
-     "lieu : Miniwax (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "dd0c5a1721e5",
-   "title": "HEDONY 3rd ANNIVERSARY",
-   "venue_id": "le-211",
-   "night": "2026-11-08",
-   "start": "2026-11-08T15:00:00.000",
-   "end": "2026-11-08T23:59:00.000",
-   "lineup": [
-    {
-     "artist_id": "evk-1",
-     "name": "EVK (1)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "hyper-sam",
-     "name": "Hyper Sam",
-     "billing": "support"
-    },
-    {
-     "artist_id": "reem-ari-2",
-     "name": "Reem Ari (2)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "tehotu",
-     "name": "TEHOTU",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "minimal techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2567999",
-   "event_url": "https://ra.co/events/2567999",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2567999"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : EVK (1) (8)",
-     "lieu : Le 211 (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "623ae86383a8",
-   "title": "PARIS LOVES VINYL 17",
-   "venue_id": "tba-espace-reuilly-paris-12",
-   "night": "2026-11-08",
-   "start": "2026-11-08T10:00:00.000",
-   "end": "2026-11-08T18:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "tonak",
-     "name": "TONAK",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "deep house",
-    "disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2568881",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2568881"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : TONAK (8)",
-     "lieu : TBA - Espace Reuilly Paris 12 (palier 1)"
-    ]
-   }
-  },
   {
    "id": "efae1af7dacf",
    "title": "Core W/ Timburtek , Lothar , Killoverjoy",
@@ -10819,6 +10288,11 @@
      "billing": "support"
     },
     {
+     "artist_id": "traverse",
+     "name": "Traverse",
+     "billing": "support"
+    },
+    {
      "artist_id": "gilb-r",
      "name": "Gilb'R",
      "billing": "support"
@@ -10826,11 +10300,6 @@
     {
      "artist_id": "beatrice-m",
      "name": "Beatrice M.",
-     "billing": "support"
-    },
-    {
-     "artist_id": "traverse",
-     "name": "Traverse",
      "billing": "support"
     },
     {
@@ -19376,6 +18845,48 @@
    }
   },
   {
+   "id": "4ca49a30a58f",
+   "title": "Everybody",
+   "venue_id": "l-anomalie",
+   "night": "2026-11-29",
+   "start": "2026-11-29T15:00:00.000",
+   "end": "2026-11-29T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "clara",
+     "name": "CLARA (FR)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "ambient",
+    "dub"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2579911",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2579911"
+    }
+   ],
+   "interest": {
+    "score": 40,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : CLARA (FR) (47)",
+     "lieu : L'anomalie (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "1beb43d24e02",
    "title": "extended - amin/a, Palms Trax",
    "venue_id": "essaim",
@@ -22501,14 +22012,14 @@
    ],
    "price_min": 33.01,
    "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/py3mkk-b-boy-ish-bob-sinclar-16th-dec-pavillon-tilsitt-paris-tickets",
-   "event_url": "https://dice.fm/event/py3mkk-b-boy-ish-bob-sinclar-16th-dec-pavillon-tilsitt-paris-tickets",
+   "ticket_url": "https://dice.fm/event/8v3yxr-b-boy-ish-bob-sinclar-16th-dec-pavillon-tilsitt-paris-tickets",
+   "event_url": "https://dice.fm/event/8v3yxr-b-boy-ish-bob-sinclar-16th-dec-pavillon-tilsitt-paris-tickets",
    "image": "https://dice-media.imgix.net/attachments/2026-08-27/73b62f57-a88e-4d36-8998-6d083f3de40b.jpg?rect=678%2C0%2C1716%2C1716",
    "status": "confirmed",
    "sources": [
     {
      "id": "dice",
-     "url": "https://dice.fm/event/py3mkk-b-boy-ish-bob-sinclar-16th-dec-pavillon-tilsitt-paris-tickets"
+     "url": "https://dice.fm/event/8v3yxr-b-boy-ish-bob-sinclar-16th-dec-pavillon-tilsitt-paris-tickets"
     }
    ],
    "interest": {
