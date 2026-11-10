@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-10T03:22:00Z",
+ "generated_at": "2026-11-10T16:50:22Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 167
+   "events": 174
   },
   {
    "id": "piknic",
@@ -47,25 +47,25 @@
   "newspeak",
   "theatre-fairmount",
   "sat",
-  "systeme",
   "salon-daome",
   "theatre-beanfield",
   "stereo-bar",
   "s-a-t",
   "studio-td",
+  "systeme",
   "ausgang-plaza",
+  "le-red-room",
   "union-francaise-de-montreal",
   "vino-disco",
   "foufounes",
   "tba-montreal",
-  "le-red-room",
   "l-escogriffe-bar-spectacle",
   "bar-datcha",
   "nwhr",
   "sainte-catherine-hall",
   "centre-phi",
-  "le-balcon",
   "esc",
+  "le-balcon",
   "la-recre",
   "white-wall-studio",
   "entre-nous",
@@ -78,10 +78,12 @@
   "bande-passante",
   "breakglass-studios",
   "club-dd-s",
+  "ctrllab-art-house-and-gallery",
   "le-ministere",
   "loft-14",
   "sans-soleil",
-  "van-horne-studio"
+  "van-horne-studio",
+  "le-livart"
  ],
  "venues": [
   {
@@ -183,6 +185,16 @@
    "genres": []
   },
   {
+   "id": "ctrllab-art-house-and-gallery",
+   "name": "Ctrllab Art House and Gallery",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "entre-nous",
    "name": "Entre Nous",
    "type": "club",
@@ -259,6 +271,16 @@
   {
    "id": "le-balcon",
    "name": "Le Balcon",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "le-livart",
+   "name": "Le Livart",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -775,6 +797,16 @@
    "known": false
   },
   {
+   "id": "ascension",
+   "name": "ASCENSION",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b59360bc3b3048e1bb838975",
+   "known": false
+  },
+  {
    "id": "asha-4",
    "name": "Asha (4)",
    "tier": 0,
@@ -852,6 +884,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "badgalquirit",
+   "name": "Badgalquirit",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851c309c5f405127b17d75bc5b9",
    "known": false
   },
   {
@@ -1154,6 +1196,16 @@
    "known": false
   },
   {
+   "id": "chris-luno",
+   "name": "Chris Luno",
+   "tier": 0,
+   "score": 55,
+   "popularity": 55,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17813377317aa37e746a51e7b8e",
+   "known": false
+  },
+  {
    "id": "cidoine",
    "name": "Cidoine",
    "tier": 0,
@@ -1261,6 +1313,16 @@
    "popularity": 86,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17830a4fa2462f1d9a9cdd17360",
+   "known": false
+  },
+  {
+   "id": "damacadam",
+   "name": "Damacadam",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1404,6 +1466,16 @@
    "known": false
   },
   {
+   "id": "dj-swisha",
+   "name": "DJ SWISHA",
+   "tier": 0,
+   "score": 47,
+   "popularity": 47,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786921493ee581e27446e7d3bb",
+   "known": false
+  },
+  {
    "id": "don-barbarino",
    "name": "Don Barbarino",
    "tier": 0,
@@ -1441,6 +1513,16 @@
    "popularity": 30,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b4d47556a7457cd934e199f2",
+   "known": false
+  },
+  {
+   "id": "duza",
+   "name": "DUZA",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178bfacf5c003ffa796f0a75a85",
    "known": false
   },
   {
@@ -1516,6 +1598,16 @@
   {
    "id": "emil-paquin",
    "name": "Emil Paquin",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "emn-1",
+   "name": "EMN (1)",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -1671,6 +1763,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783e2f0d928ef4e400e7e6de87",
+   "known": false
+  },
+  {
+   "id": "frankie-teardrop",
+   "name": "Frankie Teardrop",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786af69cf508c58289ef141ca9",
    "known": false
   },
   {
@@ -1971,6 +2073,16 @@
    "popularity": 56,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784fae95b3a1b70a0f7fc21cc8",
+   "known": false
+  },
+  {
+   "id": "homesick",
+   "name": "HomeSick",
+   "tier": 0,
+   "score": 45,
+   "popularity": 45,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787316ac6db197c1202aaca100",
    "known": false
   },
   {
@@ -2520,6 +2632,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "labyrinthe",
+   "name": "LABYRINTHE",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048514aa65702d6cf373ad145364d",
    "known": false
   },
   {
@@ -3126,6 +3248,16 @@
    "known": false
   },
   {
+   "id": "moti",
+   "name": "Moti (CR)",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1780d535e9ab9fe3626abf6e284",
+   "known": false
+  },
+  {
    "id": "mowie-2",
    "name": "Mowie (2)",
    "tier": 0,
@@ -3289,6 +3421,16 @@
    "known": false
   },
   {
+   "id": "nosferayous",
+   "name": "Nosferayous",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "o-b-f",
    "name": "O.B.F",
    "tier": 0,
@@ -3369,6 +3511,16 @@
    "known": false
   },
   {
+   "id": "p3co",
+   "name": "P3CO",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "paper-skies-greyscale",
    "name": "PAPER SKIES - GREYSCALE",
    "tier": 0,
@@ -3396,6 +3548,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "pelo",
+   "name": "Pelo",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/abc6729d77d0bd5db332ad37248d9019/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3436,16 +3598,6 @@
    "popularity": 2,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1787168a50a845bcc2d25145e8f",
-   "known": false
-  },
-  {
-   "id": "play-do",
-   "name": "Play-do",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1781e9356e78bcf35fa99f01e3b",
    "known": false
   },
   {
@@ -3509,16 +3661,6 @@
    "known": false
   },
   {
-   "id": "puzzle",
-   "name": "Puzzle",
-   "tier": 0,
-   "score": 74,
-   "popularity": 74,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178cb36591ec141b9ea847f1a54",
-   "known": false
-  },
-  {
    "id": "pyromane",
    "name": "Pyromane",
    "tier": 0,
@@ -3536,6 +3678,26 @@
    "popularity": 3,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784ec3e19aa6a4364133de6dfc",
+   "known": false
+  },
+  {
+   "id": "ratchet",
+   "name": "Ratchet",
+   "tier": 0,
+   "score": 5,
+   "popularity": 5,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/785a7f99dcb00c3e5b31a6707f0d9d05/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "revved-up-the-euphoria-inferno",
+   "name": "REVVED UP - The Euphoria Inferno",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3726,6 +3888,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "seven-lions",
+   "name": "Seven Lions",
+   "tier": 0,
+   "score": 69,
+   "popularity": 69,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788cfe09c3911e16990a13001f",
    "known": false
   },
   {
@@ -5336,7 +5508,7 @@
    "families": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2580786",
    "event_url": "https://ra.co/events/2580786",
    "image": "",
    "status": "confirmed",
@@ -5698,6 +5870,48 @@
     "reasons": [
      "tête d'affiche : Groceries (2)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "c3e99a5db599",
+   "title": "LABYRINTHE",
+   "venue_id": "le-livart",
+   "night": "2026-11-13",
+   "start": "2026-11-13T21:00:00.000",
+   "end": "2026-11-14T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "labyrinthe",
+     "name": "LABYRINTHE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "deep house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2581071",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2581071"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LABYRINTHE (0)",
+     "lieu : Le Livart (palier 1)"
     ]
    }
   },
@@ -6335,7 +6549,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2581068",
    "event_url": "https://ra.co/events/2581068",
    "image": "",
    "status": "confirmed",
@@ -7515,6 +7729,53 @@
    }
   },
   {
+   "id": "bac6115f5c1b",
+   "title": "ASCENSION & REVVED UP - The Euphoria Inferno",
+   "venue_id": "esc",
+   "night": "2026-11-20",
+   "start": "2026-11-20T20:00:00.000",
+   "end": "2026-11-21T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "revved-up-the-euphoria-inferno",
+     "name": "REVVED UP - The Euphoria Inferno",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ascension",
+     "name": "ASCENSION",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "hardcore",
+    "gabber"
+   ],
+   "families": [
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2581658",
+   "event_url": "https://ra.co/events/2581658",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2581658"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : REVVED UP - The Euphoria Inferno (8)",
+     "lieu : ESC (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "5edbb2cfcd80",
    "title": "AFRODITE X BATIDA SOLTA: BADJUDA, Leon Suave, Mlle Cee, TRBLV, Netto",
    "venue_id": "bar-datcha",
@@ -8667,48 +8928,6 @@
    }
   },
   {
-   "id": "19f846063e8f",
-   "title": "Play-do x Puzzle",
-   "venue_id": "systeme",
-   "night": "2026-11-26",
-   "start": "2026-11-26T22:00:00.000",
-   "end": "2026-11-27T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "puzzle",
-     "name": "Puzzle",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "play-do",
-     "name": "Play-do",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2563870",
-   "event_url": "https://ra.co/events/2563870",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563870"
-    }
-   ],
-   "interest": {
-    "score": 59,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Puzzle (74)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "9ea1d861da3d",
    "title": "Extended x Le Red Room - No Cut November",
    "venue_id": "le-red-room",
@@ -8941,6 +9160,69 @@
     "reasons": [
      "tête d'affiche : Vino Disco Thursdays: MOONART (8)",
      "lieu : Vino Disco (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "02be18500686",
+   "title": "play-do x puzzle present: puddle 001",
+   "venue_id": "systeme",
+   "night": "2026-11-26",
+   "start": "2026-11-26T22:00:00.000",
+   "end": "2026-11-27T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sam-blake",
+     "name": "sam blake",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "badgalquirit",
+     "name": "Badgalquirit",
+     "billing": "support"
+    },
+    {
+     "artist_id": "frankie-teardrop",
+     "name": "Frankie Teardrop",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ngl-flounce",
+     "name": "NGL Flounce",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "reggaeton",
+    "house",
+    "ambient",
+    "experimental"
+   ],
+   "families": [
+    "Techno",
+    "House",
+    "Afro & latin",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2563870",
+   "event_url": "https://ra.co/events/2563870",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2563870"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : sam blake (8)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -10747,6 +11029,60 @@
    }
   },
   {
+   "id": "5ef0e10b6067",
+   "title": "Club SAT: GABA Collective",
+   "venue_id": "sat",
+   "night": "2026-12-04",
+   "start": "2026-12-04T22:00:00.000",
+   "end": "2026-12-05T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "damacadam",
+     "name": "Damacadam",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "pelo",
+     "name": "Pelo",
+     "billing": "support"
+    },
+    {
+     "artist_id": "tali-rose",
+     "name": "Tali Rose",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2581735",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2581735"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Damacadam (8)",
+     "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "07435df60386",
    "title": "Bass Brigade presents: UK BASS INVASION",
    "venue_id": "entre-nous",
@@ -10790,6 +11126,112 @@
     "reasons": [
      "tête d'affiche : Magniphi (8)",
      "lieu : Entre Nous (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "0eb0ccd8e4e9",
+   "title": "The Sweat House",
+   "venue_id": "ctrllab-art-house-and-gallery",
+   "night": "2026-12-04",
+   "start": "2026-12-04T22:00:00.000",
+   "end": "2026-12-05T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "emn-1",
+     "name": "EMN (1)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "p3co",
+     "name": "P3CO",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ratchet",
+     "name": "Ratchet",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2581716",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2581716"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : EMN (1) (8)",
+     "lieu : Ctrllab Art House and Gallery (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "fd32010c46d9",
+   "title": "Bleeder: Hell On Earth",
+   "venue_id": "le-red-room",
+   "night": "2026-12-05",
+   "start": "2026-12-05T22:00:00.000",
+   "end": "2026-12-06T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "homesick",
+     "name": "HomeSick",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "nosferayous",
+     "name": "Nosferayous",
+     "billing": "support"
+    },
+    {
+     "artist_id": "d-blavatsky",
+     "name": "D.Blavatsky",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "hardcore"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2579658",
+   "event_url": "https://ra.co/events/2579658",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2579658"
+    }
+   ],
+   "interest": {
+    "score": 44,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : HomeSick (45)",
+     "lieu : Le Red Room (palier 2)"
     ]
    }
   },
@@ -11851,7 +12293,7 @@
   },
   {
    "id": "81379f9d3bf4",
-   "title": "Igloofest MTL #5: KETTAMA",
+   "title": "Igloofest MTL #5: [COMPLET / SOLD OUT] KETTAMA",
    "venue_id": "igloofest",
    "night": "2027-01-22",
    "start": "2027-01-22T19:30:00.000",
@@ -12187,6 +12629,65 @@
    }
   },
   {
+   "id": "2c47a7223465",
+   "title": "Igloofest MTL #8: Seven Lions",
+   "venue_id": "igloofest",
+   "night": "2027-01-28",
+   "start": "2027-01-28T19:30:00.000",
+   "end": "2027-01-28T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "seven-lions",
+     "name": "Seven Lions",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "chris-luno",
+     "name": "Chris Luno",
+     "billing": "support"
+    },
+    {
+     "artist_id": "moti",
+     "name": "Moti (CR)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "duza",
+     "name": "DUZA",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "disco",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2566140",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566140"
+    }
+   ],
+   "interest": {
+    "score": 56,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Seven Lions (69)",
+     "lieu : Igloofest (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "9219dd89a6b4",
    "title": "Igloofest MTL #7: Mosimann",
    "venue_id": "igloofest",
@@ -12274,6 +12775,53 @@
     "reasons": [
      "tête d'affiche : Ourson (62)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "aabe292eea84",
+   "title": "DJ SWISHA - Montréal",
+   "venue_id": "newspeak",
+   "night": "2027-01-29",
+   "start": "2027-01-29T22:00:00.000",
+   "end": "2027-01-30T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-swisha",
+     "name": "DJ SWISHA",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "footwork"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.universe.com/events/dj-swisha-tickets-KNYQ4S?ref=ticketmaster",
+   "event_url": "https://ra.co/events/2578562",
+   "image": "https://images.universe.com/18029174-42ae-4998-9fbb-743cf05d90d5/-/resize/1200x/-/crop/480x480/105,0/-/format/jpeg/-/scale_crop/1024x683/center/-/progressive/yes/-/inline/yes/",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2578562"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.universe.com/events/dj-swisha-tickets-KNYQ4S?ref=ticketmaster"
+    }
+   ],
+   "interest": {
+    "score": 46,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : DJ SWISHA (47)",
+     "lieu : Newspeak (palier 2)"
     ]
    }
   },
@@ -12939,7 +13487,7 @@
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/31006523ABBD7874?lang=fr-ca&brand=mtelus",
    "event_url": "https://ra.co/events/2571972",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/7gb82VnMZPs54CTlTRFAPa/5891742edc4b39b4a3c3e4572a50a149/alan_walker_2027.jpg",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/3LBvvPfv90q5l4EpVdfx1D/f0520ce0ec9b8d4fef9965d77cdd41db/alan_walker_2027.jpg",
    "status": "confirmed",
    "sources": [
     {
