@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-09T19:35:16Z",
+ "generated_at": "2026-11-10T03:23:19Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-11-09",
-  "end": "2027-05-08"
+  "start": "2026-11-10",
+  "end": "2027-05-09"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 355
+   "events": 354
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 46
+   "events": 48
   }
  ],
  "venue_order": [
@@ -65,7 +65,6 @@
   "le-mazette",
   "nouveau-casino",
   "le-211",
-  "studio56",
   "chalet-du-lac-bois-de-vincennes",
   "le-trianon",
   "le-grand-dome",
@@ -73,6 +72,7 @@
   "zenith-paris-la-villette",
   "l-anomalie",
   "tba-saint-denis",
+  "studio56",
   "peniche-adelaide",
   "main-room",
   "la-nuit",
@@ -110,6 +110,7 @@
   "chateau-ephemere",
   "cite-du-cinema",
   "folia",
+  "fondation-cartier",
   "frequence-paris",
   "instants-chavires",
   "la-mutinerie",
@@ -399,6 +400,16 @@
   {
    "id": "folies-pigalle",
    "name": "Folies Pigalle",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "fondation-cartier",
+   "name": "Fondation Cartier",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1852,6 +1863,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178716ecb2671c823080c46f7dc",
+   "known": false
+  },
+  {
+   "id": "awesome-tapes-from-africa",
+   "name": "Awesome Tapes From Africa",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4716,16 +4737,6 @@
    "known": false
   },
   {
-   "id": "killoverjoy",
-   "name": "Killoverjoy",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "kim-peers",
    "name": "Kim Peers",
    "tier": 0,
@@ -4873,6 +4884,16 @@
    "popularity": 60,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789f3f4b4399a3a8f54657ea7b",
+   "known": false
+  },
+  {
+   "id": "la-bellewave-vol-2",
+   "name": "La Bellewave Vol. 2",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5283,16 +5304,6 @@
    "popularity": 67,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785963d289733abd3cb0d9eb34",
-   "known": false
-  },
-  {
-   "id": "lothar",
-   "name": "Lothar",
-   "tier": 0,
-   "score": 25,
-   "popularity": 25,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17813002271f347357f3fb54f9e",
    "known": false
   },
   {
@@ -7991,16 +8002,6 @@
    "known": false
   },
   {
-   "id": "timburtek",
-   "name": "Timburtek",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "timnah",
    "name": "Timnah",
    "tier": 0,
@@ -8572,100 +8573,6 @@
   }
  ],
  "events": [
-  {
-   "id": "efae1af7dacf",
-   "title": "Core W/ Timburtek , Lothar , Killoverjoy",
-   "venue_id": "studio56",
-   "night": "2026-11-09",
-   "start": "2026-11-09T23:59:00.000",
-   "end": "2026-11-10T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "lothar",
-     "name": "Lothar",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "timburtek",
-     "name": "Timburtek",
-     "billing": "support"
-    },
-    {
-     "artist_id": "killoverjoy",
-     "name": "Killoverjoy",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "trance"
-   ],
-   "families": [
-    "Techno",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2575117",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2575117"
-    }
-   ],
-   "interest": {
-    "score": 30,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Lothar (25)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "81e7b0c36883",
-   "title": "Acid Oslo",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-11-09",
-   "start": "2026-11-09T23:59:00.000",
-   "end": "2026-11-10T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "acid-oslo",
-     "name": "Acid Oslo",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2577288",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2577288"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Acid Oslo (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
   {
    "id": "87bc42e3959a",
    "title": "Sacré présente: TV Store Takeover (veille de jour férié)",
@@ -9841,6 +9748,45 @@
    }
   },
   {
+   "id": "114a70a962c8",
+   "title": "La Bellewave Vol. 2",
+   "venue_id": "la-java",
+   "night": "2026-11-12",
+   "start": "2026-11-12T23:45:00+01:00",
+   "end": "2026-11-13T07:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "la-bellewave-vol-2",
+     "name": "La Bellewave Vol. 2",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 7.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/lqa23x-la-bellewave-vol-2-12th-nov-la-java-paris-tickets",
+   "event_url": "https://dice.fm/event/lqa23x-la-bellewave-vol-2-12th-nov-la-java-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-09/5d349b09-8e3a-4aa1-89ad-1e5befb31129.jpg?rect=213%2C310%2C715%2C716",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/lqa23x-la-bellewave-vol-2-12th-nov-la-java-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : La Bellewave Vol. 2 (8)",
+     "lieu : La Java (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "152344571322",
    "title": "Loke Rahbek & Frederik Valentin A/V + Vina Konda A/V",
    "venue_id": "communale-saint-ouen",
@@ -10114,6 +10060,43 @@
     "reasons": [
      "tête d'affiche : KREATTONES (8)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "6e4dbb1ea0d2",
+   "title": "Seeing Sounds Awesome Tapes From Africa",
+   "venue_id": "fondation-cartier",
+   "night": "2026-11-12",
+   "start": "2026-11-12T19:00:00.000",
+   "end": "2026-11-12T20:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "awesome-tapes-from-africa",
+     "name": "Awesome Tapes From Africa",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2580925",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2580925"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Awesome Tapes From Africa (8)",
+     "lieu : Fondation Cartier (palier 1)"
     ]
    }
   },
@@ -23745,6 +23728,49 @@
    }
   },
   {
+   "id": "9c6c1f945b97",
+   "title": "Claude Emmanuelle, Acidusa & More : Corps Niches",
+   "venue_id": "la-java",
+   "night": "2026-12-19",
+   "start": "2026-12-19T23:30:00+01:00",
+   "end": "2026-12-20T07:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "claude-emmanuelle",
+     "name": "Claude Emmanuelle",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electro",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": 14.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/lqa2yx-claude-emmanuelle-acidusa-more-corps-niches-19th-dec-la-java-paris-tickets",
+   "event_url": "https://dice.fm/event/lqa2yx-claude-emmanuelle-acidusa-more-corps-niches-19th-dec-la-java-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-09/39f6186a-346c-4285-ad9c-7b59c69308a7.jpg?rect=0%2C170%2C3072%2C3072",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/lqa2yx-claude-emmanuelle-acidusa-more-corps-niches-19th-dec-la-java-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Claude Emmanuelle (8)",
+     "lieu : La Java (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "28dab9cec6b7",
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
@@ -25516,13 +25542,6 @@
  ],
  "announcements": [
   {
-   "id": "346ea8c7c15e",
-   "name": "NTO",
-   "night": "2027-02-05",
-   "venue": "Rex Club",
-   "photo": "https://i.scdn.co/image/ab6761610000f1786ea1974d71c81a203647ce06"
-  },
-  {
    "id": "37ba46e68c14",
    "name": "Alex Wann",
    "night": "2026-11-20",
@@ -25535,13 +25554,6 @@
    "night": "2026-11-10",
    "venue": "Sacré",
    "photo": "https://i.scdn.co/image/ab6761610000f178146f8239864dbfb4c67cb577"
-  },
-  {
-   "id": "6e09b08676bd",
-   "name": "Lemtom",
-   "night": "2026-12-04",
-   "venue": "Sacré",
-   "photo": "https://i.scdn.co/image/ab6761610000f178ca2a09345ea78ae4144532e8"
   },
   {
    "id": "9cfc75cf35e5",
@@ -25584,6 +25596,13 @@
    "night": "2026-12-18",
    "venue": "Sacré",
    "photo": "https://i.scdn.co/image/ab6761610000f17861bf4c504c344eb911b4c901"
+  },
+  {
+   "id": "05d73b70d351",
+   "name": "camoufly",
+   "night": "2026-11-28",
+   "venue": "Badaboum",
+   "photo": "https://i.scdn.co/image/ab6761610000f178dbee33b433eda976bc7f665f"
   }
  ],
  "families": [

@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-09T19:34:10Z",
+ "generated_at": "2026-11-10T03:22:00Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-09",
-  "end": "2027-05-08"
+  "start": "2026-11-10",
+  "end": "2027-05-09"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 166
+   "events": 167
   },
   {
    "id": "piknic",
@@ -51,7 +51,6 @@
   "salon-daome",
   "theatre-beanfield",
   "stereo-bar",
-  "casa-del-popolo",
   "s-a-t",
   "studio-td",
   "ausgang-plaza",
@@ -72,11 +71,11 @@
   "entre-nous",
   "cafe-social-b-hive",
   "warehouse",
+  "blue-room",
   "le-ritz",
   "red-roof-church",
   "180g-cafe-disquaire",
   "bande-passante",
-  "blue-room",
   "breakglass-studios",
   "club-dd-s",
   "le-ministere",
@@ -156,16 +155,6 @@
   {
    "id": "cafe-social-b-hive",
    "name": "Café Social B Hive",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "casa-del-popolo",
-   "name": "Casa Del Popolo",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -932,10 +921,10 @@
    "id": "ben-po",
    "name": "Ben Po",
    "tier": 0,
-   "score": 42,
-   "popularity": 42,
+   "score": 0,
+   "popularity": 0,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178b0d85b2b2d85af687c72e180",
+   "image": "https://i.scdn.co/image/ab6761610000f178d98c35af2828d9c9a2a2f999",
    "known": false
   },
   {
@@ -3890,16 +3879,6 @@
    "known": false
   },
   {
-   "id": "sports",
-   "name": "Sports",
-   "tier": 0,
-   "score": 81,
-   "popularity": 81,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1785be1f192b1f34f06bf6be4a8",
-   "known": false
-  },
-  {
    "id": "st-laurent",
    "name": "St.Laurent",
    "tier": 0,
@@ -4501,45 +4480,6 @@
   }
  ],
  "events": [
-  {
-   "id": "49361b97f8a4",
-   "title": "sports.",
-   "venue_id": "casa-del-popolo",
-   "night": "2026-11-09",
-   "start": "2026-11-09T20:00:00-05:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "sports",
-     "name": "Sports",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.universe.com/events/sports-tickets-LXN1CD?ref=ticketmaster",
-   "event_url": "https://www.universe.com/events/sports-tickets-LXN1CD?ref=ticketmaster",
-   "image": "https://s1.ticketm.net/dam/a/352/4326e8ee-5a47-4278-bdbe-fa479cdcf352_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.universe.com/events/sports-tickets-LXN1CD?ref=ticketmaster"
-    }
-   ],
-   "interest": {
-    "score": 64,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Sports (81)",
-     "lieu : Casa Del Popolo (palier 1)"
-    ]
-   }
-  },
   {
    "id": "fa0d28d638be",
    "title": "Nia Archives - Montréal",
@@ -6368,6 +6308,49 @@
     "reasons": [
      "tête d'affiche : Shirlee (8)",
      "lieu : Sainte-Catherine Hall (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "ce9a5896b105",
+   "title": "VIBRAN / HØSS",
+   "venue_id": "blue-room",
+   "night": "2026-11-14",
+   "start": "2026-11-14T22:00:00.000",
+   "end": "2026-11-15T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vibran",
+     "name": "VIBRAN",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2581068",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2581068"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : VIBRAN (8)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
