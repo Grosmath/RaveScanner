@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-10T16:50:22Z",
+ "generated_at": "2026-11-11T01:10:44Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-10",
-  "end": "2027-05-09"
+  "start": "2026-11-11",
+  "end": "2027-05-10"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 174
+   "events": 175
   },
   {
    "id": "piknic",
@@ -24,17 +24,17 @@
   {
    "id": "new_city_gas",
    "ok": true,
-   "events": 140
+   "events": 141
   },
   {
    "id": "mtelus",
    "ok": true,
-   "events": 15
+   "events": 16
   },
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 40
+   "events": 42
   }
  ],
  "venue_order": [
@@ -46,11 +46,11 @@
   "mtelus",
   "newspeak",
   "theatre-fairmount",
-  "sat",
   "salon-daome",
   "theatre-beanfield",
   "stereo-bar",
   "s-a-t",
+  "sat",
   "studio-td",
   "systeme",
   "ausgang-plaza",
@@ -70,6 +70,7 @@
   "white-wall-studio",
   "entre-nous",
   "cafe-social-b-hive",
+  "club-soda",
   "warehouse",
   "blue-room",
   "le-ritz",
@@ -183,6 +184,19 @@
    "address": "",
    "url": "",
    "genres": []
+  },
+  {
+   "id": "club-soda",
+   "name": "Club Soda",
+   "type": "venue",
+   "tier": 2,
+   "capacity": 900,
+   "address": "1225 Boulevard Saint-Laurent",
+   "url": "https://clubsoda.ca",
+   "genres": [
+    "electronic",
+    "bass"
+   ]
   },
   {
    "id": "ctrllab-art-house-and-gallery",
@@ -907,19 +921,6 @@
    "known": false
   },
   {
-   "id": "bambii",
-   "name": "Bambii",
-   "tier": 2,
-   "score": 50,
-   "popularity": 57,
-   "genres": [
-    "club",
-    "dancehall"
-   ],
-   "image": "https://i.scdn.co/image/ab6761610000f1781bd63a9190981624ea7e016f",
-   "known": true
-  },
-  {
    "id": "barbara-preisinger",
    "name": "Barbara Preisinger",
    "tier": 0,
@@ -950,6 +951,16 @@
    "known": false
   },
   {
+   "id": "beastboi",
+   "name": "BEASTBOI",
+   "tier": 0,
+   "score": 33,
+   "popularity": 33,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178332793f37a4bb9e90779813c",
+   "known": false
+  },
+  {
    "id": "beathead",
    "name": "Beathead",
    "tier": 0,
@@ -967,6 +978,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d98c35af2828d9c9a2a2f999",
+   "known": false
+  },
+  {
+   "id": "ben-ufo",
+   "name": "Ben UFO",
+   "tier": 0,
+   "score": 5,
+   "popularity": 5,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851819cfb3f891635a288a44818",
    "known": false
   },
   {
@@ -1013,8 +1034,8 @@
    "id": "bolarinho",
    "name": "Bolarinho",
    "tier": 0,
-   "score": 4,
-   "popularity": 4,
+   "score": 2,
+   "popularity": 2,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c0dbdd36f789b515875fa04c",
    "known": false
@@ -1289,8 +1310,8 @@
    "id": "cuerpos",
    "name": "CUERPOS",
    "tier": 0,
-   "score": 6,
-   "popularity": 6,
+   "score": 5,
+   "popularity": 5,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178bdbaf6de27ed1a2b4d1de980",
    "known": false
@@ -1439,8 +1460,8 @@
    "id": "dj-frog",
    "name": "DJ Frog",
    "tier": 0,
-   "score": 25,
-   "popularity": 25,
+   "score": 23,
+   "popularity": 23,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785c48763db54b6686fd0f1a3f",
    "known": false
@@ -1473,6 +1494,16 @@
    "popularity": 47,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786921493ee581e27446e7d3bb",
+   "known": false
+  },
+  {
+   "id": "djeity",
+   "name": "Djeity",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178876f89f541f580f1c78c311e",
    "known": false
   },
   {
@@ -2089,8 +2120,8 @@
    "id": "honeydrip",
    "name": "Honeydrip",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 16,
+   "popularity": 16,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a7bbe6564614bbdeeef9d608",
    "known": false
@@ -2282,8 +2313,8 @@
    "id": "isla-den",
    "name": "Isla Den",
    "tier": 0,
-   "score": 35,
-   "popularity": 35,
+   "score": 32,
+   "popularity": 32,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f104ca1c753162bfd00cd423",
    "known": false
@@ -2479,6 +2510,16 @@
    "known": false
   },
   {
+   "id": "jump-source",
+   "name": "Jump Source",
+   "tier": 0,
+   "score": 45,
+   "popularity": 45,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ce68e186f5069bb76560a86b",
+   "known": false
+  },
+  {
    "id": "justine-perry",
    "name": "Justine Perry",
    "tier": 0,
@@ -2595,6 +2636,16 @@
    "known": false
   },
   {
+   "id": "kleed",
+   "name": "KLEED",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789575007434bbce240111a54b",
+   "known": false
+  },
+  {
    "id": "kolophane",
    "name": "Kolophane",
    "tier": 0,
@@ -2602,6 +2653,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f1073cba3f1510711b25d4c9",
+   "known": false
+  },
+  {
+   "id": "kompany",
+   "name": "Kompany",
+   "tier": 0,
+   "score": 55,
+   "popularity": 55,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e2d4f7b01be1e7da7690c76e",
    "known": false
   },
   {
@@ -2672,6 +2733,16 @@
    "popularity": 16,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851c4a94d32ff77c6c50683e891",
+   "known": false
+  },
+  {
+   "id": "laurence-matte",
+   "name": "Laurence Matte",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c4bb693109fb2038849d884a",
    "known": false
   },
   {
@@ -2808,8 +2879,8 @@
    "id": "lost-heroes",
    "name": "Lost Heroes",
    "tier": 0,
-   "score": 16,
-   "popularity": 16,
+   "score": 15,
+   "popularity": 15,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a4198ca65e0334bc9ea1c03b",
    "known": false
@@ -2865,6 +2936,16 @@
    "known": false
   },
   {
+   "id": "lyes",
+   "name": "LYES",
+   "tier": 0,
+   "score": 20,
+   "popularity": 20,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178aa5ec18d172ec4679a47d643",
+   "known": false
+  },
+  {
    "id": "lynnic",
    "name": "Lynnic",
    "tier": 0,
@@ -2892,6 +2973,16 @@
    "popularity": 30,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788aa1282b06fdec06ceb0259d",
+   "known": false
+  },
+  {
+   "id": "mad-dubz",
+   "name": "Mad Dubz",
+   "tier": 0,
+   "score": 44,
+   "popularity": 44,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d2957465f1c52b62cd9fd400",
    "known": false
   },
   {
@@ -3074,7 +3165,7 @@
    "score": 0,
    "popularity": 0,
    "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/387ca6bb078753653de6dd4faa35afeb/250x250-000000-80-0-0.jpg",
+   "image": "https://cdn-images.dzcdn.net/images/artist/eadb765155592e93439b9d0157b2d48e/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3358,19 +3449,6 @@
    "known": false
   },
   {
-   "id": "nia-archives",
-   "name": "Nia Archives",
-   "tier": 3,
-   "score": 67,
-   "popularity": 68,
-   "genres": [
-    "jungle",
-    "dnb"
-   ],
-   "image": "https://i.scdn.co/image/ab6761610000f178cc819c191667d9b2f775a9e8",
-   "known": true
-  },
-  {
    "id": "nils-hoffmann",
    "name": "Nils Hoffmann",
    "tier": 0,
@@ -3431,6 +3509,16 @@
    "known": false
   },
   {
+   "id": "nye-2027-bakermat",
+   "name": "NYE 2027: Bakermat",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "o-b-f",
    "name": "O.B.F",
    "tier": 0,
@@ -3438,6 +3526,26 @@
    "popularity": 58,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782c870d65a4841b3f91d98f94",
+   "known": false
+  },
+  {
+   "id": "objekt",
+   "name": "Objekt",
+   "tier": 0,
+   "score": 31,
+   "popularity": 31,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e2d77385e1d818300405421c",
+   "known": false
+  },
+  {
+   "id": "odile-myrtil",
+   "name": "Odile Myrtil",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178897793c2cf2e0a35853982ef",
    "known": false
   },
   {
@@ -3498,6 +3606,26 @@
    "popularity": 21,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c576f4046a19199a6fe470c5",
+   "known": false
+  },
+  {
+   "id": "otsukane",
+   "name": "Otsukane",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "otsukare",
+   "name": "Otsukare",
+   "tier": 0,
+   "score": 19,
+   "popularity": 19,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fde665a23344fc22afcdfe52",
    "known": false
   },
   {
@@ -3904,10 +4032,10 @@
    "id": "shadya",
    "name": "Shadya",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485163a48555dc5fac646e12d353",
+   "image": "",
    "known": false
   },
   {
@@ -3988,6 +4116,16 @@
    "popularity": 8,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ac19bf5b41a29cc28ed1d8ae",
+   "known": false
+  },
+  {
+   "id": "singuila-montreal",
+   "name": "Singuila - Montréal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4652,58 +4790,6 @@
   }
  ],
  "events": [
-  {
-   "id": "fa0d28d638be",
-   "title": "Nia Archives - Montréal",
-   "venue_id": "sat",
-   "night": "2026-11-10",
-   "start": "2026-11-10T19:00:00.000",
-   "end": "2026-11-10T22:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "nia-archives",
-     "name": "Nia Archives",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "bambii",
-     "name": "Bambii",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "drum & bass",
-    "jungle",
-    "dnb",
-    "club",
-    "dancehall"
-   ],
-   "families": [
-    "Électro & bass",
-    "Afro & latin",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2518514",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2518514"
-    }
-   ],
-   "interest": {
-    "score": 60,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Nia Archives (67)",
-     "lieu : SAT (palier 2)"
-    ]
-   }
-  },
   {
    "id": "7341c39b9b90",
    "title": "DOWN2TECHNO: Every Wednesday",
@@ -5491,6 +5577,54 @@
    }
   },
   {
+   "id": "3b453e67a775",
+   "title": "NAE, No Police , Shadya",
+   "venue_id": "bar-datcha",
+   "night": "2026-11-13",
+   "start": "2026-11-13T22:00:00.000",
+   "end": "2026-11-14T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "shadya",
+     "name": "Shadya",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "no-police",
+     "name": "No Police",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2567105",
+   "event_url": "https://ra.co/events/2567105",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2567105"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Shadya (8)",
+     "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "01b332ae6116",
    "title": "Scorpio Party",
    "venue_id": "warehouse",
@@ -5715,54 +5849,6 @@
     "reasons": [
      "tête d'affiche : Leftfield Encounters 001 (8)",
      "lieu : Van Horne Studio (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "3b453e67a775",
-   "title": "NAE, No Police , Shadya",
-   "venue_id": "bar-datcha",
-   "night": "2026-11-13",
-   "start": "2026-11-13T22:00:00.000",
-   "end": "2026-11-14T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "shadya",
-     "name": "Shadya",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "no-police",
-     "name": "No Police",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "house"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2567105",
-   "event_url": "https://ra.co/events/2567105",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2567105"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Shadya (0)",
-     "lieu : Bar Datcha (palier 2)"
     ]
    }
   },
@@ -6549,7 +6635,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2581068",
+   "ticket_url": "",
    "event_url": "https://ra.co/events/2581068",
    "image": "",
    "status": "confirmed",
@@ -10927,10 +11013,10 @@
     }
    ],
    "interest": {
-    "score": 18,
+    "score": 17,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Lost Heroes (16)",
+     "tête d'affiche : Lost Heroes (15)",
      "lieu : Système (palier 1)"
     ]
    }
@@ -11768,7 +11854,7 @@
    "title": "Josh Baker, Jay Pryor",
    "venue_id": "new-city-gas",
    "night": "2026-12-29",
-   "start": "2026-12-29T22:00:00.000",
+   "start": "2026-12-29T21:00:00.000",
    "end": "2026-12-30T03:00:00.000",
    "lineup": [
     {
@@ -11894,6 +11980,117 @@
     "reasons": [
      "tête d'affiche : What So Not (66)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "b5b42fc3f500",
+   "title": "SAT NYE 2026 (ALL NIGHT)",
+   "venue_id": "sat",
+   "night": "2026-12-31",
+   "start": "2026-12-31T22:00:00.000",
+   "end": "2027-01-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jump-source",
+     "name": "Jump Source",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "objekt",
+     "name": "Objekt",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ben-ufo",
+     "name": "Ben UFO",
+     "billing": "support"
+    },
+    {
+     "artist_id": "frankie-teardrop",
+     "name": "Frankie Teardrop",
+     "billing": "support"
+    },
+    {
+     "artist_id": "odile-myrtil",
+     "name": "Odile Myrtil",
+     "billing": "support"
+    },
+    {
+     "artist_id": "djeity",
+     "name": "Djeity",
+     "billing": "support"
+    },
+    {
+     "artist_id": "laurence-matte",
+     "name": "Laurence Matte",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "techno",
+    "progressive house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2581877",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2581877"
+    }
+   ],
+   "interest": {
+    "score": 44,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Jump Source (45)",
+     "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "aabc0391939b",
+   "title": "NYE 2027: Bakermat",
+   "venue_id": "new-city-gas",
+   "night": "2026-12-31",
+   "start": "2026-12-31T21:00:00-05:00",
+   "end": "2027-01-01T03:00:00-05:00",
+   "lineup": [
+    {
+     "artist_id": "nye-2027-bakermat",
+     "name": "NYE 2027: Bakermat",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/",
+   "event_url": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : NYE 2027: Bakermat (8)",
+     "lieu : New City Gas (palier 3)"
     ]
    }
   },
@@ -12501,6 +12698,79 @@
      "tête d'affiche : Ninajirachi (70)",
      "lieu : Igloofest (palier 1)",
      "plateau dense"
+    ]
+   }
+  },
+  {
+   "id": "a90e6e30f65b",
+   "title": "KOMPANY",
+   "venue_id": "mtelus",
+   "night": "2027-01-23",
+   "start": "2027-01-23T22:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "kompany",
+     "name": "Kompany",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mad-dubz",
+     "name": "Mad Dubz",
+     "billing": "support"
+    },
+    {
+     "artist_id": "beastboi",
+     "name": "BEASTBOI",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lyes",
+     "name": "LYES",
+     "billing": "support"
+    },
+    {
+     "artist_id": "otsukare",
+     "name": "Otsukare",
+     "billing": "support"
+    },
+    {
+     "artist_id": "otsukane",
+     "name": "Otsukane",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kleed",
+     "name": "KLEED",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/event/31006564DCC171B5?lang=fr-ca&brand=evenko",
+   "event_url": "https://evenko.ca/fr/evenements/mtelus/kompany?code=e009399",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/3k9CyxM8MoZAEDvD411YDj/ae43883b5fc56241abf62966a86d7849/kompany_2027.jpg",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "mtelus",
+     "url": "https://evenko.ca/fr/evenements/mtelus/kompany?code=e009399"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/kompany-montreal-quebec-01-23-2027/event/31006564DCC171B5"
+    }
+   ],
+   "interest": {
+    "score": 47,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Kompany (55)",
+     "lieu : MTELUS (palier 1)"
     ]
    }
   },
@@ -13962,6 +14232,45 @@
    }
   },
   {
+   "id": "ac9ab02c0835",
+   "title": "Elderbrook - Heart On A Wire Tour",
+   "venue_id": "mtelus",
+   "night": "2027-03-20",
+   "start": "2027-03-20T20:00:00-04:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "elderbrook",
+     "name": "Elderbrook",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/elderbrook-heart-on-a-wire-tour-montreal-quebec-03-20-2027/event/31006548A41F5699",
+   "event_url": "https://www.ticketmaster.ca/elderbrook-heart-on-a-wire-tour-montreal-quebec-03-20-2027/event/31006548A41F5699",
+   "image": "https://s1.ticketm.net/dam/a/48e/96434e3c-3c4a-4ef2-90c7-9b0e0e6ea48e_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/elderbrook-heart-on-a-wire-tour-montreal-quebec-03-20-2027/event/31006548A41F5699"
+    }
+   ],
+   "interest": {
+    "score": 69,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Elderbrook (87)",
+     "lieu : MTELUS (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "e7d3dc7f050a",
    "title": "Calema - Montréal",
    "venue_id": "mtelus",
@@ -14246,6 +14555,47 @@
    }
   },
   {
+   "id": "9bc8d1c67904",
+   "title": "Singuila - Montréal",
+   "venue_id": "club-soda",
+   "night": "2027-04-10",
+   "start": "2027-04-10T19:00:00.000",
+   "end": "2027-04-10T22:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "singuila-montreal",
+     "name": "Singuila - Montréal",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "r&b"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2579380",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2579380"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Singuila - Montréal (8)",
+     "lieu : Club Soda (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "352812f2790b",
    "title": "CHASING ABBEY",
    "venue_id": "theatre-fairmount",
@@ -14395,6 +14745,13 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178df90c83a6f5518167f1da889"
   },
   {
+   "id": "ac9ab02c0835",
+   "name": "Elderbrook",
+   "night": "2027-03-20",
+   "venue": "MTELUS",
+   "photo": "https://i.scdn.co/image/ab6761610000f1786d6febccf758f36c8be8bbd9"
+  },
+  {
    "id": "5358c8c18188",
    "name": "twentythree",
    "night": "2026-11-23",
@@ -14414,13 +14771,6 @@
    "night": "2027-02-05",
    "venue": "Theatre Fairmount",
    "photo": "https://i.scdn.co/image/ab6761610000f178146f8239864dbfb4c67cb577"
-  },
-  {
-   "id": "2fbfa9a33e46",
-   "name": "Roy Rosenfeld",
-   "night": "2026-11-14",
-   "venue": "Stereo Bar",
-   "photo": "https://i.scdn.co/image/ab6761610000f178b7a42e171a46f57cbff211df"
   }
  ],
  "families": [
