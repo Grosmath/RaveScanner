@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-12T02:12:25Z",
+ "generated_at": "2026-11-12T17:25:06Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 385
+   "events": 398
   },
   {
    "id": "dice",
@@ -50,11 +50,11 @@
   "point-ephemere",
   "cite-de-la-musique",
   "le-trabendo",
-  "tba-paris",
+  "silencio",
   "petit-bain",
+  "tba-paris",
   "yoyo-palais-de-tokyo",
   "essaim",
-  "silencio",
   "a-side",
   "cartilage",
   "le-211",
@@ -76,19 +76,21 @@
   "tba-saint-denis",
   "miniwax",
   "peniche-adelaide",
+  "alimentation-generale",
   "main-room",
   "la-nuit",
   "le-chinois",
   "la-marbrerie",
+  "glazart",
   "le-klub",
   "tba-secret-place",
   "bus-palladium",
   "eglise-saint-eustache",
   "bal-chavaux",
   "42-marches",
-  "glazart",
-  "a-la-folie-paris",
+  "le-poisson-volant",
   "tba",
+  "a-la-folie-paris",
   "bourse-de-commerce-pinault-collection",
   "espace-francis-delage-salle-concorde",
   "folies-pigalle",
@@ -97,7 +99,6 @@
   "tba-75013",
   "tba-secret-location",
   "l-olympia",
-  "le-poisson-volant",
   "la-maison-de-la-conversation",
   "studio56",
   "27-boulevard-jules-ferry",
@@ -132,14 +133,14 @@
   "littleroom",
   "philharmonie-de-paris",
   "skybar-paris-rooftop",
-  "tba-carburant-60-rue-de-lancry-75010-paris",
   "tba-katapoull",
   "tba-le-tlm-paris-105-rue-curial-75019-paris-france",
   "tba-line-up-secret",
   "tiki-playa",
   "workshow",
   "brasserie-gallia",
-  "la-mecanique-ondulatoire"
+  "la-mecanique-ondulatoire",
+  "tba-carburant-60-rue-de-lancry-75010-paris"
  ],
  "venues": [
   {
@@ -185,6 +186,16 @@
   {
    "id": "a-side",
    "name": "A-Side",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "alimentation-generale",
+   "name": "Alimentation Générale",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1710,6 +1721,16 @@
    "known": false
   },
   {
+   "id": "alexis-le-tan",
+   "name": "Alexis Le-Tan",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "alhena",
    "name": "Alhena_",
    "tier": 0,
@@ -1757,6 +1778,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048510248dd3a9119431207a865cf",
+   "known": false
+  },
+  {
+   "id": "ambrio",
+   "name": "Ambrio",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -2927,6 +2958,16 @@
    "known": false
   },
   {
+   "id": "daisy",
+   "name": "DAISY",
+   "tier": 0,
+   "score": 30,
+   "popularity": 30,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/9f67d4cffe24c446b221ba0d1a02f904/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "daisybelle",
    "name": "Daisybelle",
    "tier": 0,
@@ -3377,6 +3418,16 @@
    "known": false
   },
   {
+   "id": "djane",
+   "name": "Djane",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "dmn-dj",
    "name": "DMN DJ",
    "tier": 0,
@@ -3587,6 +3638,16 @@
    "known": false
   },
   {
+   "id": "elvira-1",
+   "name": "Elvira (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "eman",
    "name": "EMAN (FR)",
    "tier": 0,
@@ -3614,6 +3675,16 @@
    "popularity": 4,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851f6f86809d304992c1735f544",
+   "known": false
+  },
+  {
+   "id": "emma-ollivary",
+   "name": "Emma Ollivary",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1780af74e31f4612232c39d251a",
    "known": false
   },
   {
@@ -4024,16 +4095,6 @@
    "popularity": 43,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/c1c14de3b1a504ab348d57bd60e1bd96/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "frisyro-bolani",
-   "name": "Frisyro Bolani",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4603,6 +4664,16 @@
    "known": true
   },
   {
+   "id": "iosio",
+   "name": "IOSIO",
+   "tier": 0,
+   "score": 50,
+   "popularity": 50,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782e4c02ecc5a8be1c903d5d42",
+   "known": false
+  },
+  {
    "id": "isa-castelari",
    "name": "Isa Castelari",
    "tier": 0,
@@ -5083,6 +5154,16 @@
    "known": false
   },
   {
+   "id": "kenzzza",
+   "name": "Kenzzza",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "kerrie",
    "name": "Kerrie",
    "tier": 0,
@@ -5400,6 +5481,16 @@
    "popularity": 67,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17885dbfda697c02bc156872fcd",
+   "known": false
+  },
+  {
+   "id": "laps",
+   "name": "Laps",
+   "tier": 0,
+   "score": 10,
+   "popularity": 10,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/3aa589ca0fd5d5be0c581fc827e5fd65/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -6075,6 +6166,16 @@
    "known": false
   },
   {
+   "id": "mariad",
+   "name": "MARIAD",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/435b27716c629f84f9038537294c9176/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "marie-montexier",
    "name": "Marie Montexier",
    "tier": 0,
@@ -6452,6 +6553,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "missy-da-kunt",
+   "name": "Missy Da Kunt",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17839ae07fc65a1266a03eb116e",
    "known": false
   },
   {
@@ -7038,16 +7149,6 @@
    "known": false
   },
   {
-   "id": "oslo-import-vol-3",
-   "name": "Oslo Import Vol. 3",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "osoloco",
    "name": "Osoloco",
    "tier": 0,
@@ -7305,6 +7406,16 @@
    "popularity": 54,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785b7bf431c43764408137c653",
+   "known": false
+  },
+  {
+   "id": "petit",
+   "name": "Petit",
+   "tier": 0,
+   "score": 18,
+   "popularity": 18,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/6bcbe5c15663e3b877e451354b1283e8/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -8038,16 +8149,6 @@
    "known": false
   },
   {
-   "id": "soldd6",
-   "name": "SOLDD6",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "somewhen",
    "name": "Somewhen",
    "tier": 0,
@@ -8115,6 +8216,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048518112bd50e2942f80ade89c07",
+   "known": false
+  },
+  {
+   "id": "soye",
+   "name": "Soyé",
+   "tier": 0,
+   "score": 45,
+   "popularity": 45,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781a4a20ec3f998447f95779cc",
    "known": false
   },
   {
@@ -8558,6 +8669,16 @@
    "known": false
   },
   {
+   "id": "toscan-haas",
+   "name": "Toscan Haas",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "total-freedom",
    "name": "Total Freedom",
    "tier": 0,
@@ -8778,6 +8899,16 @@
    "known": false
   },
   {
+   "id": "uphoria",
+   "name": "uphoria",
+   "tier": 0,
+   "score": 28,
+   "popularity": 28,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788a2a8bb5e71687e1562cde64",
+   "known": false
+  },
+  {
    "id": "upsammy",
    "name": "upsammy",
    "tier": 0,
@@ -8788,6 +8919,16 @@
    "known": false
   },
   {
+   "id": "urumi",
+   "name": "Urumi",
+   "tier": 0,
+   "score": 26,
+   "popularity": 26,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17882913bc59824fa47334221ab",
+   "known": false
+  },
+  {
    "id": "valise",
    "name": "Valise (FR)",
    "tier": 0,
@@ -8795,6 +8936,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "varya-karpova",
+   "name": "Varya Karpova",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17878439ff6628590b2a57f356c",
    "known": false
   },
   {
@@ -8978,6 +9129,16 @@
    "known": false
   },
   {
+   "id": "workshop-1",
+   "name": "Workshop #1",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "xdb",
    "name": "XDB",
    "tier": 0,
@@ -8985,6 +9146,16 @@
    "popularity": 2,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851194a9c69cc8bea270276a943",
+   "known": false
+  },
+  {
+   "id": "xea-1",
+   "name": "xea (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -12888,6 +13059,62 @@
    }
   },
   {
+   "id": "c1f477fcfc10",
+   "title": "Elvira, MARIAD & Xea",
+   "venue_id": "le-poisson-volant",
+   "night": "2026-11-14",
+   "start": "2026-11-14T23:59:00.000",
+   "end": "2026-11-15T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "elvira-1",
+     "name": "Elvira (1)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "xea-1",
+     "name": "xea (1)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mariad",
+     "name": "MARIAD",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "bass",
+    "techno",
+    "progressive house",
+    "dub techno"
+   ],
+   "families": [
+    "Techno",
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583909",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583909"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Elvira (1) (8)",
+     "lieu : Le Poisson Volant (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "cc6a6edb42c1",
    "title": "Freakish Take Over",
    "venue_id": "point-ephemere",
@@ -14159,6 +14386,54 @@
     "reasons": [
      "tête d'affiche : LA CH!CK: REMEMBERING BRAT SUMMER (8)",
      "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "74e97e8332ba",
+   "title": "DJ Sundae & Alexis Le-Tan",
+   "venue_id": "le-poisson-volant",
+   "night": "2026-11-19",
+   "start": "2026-11-19T23:30:00.000",
+   "end": "2026-11-20T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-sundae",
+     "name": "DJ Sundae",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "alexis-le-tan",
+     "name": "Alexis Le-Tan",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "club",
+    "dancehall"
+   ],
+   "families": [
+    "Afro & latin",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583914",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583914"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Sundae (8)",
+     "lieu : Le Poisson Volant (palier 1)"
     ]
    }
   },
@@ -15778,8 +16053,8 @@
    }
   },
   {
-   "id": "130b2a95b0ca",
-   "title": "La Onda x Le Zeralda: Mich, Pastel, Benouze",
+   "id": "15cb7eb89e00",
+   "title": "AFTER - La Onda x Le Zeralda: Mich, Pastel, Benouze",
    "venue_id": "le-zeralda",
    "night": "2026-11-21",
    "start": "2026-11-21T06:00:00.000",
@@ -16517,102 +16792,6 @@
    }
   },
   {
-   "id": "c74ae37ec308",
-   "title": "Oslo Import Vol. 3 // Frisyro Bolani & DEUX MILLE",
-   "venue_id": "tba-carburant-60-rue-de-lancry-75010-paris",
-   "night": "2026-11-21",
-   "start": "2026-11-21T20:00:00.000",
-   "end": "2026-11-22T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "oslo-import-vol-3",
-     "name": "Oslo Import Vol. 3",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "frisyro-bolani",
-     "name": "Frisyro Bolani",
-     "billing": "support"
-    },
-    {
-     "artist_id": "deux-mille",
-     "name": "DEUX MILLE",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "italo disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2561147",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2561147"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Oslo Import Vol. 3 (8)",
-     "lieu : TBA - Carburant — 60 Rue de Lancry, 75010 Paris (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "4f3ec3e1a5fd",
-   "title": "SOLDD6",
-   "venue_id": "panic-room",
-   "night": "2026-11-21",
-   "start": "2026-11-21T19:00:00.000",
-   "end": "2026-11-22T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "soldd6",
-     "name": "SOLDD6",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "house"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2566803",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2566803"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : SOLDD6 (8)",
-     "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "80dd87a73115",
    "title": "Sweet Apricots - 8 ans",
    "venue_id": "la-marbrerie",
@@ -16755,6 +16934,92 @@
    }
   },
   {
+   "id": "c74ae37ec308",
+   "title": "Oslo Import Vol. 3 // Frisyro Bolani & DEUX MILLE",
+   "venue_id": "tba-carburant-60-rue-de-lancry-75010-paris",
+   "night": "2026-11-21",
+   "start": "2026-11-21T20:00:00.000",
+   "end": "2026-11-22T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "deux-mille",
+     "name": "DEUX MILLE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "italo disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2561147",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561147"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DEUX MILLE (0)",
+     "lieu : TBA - Carburant — 60 Rue de Lancry, 75010 Paris (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "4f3ec3e1a5fd",
+   "title": "Soldd6",
+   "venue_id": "panic-room",
+   "night": "2026-11-21",
+   "start": "2026-11-21T19:00:00.000",
+   "end": "2026-11-22T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "djane",
+     "name": "Djane",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2566803",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566803"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Djane (0)",
+     "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "1385d8232675",
    "title": "Optimal Request X Fog",
    "venue_id": "le-211",
@@ -16849,6 +17114,59 @@
     "reasons": [
      "tête d'affiche : Ryan Elliott (23)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "43dea4359c25",
+   "title": "AFTER O'CLOCK: Toscan Haas B2B Equus Belli, lizaliza",
+   "venue_id": "glazart",
+   "night": "2026-11-22",
+   "start": "2026-11-22T06:00:00.000",
+   "end": "2026-11-22T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "toscan-haas",
+     "name": "Toscan Haas",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "equus-belli",
+     "name": "Equus Belli",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lizaliza",
+     "name": "lizaliza",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584067",
+   "event_url": "https://ra.co/events/2584067",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584067"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Toscan Haas (8)",
+     "lieu : Glazart (palier 2)"
     ]
    }
   },
@@ -17526,10 +17844,12 @@
    ],
    "genres": [
     "techno",
-    "electro"
+    "electro",
+    "house"
    ],
    "families": [
     "Techno",
+    "House",
     "Électro & bass"
    ],
    "price_min": null,
@@ -17708,9 +18028,11 @@
    ],
    "genres": [
     "electro",
+    "techno",
     "pop"
    ],
    "families": [
+    "Techno",
     "Électro & bass",
     "Pop & club"
    ],
@@ -17790,6 +18112,59 @@
     "reasons": [
      "tête d'affiche : Cleopard2000 (66)",
      "lieu : Mia Mao (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "7629aea69e42",
+   "title": "horsegiirL AFTERPARTY",
+   "venue_id": "silencio",
+   "night": "2026-11-27",
+   "start": "2026-11-27T23:00:00.000",
+   "end": "2026-11-28T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "horsegiirl",
+     "name": "horsegiirL",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "urumi",
+     "name": "Urumi",
+     "billing": "support"
+    },
+    {
+     "artist_id": "petit",
+     "name": "Petit",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584052",
+   "event_url": "https://ra.co/events/2584052",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584052"
+    }
+   ],
+   "interest": {
+    "score": 54,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : horsegiirL (66)",
+     "lieu : Silencio (palier 1)"
     ]
    }
   },
@@ -19312,6 +19687,49 @@
    }
   },
   {
+   "id": "b9644bd0be6c",
+   "title": "Acidisco! By Novorama & Flagrant Machine",
+   "venue_id": "alimentation-generale",
+   "night": "2026-11-28",
+   "start": "2026-11-28T23:00:00.000",
+   "end": "2026-11-29T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "soye",
+     "name": "Soyé",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583327",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583327"
+    }
+   ],
+   "interest": {
+    "score": 38,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Soyé (45)",
+     "lieu : Alimentation Générale (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "b42acdf5af34",
    "title": "cocoon - Jus-Ed b2b Move D - all night long",
    "venue_id": "essaim",
@@ -19551,6 +19969,54 @@
    }
   },
   {
+   "id": "49122f64cb24",
+   "title": "Africolor X Barbarry - Ratpi Club",
+   "venue_id": "petit-bain",
+   "night": "2026-11-28",
+   "start": "2026-11-28T23:59:00.000",
+   "end": "2026-11-29T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "kenzzza",
+     "name": "Kenzzza",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "missy-da-kunt",
+     "name": "Missy Da Kunt",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "bass",
+    "club"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583837",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583837"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Kenzzza (8)",
+     "lieu : Petit Bain (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "6313fae9e21e",
    "title": "Soeurs Malsaines - Trabendo",
    "venue_id": "le-trabendo",
@@ -19635,6 +20101,59 @@
     "reasons": [
      "tête d'affiche : YOUR LOCAL HOUSE CLUB (8)",
      "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "a5061535dda9",
+   "title": "Laps x Ambrio / Workshop #1",
+   "venue_id": "tba",
+   "night": "2026-11-28",
+   "start": "2026-11-28T14:00:00.000",
+   "end": "2026-11-28T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "laps",
+     "name": "Laps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ambrio",
+     "name": "Ambrio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "workshop-1",
+     "name": "Workshop #1",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "footwork"
+   ],
+   "families": [
+    "Électro & bass",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583960",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583960"
+    }
+   ],
+   "interest": {
+    "score": 13,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Laps (10)",
+     "lieu : TBA (palier 1)"
     ]
    }
   },
@@ -22527,6 +23046,59 @@
    }
   },
   {
+   "id": "b22d64352c52",
+   "title": "Laps x Ambrio / Workshop #2",
+   "venue_id": "tba",
+   "night": "2026-12-05",
+   "start": "2026-12-05T14:00:00.000",
+   "end": "2026-12-05T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "laps",
+     "name": "Laps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ambrio",
+     "name": "Ambrio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "workshop-1",
+     "name": "Workshop #1",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "baile funk"
+   ],
+   "families": [
+    "Afro & latin",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583963",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583963"
+    }
+   ],
+   "interest": {
+    "score": 13,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Laps (10)",
+     "lieu : TBA (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "d10b53f2490e",
    "title": "Disorder x Ethereal Decibel Festival: Support Party",
    "venue_id": "le-211",
@@ -24149,6 +24721,59 @@
    }
   },
   {
+   "id": "1bc738307a54",
+   "title": "Laps X Ambrio / Workshop #3",
+   "venue_id": "tba",
+   "night": "2026-12-12",
+   "start": "2026-12-12T14:00:00.000",
+   "end": "2026-12-12T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "laps",
+     "name": "Laps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ambrio",
+     "name": "Ambrio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "workshop-1",
+     "name": "Workshop #1",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "dub techno"
+   ],
+   "families": [
+    "Techno",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583965",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583965"
+    }
+   ],
+   "interest": {
+    "score": 13,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Laps (10)",
+     "lieu : TBA (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8cd800197d8f",
    "title": "CHINOOVO",
    "venue_id": "panic-room",
@@ -24451,6 +25076,47 @@
    }
   },
   {
+   "id": "f26c24a06a85",
+   "title": "Fightclub Techno: DAISY, Korv, Mosmozv",
+   "venue_id": "rex-club",
+   "night": "2026-12-16",
+   "start": "2026-12-16T23:59:00.000",
+   "end": "2026-12-17T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "daisy",
+     "name": "DAISY",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2583631",
+   "event_url": "https://ra.co/events/2583631",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583631"
+    }
+   ],
+   "interest": {
+    "score": 40,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DAISY (30)",
+     "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "4ec3d65d5e51",
    "title": "MEDUSA",
    "venue_id": "panic-room",
@@ -24490,6 +25156,90 @@
     "reasons": [
      "tête d'affiche : Medusa (10)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "49537b362d3a",
+   "title": "ØXYL PRESENTS: uphoria ALL NIGHT LONG",
+   "venue_id": "rex-club",
+   "night": "2026-12-17",
+   "start": "2026-12-17T23:59:00.000",
+   "end": "2026-12-18T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "uphoria",
+     "name": "uphoria",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2583896",
+   "event_url": "https://ra.co/events/2583896",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583896"
+    }
+   ],
+   "interest": {
+    "score": 38,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : uphoria (28)",
+     "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "870eb53322c1",
+   "title": "Orka: Alex Nantaya, VESPERA, UMBREE,",
+   "venue_id": "mia-mao",
+   "night": "2026-12-17",
+   "start": "2026-12-17T23:00:00.000",
+   "end": "2026-12-18T06:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "alex-nantaya",
+     "name": "Alex Nantaya",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583757",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583757"
+    }
+   ],
+   "interest": {
+    "score": 26,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Alex Nantaya (28)",
+     "lieu : Mia Mao (palier 1)"
     ]
    }
   },
@@ -24933,6 +25683,11 @@
      "billing": "support"
     },
     {
+     "artist_id": "iosio",
+     "name": "IOSIO",
+     "billing": "support"
+    },
+    {
      "artist_id": "lessss",
      "name": "LESSSS",
      "billing": "support"
@@ -24948,8 +25703,23 @@
      "billing": "support"
     },
     {
+     "artist_id": "peaksou",
+     "name": "PEAKSOU",
+     "billing": "support"
+    },
+    {
      "artist_id": "anxhela",
      "name": "ANXHELA",
+     "billing": "support"
+    },
+    {
+     "artist_id": "emma-ollivary",
+     "name": "Emma Ollivary",
+     "billing": "support"
+    },
+    {
+     "artist_id": "varya-karpova",
+     "name": "Varya Karpova",
      "billing": "support"
     }
    ],
@@ -25329,6 +26099,58 @@
     "reasons": [
      "tête d'affiche : YOUR LOCAL HOUSE CLUB (8)",
      "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "fe7f8b18ec9b",
+   "title": "Laps X Ambrio / Workshop #4",
+   "venue_id": "tba",
+   "night": "2026-12-19",
+   "start": "2026-12-19T14:00:00.000",
+   "end": "2026-12-19T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "laps",
+     "name": "Laps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ambrio",
+     "name": "Ambrio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "workshop-1",
+     "name": "Workshop #1",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "classical"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583970",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583970"
+    }
+   ],
+   "interest": {
+    "score": 13,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Laps (10)",
+     "lieu : TBA (palier 1)"
     ]
    }
   },
@@ -27182,6 +28004,13 @@
    "night": "2026-11-21",
    "venue": "YoYo - Palais de Tokyo",
    "photo": "https://i.scdn.co/image/ab6761610000f178b0dfd84b55225ddd20211b12"
+  },
+  {
+   "id": "7629aea69e42",
+   "name": "horsegiirL",
+   "night": "2026-11-27",
+   "venue": "Silencio",
+   "photo": "https://i.scdn.co/image/ab6761610000f17850fd23946deeb6991ef1ee09"
   },
   {
    "id": "9329b6d895e5",

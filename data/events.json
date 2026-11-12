@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-12T02:11:39Z",
+ "generated_at": "2026-11-12T17:24:28Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 197
+   "events": 201
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 43
+   "events": 44
   }
  ],
  "venue_order": [
@@ -63,6 +63,7 @@
   "bar-datcha",
   "nwhr",
   "sainte-catherine-hall",
+  "entrepots-dominion-les",
   "centre-phi",
   "esc",
   "sans-soleil",
@@ -87,7 +88,8 @@
   "le-ministere",
   "loft-14",
   "van-horne-studio",
-  "le-livart"
+  "le-livart",
+  "osmo-x-marusan"
  ],
  "venues": [
   {
@@ -224,6 +226,16 @@
   {
    "id": "entre-nous",
    "name": "Entre Nous",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "entrepots-dominion-les",
+   "name": "Entrepôts Dominion, Les",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -424,6 +436,16 @@
   {
    "id": "nwhr",
    "name": "NWHR",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "osmo-x-marusan",
+   "name": "Osmo x Marusan",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1197,16 +1219,6 @@
    "known": false
   },
   {
-   "id": "cannelle-montreal",
-   "name": "Cannelle - Montréal",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "carl-cox",
    "name": "Carl Cox",
    "tier": 4,
@@ -1632,6 +1644,16 @@
   {
    "id": "draris",
    "name": "Draris",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "dryadd",
+   "name": "Dryadd",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2633,6 +2655,16 @@
    "known": false
   },
   {
+   "id": "joe-claussell",
+   "name": "Joe Claussell",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851ceaa1ab3a17ec41fe9f4a8ba",
+   "known": false
+  },
+  {
    "id": "joe-toner",
    "name": "Joe Toner",
    "tier": 0,
@@ -2640,6 +2672,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "jojoflores",
+   "name": "Jojoflores",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485105f3d79bbf30ffaaa30d857a",
    "known": false
   },
   {
@@ -3156,6 +3198,16 @@
    "popularity": 75,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f0a6c56cd3bb8946a407c3d7",
+   "known": false
+  },
+  {
+   "id": "lyzergyk",
+   "name": "Lyzergyk",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3732,6 +3784,16 @@
    "known": false
   },
   {
+   "id": "noga-erez",
+   "name": "Noga Erez",
+   "tier": 0,
+   "score": 64,
+   "popularity": 64,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178bf5244cc60078a64c0217ac6",
+   "known": false
+  },
+  {
    "id": "northern-invasion",
    "name": "Northern Invasion",
    "tier": 0,
@@ -4052,6 +4114,16 @@
    "known": false
   },
   {
+   "id": "polak",
+   "name": "Polak",
+   "tier": 0,
+   "score": 46,
+   "popularity": 46,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781e813b34ebafcaec37f6aacb",
+   "known": false
+  },
+  {
    "id": "ponsif",
    "name": "Ponsif",
    "tier": 0,
@@ -4302,6 +4374,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "santinista",
+   "name": "santinista",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5773,8 +5855,8 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "cannelle-montreal",
-     "name": "Cannelle - Montréal",
+     "artist_id": "isla-den",
+     "name": "Isla Den",
      "billing": "support"
     }
    ],
@@ -6736,6 +6818,58 @@
     "reasons": [
      "tête d'affiche : Roy Rosenfeld (49)",
      "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "91b62ed74d22",
+   "title": "RÉSONANCE // VOL. 1",
+   "venue_id": "entrepots-dominion-les",
+   "night": "2026-11-14",
+   "start": "2026-11-14T21:00:00.000",
+   "end": "2026-11-15T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "polak",
+     "name": "Polak",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lyzergyk",
+     "name": "Lyzergyk",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dryadd",
+     "name": "Dryadd",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "acid"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583404",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583404"
+    }
+   ],
+   "interest": {
+    "score": 39,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Polak (46)",
+     "lieu : Entrepôts Dominion, Les (palier 1)"
     ]
    }
   },
@@ -7942,6 +8076,52 @@
    }
   },
   {
+   "id": "9dfccbc5a383",
+   "title": "Tangerine",
+   "venue_id": "esc",
+   "night": "2026-11-19",
+   "start": "2026-11-19T22:00:00.000",
+   "end": "2026-11-20T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lou-celsius",
+     "name": "Lou Celsius",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "crissemarqueur",
+     "name": "CrisseMarqueur",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583436",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583436"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lou Celsius (8)",
+     "lieu : ESC (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "b32e027bc785",
    "title": "UNHRD",
    "venue_id": "salon-daome",
@@ -8328,8 +8508,8 @@
    }
   },
   {
-   "id": "4c72874cd455",
-   "title": "Kinetic 5 Year Anniversary",
+   "id": "58cff8968763",
+   "title": "Kinetic 5 Year Anniversary w/ Huerta",
    "venue_id": "salon-daome",
    "night": "2026-11-20",
    "start": "2026-11-20T22:30:00.000",
@@ -9654,9 +9834,11 @@
    ],
    "genres": [
     "disco",
-    "funk / soul"
+    "funk / soul",
+    "electro"
    ],
    "families": [
+    "Électro & bass",
     "Disco & funk"
    ],
    "price_min": null,
@@ -9677,6 +9859,48 @@
     "reasons": [
      "tête d'affiche : Ferias (8)",
      "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "fc9dce4d362f",
+   "title": "Mercado Popular: Fundraiser for Venezuela & Colombia",
+   "venue_id": "osmo-x-marusan",
+   "night": "2026-11-21",
+   "start": "2026-11-21T18:00:00.000",
+   "end": "2026-11-21T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "santinista",
+     "name": "santinista",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "reggaeton",
+    "dembow"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2583903",
+   "event_url": "https://ra.co/events/2583903",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583903"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : santinista (0)",
+     "lieu : Osmo x Marusan (palier 1)"
     ]
    }
   },
@@ -12379,6 +12603,11 @@
      "billing": "support"
     },
     {
+     "artist_id": "ferias",
+     "name": "Ferias",
+     "billing": "support"
+    },
+    {
      "artist_id": "cuerpos",
      "name": "CUERPOS",
      "billing": "support"
@@ -12857,6 +13086,52 @@
     "reasons": [
      "tête d'affiche : Yarra Sound (8)",
      "lieu : Le Ministère (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "14765369254b",
+   "title": "Joe Claussell, Jojoflores",
+   "venue_id": "salon-daome",
+   "night": "2026-12-12",
+   "start": "2026-12-12T22:00:00.000",
+   "end": "2026-12-13T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "joe-claussell",
+     "name": "Joe Claussell",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "jojoflores",
+     "name": "Jojoflores",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584043",
+   "event_url": "https://ra.co/events/2584043",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584043"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Joe Claussell (0)",
+     "lieu : Salon Daome (palier 2)"
     ]
    }
   },
@@ -15842,6 +16117,45 @@
     "reasons": [
      "tête d'affiche : Adrian Sherwood (41)",
      "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "6e2d954eb139",
+   "title": "NOGA EREZ - DUCK SEASON TOUR 2027",
+   "venue_id": "mtelus",
+   "night": "2027-04-07",
+   "start": "2027-04-07T20:00:00-04:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "noga-erez",
+     "name": "Noga Erez",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/noga-erez-duck-season-tour-2027-montreal-quebec-04-07-2027/event/3100656BA1CF4B12",
+   "event_url": "https://www.ticketmaster.ca/noga-erez-duck-season-tour-2027-montreal-quebec-04-07-2027/event/3100656BA1CF4B12",
+   "image": "https://s1.ticketm.net/dam/a/6f3/cd64cdc5-09fa-4c1f-9e46-b8afdbb646f3_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/noga-erez-duck-season-tour-2027-montreal-quebec-04-07-2027/event/3100656BA1CF4B12"
+    }
+   ],
+   "interest": {
+    "score": 52,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Noga Erez (64)",
+     "lieu : MTELUS (palier 1)"
     ]
    }
   },
