@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-11T16:56:22Z",
+ "generated_at": "2026-11-12T02:11:39Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-11",
-  "end": "2027-05-10"
+  "start": "2026-11-12",
+  "end": "2027-05-11"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 177
+   "events": 197
   },
   {
    "id": "piknic",
@@ -24,7 +24,7 @@
   {
    "id": "new_city_gas",
    "ok": true,
-   "events": 141
+   "events": 142
   },
   {
    "id": "mtelus",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 42
+   "events": 43
   }
  ],
  "venue_order": [
@@ -65,10 +65,12 @@
   "sainte-catherine-hall",
   "centre-phi",
   "esc",
+  "sans-soleil",
   "entre-nous",
   "le-balcon",
   "la-recre",
   "white-wall-studio",
+  "cabaret-berlin",
   "cafe-social-b-hive",
   "club-soda",
   "warehouse",
@@ -81,9 +83,9 @@
   "club-dd-s",
   "ctrllab-art-house-and-gallery",
   "gu-garage-urbain",
+  "la-sotterenea",
   "le-ministere",
   "loft-14",
-  "sans-soleil",
   "van-horne-studio",
   "le-livart"
  ],
@@ -149,6 +151,16 @@
   {
    "id": "breakglass-studios",
    "name": "Breakglass Studios",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "cabaret-berlin",
+   "name": "Cabaret Berlin",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -286,6 +298,16 @@
   {
    "id": "la-recre",
    "name": "La Récré",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "la-sotterenea",
+   "name": "La Sotterenea",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -793,10 +815,10 @@
    "id": "arder",
    "name": "Arder:",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178918d137254097572f217f400",
+   "image": "",
    "known": false
   },
   {
@@ -859,6 +881,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17846b2f165de9e8bcbea8eeacb",
+   "known": false
+  },
+  {
+   "id": "avy-dubz",
+   "name": "AVY DUBZ [US]",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178896e5e403e6ab3cb8dcf07c9",
    "known": false
   },
   {
@@ -1002,6 +1034,16 @@
    "known": false
   },
   {
+   "id": "benefit-concert-for-solidarity-collectives-in-ukraine",
+   "name": "Benefit concert for Solidarity Collectives in Ukraine",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "biscits",
    "name": "Biscits",
    "tier": 0,
@@ -1015,8 +1057,8 @@
    "id": "blanke",
    "name": "Blanke",
    "tier": 0,
-   "score": 58,
-   "popularity": 58,
+   "score": 59,
+   "popularity": 59,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17833e502d7a9af1c299abf1f8d",
    "known": false
@@ -1398,6 +1440,16 @@
    "known": false
   },
   {
+   "id": "devault",
+   "name": "Devault",
+   "tier": 0,
+   "score": 67,
+   "popularity": 67,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178669860fe69ee33857a3bdeb6",
+   "known": false
+  },
+  {
    "id": "dick-lee",
    "name": "Dick Lee",
    "tier": 0,
@@ -1405,6 +1457,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851708733921a26fc47766b78f6",
+   "known": false
+  },
+  {
+   "id": "dijipoune",
+   "name": "Dijipoune",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1425,6 +1487,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/217dda88979d0006cb2b4a0b31dd5907/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "dizzy-play",
+   "name": "Dizzy Play",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1498,6 +1570,16 @@
    "known": false
   },
   {
+   "id": "dj-spence",
+   "name": "DJ Spence",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048515a3e0d3d66f72160453adbf8",
+   "known": false
+  },
+  {
    "id": "dj-swisha",
    "name": "DJ SWISHA",
    "tier": 0,
@@ -1548,6 +1630,16 @@
    "known": false
   },
   {
+   "id": "draris",
+   "name": "Draris",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "dust-e-1",
    "name": "Dust-E-1",
    "tier": 0,
@@ -1565,6 +1657,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178bfacf5c003ffa796f0a75a85",
+   "known": false
+  },
+  {
+   "id": "ebony",
+   "name": "Èbony",
+   "tier": 0,
+   "score": 45,
+   "popularity": 45,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783a77d66d2dc3cb5ddc65d4ca",
    "known": false
   },
   {
@@ -1688,6 +1790,16 @@
    "known": false
   },
   {
+   "id": "excalibur",
+   "name": "Excalibur",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485116bd549b4c50d4bf11e345c7",
+   "known": false
+  },
+  {
    "id": "ezra-collective",
    "name": "Ezra Collective",
    "tier": 0,
@@ -1798,6 +1910,16 @@
    "known": false
   },
   {
+   "id": "fovos-au-newspeak",
+   "name": "FOVOS au Newspeak",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "francoys",
    "name": "FRANCOYS",
    "tier": 0,
@@ -1895,6 +2017,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "galcher-lustwerk",
+   "name": "Galcher Lustwerk",
+   "tier": 0,
+   "score": 39,
+   "popularity": 39,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178eeed845df1962cf00321e433",
    "known": false
   },
   {
@@ -2018,6 +2150,16 @@
    "known": false
   },
   {
+   "id": "h1bou",
+   "name": "h1bou",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "halo",
    "name": "HALO",
    "tier": 0,
@@ -2095,6 +2237,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "hidi",
+   "name": "Hidi",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/33ec94eed30c48b2d6c8bc539ae84224/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2208,6 +2360,16 @@
    "popularity": 91,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d187406161b028580b4903c1",
+   "known": false
+  },
+  {
+   "id": "ian-jackman",
+   "name": "Ian Jackman",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -2463,6 +2625,16 @@
   {
    "id": "jino-k",
    "name": "Jino K",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "joe-toner",
+   "name": "Joe Toner",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2887,6 +3059,16 @@
    "known": false
   },
   {
+   "id": "lis-dalton",
+   "name": "Lis Dalton",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "loops",
    "name": "Loops",
    "tier": 0,
@@ -2987,11 +3169,21 @@
    "known": false
   },
   {
+   "id": "maara",
+   "name": "Maara",
+   "tier": 0,
+   "score": 41,
+   "popularity": 41,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e94417c1ccf16a5e5d430e9c",
+   "known": false
+  },
+  {
    "id": "machaki",
    "name": "Machaki",
    "tier": 0,
-   "score": 30,
-   "popularity": 30,
+   "score": 28,
+   "popularity": 28,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788aa1282b06fdec06ceb0259d",
    "known": false
@@ -3200,6 +3392,16 @@
    "known": false
   },
   {
+   "id": "mickey-perez",
+   "name": "Mickey Perez",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "mightykat",
    "name": "MightyKat",
    "tier": 0,
@@ -3350,6 +3552,16 @@
    "known": false
   },
   {
+   "id": "more-le-red-room",
+   "name": "more @ Le Red Room",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "mosimann",
    "name": "Mosimann",
    "tier": 0,
@@ -3387,6 +3599,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/99db76bcf80579ca18c807be5f04f28d/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "musa",
+   "name": "musa",
+   "tier": 0,
+   "score": 46,
+   "popularity": 46,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/5afdd90ed961718c0c7197f16b22d67e/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3522,6 +3744,16 @@
   {
    "id": "nosferayous",
    "name": "Nosferayous",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "nye-2027",
+   "name": "NYE 2027",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3690,6 +3922,16 @@
    "known": false
   },
   {
+   "id": "paranoid-london",
+   "name": "Paranoid London",
+   "tier": 0,
+   "score": 38,
+   "popularity": 38,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785974e92b915a79b58b5a2c7c",
+   "known": false
+  },
+  {
    "id": "parra-for-cuva",
    "name": "Parra for Cuva",
    "tier": 0,
@@ -3700,6 +3942,16 @@
    "known": false
   },
   {
+   "id": "paskal-daze",
+   "name": "Paskal Daze",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785228fe95d7db28d7b98b7bb8",
+   "known": false
+  },
+  {
    "id": "patrick-6",
    "name": "Patrick (6)",
    "tier": 0,
@@ -3707,6 +3959,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "pauza",
+   "name": "PAUZA",
+   "tier": 0,
+   "score": 50,
+   "popularity": 50,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178408a1bf05a0de13aba3e2bed",
    "known": false
   },
   {
@@ -3757,6 +4019,16 @@
    "popularity": 2,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1787168a50a845bcc2d25145e8f",
+   "known": false
+  },
+  {
+   "id": "plastik-patrik",
+   "name": "Plastik Patrik",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3818,6 +4090,19 @@
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b8dc93a204a7cb645360dc4d",
    "known": false
+  },
+  {
+   "id": "priori",
+   "name": "Priori",
+   "tier": 2,
+   "score": 47,
+   "popularity": 49,
+   "genres": [
+    "house",
+    "electro"
+   ],
+   "image": "https://i.scdn.co/image/ab6761610000f178cef61d36357ff9586c4b7d3b",
+   "known": true
   },
   {
    "id": "pyromane",
@@ -3953,8 +4238,8 @@
    "id": "runa",
    "name": "Runa",
    "tier": 0,
-   "score": 21,
-   "popularity": 21,
+   "score": 22,
+   "popularity": 22,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/431b6fac0064b97f10ccb7cbe555a3ee/250x250-000000-80-0-0.jpg",
    "known": false
@@ -4000,6 +4285,16 @@
    "known": false
   },
   {
+   "id": "salvo",
+   "name": "Salvo (CA)",
+   "tier": 0,
+   "score": 3,
+   "popularity": 3,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dc89cae52ce8001caf038ae3",
+   "known": false
+  },
+  {
    "id": "sam-blake",
    "name": "sam blake",
    "tier": 0,
@@ -4017,6 +4312,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "sard",
+   "name": "Sard",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/1939edc554b7159f33dd66af2eecfc34/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4220,6 +4525,16 @@
    "known": false
   },
   {
+   "id": "solstice-noir",
+   "name": "Solstice Noir",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "somebody3lse",
    "name": "somebody3lse",
    "tier": 0,
@@ -4360,6 +4675,16 @@
    "known": false
   },
   {
+   "id": "terrel",
+   "name": "Terrel",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "the-bald-girl",
    "name": "the bald girl",
    "tier": 0,
@@ -4407,6 +4732,16 @@
    "popularity": 45,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788e32002764f1ee24b990e133",
+   "known": false
+  },
+  {
+   "id": "tiga",
+   "name": "Tiga",
+   "tier": 0,
+   "score": 68,
+   "popularity": 68,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784cadec9a07cd964d1420a7bc",
    "known": false
   },
   {
@@ -4500,6 +4835,16 @@
    "known": false
   },
   {
+   "id": "turtle-nex",
+   "name": "turtle nex",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "twentythree",
    "name": "twentythree",
    "tier": 0,
@@ -4562,6 +4907,16 @@
   {
    "id": "uzi-soulmeka",
    "name": "UZI (Soulmeka)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "vampire-disko-debut-at-cabaret",
+   "name": "VAMPIRE DISKO DEBUT AT CABARET",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -4637,6 +4992,16 @@
    "popularity": 61,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f02c148a51fb4b5923d0f6d9",
+   "known": false
+  },
+  {
+   "id": "visionaire-not-millionaire",
+   "name": "Visionaire Not Millionaire",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4753,8 +5118,8 @@
    "id": "yvnni",
    "name": "YVNNI",
    "tier": 0,
-   "score": 11,
-   "popularity": 11,
+   "score": 10,
+   "popularity": 10,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780956aae884c43627827eb0ea",
    "known": false
@@ -4841,47 +5206,6 @@
   }
  ],
  "events": [
-  {
-   "id": "7341c39b9b90",
-   "title": "DOWN2TECHNO: Every Wednesday",
-   "venue_id": "le-red-room",
-   "night": "2026-11-11",
-   "start": "2026-11-11T22:00:00.000",
-   "end": "2026-11-12T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "down2techno-every-wednesday",
-     "name": "DOWN2TECHNO: Every Wednesday",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2576417",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2576417"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DOWN2TECHNO: Every Wednesday (8)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
   {
    "id": "ffced75f54a9",
    "title": "Donny Benét",
@@ -5271,6 +5595,43 @@
    }
   },
   {
+   "id": "ca521b6abb02",
+   "title": "Sans Soleil w/ Terrel",
+   "venue_id": "sans-soleil",
+   "night": "2026-11-12",
+   "start": "2026-11-12T20:00:00.000",
+   "end": "2026-11-13T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "terrel",
+     "name": "Terrel",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583335",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583335"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Terrel (8)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "948f0d12c015",
    "title": "Vino Disco Thursdays: Keimy Goddard & Pyromane",
    "venue_id": "vino-disco",
@@ -5356,12 +5717,12 @@
    }
   },
   {
-   "id": "d7179276bb66",
-   "title": "Biscits",
+   "id": "e57ab9bcf918",
+   "title": "îLESONIQ présente : BISCITS au Newspeak",
    "venue_id": "newspeak",
    "night": "2026-11-13",
-   "start": "2026-11-13T23:00:00-05:00",
-   "end": null,
+   "start": "2026-11-13T23:00:00.000",
+   "end": "2026-11-14T04:00:00.000",
    "lineup": [
     {
      "artist_id": "biscits",
@@ -5376,10 +5737,14 @@
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.universe.com/events/biscits-tickets-VFGDT8?ref=ticketmaster",
-   "event_url": "https://www.universe.com/events/biscits-tickets-VFGDT8?ref=ticketmaster",
+   "event_url": "https://ra.co/events/2583354",
    "image": "https://s1.ticketm.net/dam/a/c2d/bb03b8a4-2b1c-494c-8e45-a6dc50dddc2d_SOURCE",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583354"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.universe.com/events/biscits-tickets-VFGDT8?ref=ticketmaster"
@@ -5904,6 +6269,43 @@
    }
   },
   {
+   "id": "b419ad98b924",
+   "title": "Sans Soleil w/ Lexis",
+   "venue_id": "sans-soleil",
+   "night": "2026-11-13",
+   "start": "2026-11-13T20:00:00.000",
+   "end": "2026-11-14T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lexis-music-is-my-sanctuary",
+     "name": "Lexis (Music Is My Sanctuary)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583336",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583336"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lexis (Music Is My Sanctuary) (8)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "ae21a490c926",
    "title": "★Virtualis presents: a Slasher Party★",
    "venue_id": "nwhr",
@@ -6390,6 +6792,50 @@
    }
   },
   {
+   "id": "a5d0d67471c8",
+   "title": "Sans Soleil w/ Andie",
+   "venue_id": "sans-soleil",
+   "night": "2026-11-14",
+   "start": "2026-11-14T20:00:00.000",
+   "end": "2026-11-15T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "andie",
+     "name": "Andie",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "funk / soul",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583338",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583338"
+    }
+   ],
+   "interest": {
+    "score": 25,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Andie (26)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "7cf24488c921",
    "title": "NWHR Invites Justine Perry [Berlin] // Mike Chidiac // MPHS",
    "venue_id": "nwhr",
@@ -6846,6 +7292,49 @@
    }
   },
   {
+   "id": "9be27590fd14",
+   "title": "Benefit concert for Solidarity Collectives in Ukraine",
+   "venue_id": "la-sotterenea",
+   "night": "2026-11-15",
+   "start": "2026-11-15T19:00:00.000",
+   "end": "2026-11-15T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "benefit-concert-for-solidarity-collectives-in-ukraine",
+     "name": "Benefit concert for Solidarity Collectives in Ukraine",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "ebm"
+   ],
+   "families": [
+    "Techno",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583273",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583273"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Benefit concert for Solidarity Collectives in Ukraine (8)",
+     "lieu : La Sotterenea (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "e11852697d91",
    "title": "SONORA Vol.2",
    "venue_id": "bande-passante",
@@ -6988,6 +7477,86 @@
    }
   },
   {
+   "id": "01dc645123d0",
+   "title": "Sans Soleil w/ Lis Dalton + Spence",
+   "venue_id": "sans-soleil",
+   "night": "2026-11-15",
+   "start": "2026-11-15T20:00:00.000",
+   "end": "2026-11-16T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lis-dalton",
+     "name": "Lis Dalton",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electro",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583339",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583339"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lis Dalton (0)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "71c00a6be2c5",
+   "title": "Sans Soleil w/ Salvo",
+   "venue_id": "sans-soleil",
+   "night": "2026-11-16",
+   "start": "2026-11-16T20:00:00.000",
+   "end": "2026-11-17T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "salvo",
+     "name": "Salvo (CA)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583340",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583340"
+    }
+   ],
+   "interest": {
+    "score": 8,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Salvo (CA) (3)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "de75eb4a934c",
    "title": "Sassy 009 avec Cherry Lena & sineila",
    "venue_id": "l-escogriffe-bar-spectacle",
@@ -7038,6 +7607,43 @@
     "reasons": [
      "tête d'affiche : Cherry Lena (53)",
      "lieu : l'Escogriffe Bar Spectacle (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "207449779147",
+   "title": "Sans Soleil w/ Hidi",
+   "venue_id": "sans-soleil",
+   "night": "2026-11-17",
+   "start": "2026-11-17T20:00:00.000",
+   "end": "2026-11-18T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "hidi",
+     "name": "Hidi",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583341",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583341"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Hidi (0)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -7120,6 +7726,43 @@
    }
   },
   {
+   "id": "437f71b062d7",
+   "title": "Sans Soleil w/ Visionaire Not Millionaire",
+   "venue_id": "sans-soleil",
+   "night": "2026-11-18",
+   "start": "2026-11-18T20:00:00.000",
+   "end": "2026-11-19T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "visionaire-not-millionaire",
+     "name": "Visionaire Not Millionaire",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583342",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583342"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Visionaire Not Millionaire (8)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "fd7f827ecb97",
    "title": "Ezra Collective",
    "venue_id": "theatre-beanfield",
@@ -7183,8 +7826,8 @@
     }
    ],
    "genres": [
-    "hip-hop",
     "house",
+    "hip-hop",
     "baile funk"
    ],
    "families": [
@@ -7347,6 +7990,43 @@
     "reasons": [
      "tête d'affiche : Jino K (8)",
      "lieu : Salon Daome (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "72291e1b9b08",
+   "title": "Sans Soleil w/ Mickey Perez",
+   "venue_id": "sans-soleil",
+   "night": "2026-11-19",
+   "start": "2026-11-19T20:00:00.000",
+   "end": "2026-11-20T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mickey-perez",
+     "name": "Mickey Perez",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583343",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583343"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Mickey Perez (8)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -7739,10 +8419,12 @@
    "genres": [
     "disco",
     "house",
-    "funk / soul"
+    "funk / soul",
+    "electro"
    ],
    "families": [
     "House",
+    "Électro & bass",
     "Disco & funk"
    ],
    "price_min": null,
@@ -7955,6 +8637,43 @@
    }
   },
   {
+   "id": "e8a77da77564",
+   "title": "FOVOS au Newspeak",
+   "venue_id": "newspeak",
+   "night": "2026-11-20",
+   "start": "2026-11-20T23:00:00.000",
+   "end": "2026-11-21T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "fovos-au-newspeak",
+     "name": "FOVOS au Newspeak",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583352",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583352"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : FOVOS au Newspeak (8)",
+     "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "5edbb2cfcd80",
    "title": "AFRODITE X BATIDA SOLTA: BADJUDA, Leon Suave, Mlle Cee, TRBLV, Netto",
    "venue_id": "bar-datcha",
@@ -8137,6 +8856,49 @@
     "reasons": [
      "tête d'affiche : Mechanic (CA) (8)",
      "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "81a21283ce4d",
+   "title": "Sans Soleil w/ Destiny",
+   "venue_id": "sans-soleil",
+   "night": "2026-11-20",
+   "start": "2026-11-20T20:00:00.000",
+   "end": "2026-11-21T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "destiny",
+     "name": "Destiny (CA)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "club",
+    "dancehall"
+   ],
+   "families": [
+    "Afro & latin",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583344",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583344"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Destiny (CA) (8)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -8794,6 +9556,43 @@
    }
   },
   {
+   "id": "96c0dbd087b4",
+   "title": "Arder:",
+   "venue_id": "nwhr",
+   "night": "2026-11-21",
+   "start": "2026-11-21T21:00:00.000",
+   "end": "2026-11-22T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "arder",
+     "name": "Arder:",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2544138",
+   "event_url": "https://ra.co/events/2544138",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2544138"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Arder: (8)",
+     "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "205f874a17e9",
    "title": "Fréquence Commune",
    "venue_id": "entre-nous",
@@ -8835,39 +9634,49 @@
    }
   },
   {
-   "id": "96c0dbd087b4",
-   "title": "Arder:",
-   "venue_id": "nwhr",
+   "id": "df4a8cdd162b",
+   "title": "Sans Soleil w/ Ferias + Joe Toner",
+   "venue_id": "sans-soleil",
    "night": "2026-11-21",
-   "start": "2026-11-21T21:00:00.000",
-   "end": "2026-11-22T12:00:00.000",
+   "start": "2026-11-21T20:00:00.000",
+   "end": "2026-11-22T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "arder",
-     "name": "Arder:",
+     "artist_id": "ferias",
+     "name": "Ferias",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "joe-toner",
+     "name": "Joe Toner",
+     "billing": "support"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "disco",
+    "funk / soul"
+   ],
+   "families": [
+    "Disco & funk"
+   ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2544138",
-   "event_url": "https://ra.co/events/2544138",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583345",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2544138"
+     "url": "https://ra.co/events/2583345"
     }
    ],
    "interest": {
-    "score": 6,
+    "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Arder: (0)",
-     "lieu : NWHR (palier 1)"
+     "tête d'affiche : Ferias (8)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -8938,9 +9747,11 @@
    ],
    "genres": [
     "dancehall",
-    "dub"
+    "dub",
+    "electro"
    ],
    "families": [
+    "Électro & bass",
     "Afro & latin",
     "Expérimental"
    ],
@@ -8962,6 +9773,50 @@
     "reasons": [
      "tête d'affiche : Jesse Futerman (40)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "e41bf20e98ed",
+   "title": "Sans Soleil w/ Icky Magdala",
+   "venue_id": "sans-soleil",
+   "night": "2026-11-22",
+   "start": "2026-11-22T20:00:00.000",
+   "end": "2026-11-23T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "icky-magdala",
+     "name": "Icky Magdala",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "acid",
+    "techno",
+    "bass"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583346",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583346"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Icky Magdala (0)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -10629,10 +11484,10 @@
     }
    ],
    "interest": {
-    "score": 14,
+    "score": 13,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : YVNNI (11)",
+     "tête d'affiche : YVNNI (10)",
      "lieu : Vino Disco (palier 1)"
     ]
    }
@@ -10830,6 +11685,43 @@
     "reasons": [
      "tête d'affiche : No Police (0)",
      "lieu : Salon Daome (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "e8dd5c941fd8",
+   "title": "VAMPIRE DISKO DEBUT AT CABARET",
+   "venue_id": "cabaret-berlin",
+   "night": "2026-11-28",
+   "start": "2026-11-28T22:00:00.000",
+   "end": "2026-11-29T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vampire-disko-debut-at-cabaret",
+     "name": "VAMPIRE DISKO DEBUT AT CABARET",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583359",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583359"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : VAMPIRE DISKO DEBUT AT CABARET (8)",
+     "lieu : Cabaret Berlin (palier 1)"
     ]
    }
   },
@@ -11260,6 +12152,48 @@
    }
   },
   {
+   "id": "6a9b9164c370",
+   "title": "AVY DUBZ [US] + more @ Le Red Room",
+   "venue_id": "le-red-room",
+   "night": "2026-12-04",
+   "start": "2026-12-04T22:00:00.000",
+   "end": "2026-12-05T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "more-le-red-room",
+     "name": "more @ Le Red Room",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "avy-dubz",
+     "name": "AVY DUBZ [US]",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583348",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583348"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : more @ Le Red Room (8)",
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "5ef0e10b6067",
    "title": "Club SAT: GABA Collective",
    "venue_id": "sat",
@@ -11363,6 +12297,159 @@
     "reasons": [
      "tête d'affiche : EMN (1) (8)",
      "lieu : Ctrllab Art House and Gallery (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "18b7a9ca8d47",
+   "title": "Ferias x Turbo: DNA",
+   "venue_id": "stereo",
+   "night": "2026-12-05",
+   "start": "2026-12-05T22:00:00.000",
+   "end": "2026-12-06T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "tiga",
+     "name": "Tiga",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "priori",
+     "name": "Priori",
+     "billing": "support"
+    },
+    {
+     "artist_id": "musa",
+     "name": "musa",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ebony",
+     "name": "Èbony",
+     "billing": "support"
+    },
+    {
+     "artist_id": "maara",
+     "name": "Maara",
+     "billing": "support"
+    },
+    {
+     "artist_id": "galcher-lustwerk",
+     "name": "Galcher Lustwerk",
+     "billing": "support"
+    },
+    {
+     "artist_id": "paranoid-london",
+     "name": "Paranoid London",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dj-frog",
+     "name": "DJ Frog",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kris-guilty",
+     "name": "Kris Guilty",
+     "billing": "support"
+    },
+    {
+     "artist_id": "alina",
+     "name": "Alina (MTL)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dizzy-play",
+     "name": "Dizzy Play",
+     "billing": "support"
+    },
+    {
+     "artist_id": "h1bou",
+     "name": "h1bou",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dijipoune",
+     "name": "Dijipoune",
+     "billing": "support"
+    },
+    {
+     "artist_id": "turtle-nex",
+     "name": "turtle nex",
+     "billing": "support"
+    },
+    {
+     "artist_id": "cuerpos",
+     "name": "CUERPOS",
+     "billing": "support"
+    },
+    {
+     "artist_id": "sard",
+     "name": "Sard",
+     "billing": "support"
+    },
+    {
+     "artist_id": "gene-tellem",
+     "name": "Gene Tellem",
+     "billing": "support"
+    },
+    {
+     "artist_id": "guthrie",
+     "name": "Guthrie",
+     "billing": "support"
+    },
+    {
+     "artist_id": "excalibur",
+     "name": "Excalibur",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dj-spence",
+     "name": "DJ Spence",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lis-dalton",
+     "name": "Lis Dalton",
+     "billing": "support"
+    },
+    {
+     "artist_id": "field-note",
+     "name": "Field Note",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583372",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583372"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583372"
+    }
+   ],
+   "interest": {
+    "score": 73,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Tiga (68)",
+     "lieu : Stereo (palier 3)",
+     "plateau dense"
     ]
    }
   },
@@ -11508,6 +12595,48 @@
     "reasons": [
      "tête d'affiche : Riot Ten - Montréal (8)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "1d3c635f411c",
+   "title": "Daddy",
+   "venue_id": "cabaret-berlin",
+   "night": "2026-12-05",
+   "start": "2026-12-05T22:00:00.000",
+   "end": "2026-12-06T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ian-jackman",
+     "name": "Ian Jackman",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "plastik-patrik",
+     "name": "Plastik Patrik",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583358",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583358"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ian Jackman (8)",
+     "lieu : Cabaret Berlin (palier 1)"
     ]
    }
   },
@@ -11948,6 +13077,43 @@
    }
   },
   {
+   "id": "b9253ee450da",
+   "title": "Solstice Noir",
+   "venue_id": "cabaret-berlin",
+   "night": "2026-12-18",
+   "start": "2026-12-18T22:00:00.000",
+   "end": "2026-12-19T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "solstice-noir",
+     "name": "Solstice Noir",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583357",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583357"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Solstice Noir (8)",
+     "lieu : Cabaret Berlin (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "606036914856",
    "title": "Josh Baker, Jay Pryor",
    "venue_id": "new-city-gas",
@@ -12082,6 +13248,66 @@
    }
   },
   {
+   "id": "fc0654e0d581",
+   "title": "PAUZA, Paskal Daze, Mezz | NYE 2027",
+   "venue_id": "new-city-gas",
+   "night": "2026-12-31",
+   "start": "2026-12-31T21:00:00-05:00",
+   "end": "2027-01-01T03:00:00-05:00",
+   "lineup": [
+    {
+     "artist_id": "pauza",
+     "name": "PAUZA",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "nye-2027",
+     "name": "NYE 2027",
+     "billing": "support"
+    },
+    {
+     "artist_id": "paskal-daze",
+     "name": "Paskal Daze",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mezz",
+     "name": "Mezz",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "house",
+    "mainstream"
+   ],
+   "families": [
+    "House",
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://newcitygas.com/event/pauza-214314/",
+   "event_url": "https://newcitygas.com/event/pauza-214314/",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/pauza-214314/"
+    }
+   ],
+   "interest": {
+    "score": 54,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : PAUZA (50)",
+     "lieu : New City Gas (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "b5b42fc3f500",
    "title": "SAT NYE 2026 (ALL NIGHT)",
    "venue_id": "sat",
@@ -12189,6 +13415,43 @@
     "reasons": [
      "tête d'affiche : NYE 2027: Bakermat (8)",
      "lieu : New City Gas (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "51b7e781ce5d",
+   "title": "DECADES",
+   "venue_id": "cabaret-berlin",
+   "night": "2026-12-31",
+   "start": "2026-12-31T21:00:00.000",
+   "end": "2027-01-01T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "draris",
+     "name": "Draris",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583355",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583355"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Draris (8)",
+     "lieu : Cabaret Berlin (palier 1)"
     ]
    }
   },
@@ -14160,6 +15423,45 @@
    }
   },
   {
+   "id": "2a05b4c01302",
+   "title": "Devault",
+   "venue_id": "newspeak",
+   "night": "2027-02-27",
+   "start": "2027-02-27T23:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "devault",
+     "name": "Devault",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.universe.com/events/devault-tickets-BZFQHV?ref=ticketmaster",
+   "event_url": "https://www.universe.com/events/devault-tickets-BZFQHV?ref=ticketmaster",
+   "image": "https://s1.ticketm.net/dam/a/b5b/c5b756b8-3f1d-47a0-bcf0-02200406bb5b_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.universe.com/events/devault-tickets-BZFQHV?ref=ticketmaster"
+    }
+   ],
+   "interest": {
+    "score": 60,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Devault (67)",
+     "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "2a15ab27b165",
    "title": "D.O.D",
    "venue_id": "new-city-gas",
@@ -14881,11 +16183,11 @@
  ],
  "announcements": [
   {
-   "id": "7844d9cc5250",
-   "name": "MALIVE",
-   "night": "2026-11-20",
-   "venue": "New City Gas",
-   "photo": "https://i.scdn.co/image/ab6761610000f178df90c83a6f5518167f1da889"
+   "id": "18b7a9ca8d47",
+   "name": "Tiga",
+   "night": "2026-12-05",
+   "venue": "Stereo",
+   "photo": "https://i.scdn.co/image/ab6761610000f1784cadec9a07cd964d1420a7bc"
   },
   {
    "id": "ac9ab02c0835",
@@ -14909,11 +16211,25 @@
    "photo": "https://i.scdn.co/image/ab6761610000f17874f17b856692fa4d1ed38a06"
   },
   {
+   "id": "2a05b4c01302",
+   "name": "Devault",
+   "night": "2027-02-27",
+   "venue": "Newspeak",
+   "photo": "https://i.scdn.co/image/ab6761610000f178669860fe69ee33857a3bdeb6"
+  },
+  {
    "id": "4f46218e95e1",
    "name": "Romain Garcia",
    "night": "2027-02-05",
    "venue": "Theatre Fairmount",
    "photo": "https://i.scdn.co/image/ab6761610000f178146f8239864dbfb4c67cb577"
+  },
+  {
+   "id": "fc0654e0d581",
+   "name": "PAUZA",
+   "night": "2026-12-31",
+   "venue": "New City Gas",
+   "photo": "https://i.scdn.co/image/ab6761610000f178408a1bf05a0de13aba3e2bed"
   }
  ],
  "families": [
@@ -14956,21 +16272,6 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb1a0d54ab853f86eba713585b",
    "event_id": "5d184e1ab07e"
-  },
-  {
-   "kind": "event",
-   "day": "SAM 14 NOV",
-   "title": "Miss Monique",
-   "venue": "New City Gas",
-   "time": "22:00 → 03:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "Henri Bergmann, STRIKE BLIND",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5ebb8028862eeb5ccaf303d71ce",
-   "event_id": "2757a431a3f6"
   },
   {
    "kind": "event",
@@ -15106,6 +16407,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb95985c17f4964a0417da944b",
    "event_id": "83e97f148d09"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 5 DEC",
+   "title": "Tiga",
+   "venue": "Stereo",
+   "time": "22:00 → 22:00",
+   "tier": 2,
+   "reason": "Plateau dense",
+   "supports": "Priori, musa, Èbony",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb4cadec9a07cd964d1420a7bc",
+   "event_id": "18b7a9ca8d47"
   }
  ]
 }
