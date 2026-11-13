@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-13T01:44:30Z",
+ "generated_at": "2026-11-13T16:59:27Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 198
+   "events": 213
   },
   {
    "id": "piknic",
@@ -29,12 +29,12 @@
   {
    "id": "mtelus",
    "ok": true,
-   "events": 16
+   "events": 17
   },
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 44
+   "events": 43
   }
  ],
  "venue_order": [
@@ -46,6 +46,7 @@
   "mtelus",
   "newspeak",
   "theatre-fairmount",
+  "ausgang-plaza",
   "salon-daome",
   "stereo-bar",
   "sat",
@@ -53,7 +54,6 @@
   "s-a-t",
   "studio-td",
   "systeme",
-  "ausgang-plaza",
   "le-red-room",
   "union-francaise-de-montreal",
   "vino-disco",
@@ -71,27 +71,38 @@
   "le-balcon",
   "la-recre",
   "white-wall-studio",
+  "blue-room",
   "cabaret-berlin",
   "cafe-social-b-hive",
   "club-soda",
   "warehouse",
-  "blue-room",
+  "ctrllab-art-house-and-gallery",
   "le-ritz",
   "red-roof-church",
+  "100lux",
   "180g-cafe-disquaire",
   "bande-passante",
   "breakglass-studios",
   "club-dd-s",
-  "ctrllab-art-house-and-gallery",
   "gu-garage-urbain",
   "la-sotterenea",
   "le-ministere",
   "loft-14",
+  "osmo-x-marusan",
   "van-horne-studio",
-  "le-livart",
-  "osmo-x-marusan"
+  "le-livart"
  ],
  "venues": [
+  {
+   "id": "100lux",
+   "name": "100Lux",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
   {
    "id": "180g-cafe-disquaire",
    "name": "180g Café - Disquaire",
@@ -814,6 +825,16 @@
    "known": false
   },
   {
+   "id": "arlo",
+   "name": "Arlo",
+   "tier": 0,
+   "score": 64,
+   "popularity": 64,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17846debf66f5c24400ddb3f6e5",
+   "known": false
+  },
+  {
    "id": "artbat",
    "name": "Artbat",
    "tier": 4,
@@ -863,6 +884,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048515b82ddf4a10f7e7b155b73ac",
+   "known": false
+  },
+  {
+   "id": "atelier-de-danse-waacking",
+   "name": "ATELIER DE DANSE WAACKING",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1066,6 +1097,16 @@
    "known": false
   },
   {
+   "id": "blueroom-welcomes-back-on",
+   "name": "BlueRoom Welcomes Back: On",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "blvnkspvce",
    "name": "BLVNKSPVCE",
    "tier": 0,
@@ -1159,6 +1200,16 @@
    "known": false
   },
   {
+   "id": "bwi-bwi",
+   "name": "Bwi-Bwi",
+   "tier": 0,
+   "score": 25,
+   "popularity": 25,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781062a97ce13ab58274a1ab2e",
+   "known": false
+  },
+  {
    "id": "calema-montreal",
    "name": "Calema - Montréal",
    "tier": 0,
@@ -1189,6 +1240,16 @@
    "known": false
   },
   {
+   "id": "care",
+   "name": "Care",
+   "tier": 0,
+   "score": 13,
+   "popularity": 13,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/a740a59eadc1b0b50ebe77a3edc3bb83/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "carl-cox",
    "name": "Carl Cox",
    "tier": 4,
@@ -1200,6 +1261,16 @@
    ],
    "image": "https://i.scdn.co/image/ab6761610000f178edb3ce2bc522e2abbf098083",
    "known": true
+  },
+  {
+   "id": "chago-91",
+   "name": "chago_91",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
   },
   {
    "id": "char-l-n",
@@ -1312,6 +1383,26 @@
    "known": false
   },
   {
+   "id": "comed-bill-pay-customer-service-phone-number",
+   "name": "ComEd Bill Pay Customer Service Phone Number",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "conference-de-danse-construction-de-la-communaute-de-la-house-danse-a-montreal",
+   "name": "CONFÉRENCE DE DANSE - Construction de la communauté de la house danse à Montréal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "cpr-annie",
    "name": "CPR Annie",
    "tier": 0,
@@ -1382,6 +1473,16 @@
    "known": false
   },
   {
+   "id": "daura",
+   "name": "Daura",
+   "tier": 0,
+   "score": 21,
+   "popularity": 21,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788191d37126a8fc67371a6b2c",
+   "known": false
+  },
+  {
    "id": "david-morales",
    "name": "David Morales",
    "tier": 0,
@@ -1399,6 +1500,16 @@
    "popularity": 81,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17889ffabe57a25cedeca3309e7",
+   "known": false
+  },
+  {
+   "id": "dee-diggs",
+   "name": "Dee Diggs",
+   "tier": 0,
+   "score": 16,
+   "popularity": 16,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786aeda9531f1e4f543d56a473",
    "known": false
   },
   {
@@ -1594,6 +1705,16 @@
   {
    "id": "draris",
    "name": "Draris",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "drink-n-draw",
+   "name": "Drink n Draw",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2069,6 +2190,16 @@
    "popularity": 34,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178bf1311546afbec3f9ed52bfb",
+   "known": false
+  },
+  {
+   "id": "gonno",
+   "name": "Gonno",
+   "tier": 0,
+   "score": 8,
+   "popularity": 8,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784b2f2b1445bdae8000a213c1",
    "known": false
   },
   {
@@ -3334,6 +3465,16 @@
    "known": false
   },
   {
+   "id": "matsehora",
+   "name": "Matsehora",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "mayalabae",
    "name": "mayalabae",
    "tier": 0,
@@ -3744,6 +3885,16 @@
    "known": false
   },
   {
+   "id": "nubian-nene",
+   "name": "Nubian Néné",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "nye-2027",
    "name": "NYE 2027",
    "tier": 0,
@@ -3831,6 +3982,26 @@
    "popularity": 17,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782b84bd65a2e74587b6504e9a",
+   "known": false
+  },
+  {
+   "id": "on",
+   "name": "On",
+   "tier": 0,
+   "score": 26,
+   "popularity": 26,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/275797c71a357674b1cc0a7a9aa03a0f/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "online-payment-options",
+   "name": "Online Payment Options",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4087,6 +4258,16 @@
    "known": true
   },
   {
+   "id": "queenie-jr",
+   "name": "Queenie Jr",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783901516b159b5616b9fa4aef",
+   "known": false
+  },
+  {
    "id": "quick-payment-guide",
    "name": "Quick Payment Guide",
    "tier": 0,
@@ -4197,6 +4378,16 @@
    "known": false
   },
   {
+   "id": "rules",
+   "name": "Rules",
+   "tier": 0,
+   "score": 75,
+   "popularity": 75,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789b678b0a34b2b9fb23404f8f",
+   "known": false
+  },
+  {
    "id": "rum-gold",
    "name": "rum.gold",
    "tier": 0,
@@ -4274,16 +4465,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "santinista",
-   "name": "santinista",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4644,6 +4825,16 @@
    "popularity": 66,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d34e406cb85d329a522e58ed",
+   "known": false
+  },
+  {
+   "id": "tendresse-a-holiday-market",
+   "name": "Tendresse. A Holiday Market",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5758,8 +5949,12 @@
      "billing": "headliner"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
@@ -6454,6 +6649,48 @@
     "reasons": [
      "tête d'affiche : MLLE CEE (8)",
      "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "e3c9beca9282",
+   "title": "ComEd Bill Pay Customer Service Phone Number & Online Payment Options",
+   "venue_id": "ctrllab-art-house-and-gallery",
+   "night": "2026-11-14",
+   "start": "2026-11-14T23:00:00.000",
+   "end": "2026-11-15T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "comed-bill-pay-customer-service-phone-number",
+     "name": "ComEd Bill Pay Customer Service Phone Number",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "online-payment-options",
+     "name": "Online Payment Options",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2584681",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584681"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ComEd Bill Pay Customer Service Phone Number (8)",
+     "lieu : Ctrllab Art House and Gallery (palier 1)"
     ]
    }
   },
@@ -8164,6 +8401,54 @@
    }
   },
   {
+   "id": "7d1b98f33f09",
+   "title": "BlueRoom Welcomes Back: On&On",
+   "venue_id": "blue-room",
+   "night": "2026-11-20",
+   "start": "2026-11-20T22:00:00.000",
+   "end": "2026-11-21T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "on",
+     "name": "On",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "blueroom-welcomes-back-on",
+     "name": "BlueRoom Welcomes Back: On",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "club",
+    "electronica"
+   ],
+   "families": [
+    "Pop & club",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584513",
+   "event_url": "https://ra.co/events/2584513",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584513"
+    }
+   ],
+   "interest": {
+    "score": 25,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : On (26)",
+     "lieu : Blue Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "bac6115f5c1b",
    "title": "ASCENSION & REVVED UP - The Euphoria Inferno",
    "venue_id": "esc",
@@ -8793,12 +9078,12 @@
    }
   },
   {
-   "id": "dcd3309606a3",
-   "title": "Birthday Bash: Mike Larry & Friends",
+   "id": "68cbb4bc1f3a",
+   "title": "Arder: Mike, Larry, and friends. Dirty 40 smash-a-thon",
    "venue_id": "nwhr",
    "night": "2026-11-21",
    "start": "2026-11-21T22:00:00.000",
-   "end": "2026-11-22T06:00:00.000",
+   "end": "2026-11-22T10:00:00.000",
    "lineup": [
     {
      "artist_id": "mike-larry",
@@ -8814,18 +9099,18 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2576038",
-   "event_url": "https://ra.co/events/2576038",
+   "ticket_url": "https://ra.co/events/2544138",
+   "event_url": "https://ra.co/events/2544138",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2576038"
+     "url": "https://ra.co/events/2544138"
     },
     {
      "id": "ra",
-     "url": "https://ra.co/events/2544138"
+     "url": "https://ra.co/events/2576038"
     }
    ],
    "interest": {
@@ -9175,6 +9460,48 @@
    }
   },
   {
+   "id": "fc9dce4d362f",
+   "title": "Mercado Popular: Fundraiser for Venezuela & Colombia",
+   "venue_id": "osmo-x-marusan",
+   "night": "2026-11-21",
+   "start": "2026-11-21T18:00:00.000",
+   "end": "2026-11-21T23:59:00.000",
+   "lineup": [
+    {
+     "artist_id": "chago-91",
+     "name": "chago_91",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "reggaeton",
+    "dembow"
+   ],
+   "families": [
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2583903",
+   "event_url": "https://ra.co/events/2583903",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583903"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : chago_91 (8)",
+     "lieu : Osmo x Marusan (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "df4a8cdd162b",
    "title": "Sans Soleil w/ Ferias + Joe Toner",
    "venue_id": "sans-soleil",
@@ -9220,48 +9547,6 @@
     "reasons": [
      "tête d'affiche : Ferias (8)",
      "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "fc9dce4d362f",
-   "title": "Mercado Popular: Fundraiser for Venezuela & Colombia",
-   "venue_id": "osmo-x-marusan",
-   "night": "2026-11-21",
-   "start": "2026-11-21T18:00:00.000",
-   "end": "2026-11-21T23:59:00.000",
-   "lineup": [
-    {
-     "artist_id": "santinista",
-     "name": "santinista",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "reggaeton",
-    "dembow"
-   ],
-   "families": [
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2583903",
-   "event_url": "https://ra.co/events/2583903",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583903"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : santinista (0)",
-     "lieu : Osmo x Marusan (palier 1)"
     ]
    }
   },
@@ -9333,10 +9618,10 @@
    "genres": [
     "dancehall",
     "dub",
-    "electro"
+    "house"
    ],
    "families": [
-    "Électro & bass",
+    "House",
     "Afro & latin",
     "Expérimental"
    ],
@@ -11564,7 +11849,6 @@
     }
    ],
    "genres": [
-    "deep house",
     "house"
    ],
    "families": [
@@ -11580,6 +11864,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2563873"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584813"
     }
    ],
    "interest": {
@@ -11621,6 +11909,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2570063"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584809"
     }
    ],
    "interest": {
@@ -11737,6 +12029,57 @@
    }
   },
   {
+   "id": "a8b81fef3938",
+   "title": "Dee Diggs X JADALAREIGN X BLACKGOLD",
+   "venue_id": "ausgang-plaza",
+   "night": "2026-12-04",
+   "start": "2026-12-04T22:00:00.000",
+   "end": "2026-12-05T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dee-diggs",
+     "name": "Dee Diggs",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "jadalareign",
+     "name": "JADALAREIGN",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dj-blackgold",
+     "name": "DJ BlackGold",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2584819",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584819"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Dee Diggs (16)",
+     "lieu : Ausgang Plaza (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "6a9b9164c370",
    "title": "AVY DUBZ [US] + more @ Le Red Room",
    "venue_id": "le-red-room",
@@ -11775,6 +12118,43 @@
     "reasons": [
      "tête d'affiche : more @ Le Red Room (8)",
      "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "7f837b614e2e",
+   "title": "CONFÉRENCE DE DANSE - Construction de la communauté de la house danse à Montréal",
+   "venue_id": "ausgang-plaza",
+   "night": "2026-12-04",
+   "start": "2026-12-04T17:00:00.000",
+   "end": "2026-12-04T19:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "conference-de-danse-construction-de-la-communaute-de-la-house-danse-a-montreal",
+     "name": "CONFÉRENCE DE DANSE - Construction de la communauté de la house danse à Montréal",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2584817",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584817"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : CONFÉRENCE DE DANSE - Construction de la communauté de la house danse à Montréal (8)",
+     "lieu : Ausgang Plaza (palier 2)"
     ]
    }
   },
@@ -11872,6 +12252,47 @@
     "reasons": [
      "tête d'affiche : MLLE CEE (8)",
      "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "15ef2caed0ad",
+   "title": "LE 10EME ANNIVERSAIRE DE LA RAMA",
+   "venue_id": "systeme",
+   "night": "2026-12-04",
+   "start": "2026-12-04T22:00:00.000",
+   "end": "2026-12-05T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "kris-guilty",
+     "name": "Kris Guilty",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2584818",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584818"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Kris Guilty (8)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -12160,9 +12581,7 @@
    ],
    "genres": [
     "house",
-    "afro house",
-    "afro tech",
-    "deep house"
+    "afro house"
    ],
    "families": [
     "House",
@@ -12178,6 +12597,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2563875"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584827"
     }
    ],
    "interest": {
@@ -12186,6 +12609,52 @@
     "reasons": [
      "tête d'affiche : Gone Deville (38)",
      "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "821980e66fba",
+   "title": "DE LA HOUSE & BALLROOM4COMMUNITY présentent Amarji King, MOON, Ekitwanda & G MAKO",
+   "venue_id": "ausgang-plaza",
+   "night": "2026-12-05",
+   "start": "2026-12-05T21:00:00.000",
+   "end": "2026-12-06T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ekitwanda",
+     "name": "Ekitwanda",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "amarji-king",
+     "name": "Amarji King",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2584824",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584824"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ekitwanda (8)",
+     "lieu : Ausgang Plaza (palier 2)"
     ]
    }
   },
@@ -12228,6 +12697,48 @@
     "reasons": [
      "tête d'affiche : Riot Ten - Montréal (8)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "7af39df366f9",
+   "title": "ATELIER DE DANSE WAACKING avec Nubian Néné",
+   "venue_id": "100lux",
+   "night": "2026-12-05",
+   "start": "2026-12-05T16:00:00.000",
+   "end": "2026-12-05T17:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "atelier-de-danse-waacking",
+     "name": "ATELIER DE DANSE WAACKING",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "nubian-nene",
+     "name": "Nubian Néné",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2584820",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584820"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ATELIER DE DANSE WAACKING (8)",
+     "lieu : 100Lux (palier 1)"
     ]
    }
   },
@@ -12307,6 +12818,54 @@
     "reasons": [
      "tête d'affiche : Ian Jackman (8)",
      "lieu : Cabaret Berlin (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "8aa1496e7851",
+   "title": "Bwi-Bwi + Xia",
+   "venue_id": "systeme",
+   "night": "2026-12-10",
+   "start": "2026-12-10T22:00:00.000",
+   "end": "2026-12-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bwi-bwi",
+     "name": "Bwi-Bwi",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "xia-2",
+     "name": "Xia (2)",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584443",
+   "event_url": "https://ra.co/events/2584443",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584443"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Bwi-Bwi (25)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -12392,6 +12951,90 @@
     "reasons": [
      "tête d'affiche : Sloan Porter (8)",
      "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "2721789c1ef1",
+   "title": "Drink n Draw",
+   "venue_id": "systeme",
+   "night": "2026-12-10",
+   "start": "2026-12-10T19:00:00.000",
+   "end": "2026-12-10T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "drink-n-draw",
+     "name": "Drink n Draw",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584442",
+   "event_url": "https://ra.co/events/2584442",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584442"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Drink n Draw (8)",
+     "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "baea812cbc58",
+   "title": "arkan x Système",
+   "venue_id": "systeme",
+   "night": "2026-12-11",
+   "start": "2026-12-11T22:00:00.000",
+   "end": "2026-12-12T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "daura",
+     "name": "Daura",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "gonno",
+     "name": "Gonno",
+     "billing": "support"
+    },
+    {
+     "artist_id": "matsehora",
+     "name": "Matsehora",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584439",
+   "event_url": "https://ra.co/events/2584439",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584439"
+    }
+   ],
+   "interest": {
+    "score": 21,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Daura (21)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -12579,6 +13222,57 @@
    }
   },
   {
+   "id": "65d40bc14810",
+   "title": "Rave It Like the '90s",
+   "venue_id": "systeme",
+   "night": "2026-12-12",
+   "start": "2026-12-12T22:00:00.000",
+   "end": "2026-12-13T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "evita",
+     "name": "Evita",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lex-ferenda",
+     "name": "Lex Ferenda",
+     "billing": "support"
+    },
+    {
+     "artist_id": "queenie-jr",
+     "name": "Queenie Jr",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584444",
+   "event_url": "https://ra.co/events/2584444",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584444"
+    }
+   ],
+   "interest": {
+    "score": 34,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Evita (39)",
+     "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "874f8f24188a",
    "title": "Arder: Markus Suckut",
    "venue_id": "nwhr",
@@ -12738,6 +13432,48 @@
     "reasons": [
      "tête d'affiche : Jordan Gardner (0)",
      "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "8b67b258eb0c",
+   "title": "With Care // Avec Tendresse. A Holiday Market",
+   "venue_id": "systeme",
+   "night": "2026-12-13",
+   "start": "2026-12-13T12:00:00.000",
+   "end": "2026-12-13T17:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "care",
+     "name": "Care",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "tendresse-a-holiday-market",
+     "name": "Tendresse. A Holiday Market",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2584450",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584450"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Care (13)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -15483,6 +16219,16 @@
      "artist_id": "elderbrook",
      "name": "Elderbrook",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "rules",
+     "name": "Rules",
+     "billing": "support"
+    },
+    {
+     "artist_id": "arlo",
+     "name": "Arlo",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -15493,7 +16239,7 @@
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/31006548A4185690?lang=fr-ca&brand=mtelus",
    "event_url": "https://evenko.ca/fr/evenements/mtelus/elderbrook?code=e009289",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/kbJNY7y7YLMb21dRUXI7v/c1d89054f98ee17ec2b3c17cb67209fe/Elderbrook.png",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/1KZCx8t2S7F5OdBgwywDCT/6d2d56a7161ba29411b64b0e0016f20e/Elderbrook.png",
    "status": "confirmed",
    "sources": [
     {
@@ -15515,8 +16261,8 @@
    }
   },
   {
-   "id": "ac9ab02c0835",
-   "title": "Elderbrook - Heart On A Wire Tour",
+   "id": "29870c169260",
+   "title": "Elderbrook",
    "venue_id": "mtelus",
    "night": "2027-03-20",
    "start": "2027-03-20T20:00:00-04:00",
@@ -15526,6 +16272,16 @@
      "artist_id": "elderbrook",
      "name": "Elderbrook",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "rules",
+     "name": "Rules",
+     "billing": "support"
+    },
+    {
+     "artist_id": "arlo",
+     "name": "Arlo",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -15534,11 +16290,15 @@
    "families": [],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/elderbrook-heart-on-a-wire-tour-montreal-quebec-03-20-2027/event/31006548A41F5699",
-   "event_url": "https://www.ticketmaster.ca/elderbrook-heart-on-a-wire-tour-montreal-quebec-03-20-2027/event/31006548A41F5699",
-   "image": "https://s1.ticketm.net/dam/a/48e/96434e3c-3c4a-4ef2-90c7-9b0e0e6ea48e_SOURCE",
+   "ticket_url": "https://www.ticketmaster.ca/event/31006548A41F5699?lang=fr-ca&brand=mtelus",
+   "event_url": "https://evenko.ca/fr/evenements/mtelus/elderbrook?code=e009297",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/1KZCx8t2S7F5OdBgwywDCT/6d2d56a7161ba29411b64b0e0016f20e/Elderbrook.png",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "mtelus",
+     "url": "https://evenko.ca/fr/evenements/mtelus/elderbrook?code=e009297"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.ca/elderbrook-heart-on-a-wire-tour-montreal-quebec-03-20-2027/event/31006548A41F5699"
@@ -16110,7 +16870,7 @@
    "photo": "https://i.scdn.co/image/ab6761610000f1784cadec9a07cd964d1420a7bc"
   },
   {
-   "id": "ac9ab02c0835",
+   "id": "29870c169260",
    "name": "Elderbrook",
    "night": "2027-03-20",
    "venue": "MTELUS",
