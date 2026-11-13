@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-12T17:25:06Z",
+ "generated_at": "2026-11-13T01:45:27Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-11-12",
-  "end": "2027-05-11"
+  "start": "2026-11-13",
+  "end": "2027-05-12"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 398
+   "events": 389
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 46
+   "events": 43
   }
  ],
  "venue_order": [
@@ -38,6 +38,7 @@
   "panic-room",
   "la-cite-fertile",
   "badaboum",
+  "silencio",
   "t7",
   "elysee-montmartre",
   "la-bellevilloise",
@@ -50,13 +51,11 @@
   "point-ephemere",
   "cite-de-la-musique",
   "le-trabendo",
-  "silencio",
   "petit-bain",
   "tba-paris",
   "yoyo-palais-de-tokyo",
   "essaim",
   "a-side",
-  "cartilage",
   "le-211",
   "pamela-club",
   "le-zeralda",
@@ -74,13 +73,13 @@
   "le-grand-dome",
   "l-anomalie",
   "tba-saint-denis",
-  "miniwax",
   "peniche-adelaide",
   "alimentation-generale",
   "main-room",
   "la-nuit",
   "le-chinois",
   "la-marbrerie",
+  "miniwax",
   "glazart",
   "le-klub",
   "tba-secret-place",
@@ -88,39 +87,36 @@
   "eglise-saint-eustache",
   "bal-chavaux",
   "42-marches",
-  "le-poisson-volant",
   "tba",
   "a-la-folie-paris",
   "bourse-de-commerce-pinault-collection",
+  "cartilage",
   "espace-francis-delage-salle-concorde",
   "folies-pigalle",
   "la-peniche-cinema",
   "les-relais-solidaires",
+  "le-poisson-volant",
   "tba-75013",
   "tba-secret-location",
   "l-olympia",
   "la-maison-de-la-conversation",
-  "studio56",
   "27-boulevard-jules-ferry",
   "mains-doeuvres",
   "le-point-fort-d-aubervilliers",
   "la-rotonde-stalingrad",
-  "communale-saint-ouen",
   "terminus",
   "quai-de-la-photo",
   "babour-sauvage",
-  "bizz-art",
   "folia",
   "le-9b",
   "la-marquise-club",
   "le-hasard-ludique",
   "vice-versa",
   "dock-b",
-  "bonnie-club",
+  "bizz-art",
   "chateau-ephemere",
   "cite-du-cinema",
   "fgo-barbara",
-  "fondation-cartier",
   "frequence-paris",
   "instants-chavires",
   "la-mutinerie",
@@ -130,15 +126,15 @@
   "le-generator-paris",
   "le-river-s-king",
   "le-son-de-la-terre",
-  "littleroom",
   "philharmonie-de-paris",
+  "poull",
   "skybar-paris-rooftop",
   "tba-katapoull",
   "tba-le-tlm-paris-105-rue-curial-75019-paris-france",
   "tba-line-up-secret",
   "tiki-playa",
   "workshow",
-  "brasserie-gallia",
+  "communale-saint-ouen",
   "la-mecanique-ondulatoire",
   "tba-carburant-60-rue-de-lancry-75010-paris"
  ],
@@ -248,28 +244,8 @@
    "genres": []
   },
   {
-   "id": "bonnie-club",
-   "name": "Bonnie Club",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "bourse-de-commerce-pinault-collection",
    "name": "Bourse de Commerce — Pinault Collection",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "brasserie-gallia",
-   "name": "Brasserie Gallia",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -459,16 +435,6 @@
   {
    "id": "folies-pigalle",
    "name": "Folies Pigalle",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "fondation-cartier",
-   "name": "Fondation Cartier",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -966,16 +932,6 @@
    "genres": []
   },
   {
-   "id": "littleroom",
-   "name": "Littleroom",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "magasins-generaux",
    "name": "Magasins Généraux",
    "type": "club",
@@ -1142,6 +1098,16 @@
    "genres": []
   },
   {
+   "id": "poull",
+   "name": "Poull",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "quai-de-la-photo",
    "name": "Quai de la Photo",
    "type": "club",
@@ -1206,19 +1172,6 @@
    "address": "",
    "url": "",
    "genres": []
-  },
-  {
-   "id": "studio56",
-   "name": "Studio56",
-   "type": "club",
-   "tier": 2,
-   "capacity": 500,
-   "address": "Paris",
-   "url": "",
-   "genres": [
-    "techno",
-    "hard"
-   ]
   },
   {
    "id": "t7",
@@ -1618,6 +1571,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "agathe-mougin",
+   "name": "Agathe Mougin",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788e7122edc2a16aedacf5a40e",
    "known": false
   },
   {
@@ -2043,28 +2006,8 @@
    "known": false
   },
   {
-   "id": "awesome-tapes-from-africa",
-   "name": "Awesome Tapes From Africa",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "azinzi",
    "name": "Azinzi",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "b-2000",
-   "name": "B 2000 )",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2458,6 +2401,16 @@
    "known": false
   },
   {
+   "id": "brocante-club-resident-s",
+   "name": "Brocante Club Resident's",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "brodinski",
    "name": "Brodinski",
    "tier": 0,
@@ -2538,6 +2491,16 @@
    "known": false
   },
   {
+   "id": "captnnn",
+   "name": "CAPTNNN'",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/b0ba61bbf62153a77a1f699c5e721989/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "cara-elizabeth",
    "name": "Cara Elizabeth",
    "tier": 0,
@@ -2595,16 +2558,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/07f4bdd304b64ab92b01eb80adea7177/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "casanuestra",
-   "name": "Casanuestra",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2765,16 +2718,6 @@
    "popularity": 47,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1781a936a32f1e3a7471daf4aaa",
-   "known": false
-  },
-  {
-   "id": "classics-only-rap",
-   "name": "Classics Only ( Rap",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -3205,16 +3148,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178fb3c9118eb6f1ca2eac3547b",
-   "known": false
-  },
-  {
-   "id": "dige-m0m0",
-   "name": "Digé m0m0",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1782009f0e32c0d95e1a289b3e5",
    "known": false
   },
   {
@@ -3748,16 +3681,6 @@
    "known": false
   },
   {
-   "id": "esilise",
-   "name": "Esilise",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "esteban-desigual",
    "name": "Esteban Desigual",
    "tier": 0,
@@ -4058,6 +3981,16 @@
    "known": false
   },
   {
+   "id": "francois-halard",
+   "name": "François Halard",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "freakish-take-over",
    "name": "Freakish Take Over",
    "tier": 0,
@@ -4095,6 +4028,16 @@
    "popularity": 43,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/c1c14de3b1a504ab348d57bd60e1bd96/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "friends-jam",
+   "name": "friends Jam",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4175,16 +4118,6 @@
    "popularity": 55,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ca28243ad2759b90562a107d",
-   "known": false
-  },
-  {
-   "id": "gaia-at-bonnie",
-   "name": "Gaia At Bonnie",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4428,6 +4361,16 @@
    "popularity": 40,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/b3e4805fef737d38753e59a7f1c5e6cd/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "hen-yanni",
+   "name": "HEN YANNI",
+   "tier": 0,
+   "score": 19,
+   "popularity": 19,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178afd9297d897f8f32040c6976",
    "known": false
   },
   {
@@ -4704,16 +4647,6 @@
    "known": false
   },
   {
-   "id": "ixpe",
-   "name": "Ixpé",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "jacklyn",
    "name": "Jacklyn",
    "tier": 0,
@@ -4766,16 +4699,6 @@
   {
    "id": "jam-du-bpm-contest",
    "name": "Jam Du BPM Contest",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "james-marceau",
-   "name": "James Marceau",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -4881,16 +4804,6 @@
    "popularity": 54,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e3bf7188cfe5e608360a948c",
-   "known": false
-  },
-  {
-   "id": "joe-claussell",
-   "name": "Joe Claussell",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851ceaa1ab3a17ec41fe9f4a8ba",
    "known": false
   },
   {
@@ -5164,6 +5077,16 @@
    "known": false
   },
   {
+   "id": "kermit-dee",
+   "name": "Kermit Dee",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "kerrie",
    "name": "Kerrie",
    "tier": 0,
@@ -5284,26 +5207,6 @@
    "known": false
   },
   {
-   "id": "komodo",
-   "name": "Komodo",
-   "tier": 0,
-   "score": 49,
-   "popularity": 49,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178680f7ba80c8cb3d350b37d72",
-   "known": false
-  },
-  {
-   "id": "kreattones",
-   "name": "KREATTONES",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "krowdexx",
    "name": "Krowdexx",
    "tier": 0,
@@ -5374,16 +5277,6 @@
    "known": false
   },
   {
-   "id": "la-bellewave-vol-2",
-   "name": "La Bellewave Vol. 2",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "la-ch-ck-minions-rave",
    "name": "LA CH!CK: MINIONS RAVE",
    "tier": 0,
@@ -5396,16 +5289,6 @@
   {
    "id": "la-ch-ck-remembering-brat-summer",
    "name": "LA CH!CK: REMEMBERING BRAT SUMMER",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "la-ch-ck-the-golden-era-of-edm",
-   "name": "LA CH!CK: THE GOLDEN ERA OF EDM",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5674,16 +5557,6 @@
    "known": false
   },
   {
-   "id": "lili",
-   "name": "LILI",
-   "tier": 0,
-   "score": 14,
-   "popularity": 14,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/8a54b50c740fc429ea04904814ec071b/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "lilipop",
    "name": "lilipop",
    "tier": 0,
@@ -5761,16 +5634,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788ebd1c9121cf4ac6213abc11",
-   "known": false
-  },
-  {
-   "id": "loke-rahbek",
-   "name": "Loke Rahbek",
-   "tier": 0,
-   "score": 14,
-   "popularity": 14,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1786f3090d6902c7fcb181eae7d",
    "known": false
   },
   {
@@ -6426,6 +6289,16 @@
    "known": false
   },
   {
+   "id": "mia-moretti",
+   "name": "Mia Moretti",
+   "tier": 0,
+   "score": 28,
+   "popularity": 28,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d1e76093535cdab2f4a2efba",
+   "known": false
+  },
+  {
    "id": "mich-10",
    "name": "Mich (10)",
    "tier": 0,
@@ -6708,16 +6581,6 @@
   {
    "id": "naajet-2",
    "name": "Naajet (2)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "nao-never",
-   "name": "Nao Never",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -7149,16 +7012,6 @@
    "known": false
   },
   {
-   "id": "osoloco",
-   "name": "Osoloco",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851070e524283f35cd8e2759ef8",
-   "known": false
-  },
-  {
    "id": "otap",
    "name": "otap",
    "tier": 0,
@@ -7206,26 +7059,6 @@
    "popularity": 23,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/ba153f5f182d4cd0981fd10b10f55fde/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "paerish",
-   "name": "Paerish",
-   "tier": 0,
-   "score": 31,
-   "popularity": 31,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/5877be3aba33494d9654bd897de06214/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "pagos",
-   "name": "PAGOS",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788503607a53e03ce3dbf2afbd",
    "known": false
   },
   {
@@ -7281,16 +7114,6 @@
   {
    "id": "paris-cruise-party",
    "name": "Paris Cruise Party",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "paris-kids-do-it-better-new-location",
-   "name": "PARIS KIDS DO IT BETTER - NEW LOCATION",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -7629,6 +7452,16 @@
    "known": false
   },
   {
+   "id": "ramona-yacef",
+   "name": "Ramona Yacef",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786f894bda0b7fd44a40326e10",
+   "known": false
+  },
+  {
    "id": "ramyen",
    "name": "Ramyen",
    "tier": 0,
@@ -7671,16 +7504,6 @@
   {
    "id": "rebequita",
    "name": "Rebequita",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "rencontre",
-   "name": "Rencontre",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -7756,16 +7579,6 @@
    "popularity": 18,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17829a5ba908ce168fd0487e30b",
-   "known": false
-  },
-  {
-   "id": "ron-trent",
-   "name": "Ron Trent",
-   "tier": 0,
-   "score": 47,
-   "popularity": 47,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178a06885660d982b088fa8d322",
    "known": false
   },
   {
@@ -7946,16 +7759,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f2ef4ec652a7693f4b781223",
-   "known": false
-  },
-  {
-   "id": "sasa",
-   "name": "Sasa (FR)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -8829,16 +8632,6 @@
    "known": false
   },
   {
-   "id": "ulysse",
-   "name": "Ulysse",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851142e06ed24a3e9f1d35ce8f4",
-   "known": false
-  },
-  {
    "id": "umberto",
    "name": "Umberto (IT)",
    "tier": 0,
@@ -8979,16 +8772,6 @@
    "known": false
   },
   {
-   "id": "vhyce",
-   "name": "Vhyce",
-   "tier": 0,
-   "score": 50,
-   "popularity": 50,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1787a3f7a413a50058f39ed91ca",
-   "known": false
-  },
-  {
    "id": "vice-experience",
    "name": "Vice Experience",
    "tier": 0,
@@ -9016,16 +8799,6 @@
    "popularity": 77,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e48c95d6038308f4f7b33799",
-   "known": false
-  },
-  {
-   "id": "vina-konda",
-   "name": "Vina Konda",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1783d0f0bac8530c06743b8181e",
    "known": false
   },
   {
@@ -9247,704 +9020,9 @@
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17895cadd87ec8047545fa31f71",
    "known": false
-  },
-  {
-   "id": "zulu",
-   "name": "Zulu (FR)",
-   "tier": 0,
-   "score": 13,
-   "popularity": 13,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178fbcac0f8511f67f3cdaa8b25",
-   "known": false
   }
  ],
  "events": [
-  {
-   "id": "85a4e7cad792",
-   "title": "Shutdown reboost: Rony, Chopsoe Blumhouse, basstrick, Komodo",
-   "venue_id": "rex-club",
-   "night": "2026-11-12",
-   "start": "2026-11-12T23:59:00.000",
-   "end": "2026-11-13T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "komodo",
-     "name": "Komodo",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "bass",
-    "dubstep"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2566407",
-   "event_url": "https://ra.co/events/2566407",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2566407"
-    }
-   ],
-   "interest": {
-    "score": 53,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Komodo (49)",
-     "lieu : Rex Club (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "bea172b9367b",
-   "title": "RA25: Paris : Joe Claussell b2b Ron Trent - Open to close",
-   "venue_id": "essaim",
-   "night": "2026-11-12",
-   "start": "2026-11-12T22:00:00.000",
-   "end": "2026-11-13T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ron-trent",
-     "name": "Ron Trent",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "joe-claussell",
-     "name": "Joe Claussell",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2497391",
-   "event_url": "https://ra.co/events/2497391",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2497391"
-    }
-   ],
-   "interest": {
-    "score": 40,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Ron Trent (47)",
-     "lieu : essaim (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "6a8161b89fa3",
-   "title": "La Discotaco : disco, paillettes & tacos !",
-   "venue_id": "le-mazette",
-   "night": "2026-11-12",
-   "start": "2026-11-12T18:00:00+01:00",
-   "end": "2026-11-13T02:00:00+01:00",
-   "lineup": [
-    {
-     "artist_id": "funky-french-league",
-     "name": "Funky French League",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/bbqplo-la-discotaco-disco-paillettes-tacos-12th-nov-le-mazette-paris-tickets",
-   "event_url": "https://dice.fm/event/bbqplo-la-discotaco-disco-paillettes-tacos-12th-nov-le-mazette-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-10-01/f551258d-add3-42fe-baee-7ab21924e73f.jpg?rect=420%2C0%2C1080%2C1080",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/bbqplo-la-discotaco-disco-paillettes-tacos-12th-nov-le-mazette-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 35,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Funky French League (40)",
-     "lieu : Le Mazette (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "f02b0ca03e5a",
-   "title": "Rencontre Avec Paerish",
-   "venue_id": "miniwax",
-   "night": "2026-11-12",
-   "start": "2026-11-12T18:00:00.000",
-   "end": "2026-11-12T20:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "paerish",
-     "name": "Paerish",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "rencontre",
-     "name": "Rencontre",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "experimental"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2581773",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2581773"
-    }
-   ],
-   "interest": {
-    "score": 28,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Paerish (31)",
-     "lieu : Miniwax (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "51b294549e61",
-   "title": "Impact W/ Lili , Nzolito , Gwyze",
-   "venue_id": "studio56",
-   "night": "2026-11-12",
-   "start": "2026-11-12T23:59:00.000",
-   "end": "2026-11-13T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "lili",
-     "name": "LILI",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2575123",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2575123"
-    }
-   ],
-   "interest": {
-    "score": 22,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : LILI (14)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "c45e0d3841b4",
-   "title": "LA CH!CK: THE GOLDEN ERA OF EDM",
-   "venue_id": "badaboum",
-   "night": "2026-11-12",
-   "start": "2026-11-12T23:30:00+01:00",
-   "end": "2026-11-13T05:30:00+01:00",
-   "lineup": [
-    {
-     "artist_id": "la-ch-ck-the-golden-era-of-edm",
-     "name": "LA CH!CK: THE GOLDEN ERA OF EDM",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/k67lgl-la-chck-the-golden-era-of-edm-12th-nov-badaboum-paris-tickets",
-   "event_url": "https://dice.fm/event/k67lgl-la-chck-the-golden-era-of-edm-12th-nov-badaboum-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-10-23/1a3e43db-0afd-4449-9995-992d806cf77f.jpg?rect=17%2C0%2C1056%2C1058",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/k67lgl-la-chck-the-golden-era-of-edm-12th-nov-badaboum-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : LA CH!CK: THE GOLDEN ERA OF EDM (8)",
-     "lieu : Badaboum (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "114a70a962c8",
-   "title": "La Bellewave Vol. 2",
-   "venue_id": "la-java",
-   "night": "2026-11-12",
-   "start": "2026-11-12T23:45:00+01:00",
-   "end": "2026-11-13T07:00:00+01:00",
-   "lineup": [
-    {
-     "artist_id": "la-bellewave-vol-2",
-     "name": "La Bellewave Vol. 2",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 7.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/lqa23x-la-bellewave-vol-2-12th-nov-la-java-paris-tickets",
-   "event_url": "https://dice.fm/event/lqa23x-la-bellewave-vol-2-12th-nov-la-java-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-11-09/5d349b09-8e3a-4aa1-89ad-1e5befb31129.jpg?rect=213%2C310%2C715%2C716",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/lqa23x-la-bellewave-vol-2-12th-nov-la-java-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : La Bellewave Vol. 2 (8)",
-     "lieu : La Java (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "152344571322",
-   "title": "Loke Rahbek & Frederik Valentin A/V + Vina Konda A/V",
-   "venue_id": "communale-saint-ouen",
-   "night": "2026-11-12",
-   "start": "2026-11-12T20:00:00.000",
-   "end": "2026-11-12T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "loke-rahbek",
-     "name": "Loke Rahbek",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "vina-konda",
-     "name": "Vina Konda",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "ambient"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2495292",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2495292"
-    }
-   ],
-   "interest": {
-    "score": 16,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Loke Rahbek (14)",
-     "lieu : Communale Saint-Ouen (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "d2074a3aa12a",
-   "title": "Nao Never & Zulu",
-   "venue_id": "le-poisson-volant",
-   "night": "2026-11-12",
-   "start": "2026-11-12T23:30:00.000",
-   "end": "2026-11-13T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "zulu",
-     "name": "Zulu (FR)",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "nao-never",
-     "name": "Nao Never",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2575197",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2575197"
-    }
-   ],
-   "interest": {
-    "score": 15,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Zulu (FR) (13)",
-     "lieu : Le Poisson Volant (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "aa1608578f1d",
-   "title": "Casanuestra X Gaia At Bonnie",
-   "venue_id": "bonnie-club",
-   "night": "2026-11-12",
-   "start": "2026-11-12T23:00:00.000",
-   "end": "2026-11-13T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "casanuestra",
-     "name": "Casanuestra",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "gaia-at-bonnie",
-     "name": "Gaia At Bonnie",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "tech house",
-    "afro house"
-   ],
-   "families": [
-    "House",
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2580097",
-   "event_url": "https://ra.co/events/2580097",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2580097"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Casanuestra (8)",
-     "lieu : Bonnie Club (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "da6229994216",
-   "title": "Classics Only ( Rap & R&B 2000 )",
-   "venue_id": "bizz-art",
-   "night": "2026-11-12",
-   "start": "2026-11-13T00:00:00+01:00",
-   "end": "2026-11-14T06:00:00+01:00",
-   "lineup": [
-    {
-     "artist_id": "classics-only-rap",
-     "name": "Classics Only ( Rap",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "b-2000",
-     "name": "B 2000 )",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 16.48,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/783a89-classics-only-rap-rb-2000-13th-nov-bizzart-paris-tickets",
-   "event_url": "https://dice.fm/event/783a89-classics-only-rap-rb-2000-13th-nov-bizzart-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-11-10/13925106-4a76-4d1d-9a29-159e3d3493e8.jpg?rect=1011%2C0%2C4043%2C4043",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/783a89-classics-only-rap-rb-2000-13th-nov-bizzart-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Classics Only ( Rap (8)",
-     "lieu : Bizz'Art (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "4c6c623bb550",
-   "title": "Jeudi Protocol: Ghostface, Uzi Nas, Esilise &More",
-   "venue_id": "mia-mao",
-   "night": "2026-11-12",
-   "start": "2026-11-12T23:00:00.000",
-   "end": "2026-11-13T06:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "esilise",
-     "name": "Esilise",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "sasa",
-     "name": "Sasa (FR)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ulysse",
-     "name": "Ulysse",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2568298",
-   "event_url": "https://ra.co/events/2568298",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2568298"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Esilise (8)",
-     "lieu : Mia Mao (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "d760bfcf2a4c",
-   "title": "KEUT B2B Ian Maur",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-11-12",
-   "start": "2026-11-12T23:59:00.000",
-   "end": "2026-11-13T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "keut",
-     "name": "KEUT",
-     "billing": "headliner",
-     "b2b_with": "ian-maur"
-    },
-    {
-     "artist_id": "ian-maur",
-     "name": "Ian Maur",
-     "billing": "support",
-     "b2b_with": "keut"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2577303",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2577303"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : KEUT (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "6f81beef1980",
-   "title": "KREATTONES",
-   "venue_id": "panic-room",
-   "night": "2026-11-12",
-   "start": "2026-11-12T19:00:00.000",
-   "end": "2026-11-13T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "kreattones",
-     "name": "KREATTONES",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "tech house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2566720",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2566720"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : KREATTONES (8)",
-     "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "6e4dbb1ea0d2",
-   "title": "Seeing Sounds Awesome Tapes From Africa",
-   "venue_id": "fondation-cartier",
-   "night": "2026-11-12",
-   "start": "2026-11-12T19:00:00.000",
-   "end": "2026-11-12T20:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "awesome-tapes-from-africa",
-     "name": "Awesome Tapes From Africa",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2580925",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2580925"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Awesome Tapes From Africa (8)",
-     "lieu : Fondation Cartier (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "e9653e95eb95",
-   "title": "Selector #9",
-   "venue_id": "brasserie-gallia",
-   "night": "2026-11-12",
-   "start": "2026-11-12T20:00:00.000",
-   "end": "2026-11-13T00:30:00.000",
-   "lineup": [
-    {
-     "artist_id": "dige-m0m0",
-     "name": "Digé m0m0",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "breakbeat",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2574196",
-   "event_url": "https://ra.co/events/2574196",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2574196"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Digé m0m0 (0)",
-     "lieu : Brasserie Gallia (palier 1)"
-    ]
-   }
-  },
   {
    "id": "469a00541ac9",
    "title": "KILIMANJARO Live",
@@ -12009,64 +11087,6 @@
    }
   },
   {
-   "id": "1cc82fec5aba",
-   "title": "FHOMO #5: Vhyce, James Marceau, Osoloco, Ixpé",
-   "venue_id": "cartilage",
-   "night": "2026-11-14",
-   "start": "2026-11-14T23:00:00.000",
-   "end": "2026-11-15T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "vhyce",
-     "name": "Vhyce",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "james-marceau",
-     "name": "James Marceau",
-     "billing": "support"
-    },
-    {
-     "artist_id": "ixpe",
-     "name": "Ixpé",
-     "billing": "support"
-    },
-    {
-     "artist_id": "osoloco",
-     "name": "Osoloco",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "italo disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2566434",
-   "event_url": "https://ra.co/events/2566434",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2566434"
-    }
-   ],
-   "interest": {
-    "score": 42,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Vhyce (50)",
-     "lieu : Cartilage (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "730d5e615c8a",
    "title": "GRÜV x FLIRT • Alarico (Extended Set), KALTBLUME, Iman Janes",
    "venue_id": "magasins-generaux",
@@ -13524,6 +12544,54 @@
     "reasons": [
      "tête d'affiche : Ekkel (0)",
      "lieu : 42 Marches (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "64c4d5818225",
+   "title": "LA CUENTA POR FAVOR: Agathe Mougin B2B CAPTNNN",
+   "venue_id": "silencio",
+   "night": "2026-11-14",
+   "start": "2026-11-14T23:00:00.000",
+   "end": "2026-11-15T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "agathe-mougin",
+     "name": "Agathe Mougin",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "captnnn",
+     "name": "CAPTNNN'",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584233",
+   "event_url": "https://ra.co/events/2584233",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584233"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Agathe Mougin (0)",
+     "lieu : Silencio (palier 1)"
     ]
    }
   },
@@ -15470,6 +14538,59 @@
    }
   },
   {
+   "id": "ed9bcc5a6dcd",
+   "title": "Croisière Musique invite Ramona Yacef, Kermit Dee, François Halard",
+   "venue_id": "poull",
+   "night": "2026-11-20",
+   "start": "2026-11-20T19:00:00.000",
+   "end": "2026-11-21T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "francois-halard",
+     "name": "François Halard",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "kermit-dee",
+     "name": "Kermit Dee",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ramona-yacef",
+     "name": "Ramona Yacef",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "minimal",
+    "deep house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2584136",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584136"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : François Halard (8)",
+     "lieu : Poull (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "deac80e433f5",
    "title": "LA RIPOSTE: TENTATION DU BIEN - Aubry B2B source:link",
    "venue_id": "la-gare-le-gore",
@@ -16332,6 +15453,54 @@
     "reasons": [
      "tête d'affiche : Pōnky (22)",
      "lieu : La Java (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "4cd7f28e206b",
+   "title": "HUUSH: Mia Moretti, HEN YANNI & FRIENDS",
+   "venue_id": "silencio",
+   "night": "2026-11-21",
+   "start": "2026-11-21T23:00:00.000",
+   "end": "2026-11-22T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mia-moretti",
+     "name": "Mia Moretti",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "hen-yanni",
+     "name": "HEN YANNI",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584231",
+   "event_url": "https://ra.co/events/2584231",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584231"
+    }
+   ],
+   "interest": {
+    "score": 26,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Mia Moretti (28)",
+     "lieu : Silencio (palier 1)"
     ]
    }
   },
@@ -17595,50 +16764,6 @@
     "reasons": [
      "tête d'affiche : UNA (18)",
      "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "537a90fd673f",
-   "title": "PAGOS X PARIS KIDS DO IT BETTER - NEW LOCATION",
-   "venue_id": "littleroom",
-   "night": "2026-11-25",
-   "start": "2026-11-25T23:45:00+01:00",
-   "end": "2026-11-26T06:00:00+01:00",
-   "lineup": [
-    {
-     "artist_id": "paris-kids-do-it-better-new-location",
-     "name": "PARIS KIDS DO IT BETTER - NEW LOCATION",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "pagos",
-     "name": "PAGOS",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/3kq9kg-pagos-x-paris-kids-do-it-better-new-location-25th-nov-littleroom-paris-tickets",
-   "event_url": "https://dice.fm/event/3kq9kg-pagos-x-paris-kids-do-it-better-new-location-25th-nov-littleroom-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-11-03/dfe0f945-c8fc-4eb2-9568-e177e54b7fb8.jpg?rect=0%2C270%2C2160%2C2160",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/3kq9kg-pagos-x-paris-kids-do-it-better-new-location-25th-nov-littleroom-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : PARIS KIDS DO IT BETTER - NEW LOCATION (8)",
-     "lieu : Littleroom (palier 1)"
     ]
    }
   },
@@ -25203,6 +24328,45 @@
    }
   },
   {
+   "id": "e102cec6d8a2",
+   "title": "La Discotaco : disco, cours de danse & tacos !",
+   "venue_id": "le-mazette",
+   "night": "2026-12-17",
+   "start": "2026-12-17T18:00:00+01:00",
+   "end": "2026-12-18T02:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "funky-french-league",
+     "name": "Funky French League",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/vvpke7-la-discotaco-disco-cours-de-danse-tacos-17th-dec-le-mazette-paris-tickets",
+   "event_url": "https://dice.fm/event/vvpke7-la-discotaco-disco-cours-de-danse-tacos-17th-dec-le-mazette-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-10-08/174375a1-e90c-4be8-bbe8-12d9e28db907.jpg?rect=420%2C0%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/vvpke7-la-discotaco-disco-cours-de-danse-tacos-17th-dec-le-mazette-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 35,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Funky French League (40)",
+     "lieu : Le Mazette (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "870eb53322c1",
    "title": "Orka: Alex Nantaya, VESPERA, UMBREE,",
    "venue_id": "mia-mao",
@@ -27655,6 +26819,54 @@
    }
   },
   {
+   "id": "631900db3f81",
+   "title": "Brocante Club Resident's & friends Jam",
+   "venue_id": "tba",
+   "night": "2027-03-06",
+   "start": "2027-03-06T20:00:00.000",
+   "end": "2027-03-07T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "brocante-club-resident-s",
+     "name": "Brocante Club Resident's",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "friends-jam",
+     "name": "friends Jam",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2584187",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584187"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Brocante Club Resident's (8)",
+     "lieu : TBA (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "9ed891441521",
    "title": "Acid Arab",
    "venue_id": "cite-de-la-musique",
@@ -27985,27 +27197,6 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178f8ed57eb33fc80e77248a725"
   },
   {
-   "id": "9cfc75cf35e5",
-   "name": "COEO",
-   "night": "2026-12-19",
-   "venue": "Sacré",
-   "photo": "https://i.scdn.co/image/ab6761610000f17885118f06dd2d5f75e83148f6"
-  },
-  {
-   "id": "00ae23bacaa2",
-   "name": "Boy Harsher",
-   "night": "2026-11-15",
-   "venue": "Silencio",
-   "photo": "https://i.scdn.co/image/ab6761610000f178c49def2ad602ccd7e2caded6"
-  },
-  {
-   "id": "53ad06136ba4",
-   "name": "East End Dubs",
-   "night": "2026-11-21",
-   "venue": "YoYo - Palais de Tokyo",
-   "photo": "https://i.scdn.co/image/ab6761610000f178b0dfd84b55225ddd20211b12"
-  },
-  {
    "id": "7629aea69e42",
    "name": "horsegiirL",
    "night": "2026-11-27",
@@ -28018,13 +27209,6 @@
    "night": "2026-12-06",
    "venue": "La Cité Fertile",
    "photo": "https://i.scdn.co/image/ab6761610000f17875f607a97d6e1a5a26f67e22"
-  },
-  {
-   "id": "d992b5b38a0e",
-   "name": "p-rallel",
-   "night": "2026-12-18",
-   "venue": "Sacré",
-   "photo": "https://i.scdn.co/image/ab6761610000f17861bf4c504c344eb911b4c901"
   }
  ],
  "families": [
@@ -28085,21 +27269,6 @@
   },
   {
    "kind": "event",
-   "day": "SAM 14 NOV",
-   "title": "Miss Bashful",
-   "venue": "La Machine du Moulin Rouge",
-   "time": "18:30 → 22:30",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5ebc10f9286c79f84f334bd5725",
-   "event_id": "0c8c07cec427"
-  },
-  {
-   "kind": "event",
    "day": "VEN 20 NOV",
    "title": "Sybil",
    "venue": "Magasins Généraux",
@@ -28142,21 +27311,6 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb9bf03e6d3ab7ceb543638845",
    "event_id": "2b8e9a31fa7c"
-  },
-  {
-   "kind": "event",
-   "day": "JEU 26 NOV",
-   "title": "3AM",
-   "venue": "Panic Room",
-   "time": "19:00 → 05:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb4f63ee1f0c6880045f917407",
-   "event_id": "489631914bc1"
   },
   {
    "kind": "event",
@@ -28217,6 +27371,36 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb64e029d1466b4e8d38eec59c",
    "event_id": "2c176cbf1131"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 12 DEC",
+   "title": "Anyma",
+   "venue": "Paris La Défense Arena",
+   "time": "17:00 → 23:00",
+   "tier": 2,
+   "reason": "Aréna",
+   "supports": "",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eba5fe44561b6ce2a566c1f272",
+   "event_id": "aeeee9f83ee3"
+  },
+  {
+   "kind": "event",
+   "day": "SAM 12 DEC",
+   "title": "RIRIA",
+   "venue": "Rex Club",
+   "time": "23:59 → 07:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Two Shell, POLO JAFFA",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5ebedeeb8d1058265cf5a4a54d0",
+   "event_id": "61ce24289e2a"
   }
  ]
 }
