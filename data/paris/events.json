@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-14T01:23:41Z",
+ "generated_at": "2026-11-14T15:37:52Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 375
+   "events": 376
   },
   {
    "id": "dice",
@@ -2583,6 +2583,16 @@
    "known": false
   },
   {
+   "id": "claude-murder",
+   "name": "Claude Murder",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178b35184fd15fc56889a60de6e",
+   "known": false
+  },
+  {
    "id": "claudio-prc",
    "name": "Claudio PRC",
    "tier": 0,
@@ -4809,6 +4819,16 @@
    "known": false
   },
   {
+   "id": "karlfroye",
+   "name": "Karlfroye",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f287216aef5a217e4363317f",
+   "known": false
+  },
+  {
    "id": "karmakiddo",
    "name": "Karmakiddo",
    "tier": 0,
@@ -5051,16 +5071,6 @@
   {
    "id": "la-ch-ck-remembering-brat-summer",
    "name": "LA CH!CK: REMEMBERING BRAT SUMMER",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "la-culottee",
-   "name": "la Culottée",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -7254,6 +7264,16 @@
    "known": false
   },
   {
+   "id": "roe-deers",
+   "name": "Roe Deers",
+   "tier": 0,
+   "score": 30,
+   "popularity": 30,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178d6a719b5222cbaca4ccc9d94",
+   "known": false
+  },
+  {
    "id": "rohaan",
    "name": "Rohaan",
    "tier": 0,
@@ -7891,6 +7911,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "talita-otovic",
+   "name": "Talita Otović",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783467715f82d313db385be8c5",
    "known": false
   },
   {
@@ -20140,6 +20170,47 @@
    }
   },
   {
+   "id": "e84c59aef915",
+   "title": "la Culottée",
+   "venue_id": "la-station-gare-des-mines",
+   "night": "2026-12-05",
+   "start": "2026-12-05T23:59:00.000",
+   "end": "2026-12-06T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "roe-deers",
+     "name": "Roe Deers",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "club"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2581449",
+   "event_url": "https://ra.co/events/2581449",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2581449"
+    }
+   ],
+   "interest": {
+    "score": 34,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Roe Deers (30)",
+     "lieu : La Station - Gare des Mines (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "4c91ed4c6ddc",
    "title": "Decoder - all night long",
    "venue_id": "essaim",
@@ -20311,47 +20382,6 @@
     "reasons": [
      "tête d'affiche : YOUR LOCAL HOUSE CLUB (8)",
      "lieu : Badaboum (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "e84c59aef915",
-   "title": "la Culottée",
-   "venue_id": "la-station-gare-des-mines",
-   "night": "2026-12-05",
-   "start": "2026-12-05T23:59:00.000",
-   "end": "2026-12-06T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "la-culottee",
-     "name": "la Culottée",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "club"
-   ],
-   "families": [
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2581449",
-   "event_url": "https://ra.co/events/2581449",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2581449"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : la Culottée (8)",
-     "lieu : La Station - Gare des Mines (palier 2)"
     ]
    }
   },
@@ -22166,6 +22196,57 @@
     "reasons": [
      "tête d'affiche : CHINOOVO (8)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b655cd82449e",
+   "title": "EXPLITY VS HYPERCORE PRESENT FINISH THEY/THEM: THE ULTIMATE DJ DUEL",
+   "venue_id": "la-station-gare-des-mines",
+   "night": "2026-12-12",
+   "start": "2026-12-12T23:59:00.000",
+   "end": "2026-12-13T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "claude-murder",
+     "name": "Claude Murder",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "karlfroye",
+     "name": "Karlfroye",
+     "billing": "support"
+    },
+    {
+     "artist_id": "talita-otovic",
+     "name": "Talita Otović",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "gabber"
+   ],
+   "families": [
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584775",
+   "event_url": "https://ra.co/events/2584775",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584775"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Claude Murder (0)",
+     "lieu : La Station - Gare des Mines (palier 2)"
     ]
    }
   },
