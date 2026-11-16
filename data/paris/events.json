@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-15T16:07:38Z",
+ "generated_at": "2026-11-16T00:54:42Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-11-15",
-  "end": "2027-05-14"
+  "start": "2026-11-16",
+  "end": "2027-05-15"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 338
+   "events": 335
   },
   {
    "id": "dice",
@@ -40,10 +40,10 @@
   "badaboum",
   "elysee-montmartre",
   "parc-des-expositions",
+  "plage-de-torcy",
   "djoon",
   "la-java",
   "la-machine-du-moulin-rouge",
-  "silencio",
   "petit-bain",
   "le-grand-dome",
   "la-gare-le-gore",
@@ -51,7 +51,9 @@
   "la-bellevilloise",
   "la-station-gare-des-mines",
   "le-trabendo",
+  "zenith-paris-la-villette",
   "tba-paris",
+  "silencio",
   "yoyo-palais-de-tokyo",
   "point-ephemere",
   "essaim",
@@ -60,10 +62,8 @@
   "le-pop-up-du-label",
   "solum",
   "la-cigale",
-  "lithium-paris",
   "le-mazette",
   "nouveau-casino",
-  "zenith-paris-la-villette",
   "le-211",
   "le-trianon",
   "la-gaite-lyrique",
@@ -76,23 +76,24 @@
   "le-chinois",
   "oddity",
   "la-marbrerie",
+  "tba-villa-riberolle-75020-paris-france",
   "tba-secret-place",
   "la-boule-noire",
   "eglise-saint-eustache",
   "bal-chavaux",
-  "bourse-de-commerce-pinault-collection",
   "espace-francis-delage-salle-concorde",
   "42-marches",
   "tba",
+  "bourse-de-commerce-pinault-collection",
   "les-relais-solidaires",
   "tba-secret-location",
   "cartilage",
   "l-olympia",
-  "glazart",
   "tba-75013",
   "terminus",
   "le-klub",
   "27-boulevard-jules-ferry",
+  "glazart",
   "mains-doeuvres",
   "la-rotonde-stalingrad",
   "a-la-folie-paris",
@@ -100,6 +101,7 @@
   "le-poisson-volant",
   "la-marquise-club",
   "le-hasard-ludique",
+  "tba-11-rue-commines-75003-paris-france",
   "poull",
   "vice-versa",
   "dock-b",
@@ -809,16 +811,6 @@
    "genres": []
   },
   {
-   "id": "lithium-paris",
-   "name": "Lithium Paris",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "magasins-generaux",
    "name": "Magasins Généraux",
    "type": "club",
@@ -965,6 +957,16 @@
    "genres": []
   },
   {
+   "id": "plage-de-torcy",
+   "name": "Plage De Torcy",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "point-ephemere",
    "name": "Point Ephémère",
    "type": "club",
@@ -1063,6 +1065,16 @@
    "genres": []
   },
   {
+   "id": "tba-11-rue-commines-75003-paris-france",
+   "name": "TBA - 11 Rue Commines, 75003 Paris, France",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "tba-75013",
    "name": "TBA - 75013",
    "type": "club",
@@ -1135,6 +1147,16 @@
   {
    "id": "tba-secret-place",
    "name": "TBA - Secret Place",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "tba-villa-riberolle-75020-paris-france",
+   "name": "TBA - Villa Riberolle, 75020 Paris, France",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1438,6 +1460,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "agathe-mougin",
+   "name": "Agathe Mougin",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788e7122edc2a16aedacf5a40e",
    "known": false
   },
   {
@@ -1783,6 +1815,16 @@
    "known": false
   },
   {
+   "id": "baba-stiltz",
+   "name": "Baba Stiltz",
+   "tier": 0,
+   "score": 40,
+   "popularity": 40,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17817d517387600d8ebb906bf70",
+   "known": false
+  },
+  {
    "id": "baby-b",
    "name": "BABY-B",
    "tier": 0,
@@ -1943,6 +1985,16 @@
    "known": false
   },
   {
+   "id": "bella-claxton",
+   "name": "Bella Claxton",
+   "tier": 0,
+   "score": 40,
+   "popularity": 40,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e7f49ab1ca4c8f38db442cca",
+   "known": false
+  },
+  {
    "id": "bellaire",
    "name": "Bellaire",
    "tier": 0,
@@ -2052,16 +2104,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/7e0ceb6849387169c35c537b632ec918/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "boy-harsher",
-   "name": "Boy Harsher",
-   "tier": 0,
-   "score": 67,
-   "popularity": 67,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178c49def2ad602ccd7e2caded6",
    "known": false
   },
   {
@@ -2275,16 +2317,6 @@
    "known": false
   },
   {
-   "id": "chris-gavin",
-   "name": "Chris Gavin",
-   "tier": 0,
-   "score": 7,
-   "popularity": 7,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/de2dd5ff26b36fb820bc46abe9c50988/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "cite-fertile",
    "name": "Cité Fertile",
    "tier": 0,
@@ -2368,10 +2400,10 @@
    "id": "cleric",
    "name": "Cleric",
    "tier": 0,
-   "score": 30,
-   "popularity": 30,
+   "score": 34,
+   "popularity": 34,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851d098b784e8144f53f8623d6b",
+   "image": "https://i.scdn.co/image/ab67616d0000485137fad39a879c5b1f979304ac",
    "known": false
   },
   {
@@ -3095,6 +3127,16 @@
    "known": false
   },
   {
+   "id": "emma-b",
+   "name": "Emma B",
+   "tier": 0,
+   "score": 10,
+   "popularity": 10,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/cab7574a9cc5107f49bd6476ebf04841/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "emma-ollivary",
    "name": "Emma Ollivary",
    "tier": 0,
@@ -3252,6 +3294,16 @@
    "popularity": 26,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785387603f550db8b77980b4b9",
+   "known": false
+  },
+  {
+   "id": "fakear",
+   "name": "Fakear",
+   "tier": 0,
+   "score": 55,
+   "popularity": 55,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f5c6ff73c51cd956b74251e8",
    "known": false
   },
   {
@@ -3655,16 +3707,6 @@
    "known": false
   },
   {
-   "id": "goat",
-   "name": "Goat (JP)",
-   "tier": 0,
-   "score": 21,
-   "popularity": 21,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048515952b3dd926259b4344d6c64",
-   "known": false
-  },
-  {
    "id": "goldie-b",
    "name": "Goldie B",
    "tier": 0,
@@ -3915,6 +3957,16 @@
    "popularity": 22,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784893e9508a63207a346cac51",
+   "known": false
+  },
+  {
+   "id": "iman-janes",
+   "name": "Iman Janes",
+   "tier": 0,
+   "score": 4,
+   "popularity": 4,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ec02fdc57cbf25678b727445",
    "known": false
   },
   {
@@ -4951,6 +5003,16 @@
    "known": false
   },
   {
+   "id": "maco-maria",
+   "name": "Maco Maria",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "mad-rey",
    "name": "Mad Rey",
    "tier": 0,
@@ -5293,6 +5355,16 @@
    "known": false
   },
   {
+   "id": "matter",
+   "name": "Matter",
+   "tier": 0,
+   "score": 13,
+   "popularity": 13,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fa5e17952bdc14d412157c6f",
+   "known": false
+  },
+  {
    "id": "max-dewavrin",
    "name": "Max Dewavrin",
    "tier": 0,
@@ -5390,6 +5462,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048512274f6d7918a9be07cddfe61",
+   "known": false
+  },
+  {
+   "id": "meute",
+   "name": "MEUTE",
+   "tier": 0,
+   "score": 61,
+   "popularity": 61,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789e824cf6b20aaa964cd6b560",
    "known": false
   },
   {
@@ -6416,26 +6498,6 @@
    "known": false
   },
   {
-   "id": "rebequita",
-   "name": "Rebequita",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "rhadoo",
-   "name": "Rhadoo",
-   "tier": 0,
-   "score": 15,
-   "popularity": 15,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1784ff451a0a0cfb9f651258775",
-   "known": false
-  },
-  {
    "id": "rhys-baker",
    "name": "Rhys Baker",
    "tier": 0,
@@ -6516,16 +6578,6 @@
    "known": false
   },
   {
-   "id": "rougail-space-program",
-   "name": "rougail space program",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178d3b6f4c8ad239a8eb2b80c8a",
-   "known": false
-  },
-  {
    "id": "roulita",
    "name": "Roulita",
    "tier": 0,
@@ -6583,16 +6635,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "salem-unsigned",
-   "name": "Salem Unsigned",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851b416e1df4ac23a67557c2d20",
    "known": false
   },
   {
@@ -6823,6 +6865,16 @@
    "popularity": 62,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f5b5e8b0cc9282142594d3c9",
+   "known": false
+  },
+  {
+   "id": "sound-00-circle-of-vibration",
+   "name": "Sound 00 (Circle Of Vibration)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7306,6 +7358,16 @@
    "known": false
   },
   {
+   "id": "two-dots",
+   "name": "Two Dots (FR)",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851099af187cb65116708b356cf",
+   "known": false
+  },
+  {
    "id": "two-shell",
    "name": "Two Shell",
    "tier": 0,
@@ -7456,6 +7518,26 @@
    "known": false
   },
   {
+   "id": "vel",
+   "name": "VEL (MA)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "vendex",
+   "name": "Vendex",
+   "tier": 0,
+   "score": 46,
+   "popularity": 46,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788b7c6cea3a9298450ecfbc69",
+   "known": false
+  },
+  {
    "id": "victor-mantel",
    "name": "Victor Mantel",
    "tier": 0,
@@ -7473,16 +7555,6 @@
    "popularity": 77,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e48c95d6038308f4f7b33799",
-   "known": false
-  },
-  {
-   "id": "vitamine-c",
-   "name": "VITAMINE C",
-   "tier": 0,
-   "score": 55,
-   "popularity": 55,
-   "genres": [],
-   "image": "https://i.scdn.co/image/2f6ac55d5571fdc383e6da93f240686f20a73b2b",
    "known": false
   },
   {
@@ -7647,277 +7719,6 @@
   }
  ],
  "events": [
-  {
-   "id": "00ae23bacaa2",
-   "title": "Boy Harsher AFTERPARTY",
-   "venue_id": "silencio",
-   "night": "2026-11-15",
-   "start": "2026-11-15T22:30:00.000",
-   "end": "2026-11-16T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "boy-harsher",
-     "name": "Boy Harsher",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2578358",
-   "event_url": "https://ra.co/events/2578358",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2578358"
-    }
-   ],
-   "interest": {
-    "score": 54,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Boy Harsher (67)",
-     "lieu : Silencio (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "1c59674f2424",
-   "title": "Weirdies Jon Beige's afterimage release party",
-   "venue_id": "lithium-paris",
-   "night": "2026-11-15",
-   "start": "2026-11-15T14:00:00.000",
-   "end": "2026-11-15T19:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "vitamine-c",
-     "name": "VITAMINE C",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "dj-sundae",
-     "name": "DJ Sundae",
-     "billing": "support"
-    },
-    {
-     "artist_id": "rebequita",
-     "name": "Rebequita",
-     "billing": "support"
-    },
-    {
-     "artist_id": "rougail-space-program",
-     "name": "rougail space program",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "club",
-    "dancehall",
-    "bass",
-    "latin bass",
-    "tech house"
-   ],
-   "families": [
-    "House",
-    "Électro & bass",
-    "Afro & latin",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2582034",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2582034"
-    }
-   ],
-   "interest": {
-    "score": 46,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : VITAMINE C (55)",
-     "lieu : Lithium Paris (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "01ab4215e797",
-   "title": "Concert goat (jp)",
-   "venue_id": "bourse-de-commerce-pinault-collection",
-   "night": "2026-11-15",
-   "start": "2026-11-15T20:30:00.000",
-   "end": "2026-11-16T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "goat",
-     "name": "Goat (JP)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2544839",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544839"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2544839"
-    }
-   ],
-   "interest": {
-    "score": 21,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Goat (JP) (21)",
-     "lieu : Bourse de Commerce — Pinault Collection (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "4becdc261653",
-   "title": "AFTER O'CLOCK: Salem Unsigned, SONIC CREW, Chris Gavin",
-   "venue_id": "glazart",
-   "night": "2026-11-15",
-   "start": "2026-11-15T06:00:00.000",
-   "end": "2026-11-15T16:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "chris-gavin",
-     "name": "Chris Gavin",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "salem-unsigned",
-     "name": "Salem Unsigned",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2581368",
-   "event_url": "https://ra.co/events/2581368",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2581368"
-    }
-   ],
-   "interest": {
-    "score": 17,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Chris Gavin (7)",
-     "lieu : Glazart (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "6b8fb8c858a8",
-   "title": "extended - Rhadoo - open to close",
-   "venue_id": "essaim",
-   "night": "2026-11-15",
-   "start": "2026-11-15T16:00:00.000",
-   "end": "2026-11-16T00:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "rhadoo",
-     "name": "Rhadoo",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2516021",
-   "event_url": "https://ra.co/events/2516021",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2516021"
-    }
-   ],
-   "interest": {
-    "score": 17,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Rhadoo (15)",
-     "lieu : essaim (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "0761cb3bbd43",
-   "title": "MILE DIETRICH ALL NIGHT",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-11-15",
-   "start": "2026-11-15T23:59:00.000",
-   "end": "2026-11-16T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "mila-dietrich",
-     "name": "Mila Dietrich",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "trance",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2577324",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2577324"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Mila Dietrich (0)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
   {
    "id": "5615c607f0e3",
    "title": "Acid Oslo",
@@ -10873,6 +10674,48 @@
     "reasons": [
      "tête d'affiche : Batuka (12)",
      "lieu : La Marquise Club (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "01a26dc38b21",
+   "title": "Matter And Sound 00 (Circle Of Vibration)",
+   "venue_id": "tba-11-rue-commines-75003-paris-france",
+   "night": "2026-11-21",
+   "start": "2026-11-22T00:00:00.000",
+   "end": "2026-11-22T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "matter",
+     "name": "Matter",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "sound-00-circle-of-vibration",
+     "name": "Sound 00 (Circle Of Vibration)",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2585683",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2585683"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Matter (13)",
+     "lieu : TBA - 11 Rue Commines, 75003 Paris, France (palier 1)"
     ]
    }
   },
@@ -19498,7 +19341,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2585423",
    "event_url": "https://ra.co/events/2585423",
    "image": "",
    "status": "confirmed",
@@ -22290,6 +22133,43 @@
    }
   },
   {
+   "id": "8eda90a456a9",
+   "title": "Baba Stiltz",
+   "venue_id": "tba-villa-riberolle-75020-paris-france",
+   "night": "2027-01-30",
+   "start": "2027-01-30T15:00:00.000",
+   "end": "2027-01-31T17:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "baba-stiltz",
+     "name": "Baba Stiltz",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2585687",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2585687"
+    }
+   ],
+   "interest": {
+    "score": 35,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Baba Stiltz (40)",
+     "lieu : TBA - Villa Riberolle, 75020 Paris, France (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "346ea8c7c15e",
    "title": "NTO & FRIENDS • AFTER SHOW OFFICIEL DE L'OLYMPIA",
    "venue_id": "rex-club",
@@ -23171,6 +23051,174 @@
      "lieu : La Mécanique Ondulatoire (palier 1)"
     ]
    }
+  },
+  {
+   "id": "9e23fb778e48",
+   "title": "Marvellous Island 2027, Day 1/ 15th anniversary",
+   "venue_id": "plage-de-torcy",
+   "night": "2027-05-15",
+   "start": "2027-05-15T13:00:00.000",
+   "end": "2027-05-16T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "nto",
+     "name": "NTO",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "999999999",
+     "name": "999999999",
+     "billing": "support"
+    },
+    {
+     "artist_id": "fakear",
+     "name": "Fakear",
+     "billing": "support"
+    },
+    {
+     "artist_id": "vendex",
+     "name": "Vendex",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lb-aka-labat",
+     "name": "LB aka LABAT",
+     "billing": "support"
+    },
+    {
+     "artist_id": "bella-claxton",
+     "name": "Bella Claxton",
+     "billing": "support"
+    },
+    {
+     "artist_id": "pureblast",
+     "name": "Pureblast",
+     "billing": "support"
+    },
+    {
+     "artist_id": "paramida",
+     "name": "PARAMIDA",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ogazon",
+     "name": "Ogazón",
+     "billing": "support"
+    },
+    {
+     "artist_id": "25emeheure",
+     "name": "25EMEHEURE",
+     "billing": "support"
+    },
+    {
+     "artist_id": "emma-b",
+     "name": "Emma B",
+     "billing": "support"
+    },
+    {
+     "artist_id": "gabrielle-kwarteng",
+     "name": "Gabrielle Kwarteng",
+     "billing": "support"
+    },
+    {
+     "artist_id": "vel",
+     "name": "VEL (MA)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "maco-maria",
+     "name": "Maco Maria",
+     "billing": "support"
+    },
+    {
+     "artist_id": "iman-janes",
+     "name": "Iman Janes",
+     "billing": "support"
+    },
+    {
+     "artist_id": "automatic-writing",
+     "name": "Automatic Writing",
+     "billing": "support"
+    },
+    {
+     "artist_id": "two-dots",
+     "name": "Two Dots (FR)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "agathe-mougin",
+     "name": "Agathe Mougin",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house",
+    "hard techno",
+    "acid"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2584897",
+   "event_url": "https://ra.co/events/2584897",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584897"
+    }
+   ],
+   "interest": {
+    "score": 63,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : NTO (69)",
+     "lieu : Plage De Torcy (palier 1)",
+     "plateau dense"
+    ]
+   }
+  },
+  {
+   "id": "7ca022a8afde",
+   "title": "MEUTE",
+   "venue_id": "zenith-paris-la-villette",
+   "night": "2027-05-15",
+   "start": "2027-05-15T20:00:00.000",
+   "end": "2027-05-15T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "meute",
+     "name": "MEUTE",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2561654",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2561654"
+    }
+   ],
+   "interest": {
+    "score": 50,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : MEUTE (61)",
+     "lieu : Zénith Paris - La Villette (palier 1)"
+    ]
+   }
   }
  ],
  "announcements": [
@@ -23180,6 +23228,13 @@
    "night": "2027-02-05",
    "venue": "Sacré",
    "photo": "https://i.scdn.co/image/ab6761610000f17857ed4ee8c3ecb65edca402b5"
+  },
+  {
+   "id": "9e23fb778e48",
+   "name": "NTO",
+   "night": "2027-05-15",
+   "venue": "Plage De Torcy",
+   "photo": "https://i.scdn.co/image/ab6761610000f1786ea1974d71c81a203647ce06"
   },
   {
    "id": "2e65ec6d88b2",
