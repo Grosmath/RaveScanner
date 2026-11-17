@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-16T19:20:52Z",
+ "generated_at": "2026-11-17T03:37:37Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-16",
-  "end": "2027-05-15"
+  "start": "2026-11-17",
+  "end": "2027-05-16"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 181
+   "events": 179
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 39
+   "events": 41
   }
  ],
  "venue_order": [
@@ -58,6 +58,7 @@
   "union-francaise-de-montreal",
   "foufounes",
   "tba-montreal",
+  "p-tit-ours",
   "l-escogriffe-bar-spectacle",
   "sainte-catherine-hall",
   "blue-room",
@@ -401,6 +402,16 @@
   {
    "id": "osmo-x-marusan",
    "name": "Osmo x Marusan",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "p-tit-ours",
+   "name": "P'tit Ours",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -2544,6 +2555,16 @@
    "known": false
   },
   {
+   "id": "joon",
+   "name": "JOON",
+   "tier": 0,
+   "score": 57,
+   "popularity": 57,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fbbbc85f7502b995835c6870",
+   "known": false
+  },
+  {
    "id": "jordan-gardner",
    "name": "Jordan Gardner",
    "tier": 0,
@@ -2567,8 +2588,8 @@
    "id": "josh-baker",
    "name": "Josh Baker",
    "tier": 0,
-   "score": 74,
-   "popularity": 74,
+   "score": 73,
+   "popularity": 73,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e5cc0458e5c13ef8ab6c2441",
    "known": false
@@ -2823,8 +2844,8 @@
    "id": "ledisko",
    "name": "Ledisko",
    "tier": 0,
-   "score": 8,
-   "popularity": null,
+   "score": 0,
+   "popularity": 0,
    "genres": [],
    "image": "",
    "known": false
@@ -3376,8 +3397,8 @@
    "id": "mosimann",
    "name": "Mosimann",
    "tier": 0,
-   "score": 67,
-   "popularity": 67,
+   "score": 69,
+   "popularity": 69,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782351d65edb53f2c986faa0d1",
    "known": false
@@ -3909,8 +3930,8 @@
    "id": "romain-garcia",
    "name": "Romain Garcia",
    "tier": 0,
-   "score": 63,
-   "popularity": 63,
+   "score": 64,
+   "popularity": 64,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178146f8239864dbfb4c67cb577",
    "known": false
@@ -3983,16 +4004,6 @@
    "popularity": 22,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178741483fa8a6515a00a7fe63f",
-   "known": false
-  },
-  {
-   "id": "salvo",
-   "name": "Salvo (CA)",
-   "tier": 0,
-   "score": 3,
-   "popularity": 3,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178dc89cae52ce8001caf038ae3",
    "known": false
   },
   {
@@ -4757,43 +4768,6 @@
   }
  ],
  "events": [
-  {
-   "id": "71c00a6be2c5",
-   "title": "Sans Soleil w/ Salvo",
-   "venue_id": "sans-soleil",
-   "night": "2026-11-16",
-   "start": "2026-11-16T20:00:00.000",
-   "end": "2026-11-17T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "salvo",
-     "name": "Salvo (CA)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2583340",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583340"
-    }
-   ],
-   "interest": {
-    "score": 8,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Salvo (CA) (3)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
   {
    "id": "de75eb4a934c",
    "title": "Sassy 009 avec Cherry Lena & sineila",
@@ -6221,13 +6195,13 @@
    "end": "2026-11-21T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "ledisko",
-     "name": "Ledisko",
+     "artist_id": "mayalabae",
+     "name": "mayalabae",
      "billing": "headliner"
     },
     {
-     "artist_id": "mayalabae",
-     "name": "mayalabae",
+     "artist_id": "ledisko",
+     "name": "Ledisko",
      "billing": "support"
     },
     {
@@ -6254,7 +6228,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Ledisko (8)",
+     "tête d'affiche : mayalabae (8)",
      "lieu : Système (palier 1)"
     ]
    }
@@ -10618,6 +10592,45 @@
    }
   },
   {
+   "id": "b8d78963cae2",
+   "title": "JOON",
+   "venue_id": "p-tit-ours",
+   "night": "2026-12-08",
+   "start": "2026-12-08T20:00:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "joon",
+     "name": "JOON",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.universe.com/events/joon-tickets-TN45FQ?ref=ticketmaster",
+   "event_url": "https://www.universe.com/events/joon-tickets-TN45FQ?ref=ticketmaster",
+   "image": "https://images.universe.com/27b78da7-ff20-4b29-b920-92b33cdc5a2f/-/resize/1200x/-/crop/836x836/184,0/-/format/jpeg/-/scale_crop/1024x683/center/-/progressive/yes/-/inline/yes/",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.universe.com/events/joon-tickets-TN45FQ?ref=ticketmaster"
+    }
+   ],
+   "interest": {
+    "score": 47,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : JOON (57)",
+     "lieu : P'tit Ours (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8aa1496e7851",
    "title": "Bwi-Bwi + Xia",
    "venue_id": "systeme",
@@ -11572,7 +11585,7 @@
     "score": 71,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : Josh Baker (74)",
+     "tête d'affiche : Josh Baker (73)",
      "lieu : New City Gas (palier 3)"
     ]
    }
@@ -12717,6 +12730,52 @@
    }
   },
   {
+   "id": "9219dd89a6b4",
+   "title": "Igloofest MTL #7: Mosimann",
+   "venue_id": "igloofest",
+   "night": "2027-01-28",
+   "start": "2027-01-28T19:30:00.000",
+   "end": "2027-01-28T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mosimann",
+     "name": "Mosimann",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "tony-romera",
+     "name": "Tony Romera",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2566115",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2566115"
+    }
+   ],
+   "interest": {
+    "score": 56,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Mosimann (69)",
+     "lieu : Igloofest (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "2c47a7223465",
    "title": "Igloofest MTL #8: Seven Lions",
    "venue_id": "igloofest",
@@ -12771,52 +12830,6 @@
     "tier": 2,
     "reasons": [
      "tête d'affiche : Seven Lions (69)",
-     "lieu : Igloofest (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "9219dd89a6b4",
-   "title": "Igloofest MTL #7: Mosimann",
-   "venue_id": "igloofest",
-   "night": "2027-01-28",
-   "start": "2027-01-28T19:30:00.000",
-   "end": "2027-01-28T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "mosimann",
-     "name": "Mosimann",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "tony-romera",
-     "name": "Tony Romera",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2566115",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2566115"
-    }
-   ],
-   "interest": {
-    "score": 54,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Mosimann (67)",
      "lieu : Igloofest (palier 1)"
     ]
    }
@@ -13279,10 +13292,10 @@
     }
    ],
    "interest": {
-    "score": 57,
+    "score": 58,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : Romain Garcia (63)",
+     "tête d'affiche : Romain Garcia (64)",
      "lieu : Theatre Fairmount (palier 2)"
     ]
    }
@@ -14769,6 +14782,10 @@
     {
      "id": "mtelus",
      "url": "https://evenko.ca/fr/evenements/mtelus/trinix?code=e009356"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/trinix-montreal-quebec-05-15-2027/event/3100655CEA239D83"
     }
    ],
    "interest": {
@@ -14995,21 +15012,6 @@
   },
   {
    "kind": "event",
-   "day": "JEU 3 DEC",
-   "title": "Marvin",
-   "venue": "Ausgang Plaza",
-   "time": "19:00 → 23:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "Gone Deville, Lost Heroes, Ekitwanda",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://cdn-images.dzcdn.net/images/artist/342c2da5f30a98d45c8b2b96e9b18166/1000x1000-000000-80-0-0.jpg",
-   "event_id": "158a862cec79"
-  },
-  {
-   "kind": "event",
    "day": "SAM 5 DEC",
    "title": "Tiga",
    "venue": "Stereo",
@@ -15022,6 +15024,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb4cadec9a07cd964d1420a7bc",
    "event_id": "18b7a9ca8d47"
+  },
+  {
+   "kind": "event",
+   "day": "MER 16 DEC",
+   "title": "Lynnic",
+   "venue": "Newspeak",
+   "time": "19:30 → 23:30",
+   "tier": 2,
+   "reason": "",
+   "supports": "",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5ebf0a6c56cd3bb8946a407c3d7",
+   "event_id": "6e4ea8443bab"
   }
  ]
 }
