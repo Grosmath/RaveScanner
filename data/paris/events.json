@@ -1,33 +1,33 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-17T18:15:41Z",
+ "generated_at": "2026-11-18T02:50:41Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-11-17",
-  "end": "2027-05-16"
+  "start": "2026-11-18",
+  "end": "2027-05-17"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 387
+   "events": 385
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 35
+   "events": 39
   }
  ],
  "venue_order": [
-  "pavillon-tilsitt",
   "phantom-paris",
   "rex-club",
   "fvtvr",
   "sacre",
+  "gate-club-paris",
   "plage-de-torcy",
   "la-defense-arena",
   "mia-mao",
@@ -44,8 +44,8 @@
   "badaboum",
   "elysee-montmartre",
   "la-machine-du-moulin-rouge",
-  "parc-des-expositions",
   "djoon",
+  "parc-des-expositions",
   "la-java",
   "le-grand-dome",
   "petit-bain",
@@ -53,9 +53,9 @@
   "la-gare-le-gore",
   "cite-de-la-musique",
   "point-ephemere",
-  "zenith-paris-la-villette",
   "tba-paris",
   "yoyo-palais-de-tokyo",
+  "zenith-paris-la-villette",
   "essaim",
   "le-zeralda",
   "tba-le-tlm",
@@ -126,6 +126,7 @@
   "peniche-henjo",
   "skybar-paris-rooftop",
   "tba-katapoull",
+  "terraza-mikuna",
   "tiki-playa",
   "workshow",
   "communale-saint-ouen",
@@ -419,6 +420,16 @@
     "techno",
     "hard"
    ]
+  },
+  {
+   "id": "gate-club-paris",
+   "name": "GATE CLUB PARIS",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
   },
   {
    "id": "glazart",
@@ -928,18 +939,6 @@
    "genres": []
   },
   {
-   "id": "pavillon-tilsitt",
-   "name": "Pavillon Tilsitt",
-   "type": "club",
-   "tier": 2,
-   "capacity": null,
-   "address": "Place Charles de Gaulle, 75017",
-   "url": "",
-   "genres": [
-    "house"
-   ]
-  },
-  {
    "id": "peniche-adelaide",
    "name": "Péniche Adélaïde",
    "type": "club",
@@ -1236,6 +1235,16 @@
   {
    "id": "terminus",
    "name": "Terminus",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "terraza-mikuna",
+   "name": "Terraza Mikuna",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -2686,6 +2695,16 @@
    "known": false
   },
   {
+   "id": "club-sonore-rooftop-party",
+   "name": "Club Sonore Rooftop Party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "cocoon",
    "name": "Cocoon",
    "tier": 0,
@@ -3186,6 +3205,16 @@
    "known": false
   },
   {
+   "id": "dj-daddy-k",
+   "name": "DJ Daddy K",
+   "tier": 0,
+   "score": 14,
+   "popularity": 14,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485179350ba69af7c2bbaefa1c52",
+   "known": false
+  },
+  {
    "id": "dj-dave",
    "name": "DJ_Dave",
    "tier": 0,
@@ -3396,6 +3425,16 @@
    "known": false
   },
   {
+   "id": "draktar",
+   "name": "Draktar",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048514fd6dd01a7c86b0516fbd84c",
+   "known": false
+  },
+  {
    "id": "drawbridge",
    "name": "Drawbridge",
    "tier": 0,
@@ -3403,16 +3442,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485140b7abea3b3574e7af553240",
-   "known": false
-  },
-  {
-   "id": "dustin",
-   "name": "Dustin (UK)",
-   "tier": 0,
-   "score": 5,
-   "popularity": 5,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485148082e3073acf809a3f6441f",
    "known": false
   },
   {
@@ -4186,16 +4215,6 @@
    "known": false
   },
   {
-   "id": "gimmix",
-   "name": "Gimmix",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17834fddc34a845d81bb3c4c632",
-   "known": false
-  },
-  {
    "id": "glaive",
    "name": "Glaive",
    "tier": 0,
@@ -4693,7 +4712,7 @@
   },
   {
    "id": "jam-du-bpm-contest",
-   "name": "Jam Du BPM Contest",
+   "name": "Jam du BPM Contest",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5652,6 +5671,16 @@
    "known": false
   },
   {
+   "id": "lymsa",
+   "name": "Lymsa",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "lyss",
    "name": "Lyss",
    "tier": 0,
@@ -5674,6 +5703,16 @@
   {
    "id": "m-o-n-a",
    "name": "M O N A (US)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "m3hm3t",
+   "name": "M3HM3T",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5967,8 +6006,8 @@
    "id": "maria-arnal",
    "name": "Maria Arnal",
    "tier": 0,
-   "score": 50,
-   "popularity": 50,
+   "score": 51,
+   "popularity": 51,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178773e9d2726f74dd804d6f1af",
    "known": false
@@ -6117,8 +6156,8 @@
    "id": "max-sinal",
    "name": "Max Sinàl",
    "tier": 0,
-   "score": 54,
-   "popularity": 54,
+   "score": 55,
+   "popularity": 55,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783cd74edb709144a3352df286",
    "known": false
@@ -6484,6 +6523,16 @@
    "known": false
   },
   {
+   "id": "more-shield-run",
+   "name": "More : Shield Run",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "moulin",
    "name": "Moulin",
    "tier": 0,
@@ -6734,6 +6783,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "npc",
+   "name": "NPC",
+   "tier": 0,
+   "score": 17,
+   "popularity": 17,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17890dc371c260d68b0e71bdb3e",
    "known": false
   },
   {
@@ -7630,10 +7689,10 @@
    "id": "saint-lukez",
    "name": "Saint Lukez",
    "tier": 0,
-   "score": 8,
-   "popularity": null,
+   "score": 20,
+   "popularity": 20,
    "genres": [],
-   "image": "",
+   "image": "https://i.scdn.co/image/ab6761610000f178a2310fcfc37db3f97e946c1a",
    "known": false
   },
   {
@@ -9009,162 +9068,6 @@
  ],
  "events": [
   {
-   "id": "08e3bcd8cec0",
-   "title": "Jam Du BPM Contest",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-11-17",
-   "start": "2026-11-17T23:59:00.000",
-   "end": "2026-11-18T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "jam-du-bpm-contest",
-     "name": "Jam Du BPM Contest",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2577330",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2577330"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Jam Du BPM Contest (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "4a57f3b370ff",
-   "title": "BILAL HASSANI AFTERPARTY W/ SUTUS, DYNE DONG, DUSTIN",
-   "venue_id": "silencio",
-   "night": "2026-11-17",
-   "start": "2026-11-17T23:00:00.000",
-   "end": "2026-11-18T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dustin",
-     "name": "Dustin (UK)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2585963",
-   "event_url": "https://ra.co/events/2585963",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2585963"
-    }
-   ],
-   "interest": {
-    "score": 10,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Dustin (UK) (5)",
-     "lieu : Silencio (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "3b34868d2b59",
-   "title": "Vrai Marabout Voyant Compétent à Strasbourg – Paiement Après Résultat",
-   "venue_id": "zenith-paris-la-villette",
-   "night": "2026-11-17",
-   "start": "2026-11-17T09:00:00.000",
-   "end": "2026-11-26T23:59:00.000",
-   "lineup": [
-    {
-     "artist_id": "gimmix",
-     "name": "Gimmix",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "afro house",
-    "afro tech"
-   ],
-   "families": [
-    "Afro & latin"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2582598",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2582598"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2582598"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2582598"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2582598"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2582598"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2582598"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2582598"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2582598"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2582598"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2582598"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Gimmix (0)",
-     "lieu : Zénith Paris - La Villette (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "3728330ff289",
    "title": "WOH: Lazare, MIJARES & SPINOFF",
    "venue_id": "silencio",
@@ -9476,10 +9379,10 @@
     }
    ],
    "interest": {
-    "score": 48,
+    "score": 49,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Maria Arnal (50)",
+     "tête d'affiche : Maria Arnal (51)",
      "lieu : Badaboum (palier 2)"
     ]
    }
@@ -12720,6 +12623,49 @@
    }
   },
   {
+   "id": "df90d64c5d52",
+   "title": "Club Sonore Rooftop Party",
+   "venue_id": "terraza-mikuna",
+   "night": "2026-11-21",
+   "start": "2026-11-21T20:00:00.000",
+   "end": "2026-11-22T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "club-sonore-rooftop-party",
+     "name": "Club Sonore Rooftop Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2587735",
+   "event_url": "https://ra.co/events/2587735",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2587735"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Club Sonore Rooftop Party (8)",
+     "lieu : Terraza Mikuna (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "a60ec666f535",
    "title": "ENTRE OMBRE ET LUMIÈRE — 21.11.2026",
    "venue_id": "tba-paris",
@@ -13468,7 +13414,7 @@
    "lineup": [
     {
      "artist_id": "jam-du-bpm-contest",
-     "name": "Jam Du BPM Contest",
+     "name": "Jam du BPM Contest",
      "billing": "headliner"
     }
    ],
@@ -13494,15 +13440,15 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Jam Du BPM Contest (8)",
+     "tête d'affiche : Jam du BPM Contest (8)",
      "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
   {
-   "id": "2b8e9a31fa7c",
+   "id": "1c500d8a62ca",
    "title": "B-BOY ISH : BOB SINCLAR",
-   "venue_id": "pavillon-tilsitt",
+   "venue_id": "gate-club-paris",
    "night": "2026-11-25",
    "start": "2026-11-25T21:00:00+01:00",
    "end": "2026-11-27T03:00:00+01:00",
@@ -13511,6 +13457,11 @@
      "artist_id": "bob-sinclar",
      "name": "Bob Sinclar",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "dj-daddy-k",
+     "name": "DJ Daddy K",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -13520,24 +13471,24 @@
    "families": [
     "House"
    ],
-   "price_min": 33.01,
+   "price_min": 22.01,
    "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/nvx2bq-b-boy-ish-bob-sinclar-25th-nov-pavillon-tilsitt-paris-tickets",
-   "event_url": "https://dice.fm/event/nvx2bq-b-boy-ish-bob-sinclar-25th-nov-pavillon-tilsitt-paris-tickets",
+   "ticket_url": "https://dice.fm/event/nvx2bq-b-boy-ish-bob-sinclar-25th-nov-gate-club-paris-paris-tickets",
+   "event_url": "https://dice.fm/event/nvx2bq-b-boy-ish-bob-sinclar-25th-nov-gate-club-paris-paris-tickets",
    "image": "https://dice-media.imgix.net/attachments/2026-08-27/73b62f57-a88e-4d36-8998-6d083f3de40b.jpg?rect=678%2C0%2C1716%2C1716",
    "status": "confirmed",
    "sources": [
     {
      "id": "dice",
-     "url": "https://dice.fm/event/nvx2bq-b-boy-ish-bob-sinclar-25th-nov-pavillon-tilsitt-paris-tickets"
+     "url": "https://dice.fm/event/nvx2bq-b-boy-ish-bob-sinclar-25th-nov-gate-club-paris-paris-tickets"
     }
    ],
    "interest": {
-    "score": 79,
-    "tier": 3,
+    "score": 73,
+    "tier": 2,
     "reasons": [
      "tête d'affiche : Bob Sinclar (93)",
-     "lieu : Pavillon Tilsitt (palier 2)"
+     "lieu : GATE CLUB PARIS (palier 1)"
     ]
    }
   },
@@ -15684,10 +15635,10 @@
     }
    ],
    "interest": {
-    "score": 51,
+    "score": 52,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Max Sinàl (54)",
+     "tête d'affiche : Max Sinàl (55)",
      "lieu : Djoon (palier 2)"
     ]
    }
@@ -17795,16 +17746,20 @@
     "Techno",
     "Électro & bass"
    ],
-   "price_min": null,
+   "price_min": 7.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2587054",
    "event_url": "https://ra.co/events/2587054",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-17/5d699567-f2c1-4ccb-80a6-f1758fd30bfa.jpg?rect=0%2C305%2C1080%2C1081",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2587054"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/kxpnbl-tessitta-nina-baby-mme-comtesse-tbd-soundsystems-3rd-dec-la-java-paris-tickets"
     }
    ],
    "interest": {
@@ -20950,16 +20905,20 @@
     "Techno",
     "Trance & hard"
    ],
-   "price_min": null,
+   "price_min": 16.51,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2587273",
    "event_url": "https://ra.co/events/2587273",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-17/ee084676-3a5b-41cd-9d64-195b36acc6e8.jpg?rect=0%2C154%2C1290%2C1290",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2587273"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/bvlxyg-boilerboat-techno-trance-bounce-en-format-360-11th-dec-petit-bain-paris-tickets"
     }
    ],
    "interest": {
@@ -21089,9 +21048,34 @@
    "end": "2026-12-12T07:00:00.000",
    "lineup": [
     {
+     "artist_id": "npc",
+     "name": "NPC",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "mz",
      "name": "MØZ",
-     "billing": "headliner"
+     "billing": "support"
+    },
+    {
+     "artist_id": "lymsa",
+     "name": "Lymsa",
+     "billing": "support"
+    },
+    {
+     "artist_id": "m3hm3t",
+     "name": "M3HM3T",
+     "billing": "support"
+    },
+    {
+     "artist_id": "more-shield-run",
+     "name": "More : Shield Run",
+     "billing": "support"
+    },
+    {
+     "artist_id": "draktar",
+     "name": "Draktar",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -21102,23 +21086,27 @@
     "Techno",
     "Trance & hard"
    ],
-   "price_min": null,
+   "price_min": 14.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2587301",
    "event_url": "https://ra.co/events/2587301",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-17/0c757c28-7b72-4135-b041-18df2ee6aed8.jpg?rect=70%2C96%2C710%2C710",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2587301"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/99e6x6-draktar-lymsa-m3hm3t-more-shield-run-x-npc-11th-dec-la-java-paris-tickets"
     }
    ],
    "interest": {
-    "score": 18,
+    "score": 24,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : MØZ (8)",
+     "tête d'affiche : NPC (17)",
      "lieu : La Java (palier 2)"
     ]
    }
@@ -22617,9 +22605,9 @@
    }
   },
   {
-   "id": "ef35b4e5f99b",
+   "id": "bc2025e892a7",
    "title": "B-BOY ISH : BOB SINCLAR",
-   "venue_id": "pavillon-tilsitt",
+   "venue_id": "gate-club-paris",
    "night": "2026-12-16",
    "start": "2026-12-16T21:00:00+01:00",
    "end": "2026-12-17T03:00:00+01:00",
@@ -22639,22 +22627,22 @@
    ],
    "price_min": 33.01,
    "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/8v3yxr-b-boy-ish-bob-sinclar-16th-dec-pavillon-tilsitt-paris-tickets",
-   "event_url": "https://dice.fm/event/8v3yxr-b-boy-ish-bob-sinclar-16th-dec-pavillon-tilsitt-paris-tickets",
+   "ticket_url": "https://dice.fm/event/8v3yxr-b-boy-ish-bob-sinclar-16th-dec-gate-club-paris-paris-tickets",
+   "event_url": "https://dice.fm/event/8v3yxr-b-boy-ish-bob-sinclar-16th-dec-gate-club-paris-paris-tickets",
    "image": "https://dice-media.imgix.net/attachments/2026-08-27/73b62f57-a88e-4d36-8998-6d083f3de40b.jpg?rect=678%2C0%2C1716%2C1716",
    "status": "confirmed",
    "sources": [
     {
      "id": "dice",
-     "url": "https://dice.fm/event/8v3yxr-b-boy-ish-bob-sinclar-16th-dec-pavillon-tilsitt-paris-tickets"
+     "url": "https://dice.fm/event/8v3yxr-b-boy-ish-bob-sinclar-16th-dec-gate-club-paris-paris-tickets"
     }
    ],
    "interest": {
-    "score": 79,
-    "tier": 3,
+    "score": 73,
+    "tier": 2,
     "reasons": [
      "tête d'affiche : Bob Sinclar (93)",
-     "lieu : Pavillon Tilsitt (palier 2)"
+     "lieu : GATE CLUB PARIS (palier 1)"
     ]
    }
   },
@@ -23422,16 +23410,20 @@
    "families": [
     "Électro & bass"
    ],
-   "price_min": null,
+   "price_min": 13.0,
    "currency": "CAD",
    "ticket_url": "https://ra.co/events/2587382",
    "event_url": "https://ra.co/events/2587382",
-   "image": "",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-17/c9e694e8-ed7d-401e-81da-2a5517c3370c.jpg?rect=0%2C164%2C1000%2C1000",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
      "url": "https://ra.co/events/2587382"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/ok2qvm-mila-moja-18th-dec-point-ephmre-paris-tickets"
     }
    ],
    "interest": {
@@ -26902,6 +26894,20 @@
  ],
  "announcements": [
   {
+   "id": "1c500d8a62ca",
+   "name": "Bob Sinclar",
+   "night": "2026-11-25",
+   "venue": "GATE CLUB PARIS",
+   "photo": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845"
+  },
+  {
+   "id": "bc2025e892a7",
+   "name": "Bob Sinclar",
+   "night": "2026-12-16",
+   "venue": "GATE CLUB PARIS",
+   "photo": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845"
+  },
+  {
    "id": "d4e38a3b37da",
    "name": "Etienne De Crecy",
    "night": "2027-05-16",
@@ -26956,20 +26962,6 @@
    "night": "2027-02-19",
    "venue": "Sacré",
    "photo": "https://i.scdn.co/image/ab6761610000f178f5b5e8b0cc9282142594d3c9"
-  },
-  {
-   "id": "d2f6765cd5d8",
-   "name": "The Hacker",
-   "night": "2026-12-18",
-   "venue": "Rex Club",
-   "photo": "https://i.scdn.co/image/ab6761610000f1781039076df8c0631daa8a2dde"
-  },
-  {
-   "id": "c37784c8f777",
-   "name": "BLANKA",
-   "night": "2026-11-20",
-   "venue": "FVTVR",
-   "photo": "https://i.scdn.co/image/ab6761610000f1785fb2a8eb9493558aa80cc5c1"
   }
  ],
  "families": [
@@ -27017,16 +27009,16 @@
    "kind": "event",
    "day": "MER 25 + MER 16 DEC",
    "title": "Bob Sinclar",
-   "venue": "Pavillon Tilsitt",
+   "venue": "GATE CLUB PARIS",
    "time": "21:00 → 03:00",
-   "tier": 3,
+   "tier": 2,
    "reason": "",
-   "supports": "",
+   "supports": "DJ Daddy K",
    "subtitle": "",
    "footer": "",
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb9bf03e6d3ab7ceb543638845",
-   "event_id": "2b8e9a31fa7c"
+   "event_id": "1c500d8a62ca"
   },
   {
    "kind": "event",

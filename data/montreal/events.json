@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-17T18:14:34Z",
+ "generated_at": "2026-11-18T02:49:36Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-17",
-  "end": "2027-05-16"
+  "start": "2026-11-18",
+  "end": "2027-05-17"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 182
+   "events": 183
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 41
+   "events": 42
   }
  ],
  "venue_order": [
@@ -59,10 +59,9 @@
   "foufounes",
   "tba-montreal",
   "p-tit-ours",
-  "l-escogriffe-bar-spectacle",
+  "vino-disco",
   "sainte-catherine-hall",
   "blue-room",
-  "vino-disco",
   "centre-phi",
   "esc",
   "nwhr",
@@ -276,16 +275,6 @@
   {
    "id": "igloofest",
    "name": "Igloofest",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "l-escogriffe-bar-spectacle",
-   "name": "l'Escogriffe Bar Spectacle",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -680,8 +669,8 @@
    "id": "akpossoul",
    "name": "Akpossoul",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 35,
+   "popularity": 35,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786822c57b5eea07a5840a0757",
    "known": false
@@ -926,6 +915,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178359ffa790d019c4a84f486fa",
+   "known": false
+  },
+  {
+   "id": "bakermat",
+   "name": "Bakermat",
+   "tier": 0,
+   "score": 78,
+   "popularity": 78,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dc73b337b677f8ccf91b2ae3",
    "known": false
   },
   {
@@ -1185,16 +1184,6 @@
    "known": false
   },
   {
-   "id": "cherry-lena",
-   "name": "Cherry Lena",
-   "tier": 0,
-   "score": 53,
-   "popularity": 53,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178dd270fc23234bed8d2adb8b7",
-   "known": false
-  },
-  {
    "id": "chippy-nonstop",
    "name": "Chippy Nonstop",
    "tier": 0,
@@ -1282,6 +1271,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "conrad-taylor",
+   "name": "Conrad Taylor",
+   "tier": 0,
+   "score": 65,
+   "popularity": 65,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787e5a049c9fa8419cbf25777f",
    "known": false
   },
   {
@@ -2185,16 +2184,6 @@
    "known": false
   },
   {
-   "id": "hidi",
-   "name": "Hidi",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/33ec94eed30c48b2d6c8bc539ae84224/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "hilel-lev",
    "name": "Hilel Lev",
    "tier": 0,
@@ -2468,8 +2457,8 @@
    "id": "jashim",
    "name": "JASHIM",
    "tier": 0,
-   "score": 13,
-   "popularity": 13,
+   "score": 18,
+   "popularity": 18,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17894dea537939bdb6b594f3581",
    "known": false
@@ -4077,16 +4066,6 @@
    "known": false
   },
   {
-   "id": "sassy-009",
-   "name": "Sassy 009",
-   "tier": 0,
-   "score": 54,
-   "popularity": 54,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788c1dfa08139e245b0dd3e496",
-   "known": false
-  },
-  {
    "id": "seven-lions",
    "name": "Seven Lions",
    "tier": 0,
@@ -4144,16 +4123,6 @@
    "popularity": 31,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d99988fd3b68e8df80e09f08",
-   "known": false
-  },
-  {
-   "id": "sineila",
-   "name": "Sineila",
-   "tier": 0,
-   "score": 8,
-   "popularity": 8,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178ac19bf5b41a29cc28ed1d8ae",
    "known": false
   },
   {
@@ -4244,6 +4213,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178277b980ae303d54f1ddb2d57",
+   "known": false
+  },
+  {
+   "id": "stef-agostino",
+   "name": "Stef Agostino",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b0ca0f787a2fec57ab021c67",
    "known": false
   },
   {
@@ -4587,6 +4566,16 @@
    "known": false
   },
   {
+   "id": "vandelux",
+   "name": "Vandelux (DJ set)",
+   "tier": 0,
+   "score": 69,
+   "popularity": 69,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17884e827ce080b5d77c28be085",
+   "known": false
+  },
+  {
    "id": "varg2tm",
    "name": "Varg²™",
    "tier": 0,
@@ -4818,97 +4807,6 @@
   }
  ],
  "events": [
-  {
-   "id": "de75eb4a934c",
-   "title": "Sassy 009 avec Cherry Lena & sineila",
-   "venue_id": "l-escogriffe-bar-spectacle",
-   "night": "2026-11-17",
-   "start": "2026-11-17T20:30:00-05:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "sassy-009",
-     "name": "Sassy 009",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "cherry-lena",
-     "name": "Cherry Lena",
-     "billing": "support"
-    },
-    {
-     "artist_id": "sineila",
-     "name": "Sineila",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronica",
-    "experimental",
-    "electro"
-   ],
-   "families": [
-    "Électro & bass",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/sassy-009-avec-cherry-lena-sineila-montreal-quebec-11-17-2026/event/310064C1E7D5AF50",
-   "event_url": "https://www.ticketmaster.ca/sassy-009-avec-cherry-lena-sineila-montreal-quebec-11-17-2026/event/310064C1E7D5AF50",
-   "image": "https://s1.ticketm.net/dam/a/97e/1fd95e4a-2a6e-4041-bf42-74565278297e_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/sassy-009-avec-cherry-lena-sineila-montreal-quebec-11-17-2026/event/310064C1E7D5AF50"
-    }
-   ],
-   "interest": {
-    "score": 45,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Sassy 009 (54)",
-     "lieu : l'Escogriffe Bar Spectacle (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "207449779147",
-   "title": "Sans Soleil w/ Hidi",
-   "venue_id": "sans-soleil",
-   "night": "2026-11-17",
-   "start": "2026-11-17T20:00:00.000",
-   "end": "2026-11-18T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "hidi",
-     "name": "Hidi",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2583341",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583341"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Hidi (0)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
   {
    "id": "922100c932ce",
    "title": "DOWN2TECHNO: Every Wednesday",
@@ -6733,6 +6631,52 @@
    }
   },
   {
+   "id": "5621915202cf",
+   "title": "Vino Disco Saturdays: Akpossoul, Don Barbarino, Minzi Roberta (EXTENDED 6AM)",
+   "venue_id": "vino-disco",
+   "night": "2026-11-21",
+   "start": "2026-11-21T20:00:00.000",
+   "end": "2026-11-22T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "akpossoul",
+     "name": "Akpossoul",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "don-barbarino",
+     "name": "Don Barbarino",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2571543",
+   "event_url": "https://ra.co/events/2571543",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571543"
+    }
+   ],
+   "interest": {
+    "score": 31,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Akpossoul (35)",
+     "lieu : Vino Disco (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "843e95999c08",
    "title": "C-world Sound Label Launch + Record Release",
    "venue_id": "systeme",
@@ -7263,52 +7207,6 @@
     "reasons": [
      "tête d'affiche : Mike Larry (0)",
      "lieu : NWHR (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "5621915202cf",
-   "title": "Vino Disco Saturdays: Akpossoul, Don Barbarino, Minzi Roberta (EXTENDED 6AM)",
-   "venue_id": "vino-disco",
-   "night": "2026-11-21",
-   "start": "2026-11-21T20:00:00.000",
-   "end": "2026-11-22T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "akpossoul",
-     "name": "Akpossoul",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "don-barbarino",
-     "name": "Don Barbarino",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2571543",
-   "event_url": "https://ra.co/events/2571543",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2571543"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Akpossoul (0)",
-     "lieu : Vino Disco (palier 1)"
     ]
    }
   },
@@ -9606,6 +9504,11 @@
      "billing": "support"
     },
     {
+     "artist_id": "akpossoul",
+     "name": "Akpossoul",
+     "billing": "support"
+    },
+    {
      "artist_id": "lost-heroes",
      "name": "Lost Heroes",
      "billing": "support"
@@ -9638,11 +9541,6 @@
     {
      "artist_id": "jadalareign",
      "name": "JADALAREIGN",
-     "billing": "support"
-    },
-    {
-     "artist_id": "akpossoul",
-     "name": "Akpossoul",
      "billing": "support"
     }
    ],
@@ -11084,6 +10982,47 @@
    }
   },
   {
+   "id": "3363444931d8",
+   "title": "îLESONIQ présente: Conrad Taylor",
+   "venue_id": "newspeak",
+   "night": "2026-12-12",
+   "start": "2026-12-12T22:00:00.000",
+   "end": "2026-12-13T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "conrad-taylor",
+     "name": "Conrad Taylor",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electro"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2587576",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2587576"
+    }
+   ],
+   "interest": {
+    "score": 59,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Conrad Taylor (65)",
+     "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "51f068c23cf0",
    "title": "îLESONIQ présente: Stoned Level",
    "venue_id": "studio-td",
@@ -11738,6 +11677,62 @@
    }
   },
   {
+   "id": "fd0bbe7fdeeb",
+   "title": "NYE 2027: Bakermat, Vandelux (DJ set)",
+   "venue_id": "new-city-gas",
+   "night": "2026-12-31",
+   "start": "2026-12-31T21:00:00.000",
+   "end": "2027-01-01T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bakermat",
+     "name": "Bakermat",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "vandelux",
+     "name": "Vandelux (DJ set)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "nye-2027-bakermat",
+     "name": "NYE 2027: Bakermat",
+     "billing": "support"
+    },
+    {
+     "artist_id": "stef-agostino",
+     "name": "Stef Agostino",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://newcitygas.com/event/bakermat-vandelux-dj-set-214225/",
+   "event_url": "https://ra.co/events/2587704",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2587704"
+    },
+    {
+     "id": "new_city_gas",
+     "url": "https://newcitygas.com/event/bakermat-vandelux-dj-set-214225/"
+    }
+   ],
+   "interest": {
+    "score": 74,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Bakermat (78)",
+     "lieu : New City Gas (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "2ee0554dd8f6",
    "title": "What So Not",
    "venue_id": "newspeak",
@@ -11949,43 +11944,6 @@
     "reasons": [
      "tête d'affiche : Mira (42)",
      "lieu : Fonderie Darling (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "aabc0391939b",
-   "title": "NYE 2027: Bakermat",
-   "venue_id": "new-city-gas",
-   "night": "2026-12-31",
-   "start": "2026-12-31T21:00:00-05:00",
-   "end": "2027-01-01T03:00:00-05:00",
-   "lineup": [
-    {
-     "artist_id": "nye-2027-bakermat",
-     "name": "NYE 2027: Bakermat",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/",
-   "event_url": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "new_city_gas",
-     "url": "https://newcitygas.com/event/bakermat-invites-speciaux-214225/"
-    }
-   ],
-   "interest": {
-    "score": 24,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : NYE 2027: Bakermat (8)",
-     "lieu : New City Gas (palier 3)"
     ]
    }
   },
@@ -14291,7 +14249,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://www.ticketmaster.ca/event/31006571B0CF59E1?lang=fr-ca&brand=mtelus",
    "event_url": "https://ra.co/events/2586290",
    "image": "https://images.ctfassets.net/3yxl57nu0yl4/2w3vVvf0vo3jCJWvSArRhb/ee6d153b0cb10fd3a3082f92beb71664/nto_2027.jpg",
    "status": "confirmed",
@@ -14303,6 +14261,10 @@
     {
      "id": "mtelus",
      "url": "https://evenko.ca/fr/evenements/mtelus/nto?code=e009453"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/nto-north-america-tour-montreal-quebec-03-25-2027/event/31006571B0CF59E1"
     }
    ],
    "interest": {
@@ -14993,6 +14955,13 @@
  ],
  "announcements": [
   {
+   "id": "fd0bbe7fdeeb",
+   "name": "Bakermat",
+   "night": "2026-12-31",
+   "venue": "New City Gas",
+   "photo": "https://i.scdn.co/image/ab6761610000f178dc73b337b677f8ccf91b2ae3"
+  },
+  {
    "id": "18b7a9ca8d47",
    "name": "Tiga",
    "night": "2026-12-05",
@@ -15026,6 +14995,13 @@
    "night": "2027-02-27",
    "venue": "Newspeak",
    "photo": "https://i.scdn.co/image/ab6761610000f178669860fe69ee33857a3bdeb6"
+  },
+  {
+   "id": "3363444931d8",
+   "name": "Conrad Taylor",
+   "night": "2026-12-12",
+   "venue": "Newspeak",
+   "photo": "https://i.scdn.co/image/ab6761610000f1787e5a049c9fa8419cbf25777f"
   },
   {
    "id": "bdd4c9a9fa64",
