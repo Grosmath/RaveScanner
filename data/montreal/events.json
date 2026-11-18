@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-18T02:49:36Z",
+ "generated_at": "2026-11-18T17:51:30Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 183
+   "events": 184
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 42
+   "events": 43
   }
  ],
  "venue_order": [
@@ -48,17 +48,18 @@
   "ausgang-plaza",
   "salon-daome",
   "bar-datcha",
+  "le-red-room",
   "sat",
   "s-a-t",
   "studio-td",
   "systeme",
   "theatre-beanfield",
   "stereo-bar",
-  "le-red-room",
   "union-francaise-de-montreal",
   "foufounes",
   "tba-montreal",
   "p-tit-ours",
+  "l-escogriffe-bar-spectacle",
   "vino-disco",
   "sainte-catherine-hall",
   "blue-room",
@@ -275,6 +276,16 @@
   {
    "id": "igloofest",
    "name": "Igloofest",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "l-escogriffe-bar-spectacle",
+   "name": "l'Escogriffe Bar Spectacle",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -733,6 +744,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17827a3ae25a68e211e84cbebe2",
+   "known": false
+  },
+  {
+   "id": "angrybaby",
+   "name": "Angrybaby",
+   "tier": 0,
+   "score": 69,
+   "popularity": 69,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f24bed2a1f9b13313abf26f3",
    "known": false
   },
   {
@@ -2404,6 +2425,16 @@
    "known": false
   },
   {
+   "id": "islandman",
+   "name": "Islandman",
+   "tier": 0,
+   "score": 54,
+   "popularity": 54,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786ef3096d6b598b136b8a14ca",
+   "known": false
+  },
+  {
    "id": "it-s-murph",
    "name": "IT'S MURPH",
    "tier": 0,
@@ -3280,6 +3311,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "midnight-mass",
+   "name": "Midnight Mass",
+   "tier": 0,
+   "score": 57,
+   "popularity": 57,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17807d236ee61152b4fad8b1e6a",
    "known": false
   },
   {
@@ -11023,6 +11064,49 @@
    }
   },
   {
+   "id": "b957e7777232",
+   "title": "Midnight Mass",
+   "venue_id": "le-red-room",
+   "night": "2026-12-12",
+   "start": "2026-12-12T22:00:00.000",
+   "end": "2026-12-13T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "midnight-mass",
+     "name": "Midnight Mass",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "hardcore"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2588207",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2588207"
+    }
+   ],
+   "interest": {
+    "score": 53,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Midnight Mass (57)",
+     "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "51f068c23cf0",
    "title": "îLESONIQ présente: Stoned Level",
    "venue_id": "studio-td",
@@ -13991,6 +14075,45 @@
    }
   },
   {
+   "id": "c6a029ccb9df",
+   "title": "Islandman",
+   "venue_id": "l-escogriffe-bar-spectacle",
+   "night": "2027-03-10",
+   "start": "2027-03-10T20:30:00-05:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "islandman",
+     "name": "Islandman",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.ticketmaster.ca/islandman-montreal-quebec-03-10-2027/event/3100655DDF36DFF8",
+   "event_url": "https://www.ticketmaster.ca/islandman-montreal-quebec-03-10-2027/event/3100655DDF36DFF8",
+   "image": "https://s1.ticketm.net/dam/e/3d1/2fa1ad88-7c20-4da7-b7ca-65f334e133d1_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.ca/islandman-montreal-quebec-03-10-2027/event/3100655DDF36DFF8"
+    }
+   ],
+   "interest": {
+    "score": 45,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Islandman (54)",
+     "lieu : l'Escogriffe Bar Spectacle (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "2a15ab27b165",
    "title": "D.O.D",
    "venue_id": "new-city-gas",
@@ -14222,6 +14345,45 @@
     "reasons": [
      "tête d'affiche : Elderbrook (87)",
      "lieu : MTELUS (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "95b436209548",
+   "title": "Angrybaby",
+   "venue_id": "newspeak",
+   "night": "2027-03-20",
+   "start": "2027-03-20T22:00:00-04:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "angrybaby",
+     "name": "Angrybaby",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.universe.com/events/angrybaby-tickets-L7G081?ref=ticketmaster",
+   "event_url": "https://www.universe.com/events/angrybaby-tickets-L7G081?ref=ticketmaster",
+   "image": "https://s1.ticketm.net/dam/a/8ea/3cdc33d6-ef3e-4ecc-8d07-437b14ebb8ea_SOURCE",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.universe.com/events/angrybaby-tickets-L7G081?ref=ticketmaster"
+    }
+   ],
+   "interest": {
+    "score": 62,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Angrybaby (69)",
+     "lieu : Newspeak (palier 2)"
     ]
    }
   },
@@ -14990,6 +15152,13 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178745460b0ffdbf5144c34498d"
   },
   {
+   "id": "95b436209548",
+   "name": "Angrybaby",
+   "night": "2027-03-20",
+   "venue": "Newspeak",
+   "photo": "https://i.scdn.co/image/ab6761610000f178f24bed2a1f9b13313abf26f3"
+  },
+  {
    "id": "2a05b4c01302",
    "name": "Devault",
    "night": "2027-02-27",
@@ -15016,13 +15185,6 @@
    "night": "2027-03-25",
    "venue": "MTELUS",
    "photo": "https://i.scdn.co/image/ab6761610000f1786ea1974d71c81a203647ce06"
-  },
-  {
-   "id": "fc0654e0d581",
-   "name": "PAUZA",
-   "night": "2026-12-31",
-   "venue": "New City Gas",
-   "photo": "https://i.scdn.co/image/ab6761610000f178408a1bf05a0de13aba3e2bed"
   }
  ],
  "families": [
