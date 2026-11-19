@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-18T17:51:30Z",
+ "generated_at": "2026-11-19T02:27:13Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-18",
-  "end": "2027-05-17"
+  "start": "2026-11-19",
+  "end": "2027-05-18"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 184
+   "events": 183
   },
   {
    "id": "piknic",
@@ -51,9 +51,9 @@
   "le-red-room",
   "sat",
   "s-a-t",
-  "studio-td",
   "systeme",
   "theatre-beanfield",
+  "studio-td",
   "stereo-bar",
   "union-francaise-de-montreal",
   "foufounes",
@@ -754,6 +754,16 @@
    "popularity": 69,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f24bed2a1f9b13313abf26f3",
+   "known": false
+  },
+  {
+   "id": "angrybaby-montreal",
+   "name": "Angrybaby - Montréal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1605,16 +1615,6 @@
    "known": false
   },
   {
-   "id": "down2techno-every-wednesday",
-   "name": "DOWN2TECHNO: Every Wednesday",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "draris",
    "name": "Draris",
    "tier": 0,
@@ -1885,16 +1885,6 @@
    "known": false
   },
   {
-   "id": "folio-magazine-launch-party-34th-issue",
-   "name": "Folio Magazine Launch Party: 34th Issue",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "fovos-au-newspeak",
    "name": "FOVOS au Newspeak",
    "tier": 0,
@@ -2088,8 +2078,8 @@
    "id": "gorillat",
    "name": "GorillaT",
    "tier": 0,
-   "score": 58,
-   "popularity": 58,
+   "score": 53,
+   "popularity": 53,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17808ee4fd0a0f0b52748e5945c",
    "known": false
@@ -3374,6 +3364,16 @@
    "known": false
   },
   {
+   "id": "mitch-oliver",
+   "name": "Mitch Oliver",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1780132ce6bd83a4d1231961d0d",
+   "known": false
+  },
+  {
    "id": "mlle-cee",
    "name": "MLLE CEE",
    "tier": 0,
@@ -4637,6 +4637,16 @@
    "known": false
   },
   {
+   "id": "victor-rodriguez",
+   "name": "Victor Rodriguez",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485171b8687bfb14ff59457053e0",
+   "known": false
+  },
+  {
    "id": "vino-disco-thursdays-moonart",
    "name": "Vino Disco Thursdays: MOONART",
    "tier": 0,
@@ -4664,16 +4674,6 @@
    "popularity": 61,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f02c148a51fb4b5923d0f6d9",
-   "known": false
-  },
-  {
-   "id": "visionaire-not-millionaire",
-   "name": "Visionaire Not Millionaire",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4848,121 +4848,6 @@
   }
  ],
  "events": [
-  {
-   "id": "922100c932ce",
-   "title": "DOWN2TECHNO: Every Wednesday",
-   "venue_id": "le-red-room",
-   "night": "2026-11-18",
-   "start": "2026-11-18T22:00:00.000",
-   "end": "2026-11-19T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "down2techno-every-wednesday",
-     "name": "DOWN2TECHNO: Every Wednesday",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2576447",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2576447"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DOWN2TECHNO: Every Wednesday (8)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "b0411e23cd52",
-   "title": "Folio Magazine Launch Party: 34th Issue",
-   "venue_id": "systeme",
-   "night": "2026-11-18",
-   "start": "2026-11-18T20:00:00.000",
-   "end": "2026-11-19T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "folio-magazine-launch-party-34th-issue",
-     "name": "Folio Magazine Launch Party: 34th Issue",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2579230",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2579230"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Folio Magazine Launch Party: 34th Issue (8)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "437f71b062d7",
-   "title": "Sans Soleil w/ Visionaire Not Millionaire",
-   "venue_id": "sans-soleil",
-   "night": "2026-11-18",
-   "start": "2026-11-18T20:00:00.000",
-   "end": "2026-11-19T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "visionaire-not-millionaire",
-     "name": "Visionaire Not Millionaire",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2583342",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583342"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Visionaire Not Millionaire (8)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
   {
    "id": "fd7f827ecb97",
    "title": "Ezra Collective",
@@ -7271,9 +7156,9 @@
     }
    ],
    "genres": [
+    "house",
     "dancehall",
-    "dub",
-    "house"
+    "dub"
    ],
    "families": [
     "House",
@@ -9778,6 +9663,60 @@
    }
   },
   {
+   "id": "2a27d6a9b17f",
+   "title": "SLAPPED",
+   "venue_id": "salon-daome",
+   "night": "2026-12-04",
+   "start": "2026-12-04T22:30:00.000",
+   "end": "2026-12-05T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mitch-oliver",
+     "name": "Mitch Oliver",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "victor-rodriguez",
+     "name": "Victor Rodriguez",
+     "billing": "support"
+    },
+    {
+     "artist_id": "duza",
+     "name": "DUZA",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "disco",
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2588738",
+   "event_url": "https://ra.co/events/2588738",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2588738"
+    }
+   ],
+   "interest": {
+    "score": 42,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Mitch Oliver (42)",
+     "lieu : Salon Daome (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "07435df60386",
    "title": "Bass Brigade presents: UK BASS INVASION",
    "venue_id": "entre-nous",
@@ -12217,10 +12156,10 @@
     }
    ],
    "interest": {
-    "score": 54,
-    "tier": 2,
+    "score": 50,
+    "tier": 1,
     "reasons": [
-     "tête d'affiche : GorillaT (58)",
+     "tête d'affiche : GorillaT (53)",
      "lieu : Studio TD (palier 2)"
     ]
    }
@@ -12640,12 +12579,12 @@
     }
    ],
    "genres": [
+    "idm",
     "electro",
     "pop",
     "hardcore",
     "gabber",
-    "club",
-    "experimental"
+    "club"
    ],
    "families": [
     "Électro & bass",
@@ -14349,30 +14288,43 @@
    }
   },
   {
-   "id": "95b436209548",
-   "title": "Angrybaby",
+   "id": "87b7e80a7fd7",
+   "title": "Angrybaby - Montréal",
    "venue_id": "newspeak",
    "night": "2027-03-20",
-   "start": "2027-03-20T22:00:00-04:00",
-   "end": null,
+   "start": "2027-03-20T22:00:00.000",
+   "end": "2027-03-21T03:00:00.000",
    "lineup": [
     {
      "artist_id": "angrybaby",
      "name": "Angrybaby",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "angrybaby-montreal",
+     "name": "Angrybaby - Montréal",
+     "billing": "support"
     }
    ],
    "genres": [
-    "electronic"
+    "house",
+    "garage"
    ],
-   "families": [],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.universe.com/events/angrybaby-tickets-L7G081?ref=ticketmaster",
-   "event_url": "https://www.universe.com/events/angrybaby-tickets-L7G081?ref=ticketmaster",
+   "event_url": "https://ra.co/events/2588868",
    "image": "https://s1.ticketm.net/dam/a/8ea/3cdc33d6-ef3e-4ecc-8d07-437b14ebb8ea_SOURCE",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2588868"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.universe.com/events/angrybaby-tickets-L7G081?ref=ticketmaster"
@@ -15117,25 +15069,11 @@
  ],
  "announcements": [
   {
-   "id": "fd0bbe7fdeeb",
-   "name": "Bakermat",
-   "night": "2026-12-31",
-   "venue": "New City Gas",
-   "photo": "https://i.scdn.co/image/ab6761610000f178dc73b337b677f8ccf91b2ae3"
-  },
-  {
    "id": "18b7a9ca8d47",
    "name": "Tiga",
    "night": "2026-12-05",
    "venue": "Stereo",
    "photo": "https://i.scdn.co/image/ab6761610000f1784cadec9a07cd964d1420a7bc"
-  },
-  {
-   "id": "29870c169260",
-   "name": "Elderbrook",
-   "night": "2027-03-20",
-   "venue": "MTELUS",
-   "photo": "https://i.scdn.co/image/ab6761610000f1786d6febccf758f36c8be8bbd9"
   },
   {
    "id": "c267869bfa0c",
@@ -15152,7 +15090,7 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178745460b0ffdbf5144c34498d"
   },
   {
-   "id": "95b436209548",
+   "id": "87b7e80a7fd7",
    "name": "Angrybaby",
    "night": "2027-03-20",
    "venue": "Newspeak",
@@ -15185,6 +15123,13 @@
    "night": "2027-03-25",
    "venue": "MTELUS",
    "photo": "https://i.scdn.co/image/ab6761610000f1786ea1974d71c81a203647ce06"
+  },
+  {
+   "id": "b957e7777232",
+   "name": "Midnight Mass",
+   "night": "2026-12-12",
+   "venue": "Le Red Room",
+   "photo": "https://i.scdn.co/image/ab6761610000f17807d236ee61152b4fad8b1e6a"
   }
  ],
  "families": [
