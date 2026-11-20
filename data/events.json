@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-19T18:00:18Z",
+ "generated_at": "2026-11-20T02:11:51Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-19",
-  "end": "2027-05-18"
+  "start": "2026-11-20",
+  "end": "2027-05-19"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 197
+   "events": 189
   },
   {
    "id": "piknic",
@@ -53,7 +53,6 @@
   "sat",
   "s-a-t",
   "systeme",
-  "theatre-beanfield",
   "studio-td",
   "union-francaise-de-montreal",
   "foufounes",
@@ -62,25 +61,24 @@
   "l-escogriffe-bar-spectacle",
   "vino-disco",
   "sainte-catherine-hall",
-  "blue-room",
   "centre-phi",
-  "esc",
   "nwhr",
   "fonderie-darling",
   "le-balcon",
   "la-recre",
+  "esc",
+  "blue-room",
   "white-wall-studio",
   "warehouse",
   "entre-nous",
-  "sans-soleil",
   "breakglass-studios",
   "barbossa",
   "cabaret-berlin",
+  "sans-soleil",
   "cafe-social-b-hive",
   "club-soda",
   "le-ritz",
   "100lux",
-  "club-dd-s",
   "ctrllab-art-house-and-gallery",
   "le-ministere",
   "osmo-x-marusan",
@@ -179,16 +177,6 @@
   {
    "id": "centre-phi",
    "name": "Centre PHI",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "club-dd-s",
-   "name": "Club Dd's",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -558,16 +546,6 @@
    "genres": []
   },
   {
-   "id": "theatre-beanfield",
-   "name": "Théâtre Beanfield",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "theatre-fairmount",
    "name": "Theatre Fairmount",
    "type": "venue",
@@ -626,16 +604,6 @@
   }
  ],
  "artists": [
-  {
-   "id": "404-1",
-   "name": "404 (1)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
   {
    "id": "aaron-hyper",
    "name": "Aaron Hyper",
@@ -916,16 +884,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178896e5e403e6ab3cb8dcf07c9",
-   "known": false
-  },
-  {
-   "id": "ayanna-heaven",
-   "name": "Ayanna Heaven",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1235,6 +1193,16 @@
    "known": false
   },
   {
+   "id": "ccil",
+   "name": "ccil",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "ceballos",
    "name": "Ceballos",
    "tier": 0,
@@ -1278,8 +1246,8 @@
    "id": "chasing-abbey",
    "name": "Chasing Abbey",
    "tier": 0,
-   "score": 51,
-   "popularity": 51,
+   "score": 52,
+   "popularity": 52,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178233175d2e7f1e20923a7d3e2",
    "known": false
@@ -1478,8 +1446,8 @@
    "id": "d-o-d",
    "name": "D.O.D.",
    "tier": 0,
-   "score": 86,
-   "popularity": 86,
+   "score": 85,
+   "popularity": 85,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17830a4fa2462f1d9a9cdd17360",
    "known": false
@@ -1515,6 +1483,16 @@
    "known": false
   },
   {
+   "id": "dawny",
+   "name": "dawny",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851491f5b7cc5fce7e92b29bdca",
+   "known": false
+  },
+  {
    "id": "deadmau5",
    "name": "Deadmau5",
    "tier": 0,
@@ -1532,16 +1510,6 @@
    "popularity": 16,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1786aeda9531f1e4f543d56a473",
-   "known": false
-  },
-  {
-   "id": "delicious-dj",
-   "name": "Delicious DJ",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1622,16 +1590,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851cd741511683b1ea978ebdf45",
-   "known": false
-  },
-  {
-   "id": "dj-christmas",
-   "name": "DJ Christmas",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -1872,16 +1830,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485116bd549b4c50d4bf11e345c7",
-   "known": false
-  },
-  {
-   "id": "ezra-collective",
-   "name": "Ezra Collective",
-   "tier": 0,
-   "score": 76,
-   "popularity": 76,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17874f17b856692fa4d1ed38a06",
    "known": false
   },
   {
@@ -2368,7 +2316,7 @@
   },
   {
    "id": "hydra",
-   "name": "Hydra",
+   "name": "hÿdra",
    "tier": 0,
    "score": 42,
    "popularity": 42,
@@ -2644,16 +2592,6 @@
    "popularity": 40,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178029a52ff9dbef0095950d11f",
-   "known": false
-  },
-  {
-   "id": "jino-k",
-   "name": "Jino K",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -2960,16 +2898,6 @@
    "popularity": 36,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048517b4418e6ab4d55896e9ad279",
-   "known": false
-  },
-  {
-   "id": "laura-krieg",
-   "name": "Laura Krieg",
-   "tier": 0,
-   "score": 16,
-   "popularity": 16,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851c4a94d32ff77c6c50683e891",
    "known": false
   },
   {
@@ -3446,16 +3374,6 @@
    "known": false
   },
   {
-   "id": "mickey-perez",
-   "name": "Mickey Perez",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "midnight-mass",
    "name": "Midnight Mass",
    "tier": 0,
@@ -3656,16 +3574,6 @@
    "known": false
   },
   {
-   "id": "nastygloss",
-   "name": "nastygloss",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "neon",
    "name": "NEON",
    "tier": 0,
@@ -3849,8 +3757,8 @@
    "id": "olympe4000",
    "name": "Olympe4000",
    "tier": 0,
-   "score": 17,
-   "popularity": 17,
+   "score": 16,
+   "popularity": 16,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782b84bd65a2e74587b6504e9a",
    "known": false
@@ -3953,16 +3861,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785228fe95d7db28d7b98b7bb8",
-   "known": false
-  },
-  {
-   "id": "patrick-6",
-   "name": "Patrick (6)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -4166,6 +4064,16 @@
    "popularity": 64,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178146f8239864dbfb4c67cb577",
+   "known": false
+  },
+  {
+   "id": "ronco-2",
+   "name": "RONCO (2)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4529,16 +4437,6 @@
    "known": false
   },
   {
-   "id": "teeto",
-   "name": "Teeto",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178175bd966456ad88c76a18b88",
-   "known": false
-  },
-  {
    "id": "telykast",
    "name": "TELYKAST",
    "tier": 0,
@@ -4829,16 +4727,6 @@
    "known": false
   },
   {
-   "id": "vibran",
-   "name": "VIBRAN",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "victor-rodriguez",
    "name": "VICTOR RODRIGUEZ (CA)",
    "tier": 0,
@@ -4851,16 +4739,6 @@
   {
    "id": "vino-disco-thursdays-moonart",
    "name": "Vino Disco Thursdays: MOONART",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "vino-disco-thursdays-tony-jacks",
-   "name": "Vino Disco Thursdays: Tony Jacks",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5019,16 +4897,6 @@
    "known": false
   },
   {
-   "id": "zaube",
-   "name": "Zaube",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "zeina",
    "name": "Zeina",
    "tier": 0,
@@ -5050,465 +4918,6 @@
   }
  ],
  "events": [
-  {
-   "id": "fd7f827ecb97",
-   "title": "Ezra Collective",
-   "venue_id": "theatre-beanfield",
-   "night": "2026-11-19",
-   "start": "2026-11-19T20:00:00-05:00",
-   "end": null,
-   "lineup": [
-    {
-     "artist_id": "ezra-collective",
-     "name": "Ezra Collective",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ayanna-heaven",
-     "name": "Ayanna Heaven",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://www.ticketmaster.ca/ezra-collective-montreal-quebec-11-19-2026/event/310064D0CE5A740B",
-   "event_url": "https://www.ticketmaster.ca/ezra-collective-montreal-quebec-11-19-2026/event/310064D0CE5A740B",
-   "image": "https://s1.ticketm.net/dam/a/398/2b4ffdcf-d915-48f8-862f-15928d5d3398_SOURCE",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.ca/ezra-collective-montreal-quebec-11-19-2026/event/310064D0CE5A740B"
-    }
-   ],
-   "interest": {
-    "score": 61,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Ezra Collective (76)",
-     "lieu : Théâtre Beanfield (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "262eeb729c88",
-   "title": "404 / Hydra / nastygloss",
-   "venue_id": "blue-room",
-   "night": "2026-11-19",
-   "start": "2026-11-19T22:00:00.000",
-   "end": "2026-11-20T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "hydra",
-     "name": "Hydra",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "404-1",
-     "name": "404 (1)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "nastygloss",
-     "name": "nastygloss",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "dubstep",
-    "techno",
-    "bass",
-    "pop"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2586499",
-   "event_url": "https://ra.co/events/2586499",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2586499"
-    }
-   ],
-   "interest": {
-    "score": 36,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Hydra (42)",
-     "lieu : Blue Room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "7c2b9c34d31b",
-   "title": "M for Mtl: Yuki B and friends",
-   "venue_id": "systeme",
-   "night": "2026-11-19",
-   "start": "2026-11-19T23:00:00.000",
-   "end": "2026-11-20T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "laura-krieg",
-     "name": "Laura Krieg",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "cuerpos",
-     "name": "CUERPOS",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "hip-hop",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "House",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2563788",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563788"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Laura Krieg (16)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "2a44777d8f25",
-   "title": "NCTRNL_001",
-   "venue_id": "le-red-room",
-   "night": "2026-11-19",
-   "start": "2026-11-19T22:00:00.000",
-   "end": "2026-11-20T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "zaube",
-     "name": "Zaube",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "drum & bass",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2565653",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2565653"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Zaube (8)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "59bf1138c050",
-   "title": "PATRICK, 2FA, DJ Christmas",
-   "venue_id": "bar-datcha",
-   "night": "2026-11-19",
-   "start": "2026-11-19T22:00:00.000",
-   "end": "2026-11-20T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dj-christmas",
-     "name": "DJ Christmas",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "patrick-6",
-     "name": "Patrick (6)",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2575092",
-   "event_url": "https://ra.co/events/2575092",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2575092"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : DJ Christmas (8)",
-     "lieu : Bar Datcha (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "9dfccbc5a383",
-   "title": "Tangerine",
-   "venue_id": "esc",
-   "night": "2026-11-19",
-   "start": "2026-11-19T22:00:00.000",
-   "end": "2026-11-20T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "lou-celsius",
-     "name": "Lou Celsius",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "crissemarqueur",
-     "name": "CrisseMarqueur",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2583436",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583436"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Lou Celsius (8)",
-     "lieu : ESC (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "b32e027bc785",
-   "title": "UNHRD",
-   "venue_id": "salon-daome",
-   "night": "2026-11-19",
-   "start": "2026-11-19T22:30:00.000",
-   "end": "2026-11-20T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "jino-k",
-     "name": "Jino K",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "vibran",
-     "name": "VIBRAN",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "dub techno",
-    "minimal",
-    "house",
-    "progressive house",
-    "funk / soul"
-   ],
-   "families": [
-    "Techno",
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2568604",
-   "event_url": "https://ra.co/events/2568604",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2568604"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Jino K (8)",
-     "lieu : Salon Daome (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "72291e1b9b08",
-   "title": "Sans Soleil w/ Mickey Perez",
-   "venue_id": "sans-soleil",
-   "night": "2026-11-19",
-   "start": "2026-11-19T20:00:00.000",
-   "end": "2026-11-20T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "mickey-perez",
-     "name": "Mickey Perez",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2583343",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583343"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Mickey Perez (8)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "4a9f949e1cf9",
-   "title": "Transmasc Thursday: 90s Edition",
-   "venue_id": "club-dd-s",
-   "night": "2026-11-19",
-   "start": "2026-11-19T19:00:00.000",
-   "end": "2026-11-20T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "delicious-dj",
-     "name": "Delicious DJ",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "tech house",
-    "pop"
-   ],
-   "families": [
-    "House",
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2579770",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2579770"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Delicious DJ (8)",
-     "lieu : Club Dd's (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "6d491e60aa3d",
-   "title": "Vino Disco Thursdays: Tony Jacks & Teeto",
-   "venue_id": "vino-disco",
-   "night": "2026-11-19",
-   "start": "2026-11-19T20:00:00.000",
-   "end": "2026-11-20T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "vino-disco-thursdays-tony-jacks",
-     "name": "Vino Disco Thursdays: Tony Jacks",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "teeto",
-     "name": "Teeto",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2571533",
-   "event_url": "https://ra.co/events/2571533",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2571533"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Vino Disco Thursdays: Tony Jacks (8)",
-     "lieu : Vino Disco (palier 1)"
-    ]
-   }
-  },
   {
    "id": "7844d9cc5250",
    "title": "MALIVE, Mezz b2b Ekho",
@@ -6996,7 +6405,8 @@
    ],
    "genres": [
     "minimal",
-    "progressive house"
+    "progressive house",
+    "minimal techno"
    ],
    "families": [
     "Techno",
@@ -9919,6 +9329,11 @@
      "billing": "headliner"
     },
     {
+     "artist_id": "ronco-2",
+     "name": "RONCO (2)",
+     "billing": "support"
+    },
+    {
      "artist_id": "victor-rodriguez",
      "name": "VICTOR RODRIGUEZ (CA)",
      "billing": "support"
@@ -9930,13 +9345,10 @@
     }
    ],
    "genres": [
-    "disco",
-    "house",
-    "tech house"
+    "house"
    ],
    "families": [
-    "House",
-    "Disco & funk"
+    "House"
    ],
    "price_min": null,
    "currency": "CAD",
@@ -11648,6 +11060,54 @@
     "reasons": [
      "tête d'affiche : Tali Rose (0)",
      "lieu : Stereo (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "f36a6290e620",
+   "title": "BlueRoom welcomes :",
+   "venue_id": "blue-room",
+   "night": "2026-12-12",
+   "start": "2026-12-12T23:00:00.000",
+   "end": "2026-12-13T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ccil",
+     "name": "ccil",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "dawny",
+     "name": "dawny",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "trance"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2589670",
+   "event_url": "https://ra.co/events/2589670",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2589670"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ccil (8)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -13718,8 +13178,8 @@
    ],
    "genres": [
     "tech house",
-    "disco",
-    "house"
+    "house",
+    "disco"
    ],
    "families": [
     "House",
@@ -14227,7 +13687,7 @@
     },
     {
      "artist_id": "hydra",
-     "name": "Hydra",
+     "name": "hÿdra",
      "billing": "support"
     },
     {
@@ -14952,10 +14412,10 @@
     }
    ],
    "interest": {
-    "score": 80,
+    "score": 79,
     "tier": 3,
     "reasons": [
-     "tête d'affiche : D.O.D. (86)",
+     "tête d'affiche : D.O.D. (85)",
      "lieu : New City Gas (palier 3)"
     ]
    }
@@ -15741,7 +15201,7 @@
     "score": 49,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Chasing Abbey (51)",
+     "tête d'affiche : Chasing Abbey (52)",
      "lieu : Theatre Fairmount (palier 2)"
     ]
    }
@@ -15936,13 +15396,6 @@
  ],
  "announcements": [
   {
-   "id": "18b7a9ca8d47",
-   "name": "Tiga",
-   "night": "2026-12-05",
-   "venue": "Stereo",
-   "photo": "https://i.scdn.co/image/ab6761610000f1784cadec9a07cd964d1420a7bc"
-  },
-  {
    "id": "4c903cb96a56",
    "name": "Tommy Phillips",
    "night": "2026-12-11",
@@ -15985,13 +15438,6 @@
    "photo": "https://i.scdn.co/image/ab6761610000f17879a39824730c531699fcee3c"
   },
   {
-   "id": "2a05b4c01302",
-   "name": "Devault",
-   "night": "2027-02-27",
-   "venue": "Newspeak",
-   "photo": "https://i.scdn.co/image/ab6761610000f178669860fe69ee33857a3bdeb6"
-  },
-  {
    "id": "3363444931d8",
    "name": "Conrad Taylor",
    "night": "2026-12-12",
@@ -16004,6 +15450,20 @@
    "night": "2026-12-05",
    "venue": "Bar Datcha",
    "photo": "https://i.scdn.co/image/ab6761610000f178f24b13888650d71e050092b9"
+  },
+  {
+   "id": "f4e502a63ad2",
+   "name": "NTO",
+   "night": "2027-03-25",
+   "venue": "MTELUS",
+   "photo": "https://i.scdn.co/image/ab6761610000f1786ea1974d71c81a203647ce06"
+  },
+  {
+   "id": "dff3783b17c3",
+   "name": "John Digweed",
+   "night": "2026-12-31",
+   "venue": "Stereo",
+   "photo": "https://i.scdn.co/image/ab6761610000f1784ef0189e07eec59460b46c17"
   }
  ],
  "families": [
