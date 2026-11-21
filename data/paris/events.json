@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-21T02:05:27Z",
+ "generated_at": "2026-11-21T16:38:45Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 370
+   "events": 372
   },
   {
    "id": "dice",
@@ -56,8 +56,8 @@
   "point-ephemere",
   "yoyo-palais-de-tokyo",
   "zenith-paris-la-villette",
-  "tba",
   "pamela-club",
+  "tba",
   "le-211",
   "la-maison-de-la-conversation",
   "le-zeralda",
@@ -1514,6 +1514,16 @@
    "popularity": 46,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178eec80df8b1890acd38a9f357",
+   "known": false
+  },
+  {
+   "id": "adam-spielman",
+   "name": "Adam Spielman",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3538,6 +3548,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ffd099dfefe89ea6071c2258",
+   "known": false
+  },
+  {
+   "id": "elsa-bernini",
+   "name": "Elsa Bernini",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7162,6 +7182,16 @@
    "known": false
   },
   {
+   "id": "paulina-2",
+   "name": "Paulina (2)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "peaksou",
    "name": "PEAKSOU",
    "tier": 0,
@@ -8869,6 +8899,16 @@
    "popularity": 42,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17839ce9f937ee852c916fd4914",
+   "known": false
+  },
+  {
+   "id": "warrenko",
+   "name": "WarrenKo",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -13180,6 +13220,54 @@
    }
   },
   {
+   "id": "ed3c213f236c",
+   "title": "NO PARKING ON THE DANCEFLOOR",
+   "venue_id": "pamela-club",
+   "night": "2026-11-27",
+   "start": "2026-11-27T23:59:00.000",
+   "end": "2026-11-28T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "warrenko",
+     "name": "WarrenKo",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "adam-spielman",
+     "name": "Adam Spielman",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2590593",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2590593"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : WarrenKo (8)",
+     "lieu : Pamela Club (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "7888fc92bc98",
    "title": "Release DJ Sundae",
    "venue_id": "miniwax",
@@ -15178,8 +15266,8 @@
    }
   },
   {
-   "id": "4ca49a30a58f",
-   "title": "Everybody",
+   "id": "0323fcc53f0d",
+   "title": "Cancelled : Everybody",
    "venue_id": "l-anomalie",
    "night": "2026-11-29",
    "start": "2026-11-29T15:00:00.000",
@@ -18303,6 +18391,52 @@
     "reasons": [
      "tête d'affiche : Valise (FR) (8)",
      "lieu : Le 211 (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "7e25b72d7417",
+   "title": "LA TRIBUNAL",
+   "venue_id": "pamela-club",
+   "night": "2026-12-05",
+   "start": "2026-12-05T23:59:00.000",
+   "end": "2026-12-06T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "paulina-2",
+     "name": "Paulina (2)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "elsa-bernini",
+     "name": "Elsa Bernini",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2590599",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2590599"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Paulina (2) (8)",
+     "lieu : Pamela Club (palier 1)"
     ]
    }
   },

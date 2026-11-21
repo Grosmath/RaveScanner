@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-21T02:04:14Z",
+ "generated_at": "2026-11-21T16:38:22Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 42
+   "events": 40
   }
  ],
  "venue_order": [
@@ -55,7 +55,7 @@
   "systeme",
   "studio-td",
   "union-francaise-de-montreal",
-  "tba-montreal",
+  "batiment-7",
   "foufounes",
   "p-tit-ours",
   "l-escogriffe-bar-spectacle",
@@ -125,6 +125,16 @@
   {
    "id": "barbossa",
    "name": "Barbossa",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "batiment-7",
+   "name": "Bâtiment 7",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -506,16 +516,6 @@
   {
    "id": "tba-15-ontario-street-east",
    "name": "TBA - 15 Ontario Street East",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "tba-montreal",
-   "name": "TBA - Montreal",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -6977,9 +6977,9 @@
    }
   },
   {
-   "id": "d125311cfc26",
+   "id": "02629c81f930",
    "title": "Bridges to Dub presents: Dubwise Sessions 5 with OBF x Iration Steppas",
-   "venue_id": "tba-montreal",
+   "venue_id": "batiment-7",
    "night": "2026-11-28",
    "start": "2026-11-28T22:00:00.000",
    "end": "2026-11-29T06:00:00.000",
@@ -7040,7 +7040,7 @@
     "tier": 1,
     "reasons": [
      "tête d'affiche : O.B.F (58)",
-     "lieu : TBA - Montreal (palier 1)"
+     "lieu : Bâtiment 7 (palier 1)"
     ]
    }
   },
@@ -13291,7 +13291,7 @@
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/31006548A4185690?lang=fr-ca&brand=mtelus",
    "event_url": "https://evenko.ca/fr/evenements/mtelus/elderbrook?code=e009289",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/kbJNY7y7YLMb21dRUXI7v/c1d89054f98ee17ec2b3c17cb67209fe/Elderbrook.png",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/1KZCx8t2S7F5OdBgwywDCT/6d2d56a7161ba29411b64b0e0016f20e/Elderbrook.png",
    "status": "confirmed",
    "sources": [
     {
