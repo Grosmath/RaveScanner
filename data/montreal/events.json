@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-22T01:06:19Z",
+ "generated_at": "2026-11-22T16:56:32Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 159
+   "events": 160
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 40
+   "events": 38
   }
  ],
  "venue_order": [
@@ -69,12 +69,12 @@
   "vino-disco",
   "cabaret-berlin",
   "esc",
+  "blue-room",
   "cafe-social-b-hive",
   "club-soda",
   "sans-soleil",
   "100lux",
   "barbossa",
-  "blue-room",
   "ctrllab-art-house-and-gallery",
   "le-ministere",
   "le-ritz",
@@ -741,6 +741,16 @@
    "known": false
   },
   {
+   "id": "arj",
+   "name": "ARJ (IR)",
+   "tier": 0,
+   "score": 12,
+   "popularity": 12,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178cb7e517ed4c4fc11a14b4cca",
+   "known": false
+  },
+  {
    "id": "arlo",
    "name": "Arlo",
    "tier": 0,
@@ -898,6 +908,16 @@
    "popularity": 5,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851819cfb3f891635a288a44818",
+   "known": false
+  },
+  {
+   "id": "berkai",
+   "name": "Berkaï",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/bc10a17e9c4b0e518ec69532b2cec3f2/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1507,6 +1527,16 @@
    "known": false
   },
   {
+   "id": "elle-j",
+   "name": "Elle J",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/6abdb69043a75354a83cd63d42966ef0/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "elli-acula",
    "name": "Elli Acula",
    "tier": 0,
@@ -1539,6 +1569,16 @@
   {
    "id": "emn-1",
    "name": "EMN (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "en-3",
+   "name": "eN (3)",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3928,6 +3968,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "underthebed",
+   "name": "Underthebed",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789d596cb7df29cad134f68d9d",
    "known": false
   },
   {
@@ -6828,8 +6878,8 @@
    }
   },
   {
-   "id": "07435df60386",
-   "title": "Bass Brigade presents: UK BASS INVASION",
+   "id": "dc31cca76ee9",
+   "title": "Youngsta. & GUNS: UK Bass Invasion presented by Bass Brigade",
    "venue_id": "entre-nous",
    "night": "2026-12-04",
    "start": "2026-12-04T21:00:00.000",
@@ -7145,6 +7195,67 @@
     "reasons": [
      "tête d'affiche : MLLE CEE (8)",
      "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "bfcb2d8f376b",
+   "title": "Mind Space X Transition Invites: ABOVE AVERAGE",
+   "venue_id": "blue-room",
+   "night": "2026-12-04",
+   "start": "2026-12-04T22:00:00.000",
+   "end": "2026-12-05T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "arj",
+     "name": "ARJ (IR)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "en-3",
+     "name": "eN (3)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "underthebed",
+     "name": "Underthebed",
+     "billing": "support"
+    },
+    {
+     "artist_id": "elle-j",
+     "name": "Elle J",
+     "billing": "support"
+    },
+    {
+     "artist_id": "berkai",
+     "name": "Berkaï",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "deep house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2589537",
+   "event_url": "https://ra.co/events/2589537",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2589537"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ARJ (IR) (12)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -12047,7 +12158,7 @@
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/31006548A4185690?lang=fr-ca&brand=mtelus",
    "event_url": "https://evenko.ca/fr/evenements/mtelus/elderbrook?code=e009289",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/1KZCx8t2S7F5OdBgwywDCT/6d2d56a7161ba29411b64b0e0016f20e/Elderbrook.png",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/kbJNY7y7YLMb21dRUXI7v/c1d89054f98ee17ec2b3c17cb67209fe/Elderbrook.png",
    "status": "confirmed",
    "sources": [
     {

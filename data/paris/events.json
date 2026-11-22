@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-22T01:06:55Z",
+ "generated_at": "2026-11-22T16:56:47Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 338
+   "events": 337
   },
   {
    "id": "dice",
@@ -65,7 +65,6 @@
   "nouveau-casino",
   "la-rotonde-stalingrad",
   "le-trianon",
-  "l-anomalie",
   "la-gaite-lyrique",
   "tba-saint-denis",
   "le-hasard-ludique",
@@ -95,7 +94,6 @@
   "studio56",
   "a-la-folie-paris",
   "miniwax",
-  "workshow",
   "le-klub",
   "dock-b",
   "amaluna-paris",
@@ -116,6 +114,7 @@
   "tba-le-tlm-paris-105-rue-curial-75019-paris-france",
   "tba-paris",
   "tiki-playa",
+  "workshow",
   "communale-saint-ouen",
   "la-mecanique-ondulatoire",
   "poush",
@@ -426,16 +425,6 @@
   {
    "id": "instants-chavires",
    "name": "Instants Chavirés",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "l-anomalie",
-   "name": "L'anomalie",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -2375,16 +2364,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "clara",
-   "name": "CLARA (FR)",
-   "tier": 0,
-   "score": 47,
-   "popularity": 47,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1781a936a32f1e3a7471daf4aaa",
    "known": false
   },
   {
@@ -5936,16 +5915,6 @@
    "known": false
   },
   {
-   "id": "morning-deviance-big-official-after-party",
-   "name": "MORNING DEVIANCE - BIG Official After Party",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "moulin",
    "name": "Moulin",
    "tier": 0,
@@ -7329,16 +7298,6 @@
    "known": false
   },
   {
-   "id": "son",
-   "name": "SON",
-   "tier": 0,
-   "score": 13,
-   "popularity": 13,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/5daa965c2eb6793070646ea6bae803f6/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "son-theo-wizman",
    "name": "Son - Théo Wizman",
    "tier": 0,
@@ -7676,16 +7635,6 @@
    "popularity": 10,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048512167069de856c5c503c1f7c3",
-   "known": false
-  },
-  {
-   "id": "the-waiting-room",
-   "name": "THE WAITING ROOM",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048512627dfc026731bd0503fd689",
    "known": false
   },
   {
@@ -10822,49 +10771,6 @@
    }
   },
   {
-   "id": "c4b61d54314d",
-   "title": "MORNING DEVIANCE - BIG Official After Party",
-   "venue_id": "workshow",
-   "night": "2026-11-27",
-   "start": "2026-11-28T05:00:00.000",
-   "end": "2026-11-28T12:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "morning-deviance-big-official-after-party",
-     "name": "MORNING DEVIANCE - BIG Official After Party",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "electro"
-   ],
-   "families": [
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2590578",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2590578"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : MORNING DEVIANCE - BIG Official After Party (8)",
-     "lieu : Workshow (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "ed3c213f236c",
    "title": "NO PARKING ON THE DANCEFLOOR",
    "venue_id": "pamela-club",
@@ -11517,11 +11423,6 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "son",
-     "name": "SON",
-     "billing": "support"
-    },
-    {
      "artist_id": "son-theo-wizman",
      "name": "Son - Théo Wizman",
      "billing": "support",
@@ -11540,8 +11441,8 @@
     }
    ],
    "genres": [
-    "house",
-    "disco"
+    "disco",
+    "house"
    ],
    "families": [
     "House",
@@ -11557,10 +11458,6 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2588023"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2590595"
     }
    ],
    "interest": {
@@ -12440,6 +12337,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2555844"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2555844"
     }
    ],
    "interest": {
@@ -12674,6 +12575,10 @@
    "image": "",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2570596"
+    },
     {
      "id": "ra",
      "url": "https://ra.co/events/2570596"
@@ -12922,48 +12827,6 @@
     "reasons": [
      "tête d'affiche : Forest (45)",
      "lieu : La Cité Fertile (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "0323fcc53f0d",
-   "title": "Cancelled : Everybody",
-   "venue_id": "l-anomalie",
-   "night": "2026-11-29",
-   "start": "2026-11-29T15:00:00.000",
-   "end": "2026-11-29T22:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "clara",
-     "name": "CLARA (FR)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "ambient",
-    "dub"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2579911",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2579911"
-    }
-   ],
-   "interest": {
-    "score": 40,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : CLARA (FR) (47)",
-     "lieu : L'anomalie (palier 1)"
     ]
    }
   },
@@ -17304,6 +17167,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2590146"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2590146"
     }
    ],
    "interest": {
@@ -17581,49 +17448,6 @@
     "reasons": [
      "tête d'affiche : abs8lute (8)",
      "lieu : essaim (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "05d8583f63c1",
-   "title": "THE WAITING ROOM",
-   "venue_id": "panic-room",
-   "night": "2026-12-11",
-   "start": "2026-12-11T19:00:00.000",
-   "end": "2026-12-12T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "the-waiting-room",
-     "name": "THE WAITING ROOM",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "funk / soul"
-   ],
-   "families": [
-    "Techno",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2581835",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2581835"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : THE WAITING ROOM (0)",
-     "lieu : Panic Room (palier 1)"
     ]
    }
   },
