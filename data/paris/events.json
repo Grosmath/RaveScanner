@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-23T01:30:17Z",
+ "generated_at": "2026-11-23T20:56:43Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 327
+   "events": 350
   },
   {
    "id": "dice",
@@ -43,6 +43,7 @@
   "silencio",
   "la-machine-du-moulin-rouge",
   "parc-des-expositions",
+  "djoon",
   "la-java",
   "badaboum",
   "le-grand-dome",
@@ -51,10 +52,9 @@
   "poull",
   "cite-de-la-musique",
   "le-bataclan",
-  "djoon",
+  "point-ephemere",
   "zenith-paris-la-villette",
   "tba",
-  "point-ephemere",
   "pamela-club",
   "la-maison-de-la-conversation",
   "le-pop-up-du-label",
@@ -75,6 +75,7 @@
   "le-mazette",
   "tba-secret-place",
   "eglise-saint-eustache",
+  "studio56",
   "bal-chavaux",
   "la-gare-le-gore",
   "le-poisson-volant",
@@ -91,12 +92,12 @@
   "27-boulevard-jules-ferry",
   "mains-doeuvres",
   "le-klub",
-  "studio56",
   "a-la-folie-paris",
   "glazart",
   "miniwax",
   "workshow",
   "dock-b",
+  "tba-aubervilliers",
   "amaluna-paris",
   "babour-sauvage",
   "chalet-du-lac",
@@ -107,6 +108,7 @@
   "la-buvette-de-l-academie-du-climat",
   "le-cirque-electrique",
   "le-discobar",
+  "le-gambetta-club",
   "le-son-de-la-terre",
   "littleroom",
   "philharmonie-de-paris",
@@ -118,6 +120,7 @@
   "communale-saint-ouen",
   "la-mecanique-ondulatoire",
   "poush",
+  "swell-dance",
   "terminus",
   "vice-versa"
  ],
@@ -682,6 +685,16 @@
    "genres": []
   },
   {
+   "id": "le-gambetta-club",
+   "name": "Le Gambetta Club",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "le-grand-dome",
    "name": "Le Grand Dome",
    "type": "club",
@@ -1028,6 +1041,16 @@
    ]
   },
   {
+   "id": "swell-dance",
+   "name": "Swell Dance",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "tba",
    "name": "TBA",
    "type": "club",
@@ -1040,6 +1063,16 @@
   {
    "id": "tba-75013",
    "name": "TBA - 75013",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "tba-aubervilliers",
+   "name": "TBA - Aubervilliers",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1160,6 +1193,16 @@
  ],
  "artists": [
   {
+   "id": "0b5kr",
+   "name": "0b5kr",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "0livine-collective-2",
    "name": "0livine collective #2",
    "tier": 0,
@@ -1192,6 +1235,16 @@
   {
    "id": "3-0-records-underground-forever",
    "name": "3.0 RECORDS: UNDERGROUND FOREVER",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "3615-basse-bass",
+   "name": "3615_Basse_Bass",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -1715,6 +1768,16 @@
    "known": false
   },
   {
+   "id": "artem",
+   "name": "ARTEM (FR)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "artifak",
    "name": "Artifak",
    "tier": 0,
@@ -2057,6 +2120,16 @@
    "known": false
   },
   {
+   "id": "blck-mamba",
+   "name": "Blck Mamba",
+   "tier": 0,
+   "score": 10,
+   "popularity": 10,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787ae87e57eaf807da3cc77094",
+   "known": false
+  },
+  {
    "id": "bob-sinclar",
    "name": "Bob Sinclar",
    "tier": 0,
@@ -2087,6 +2160,16 @@
    "known": false
   },
   {
+   "id": "break-the-stage-anniversary",
+   "name": "Break The Stage Anniversary",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "brodinski",
    "name": "Brodinski",
    "tier": 0,
@@ -2094,6 +2177,16 @@
    "popularity": 45,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788338e6d30420831d54774504",
+   "known": false
+  },
+  {
+   "id": "brom",
+   "name": "BROM",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/3efd21d5b2d7af99b2391162bb0b6ac0/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2247,6 +2340,16 @@
    "known": false
   },
   {
+   "id": "chachacha",
+   "name": "Chachacha",
+   "tier": 0,
+   "score": 8,
+   "popularity": 8,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/7cfeaad229413db9bfb4b03af5b47a5a/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "chami",
    "name": "Chami",
    "tier": 0,
@@ -2314,6 +2417,16 @@
    "popularity": 23,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17816dfe9bc012c4ef6b5991a52",
+   "known": false
+  },
+  {
+   "id": "chris-thomas",
+   "name": "Chris Thomas",
+   "tier": 0,
+   "score": 10,
+   "popularity": 10,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178bba471d11e57c4a2db805e91",
    "known": false
   },
   {
@@ -2529,6 +2642,16 @@
   {
    "id": "cruel-santino-nyokobop-festival",
    "name": "Cruel Santino - NYOKOBOP Festival",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "ctrlzora",
+   "name": "CTRLZORA",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2897,6 +3020,16 @@
    "known": false
   },
   {
+   "id": "dj-epi",
+   "name": "Dj Epi",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178dec2202628989e16a8bf4029",
+   "known": false
+  },
+  {
    "id": "dj-kakashi",
    "name": "Dj Kakashi",
    "tier": 0,
@@ -2964,6 +3097,16 @@
    "popularity": 41,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17845830780345aac388eddedd4",
+   "known": false
+  },
+  {
+   "id": "dj-stingray-313",
+   "name": "DJ Stingray 313",
+   "tier": 0,
+   "score": 18,
+   "popularity": 18,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fed53f53af51f206c4192735",
    "known": false
   },
   {
@@ -3259,6 +3402,16 @@
   {
    "id": "ernesto-chahoud",
    "name": "Ernesto Chahoud",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "esilise",
+   "name": "Esilise",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3567,6 +3720,16 @@
    "known": false
   },
   {
+   "id": "friends",
+   "name": "Friends",
+   "tier": 0,
+   "score": 43,
+   "popularity": 43,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/c1c14de3b1a504ab348d57bd60e1bd96/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "froid-dub",
    "name": "Froid Dub",
    "tier": 0,
@@ -3604,6 +3767,16 @@
    "popularity": 30,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1787ea8db7f5dda6cfac0c7c1ba",
+   "known": false
+  },
+  {
+   "id": "future-beats-night-11-12-2026",
+   "name": "Future Beats Night 11.12.2026",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3697,6 +3870,16 @@
    "known": false
   },
   {
+   "id": "glue-loranova",
+   "name": "Glue : Loranova (Live)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "golce",
    "name": "Golce",
    "tier": 0,
@@ -3754,6 +3937,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17841a75232f7931d7b4ea990d9",
+   "known": false
+  },
+  {
+   "id": "groove-boys-project",
+   "name": "Groove Boys Project",
+   "tier": 0,
+   "score": 9,
+   "popularity": 9,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781e5d4ba29d47f8ce96fa156d",
    "known": false
   },
   {
@@ -3970,6 +4163,16 @@
    "known": false
   },
   {
+   "id": "iambp",
+   "name": "IAMBP",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fba338a4f9a16d1a13571eea",
+   "known": false
+  },
+  {
    "id": "ian-maur",
    "name": "Ian Maur",
    "tier": 0,
@@ -3987,6 +4190,16 @@
    "popularity": 22,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784893e9508a63207a346cac51",
+   "known": false
+  },
+  {
+   "id": "idriss-d",
+   "name": "Idriss D",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17893c201980d1fd790f0e9c822",
    "known": false
   },
   {
@@ -4333,6 +4546,16 @@
    "known": false
   },
   {
+   "id": "julian-daumas",
+   "name": "Julian Daumas",
+   "tier": 0,
+   "score": 37,
+   "popularity": 37,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782770515ed71507642ce28a90",
+   "known": false
+  },
+  {
    "id": "julian-fijma",
    "name": "Julian Fijma",
    "tier": 0,
@@ -4340,16 +4563,6 @@
    "popularity": 65,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ced0f40aac584f79965fd528",
-   "known": false
-  },
-  {
-   "id": "juliann",
-   "name": "Juliann",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/3a5987972c0f012fc92b54d1d85ff308/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4433,6 +4646,16 @@
    "known": false
   },
   {
+   "id": "kapela",
+   "name": "Kapela",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/dac5b29b109da4d7cfd54e032236012f/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "karah",
    "name": "KARAH",
    "tier": 0,
@@ -4513,6 +4736,16 @@
    "known": false
   },
   {
+   "id": "kenny-larkin",
+   "name": "Kenny Larkin",
+   "tier": 0,
+   "score": 38,
+   "popularity": 38,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17894882107bb5b7d1948c0cb4e",
+   "known": false
+  },
+  {
    "id": "kenzzza",
    "name": "Kenzzza",
    "tier": 0,
@@ -4553,6 +4786,16 @@
    "known": false
   },
   {
+   "id": "killoverjoy",
+   "name": "Killoverjoy",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "kim-peers",
    "name": "Kim Peers",
    "tier": 0,
@@ -4570,6 +4813,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851c2bc9fecbda3c39e82465cd0",
+   "known": false
+  },
+  {
+   "id": "klustone",
+   "name": "Klustone",
+   "tier": 0,
+   "score": 22,
+   "popularity": 22,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788a2e6212ab1e5e36ce292f11",
    "known": false
   },
   {
@@ -4623,6 +4876,16 @@
    "known": false
   },
   {
+   "id": "kristel-morin",
+   "name": "Kristel Morin",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "krowdexx",
    "name": "Krowdexx",
    "tier": 0,
@@ -4650,6 +4913,16 @@
    "popularity": 20,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1789255ea577f4239e82461fba8",
+   "known": false
+  },
+  {
+   "id": "kyle-hall",
+   "name": "Kyle Hall",
+   "tier": 0,
+   "score": 15,
+   "popularity": 15,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178902f7f14ebbc80ab522b4a92",
    "known": false
   },
   {
@@ -4863,6 +5136,16 @@
    "known": false
   },
   {
+   "id": "leilo",
+   "name": "Leilo",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "leleon",
    "name": "LeLeon",
    "tier": 0,
@@ -4903,6 +5186,16 @@
    "known": false
   },
   {
+   "id": "let-me-hold-you-r",
+   "name": "LET ME HOLD YOU - R",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "lez4rd",
    "name": "LEZ4RD",
    "tier": 0,
@@ -4940,6 +5233,16 @@
    "popularity": 10,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780cded6807720ddb8684d9702",
+   "known": false
+  },
+  {
+   "id": "linlin",
+   "name": "LinLin",
+   "tier": 0,
+   "score": 44,
+   "popularity": 44,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1784bf58c54d4c24b4a9a51535c",
    "known": false
   },
   {
@@ -5030,6 +5333,16 @@
    "popularity": 55,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e2e8375569f8a7037288e7f3",
+   "known": false
+  },
+  {
+   "id": "ltmg",
+   "name": "Ltmg",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e2c33244be4b40cf3f77316c",
    "known": false
   },
   {
@@ -5635,6 +5948,16 @@
    "known": false
   },
   {
+   "id": "miche",
+   "name": "Miche",
+   "tier": 0,
+   "score": 9,
+   "popularity": 9,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/ebcf22e5c3a0eb3178b8a6f6bc1a5a6c/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "michel-ange",
    "name": "Michel Ange",
    "tier": 0,
@@ -5696,7 +6019,7 @@
   },
   {
    "id": "mila-moja",
-   "name": "Mila Moja",
+   "name": "MILA MOJA",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5732,6 +6055,16 @@
    "popularity": 39,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c99daf2b4923da9ef9d494b8",
+   "known": false
+  },
+  {
+   "id": "mirko-loko",
+   "name": "Mirko Loko",
+   "tier": 0,
+   "score": 14,
+   "popularity": 14,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17803e665583e030a4de8638edb",
    "known": false
   },
   {
@@ -6048,6 +6381,16 @@
    "known": false
   },
   {
+   "id": "night-sl4yer",
+   "name": "Night Sl4yer",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "nightchou",
    "name": "Nightchou",
    "tier": 0,
@@ -6090,6 +6433,16 @@
   {
    "id": "noch-2",
    "name": "NOCH (2)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "non-paying-buyer",
+   "name": "Non Paying Buyer",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -6225,6 +6578,26 @@
    "popularity": 18,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d0000485172f6abec1772550f168a3562",
+   "known": false
+  },
+  {
+   "id": "ohdear",
+   "name": "OhDear",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "okulte",
+   "name": "Okulte",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485113d366f4e8e9899ed7b4513e",
    "known": false
   },
   {
@@ -7038,6 +7411,16 @@
    "known": false
   },
   {
+   "id": "santa-leticia",
+   "name": "Santa Leticia",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "sants",
    "name": "SANTØS",
    "tier": 0,
@@ -7075,6 +7458,16 @@
    "popularity": 51,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c673456b1c8a702ef9a60df7",
+   "known": false
+  },
+  {
+   "id": "sasha-kills",
+   "name": "Sasha Kills",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7155,6 +7548,16 @@
    "popularity": 29,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/0411c830f31075af41d6e03ad8b305c2/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "seth-troxler",
+   "name": "Seth Troxler",
+   "tier": 0,
+   "score": 48,
+   "popularity": 48,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ae415c295c042f2193594a8e",
    "known": false
   },
   {
@@ -7358,6 +7761,16 @@
    "known": false
   },
   {
+   "id": "stackingad",
+   "name": "Stackingad",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "status",
    "name": "Status",
    "tier": 0,
@@ -7425,6 +7838,16 @@
    "popularity": 7,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17861cd320d4caf23aadcee229b",
+   "known": false
+  },
+  {
+   "id": "svayn",
+   "name": "Svayn",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7575,16 +7998,6 @@
    "popularity": 10,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048512167069de856c5c503c1f7c3",
-   "known": false
-  },
-  {
-   "id": "the-waiting-room",
-   "name": "THE WAITING ROOM",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d000048512627dfc026731bd0503fd689",
    "known": false
   },
   {
@@ -7998,6 +8411,16 @@
    "known": false
   },
   {
+   "id": "vworld",
+   "name": "Vworld",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178602ead39a1cd74e19ac059b3",
+   "known": false
+  },
+  {
    "id": "waeys",
    "name": "Waeys",
    "tier": 0,
@@ -8168,6 +8591,16 @@
    "known": false
   },
   {
+   "id": "zaza",
+   "name": "Zaza",
+   "tier": 0,
+   "score": 35,
+   "popularity": 35,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789fd2a2feea34a45ce230c510",
+   "known": false
+  },
+  {
    "id": "znzl",
    "name": "Znzl",
    "tier": 0,
@@ -8179,6 +8612,69 @@
   }
  ],
  "events": [
+  {
+   "id": "8ee7e02baf5b",
+   "title": "Core W/ Killoverjoy , Iyu , Pechox",
+   "venue_id": "studio56",
+   "night": "2026-11-23",
+   "start": "2026-11-23T23:59:00.000",
+   "end": "2026-11-29T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "killoverjoy",
+     "name": "Killoverjoy",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "trance"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591190",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591190"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591190"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591190"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591190"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591190"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591190"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Killoverjoy (8)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
   {
    "id": "c65b7dc4e937",
    "title": "Acid Oslo",
@@ -8217,6 +8713,53 @@
     "reasons": [
      "tête d'affiche : Acid Oslo (8)",
      "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "d96bba0dd255",
+   "title": "Signal W/ Dj Epi , Svayn , 0b5kr",
+   "venue_id": "studio56",
+   "night": "2026-11-24",
+   "start": "2026-11-24T23:59:00.000",
+   "end": "2026-11-25T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "svayn",
+     "name": "Svayn",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "0b5kr",
+     "name": "0b5kr",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dj-epi",
+     "name": "Dj Epi",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591191",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591191"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Svayn (8)",
+     "lieu : Studio56 (palier 2)"
     ]
    }
   },
@@ -8482,6 +9025,53 @@
    }
   },
   {
+   "id": "a6fe29cab60a",
+   "title": "Resonance W/ Ltmg , Okulte , Night Sl4yer",
+   "venue_id": "studio56",
+   "night": "2026-11-25",
+   "start": "2026-11-25T23:59:00.000",
+   "end": "2026-11-26T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "night-sl4yer",
+     "name": "Night Sl4yer",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ltmg",
+     "name": "Ltmg",
+     "billing": "support"
+    },
+    {
+     "artist_id": "okulte",
+     "name": "Okulte",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591193",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591193"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Night Sl4yer (8)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "b2693647be44",
    "title": "PAGOS (PARIS TO LAGOS)",
    "venue_id": "littleroom",
@@ -8607,6 +9197,49 @@
     "reasons": [
      "tête d'affiche : 3AM (72)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "1bb09e94851f",
+   "title": "DISCO INFERNO: AFTERPARTY - Release Party I LinLin & GUESTS",
+   "venue_id": "rex-club",
+   "night": "2026-11-26",
+   "start": "2026-11-26T23:00:00.000",
+   "end": "2026-11-27T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "linlin",
+     "name": "LinLin",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "hip-hop",
+    "electro"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2591263",
+   "event_url": "https://ra.co/events/2591263",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591263"
+    }
+   ],
+   "interest": {
+    "score": 50,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : LinLin (44)",
+     "lieu : Rex Club (palier 3)"
     ]
    }
   },
@@ -8785,6 +9418,53 @@
     "reasons": [
      "tête d'affiche : Sept (29)",
      "lieu : Mia Mao (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b6c82d2ac3b6",
+   "title": "Impact W/ Vworld ,Stackingad , Sasha Kills",
+   "venue_id": "studio56",
+   "night": "2026-11-26",
+   "start": "2026-11-26T23:59:00.000",
+   "end": "2026-11-27T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "stackingad",
+     "name": "Stackingad",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "sasha-kills",
+     "name": "Sasha Kills",
+     "billing": "support"
+    },
+    {
+     "artist_id": "vworld",
+     "name": "Vworld",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591194",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591194"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Stackingad (8)",
+     "lieu : Studio56 (palier 2)"
     ]
    }
   },
@@ -10048,6 +10728,49 @@
    }
   },
   {
+   "id": "1b7441593b4f",
+   "title": "Studio 56 Girl All Night Long",
+   "venue_id": "studio56",
+   "night": "2026-11-27",
+   "start": "2026-11-27T23:59:00.000",
+   "end": "2026-11-28T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "killoverjoy",
+     "name": "Killoverjoy",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "trance"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591196",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591196"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Killoverjoy (8)",
+     "lieu : Studio56 (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "fbb6cff8414b",
    "title": "Tropic of Keys",
    "venue_id": "a-la-folie-paris",
@@ -10198,6 +10921,47 @@
     "reasons": [
      "tête d'affiche : YOUR LOCAL HOUSE CLUB (8)",
      "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "91b42bdb4e16",
+   "title": "3615_Basse_Bass",
+   "venue_id": "le-gambetta-club",
+   "night": "2026-11-27",
+   "start": "2026-11-27T23:00:00.000",
+   "end": "2026-11-29T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "3615-basse-bass",
+     "name": "3615_Basse_Bass",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591198",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591198"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591198"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : 3615_Basse_Bass (8)",
+     "lieu : Le Gambetta Club (palier 1)"
     ]
    }
   },
@@ -10908,8 +11672,8 @@
      "billing": "headliner"
     },
     {
-     "artist_id": "juliann",
-     "name": "Juliann",
+     "artist_id": "julian-daumas",
+     "name": "Julian Daumas",
      "billing": "support"
     }
    ],
@@ -12944,9 +13708,10 @@
     "dub",
     "club",
     "experimental",
-    "pop"
+    "techno"
    ],
    "families": [
+    "Techno",
     "Électro & bass",
     "Pop & club",
     "Expérimental"
@@ -14146,6 +14911,48 @@
    }
   },
   {
+   "id": "bc0b3833e082",
+   "title": "Groove Boys Project: 9 YEARS ANNIVERSARY",
+   "venue_id": "djoon",
+   "night": "2026-12-04",
+   "start": "2026-12-04T23:00:00.000",
+   "end": "2026-12-05T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "groove-boys-project",
+     "name": "Groove Boys Project",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "deep house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2591963",
+   "event_url": "https://ra.co/events/2591963",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591963"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Groove Boys Project (9)",
+     "lieu : Djoon (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "88ff7515c3fe",
    "title": "LA CREOLE",
    "venue_id": "la-station-gare-des-mines",
@@ -14385,6 +15192,58 @@
     "reasons": [
      "tête d'affiche : Leef (13)",
      "lieu : Point Ephémère (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "01b44cf308b9",
+   "title": "Glue : Loranova (Live), Chachacha, Leilo, Non Paying Buyer",
+   "venue_id": "tba-aubervilliers",
+   "night": "2026-12-04",
+   "start": "2026-12-04T22:00:00.000",
+   "end": "2026-12-05T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "glue-loranova",
+     "name": "Glue : Loranova (Live)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "chachacha",
+     "name": "Chachacha",
+     "billing": "support"
+    },
+    {
+     "artist_id": "leilo",
+     "name": "Leilo",
+     "billing": "support"
+    },
+    {
+     "artist_id": "non-paying-buyer",
+     "name": "Non Paying Buyer",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591200",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591200"
+    }
+   ],
+   "interest": {
+    "score": 13,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Glue : Loranova (Live) (8)",
+     "lieu : TBA - Aubervilliers (palier 1)"
     ]
    }
   },
@@ -15378,6 +16237,54 @@
    }
   },
   {
+   "id": "44a5265de2f8",
+   "title": "DJ Miche & Santa Leticia ALL NIGHT LONG",
+   "venue_id": "djoon",
+   "night": "2026-12-05",
+   "start": "2026-12-05T23:00:00.000",
+   "end": "2026-12-06T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "miche",
+     "name": "Miche",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "santa-leticia",
+     "name": "Santa Leticia",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "funk / soul"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2591965",
+   "event_url": "https://ra.co/events/2591965",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591965"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Miche (9)",
+     "lieu : Djoon (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "952d139b537e",
    "title": "Pornceptual Does Fvtvr",
    "venue_id": "fvtvr",
@@ -15859,6 +16766,64 @@
     "reasons": [
      "tête d'affiche : Jeff Mills (50)",
      "lieu : Cité De La Musique (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b117d6ee8959",
+   "title": "Soulful Sunday 7th ANNIVERSARY",
+   "venue_id": "djoon",
+   "night": "2026-12-06",
+   "start": "2026-12-06T17:00:00.000",
+   "end": "2026-12-07T00:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "chris-thomas",
+     "name": "Chris Thomas",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ctrlzora",
+     "name": "CTRLZORA",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kristel-morin",
+     "name": "Kristel Morin",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kapela",
+     "name": "Kapela",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2591967",
+   "event_url": "https://ra.co/events/2591967",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591967"
+    }
+   ],
+   "interest": {
+    "score": 19,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Chris Thomas (10)",
+     "lieu : Djoon (palier 2)"
     ]
    }
   },
@@ -16545,6 +17510,59 @@
    }
   },
   {
+   "id": "3a39cf108307",
+   "title": "Break The Stage Anniversary with OhDear & Friends",
+   "venue_id": "la-java",
+   "night": "2026-12-11",
+   "start": "2026-12-11T19:00:00.000",
+   "end": "2026-12-11T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "friends",
+     "name": "Friends",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "break-the-stage-anniversary",
+     "name": "Break The Stage Anniversary",
+     "billing": "support"
+    },
+    {
+     "artist_id": "ohdear",
+     "name": "OhDear",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "hip-hop",
+    "electro"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591503",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591503"
+    }
+   ],
+   "interest": {
+    "score": 43,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Friends (43)",
+     "lieu : La Java (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "a8b080800dfb",
    "title": "Skryptöm: Estella Boersma (Hybrid djset), Electric Rescue",
    "venue_id": "rex-club",
@@ -16884,6 +17902,53 @@
    }
   },
   {
+   "id": "bd7cab517140",
+   "title": "LET ME HOLD YOU - R&B & Future Beats Night 11.12.2026",
+   "venue_id": "djoon",
+   "night": "2026-12-11",
+   "start": "2026-12-11T23:00:00.000",
+   "end": "2026-12-12T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "let-me-hold-you-r",
+     "name": "LET ME HOLD YOU - R",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "future-beats-night-11-12-2026",
+     "name": "Future Beats Night 11.12.2026",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "hip-hop",
+    "r&b"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2591974",
+   "event_url": "https://ra.co/events/2591974",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591974"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LET ME HOLD YOU - R (8)",
+     "lieu : Djoon (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "317da3ea8990",
    "title": "Sacré présente: Souvenir",
    "venue_id": "sacre",
@@ -17153,44 +18218,44 @@
    }
   },
   {
-   "id": "05d8583f63c1",
-   "title": "THE WAITING ROOM",
+   "id": "b9af59eab58b",
+   "title": "The Waiting Room: BROM, LPZ350, Osloff, Peace Peace",
    "venue_id": "panic-room",
    "night": "2026-12-11",
-   "start": "2026-12-11T19:00:00.000",
+   "start": "2026-12-11T22:00:00.000",
    "end": "2026-12-12T05:00:00.000",
    "lineup": [
     {
-     "artist_id": "the-waiting-room",
-     "name": "THE WAITING ROOM",
+     "artist_id": "brom",
+     "name": "BROM",
      "billing": "headliner"
     }
    ],
    "genres": [
     "techno",
-    "funk / soul"
+    "house"
    ],
    "families": [
     "Techno",
-    "Disco & funk"
+    "House"
    ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
-   "event_url": "https://ra.co/events/2581835",
+   "event_url": "https://ra.co/events/2591563",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2581835"
+     "url": "https://ra.co/events/2591563"
     }
    ],
    "interest": {
     "score": 6,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : THE WAITING ROOM (0)",
+     "tête d'affiche : BROM (0)",
      "lieu : Panic Room (palier 1)"
     ]
    }
@@ -18279,8 +19344,8 @@
    "title": "JAM & KREMA",
    "venue_id": "poush",
    "night": "2026-12-12",
-   "start": "2026-12-12T19:00:00.000",
-   "end": "2026-12-13T06:00:00.000",
+   "start": "2026-12-12T20:00:00.000",
+   "end": "2026-12-13T00:00:00.000",
    "lineup": [
     {
      "artist_id": "piaconcept",
@@ -18538,6 +19603,48 @@
     "reasons": [
      "tête d'affiche : Margaret Dygas (8)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "d1c0b132bcfa",
+   "title": "sub/rosæ",
+   "venue_id": "swell-dance",
+   "night": "2026-12-13",
+   "start": "2026-12-13T14:00:00.000",
+   "end": "2026-12-13T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jacky-jeane",
+     "name": "Jacky Jeane",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "ambient",
+    "experimental"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2590899",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2590899"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jacky Jeane (0)",
+     "lieu : Swell Dance (palier 1)"
     ]
    }
   },
@@ -19385,15 +20492,15 @@
   },
   {
    "id": "0d104822fd66",
-   "title": "Mila Moja",
+   "title": "MILA MOJA",
    "venue_id": "point-ephemere",
    "night": "2026-12-18",
-   "start": "2026-12-18T23:00:00.000",
-   "end": "2026-12-19T05:00:00.000",
+   "start": "2026-12-18T23:00:00+01:00",
+   "end": "2026-12-19T05:00:00+01:00",
    "lineup": [
     {
      "artist_id": "mila-moja",
-     "name": "Mila Moja",
+     "name": "MILA MOJA",
      "billing": "headliner"
     }
    ],
@@ -19404,16 +20511,12 @@
     "Électro & bass"
    ],
    "price_min": 13.0,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2587382",
-   "event_url": "https://ra.co/events/2587382",
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/ok2qvm-mila-moja-18th-dec-point-ephmre-paris-tickets",
+   "event_url": "https://dice.fm/event/ok2qvm-mila-moja-18th-dec-point-ephmre-paris-tickets",
    "image": "https://dice-media.imgix.net/attachments/2026-11-17/c9e694e8-ed7d-401e-81da-2a5517c3370c.jpg?rect=0%2C164%2C1000%2C1000",
    "status": "confirmed",
    "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2587382"
-    },
     {
      "id": "dice",
      "url": "https://dice.fm/event/ok2qvm-mila-moja-18th-dec-point-ephmre-paris-tickets"
@@ -19423,7 +20526,48 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Mila Moja (8)",
+     "tête d'affiche : MILA MOJA (8)",
+     "lieu : Point Ephémère (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b0ca7d8ef110",
+   "title": "Milamoja",
+   "venue_id": "point-ephemere",
+   "night": "2026-12-18",
+   "start": "2026-12-18T23:00:00.000",
+   "end": "2026-12-19T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "artem",
+     "name": "ARTEM (FR)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electro"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2587382",
+   "event_url": "https://ra.co/events/2587382",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2587382"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ARTEM (FR) (8)",
      "lieu : Point Ephémère (palier 1)"
     ]
    }
@@ -19468,6 +20612,49 @@
     "reasons": [
      "tête d'affiche : JOHN DIXON (0)",
      "lieu : Le Klub (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "5cb1c75680dd",
+   "title": "Sisteuf présente: Solstice Circus",
+   "venue_id": "la-marbrerie",
+   "night": "2026-12-18",
+   "start": "2026-12-18T23:00:00.000",
+   "end": "2026-12-19T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "iambp",
+     "name": "IAMBP",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "trance",
+    "tech house"
+   ],
+   "families": [
+    "House",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591586",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591586"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : IAMBP (0)",
+     "lieu : La Marbrerie (palier 1)"
     ]
    }
   },
@@ -22279,6 +23466,52 @@
    }
   },
   {
+   "id": "3be563bfef8f",
+   "title": "ØUT: P3B3 vs LEZ4RD, Esilise, Zaza vs DEVIATION ABYSSALE",
+   "venue_id": "rex-club",
+   "night": "2027-02-03",
+   "start": "2027-02-03T23:30:00.000",
+   "end": "2027-02-04T06:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "zaza",
+     "name": "Zaza",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "esilise",
+     "name": "Esilise",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2591538",
+   "event_url": "https://ra.co/events/2591538",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591538"
+    }
+   ],
+   "interest": {
+    "score": 43,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Zaza (35)",
+     "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
    "id": "346ea8c7c15e",
    "title": "NTO & FRIENDS • AFTER SHOW OFFICIEL DE L'OLYMPIA",
    "venue_id": "rex-club",
@@ -22795,6 +24028,104 @@
     "reasons": [
      "tête d'affiche : Chase (0)",
      "lieu : Zénith Paris - La Villette (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "5c0892d9b5d7",
+   "title": "DETROIT LOVE - Carl Craig B2B Seth Troxler (EXTENDED SET)",
+   "venue_id": "fvtvr",
+   "night": "2027-03-05",
+   "start": "2027-03-05T23:00:00.000",
+   "end": "2027-03-06T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "carl-craig",
+     "name": "Carl Craig",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "seth-troxler",
+     "name": "Seth Troxler",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kenny-larkin",
+     "name": "Kenny Larkin",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mel",
+     "name": "Mel (FR)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "klustone",
+     "name": "Klustone",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dj-stingray-313",
+     "name": "DJ Stingray 313",
+     "billing": "support"
+    },
+    {
+     "artist_id": "marli",
+     "name": "Marli",
+     "billing": "support"
+    },
+    {
+     "artist_id": "kyle-hall",
+     "name": "Kyle Hall",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mirko-loko",
+     "name": "Mirko Loko",
+     "billing": "support"
+    },
+    {
+     "artist_id": "blck-mamba",
+     "name": "Blck Mamba",
+     "billing": "support"
+    },
+    {
+     "artist_id": "idriss-d",
+     "name": "Idriss D",
+     "billing": "support"
+    },
+    {
+     "artist_id": "gotis",
+     "name": "GOTIS",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "tech house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2591757",
+   "event_url": "https://ra.co/events/2591757",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591757"
+    }
+   ],
+   "interest": {
+    "score": 50,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Carl Craig (50)",
+     "lieu : FVTVR (palier 2)"
     ]
    }
   },

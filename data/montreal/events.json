@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-23T01:29:49Z",
+ "generated_at": "2026-11-23T20:55:42Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 159
+   "events": 163
   },
   {
    "id": "piknic",
@@ -29,7 +29,7 @@
   {
    "id": "mtelus",
    "ok": true,
-   "events": 18
+   "events": 19
   },
   {
    "id": "ticketmaster",
@@ -46,8 +46,8 @@
   "stereo-bar",
   "theatre-fairmount",
   "ausgang-plaza",
-  "salon-daome",
   "bar-datcha",
+  "salon-daome",
   "le-red-room",
   "sat",
   "s-a-t",
@@ -63,13 +63,13 @@
   "la-recre",
   "nwhr",
   "white-wall-studio",
-  "warehouse",
   "entre-nous",
   "breakglass-studios",
   "vino-disco",
+  "tba-montreal",
   "cabaret-berlin",
-  "esc",
   "blue-room",
+  "esc",
   "cafe-social-b-hive",
   "club-soda",
   "le-ritz",
@@ -502,6 +502,16 @@
    "genres": []
   },
   {
+   "id": "tba-montreal",
+   "name": "TBA - Montreal",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "theatre-fairmount",
    "name": "Theatre Fairmount",
    "type": "venue",
@@ -536,19 +546,6 @@
    "genres": []
   },
   {
-   "id": "warehouse",
-   "name": "Lieu secret / Warehouse",
-   "type": "warehouse",
-   "tier": 2,
-   "capacity": 600,
-   "address": "TBA",
-   "url": "",
-   "genres": [
-    "techno",
-    "rave"
-   ]
-  },
-  {
    "id": "white-wall-studio",
    "name": "White Wall Studio",
    "type": "club",
@@ -560,6 +557,16 @@
   }
  ],
  "artists": [
+  {
+   "id": "999adj",
+   "name": "999ADJ",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
   {
    "id": "abel-aguilera",
    "name": "Abel Aguilera",
@@ -918,6 +925,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/bc10a17e9c4b0e518ec69532b2cec3f2/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "bisoubizou",
+   "name": "BisouBizou",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1504,6 +1521,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "durocher",
+   "name": "DUROCHER",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17877abccaa478341e6a5f16bd5",
    "known": false
   },
   {
@@ -3068,6 +3095,16 @@
    "known": false
   },
   {
+   "id": "nicky",
+   "name": "nicky_",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "ninajirachi",
    "name": "Ninajirachi",
    "tier": 0,
@@ -3318,6 +3355,16 @@
    "known": false
   },
   {
+   "id": "pierre-kwenders",
+   "name": "Pierre Kwenders",
+   "tier": 0,
+   "score": 36,
+   "popularity": 36,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1788898b1f7362869d9c25ed147",
+   "known": false
+  },
+  {
    "id": "plastik-patrik",
    "name": "Plastik Patrik",
    "tier": 0,
@@ -3548,6 +3595,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "san-farafina",
+   "name": "San Farafina",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -3848,6 +3905,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "the-lyonz",
+   "name": "THe LYONZ",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783f706df7851a57d07c874e33",
    "known": false
   },
   {
@@ -4737,12 +4804,12 @@
    }
   },
   {
-   "id": "7a317ba02a0e",
-   "title": "Bonobo",
+   "id": "ac36e221250e",
+   "title": "Bonobo - Distance In Static (Live)",
    "venue_id": "mtelus",
    "night": "2026-11-27",
-   "start": "2026-11-27T20:00:00-05:00",
-   "end": null,
+   "start": "2026-11-27T20:00:00.000",
+   "end": "2026-11-27T23:00:00.000",
    "lineup": [
     {
      "artist_id": "bonobo",
@@ -4756,16 +4823,22 @@
     }
    ],
    "genres": [
-    "electronic"
+    "electronica"
    ],
-   "families": [],
+   "families": [
+    "Expérimental"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/310064C38979357F?lang=fr-ca&brand=mtelus",
-   "event_url": "https://evenko.ca/fr/evenements/mtelus/bonobo?code=e008607",
+   "event_url": "https://ra.co/events/2589329",
    "image": "https://images.ctfassets.net/3yxl57nu0yl4/7bq4z4ViVLkLCLyb6s2kh5/08d3b98763833c147aed0df566907f84/Bonobo.png",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2589329"
+    },
     {
      "id": "mtelus",
      "url": "https://evenko.ca/fr/evenements/mtelus/bonobo?code=e008607"
@@ -5010,9 +5083,55 @@
    }
   },
   {
-   "id": "18403b9697d1",
+   "id": "fc2552b1f813",
+   "title": "NOS: Moonrise - Simbasōl // FAMÜ // Kbob",
+   "venue_id": "nwhr",
+   "night": "2026-11-27",
+   "start": "2026-11-27T22:00:00.000",
+   "end": "2026-11-28T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "simbasol",
+     "name": "Simbasōl",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "famu",
+     "name": "FAMÜ",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2576033",
+   "event_url": "https://ra.co/events/2576033",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2576033"
+    }
+   ],
+   "interest": {
+    "score": 28,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Simbasōl (31)",
+     "lieu : NWHR (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "d9d477d52455",
    "title": "homeby6 3 YEAR ANNIVERSARY RAVE",
-   "venue_id": "warehouse",
+   "venue_id": "tba-montreal",
    "night": "2026-11-27",
    "start": "2026-11-27T23:00:00.000",
    "end": "2026-11-28T06:00:00.000",
@@ -5067,57 +5186,11 @@
     }
    ],
    "interest": {
-    "score": 29,
+    "score": 23,
     "tier": 0,
     "reasons": [
      "tête d'affiche : Runa (22)",
-     "lieu : Lieu secret / Warehouse (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "fc2552b1f813",
-   "title": "NOS: Moonrise - Simbasōl // FAMÜ // Kbob",
-   "venue_id": "nwhr",
-   "night": "2026-11-27",
-   "start": "2026-11-27T22:00:00.000",
-   "end": "2026-11-28T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "simbasol",
-     "name": "Simbasōl",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "famu",
-     "name": "FAMÜ",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "progressive house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2576033",
-   "event_url": "https://ra.co/events/2576033",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2576033"
-    }
-   ],
-   "interest": {
-    "score": 28,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Simbasōl (31)",
-     "lieu : NWHR (palier 1)"
+     "lieu : TBA - Montreal (palier 1)"
     ]
    }
   },
@@ -5334,6 +5407,11 @@
     {
      "artist_id": "myfanwy",
      "name": "myfanwy",
+     "billing": "support"
+    },
+    {
+     "artist_id": "nicky",
+     "name": "nicky_",
      "billing": "support"
     }
    ],
@@ -5558,6 +5636,47 @@
     "reasons": [
      "tête d'affiche : MilSif (8)",
      "lieu : Vino Disco (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "2b5cd9ce273b",
+   "title": "Berkaï / CINQ MARS b2b JULIAN VASQUEZ",
+   "venue_id": "blue-room",
+   "night": "2026-11-27",
+   "start": "2026-11-27T22:00:00.000",
+   "end": "2026-11-28T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "berkai",
+     "name": "Berkaï",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronica"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591952",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591952"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Berkaï (0)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -6086,6 +6205,11 @@
      "artist_id": "sydney-sarayeva",
      "name": "Sydney Sarayeva",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "durocher",
+     "name": "DUROCHER",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -6537,6 +6661,52 @@
     "reasons": [
      "tête d'affiche : Marvin (69)",
      "lieu : Ausgang Plaza (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "0799ffec13bd",
+   "title": "THe LYONZ, Hide & Bisou Bizou",
+   "venue_id": "bar-datcha",
+   "night": "2026-12-03",
+   "start": "2026-12-03T23:00:00.000",
+   "end": "2026-12-04T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bisoubizou",
+     "name": "BisouBizou",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "the-lyonz",
+     "name": "THe LYONZ",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2591883",
+   "event_url": "https://ra.co/events/2591883",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591883"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : BisouBizou (8)",
+     "lieu : Bar Datcha (palier 2)"
     ]
    }
   },
@@ -7441,8 +7611,8 @@
    }
   },
   {
-   "id": "bdd4c9a9fa64",
-   "title": "CLASS OF 095 - DJ Cinéma Quartier Latin, HEY: ALBERT, HALO, .ape",
+   "id": "c4719dd08d9a",
+   "title": "CLASS OF 2095 - DJ Cinéma Quartier Latin, HEY: ALBERT, HALO, .ape, No Police",
    "venue_id": "bar-datcha",
    "night": "2026-12-05",
    "start": "2026-12-05T22:00:00.000",
@@ -8557,6 +8727,48 @@
    }
   },
   {
+   "id": "be8346725a06",
+   "title": "NONSTOP: Jordan Gardner, 999ADJ, Groceries",
+   "venue_id": "bar-datcha",
+   "night": "2026-12-12",
+   "start": "2026-12-12T23:00:00.000",
+   "end": "2026-12-13T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "999adj",
+     "name": "999ADJ",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "jordan-gardner",
+     "name": "Jordan Gardner",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2584291",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2584291"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : 999ADJ (8)",
+     "lieu : Bar Datcha (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "8e39ec88f141",
    "title": "ACID DREAMS [100% vinyl + live set]",
    "venue_id": "le-ritz",
@@ -8737,43 +8949,6 @@
     "reasons": [
      "tête d'affiche : Joe Claussell (0)",
      "lieu : Salon Daome (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "eb7cb1dfdc7a",
-   "title": "NONSTOP: Jordan Gardner, Adj, Groceries",
-   "venue_id": "bar-datcha",
-   "night": "2026-12-12",
-   "start": "2026-12-12T23:00:00.000",
-   "end": "2026-12-13T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "jordan-gardner",
-     "name": "Jordan Gardner",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2584291",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2584291"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Jordan Gardner (0)",
-     "lieu : Bar Datcha (palier 2)"
     ]
    }
   },
@@ -9166,6 +9341,54 @@
     "reasons": [
      "tête d'affiche : Solstice Noir (8)",
      "lieu : Cabaret Berlin (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "a3444ab93775",
+   "title": "NONSTOP Piano Bisengo: San Farafina & Pierre Kwenders, Dez",
+   "venue_id": "bar-datcha",
+   "night": "2026-12-19",
+   "start": "2026-12-19T23:00:00.000",
+   "end": "2026-12-20T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "pierre-kwenders",
+     "name": "Pierre Kwenders",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "san-farafina",
+     "name": "San Farafina",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "afro tech",
+    "club"
+   ],
+   "families": [
+    "Afro & latin",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591884",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591884"
+    }
+   ],
+   "interest": {
+    "score": 38,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Pierre Kwenders (36)",
+     "lieu : Bar Datcha (palier 2)"
     ]
    }
   },
@@ -9805,6 +10028,11 @@
      "artist_id": "tali-rose",
      "name": "Tali Rose",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "durocher",
+     "name": "DUROCHER",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -11580,7 +11808,7 @@
    "currency": "CAD",
    "ticket_url": "https://www.ticketmaster.ca/event/31006523ABBD7874?lang=fr-ca&brand=mtelus",
    "event_url": "https://ra.co/events/2571972",
-   "image": "https://images.ctfassets.net/3yxl57nu0yl4/3LBvvPfv90q5l4EpVdfx1D/f0520ce0ec9b8d4fef9965d77cdd41db/alan_walker_2027.jpg",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/69TaqHTVrgvr6O21u7IMH4/3fa7557ade69c9320cf04d1ebea40a8c/alan_walker_2027.jpg",
    "status": "confirmed",
    "sources": [
     {
@@ -11593,7 +11821,7 @@
     },
     {
      "id": "mtelus",
-     "url": "https://evenko.ca/fr/evenements/mtelus/alan-walker?code=e009190"
+     "url": "https://evenko.ca/fr/evenements/mtelus/alan-walker?code=e009520"
     },
     {
      "id": "ticketmaster",
@@ -12932,6 +13160,45 @@
    }
   },
   {
+   "id": "2877c8c5e1f7",
+   "title": "Trinix",
+   "venue_id": "mtelus",
+   "night": "2027-05-14",
+   "start": "2027-05-14T20:00:00-04:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "trinix",
+     "name": "Trinix",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://evenko.ca/fr/evenements/mtelus/trinix?code=e009504",
+   "image": "https://images.ctfassets.net/3yxl57nu0yl4/1cZsHtP34CthIRzNknETln/d336d216708146009385dc2086dedbe6/Trinix.png",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "mtelus",
+     "url": "https://evenko.ca/fr/evenements/mtelus/trinix?code=e009504"
+    }
+   ],
+   "interest": {
+    "score": 66,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Trinix (84)",
+     "lieu : MTELUS (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "c267869bfa0c",
    "title": "Trinix",
    "venue_id": "mtelus",
@@ -12982,6 +13249,13 @@
    "night": "2026-12-11",
    "venue": "Stereo Bar",
    "photo": "https://i.scdn.co/image/ab6761610000f178d87d3a4192a4c7715f558c25"
+  },
+  {
+   "id": "2877c8c5e1f7",
+   "name": "Trinix",
+   "night": "2027-05-14",
+   "venue": "MTELUS",
+   "photo": "https://i.scdn.co/image/ab6761610000f178497a81cdc9c49a1c118539b3"
   },
   {
    "id": "c267869bfa0c",
@@ -13038,13 +13312,6 @@
    "night": "2026-12-31",
    "venue": "Stereo",
    "photo": "https://i.scdn.co/image/ab6761610000f1784ef0189e07eec59460b46c17"
-  },
-  {
-   "id": "b957e7777232",
-   "name": "Midnight Mass",
-   "night": "2026-12-12",
-   "venue": "Le Red Room",
-   "photo": "https://i.scdn.co/image/ab6761610000f17807d236ee61152b4fad8b1e6a"
   }
  ],
  "families": [
@@ -13123,15 +13390,15 @@
    "day": "VEN 27 NOV",
    "title": "Bonobo",
    "venue": "MTELUS",
-   "time": "20:00",
+   "time": "20:00 → 23:00",
    "tier": 2,
-   "reason": "",
+   "reason": "Live",
    "supports": "Anish Kumar",
    "subtitle": "",
    "footer": "",
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5ebc66e2d7422967d6f6f5ab905",
-   "event_id": "7a317ba02a0e"
+   "event_id": "ac36e221250e"
   },
   {
    "kind": "event",
