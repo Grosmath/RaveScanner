@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-22T16:56:47Z",
+ "generated_at": "2026-11-23T01:30:17Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-11-22",
-  "end": "2027-05-21"
+  "start": "2026-11-23",
+  "end": "2027-05-22"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 337
+   "events": 327
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 33
+   "events": 34
   }
  ],
  "venue_order": [
@@ -37,8 +37,8 @@
   "panic-room",
   "cabaret-sauvage",
   "la-cite-fertile",
-  "la-bellevilloise",
   "le-trabendo",
+  "la-bellevilloise",
   "elysee-montmartre",
   "silencio",
   "la-machine-du-moulin-rouge",
@@ -56,7 +56,6 @@
   "tba",
   "point-ephemere",
   "pamela-club",
-  "le-211",
   "la-maison-de-la-conversation",
   "le-pop-up-du-label",
   "solum",
@@ -71,6 +70,7 @@
   "alimentation-generale",
   "peniche-adelaide",
   "le-chinois",
+  "le-211",
   "tba-villa-riberolle-75020-paris-france",
   "le-mazette",
   "tba-secret-place",
@@ -86,15 +86,16 @@
   "le-9b",
   "l-olympia",
   "42-marches",
-  "glazart",
   "cartilage",
   "tba-75013",
   "27-boulevard-jules-ferry",
   "mains-doeuvres",
+  "le-klub",
   "studio56",
   "a-la-folie-paris",
+  "glazart",
   "miniwax",
-  "le-klub",
+  "workshow",
   "dock-b",
   "amaluna-paris",
   "babour-sauvage",
@@ -105,16 +106,15 @@
   "instants-chavires",
   "la-buvette-de-l-academie-du-climat",
   "le-cirque-electrique",
-  "le-consulat-voltaire",
   "le-discobar",
   "le-son-de-la-terre",
+  "littleroom",
   "philharmonie-de-paris",
   "punk-paradise",
   "tba-kolo",
   "tba-le-tlm-paris-105-rue-curial-75019-paris-france",
   "tba-paris",
   "tiki-playa",
-  "workshow",
   "communale-saint-ouen",
   "la-mecanique-ondulatoire",
   "poush",
@@ -672,16 +672,6 @@
    "genres": []
   },
   {
-   "id": "le-consulat-voltaire",
-   "name": "Le Consulat Voltaire",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "le-discobar",
    "name": "Le Discobar",
    "type": "club",
@@ -787,6 +777,16 @@
   {
    "id": "les-relais-solidaires",
    "name": "Les Relais Solidaires",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "littleroom",
+   "name": "Littleroom",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1705,16 +1705,6 @@
    "known": false
   },
   {
-   "id": "ariel-wizman",
-   "name": "Ariel Wizman",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "arsenal-mikebe",
    "name": "Arsenal Mikebe",
    "tier": 0,
@@ -1872,16 +1862,6 @@
    "popularity": 11,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e4b137243d42bfaa090cf542",
-   "known": false
-  },
-  {
-   "id": "bagga",
-   "name": "BAGGA",
-   "tier": 0,
-   "score": 43,
-   "popularity": 43,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178bd49df8d6774095fc24bb5ee",
    "known": false
   },
   {
@@ -2549,16 +2529,6 @@
   {
    "id": "cruel-santino-nyokobop-festival",
    "name": "Cruel Santino - NYOKOBOP Festival",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
-   "id": "d-aime",
-   "name": "D. Aime",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3337,16 +3307,6 @@
    "known": false
   },
   {
-   "id": "evan-baggs",
-   "name": "Evan Baggs",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851722ec55d7cc15adc15938c4e",
-   "known": false
-  },
-  {
    "id": "exodus-call",
    "name": "EXODUS CALL",
    "tier": 0,
@@ -3408,7 +3368,7 @@
   },
   {
    "id": "father",
-   "name": "Father",
+   "name": "FATHER",
    "tier": 0,
    "score": 50,
    "popularity": 50,
@@ -3560,8 +3520,8 @@
    "id": "franck-roger",
    "name": "Franck Roger",
    "tier": 0,
-   "score": 39,
-   "popularity": 39,
+   "score": 38,
+   "popularity": 38,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17814d4023bb2c1a88f44df458b",
    "known": false
@@ -4313,6 +4273,16 @@
    "known": false
   },
   {
+   "id": "john-dixon",
+   "name": "JOHN DIXON",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/a122ff0b86bfbcd40d37d3876dfe1a06/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "jolly",
    "name": "Jolly (FR)",
    "tier": 0,
@@ -5003,16 +4973,6 @@
    "known": false
   },
   {
-   "id": "lizaliza",
-   "name": "lizaliza",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1788ebd1c9121cf4ac6213abc11",
-   "known": false
-  },
-  {
    "id": "locky",
    "name": "Locky",
    "tier": 0,
@@ -5545,16 +5505,6 @@
    "known": false
   },
   {
-   "id": "masst",
-   "name": "masst_",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "max-dewavrin",
    "name": "Max Dewavrin",
    "tier": 0,
@@ -5915,6 +5865,16 @@
    "known": false
   },
   {
+   "id": "morning-deviance-big-official-after-party",
+   "name": "MORNING DEVIANCE - BIG Official After Party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "moulin",
    "name": "Moulin",
    "tier": 0,
@@ -5942,16 +5902,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "munsinger",
-   "name": "Munsinger",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1782652b08bbdfcbbbe3b6ac260",
    "known": false
   },
   {
@@ -6408,6 +6358,16 @@
    "known": false
   },
   {
+   "id": "pagos-paris-to-lagos",
+   "name": "PAGOS (PARIS TO LAGOS)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "palms-trax",
    "name": "Palms Trax",
    "tier": 0,
@@ -6481,10 +6441,10 @@
    "id": "paris",
    "name": "PARIS (AU)",
    "tier": 0,
-   "score": 27,
-   "popularity": 27,
+   "score": 16,
+   "popularity": 16,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178ef7e98e26b3fa64a0950dfb6",
+   "image": "https://i.scdn.co/image/ab6761610000f1788f8b043e9be0ee9a58c10188",
    "known": false
   },
   {
@@ -6769,7 +6729,7 @@
   },
   {
    "id": "radio-sofa",
-   "name": "RADIO SOFA (DJ)",
+   "name": "RADIO SOFA",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -6998,16 +6958,6 @@
    "known": false
   },
   {
-   "id": "ryan-elliott",
-   "name": "Ryan Elliott",
-   "tier": 0,
-   "score": 26,
-   "popularity": 26,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17835496241829bf7be46da147b",
-   "known": false
-  },
-  {
    "id": "s8jfou",
    "name": "s8jfou",
    "tier": 0,
@@ -7141,8 +7091,8 @@
    "id": "schwefelgelb",
    "name": "Schwefelgelb",
    "tier": 0,
-   "score": 40,
-   "popularity": 40,
+   "score": 41,
+   "popularity": 41,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178af42a9f6eaeae00c487f459e",
    "known": false
@@ -7298,13 +7248,13 @@
    "known": false
   },
   {
-   "id": "son-theo-wizman",
-   "name": "Son - Théo Wizman",
+   "id": "son",
+   "name": "SON",
    "tier": 0,
-   "score": 8,
-   "popularity": null,
+   "score": 13,
+   "popularity": 13,
    "genres": [],
-   "image": "",
+   "image": "https://cdn-images.dzcdn.net/images/artist/5daa965c2eb6793070646ea6bae803f6/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -7518,16 +7468,6 @@
    "known": false
   },
   {
-   "id": "t-r-o-y-movement",
-   "name": "T.R.O.Y Movement",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "taieb-chekir",
    "name": "Taieb Chékir",
    "tier": 0,
@@ -7638,6 +7578,16 @@
    "known": false
   },
   {
+   "id": "the-waiting-room",
+   "name": "THE WAITING ROOM",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048512627dfc026731bd0503fd689",
+   "known": false
+  },
+  {
    "id": "thelma",
    "name": "THELMA",
    "tier": 0,
@@ -7735,16 +7685,6 @@
    "popularity": 68,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17805394d499228492f9ffdcea7",
-   "known": false
-  },
-  {
-   "id": "toscan-haas",
-   "name": "Toscan Haas",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -7965,16 +7905,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/99e87ea22241db947f8dc38cdb1a2ede/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "valerie-crepesse",
-   "name": "Valérie Crépesse",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -8249,293 +8179,6 @@
   }
  ],
  "events": [
-  {
-   "id": "1385d8232675",
-   "title": "Optimal Request X Fog",
-   "venue_id": "le-211",
-   "night": "2026-11-22",
-   "start": "2026-11-22T12:00:00.000",
-   "end": "2026-11-22T23:59:00.000",
-   "lineup": [
-    {
-     "artist_id": "h2o",
-     "name": "H2O",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "bagga",
-     "name": "BAGGA",
-     "billing": "support"
-    },
-    {
-     "artist_id": "masst",
-     "name": "masst_",
-     "billing": "support"
-    },
-    {
-     "artist_id": "valerie-crepesse",
-     "name": "Valérie Crépesse",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "dub techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2572428",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2572428"
-    }
-   ],
-   "interest": {
-    "score": 37,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : H2O (43)",
-     "lieu : Le 211 (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "be24c4bd6c23",
-   "title": "extended - Evan Baggs & Ryan Elliott",
-   "venue_id": "essaim",
-   "night": "2026-11-22",
-   "start": "2026-11-22T16:00:00.000",
-   "end": "2026-11-23T00:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ryan-elliott",
-     "name": "Ryan Elliott",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "evan-baggs",
-     "name": "Evan Baggs",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2516572",
-   "event_url": "https://ra.co/events/2516572",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2516572"
-    }
-   ],
-   "interest": {
-    "score": 25,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Ryan Elliott (26)",
-     "lieu : essaim (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "43dea4359c25",
-   "title": "AFTER O'CLOCK: Toscan Haas B2B Equus Belli, lizaliza",
-   "venue_id": "glazart",
-   "night": "2026-11-22",
-   "start": "2026-11-22T06:00:00.000",
-   "end": "2026-11-22T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "toscan-haas",
-     "name": "Toscan Haas",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "equus-belli",
-     "name": "Equus Belli",
-     "billing": "support"
-    },
-    {
-     "artist_id": "lizaliza",
-     "name": "lizaliza",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "house"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2584067",
-   "event_url": "https://ra.co/events/2584067",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2584067"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Toscan Haas (8)",
-     "lieu : Glazart (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "6b4cc9390163",
-   "title": "T.R.O.Y Movement",
-   "venue_id": "djoon",
-   "night": "2026-11-22",
-   "start": "2026-11-22T17:00:00.000",
-   "end": "2026-11-22T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "t-r-o-y-movement",
-     "name": "T.R.O.Y Movement",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "hip-hop"
-   ],
-   "families": [
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2578912",
-   "event_url": "https://ra.co/events/2578912",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2578912"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : T.R.O.Y Movement (8)",
-     "lieu : Djoon (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "cadfe1d21d42",
-   "title": "RADIO SOFA présente MÉRIDIENNE CONCERT: Hochiwah, Lys Finke, Pierre Bastien",
-   "venue_id": "le-consulat-voltaire",
-   "night": "2026-11-22",
-   "start": "2026-11-22T17:00:00.000",
-   "end": "2026-11-22T22:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "radio-sofa",
-     "name": "RADIO SOFA (DJ)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "ambient",
-    "classical"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2572769",
-   "event_url": "https://ra.co/events/2572769",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2572769"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : RADIO SOFA (DJ) (8)",
-     "lieu : Le Consulat Voltaire (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "d0131425f75e",
-   "title": "MILE DIETRICH INV. Munsinger",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-11-22",
-   "start": "2026-11-22T23:59:00.000",
-   "end": "2026-11-23T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "mila-dietrich",
-     "name": "Mila Dietrich",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "munsinger",
-     "name": "Munsinger",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "trance",
-    "techno"
-   ],
-   "families": [
-    "Techno",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2577348",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2577348"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Mila Dietrich (0)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
   {
    "id": "c65b7dc4e937",
    "title": "Acid Oslo",
@@ -8835,6 +8478,45 @@
     "reasons": [
      "tête d'affiche : UNA (18)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b2693647be44",
+   "title": "PAGOS (PARIS TO LAGOS)",
+   "venue_id": "littleroom",
+   "night": "2026-11-25",
+   "start": "2026-11-25T23:45:00+01:00",
+   "end": "2026-11-26T05:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "pagos-paris-to-lagos",
+     "name": "PAGOS (PARIS TO LAGOS)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 0.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/qnxvgx-pagos-paris-to-lagos-25th-nov-littleroom-paris-tickets",
+   "event_url": "https://dice.fm/event/qnxvgx-pagos-paris-to-lagos-25th-nov-littleroom-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-22/e48edd4a-39f8-4d2e-a464-f1580adef5c0.jpg?rect=0%2C135%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/qnxvgx-pagos-paris-to-lagos-25th-nov-littleroom-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : PAGOS (PARIS TO LAGOS) (8)",
+     "lieu : Littleroom (palier 1)"
     ]
    }
   },
@@ -10771,6 +10453,49 @@
    }
   },
   {
+   "id": "c4b61d54314d",
+   "title": "MORNING DEVIANCE - BIG Official After Party",
+   "venue_id": "workshow",
+   "night": "2026-11-27",
+   "start": "2026-11-28T05:00:00.000",
+   "end": "2026-11-28T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "morning-deviance-big-official-after-party",
+     "name": "MORNING DEVIANCE - BIG Official After Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2590578",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2590578"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : MORNING DEVIANCE - BIG Official After Party (8)",
+     "lieu : Workshow (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "ed3c213f236c",
    "title": "NO PARKING ON THE DANCEFLOOR",
    "venue_id": "pamela-club",
@@ -11368,13 +11093,13 @@
      "billing": "support"
     },
     {
-     "artist_id": "paris",
-     "name": "PARIS (AU)",
+     "artist_id": "gwen",
+     "name": "Gwen",
      "billing": "support"
     },
     {
-     "artist_id": "gwen",
-     "name": "Gwen",
+     "artist_id": "paris",
+     "name": "PARIS (AU)",
      "billing": "support"
     }
    ],
@@ -11410,8 +11135,8 @@
    }
   },
   {
-   "id": "68044fb0c76d",
-   "title": "Father / Son - Théo Wizman B2b Ariel Wizman, D. Aime",
+   "id": "2f983b4ab2c5",
+   "title": "FATHER/SON",
    "venue_id": "pamela-club",
    "night": "2026-11-28",
    "start": "2026-11-28T23:59:00.000",
@@ -11419,30 +11144,18 @@
    "lineup": [
     {
      "artist_id": "father",
-     "name": "Father",
+     "name": "FATHER",
      "billing": "headliner"
     },
     {
-     "artist_id": "son-theo-wizman",
-     "name": "Son - Théo Wizman",
-     "billing": "support",
-     "b2b_with": "ariel-wizman"
-    },
-    {
-     "artist_id": "d-aime",
-     "name": "D. Aime",
+     "artist_id": "son",
+     "name": "SON",
      "billing": "support"
-    },
-    {
-     "artist_id": "ariel-wizman",
-     "name": "Ariel Wizman",
-     "billing": "support",
-     "b2b_with": "son-theo-wizman"
     }
    ],
    "genres": [
-    "disco",
-    "house"
+    "house",
+    "disco"
    ],
    "families": [
     "House",
@@ -11451,20 +11164,20 @@
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
-   "event_url": "https://ra.co/events/2588023",
+   "event_url": "https://ra.co/events/2590595",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2588023"
+     "url": "https://ra.co/events/2590595"
     }
    ],
    "interest": {
     "score": 42,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Father (50)",
+     "tête d'affiche : FATHER (50)",
      "lieu : Pamela Club (palier 1)"
     ]
    }
@@ -12337,10 +12050,6 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2555844"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2555844"
     }
    ],
    "interest": {
@@ -12575,10 +12284,6 @@
    "image": "",
    "status": "confirmed",
    "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2570596"
-    },
     {
      "id": "ra",
      "url": "https://ra.co/events/2570596"
@@ -14642,7 +14347,7 @@
     },
     {
      "artist_id": "radio-sofa",
-     "name": "RADIO SOFA (DJ)",
+     "name": "RADIO SOFA",
      "billing": "support"
     },
     {
@@ -17167,10 +16872,6 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2590146"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2590146"
     }
    ],
    "interest": {
@@ -17448,6 +17149,49 @@
     "reasons": [
      "tête d'affiche : abs8lute (8)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "05d8583f63c1",
+   "title": "THE WAITING ROOM",
+   "venue_id": "panic-room",
+   "night": "2026-12-11",
+   "start": "2026-12-11T19:00:00.000",
+   "end": "2026-12-12T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "the-waiting-room",
+     "name": "THE WAITING ROOM",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "funk / soul"
+   ],
+   "families": [
+    "Techno",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2581835",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2581835"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : THE WAITING ROOM (0)",
+     "lieu : Panic Room (palier 1)"
     ]
    }
   },
@@ -19685,6 +19429,49 @@
    }
   },
   {
+   "id": "a368cef051a8",
+   "title": "DARKXROOM",
+   "venue_id": "le-klub",
+   "night": "2026-12-18",
+   "start": "2026-12-18T23:59:00.000",
+   "end": "2026-12-19T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "john-dixon",
+     "name": "JOHN DIXON",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "psytrance"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2591051",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591051"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : JOHN DIXON (0)",
+     "lieu : Le Klub (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "ee9d437e8cb7",
    "title": "Etienne De Crécy Super Discount 30th Anniversary After Party",
    "venue_id": "rex-club",
@@ -20021,10 +19808,10 @@
     }
    ],
    "interest": {
-    "score": 41,
+    "score": 42,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Schwefelgelb (40)",
+     "tête d'affiche : Schwefelgelb (41)",
      "lieu : Le Trabendo (palier 2)"
     ]
    }
@@ -21558,8 +21345,8 @@
    }
   },
   {
-   "id": "2e6a626a5c0e",
-   "title": "I.L Recordings - Aleqs Notal All Night Long",
+   "id": "49b78e76d8b9",
+   "title": "I.L RECORDINGS",
    "venue_id": "pamela-club",
    "night": "2027-01-02",
    "start": "2027-01-02T23:59:00.000",
@@ -21580,14 +21367,10 @@
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
-   "event_url": "https://ra.co/events/2588020",
+   "event_url": "https://ra.co/events/2590606",
    "image": "",
    "status": "confirmed",
    "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2588020"
-    },
     {
      "id": "ra",
      "url": "https://ra.co/events/2590606"

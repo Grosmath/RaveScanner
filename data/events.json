@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-22T16:56:32Z",
+ "generated_at": "2026-11-23T01:29:49Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-22",
-  "end": "2027-05-21"
+  "start": "2026-11-23",
+  "end": "2027-05-22"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 160
+   "events": 159
   },
   {
    "id": "piknic",
@@ -72,13 +72,13 @@
   "blue-room",
   "cafe-social-b-hive",
   "club-soda",
-  "sans-soleil",
+  "le-ritz",
   "100lux",
   "barbossa",
   "ctrllab-art-house-and-gallery",
   "le-ministere",
-  "le-ritz",
   "red-roof-church",
+  "sans-soleil",
   "tba-15-ontario-street-east"
  ],
  "venues": [
@@ -1337,6 +1337,16 @@
    "known": false
   },
   {
+   "id": "deep-n-acid",
+   "name": "Deep n Acid",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "devault",
    "name": "Devault",
    "tier": 0,
@@ -1414,6 +1424,16 @@
    "popularity": 23,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785c48763db54b6686fd0f1a3f",
+   "known": false
+  },
+  {
+   "id": "dj-inyourface",
+   "name": "DJ InYourFace",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048519002dcc90489eacd79eb7dbc",
    "known": false
   },
   {
@@ -1650,8 +1670,8 @@
    "id": "fcukers",
    "name": "FCUKERS",
    "tier": 0,
-   "score": 74,
-   "popularity": 74,
+   "score": 73,
+   "popularity": 73,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178257b47af6ca3a62995dfef9a",
    "known": false
@@ -2212,8 +2232,8 @@
    "id": "jamesjamesjames",
    "name": "jamesjamesjames",
    "tier": 0,
-   "score": 65,
-   "popularity": 65,
+   "score": 64,
+   "popularity": 64,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178b21445312e40c52305785be2",
    "known": false
@@ -2256,16 +2276,6 @@
    "popularity": 54,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e3bf7188cfe5e608360a948c",
-   "known": false
-  },
-  {
-   "id": "jesse-futerman",
-   "name": "Jesse Futerman",
-   "tier": 0,
-   "score": 40,
-   "popularity": 40,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178029a52ff9dbef0095950d11f",
    "known": false
   },
   {
@@ -2418,8 +2428,8 @@
    "id": "klangkarussell",
    "name": "Klangkarussell",
    "tier": 0,
-   "score": 80,
-   "popularity": 80,
+   "score": 79,
+   "popularity": 79,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c074db95ca0a0cd7c0e197f3",
    "known": false
@@ -2718,10 +2728,10 @@
    "id": "manny-m",
    "name": "Manny M",
    "tier": 0,
-   "score": 0,
-   "popularity": 0,
+   "score": 8,
+   "popularity": null,
    "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/0d7bb16cb0a270c5ebbeac8c7018815e/250x250-000000-80-0-0.jpg",
+   "image": "",
    "known": false
   },
   {
@@ -4024,8 +4034,8 @@
    "id": "varg2tm",
    "name": "Varg²™",
    "tier": 0,
-   "score": 53,
-   "popularity": 53,
+   "score": 54,
+   "popularity": 54,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178689bef91e78f3046e701134c",
    "known": false
@@ -4184,10 +4194,10 @@
    "id": "zeina",
    "name": "Zeina",
    "tier": 0,
-   "score": 62,
-   "popularity": 62,
+   "score": 61,
+   "popularity": 61,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178aff3ad3754793c6d9ea9b56a",
+   "image": "https://i.scdn.co/image/ab6761610000f178a58d1a152ad0ee87b6001ff7",
    "known": false
   },
   {
@@ -4202,100 +4212,6 @@
   }
  ],
  "events": [
-  {
-   "id": "3262a227e26a",
-   "title": "Jesse Futerman + KG",
-   "venue_id": "systeme",
-   "night": "2026-11-22",
-   "start": "2026-11-22T18:00:00.000",
-   "end": "2026-11-23T01:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "jesse-futerman",
-     "name": "Jesse Futerman",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "kris-guilty",
-     "name": "Kris Guilty",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "dancehall",
-    "dub"
-   ],
-   "families": [
-    "House",
-    "Afro & latin",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2574886",
-   "event_url": "https://ra.co/events/2574886",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2574886"
-    }
-   ],
-   "interest": {
-    "score": 35,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Jesse Futerman (40)",
-     "lieu : Système (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "e41bf20e98ed",
-   "title": "Sans Soleil w/ Icky Magdala",
-   "venue_id": "sans-soleil",
-   "night": "2026-11-22",
-   "start": "2026-11-22T20:00:00.000",
-   "end": "2026-11-23T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "icky-magdala",
-     "name": "Icky Magdala",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "acid",
-    "techno",
-    "bass"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2583346",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583346"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Icky Magdala (0)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
   {
    "id": "5358c8c18188",
    "title": "twentythree + TooManyStrikers",
@@ -4571,10 +4487,10 @@
     }
    ],
    "interest": {
-    "score": 12,
+    "score": 18,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Manny M (0)",
+     "tête d'affiche : Manny M (8)",
      "lieu : Salon Daome (palier 2)"
     ]
    }
@@ -4909,10 +4825,10 @@
     }
    ],
    "interest": {
-    "score": 57,
+    "score": 56,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : Zeina (62)",
+     "tête d'affiche : Zeina (61)",
      "lieu : Salon Daome (palier 2)"
     ]
    }
@@ -8641,6 +8557,53 @@
    }
   },
   {
+   "id": "8e39ec88f141",
+   "title": "ACID DREAMS [100% vinyl + live set]",
+   "venue_id": "le-ritz",
+   "night": "2026-12-12",
+   "start": "2026-12-12T22:00:00.000",
+   "end": "2026-12-13T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "deep-n-acid",
+     "name": "Deep n Acid",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "dj-inyourface",
+     "name": "DJ InYourFace",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "acid"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2590985",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2590985"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Deep n Acid (8)",
+     "lieu : Le Ritz PDB (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "f36a6290e620",
    "title": "BlueRoom welcomes :",
    "venue_id": "blue-room",
@@ -11067,10 +11030,10 @@
     }
    ],
    "interest": {
-    "score": 64,
+    "score": 63,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : Klangkarussell (80)",
+     "tête d'affiche : Klangkarussell (79)",
      "lieu : S.A.T (palier 1)"
     ]
    }
@@ -11123,7 +11086,7 @@
     "score": 59,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : FCUKERS (74)",
+     "tête d'affiche : FCUKERS (73)",
      "lieu : Igloofest (palier 1)"
     ]
    }
