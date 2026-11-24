@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-24T05:14:31Z",
+ "generated_at": "2026-11-24T20:00:38Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 346
+   "events": 374
   },
   {
    "id": "dice",
@@ -50,11 +50,12 @@
   "petit-bain",
   "la-station-gare-des-mines",
   "poull",
+  "miniwax",
   "cite-de-la-musique",
   "le-bataclan",
   "point-ephemere",
-  "zenith-paris-la-villette",
   "tba",
+  "zenith-paris-la-villette",
   "pamela-club",
   "la-maison-de-la-conversation",
   "la-cigale",
@@ -64,6 +65,7 @@
   "nouveau-casino",
   "la-rotonde-stalingrad",
   "le-trianon",
+  "tba-75013",
   "la-gaite-lyrique",
   "tba-saint-denis",
   "le-hasard-ludique",
@@ -88,13 +90,13 @@
   "l-olympia",
   "42-marches",
   "cartilage",
-  "tba-75013",
   "27-boulevard-jules-ferry",
   "mains-doeuvres",
   "le-klub",
   "a-la-folie-paris",
   "glazart",
-  "miniwax",
+  "le-discobar",
+  "workshow",
   "dock-b",
   "tba-aubervilliers",
   "amaluna-paris",
@@ -106,17 +108,16 @@
   "instants-chavires",
   "la-buvette-de-l-academie-du-climat",
   "le-cirque-electrique",
-  "le-discobar",
   "le-gambetta-club",
   "le-son-de-la-terre",
+  "le-zeralda",
   "littleroom",
+  "magasins-generaux",
   "philharmonie-de-paris",
   "punk-paradise",
   "tba-kolo",
   "tba-le-tlm-paris-105-rue-curial-75019-paris-france",
-  "tba-paris",
   "tiki-playa",
-  "workshow",
   "communale-saint-ouen",
   "la-mecanique-ondulatoire",
   "poush",
@@ -788,6 +789,16 @@
    "genres": []
   },
   {
+   "id": "le-zeralda",
+   "name": "Le Zeralda",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "les-relais-solidaires",
    "name": "Les Relais Solidaires",
    "type": "club",
@@ -800,6 +811,16 @@
   {
    "id": "littleroom",
    "name": "Littleroom",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "magasins-generaux",
+   "name": "Magasins Généraux",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1093,16 +1114,6 @@
   {
    "id": "tba-le-tlm-paris-105-rue-curial-75019-paris-france",
    "name": "TBA - Le TLM Paris, 105 Rue Curial, 75019 Paris, France",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "tba-paris",
-   "name": "TBA - Paris",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1606,6 +1617,16 @@
    "known": false
   },
   {
+   "id": "altinbas",
+   "name": "Altinbas",
+   "tier": 0,
+   "score": 37,
+   "popularity": 37,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178478a8d1217b15e2c5a157fdf",
+   "known": false
+  },
+  {
    "id": "alycia-bezgo",
    "name": "Alycia Bezgo",
    "tier": 0,
@@ -1746,6 +1767,16 @@
    ],
    "image": "https://i.scdn.co/image/ab6761610000f178a5fe44561b6ce2a566c1f272",
    "known": true
+  },
+  {
+   "id": "apollo-brown",
+   "name": "Apollo Brown",
+   "tier": 0,
+   "score": 60,
+   "popularity": 60,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17808b6f2d956f8c6d2f494179b",
+   "known": false
   },
   {
    "id": "archie-hamilton",
@@ -1908,6 +1939,16 @@
    "known": false
   },
   {
+   "id": "baccus",
+   "name": "Baccus",
+   "tier": 0,
+   "score": 50,
+   "popularity": 50,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178663c974c44387c500f8e0c78",
+   "known": false
+  },
+  {
    "id": "bady",
    "name": "Bady (FR)",
    "tier": 0,
@@ -1946,6 +1987,19 @@
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784077f1304451dff67894e612",
    "known": false
+  },
+  {
+   "id": "bambii",
+   "name": "Bambii",
+   "tier": 2,
+   "score": 49,
+   "popularity": 55,
+   "genres": [
+    "club",
+    "dancehall"
+   ],
+   "image": "https://i.scdn.co/image/ab6761610000f1781bd63a9190981624ea7e016f",
+   "known": true
   },
   {
    "id": "barbara-boeing",
@@ -3350,6 +3404,16 @@
    "known": false
   },
   {
+   "id": "emma-neil",
+   "name": "Emma Neil",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "emma-ollivary",
    "name": "Emma Ollivary",
    "tier": 0,
@@ -3457,6 +3521,16 @@
    "popularity": 76,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178976162a7d8f6d64d20b9874f",
+   "known": false
+  },
+  {
+   "id": "evnr",
+   "name": "EVNR",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/057491c903e168d5c711a9ef58264452/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4326,6 +4400,16 @@
    "known": false
   },
   {
+   "id": "ixpe",
+   "name": "Ixpé",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "j-zbel",
    "name": "J-Zbel",
    "tier": 0,
@@ -4433,6 +4517,16 @@
    "popularity": 87,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17864e029d1466b4e8d38eec59c",
+   "known": false
+  },
+  {
+   "id": "jeanne-1",
+   "name": "Jeanne (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4583,6 +4677,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851d4862c89d0e040b2b4bd20a7",
+   "known": false
+  },
+  {
+   "id": "junki-inoue",
+   "name": "Junki Inoue",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -4966,6 +5070,36 @@
    "known": false
   },
   {
+   "id": "la-riposte-hewan-aman-invites-secret-guests",
+   "name": "LA RIPOSTE: HEWAN AMAN INVITES SECRET GUESTS",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "la-riposte-nems-b-all-night",
+   "name": "LA RIPOSTE: NEMS-B ALL NIGHT",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "la-riposte-nems-b-inv-adam",
+   "name": "LA RIPOSTE: NEMS-B INV. ADAM",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "labench",
    "name": "LABENCH",
    "tier": 0,
@@ -5026,6 +5160,16 @@
    "known": false
   },
   {
+   "id": "lancement-listen-magazine",
+   "name": "Lancement Listen Magazine",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "laps",
    "name": "Laps",
    "tier": 0,
@@ -5053,6 +5197,16 @@
    "popularity": 59,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1782a91b569b31c09e8588fe96e",
+   "known": false
+  },
+  {
+   "id": "laurent-garnier",
+   "name": "Laurent Garnier",
+   "tier": 0,
+   "score": 50,
+   "popularity": 50,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787a4809df7e00b6420a18a4c0",
    "known": false
   },
   {
@@ -5217,7 +5371,7 @@
   },
   {
    "id": "lilipop",
-   "name": "lilipop",
+   "name": "LILIPOP",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5496,6 +5650,16 @@
    "known": false
   },
   {
+   "id": "maemm",
+   "name": "Maemm",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "mafille",
    "name": "Mafille",
    "tier": 0,
@@ -5755,6 +5919,16 @@
    "popularity": 20,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178af72045c259c8bc3bbc9ff32",
+   "known": false
+  },
+  {
+   "id": "marius-b",
+   "name": "Marius Bø",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -6148,6 +6322,16 @@
    "known": false
   },
   {
+   "id": "molto",
+   "name": "Molto",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/56c083e950b5c2e993051162d8262098/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "moostik",
    "name": "Moostik",
    "tier": 0,
@@ -6198,6 +6382,16 @@
    "known": false
   },
   {
+   "id": "morning-deviance-big-official-after-party",
+   "name": "MORNING DEVIANCE - BIG Official After Party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "moulin",
    "name": "Moulin",
    "tier": 0,
@@ -6235,6 +6429,16 @@
    "popularity": null,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ee730cff4325e1fe962fd226",
+   "known": false
+  },
+  {
+   "id": "mza",
+   "name": "MZA",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -6448,6 +6652,16 @@
    "popularity": 43,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1780db18124c6fcb5d89cadb6ac",
+   "known": false
+  },
+  {
+   "id": "noxatra",
+   "name": "NOXATRA",
+   "tier": 0,
+   "score": 14,
+   "popularity": 14,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c4d7fb29f9a76543917f0fa4",
    "known": false
   },
   {
@@ -6688,16 +6902,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17839c0aa98013714270305cc2e",
-   "known": false
-  },
-  {
-   "id": "outrebleu-warehouse",
-   "name": "OUTREBLEU [day] warehouse",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -7058,6 +7262,16 @@
    "popularity": 33,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178a88feb6ecc77186ee1e9c2e9",
+   "known": false
+  },
+  {
+   "id": "pygments-femmedm",
+   "name": "PYGMENTS: FEMMEDM",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -7591,6 +7805,16 @@
    "known": false
   },
   {
+   "id": "sklaer",
+   "name": "Sklaer",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "skream",
    "name": "Skream",
    "tier": 0,
@@ -7598,6 +7822,16 @@
    "popularity": 61,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d499deb0171d1c9ffa67845f",
+   "known": false
+  },
+  {
+   "id": "skyzoo",
+   "name": "Skyzoo",
+   "tier": 0,
+   "score": 47,
+   "popularity": 47,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f7e2bac2458cb18ba8ac1276",
    "known": false
   },
   {
@@ -7638,6 +7872,16 @@
    "popularity": 56,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17899aae11ef56bbfc9bf7acfbc",
+   "known": false
+  },
+  {
+   "id": "somewhere-soul",
+   "name": "Somewhere Soul",
+   "tier": 0,
+   "score": 37,
+   "popularity": 37,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17891b90ef2d14120ec964cb23a",
    "known": false
   },
   {
@@ -7728,6 +7972,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "spekki-webu",
+   "name": "Spekki Webu",
+   "tier": 0,
+   "score": 12,
+   "popularity": 12,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485144e24ed4302ef8610ac32d4e",
    "known": false
   },
   {
@@ -8091,6 +8345,16 @@
    "known": false
   },
   {
+   "id": "toscan-haas",
+   "name": "Toscan Haas",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "total-freedom",
    "name": "Total Freedom",
    "tier": 0,
@@ -8222,12 +8486,22 @@
   },
   {
    "id": "umberto",
-   "name": "Umberto (IT)",
+   "name": "UMBERTO (IT)",
    "tier": 0,
    "score": 8,
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "un-dimanche",
+   "name": "Un Dimanche",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851b674abb14e53671ef2061dc3",
    "known": false
   },
   {
@@ -8358,6 +8632,16 @@
    "popularity": 46,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1788b7c6cea3a9298450ecfbc69",
+   "known": false
+  },
+  {
+   "id": "vienkham",
+   "name": "VIENKHAM",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -10580,6 +10864,11 @@
      "artist_id": "jolly",
      "name": "Jolly (FR)",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "emma-neil",
+     "name": "Emma Neil",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -10833,6 +11122,10 @@
    "image": "",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2591198"
+    },
     {
      "id": "ra",
      "url": "https://ra.co/events/2591198"
@@ -11095,6 +11388,49 @@
     "reasons": [
      "tête d'affiche : Live A (8)",
      "lieu : La Buvette de L'académie du Climat (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "c4b61d54314d",
+   "title": "MORNING DEVIANCE - BIG Official After Party",
+   "venue_id": "workshow",
+   "night": "2026-11-27",
+   "start": "2026-11-28T05:00:00.000",
+   "end": "2026-11-28T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "morning-deviance-big-official-after-party",
+     "name": "MORNING DEVIANCE - BIG Official After Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2590578",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2590578"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : MORNING DEVIANCE - BIG Official After Party (8)",
+     "lieu : Workshow (palier 1)"
     ]
    }
   },
@@ -12487,7 +12823,7 @@
    "lineup": [
     {
      "artist_id": "umberto",
-     "name": "Umberto (IT)",
+     "name": "UMBERTO (IT)",
      "billing": "headliner"
     },
     {
@@ -12535,7 +12871,7 @@
     "score": 13,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Umberto (IT) (8)",
+     "tête d'affiche : UMBERTO (IT) (8)",
      "lieu : 42 Marches (palier 1)"
     ]
    }
@@ -12653,10 +12989,6 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2555844"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2555844"
     }
    ],
    "interest": {
@@ -12706,6 +13038,47 @@
     "reasons": [
      "tête d'affiche : Forensics ⎜ Original Sins (8)",
      "lieu : La Rotonde Stalingrad (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "5d6e83d03029",
+   "title": "Lancement Listen Magazine",
+   "venue_id": "miniwax",
+   "night": "2026-11-28",
+   "start": "2026-11-28T16:00:00.000",
+   "end": "2026-11-28T20:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lancement-listen-magazine",
+     "name": "Lancement Listen Magazine",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "hip-hop"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592682",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592682"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lancement Listen Magazine (8)",
+     "lieu : Miniwax (palier 1)"
     ]
    }
   },
@@ -12894,10 +13267,6 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2570596"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2570596"
     }
    ],
    "interest": {
@@ -12938,10 +13307,6 @@
    "image": "",
    "status": "confirmed",
    "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2571637"
-    },
     {
      "id": "ra",
      "url": "https://ra.co/events/2571637"
@@ -13197,6 +13562,52 @@
    }
   },
   {
+   "id": "0de86764488f",
+   "title": "Un Dimanche avec Somewhere Soul",
+   "venue_id": "miniwax",
+   "night": "2026-11-29",
+   "start": "2026-11-29T15:00:00.000",
+   "end": "2026-11-29T19:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "somewhere-soul",
+     "name": "Somewhere Soul",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "un-dimanche",
+     "name": "Un Dimanche",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "funk / soul"
+   ],
+   "families": [
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592695",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592695"
+    }
+   ],
+   "interest": {
+    "score": 33,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Somewhere Soul (37)",
+     "lieu : Miniwax (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "b771cf84eb38",
    "title": "AFTER O'CLOCK: Unconformist, Marina George, FRED DJAALEB dim. 29 nov., 06:00 16:00",
    "venue_id": "glazart",
@@ -13239,6 +13650,59 @@
     "reasons": [
      "tête d'affiche : Marina George (0)",
      "lieu : Glazart (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "56b52306526b",
+   "title": "Discoquette Afterhours at Zeralda",
+   "venue_id": "le-zeralda",
+   "night": "2026-11-29",
+   "start": "2026-11-29T06:00:00.000",
+   "end": "2026-11-30T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ixpe",
+     "name": "Ixpé",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "a-440",
+     "name": "A-440",
+     "billing": "support"
+    },
+    {
+     "artist_id": "evnr",
+     "name": "EVNR",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592404",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592404"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ixpé (8)",
+     "lieu : Le Zeralda (palier 1)"
     ]
    }
   },
@@ -13444,6 +13908,47 @@
     "tier": 0,
     "reasons": [
      "tête d'affiche : Acid Oslo (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "cd356db84834",
+   "title": "JAM DU BPM CONTEST",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-01",
+   "start": "2026-12-01T23:59:00.000",
+   "end": "2026-12-02T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jam-du-bpm-contest",
+     "name": "Jam du BPM Contest",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592871",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592871"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jam du BPM Contest (8)",
      "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
@@ -13668,6 +14173,49 @@
     "reasons": [
      "tête d'affiche : GROOVE SOLUTION (8)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "7236a1b4cbd3",
+   "title": "PYGMENTS: SPICY SOFI & In-Tan",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-02",
+   "start": "2026-12-02T23:59:00.000",
+   "end": "2026-12-03T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "in-tan",
+     "name": "In-Tan",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592876",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592876"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : In-Tan (0)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -13913,6 +14461,47 @@
     "reasons": [
      "tête d'affiche : Kokoprisci (8)",
      "lieu : Le Poisson Volant (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "66658db8b25d",
+   "title": "59 BEL RECORDS: TOWNES & Ian Maur",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-03",
+   "start": "2026-12-03T23:59:00.000",
+   "end": "2026-12-04T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ian-maur",
+     "name": "Ian Maur",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592878",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592878"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ian Maur (0)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -15264,6 +15853,49 @@
    }
   },
   {
+   "id": "5ed39f92bc4c",
+   "title": "LA RIPOSTE: HEWAN AMAN INVITES SECRET GUESTS",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-04",
+   "start": "2026-12-04T23:59:00.000",
+   "end": "2026-12-05T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-riposte-hewan-aman-invites-secret-guests",
+     "name": "LA RIPOSTE: HEWAN AMAN INVITES SECRET GUESTS",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "psytrance"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592881",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592881"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA RIPOSTE: HEWAN AMAN INVITES SECRET GUESTS (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "b439abcffc9b",
    "title": "SWEET MUSIC AGENCY X EXODUS CALL",
    "venue_id": "panic-room",
@@ -16385,6 +17017,49 @@
    }
   },
   {
+   "id": "a9028887c48d",
+   "title": "LA RIPOSTE: HEWAN AMAN INVITES SECRET GUESTS",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-05",
+   "start": "2026-12-05T23:59:00.000",
+   "end": "2026-12-06T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-riposte-hewan-aman-invites-secret-guests",
+     "name": "LA RIPOSTE: HEWAN AMAN INVITES SECRET GUESTS",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "psytrance"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592883",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592883"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA RIPOSTE: HEWAN AMAN INVITES SECRET GUESTS (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "7e25b72d7417",
    "title": "LA TRIBUNAL",
    "venue_id": "pamela-club",
@@ -16580,6 +17255,57 @@
    }
   },
   {
+   "id": "0ffbde2dc756",
+   "title": "Un dimanche avec Apollo Brown x Skyzoo",
+   "venue_id": "miniwax",
+   "night": "2026-12-06",
+   "start": "2026-12-06T16:00:00.000",
+   "end": "2026-12-06T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "apollo-brown",
+     "name": "Apollo Brown",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "skyzoo",
+     "name": "Skyzoo",
+     "billing": "support"
+    },
+    {
+     "artist_id": "un-dimanche",
+     "name": "Un Dimanche",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "hip-hop"
+   ],
+   "families": [
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592741",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592741"
+    }
+   ],
+   "interest": {
+    "score": 49,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Apollo Brown (60)",
+     "lieu : Miniwax (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "e1e3305e3041",
    "title": "Jeff Mills",
    "venue_id": "cite-de-la-musique",
@@ -16679,6 +17405,49 @@
    }
   },
   {
+   "id": "f8c007a89666",
+   "title": "MILE DIETRICH INV. LUXX",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-06",
+   "start": "2026-12-06T23:59:00.000",
+   "end": "2026-12-07T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mila-dietrich",
+     "name": "Mila Dietrich",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592885",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592885"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Mila Dietrich (0)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "a3a1206778ad",
    "title": "Secret Woods Vol.2",
    "venue_id": "le-211",
@@ -16723,6 +17492,88 @@
     "reasons": [
      "tête d'affiche : Charleeps (0)",
      "lieu : Le 211 (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "bf5355312ff2",
+   "title": "Acid Oslo",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-07",
+   "start": "2026-12-07T23:59:00.000",
+   "end": "2026-12-08T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "acid-oslo",
+     "name": "Acid Oslo",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592888",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592888"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Acid Oslo (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "60cb5065b8e0",
+   "title": "JAM DU BPM CONTEST",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-08",
+   "start": "2026-12-08T23:59:00.000",
+   "end": "2026-12-09T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jam-du-bpm-contest",
+     "name": "Jam du BPM Contest",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592891",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592891"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jam du BPM Contest (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -16817,6 +17668,49 @@
     "reasons": [
      "tête d'affiche : Kloss (0)",
      "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "c5ed837806ce",
+   "title": "PYGMENTS: FEMMEDM",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-09",
+   "start": "2026-12-09T23:59:00.000",
+   "end": "2026-12-10T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "pygments-femmedm",
+     "name": "PYGMENTS: FEMMEDM",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592894",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592894"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : PYGMENTS: FEMMEDM (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -17056,6 +17950,47 @@
     "reasons": [
      "tête d'affiche : 3.0 RECORDS: UNDERGROUND FOREVER (8)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "053b2d2122a0",
+   "title": "59 BEL RECORDS: AIN'T MARCO & Ian Maur",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-10",
+   "start": "2026-12-10T23:59:00.000",
+   "end": "2026-12-11T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ian-maur",
+     "name": "Ian Maur",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592900",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592900"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ian Maur (0)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -17943,9 +18878,51 @@
    }
   },
   {
-   "id": "65c2de697861",
+   "id": "6da7c74bacab",
+   "title": "LA RIPOSTE: NEMS-B ALL NIGHT",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-11",
+   "start": "2026-12-11T23:59:00.000",
+   "end": "2026-12-12T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-riposte-nems-b-all-night",
+     "name": "LA RIPOSTE: NEMS-B ALL NIGHT",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "dub techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592901",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592901"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA RIPOSTE: NEMS-B ALL NIGHT (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "d874619eb8d6",
    "title": "Spectrum Waves: Anniversary",
-   "venue_id": "tba-paris",
+   "venue_id": "magasins-generaux",
    "night": "2026-12-11",
    "start": "2026-12-11T23:00:00.000",
    "end": "2026-12-12T06:00:00.000",
@@ -17979,7 +18956,7 @@
     "tier": 0,
     "reasons": [
      "tête d'affiche : Spectrum Waves: Anniversary (8)",
-     "lieu : TBA - Paris (palier 1)"
+     "lieu : Magasins Généraux (palier 1)"
     ]
    }
   },
@@ -18073,8 +19050,8 @@
    }
   },
   {
-   "id": "b9af59eab58b",
-   "title": "The Waiting Room: BROM, LPZ350, Osloff, Peace Peace",
+   "id": "603a782320fc",
+   "title": "The Waiting Room: from Groovy House to Deep Techno",
    "venue_id": "panic-room",
    "night": "2026-12-11",
    "start": "2026-12-11T22:00:00.000",
@@ -19102,6 +20079,48 @@
    }
   },
   {
+   "id": "b1c7c79af67c",
+   "title": "LA RIPOSTE: NEMS-B INV. ADAM",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-12",
+   "start": "2026-12-12T23:59:00.000",
+   "end": "2026-12-13T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "la-riposte-nems-b-inv-adam",
+     "name": "LA RIPOSTE: NEMS-B INV. ADAM",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "dub techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592904",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592904"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LA RIPOSTE: NEMS-B INV. ADAM (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "8672f2ed2b6c",
    "title": "Viriphobia",
    "venue_id": "point-ephemere",
@@ -19462,12 +20481,55 @@
    }
   },
   {
+   "id": "5e1a20678b78",
+   "title": "MILE DIETRICH ALL NIGHT",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-13",
+   "start": "2026-12-13T23:59:00.000",
+   "end": "2026-12-14T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mila-dietrich",
+     "name": "Mila Dietrich",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "trance",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592905",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592905"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Mila Dietrich (0)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "d1c0b132bcfa",
    "title": "sub/rosæ",
    "venue_id": "swell-dance",
    "night": "2026-12-13",
-   "start": "2026-12-13T14:00:00.000",
-   "end": "2026-12-13T16:00:00.000",
+   "start": "2026-12-13T19:00:00.000",
+   "end": "2026-12-13T21:30:00.000",
    "lineup": [
     {
      "artist_id": "jacky-jeane",
@@ -19500,6 +20562,88 @@
     "reasons": [
      "tête d'affiche : Jacky Jeane (0)",
      "lieu : Swell Dance (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "5f2f7243d2c6",
+   "title": "Acid Oslo",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-14",
+   "start": "2026-12-14T23:59:00.000",
+   "end": "2026-12-15T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "acid-oslo",
+     "name": "Acid Oslo",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592908",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592908"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Acid Oslo (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "dd4ac15e549b",
+   "title": "JAM DU BPM CONTEST",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-15",
+   "start": "2026-12-15T23:59:00.000",
+   "end": "2026-12-16T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jam-du-bpm-contest",
+     "name": "Jam du BPM Contest",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592912",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592912"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jam du BPM Contest (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -19626,6 +20770,49 @@
     "reasons": [
      "tête d'affiche : Medusa (11)",
      "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "1e3d844497f5",
+   "title": "PYGMENTS: EQUUS BELI & In-Tan",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-16",
+   "start": "2026-12-16T23:59:00.000",
+   "end": "2026-12-17T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "in-tan",
+     "name": "In-Tan",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592915",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592915"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : In-Tan (0)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -19762,6 +20949,47 @@
     "reasons": [
      "tête d'affiche : Felicity J Lord (20)",
      "lieu : Bal Chavaux (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "d7018a2cab8f",
+   "title": "59 BEL RECORDS: ROBIN & Ian Maur",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-17",
+   "start": "2026-12-17T23:59:00.000",
+   "end": "2026-12-18T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ian-maur",
+     "name": "Ian Maur",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592919",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592919"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ian Maur (0)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -20299,6 +21527,52 @@
     "reasons": [
      "tête d'affiche : YOUR LOCAL HOUSE CLUB (8)",
      "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "fa9182a28b4d",
+   "title": "LA RIPOSTE: Z SERIES W/ MZA & NOXATRA",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-18",
+   "start": "2026-12-18T23:59:00.000",
+   "end": "2026-12-19T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "noxatra",
+     "name": "NOXATRA",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mza",
+     "name": "MZA",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592922",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592922"
+    }
+   ],
+   "interest": {
+    "score": 16,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : NOXATRA (14)",
+     "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
   },
@@ -21232,6 +22506,57 @@
    }
   },
   {
+   "id": "8ee999371cb6",
+   "title": "LA RIPOSTE: Z SERIES W/ MZA, VIENKHAM & LILIPOP",
+   "venue_id": "la-gare-le-gore",
+   "night": "2026-12-19",
+   "start": "2026-12-19T23:59:00.000",
+   "end": "2026-12-20T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mza",
+     "name": "MZA",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "vienkham",
+     "name": "VIENKHAM",
+     "billing": "support"
+    },
+    {
+     "artist_id": "lilipop",
+     "name": "LILIPOP",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2592925",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592925"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : MZA (8)",
+     "lieu : La Gare / Le Gore (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "4794ae916f35",
    "title": "Slow Motion: La Ruche Christmas Takeover",
    "venue_id": "tba-le-tlm-paris-105-rue-curial-75019-paris-france",
@@ -21276,6 +22601,49 @@
     "reasons": [
      "tête d'affiche : Amine S (8)",
      "lieu : TBA - Le TLM Paris, 105 Rue Curial, 75019 Paris, France (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "8c78c4cd9f97",
+   "title": "Rex Club presents: Laurent Garnier All Night Long",
+   "venue_id": "rex-club",
+   "night": "2026-12-20",
+   "start": "2026-12-20T23:59:00.000",
+   "end": "2026-12-21T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "laurent-garnier",
+     "name": "Laurent Garnier",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2592365",
+   "event_url": "https://ra.co/events/2592365",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592365"
+    }
+   ],
+   "interest": {
+    "score": 54,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Laurent Garnier (50)",
+     "lieu : Rex Club (palier 3)"
     ]
    }
   },
@@ -21583,6 +22951,59 @@
    }
   },
   {
+   "id": "55cac1796f34",
+   "title": "Extended Sessions: Junki Inoue, Forest, Molto",
+   "venue_id": "tba-75013",
+   "night": "2026-12-26",
+   "start": "2026-12-26T14:00:00.000",
+   "end": "2026-12-27T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "forest",
+     "name": "Forest",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "junki-inoue",
+     "name": "Junki Inoue",
+     "billing": "support"
+    },
+    {
+     "artist_id": "molto",
+     "name": "Molto",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "minimal"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2592398",
+   "event_url": "https://ra.co/events/2592398",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592398"
+    }
+   ],
+   "interest": {
+    "score": 38,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Forest (45)",
+     "lieu : TBA - 75013 (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "ad4528257926",
    "title": "polar vortex - Kangding Ray & Neel - all night long",
    "venue_id": "essaim",
@@ -21833,6 +23254,47 @@
    }
   },
   {
+   "id": "ef668c923d51",
+   "title": "NYE 2026 Modern Disco Club special French Touch by Baccus",
+   "venue_id": "sacre",
+   "night": "2026-12-31",
+   "start": "2026-12-31T22:00:00.000",
+   "end": "2027-01-01T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "baccus",
+     "name": "Baccus",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2592634",
+   "event_url": "https://ra.co/events/2592634",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592634"
+    }
+   ],
+   "interest": {
+    "score": 48,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Baccus (50)",
+     "lieu : Sacré (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "c66ccb8e7c47",
    "title": "ONE MORE: Paul Cut ALL NIGHT LONG",
    "venue_id": "rex-club",
@@ -22047,7 +23509,7 @@
     },
     {
      "artist_id": "lilipop",
-     "name": "lilipop",
+     "name": "LILIPOP",
      "billing": "support"
     },
     {
@@ -22738,6 +24200,57 @@
    }
   },
   {
+   "id": "a9d93f8ccef1",
+   "title": "tribalism - Altinbas Live, Maemm, Toscan Haas",
+   "venue_id": "essaim",
+   "night": "2027-01-15",
+   "start": "2027-01-15T23:00:00.000",
+   "end": "2027-01-16T06:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "altinbas",
+     "name": "Altinbas",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "maemm",
+     "name": "Maemm",
+     "billing": "support"
+    },
+    {
+     "artist_id": "toscan-haas",
+     "name": "Toscan Haas",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2585985",
+   "event_url": "https://ra.co/events/2585985",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2585985"
+    }
+   ],
+   "interest": {
+    "score": 33,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Altinbas (37)",
+     "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "f685cef4c75d",
    "title": "HORS-SOL",
    "venue_id": "le-trabendo",
@@ -22788,6 +24301,48 @@
     "reasons": [
      "tête d'affiche : Lb Honne (21)",
      "lieu : Le Trabendo (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "fe570ff6de26",
+   "title": "DiscoDiscoDisco",
+   "venue_id": "le-discobar",
+   "night": "2027-01-15",
+   "start": "2027-01-15T21:30:00.000",
+   "end": "2027-01-16T01:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "jeanne-1",
+     "name": "Jeanne (1)",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "disco",
+    "balearic"
+   ],
+   "families": [
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593061",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593061"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Jeanne (1) (8)",
+     "lieu : Le Discobar (palier 1)"
     ]
    }
   },
@@ -23459,13 +25014,39 @@
    "end": "2027-02-07T03:00:00.000",
    "lineup": [
     {
-     "artist_id": "outrebleu-warehouse",
-     "name": "OUTREBLEU [day] warehouse",
+     "artist_id": "bambii",
+     "name": "Bambii",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "claudio-prc",
+     "name": "Claudio PRC",
+     "billing": "support"
+    },
+    {
+     "artist_id": "spekki-webu",
+     "name": "Spekki Webu",
+     "billing": "support"
+    },
+    {
+     "artist_id": "marius-b",
+     "name": "Marius Bø",
+     "billing": "support"
+    },
+    {
+     "artist_id": "sklaer",
+     "name": "Sklaer",
+     "billing": "support"
     }
    ],
-   "genres": [],
-   "families": [],
+   "genres": [
+    "club",
+    "dancehall"
+   ],
+   "families": [
+    "Afro & latin",
+    "Pop & club"
+   ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
@@ -23479,10 +25060,10 @@
     }
    ],
    "interest": {
-    "score": 12,
-    "tier": 0,
+    "score": 41,
+    "tier": 1,
     "reasons": [
-     "tête d'affiche : OUTREBLEU [day] warehouse (8)",
+     "tête d'affiche : Bambii (49)",
      "lieu : TBA (palier 1)"
     ]
    }
@@ -24895,6 +26476,13 @@
    "night": "2026-12-18",
    "venue": "Rex Club",
    "photo": "https://i.scdn.co/image/ab6761610000f1781039076df8c0631daa8a2dde"
+  },
+  {
+   "id": "8c78c4cd9f97",
+   "name": "Laurent Garnier",
+   "night": "2026-12-20",
+   "venue": "Rex Club",
+   "photo": "https://i.scdn.co/image/ab6761610000f1787a4809df7e00b6420a18a4c0"
   }
  ],
  "families": [
