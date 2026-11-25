@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-24T20:00:38Z",
+ "generated_at": "2026-11-25T04:03:44Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-11-24",
-  "end": "2027-05-23"
+  "start": "2026-11-25",
+  "end": "2027-05-24"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 374
+   "events": 373
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 35
+   "events": 37
   }
  ],
  "venue_order": [
@@ -77,13 +77,13 @@
   "le-mazette",
   "tba-secret-place",
   "eglise-saint-eustache",
-  "studio56",
   "bal-chavaux",
   "la-gare-le-gore",
   "le-poisson-volant",
   "espace-francis-delage-salle-concorde",
   "la-boule-noire",
   "la-marbrerie",
+  "studio56",
   "bourse-de-commerce-pinault-collection",
   "les-relais-solidaires",
   "le-9b",
@@ -93,10 +93,12 @@
   "27-boulevard-jules-ferry",
   "mains-doeuvres",
   "le-klub",
+  "instants-chavires",
   "a-la-folie-paris",
   "glazart",
   "le-discobar",
   "workshow",
+  "communale-saint-ouen",
   "dock-b",
   "tba-aubervilliers",
   "amaluna-paris",
@@ -105,7 +107,7 @@
   "chateau-ephemere",
   "folia",
   "frequence-paris",
-  "instants-chavires",
+  "l-arc-paris",
   "la-buvette-de-l-academie-du-climat",
   "le-cirque-electrique",
   "le-gambetta-club",
@@ -115,10 +117,11 @@
   "magasins-generaux",
   "philharmonie-de-paris",
   "punk-paradise",
+  "skybar-paris-rooftop",
+  "tba-6-rue-halevy-75009-paris-france",
   "tba-kolo",
   "tba-le-tlm-paris-105-rue-curial-75019-paris-france",
   "tiki-playa",
-  "communale-saint-ouen",
   "la-mecanique-ondulatoire",
   "poush",
   "swell-dance",
@@ -429,6 +432,16 @@
   {
    "id": "instants-chavires",
    "name": "Instants Chavirés",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "l-arc-paris",
+   "name": "L'arc Paris",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1039,6 +1052,16 @@
    "genres": []
   },
   {
+   "id": "skybar-paris-rooftop",
+   "name": "Skybar Paris Rooftop",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "solum",
    "name": "Solum",
    "type": "club",
@@ -1074,6 +1097,16 @@
   {
    "id": "tba",
    "name": "TBA",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "tba-6-rue-halevy-75009-paris-france",
+   "name": "TBA - 6 Rue Halévy, 75009 Paris, France",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1203,16 +1236,6 @@
   }
  ],
  "artists": [
-  {
-   "id": "0b5kr",
-   "name": "0b5kr",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
   {
    "id": "0livine-collective-2",
    "name": "0livine collective #2",
@@ -2244,6 +2267,16 @@
    "known": false
   },
   {
+   "id": "bus-party-no-memory",
+   "name": "Bus Party No Memory",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "byron-yeates",
    "name": "Byron Yeates",
    "tier": 0,
@@ -3074,16 +3107,6 @@
    "known": false
   },
   {
-   "id": "dj-epi",
-   "name": "Dj Epi",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178dec2202628989e16a8bf4029",
-   "known": false
-  },
-  {
    "id": "dj-kakashi",
    "name": "Dj Kakashi",
    "tier": 0,
@@ -3301,6 +3324,16 @@
    "popularity": 28,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783b014be3d530a9d45814d13b",
+   "known": false
+  },
+  {
+   "id": "electroller",
+   "name": "Electroller",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3974,6 +4007,16 @@
    "known": false
   },
   {
+   "id": "gotham-rooftop-party-at-skybar",
+   "name": "Gotham Rooftop Party at Skybar",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "gotis",
    "name": "GOTIS",
    "tier": 0,
@@ -4119,6 +4162,16 @@
   {
    "id": "hannita",
    "name": "Hannita",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "heart-at-l-arc",
+   "name": "Heart At L'arc",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -4471,7 +4524,7 @@
   },
   {
    "id": "jam-du-bpm-contest",
-   "name": "Jam du BPM Contest",
+   "name": "JAM DU BPM CONTEST",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -5713,8 +5766,8 @@
    "id": "maison-blanche",
    "name": "Maison Blanche",
    "tier": 0,
-   "score": 26,
-   "popularity": 26,
+   "score": 23,
+   "popularity": 23,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783b73e02b0842b11349307db7",
    "known": false
@@ -6419,6 +6472,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "mysmatic",
+   "name": "Mysmatic",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048513667c48dcb6ccb2b0f66421b",
    "known": false
   },
   {
@@ -7705,6 +7768,16 @@
    "known": false
   },
   {
+   "id": "sean-being",
+   "name": "Sean Being",
+   "tier": 0,
+   "score": 12,
+   "popularity": 12,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1787127b855456ad44cc2bf91eb",
+   "known": false
+  },
+  {
    "id": "sebastien-forrester",
    "name": "Sébastien Forrester",
    "tier": 0,
@@ -7752,6 +7825,16 @@
    "popularity": 29,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/0411c830f31075af41d6e03ad8b305c2/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "serenity-flux",
+   "name": "Serenity Flux",
+   "tier": 0,
+   "score": 1,
+   "popularity": 1,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1785d3c444b2e09c2f564ac2923",
    "known": false
   },
   {
@@ -8082,16 +8165,6 @@
    "popularity": 7,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17861cd320d4caf23aadcee229b",
-   "known": false
-  },
-  {
-   "id": "svayn",
-   "name": "Svayn",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -8887,94 +8960,6 @@
  ],
  "events": [
   {
-   "id": "d96bba0dd255",
-   "title": "Signal W/ Dj Epi , Svayn , 0b5kr",
-   "venue_id": "studio56",
-   "night": "2026-11-24",
-   "start": "2026-11-24T23:59:00.000",
-   "end": "2026-11-25T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "svayn",
-     "name": "Svayn",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "0b5kr",
-     "name": "0b5kr",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dj-epi",
-     "name": "Dj Epi",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2591191",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2591191"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Svayn (8)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "597a866c02f9",
-   "title": "Jam du BPM Contest",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-11-24",
-   "start": "2026-11-24T23:59:00.000",
-   "end": "2026-11-25T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "jam-du-bpm-contest",
-     "name": "Jam du BPM Contest",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2577364",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2577364"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Jam du BPM Contest (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "1c500d8a62ca",
    "title": "B-BOY ISH : BOB SINCLAR",
    "venue_id": "gate-club-paris",
@@ -9684,6 +9669,43 @@
    }
   },
   {
+   "id": "74a087d0bfba",
+   "title": "#Deardogs Metta World Peace Seán Being",
+   "venue_id": "instants-chavires",
+   "night": "2026-11-26",
+   "start": "2026-11-26T20:30:00.000",
+   "end": "2026-11-26T23:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sean-being",
+     "name": "Sean Being",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593105",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593105"
+    }
+   ],
+   "interest": {
+    "score": 15,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Sean Being (12)",
+     "lieu : Instants Chavirés (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "bb5ab564f693",
    "title": "Bamao Yendé & TSIP",
    "venue_id": "le-poisson-volant",
@@ -9815,6 +9837,49 @@
     "reasons": [
      "tête d'affiche : FREE TO DANCE (8)",
      "lieu : Pamela Club (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "3a9832fef85a",
+   "title": "Heart At L'arc",
+   "venue_id": "l-arc-paris",
+   "night": "2026-11-26",
+   "start": "2026-11-26T23:30:00.000",
+   "end": "2026-11-27T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "heart-at-l-arc",
+     "name": "Heart At L'arc",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593117",
+   "event_url": "https://ra.co/events/2593117",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593117"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Heart At L'arc (8)",
+     "lieu : L'arc Paris (palier 1)"
     ]
    }
   },
@@ -11137,6 +11202,49 @@
     "reasons": [
      "tête d'affiche : 3615_Basse_Bass (8)",
      "lieu : Le Gambetta Club (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "f21a08fdfc63",
+   "title": "Bus Party No Memory",
+   "venue_id": "tba-6-rue-halevy-75009-paris-france",
+   "night": "2026-11-27",
+   "start": "2026-11-27T23:59:00.000",
+   "end": "2026-11-28T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bus-party-no-memory",
+     "name": "Bus Party No Memory",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "club"
+   ],
+   "families": [
+    "House",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593129",
+   "event_url": "https://ra.co/events/2593129",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593129"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Bus Party No Memory (8)",
+     "lieu : TBA - 6 Rue Halévy, 75009 Paris, France (palier 1)"
     ]
    }
   },
@@ -13042,6 +13150,49 @@
    }
   },
   {
+   "id": "e1fa2225eb81",
+   "title": "Gotham Rooftop Party at Skybar",
+   "venue_id": "skybar-paris-rooftop",
+   "night": "2026-11-28",
+   "start": "2026-11-28T18:00:00.000",
+   "end": "2026-11-29T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "gotham-rooftop-party-at-skybar",
+     "name": "Gotham Rooftop Party at Skybar",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "tech house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593101",
+   "event_url": "https://ra.co/events/2593101",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593101"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Gotham Rooftop Party at Skybar (8)",
+     "lieu : Skybar Paris Rooftop (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "5d6e83d03029",
    "title": "Lancement Listen Magazine",
    "venue_id": "miniwax",
@@ -13922,7 +14073,7 @@
    "lineup": [
     {
      "artist_id": "jam-du-bpm-contest",
-     "name": "Jam du BPM Contest",
+     "name": "JAM DU BPM CONTEST",
      "billing": "headliner"
     }
    ],
@@ -13948,7 +14099,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Jam du BPM Contest (8)",
+     "tête d'affiche : JAM DU BPM CONTEST (8)",
      "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
@@ -17546,7 +17697,7 @@
    "lineup": [
     {
      "artist_id": "jam-du-bpm-contest",
-     "name": "Jam du BPM Contest",
+     "name": "JAM DU BPM CONTEST",
      "billing": "headliner"
     }
    ],
@@ -17572,7 +17723,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Jam du BPM Contest (8)",
+     "tête d'affiche : JAM DU BPM CONTEST (8)",
      "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
@@ -20166,6 +20317,50 @@
    }
   },
   {
+   "id": "f23547d966c1",
+   "title": "Arketyp x 211: Full psytrance / Polaris & more",
+   "venue_id": "le-211",
+   "night": "2026-12-12",
+   "start": "2026-12-12T23:00:00+01:00",
+   "end": "2026-12-13T04:00:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "serenity-flux",
+     "name": "Serenity Flux",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mysmatic",
+     "name": "Mysmatic",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 16.51,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/nyld5q-arketyp-x-211-full-psytrance-polaris-more-12th-dec-211-paris-tickets",
+   "event_url": "https://dice.fm/event/nyld5q-arketyp-x-211-full-psytrance-polaris-more-12th-dec-211-paris-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-23/7f43d452-dbca-47a2-9047-2816cd68666f.jpg?rect=0%2C25%2C1080%2C1080",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/nyld5q-arketyp-x-211-full-psytrance-polaris-more-12th-dec-211-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 7,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Serenity Flux (1)",
+     "lieu : Le 211 (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "70f034149a56",
    "title": "Furtive X Undercore",
    "venue_id": "terminus",
@@ -20616,7 +20811,7 @@
    "lineup": [
     {
      "artist_id": "jam-du-bpm-contest",
-     "name": "Jam du BPM Contest",
+     "name": "JAM DU BPM CONTEST",
      "billing": "headliner"
     }
    ],
@@ -20642,7 +20837,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Jam du BPM Contest (8)",
+     "tête d'affiche : JAM DU BPM CONTEST (8)",
      "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
@@ -24473,6 +24668,45 @@
    }
   },
   {
+   "id": "f4bc889f70c4",
+   "title": "Roller Party w/ Electroller",
+   "venue_id": "communale-saint-ouen",
+   "night": "2027-01-17",
+   "start": "2027-01-17T13:30:00+01:00",
+   "end": "2027-01-17T17:30:00+01:00",
+   "lineup": [
+    {
+     "artist_id": "electroller",
+     "name": "Electroller",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": 12.0,
+   "currency": "EUR",
+   "ticket_url": "https://dice.fm/event/x9voyk-roller-party-w-electroller-17th-jan-communale-saint-ouen-saint-ouen-sur-seine-tickets",
+   "event_url": "https://dice.fm/event/x9voyk-roller-party-w-electroller-17th-jan-communale-saint-ouen-saint-ouen-sur-seine-tickets",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-24/afa3d6ec-5e10-4eee-9b66-e494aae69b7d.jpg?rect=64%2C0%2C1662%2C1662",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/x9voyk-roller-party-w-electroller-17th-jan-communale-saint-ouen-saint-ouen-sur-seine-tickets"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Electroller (8)",
+     "lieu : Communale Saint-Ouen (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "1319cc673edb",
    "title": "Malkö invite Monodominical et Thomas Average",
    "venue_id": "le-9b",
@@ -26450,13 +26684,6 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178976162a7d8f6d64d20b9874f"
   },
   {
-   "id": "d4e38a3b37da",
-   "name": "Etienne De Crecy",
-   "night": "2027-05-16",
-   "venue": "Plage De Torcy",
-   "photo": "https://i.scdn.co/image/ab6761610000f178976162a7d8f6d64d20b9874f"
-  },
-  {
    "id": "f45bdc5e167c",
    "name": "Midland",
    "night": "2027-01-30",
@@ -26469,13 +26696,6 @@
    "night": "2027-04-17",
    "venue": "Le Bataclan",
    "photo": "https://i.scdn.co/image/ab6761610000f1786363b3a1630b8811a4d3d718"
-  },
-  {
-   "id": "d2f6765cd5d8",
-   "name": "The Hacker",
-   "night": "2026-12-18",
-   "venue": "Rex Club",
-   "photo": "https://i.scdn.co/image/ab6761610000f1781039076df8c0631daa8a2dde"
   },
   {
    "id": "8c78c4cd9f97",

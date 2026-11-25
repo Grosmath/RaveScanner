@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-24T19:59:48Z",
+ "generated_at": "2026-11-25T04:03:00Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-24",
-  "end": "2027-05-23"
+  "start": "2026-11-25",
+  "end": "2027-05-24"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 165
+   "events": 177
   },
   {
    "id": "piknic",
@@ -53,7 +53,6 @@
   "s-a-t",
   "systeme",
   "studio-td",
-  "blue-room",
   "union-francaise-de-montreal",
   "entrepots-dominion",
   "batiment-7",
@@ -65,21 +64,23 @@
   "la-recre",
   "nwhr",
   "white-wall-studio",
+  "blue-room",
   "entre-nous",
   "breakglass-studios",
   "vino-disco",
   "tba-montreal",
   "cabaret-berlin",
   "esc",
+  "sans-soleil",
   "cafe-social-b-hive",
   "club-soda",
   "le-ritz",
   "100lux",
   "barbossa",
   "ctrllab-art-house-and-gallery",
+  "foil-gallery",
   "le-ministere",
   "red-roof-church",
-  "sans-soleil",
   "tba-15-ontario-street-east"
  ],
  "venues": [
@@ -229,6 +230,16 @@
    "name": "ESC",
    "type": "club",
    "tier": 2,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "foil-gallery",
+   "name": "Foil Gallery",
+   "type": "club",
+   "tier": 1,
    "capacity": null,
    "address": "",
    "url": "",
@@ -599,16 +610,6 @@
    "known": false
   },
   {
-   "id": "adj",
-   "name": "ADJ",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/6245de868a0f18aa10561645d07c4d3e/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "adrian-sherwood",
    "name": "Adrian Sherwood",
    "tier": 0,
@@ -776,6 +777,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178d863a826a0c15a90fbfe1a76",
+   "known": false
+  },
+  {
+   "id": "aram",
+   "name": "Aram",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/86023d96391a2eaad5a1046ebb635446/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -1045,8 +1056,8 @@
    "id": "brat-star",
    "name": "Brat Star",
    "tier": 0,
-   "score": 29,
-   "popularity": 29,
+   "score": 43,
+   "popularity": 43,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178abeb54b10aea6d18e1255692",
    "known": false
@@ -1415,16 +1426,6 @@
    "known": false
   },
   {
-   "id": "dennis-cruz",
-   "name": "Dennis Cruz",
-   "tier": 0,
-   "score": 58,
-   "popularity": 58,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178ea9f7b97c530be2467ef6947",
-   "known": false
-  },
-  {
    "id": "devault",
    "name": "Devault",
    "tier": 0,
@@ -1505,6 +1506,26 @@
    "known": false
   },
   {
+   "id": "dj-hermano",
+   "name": "Dj Hermano",
+   "tier": 0,
+   "score": 1,
+   "popularity": 1,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c9b2a7b8b67f0b82468600d1",
+   "known": false
+  },
+  {
+   "id": "dj-hidi",
+   "name": "DJ Hidi",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "dj-inyourface",
    "name": "DJ InYourFace",
    "tier": 0,
@@ -1512,6 +1533,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d000048519002dcc90489eacd79eb7dbc",
+   "known": false
+  },
+  {
+   "id": "dj-michael-terzian",
+   "name": "DJ Michael Terzian",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -1685,6 +1716,16 @@
    "known": false
   },
   {
+   "id": "emiliano-chamandy",
+   "name": "Emiliano Chamandy",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "emn-1",
    "name": "EMN (1)",
    "tier": 0,
@@ -1845,6 +1886,16 @@
    "known": false
   },
   {
+   "id": "fred-everything",
+   "name": "Fred Everything",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17852c78daeaced513f1840aa11",
+   "known": false
+  },
+  {
    "id": "french-79",
    "name": "French 79",
    "tier": 0,
@@ -1858,8 +1909,8 @@
    "id": "frits-wentink",
    "name": "Frits Wentink",
    "tier": 0,
-   "score": 38,
-   "popularity": 38,
+   "score": 37,
+   "popularity": 37,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c65426d726b91d702250746e",
    "known": false
@@ -1975,6 +2026,16 @@
    "known": false
   },
   {
+   "id": "grandhuit",
+   "name": "GrandHuit",
+   "tier": 0,
+   "score": 18,
+   "popularity": 18,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783c1a9a38febf61b5ffe27c23",
+   "known": false
+  },
+  {
    "id": "great-dain",
    "name": "Great Dain",
    "tier": 0,
@@ -2042,6 +2103,16 @@
    "popularity": 64,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f24b13888650d71e050092b9",
+   "known": false
+  },
+  {
+   "id": "hashman-deejay",
+   "name": "Hashman Deejay",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048516913c96c4f2fa2abee5824d6",
    "known": false
   },
   {
@@ -2367,6 +2438,16 @@
    "known": false
   },
   {
+   "id": "jean-pascal-groove",
+   "name": "Jean Pascal Groove",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "jen-cardini",
    "name": "Jen Cardini",
    "tier": 0,
@@ -2653,6 +2734,16 @@
    "known": false
   },
   {
+   "id": "les-soirees-systeme",
+   "name": "Les Soirées Système",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "level-up",
    "name": "Level Up",
    "tier": 0,
@@ -2726,20 +2817,10 @@
    "id": "loukeman",
    "name": "Loukeman",
    "tier": 0,
-   "score": 53,
-   "popularity": 53,
+   "score": 52,
+   "popularity": 52,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178c5e5ca3979afd9a2d021569e",
-   "known": false
-  },
-  {
-   "id": "love",
-   "name": "LOVE",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/5ce762b0de8d7e5213a84e5a9bb31122/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -2873,19 +2954,6 @@
    "known": false
   },
   {
-   "id": "marco-carola",
-   "name": "Marco Carola",
-   "tier": 3,
-   "score": 52,
-   "popularity": 46,
-   "genres": [
-    "tech house",
-    "minimal"
-   ],
-   "image": "https://i.scdn.co/image/ab6761610000f17826e409c252b0f57d3c64b38b",
-   "known": true
-  },
-  {
    "id": "marie-davidson",
    "name": "Marie Davidson",
    "tier": 3,
@@ -2996,6 +3064,16 @@
    "popularity": 57,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17807d236ee61152b4fad8b1e6a",
+   "known": false
+  },
+  {
+   "id": "miette",
+   "name": "Miette",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17825016c5b04cfec1fcff062e3",
    "known": false
   },
   {
@@ -3499,6 +3577,16 @@
    "known": false
   },
   {
+   "id": "powr-hauz-2",
+   "name": "Powr Hauz 2",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "pretty-privilege",
    "name": "Pretty Privilege",
    "tier": 0,
@@ -3639,6 +3727,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "ruby-jane",
+   "name": "Ruby Jane",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178ed3953e1bdf9016e60e96f66",
    "known": false
   },
   {
@@ -4012,6 +4110,16 @@
    "known": false
   },
   {
+   "id": "teykirisi",
+   "name": "Teykirisi",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "the-bald-girl",
    "name": "the bald girl",
    "tier": 0,
@@ -4258,7 +4366,7 @@
    "score": 0,
    "popularity": 0,
    "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/1c6e2d07f735e054c33af05c7242633d/250x250-000000-80-0-0.jpg",
+   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -4416,6 +4524,43 @@
     "reasons": [
      "tête d'affiche : No Police (0)",
      "lieu : Le Red Room (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "0e2ec37b2706",
+   "title": "Seer Record Co.",
+   "venue_id": "sans-soleil",
+   "night": "2026-11-25",
+   "start": "2026-11-25T20:00:00.000",
+   "end": "2026-11-26T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "emiliano-chamandy",
+     "name": "Emiliano Chamandy",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593158",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593158"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Emiliano Chamandy (0)",
+     "lieu : Sans Soleil (palier 1)"
     ]
    }
   },
@@ -4646,6 +4791,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2578772"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593160"
     }
    ],
    "interest": {
@@ -5124,7 +5273,7 @@
     "score": 33,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Frits Wentink (38)",
+     "tête d'affiche : Frits Wentink (37)",
      "lieu : La Récré (palier 1)"
     ]
    }
@@ -5435,6 +5584,47 @@
     "reasons": [
      "tête d'affiche : PAPER SKIES - GREYSCALE (8)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "b1047b31e813",
+   "title": "Ambient Book Club",
+   "venue_id": "foil-gallery",
+   "night": "2026-11-27",
+   "start": "2026-11-27T19:00:00.000",
+   "end": "2026-11-27T21:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "teykirisi",
+     "name": "Teykirisi",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "ambient"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593127",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593127"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Teykirisi (8)",
+     "lieu : Foil Gallery (palier 1)"
     ]
    }
   },
@@ -6936,10 +7126,10 @@
     }
    ],
    "interest": {
-    "score": 50,
+    "score": 49,
     "tier": 1,
     "reasons": [
-     "tête d'affiche : Loukeman (53)",
+     "tête d'affiche : Loukeman (52)",
      "lieu : Newspeak (palier 2)"
     ]
    }
@@ -7807,8 +7997,8 @@
    }
   },
   {
-   "id": "13d7ac549b38",
-   "title": "Festival De La House",
+   "id": "585d42ce8313",
+   "title": "Akpossoul, MINZI ROBERTA, Gone Deville",
    "venue_id": "systeme",
    "night": "2026-12-05",
    "start": "2026-12-05T22:00:00.000",
@@ -7836,14 +8026,10 @@
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
-   "event_url": "https://ra.co/events/2563875",
+   "event_url": "https://ra.co/events/2584827",
    "image": "",
    "status": "confirmed",
    "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2563875"
-    },
     {
      "id": "ra",
      "url": "https://ra.co/events/2584827"
@@ -8027,6 +8213,53 @@
     "reasons": [
      "tête d'affiche : Ian Jackman (8)",
      "lieu : Cabaret Berlin (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "2352763853ee",
+   "title": "Les Soirées Système",
+   "venue_id": "systeme",
+   "night": "2026-12-06",
+   "start": "2026-12-06T18:00:00.000",
+   "end": "2026-12-07T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "grandhuit",
+     "name": "GrandHuit",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ruby-jane",
+     "name": "Ruby Jane",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "disco",
+    "funk / soul"
+   ],
+   "families": [
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593272",
+   "event_url": "https://ra.co/events/2593272",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593272"
+    }
+   ],
+   "interest": {
+    "score": 19,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : GrandHuit (18)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -8240,6 +8473,52 @@
    }
   },
   {
+   "id": "c65472aadde1",
+   "title": "Sans Soleil with Lia Plutonic & JP Groove",
+   "venue_id": "sans-soleil",
+   "night": "2026-12-10",
+   "start": "2026-12-10T20:00:00.000",
+   "end": "2026-12-11T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lia-plutonic",
+     "name": "Lia Plutonic",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "jean-pascal-groove",
+     "name": "Jean Pascal Groove",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593131",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593131"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Lia Plutonic (8)",
+     "lieu : Sans Soleil (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "4c903cb96a56",
    "title": "Tommy Phillips - Cam Stockman - Flytz",
    "venue_id": "stereo-bar",
@@ -8338,66 +8617,6 @@
     "reasons": [
      "tête d'affiche : Honey Dijon (63)",
      "lieu : Stereo (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "73ad336565ca",
-   "title": "Powr Hauz 2",
-   "venue_id": "blue-room",
-   "night": "2026-12-11",
-   "start": "2026-12-11T22:00:00.000",
-   "end": "2026-12-12T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "dennis-cruz",
-     "name": "Dennis Cruz",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "marco-carola",
-     "name": "Marco Carola",
-     "billing": "support"
-    },
-    {
-     "artist_id": "adj",
-     "name": "ADJ",
-     "billing": "support"
-    },
-    {
-     "artist_id": "love",
-     "name": "LOVE",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "bass",
-    "tech house",
-    "minimal"
-   ],
-   "families": [
-    "Techno",
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2592097",
-   "event_url": "https://ra.co/events/2592097",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2592097"
-    }
-   ],
-   "interest": {
-    "score": 48,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Dennis Cruz (58)",
-     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -8530,6 +8749,49 @@
     "reasons": [
      "tête d'affiche : Headless Horseman (9)",
      "lieu : Red Roof Church (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "73ad336565ca",
+   "title": "Powr Hauz 2",
+   "venue_id": "blue-room",
+   "night": "2026-12-11",
+   "start": "2026-12-11T22:00:00.000",
+   "end": "2026-12-12T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "powr-hauz-2",
+     "name": "Powr Hauz 2",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "bass",
+    "tech house"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2592097",
+   "event_url": "https://ra.co/events/2592097",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2592097"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Powr Hauz 2 (8)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -8971,54 +9233,6 @@
    }
   },
   {
-   "id": "f36a6290e620",
-   "title": "BlueRoom welcomes :",
-   "venue_id": "blue-room",
-   "night": "2026-12-12",
-   "start": "2026-12-12T23:00:00.000",
-   "end": "2026-12-13T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ccil",
-     "name": "ccil",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "dawny",
-     "name": "dawny",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "trance"
-   ],
-   "families": [
-    "Techno",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2589670",
-   "event_url": "https://ra.co/events/2589670",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2589670"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : ccil (8)",
-     "lieu : Blue Room (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "5cb4552acf1e",
    "title": "DUBWISE MEETING #10: Yarra Sound INVITES DAN I / IMPERIAL SOUND ARMY (IT)",
    "venue_id": "le-ministere",
@@ -9058,6 +9272,52 @@
     "reasons": [
      "tête d'affiche : Yarra Sound (8)",
      "lieu : Le Ministère (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "709cebb90624",
+   "title": "GuestLists Records presents :",
+   "venue_id": "blue-room",
+   "night": "2026-12-12",
+   "start": "2026-12-12T23:00:00.000",
+   "end": "2026-12-13T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ccil",
+     "name": "ccil",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "dawny",
+     "name": "dawny",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2589670",
+   "event_url": "https://ra.co/events/2589670",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2589670"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ccil (8)",
+     "lieu : Blue Room (palier 1)"
     ]
    }
   },
@@ -9150,6 +9410,56 @@
    }
   },
   {
+   "id": "fc8bf851ebd6",
+   "title": "Les Soirées Système",
+   "venue_id": "systeme",
+   "night": "2026-12-13",
+   "start": "2026-12-13T18:00:00.000",
+   "end": "2026-12-14T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-hidi",
+     "name": "DJ Hidi",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "kris-guilty",
+     "name": "Kris Guilty",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro",
+    "dancehall"
+   ],
+   "families": [
+    "House",
+    "Électro & bass",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593275",
+   "event_url": "https://ra.co/events/2593275",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593275"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Hidi (8)",
+     "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "07c78d7e0ab0",
    "title": "UNKLE",
    "venue_id": "theatre-fairmount",
@@ -9226,6 +9536,48 @@
     "reasons": [
      "tête d'affiche : Lynnic (75)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "fa945614cdf6",
+   "title": "Hashman Deejay + Aram",
+   "venue_id": "systeme",
+   "night": "2026-12-17",
+   "start": "2026-12-17T22:00:00.000",
+   "end": "2026-12-18T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "hashman-deejay",
+     "name": "Hashman Deejay",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "aram",
+     "name": "Aram",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593287",
+   "event_url": "https://ra.co/events/2593287",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593287"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Hashman Deejay (0)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -9500,6 +9852,59 @@
    }
   },
   {
+   "id": "b99715dab7ea",
+   "title": "N10.AS: Congrats! You're here",
+   "venue_id": "systeme",
+   "night": "2026-12-18",
+   "start": "2026-12-18T22:00:00.000",
+   "end": "2026-12-19T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "s-talbot",
+     "name": "s.talbot",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "miette",
+     "name": "Miette",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house",
+    "ambient",
+    "bass",
+    "dub techno"
+   ],
+   "families": [
+    "Techno",
+    "House",
+    "Électro & bass",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593290",
+   "event_url": "https://ra.co/events/2593290",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593290"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : s.talbot (0)",
+     "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "4c8dafe55a2b",
    "title": "DJ PAULY D",
    "venue_id": "new-city-gas",
@@ -9585,6 +9990,56 @@
    }
   },
   {
+   "id": "b7810fbb6a53",
+   "title": "Groovy Castle",
+   "venue_id": "systeme",
+   "night": "2026-12-19",
+   "start": "2026-12-19T22:00:00.000",
+   "end": "2026-12-20T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "fred-everything",
+     "name": "Fred Everything",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "jean-pascal-groove",
+     "name": "Jean Pascal Groove",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "deep house",
+    "house",
+    "funk / soul",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593296",
+   "event_url": "https://ra.co/events/2593296",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593296"
+    }
+   ],
+   "interest": {
+    "score": 36,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Fred Everything (42)",
+     "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "2977a4741811",
    "title": "AGELESS - Benny Revah",
    "venue_id": "stereo-bar",
@@ -9655,6 +10110,43 @@
     "reasons": [
      "tête d'affiche : Abel Aguilera (10)",
      "lieu : Stereo (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "8eeb4edf45d4",
+   "title": "Les Soirées Système",
+   "venue_id": "systeme",
+   "night": "2026-12-20",
+   "start": "2026-12-20T18:00:00.000",
+   "end": "2026-12-21T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "les-soirees-systeme",
+     "name": "Les Soirées Système",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593300",
+   "event_url": "https://ra.co/events/2593300",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593300"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Les Soirées Système (8)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -9799,6 +10291,104 @@
     "reasons": [
      "tête d'affiche : Ostrich (0)",
      "lieu : Stereo Bar (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "861d64940750",
+   "title": "DéCaDANSE",
+   "venue_id": "systeme",
+   "night": "2026-12-26",
+   "start": "2026-12-26T23:00:00.000",
+   "end": "2026-12-27T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-michael-terzian",
+     "name": "DJ Michael Terzian",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "don-barbarino",
+     "name": "Don Barbarino",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "afro house"
+   ],
+   "families": [
+    "House",
+    "Afro & latin"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593306",
+   "event_url": "https://ra.co/events/2593306",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593306"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : DJ Michael Terzian (8)",
+     "lieu : Système (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "8c6c292461ab",
+   "title": "Les Soirées Système",
+   "venue_id": "systeme",
+   "night": "2026-12-27",
+   "start": "2026-12-27T18:00:00.000",
+   "end": "2026-12-28T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "dj-hermano",
+     "name": "Dj Hermano",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "silktits",
+     "name": "Silktits",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro",
+    "hiphop"
+   ],
+   "families": [
+    "House",
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593307",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593307"
+    }
+   ],
+   "interest": {
+    "score": 7,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Dj Hermano (1)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -10226,6 +10816,60 @@
     "reasons": [
      "tête d'affiche : Mira (42)",
      "lieu : Fonderie Darling (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "a059f333c80d",
+   "title": "A Ferias New Year",
+   "venue_id": "systeme",
+   "night": "2026-12-31",
+   "start": "2026-12-31T22:00:00.000",
+   "end": "2027-01-01T08:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ferias",
+     "name": "Ferias",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "alina",
+     "name": "Alina (MTL)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "guthrie",
+     "name": "Guthrie",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "disco",
+    "funk / soul",
+    "electro"
+   ],
+   "families": [
+    "Électro & bass",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593197",
+   "event_url": "https://ra.co/events/2593197",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593197"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ferias (8)",
+     "lieu : Système (palier 1)"
     ]
    }
   },
@@ -13538,13 +14182,6 @@
    "night": "2026-12-12",
    "venue": "Newspeak",
    "photo": "https://i.scdn.co/image/ab6761610000f1787e5a049c9fa8419cbf25777f"
-  },
-  {
-   "id": "f4e502a63ad2",
-   "name": "NTO",
-   "night": "2027-03-25",
-   "venue": "MTELUS",
-   "photo": "https://i.scdn.co/image/ab6761610000f1786ea1974d71c81a203647ce06"
   },
   {
    "id": "dff3783b17c3",
