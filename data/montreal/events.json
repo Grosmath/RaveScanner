@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-25T04:03:00Z",
+ "generated_at": "2026-11-25T19:00:15Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 177
+   "events": 188
   },
   {
    "id": "piknic",
@@ -47,9 +47,9 @@
   "theatre-fairmount",
   "ausgang-plaza",
   "bar-datcha",
+  "sat",
   "salon-daome",
   "le-red-room",
-  "sat",
   "s-a-t",
   "systeme",
   "studio-td",
@@ -81,7 +81,8 @@
   "foil-gallery",
   "le-ministere",
   "red-roof-church",
-  "tba-15-ontario-street-east"
+  "tba-15-ontario-street-east",
+  "tba-check-description"
  ],
  "venues": [
   {
@@ -516,6 +517,16 @@
   {
    "id": "tba-15-ontario-street-east",
    "name": "TBA - 15 Ontario Street East",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "tba-check-description",
+   "name": "TBA - CHECK DESCRIPTION",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1216,6 +1227,26 @@
    "known": false
   },
   {
+   "id": "ciel",
+   "name": "Ciel",
+   "tier": 0,
+   "score": 29,
+   "popularity": 29,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1780113525913e3308b8218d678",
+   "known": false
+  },
+  {
+   "id": "cirque-cosmic",
+   "name": "Cirque Cosmic",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "claireyy",
    "name": "Claireyy",
    "tier": 0,
@@ -1596,6 +1627,16 @@
    "known": false
   },
   {
+   "id": "domesicle",
+   "name": "Dômesicle",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "don-barbarino",
    "name": "Don Barbarino",
    "tier": 0,
@@ -1756,6 +1797,16 @@
    "known": false
   },
   {
+   "id": "esther-cote",
+   "name": "Esther Côté",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "evita",
    "name": "Evita",
    "tier": 0,
@@ -1866,6 +1917,16 @@
    "known": false
   },
   {
+   "id": "format",
+   "name": "Format",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/0e309601129a5c33182910ba1fa4ee6c/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "frankie-teardrop",
    "name": "Frankie Teardrop",
    "tier": 0,
@@ -1946,6 +2007,16 @@
    "known": false
   },
   {
+   "id": "gaba-collective",
+   "name": "GABA collective",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "galcher-lustwerk",
    "name": "Galcher Lustwerk",
    "tier": 0,
@@ -1978,6 +2049,16 @@
   {
    "id": "girl-ultra-montreal",
    "name": "Girl Ultra - Montréal",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "gloss-1",
+   "name": "Gloss (1)",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -2043,6 +2124,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1787e300894f28297e3916efee0",
+   "known": false
+  },
+  {
+   "id": "groceries",
+   "name": "Groceries",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e5fe3a1c3b5121b93b4c98da",
    "known": false
   },
   {
@@ -2388,6 +2479,19 @@
    "known": false
   },
   {
+   "id": "jacques-greene",
+   "name": "Jacques Greene",
+   "tier": 3,
+   "score": 59,
+   "popularity": 51,
+   "genres": [
+    "house",
+    "electronic"
+   ],
+   "image": "https://i.scdn.co/image/ab6761610000f178cced75f80321d6de65731d28",
+   "known": true
+  },
+  {
    "id": "jadalareign",
    "name": "JADALAREIGN",
    "tier": 0,
@@ -2664,6 +2768,16 @@
    "known": false
   },
   {
+   "id": "korvn",
+   "name": "KORVN",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f153a6f986ca42d1450a1892",
+   "known": false
+  },
+  {
    "id": "kris-guilty",
    "name": "Kris Guilty",
    "tier": 0,
@@ -2676,6 +2790,16 @@
   {
    "id": "l-ultime-soiree-disco-chic",
    "name": "L'Ultime Soirée Disco Chic",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "la-rama-records-gene-tellem-b4b-emiliano-c-b4b-kris-guilty-b4b-terrell",
+   "name": "La Rama Records: Gene Tellem b4b Emiliano C b4b Kris Guilty b4b Terrell",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3017,6 +3141,16 @@
    "known": false
   },
   {
+   "id": "measure-divide",
+   "name": "Measure Divide",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17887954e1f78e566ce3b78831f",
+   "known": false
+  },
+  {
    "id": "melek",
    "name": "Melek",
    "tier": 0,
@@ -3254,6 +3388,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1785e58ef04990e71420c071229",
+   "known": false
+  },
+  {
+   "id": "nene-h",
+   "name": "Nene H",
+   "tier": 0,
+   "score": 27,
+   "popularity": 27,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178fdacd38910e57f6c5c84dbfb",
    "known": false
   },
   {
@@ -3567,6 +3711,16 @@
    "known": false
   },
   {
+   "id": "pom-1",
+   "name": "POM (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "ponsif",
    "name": "Ponsif",
    "tier": 0,
@@ -3628,6 +3782,16 @@
    ],
    "image": "https://i.scdn.co/image/ab6761610000f178cef61d36357ff9586c4b7d3b",
    "known": true
+  },
+  {
+   "id": "puggy-beales",
+   "name": "Puggy Beales",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781d2f6a6c4989948874710083",
+   "known": false
   },
   {
    "id": "quan",
@@ -3787,6 +3951,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "safia-nihil",
+   "name": "Safia Nihil",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178172d8f58aed4abe4840bdb13",
    "known": false
   },
   {
@@ -4360,6 +4534,16 @@
    "known": false
   },
   {
+   "id": "waner",
+   "name": "WANER",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/af7803ab09bc75a0b6efc6ac42efbc18/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "wetdogg",
    "name": "wetdogg",
    "tier": 0,
@@ -4457,6 +4641,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178326ac877c6976b0f90772c6f",
+   "known": false
+  },
+  {
+   "id": "zdbt",
+   "name": "ZDBT",
+   "tier": 0,
+   "score": 19,
+   "popularity": 19,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c0a27c1c4c8099131579d4aa",
    "known": false
   },
   {
@@ -5977,12 +6171,12 @@
    }
   },
   {
-   "id": "83e97f148d09",
-   "title": "David Morales",
+   "id": "48a90681884c",
+   "title": "27 Years of Stereo: David Morales (All Night Long)",
    "venue_id": "stereo",
    "night": "2026-11-28",
    "start": "2026-11-28T23:59:00.000",
-   "end": "2026-11-29T08:00:00.000",
+   "end": "2026-11-29T09:00:00.000",
    "lineup": [
     {
      "artist_id": "david-morales",
@@ -5995,14 +6189,10 @@
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
-   "event_url": "https://ra.co/events/2537409",
+   "event_url": "https://ra.co/events/2570208",
    "image": "",
    "status": "confirmed",
    "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2537409"
-    },
     {
      "id": "ra",
      "url": "https://ra.co/events/2570208"
@@ -6951,6 +7141,58 @@
     "reasons": [
      "tête d'affiche : Marvin (69)",
      "lieu : Ausgang Plaza (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "b756c9bb03da",
+   "title": "RTR - Rooftop Records",
+   "venue_id": "salon-daome",
+   "night": "2026-12-03",
+   "start": "2026-12-03T22:30:00.000",
+   "end": "2026-12-04T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "pom-1",
+     "name": "POM (1)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "gwinestefani",
+     "name": "Gwinestefani",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "pop",
+    "disco",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House",
+    "Disco & funk",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2594025",
+   "event_url": "https://ra.co/events/2594025",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594025"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : POM (1) (8)",
+     "lieu : Salon Daome (palier 2)"
     ]
    }
   },
@@ -9144,8 +9386,8 @@
    }
   },
   {
-   "id": "be8346725a06",
-   "title": "NONSTOP: Jordan Gardner, 999ADJ, Groceries",
+   "id": "fcfd5f0cb5a8",
+   "title": "NONSTOP: Midnite Club presents Jordan Gardner, 999ADJ, Groceries",
    "venue_id": "bar-datcha",
    "night": "2026-12-12",
    "start": "2026-12-12T23:00:00.000",
@@ -9159,6 +9401,11 @@
     {
      "artist_id": "jordan-gardner",
      "name": "Jordan Gardner",
+     "billing": "support"
+    },
+    {
+     "artist_id": "groceries",
+     "name": "Groceries",
      "billing": "support"
     }
    ],
@@ -9364,6 +9611,48 @@
     "reasons": [
      "tête d'affiche : Joe Claussell (0)",
      "lieu : Salon Daome (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "a80a7a7f9d0a",
+   "title": "Madeline Goldstien, Johny Couteau, Puggy Beales, and Hocus",
+   "venue_id": "tba-check-description",
+   "night": "2026-12-12",
+   "start": "2026-12-12T21:00:00.000",
+   "end": "2026-12-13T01:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "puggy-beales",
+     "name": "Puggy Beales",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "new wave",
+    "post-punk"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593396",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593396"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Puggy Beales (0)",
+     "lieu : TBA - CHECK DESCRIPTION (palier 1)"
     ]
    }
   },
@@ -9872,14 +10161,13 @@
    ],
    "genres": [
     "techno",
-    "house",
     "ambient",
+    "downtempo",
     "bass",
     "dub techno"
    ],
    "families": [
     "Techno",
-    "House",
     "Électro & bass",
     "Expérimental"
    ],
@@ -10373,7 +10661,7 @@
    ],
    "price_min": null,
    "currency": "CAD",
-   "ticket_url": "",
+   "ticket_url": "https://ra.co/events/2593307",
    "event_url": "https://ra.co/events/2593307",
    "image": "",
    "status": "confirmed",
@@ -10845,10 +11133,12 @@
    ],
    "genres": [
     "disco",
+    "electro",
     "funk / soul",
-    "electro"
+    "house"
    ],
    "families": [
+    "House",
     "Électro & bass",
     "Disco & funk"
    ],
@@ -10995,6 +11285,59 @@
     "reasons": [
      "tête d'affiche : Chus (23)",
      "lieu : Stereo (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "931780ff2b70",
+   "title": "Dômesicle x Chez.Kito.Kat Records: Nene H - Safia Nihil - Vivian Li (live)",
+   "venue_id": "sat",
+   "night": "2027-01-09",
+   "start": "2027-01-09T22:00:00.000",
+   "end": "2027-01-10T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "nene-h",
+     "name": "Nene H",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "safia-nihil",
+     "name": "Safia Nihil",
+     "billing": "support"
+    },
+    {
+     "artist_id": "vivian-li",
+     "name": "Vivian Li",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "ambient",
+    "dub",
+    "idm"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2594012",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594012"
+    }
+   ],
+   "interest": {
+    "score": 31,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Nene H (27)",
+     "lieu : SAT (palier 2)"
     ]
    }
   },
@@ -11300,6 +11643,56 @@
     "reasons": [
      "tête d'affiche : Chris Lorenzo (83)",
      "lieu : Igloofest (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "4ff4f2236f43",
+   "title": "Dômesicle x Homegrown Harvest: Ciel - Lia Plutonic",
+   "venue_id": "sat",
+   "night": "2027-01-16",
+   "start": "2027-01-16T22:00:00.000",
+   "end": "2027-01-17T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ciel",
+     "name": "Ciel",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lia-plutonic",
+     "name": "Lia Plutonic",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "breaks",
+    "techno"
+   ],
+   "families": [
+    "Techno",
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2594016",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594016"
+    }
+   ],
+   "interest": {
+    "score": 33,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ciel (29)",
+     "lieu : SAT (palier 2)"
     ]
    }
   },
@@ -11720,6 +12113,58 @@
     "reasons": [
      "tête d'affiche : Zorza (41)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "4c927a45b4ce",
+   "title": "Dômesicle x Format x OCTOV: Measure Divide - KORVN - Esther Côté",
+   "venue_id": "sat",
+   "night": "2027-01-23",
+   "start": "2027-01-23T22:00:00.000",
+   "end": "2027-01-24T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "esther-cote",
+     "name": "Esther Côté",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "format",
+     "name": "Format",
+     "billing": "support"
+    },
+    {
+     "artist_id": "measure-divide",
+     "name": "Measure Divide",
+     "billing": "support"
+    },
+    {
+     "artist_id": "korvn",
+     "name": "KORVN",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2594022",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594022"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Esther Côté (8)",
+     "lieu : SAT (palier 2)"
     ]
    }
   },
@@ -12161,6 +12606,67 @@
    }
   },
   {
+   "id": "2f9cdb9061ce",
+   "title": "Dômesicle x GLOSS: Frankie Teardrop - ZDBT - Syd Woz",
+   "venue_id": "sat",
+   "night": "2027-01-30",
+   "start": "2027-01-30T22:00:00.000",
+   "end": "2027-01-31T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "zdbt",
+     "name": "ZDBT",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "gloss-1",
+     "name": "Gloss (1)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "syd-woz",
+     "name": "Syd Woz",
+     "billing": "support"
+    },
+    {
+     "artist_id": "frankie-teardrop",
+     "name": "Frankie Teardrop",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "techno",
+    "tech house",
+    "trance"
+   ],
+   "families": [
+    "Techno",
+    "House",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2594023",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594023"
+    }
+   ],
+   "interest": {
+    "score": 26,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ZDBT (19)",
+     "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "b5ed742cd506",
    "title": "Igloofest #10: FCUKERS (DJs)",
    "venue_id": "igloofest",
@@ -12372,6 +12878,52 @@
     "reasons": [
      "tête d'affiche : Romain Garcia (64)",
      "lieu : Theatre Fairmount (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "431836b6f692",
+   "title": "Dômesicle: Jacques Greene - Cirque Cosmic",
+   "venue_id": "sat",
+   "night": "2027-02-06",
+   "start": "2027-02-06T22:00:00.000",
+   "end": "2027-02-07T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "jacques-greene",
+     "name": "Jacques Greene",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "cirque-cosmic",
+     "name": "Cirque Cosmic",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2594024",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594024"
+    }
+   ],
+   "interest": {
+    "score": 54,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Jacques Greene (59)",
+     "lieu : SAT (palier 2)"
     ]
    }
   },
@@ -12635,6 +13187,62 @@
    }
   },
   {
+   "id": "f08068e222ca",
+   "title": "Dômesicle x Ferias: Alina b2b Guthrie",
+   "venue_id": "sat",
+   "night": "2027-02-13",
+   "start": "2027-02-13T22:00:00.000",
+   "end": "2027-02-14T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ferias",
+     "name": "Ferias",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "alina",
+     "name": "Alina (MTL)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "guthrie",
+     "name": "Guthrie",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "disco",
+    "electro",
+    "funk / soul",
+    "house"
+   ],
+   "families": [
+    "House",
+    "Électro & bass",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2594026",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594026"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Ferias (8)",
+     "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "7ad6352ee44e",
    "title": "Northern Invasion",
    "venue_id": "mtelus",
@@ -12822,6 +13430,43 @@
     "reasons": [
      "tête d'affiche : Galdive (57)",
      "lieu : Foufounes Electriques (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "64debbea9cb0",
+   "title": "Dômesicle x Kizi Garden: K2D3 b2b WANER - Anatohl (live) - Inside Blur (live) - Naïko",
+   "venue_id": "sat",
+   "night": "2027-02-20",
+   "start": "2027-02-20T22:00:00.000",
+   "end": "2027-02-21T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "waner",
+     "name": "WANER",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2594028",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594028"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : WANER (0)",
+     "lieu : SAT (palier 2)"
     ]
    }
   },
@@ -13044,6 +13689,49 @@
    }
   },
   {
+   "id": "80b08bd94ff7",
+   "title": "Dômesicle x T.I.T.S.: Philippa Pacho - No Police",
+   "venue_id": "sat",
+   "night": "2027-03-06",
+   "start": "2027-03-06T22:00:00.000",
+   "end": "2027-03-07T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "no-police",
+     "name": "No Police",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2594030",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594030"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : No Police (0)",
+     "lieu : SAT (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "c6a029ccb9df",
    "title": "Islandman",
    "venue_id": "l-escogriffe-bar-spectacle",
@@ -13169,6 +13857,60 @@
     "reasons": [
      "tête d'affiche : Boogie T (54)",
      "lieu : Studio TD (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "042f33841e67",
+   "title": "Dômesicle x GABA collective",
+   "venue_id": "sat",
+   "night": "2027-03-13",
+   "start": "2027-03-13T22:00:00.000",
+   "end": "2027-03-14T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "gaba-collective",
+     "name": "GABA collective",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "lex-ferenda",
+     "name": "Lex Ferenda",
+     "billing": "support"
+    },
+    {
+     "artist_id": "pelo",
+     "name": "Pelo",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "progressive house",
+    "techno",
+    "house"
+   ],
+   "families": [
+    "Techno",
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2594031",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594031"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : GABA collective (8)",
+     "lieu : SAT (palier 2)"
     ]
    }
   },
@@ -13366,6 +14108,48 @@
     "reasons": [
      "tête d'affiche : Angrybaby (69)",
      "lieu : Newspeak (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "ca3e2d879349",
+   "title": "Dômesicle x La Rama Records: Gene Tellem b4b Emiliano C b4b Kris Guilty b4b Terrell",
+   "venue_id": "sat",
+   "night": "2027-03-20",
+   "start": "2027-03-20T22:00:00.000",
+   "end": "2027-03-21T03:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "domesicle",
+     "name": "Dômesicle",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "la-rama-records-gene-tellem-b4b-emiliano-c-b4b-kris-guilty-b4b-terrell",
+     "name": "La Rama Records: Gene Tellem b4b Emiliano C b4b Kris Guilty b4b Terrell",
+     "billing": "support"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2594032",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594032"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Dômesicle (8)",
+     "lieu : SAT (palier 2)"
     ]
    }
   },
@@ -14191,6 +14975,13 @@
    "photo": "https://i.scdn.co/image/ab6761610000f1784ef0189e07eec59460b46c17"
   },
   {
+   "id": "431836b6f692",
+   "name": "Jacques Greene",
+   "night": "2027-02-06",
+   "venue": "SAT",
+   "photo": "https://i.scdn.co/image/ab6761610000f178cced75f80321d6de65731d28"
+  },
+  {
    "id": "b957e7777232",
    "name": "Midnight Mass",
    "night": "2026-12-12",
@@ -14289,7 +15080,7 @@
    "day": "SAM 28 NOV",
    "title": "David Morales",
    "venue": "Stereo",
-   "time": "23:59 → 08:00",
+   "time": "23:59 → 09:00",
    "tier": 2,
    "reason": "",
    "supports": "",
@@ -14297,7 +15088,7 @@
    "footer": "",
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb95985c17f4964a0417da944b",
-   "event_id": "83e97f148d09"
+   "event_id": "48a90681884c"
   },
   {
    "kind": "event",

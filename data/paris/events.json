@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-25T04:03:44Z",
+ "generated_at": "2026-11-25T19:01:14Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
@@ -14,7 +14,7 @@
   {
    "id": "ra",
    "ok": true,
-   "events": 373
+   "events": 391
   },
   {
    "id": "dice",
@@ -34,18 +34,18 @@
   "essaim",
   "central-chapelle",
   "104-centquatre",
+  "la-bellevilloise",
   "panic-room",
   "cabaret-sauvage",
   "la-cite-fertile",
   "le-trabendo",
-  "la-bellevilloise",
+  "la-java",
   "elysee-montmartre",
   "silencio",
   "la-machine-du-moulin-rouge",
   "le-grand-dome",
   "parc-des-expositions",
   "djoon",
-  "la-java",
   "badaboum",
   "petit-bain",
   "la-station-gare-des-mines",
@@ -53,10 +53,11 @@
   "miniwax",
   "cite-de-la-musique",
   "le-bataclan",
-  "point-ephemere",
   "tba",
+  "point-ephemere",
   "zenith-paris-la-villette",
   "pamela-club",
+  "glazart",
   "la-maison-de-la-conversation",
   "la-cigale",
   "le-pop-up-du-label",
@@ -65,6 +66,8 @@
   "nouveau-casino",
   "la-rotonde-stalingrad",
   "le-trianon",
+  "wanderlust",
+  "bal-chavaux",
   "tba-75013",
   "la-gaite-lyrique",
   "tba-saint-denis",
@@ -77,7 +80,6 @@
   "le-mazette",
   "tba-secret-place",
   "eglise-saint-eustache",
-  "bal-chavaux",
   "la-gare-le-gore",
   "le-poisson-volant",
   "espace-francis-delage-salle-concorde",
@@ -88,16 +90,14 @@
   "les-relais-solidaires",
   "le-9b",
   "l-olympia",
+  "mains-doeuvres",
   "42-marches",
   "cartilage",
   "27-boulevard-jules-ferry",
-  "mains-doeuvres",
   "le-klub",
   "instants-chavires",
   "a-la-folie-paris",
-  "glazart",
   "le-discobar",
-  "workshow",
   "communale-saint-ouen",
   "dock-b",
   "tba-aubervilliers",
@@ -122,6 +122,7 @@
   "tba-kolo",
   "tba-le-tlm-paris-105-rue-curial-75019-paris-france",
   "tiki-playa",
+  "workshow",
   "la-mecanique-ondulatoire",
   "poush",
   "swell-dance",
@@ -1215,6 +1216,16 @@
    "genres": []
   },
   {
+   "id": "wanderlust",
+   "name": "Wanderlust",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
    "id": "workshow",
    "name": "Workshow",
    "type": "club",
@@ -1348,16 +1359,6 @@
    ],
    "image": "https://i.scdn.co/image/ab6761610000f178ecb23a5f80883b6d546f3c96",
    "known": true
-  },
-  {
-   "id": "9b",
-   "name": "9B",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
   },
   {
    "id": "a",
@@ -1610,6 +1611,16 @@
    "known": false
   },
   {
+   "id": "alex-from-tokyo",
+   "name": "Alex From Tokyo",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048515020bf421f39cb2db89b74fe",
+   "known": false
+  },
+  {
    "id": "alex-nantaya",
    "name": "Alex Nantaya",
    "tier": 0,
@@ -1627,6 +1638,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17888307982fb03cbf2f537af0a",
+   "known": false
+  },
+  {
+   "id": "aline-brooklyn",
+   "name": "Aline Brooklyn",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851752a90a669600b923b7a1158",
    "known": false
   },
   {
@@ -1667,6 +1688,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1781acf5cb3e1e99875da07075a",
+   "known": false
+  },
+  {
+   "id": "aman-umber",
+   "name": "Aman Umber",
+   "tier": 0,
+   "score": 19,
+   "popularity": 19,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e9f4f6e6d25468b0de425c42",
    "known": false
   },
   {
@@ -1922,6 +1953,16 @@
    "known": false
   },
   {
+   "id": "azo",
+   "name": "Azo",
+   "tier": 0,
+   "score": 16,
+   "popularity": 16,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/e5255187158c70395c2abf43a87fd698/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "b-classics",
    "name": "B Classics",
    "tier": 0,
@@ -2023,6 +2064,16 @@
    ],
    "image": "https://i.scdn.co/image/ab6761610000f1781bd63a9190981624ea7e016f",
    "known": true
+  },
+  {
+   "id": "bambinodj",
+   "name": "bambinodj",
+   "tier": 0,
+   "score": 35,
+   "popularity": 35,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a07d2d2b1f9b4e8f0458ef6f",
+   "known": false
   },
   {
    "id": "barbara-boeing",
@@ -2467,6 +2518,16 @@
    "known": false
   },
   {
+   "id": "chez-damier",
+   "name": "Chez Damier",
+   "tier": 0,
+   "score": 47,
+   "popularity": 47,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048518469f08c272497116e5c01b4",
+   "known": false
+  },
+  {
    "id": "chico-blanco",
    "name": "Chico Blanco",
    "tier": 0,
@@ -2677,6 +2738,16 @@
    "known": false
   },
   {
+   "id": "copaines",
+   "name": "copaines",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "corbeille-dallas",
    "name": "Corbeille Dallas",
    "tier": 0,
@@ -2867,6 +2938,16 @@
    "known": false
   },
   {
+   "id": "david-triana",
+   "name": "David Triana",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1781f75bc10d2e076d1b3b100ae",
+   "known": false
+  },
+  {
    "id": "davide-dev",
    "name": "Davide Dev",
    "tier": 0,
@@ -3004,6 +3085,26 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178fb3c9118eb6f1ca2eac3547b",
+   "known": false
+  },
+  {
+   "id": "dige-m0m0",
+   "name": "Digé m0m0",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782009f0e32c0d95e1a289b3e5",
+   "known": false
+  },
+  {
+   "id": "dimitri-from-paris",
+   "name": "Dimitri From Paris",
+   "tier": 0,
+   "score": 64,
+   "popularity": 64,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178a1e0998d49346fc0eaf1a989",
    "known": false
   },
   {
@@ -3324,6 +3425,16 @@
    "popularity": 28,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1783b014be3d530a9d45814d13b",
+   "known": false
+  },
+  {
+   "id": "electro-medieval",
+   "name": "ELECTRO MEDIEVAL",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -3797,6 +3908,16 @@
    "known": false
   },
   {
+   "id": "francois-k",
+   "name": "Francois K",
+   "tier": 0,
+   "score": 41,
+   "popularity": 41,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178bdff5fde6a76669f638501a3",
+   "known": false
+  },
+  {
    "id": "freddy-k",
    "name": "Freddy K",
    "tier": 0,
@@ -3809,6 +3930,16 @@
   {
    "id": "free-to-dance",
    "name": "FREE TO DANCE",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
+   "id": "frequency-nuit-blanche-paris",
+   "name": "FREQUENCY - NUIT BLANCHE PARIS",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -3894,6 +4025,16 @@
    "popularity": 23,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851d3c9ec359af65d47a07e570d",
+   "known": false
+  },
+  {
+   "id": "gabriel-belabbas",
+   "name": "Gabriel Belabbas",
+   "tier": 0,
+   "score": 36,
+   "popularity": 36,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485152bd0d97df0bcef85730808d",
    "known": false
   },
   {
@@ -4543,6 +4684,16 @@
    "known": false
   },
   {
+   "id": "japan-calling-mia-mao-2nd-anniversary",
+   "name": "JAPAN CALLING - MIA MAO 2ND ANNIVERSARY",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "jayda-g",
    "name": "Jayda G",
    "tier": 0,
@@ -4773,6 +4924,16 @@
    "known": false
   },
   {
+   "id": "kalani",
+   "name": "Kalani",
+   "tier": 0,
+   "score": 31,
+   "popularity": 31,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d0000485106e14fe1e83d258c411098a9",
+   "known": false
+  },
+  {
    "id": "kaltblume",
    "name": "KALTBLUME",
    "tier": 0,
@@ -4963,6 +5124,16 @@
    "known": false
   },
   {
+   "id": "klaps",
+   "name": "Klaps",
+   "tier": 0,
+   "score": 42,
+   "popularity": 42,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178f221db746fd1b96753229dd9",
+   "known": false
+  },
+  {
    "id": "kloss",
    "name": "Kloss",
    "tier": 0,
@@ -5040,6 +5211,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "krol",
+   "name": "Krol",
+   "tier": 0,
+   "score": 36,
+   "popularity": 36,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/b3cdd294c2b9d21f79fed94975e3446d/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5173,6 +5354,16 @@
    "known": false
   },
   {
+   "id": "ladiabla",
+   "name": "LaDiabla",
+   "tier": 0,
+   "score": 1,
+   "popularity": 1,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f17801ed664e085f6d38d79752a5",
+   "known": false
+  },
+  {
    "id": "laia",
    "name": "Laia",
    "tier": 0,
@@ -5220,16 +5411,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "laps",
-   "name": "Laps",
-   "tier": 0,
-   "score": 10,
-   "popularity": 10,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist/3aa589ca0fd5d5be0c581fc827e5fd65/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5513,6 +5694,16 @@
    "known": false
   },
   {
+   "id": "louis-savary",
+   "name": "LOUIS SAVARY",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "louis-the-4th",
    "name": "Louis The 4th",
    "tier": 0,
@@ -5600,6 +5791,16 @@
    "popularity": 20,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851048214b11e6c4f6ca4297237",
+   "known": false
+  },
+  {
+   "id": "lycanthropie-mia-mao-2nd-anniversary",
+   "name": "LYCANTHROPIE - MIA MAO 2ND ANNIVERSARY [JAPAN CALLING]",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -5810,6 +6011,16 @@
    "popularity": 6,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/dbbb645848c099c9def354872172a819/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
+   "id": "man-called-dylan",
+   "name": "Man Called Dylan",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -6082,6 +6293,16 @@
    "popularity": 37,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178aee269975e8bb58cd5397cd3",
+   "known": false
+  },
+  {
+   "id": "mayell",
+   "name": "Mayell",
+   "tier": 0,
+   "score": 37,
+   "popularity": 37,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178c7127e118b7e53344a6e2eb3",
    "known": false
   },
   {
@@ -6435,16 +6656,6 @@
    "known": false
   },
   {
-   "id": "morning-deviance-big-official-after-party",
-   "name": "MORNING DEVIANCE - BIG Official After Party",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "moulin",
    "name": "Moulin",
    "tier": 0,
@@ -6485,6 +6696,16 @@
    "known": false
   },
   {
+   "id": "mystique-2",
+   "name": "Mystique (2)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "mz",
    "name": "MØZ",
    "tier": 0,
@@ -6496,7 +6717,7 @@
   },
   {
    "id": "mza",
-   "name": "MZA",
+   "name": "MZA (FR)",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -7108,6 +7329,16 @@
    "known": false
   },
   {
+   "id": "paul-victim",
+   "name": "paul victim",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "paulina-2",
    "name": "Paulina (2)",
    "tier": 0,
@@ -7468,6 +7699,16 @@
    "known": false
   },
   {
+   "id": "ricardo-villalobos",
+   "name": "Ricardo Villalobos",
+   "tier": 0,
+   "score": 45,
+   "popularity": 45,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67726900008f743b055bc9f942f2ea1caf078b",
+   "known": false
+  },
+  {
    "id": "rico-vibes",
    "name": "Rico Vibes",
    "tier": 0,
@@ -7485,6 +7726,16 @@
    "popularity": 59,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178edeeb8d1058265cf5a4a54d0",
+   "known": false
+  },
+  {
+   "id": "rodrigue-darbon",
+   "name": "Rodrigue Darbon",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178712e5c43111673b77dbcc7df",
    "known": false
   },
   {
@@ -7878,6 +8129,16 @@
    "known": false
   },
   {
+   "id": "sibil-1",
+   "name": "Sibil (1)",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "simula",
    "name": "Simula",
    "tier": 0,
@@ -8025,6 +8286,16 @@
    "popularity": 62,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178f5b5e8b0cc9282142594d3c9",
+   "known": false
+  },
+  {
+   "id": "sous-le-radar-club-02-joe-la-panic",
+   "name": "SOUS LE RADAR CLUB #02 - JOE LA PANIC",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -8318,6 +8589,16 @@
    "known": false
   },
   {
+   "id": "the-waiting-room",
+   "name": "THE WAITING ROOM",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d000048512627dfc026731bd0503fd689",
+   "known": false
+  },
+  {
    "id": "thelma",
    "name": "THELMA",
    "tier": 0,
@@ -8365,6 +8646,16 @@
    "popularity": 68,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f1784cadec9a07cd964d1420a7bc",
+   "known": false
+  },
+  {
+   "id": "tilt",
+   "name": "TILT",
+   "tier": 0,
+   "score": 28,
+   "popularity": 28,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab67616d00004851383dc5251bbb85751d5ac81f",
    "known": false
   },
   {
@@ -8668,6 +8959,16 @@
    "known": false
   },
   {
+   "id": "vanille",
+   "name": "Vanille",
+   "tier": 0,
+   "score": 55,
+   "popularity": 55,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f178e2dd32f8a3a35fb76f0340e1",
+   "known": false
+  },
+  {
    "id": "varya-karpova",
    "name": "Varya Karpova",
    "tier": 0,
@@ -8778,6 +9079,16 @@
    "known": false
   },
   {
+   "id": "walid",
+   "name": "Walid",
+   "tier": 0,
+   "score": 66,
+   "popularity": 66,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/79c7be70b8f4862162ca035e81aca189/250x250-000000-80-0-0.jpg",
+   "known": false
+  },
+  {
    "id": "warrenko",
    "name": "WarrenKo",
    "tier": 0,
@@ -8818,8 +9129,8 @@
    "known": false
   },
   {
-   "id": "workshop-1",
-   "name": "Workshop #1",
+   "id": "workshop-2",
+   "name": "Workshop #2",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -8885,6 +9196,16 @@
    "popularity": 18,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178de4a4d7ba61cf94aea091f5c",
+   "known": false
+  },
+  {
+   "id": "yolande",
+   "name": "Yolande",
+   "tier": 0,
+   "score": 0,
+   "popularity": 0,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1789ad0c952762ac53133e56250",
    "known": false
   },
   {
@@ -11500,49 +11821,6 @@
    }
   },
   {
-   "id": "c4b61d54314d",
-   "title": "MORNING DEVIANCE - BIG Official After Party",
-   "venue_id": "workshow",
-   "night": "2026-11-27",
-   "start": "2026-11-28T05:00:00.000",
-   "end": "2026-11-28T12:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "morning-deviance-big-official-after-party",
-     "name": "MORNING DEVIANCE - BIG Official After Party",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "electro"
-   ],
-   "families": [
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2590578",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2590578"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : MORNING DEVIANCE - BIG Official After Party (8)",
-     "lieu : Workshow (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "ed3c213f236c",
    "title": "NO PARKING ON THE DANCEFLOOR",
    "venue_id": "pamela-club",
@@ -12869,59 +13147,6 @@
    }
   },
   {
-   "id": "a5061535dda9",
-   "title": "Laps x Ambrio / Workshop #1",
-   "venue_id": "tba",
-   "night": "2026-11-28",
-   "start": "2026-11-28T14:00:00.000",
-   "end": "2026-11-28T18:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "laps",
-     "name": "Laps",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ambrio",
-     "name": "Ambrio",
-     "billing": "support"
-    },
-    {
-     "artist_id": "workshop-1",
-     "name": "Workshop #1",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "experimental",
-    "footwork"
-   ],
-   "families": [
-    "Électro & bass",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2583960",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583960"
-    }
-   ],
-   "interest": {
-    "score": 13,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Laps (10)",
-     "lieu : TBA (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "4deb4025ed62",
    "title": "Otter Space 3rd Anniversary: Umberto! , Marabou, Burachos",
    "venue_id": "42-marches",
@@ -13418,6 +13643,10 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2570596"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2570596"
     }
    ],
    "interest": {
@@ -13458,6 +13687,10 @@
    "image": "",
    "status": "confirmed",
    "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2571637"
+    },
     {
      "id": "ra",
      "url": "https://ra.co/events/2571637"
@@ -14214,8 +14447,8 @@
     "bass",
     "dub",
     "club",
-    "experimental",
-    "techno"
+    "techno",
+    "experimental"
    ],
    "families": [
     "Techno",
@@ -15876,48 +16109,6 @@
    }
   },
   {
-   "id": "0b71811c0c0b",
-   "title": "9B",
-   "venue_id": "le-9b",
-   "night": "2026-12-04",
-   "start": "2026-12-04T23:00:00.000",
-   "end": "2026-12-05T04:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "9b",
-     "name": "9B",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "garage",
-    "ghetto tech"
-   ],
-   "families": [
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2589466",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2589466"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : 9B (8)",
-     "lieu : Le 9B (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "54a707b09913",
    "title": "Belleville Boogie is 10",
    "venue_id": "folia",
@@ -16143,6 +16334,48 @@
     "reasons": [
      "tête d'affiche : Nightchou (8)",
      "lieu : Pamela Club (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "f00aa196b446",
+   "title": "copaines",
+   "venue_id": "le-9b",
+   "night": "2026-12-04",
+   "start": "2026-12-04T23:00:00.000",
+   "end": "2026-12-05T04:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "copaines",
+     "name": "copaines",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "garage",
+    "ghetto tech"
+   ],
+   "families": [
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2589466",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2589466"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : copaines (8)",
+     "lieu : Le 9B (palier 1)"
     ]
    }
   },
@@ -16401,6 +16634,59 @@
    }
   },
   {
+   "id": "f7a800eb41dd",
+   "title": "AFTER O'CLOCK: Klaps, MZA, DIGEM0M0",
+   "venue_id": "glazart",
+   "night": "2026-12-05",
+   "start": "2026-12-05T06:00:00.000",
+   "end": "2026-12-05T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "klaps",
+     "name": "Klaps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mza",
+     "name": "MZA (FR)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dige-m0m0",
+     "name": "Digé m0m0",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "garage"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593591",
+   "event_url": "https://ra.co/events/2593591",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593591"
+    }
+   ],
+   "interest": {
+    "score": 42,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Klaps (42)",
+     "lieu : Glazart (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "627168c614c6",
    "title": "Guettapen Invites Mirage",
    "venue_id": "petit-bain",
@@ -16642,6 +16928,59 @@
     "reasons": [
      "tête d'affiche : H2O (43)",
      "lieu : La Rotonde Stalingrad (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "b22d64352c52",
+   "title": "Laps x Ambrio / Workshop #2",
+   "venue_id": "tba",
+   "night": "2026-12-05",
+   "start": "2026-12-05T14:00:00.000",
+   "end": "2026-12-05T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "klaps",
+     "name": "Klaps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ambrio",
+     "name": "Ambrio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "workshop-2",
+     "name": "Workshop #2",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "baile funk"
+   ],
+   "families": [
+    "Afro & latin",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583963",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583963"
+    }
+   ],
+   "interest": {
+    "score": 36,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Klaps (42)",
+     "lieu : TBA (palier 1)"
     ]
    }
   },
@@ -17047,59 +17386,6 @@
    }
   },
   {
-   "id": "b22d64352c52",
-   "title": "Laps x Ambrio / Workshop #2",
-   "venue_id": "tba",
-   "night": "2026-12-05",
-   "start": "2026-12-05T14:00:00.000",
-   "end": "2026-12-05T18:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "laps",
-     "name": "Laps",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ambrio",
-     "name": "Ambrio",
-     "billing": "support"
-    },
-    {
-     "artist_id": "workshop-1",
-     "name": "Workshop #1",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "experimental",
-    "baile funk"
-   ],
-   "families": [
-    "Afro & latin",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2583963",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583963"
-    }
-   ],
-   "interest": {
-    "score": 13,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Laps (10)",
-     "lieu : TBA (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "d10b53f2490e",
    "title": "Disorder x Ethereal Decibel Festival: Support Party",
    "venue_id": "le-211",
@@ -17219,9 +17505,14 @@
    "end": "2026-12-06T06:00:00.000",
    "lineup": [
     {
+     "artist_id": "louis-savary",
+     "name": "LOUIS SAVARY",
+     "billing": "headliner"
+    },
+    {
      "artist_id": "paulina-2",
      "name": "Paulina (2)",
-     "billing": "headliner"
+     "billing": "support"
     },
     {
      "artist_id": "elsa-bernini",
@@ -17251,7 +17542,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Paulina (2) (8)",
+     "tête d'affiche : LOUIS SAVARY (8)",
      "lieu : Pamela Club (palier 1)"
     ]
    }
@@ -17494,6 +17785,52 @@
     "reasons": [
      "tête d'affiche : Jeff Mills (50)",
      "lieu : Cité De La Musique (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "d2038bbe1f45",
+   "title": "AFTER O'CLOCK: Toscan Haas, Azo",
+   "venue_id": "glazart",
+   "night": "2026-12-06",
+   "start": "2026-12-06T06:00:00.000",
+   "end": "2026-12-06T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "azo",
+     "name": "Azo",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "toscan-haas",
+     "name": "Toscan Haas",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno"
+   ],
+   "families": [
+    "Techno"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593587",
+   "event_url": "https://ra.co/events/2593587",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593587"
+    }
+   ],
+   "interest": {
+    "score": 24,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Azo (16)",
+     "lieu : Glazart (palier 2)"
     ]
    }
   },
@@ -17866,6 +18203,49 @@
    }
   },
   {
+   "id": "c4470cdbf785",
+   "title": "SOUS LE RADAR CLUB #02 - JOE LA PANIC",
+   "venue_id": "panic-room",
+   "night": "2026-12-09",
+   "start": "2026-12-09T19:00:00.000",
+   "end": "2026-12-10T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "sous-le-radar-club-02-joe-la-panic",
+     "name": "SOUS LE RADAR CLUB #02 - JOE LA PANIC",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "electro",
+    "pop"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593613",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593613"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : SOUS LE RADAR CLUB #02 - JOE LA PANIC (8)",
+     "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "6a075cf75e2a",
    "title": "LTQB invite: ABR. (Live), Kacy, Cheche",
    "venue_id": "rex-club",
@@ -17908,6 +18288,58 @@
     "reasons": [
      "tête d'affiche : Abr. (40)",
      "lieu : Rex Club (palier 3)"
+    ]
+   }
+  },
+  {
+   "id": "ede2971c8b45",
+   "title": "3.0 RECORDS: UNDERGROUND FOREVER",
+   "venue_id": "panic-room",
+   "night": "2026-12-10",
+   "start": "2026-12-10T19:00:00.000",
+   "end": "2026-12-11T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "kalani",
+     "name": "Kalani",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "3-0-records-underground-forever",
+     "name": "3.0 RECORDS: UNDERGROUND FOREVER",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "deep house"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2581833",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2581833"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593617"
+    }
+   ],
+   "interest": {
+    "score": 28,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Kalani (31)",
+     "lieu : Panic Room (palier 1)"
     ]
    }
   },
@@ -18058,49 +18490,6 @@
     "reasons": [
      "tête d'affiche : DJ Angel (1) (8)",
      "lieu : Mia Mao (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "ede2971c8b45",
-   "title": "3.0 RECORDS: UNDERGROUND FOREVER",
-   "venue_id": "panic-room",
-   "night": "2026-12-10",
-   "start": "2026-12-10T19:00:00.000",
-   "end": "2026-12-11T05:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "3-0-records-underground-forever",
-     "name": "3.0 RECORDS: UNDERGROUND FOREVER",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electro",
-    "deep house"
-   ],
-   "families": [
-    "House",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2581833",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2581833"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : 3.0 RECORDS: UNDERGROUND FOREVER (8)",
-     "lieu : Panic Room (palier 1)"
     ]
    }
   },
@@ -19201,6 +19590,49 @@
    }
   },
   {
+   "id": "05d8583f63c1",
+   "title": "THE WAITING ROOM",
+   "venue_id": "panic-room",
+   "night": "2026-12-11",
+   "start": "2026-12-11T19:00:00.000",
+   "end": "2026-12-12T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "the-waiting-room",
+     "name": "THE WAITING ROOM",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "funk / soul"
+   ],
+   "families": [
+    "Techno",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593620",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593620"
+    }
+   ],
+   "interest": {
+    "score": 6,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : THE WAITING ROOM (0)",
+     "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "603a782320fc",
    "title": "The Waiting Room: from Groovy House to Deep Techno",
    "venue_id": "panic-room",
@@ -19745,6 +20177,59 @@
    }
   },
   {
+   "id": "1bc738307a54",
+   "title": "Laps X Ambrio / Workshop #3",
+   "venue_id": "tba",
+   "night": "2026-12-12",
+   "start": "2026-12-12T14:00:00.000",
+   "end": "2026-12-12T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "klaps",
+     "name": "Klaps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ambrio",
+     "name": "Ambrio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "workshop-2",
+     "name": "Workshop #2",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "dub techno"
+   ],
+   "families": [
+    "Techno",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583965",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583965"
+    }
+   ],
+   "interest": {
+    "score": 36,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Klaps (42)",
+     "lieu : TBA (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "857dc626c2f2",
    "title": "Sacré présente: The Disco Express",
    "venue_id": "sacre",
@@ -19794,6 +20279,64 @@
     "reasons": [
      "tête d'affiche : Felmann (26)",
      "lieu : Sacré (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "882f541fc3e9",
+   "title": "ideal clubbing pres. Cosmopolitan Psychedelism with bambinodj, Golce, vera fatale",
+   "venue_id": "bal-chavaux",
+   "night": "2026-12-12",
+   "start": "2026-12-12T23:30:00.000",
+   "end": "2026-12-13T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "bambinodj",
+     "name": "bambinodj",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "paul-victim",
+     "name": "paul victim",
+     "billing": "support"
+    },
+    {
+     "artist_id": "golce",
+     "name": "Golce",
+     "billing": "support"
+    },
+    {
+     "artist_id": "yolande",
+     "name": "Yolande",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "club"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593961",
+   "event_url": "https://ra.co/events/2593961",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593961"
+    }
+   ],
+   "interest": {
+    "score": 31,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : bambinodj (35)",
+     "lieu : Bal Chavaux (palier 1)"
     ]
    }
   },
@@ -19960,6 +20503,59 @@
    }
   },
   {
+   "id": "3e51f7fa2ded",
+   "title": "Fête d'anniversaire de Mains D'œuvres ★ WOKE UP",
+   "venue_id": "mains-doeuvres",
+   "night": "2026-12-12",
+   "start": "2026-12-12T19:00:00.000",
+   "end": "2026-12-13T02:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "mystique-2",
+     "name": "Mystique (2)",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ladiabla",
+     "name": "LaDiabla",
+     "billing": "support"
+    },
+    {
+     "artist_id": "malaise-vagal",
+     "name": "MALAISE VAGAL",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electro",
+    "club"
+   ],
+   "families": [
+    "Électro & bass",
+    "Pop & club"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593714",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593714"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Mystique (2) (8)",
+     "lieu : Mains d'Œuvres (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "8bb478309e53",
    "title": "YOUR LOCAL HOUSE CLUB",
    "venue_id": "badaboum",
@@ -20005,55 +20601,48 @@
    }
   },
   {
-   "id": "1bc738307a54",
-   "title": "Laps X Ambrio / Workshop #3",
-   "venue_id": "tba",
+   "id": "41a6a9a6a190",
+   "title": "BOYS FROM JAPAN",
+   "venue_id": "pamela-club",
    "night": "2026-12-12",
-   "start": "2026-12-12T14:00:00.000",
-   "end": "2026-12-12T18:00:00.000",
+   "start": "2026-12-12T23:59:00.000",
+   "end": "2026-12-13T06:00:00.000",
    "lineup": [
     {
-     "artist_id": "laps",
-     "name": "Laps",
+     "artist_id": "man-called-dylan",
+     "name": "Man Called Dylan",
      "billing": "headliner"
     },
     {
-     "artist_id": "ambrio",
-     "name": "Ambrio",
-     "billing": "support"
-    },
-    {
-     "artist_id": "workshop-1",
-     "name": "Workshop #1",
+     "artist_id": "alex-from-tokyo",
+     "name": "Alex From Tokyo",
      "billing": "support"
     }
    ],
    "genres": [
-    "experimental",
-    "dub techno"
+    "house"
    ],
    "families": [
-    "Techno",
-    "Expérimental"
+    "House"
    ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
-   "event_url": "https://ra.co/events/2583965",
+   "event_url": "https://ra.co/events/2594002",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2583965"
+     "url": "https://ra.co/events/2594002"
     }
    ],
    "interest": {
-    "score": 13,
+    "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Laps (10)",
-     "lieu : TBA (palier 1)"
+     "tête d'affiche : Man Called Dylan (8)",
+     "lieu : Pamela Club (palier 1)"
     ]
    }
   },
@@ -21012,6 +21601,47 @@
    }
   },
   {
+   "id": "9b99120b4805",
+   "title": "LA RHAPSODIE",
+   "venue_id": "panic-room",
+   "night": "2026-12-17",
+   "start": "2026-12-17T19:00:00.000",
+   "end": "2026-12-18T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "walid",
+     "name": "Walid",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "trance"
+   ],
+   "families": [
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593624",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593624"
+    }
+   ],
+   "interest": {
+    "score": 54,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Walid (66)",
+     "lieu : Panic Room (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "49537b362d3a",
    "title": "ØXYL PRESENTS: uphoria ALL NIGHT LONG",
    "venue_id": "rex-club",
@@ -21360,6 +21990,49 @@
    }
   },
   {
+   "id": "1f7273438b98",
+   "title": "Vanille, Hebi Snake B2b Jockey Narval & More: Taste",
+   "venue_id": "la-java",
+   "night": "2026-12-18",
+   "start": "2026-12-18T23:30:00.000",
+   "end": "2026-12-19T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "vanille",
+     "name": "Vanille",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "techno",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593614",
+   "event_url": "https://ra.co/events/2593614",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593614"
+    }
+   ],
+   "interest": {
+    "score": 52,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Vanille (55)",
+     "lieu : La Java (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "ccdd5c58c5ce",
    "title": "Tresor · Paris",
    "venue_id": "mia-mao",
@@ -21412,6 +22085,103 @@
     "reasons": [
      "tête d'affiche : Octave One (57)",
      "lieu : Mia Mao (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "e0be7647d8fb",
+   "title": "Imagine Family x ReSolute",
+   "venue_id": "wanderlust",
+   "night": "2026-12-18",
+   "start": "2026-12-18T22:00:00.000",
+   "end": "2026-12-19T22:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "chez-damier",
+     "name": "Chez Damier",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ricardo-villalobos",
+     "name": "Ricardo Villalobos",
+     "billing": "support"
+    },
+    {
+     "artist_id": "mayell",
+     "name": "Mayell",
+     "billing": "support"
+    },
+    {
+     "artist_id": "krol",
+     "name": "Krol",
+     "billing": "support"
+    },
+    {
+     "artist_id": "gabriel-belabbas",
+     "name": "Gabriel Belabbas",
+     "billing": "support"
+    },
+    {
+     "artist_id": "aman-umber",
+     "name": "Aman Umber",
+     "billing": "support"
+    },
+    {
+     "artist_id": "sibil-1",
+     "name": "Sibil (1)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "aline-brooklyn",
+     "name": "Aline Brooklyn",
+     "billing": "support"
+    },
+    {
+     "artist_id": "david-triana",
+     "name": "David Triana",
+     "billing": "support"
+    },
+    {
+     "artist_id": "rodrigue-darbon",
+     "name": "Rodrigue Darbon",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "deep house",
+    "house",
+    "minimal",
+    "minimal techno",
+    "tech house",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2594089",
+   "event_url": "https://ra.co/events/2594089",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594089"
+    },
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2594089"
+    }
+   ],
+   "interest": {
+    "score": 43,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Chez Damier (47)",
+     "lieu : Wanderlust (palier 1)"
     ]
    }
   },
@@ -21740,7 +22510,7 @@
     },
     {
      "artist_id": "mza",
-     "name": "MZA",
+     "name": "MZA (FR)",
      "billing": "support"
     }
    ],
@@ -21811,6 +22581,48 @@
     "reasons": [
      "tête d'affiche : Automatic Writing (0)",
      "lieu : Cabaret Sauvage (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "cf765b0dc395",
+   "title": "FREQUENCY - NUIT BLANCHE PARIS",
+   "venue_id": "panic-room",
+   "night": "2026-12-18",
+   "start": "2026-12-18T19:00:00.000",
+   "end": "2026-12-19T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "frequency-nuit-blanche-paris",
+     "name": "FREQUENCY - NUIT BLANCHE PARIS",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593626",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593626"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : FREQUENCY - NUIT BLANCHE PARIS (8)",
+     "lieu : Panic Room (palier 1)"
     ]
    }
   },
@@ -22384,6 +23196,58 @@
    }
   },
   {
+   "id": "fe7f8b18ec9b",
+   "title": "Laps X Ambrio / Workshop #4",
+   "venue_id": "tba",
+   "night": "2026-12-19",
+   "start": "2026-12-19T14:00:00.000",
+   "end": "2026-12-19T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "klaps",
+     "name": "Klaps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ambrio",
+     "name": "Ambrio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "workshop-2",
+     "name": "Workshop #2",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "classical"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583970",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583970"
+    }
+   ],
+   "interest": {
+    "score": 36,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Klaps (42)",
+     "lieu : TBA (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "55e87f61f28f",
    "title": "Club Humide - CLOSING 2026",
    "venue_id": "la-station-gare-des-mines",
@@ -22649,54 +23513,44 @@
    }
   },
   {
-   "id": "fe7f8b18ec9b",
-   "title": "Laps X Ambrio / Workshop #4",
-   "venue_id": "tba",
+   "id": "ac9d65682c73",
+   "title": "ELECTRO MEDIEVAL",
+   "venue_id": "panic-room",
    "night": "2026-12-19",
-   "start": "2026-12-19T14:00:00.000",
-   "end": "2026-12-19T18:00:00.000",
+   "start": "2026-12-19T19:00:00.000",
+   "end": "2026-12-20T05:00:00.000",
    "lineup": [
     {
-     "artist_id": "laps",
-     "name": "Laps",
+     "artist_id": "electro-medieval",
+     "name": "ELECTRO MEDIEVAL",
      "billing": "headliner"
-    },
-    {
-     "artist_id": "ambrio",
-     "name": "Ambrio",
-     "billing": "support"
-    },
-    {
-     "artist_id": "workshop-1",
-     "name": "Workshop #1",
-     "billing": "support"
     }
    ],
    "genres": [
-    "experimental",
-    "classical"
+    "house",
+    "tech house"
    ],
    "families": [
-    "Expérimental"
+    "House"
    ],
    "price_min": null,
    "currency": "CAD",
    "ticket_url": "",
-   "event_url": "https://ra.co/events/2583970",
+   "event_url": "https://ra.co/events/2593630",
    "image": "",
    "status": "confirmed",
    "sources": [
     {
      "id": "ra",
-     "url": "https://ra.co/events/2583970"
+     "url": "https://ra.co/events/2593630"
     }
    ],
    "interest": {
-    "score": 13,
+    "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Laps (10)",
-     "lieu : TBA (palier 1)"
+     "tête d'affiche : ELECTRO MEDIEVAL (8)",
+     "lieu : Panic Room (palier 1)"
     ]
    }
   },
@@ -22710,7 +23564,7 @@
    "lineup": [
     {
      "artist_id": "mza",
-     "name": "MZA",
+     "name": "MZA (FR)",
      "billing": "headliner"
     },
     {
@@ -22746,7 +23600,7 @@
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : MZA (8)",
+     "tête d'affiche : MZA (FR) (8)",
      "lieu : La Gare / Le Gore (palier 1)"
     ]
    }
@@ -23241,6 +24095,48 @@
     "reasons": [
      "tête d'affiche : Kangding Ray (43)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "279e3b196baf",
+   "title": "TILT",
+   "venue_id": "panic-room",
+   "night": "2026-12-26",
+   "start": "2026-12-26T19:00:00.000",
+   "end": "2026-12-27T05:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "tilt",
+     "name": "TILT",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "tech house"
+   ],
+   "families": [
+    "House"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593651",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593651"
+    }
+   ],
+   "interest": {
+    "score": 26,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : TILT (28)",
+     "lieu : Panic Room (palier 1)"
     ]
    }
   },
@@ -24542,6 +25438,95 @@
    }
   },
   {
+   "id": "09ae950dfed5",
+   "title": "LYCANTHROPIE - MIA MAO 2ND ANNIVERSARY [JAPAN CALLING]",
+   "venue_id": "mia-mao",
+   "night": "2027-01-15",
+   "start": "2027-01-15T23:59:00.000",
+   "end": "2027-01-16T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "lycanthropie-mia-mao-2nd-anniversary",
+     "name": "LYCANTHROPIE - MIA MAO 2ND ANNIVERSARY [JAPAN CALLING]",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "hardcore"
+   ],
+   "families": [
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593788",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593788"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : LYCANTHROPIE - MIA MAO 2ND ANNIVERSARY [JAPAN CALLING] (8)",
+     "lieu : Mia Mao (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "8dbe34783dbe",
+   "title": "Free Your Funk : François K & Dimitri From Paris all night long",
+   "venue_id": "la-bellevilloise",
+   "night": "2027-01-16",
+   "start": "2027-01-16T23:00:00.000",
+   "end": "2027-01-17T05:30:00.000",
+   "lineup": [
+    {
+     "artist_id": "dimitri-from-paris",
+     "name": "Dimitri From Paris",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "francois-k",
+     "name": "Francois K",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "house",
+    "disco"
+   ],
+   "families": [
+    "House",
+    "Disco & funk"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593978",
+   "event_url": "https://ra.co/events/2593978",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593978"
+    }
+   ],
+   "interest": {
+    "score": 52,
+    "tier": 1,
+    "reasons": [
+     "tête d'affiche : Dimitri From Paris (64)",
+     "lieu : La Bellevilloise (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "a594f28fea4f",
    "title": "ASSAULT",
    "venue_id": "tba",
@@ -24664,6 +25649,43 @@
     "reasons": [
      "tête d'affiche : Extra PDP - Happy new year (8)",
      "lieu : Le 9B (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "40549015bdf2",
+   "title": "JAPAN CALLING - MIA MAO 2ND ANNIVERSARY",
+   "venue_id": "mia-mao",
+   "night": "2027-01-16",
+   "start": "2027-01-16T23:59:00.000",
+   "end": "2027-01-17T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "japan-calling-mia-mao-2nd-anniversary",
+     "name": "JAPAN CALLING - MIA MAO 2ND ANNIVERSARY",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2593791",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593791"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : JAPAN CALLING - MIA MAO 2ND ANNIVERSARY (8)",
+     "lieu : Mia Mao (palier 1)"
     ]
    }
   },
@@ -26696,6 +27718,13 @@
    "night": "2027-04-17",
    "venue": "Le Bataclan",
    "photo": "https://i.scdn.co/image/ab6761610000f1786363b3a1630b8811a4d3d718"
+  },
+  {
+   "id": "9b99120b4805",
+   "name": "Walid",
+   "night": "2026-12-17",
+   "venue": "Panic Room",
+   "photo": "https://cdn-images.dzcdn.net/images/artist/79c7be70b8f4862162ca035e81aca189/250x250-000000-80-0-0.jpg"
   },
   {
    "id": "8c78c4cd9f97",
