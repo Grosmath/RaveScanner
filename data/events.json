@@ -1,20 +1,20 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-25T19:00:15Z",
+ "generated_at": "2026-11-26T03:27:16Z",
  "city": "montreal",
  "city_label": "Montréal",
  "timezone": "America/Toronto",
  "demo": false,
  "window": {
-  "start": "2026-11-25",
-  "end": "2027-05-24"
+  "start": "2026-11-26",
+  "end": "2027-05-25"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 188
+   "events": 186
   },
   {
    "id": "piknic",
@@ -34,7 +34,7 @@
   {
    "id": "ticketmaster",
    "ok": true,
-   "events": 39
+   "events": 40
   }
  ],
  "venue_order": [
@@ -62,6 +62,7 @@
   "fonderie-darling",
   "le-balcon",
   "la-recre",
+  "la-sotterenea",
   "nwhr",
   "white-wall-studio",
   "blue-room",
@@ -71,10 +72,10 @@
   "tba-montreal",
   "cabaret-berlin",
   "esc",
-  "sans-soleil",
   "cafe-social-b-hive",
   "club-soda",
   "le-ritz",
+  "sans-soleil",
   "100lux",
   "barbossa",
   "ctrllab-art-house-and-gallery",
@@ -293,6 +294,16 @@
   {
    "id": "la-recre",
    "name": "La Récré",
+   "type": "club",
+   "tier": 1,
+   "capacity": null,
+   "address": "",
+   "url": "",
+   "genres": []
+  },
+  {
+   "id": "la-sotterenea",
+   "name": "La Sotterenea",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1014,8 +1025,8 @@
    "id": "blvnkspvce",
    "name": "BLVNKSPVCE",
    "tier": 0,
-   "score": 27,
-   "popularity": 27,
+   "score": 25,
+   "popularity": 25,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17864071750d8452e7463342e9e",
    "known": false
@@ -1154,6 +1165,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "cel-genesis",
+   "name": "Cel Genesis",
+   "tier": 0,
+   "score": 28,
+   "popularity": 28,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1786e7956ce199b7e156c77d8d6",
    "known": false
   },
   {
@@ -1757,16 +1778,6 @@
    "known": false
   },
   {
-   "id": "emiliano-chamandy",
-   "name": "Emiliano Chamandy",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
    "id": "emn-1",
    "name": "EMN (1)",
    "tier": 0,
@@ -1894,6 +1905,16 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17853dd55bfd23007b0a1682348",
+   "known": false
+  },
+  {
+   "id": "flleur",
+   "name": "Flleur",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
    "known": false
   },
   {
@@ -2874,7 +2895,7 @@
    "score": 57,
    "popularity": 57,
    "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17869d09de64471e6828da3b367",
+   "image": "https://i.scdn.co/image/ab6761610000f17871942d06133f14249f90281f",
    "known": false
   },
   {
@@ -3274,8 +3295,8 @@
    "id": "modal-nodes",
    "name": "Modal Nodes",
    "tier": 0,
-   "score": 29,
-   "popularity": 29,
+   "score": 30,
+   "popularity": 30,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e23a1e0110e1ef89bc5da2ab",
    "known": false
@@ -3718,16 +3739,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "ponsif",
-   "name": "Ponsif",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178d84baf6caacb3cb30e35bbb3",
    "known": false
   },
   {
@@ -4304,6 +4315,16 @@
    "known": false
   },
   {
+   "id": "the-body",
+   "name": "The Body",
+   "tier": 0,
+   "score": 35,
+   "popularity": 35,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1783c20908ca043758a63837de6",
+   "known": false
+  },
+  {
    "id": "the-holy-1",
    "name": "THE HOLY (1)",
    "tier": 0,
@@ -4675,89 +4696,6 @@
   }
  ],
  "events": [
-  {
-   "id": "26d586c9f157",
-   "title": "DOWN2TECHNO: Every Wednesday",
-   "venue_id": "le-red-room",
-   "night": "2026-11-25",
-   "start": "2026-11-25T22:00:00.000",
-   "end": "2026-11-26T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "no-police",
-     "name": "No Police",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ponsif",
-     "name": "Ponsif",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2576450",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2576450"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : No Police (0)",
-     "lieu : Le Red Room (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "0e2ec37b2706",
-   "title": "Seer Record Co.",
-   "venue_id": "sans-soleil",
-   "night": "2026-11-25",
-   "start": "2026-11-25T20:00:00.000",
-   "end": "2026-11-26T03:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "emiliano-chamandy",
-     "name": "Emiliano Chamandy",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2593158",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2593158"
-    }
-   ],
-   "interest": {
-    "score": 6,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Emiliano Chamandy (0)",
-     "lieu : Sans Soleil (palier 1)"
-    ]
-   }
-  },
   {
    "id": "e3faa9d33f4b",
    "title": "27 Years of Stereo: Carl Cox - Ostrich",
@@ -6522,6 +6460,63 @@
    }
   },
   {
+   "id": "f9bd0aa2d7fd",
+   "title": "T.I.T.S",
+   "venue_id": "salon-daome",
+   "night": "2026-11-28",
+   "start": "2026-11-28T22:30:00.000",
+   "end": "2026-11-29T06:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "ccil",
+     "name": "ccil",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "no-police",
+     "name": "No Police",
+     "billing": "support"
+    },
+    {
+     "artist_id": "inside-blur",
+     "name": "Inside Blur",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "house",
+    "trance",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "House",
+    "Électro & bass",
+    "Trance & hard"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2568611",
+   "event_url": "https://ra.co/events/2568611",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2568611"
+    }
+   ],
+   "interest": {
+    "score": 18,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : ccil (8)",
+     "lieu : Salon Daome (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "5a900c8f23f5",
    "title": "Vino Disco Saturdays: Ultreme, Tali Rose, YVNNI, Giuliano (EXTENDED 6AM)",
    "venue_id": "vino-disco",
@@ -6777,56 +6772,6 @@
    }
   },
   {
-   "id": "f9bd0aa2d7fd",
-   "title": "T.I.T.S",
-   "venue_id": "salon-daome",
-   "night": "2026-11-28",
-   "start": "2026-11-28T22:30:00.000",
-   "end": "2026-11-29T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "no-police",
-     "name": "No Police",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "inside-blur",
-     "name": "Inside Blur",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "house",
-    "trance"
-   ],
-   "families": [
-    "Techno",
-    "House",
-    "Trance & hard"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2568611",
-   "event_url": "https://ra.co/events/2568611",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2568611"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : No Police (0)",
-     "lieu : Salon Daome (palier 2)"
-    ]
-   }
-  },
-  {
    "id": "e8dd5c941fd8",
    "title": "VAMPIRE DISKO DEBUT AT CABARET",
    "venue_id": "cabaret-berlin",
@@ -7010,6 +6955,11 @@
      "artist_id": "baby-jane",
      "name": "Baby Jane",
      "billing": "headliner"
+    },
+    {
+     "artist_id": "flleur",
+     "name": "Flleur",
+     "billing": "support"
     }
    ],
    "genres": [
@@ -11132,10 +11082,9 @@
     }
    ],
    "genres": [
-    "disco",
     "electro",
-    "funk / soul",
-    "house"
+    "house",
+    "disco"
    ],
    "families": [
     "House",
@@ -13211,10 +13160,9 @@
     }
    ],
    "genres": [
-    "disco",
     "electro",
-    "funk / soul",
-    "house"
+    "house",
+    "disco"
    ],
    "families": [
     "House",
@@ -14205,6 +14153,50 @@
    }
   },
   {
+   "id": "6227e2442323",
+   "title": "THE BODY & CEL GENESIS",
+   "venue_id": "la-sotterenea",
+   "night": "2027-03-25",
+   "start": "2027-03-25T20:30:00-04:00",
+   "end": null,
+   "lineup": [
+    {
+     "artist_id": "the-body",
+     "name": "The Body",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "cel-genesis",
+     "name": "Cel Genesis",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "electronic"
+   ],
+   "families": [],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://www.universe.com/events/the-body-cel-genesis-tickets-X819SM?ref=ticketmaster",
+   "event_url": "https://www.universe.com/events/the-body-cel-genesis-tickets-X819SM?ref=ticketmaster",
+   "image": "https://images.universe.com/94a633f7-017b-43f0-83a9-dff6e53f6dee/-/resize/1200x/-/crop/805x805/196,0/-/format/jpeg/-/scale_crop/1024x683/center/-/progressive/yes/-/inline/yes/",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.universe.com/events/the-body-cel-genesis-tickets-X819SM?ref=ticketmaster"
+    }
+   ],
+   "interest": {
+    "score": 31,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : The Body (35)",
+     "lieu : La Sotterenea (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "e7d3dc7f050a",
    "title": "Calema - Montréal",
    "venue_id": "mtelus",
@@ -14947,25 +14939,11 @@
    "photo": "https://i.scdn.co/image/ab6761610000f178ed0bc6bdd8ccf963d18d0559"
   },
   {
-   "id": "87b7e80a7fd7",
-   "name": "Angrybaby",
-   "night": "2027-03-20",
-   "venue": "Newspeak",
-   "photo": "https://i.scdn.co/image/ab6761610000f178f24bed2a1f9b13313abf26f3"
-  },
-  {
    "id": "dc454bce3b2c",
    "name": "What So Not",
    "night": "2027-02-13",
    "venue": "Newspeak",
    "photo": "https://i.scdn.co/image/ab6761610000f17879a39824730c531699fcee3c"
-  },
-  {
-   "id": "3363444931d8",
-   "name": "Conrad Taylor",
-   "night": "2026-12-12",
-   "venue": "Newspeak",
-   "photo": "https://i.scdn.co/image/ab6761610000f1787e5a049c9fa8419cbf25777f"
   },
   {
    "id": "dff3783b17c3",
@@ -14980,13 +14958,6 @@
    "night": "2027-02-06",
    "venue": "SAT",
    "photo": "https://i.scdn.co/image/ab6761610000f178cced75f80321d6de65731d28"
-  },
-  {
-   "id": "b957e7777232",
-   "name": "Midnight Mass",
-   "night": "2026-12-12",
-   "venue": "Le Red Room",
-   "photo": "https://i.scdn.co/image/ab6761610000f17807d236ee61152b4fad8b1e6a"
   }
  ],
  "families": [
@@ -15098,7 +15069,7 @@
    "time": "19:00 → 22:30",
    "tier": 2,
    "reason": "",
-   "supports": "",
+   "supports": "Flleur",
    "subtitle": "",
    "footer": "",
    "footer2": "",

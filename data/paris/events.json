@@ -1,25 +1,25 @@
 {
  "schema_version": 1,
  "engine_version": "0.1.0",
- "generated_at": "2026-11-25T19:01:14Z",
+ "generated_at": "2026-11-26T03:28:04Z",
  "city": "paris",
  "city_label": "Paris",
  "timezone": "Europe/Paris",
  "demo": false,
  "window": {
-  "start": "2026-11-25",
-  "end": "2027-05-24"
+  "start": "2026-11-26",
+  "end": "2027-05-25"
  },
  "sources": [
   {
    "id": "ra",
    "ok": true,
-   "events": 391
+   "events": 382
   },
   {
    "id": "dice",
    "ok": true,
-   "events": 37
+   "events": 36
   }
  ],
  "venue_order": [
@@ -27,19 +27,19 @@
   "phantom-paris",
   "fvtvr",
   "sacre",
-  "gate-club-paris",
+  "la-java",
   "la-defense-arena",
   "mia-mao",
   "plage-de-torcy",
   "essaim",
   "central-chapelle",
+  "gate-club-paris",
   "104-centquatre",
   "la-bellevilloise",
   "panic-room",
   "cabaret-sauvage",
   "la-cite-fertile",
   "le-trabendo",
-  "la-java",
   "elysee-montmartre",
   "silencio",
   "la-machine-du-moulin-rouge",
@@ -53,14 +53,12 @@
   "miniwax",
   "cite-de-la-musique",
   "le-bataclan",
-  "tba",
   "point-ephemere",
+  "tba",
   "zenith-paris-la-villette",
   "pamela-club",
-  "glazart",
   "la-maison-de-la-conversation",
   "la-cigale",
-  "le-pop-up-du-label",
   "solum",
   "la-maroquinerie",
   "nouveau-casino",
@@ -78,17 +76,17 @@
   "le-211",
   "tba-villa-riberolle-75020-paris-france",
   "le-mazette",
+  "glazart",
   "tba-secret-place",
   "eglise-saint-eustache",
   "la-gare-le-gore",
   "le-poisson-volant",
   "espace-francis-delage-salle-concorde",
-  "la-boule-noire",
   "la-marbrerie",
-  "studio56",
   "bourse-de-commerce-pinault-collection",
   "les-relais-solidaires",
   "le-9b",
+  "studio56",
   "l-olympia",
   "mains-doeuvres",
   "42-marches",
@@ -98,6 +96,7 @@
   "instants-chavires",
   "a-la-folie-paris",
   "le-discobar",
+  "workshow",
   "communale-saint-ouen",
   "dock-b",
   "tba-aubervilliers",
@@ -113,7 +112,6 @@
   "le-gambetta-club",
   "le-son-de-la-terre",
   "le-zeralda",
-  "littleroom",
   "magasins-generaux",
   "philharmonie-de-paris",
   "punk-paradise",
@@ -122,7 +120,6 @@
   "tba-kolo",
   "tba-le-tlm-paris-105-rue-curial-75019-paris-france",
   "tiki-playa",
-  "workshow",
   "la-mecanique-ondulatoire",
   "poush",
   "swell-dance",
@@ -471,16 +468,6 @@
    "genres": []
   },
   {
-   "id": "la-boule-noire",
-   "name": "La Boule Noire",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "la-buvette-de-l-academie-du-climat",
    "name": "La Buvette de L'académie du Climat",
    "type": "club",
@@ -760,16 +747,6 @@
    "genres": []
   },
   {
-   "id": "le-pop-up-du-label",
-   "name": "Le Pop-Up du Label",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
    "id": "le-son-de-la-terre",
    "name": "Le Son de la Terre",
    "type": "club",
@@ -815,16 +792,6 @@
   {
    "id": "les-relais-solidaires",
    "name": "Les Relais Solidaires",
-   "type": "club",
-   "tier": 1,
-   "capacity": null,
-   "address": "",
-   "url": "",
-   "genres": []
-  },
-  {
-   "id": "littleroom",
-   "name": "Littleroom",
    "type": "club",
    "tier": 1,
    "capacity": null,
@@ -1943,6 +1910,16 @@
    "known": false
   },
   {
+   "id": "aymen",
+   "name": "Aymen",
+   "tier": 0,
+   "score": 73,
+   "popularity": 73,
+   "genres": [],
+   "image": "https://i.scdn.co/image/ab6761610000f1782765454887fd49a52c1f44c4",
+   "known": false
+  },
+  {
    "id": "azamat-b",
    "name": "Azamat B.",
    "tier": 0,
@@ -2918,16 +2895,6 @@
    "known": false
   },
   {
-   "id": "davera",
-   "name": "Davera",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851e8bcd16ac383c9b060a9745c",
-   "known": false
-  },
-  {
    "id": "david-asko",
    "name": "David Asko",
    "tier": 0,
@@ -3175,16 +3142,6 @@
    "popularity": 16,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f17898cc44fa9f97a32becbe6c18",
-   "known": false
-  },
-  {
-   "id": "dj-daddy-k",
-   "name": "DJ Daddy K",
-   "tier": 0,
-   "score": 14,
-   "popularity": 14,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485179350ba69af7c2bbaefa1c52",
    "known": false
   },
   {
@@ -3438,8 +3395,8 @@
    "known": false
   },
   {
-   "id": "electroller",
-   "name": "Electroller",
+   "id": "electroroller",
+   "name": "ElectroRoller",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -4674,16 +4631,6 @@
    "known": false
   },
   {
-   "id": "janus-rasmussen",
-   "name": "Janus Rasmussen",
-   "tier": 0,
-   "score": 57,
-   "popularity": 57,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f17812925eed026303f3601761d4",
-   "known": false
-  },
-  {
    "id": "japan-calling-mia-mao-2nd-anniversary",
    "name": "JAPAN CALLING - MIA MAO 2ND ANNIVERSARY",
    "tier": 0,
@@ -4857,8 +4804,8 @@
    "id": "julian-fijma",
    "name": "Julian Fijma",
    "tier": 0,
-   "score": 65,
-   "popularity": 65,
+   "score": 69,
+   "popularity": 69,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178ced0f40aac584f79965fd528",
    "known": false
@@ -5121,16 +5068,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "klaps",
-   "name": "Klaps",
-   "tier": 0,
-   "score": 42,
-   "popularity": 42,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178f221db746fd1b96753229dd9",
    "known": false
   },
   {
@@ -5411,6 +5348,16 @@
    "popularity": null,
    "genres": [],
    "image": "",
+   "known": false
+  },
+  {
+   "id": "laps",
+   "name": "Laps",
+   "tier": 0,
+   "score": 10,
+   "popularity": 10,
+   "genres": [],
+   "image": "https://cdn-images.dzcdn.net/images/artist/3aa589ca0fd5d5be0c581fc827e5fd65/250x250-000000-80-0-0.jpg",
    "known": false
   },
   {
@@ -5731,16 +5678,6 @@
    "popularity": 55,
    "genres": [],
    "image": "https://i.scdn.co/image/ab6761610000f178e2e8375569f8a7037288e7f3",
-   "known": false
-  },
-  {
-   "id": "ltmg",
-   "name": "Ltmg",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178e2c33244be4b40cf3f77316c",
    "known": false
   },
   {
@@ -6656,6 +6593,16 @@
    "known": false
   },
   {
+   "id": "morning-deviance-big-official-after-party",
+   "name": "MORNING DEVIANCE - BIG Official After Party",
+   "tier": 0,
+   "score": 8,
+   "popularity": null,
+   "genres": [],
+   "image": "",
+   "known": false
+  },
+  {
    "id": "moulin",
    "name": "Moulin",
    "tier": 0,
@@ -6859,16 +6806,6 @@
    "known": false
   },
   {
-   "id": "night-sl4yer",
-   "name": "Night Sl4yer",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
-   "known": false
-  },
-  {
    "id": "nightchou",
    "name": "Nightchou",
    "tier": 0,
@@ -6969,16 +6906,6 @@
    "known": false
   },
   {
-   "id": "ntbr",
-   "name": "NTBR",
-   "tier": 0,
-   "score": 29,
-   "popularity": 29,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f1781b0251afe0cba39862ef2201",
-   "known": false
-  },
-  {
    "id": "nto",
    "name": "NTO",
    "tier": 0,
@@ -7076,16 +7003,6 @@
    "popularity": null,
    "genres": [],
    "image": "",
-   "known": false
-  },
-  {
-   "id": "okulte",
-   "name": "Okulte",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d0000485113d366f4e8e9899ed7b4513e",
    "known": false
   },
   {
@@ -7206,16 +7123,6 @@
    "popularity": 23,
    "genres": [],
    "image": "https://cdn-images.dzcdn.net/images/artist/ba153f5f182d4cd0981fd10b10f55fde/250x250-000000-80-0-0.jpg",
-   "known": false
-  },
-  {
-   "id": "pagos-paris-to-lagos",
-   "name": "PAGOS (PARIS TO LAGOS)",
-   "tier": 0,
-   "score": 8,
-   "popularity": null,
-   "genres": [],
-   "image": "",
    "known": false
   },
   {
@@ -7466,16 +7373,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851879624fe742aa29cabbc4b57",
-   "known": false
-  },
-  {
-   "id": "placiid",
-   "name": "Placiid",
-   "tier": 0,
-   "score": 0,
-   "popularity": 0,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178f5cc6f41d7772715fc6c4ee7",
    "known": false
   },
   {
@@ -8629,16 +8526,6 @@
    "known": false
   },
   {
-   "id": "thx4crying",
-   "name": "Thx4Crying",
-   "tier": 0,
-   "score": 32,
-   "popularity": 32,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab6761610000f178701a8a202ac19a64e9789775",
-   "known": false
-  },
-  {
    "id": "tiga",
    "name": "Tiga",
    "tier": 0,
@@ -8866,16 +8753,6 @@
    "popularity": 0,
    "genres": [],
    "image": "https://i.scdn.co/image/ab67616d00004851b674abb14e53671ef2061dc3",
-   "known": false
-  },
-  {
-   "id": "una",
-   "name": "UNA",
-   "tier": 0,
-   "score": 18,
-   "popularity": 18,
-   "genres": [],
-   "image": "https://i.scdn.co/image/ab67616d00004851606cbe64be2ece872469f0b1",
    "known": false
   },
   {
@@ -9129,8 +9006,8 @@
    "known": false
   },
   {
-   "id": "workshop-2",
-   "name": "Workshop #2",
+   "id": "workshop-1",
+   "name": "Workshop #1",
    "tier": 0,
    "score": 8,
    "popularity": null,
@@ -9280,360 +9157,6 @@
   }
  ],
  "events": [
-  {
-   "id": "1c500d8a62ca",
-   "title": "B-BOY ISH : BOB SINCLAR",
-   "venue_id": "gate-club-paris",
-   "night": "2026-11-25",
-   "start": "2026-11-25T21:00:00+01:00",
-   "end": "2026-11-27T03:00:00+01:00",
-   "lineup": [
-    {
-     "artist_id": "bob-sinclar",
-     "name": "Bob Sinclar",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "dj-daddy-k",
-     "name": "DJ Daddy K",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "house",
-    "french house"
-   ],
-   "families": [
-    "House"
-   ],
-   "price_min": 22.01,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/nvx2bq-b-boy-ish-bob-sinclar-25th-nov-gate-club-paris-paris-tickets",
-   "event_url": "https://dice.fm/event/nvx2bq-b-boy-ish-bob-sinclar-25th-nov-gate-club-paris-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-08-27/73b62f57-a88e-4d36-8998-6d083f3de40b.jpg?rect=678%2C0%2C1716%2C1716",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/nvx2bq-b-boy-ish-bob-sinclar-25th-nov-gate-club-paris-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 73,
-    "tier": 2,
-    "reasons": [
-     "tête d'affiche : Bob Sinclar (93)",
-     "lieu : GATE CLUB PARIS (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "a1a4f154d21e",
-   "title": "Janus Rasmussen (live)",
-   "venue_id": "le-pop-up-du-label",
-   "night": "2026-11-25",
-   "start": "2026-11-25T20:00:00.000",
-   "end": "2026-11-25T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "janus-rasmussen",
-     "name": "Janus Rasmussen",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "idm",
-    "electronica"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2529285",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2529285"
-    }
-   ],
-   "interest": {
-    "score": 47,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Janus Rasmussen (57)",
-     "lieu : Le Pop-Up du Label (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "2c417b4e7f24",
-   "title": "Vice City presents: Myman, NTBR, Placiid",
-   "venue_id": "rex-club",
-   "night": "2026-11-25",
-   "start": "2026-11-25T23:59:00.000",
-   "end": "2026-11-26T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "ntbr",
-     "name": "NTBR",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "placiid",
-     "name": "Placiid",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno"
-   ],
-   "families": [
-    "Techno"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2565319",
-   "event_url": "https://ra.co/events/2565319",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2565319"
-    }
-   ],
-   "interest": {
-    "score": 39,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : NTBR (29)",
-     "lieu : Rex Club (palier 3)"
-    ]
-   }
-  },
-  {
-   "id": "e44c9bc6e408",
-   "title": "Thx4Crying",
-   "venue_id": "la-boule-noire",
-   "night": "2026-11-25",
-   "start": "2026-11-25T19:30:00.000",
-   "end": "2026-11-25T23:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "thx4crying",
-     "name": "Thx4Crying",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "pop",
-    "club"
-   ],
-   "families": [
-    "Pop & club"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2479615",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2479615"
-    }
-   ],
-   "interest": {
-    "score": 29,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Thx4Crying (32)",
-     "lieu : La Boule Noire (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "52078c1e34a8",
-   "title": "UNA",
-   "venue_id": "panic-room",
-   "night": "2026-11-25",
-   "start": "2026-11-25T19:00:00.000",
-   "end": "2026-11-26T02:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "una",
-     "name": "UNA",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "house",
-    "disco"
-   ],
-   "families": [
-    "House",
-    "Disco & funk"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2571475",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2571475"
-    }
-   ],
-   "interest": {
-    "score": 19,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : UNA (18)",
-     "lieu : Panic Room (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "a6fe29cab60a",
-   "title": "Resonance W/ Ltmg , Okulte , Night Sl4yer",
-   "venue_id": "studio56",
-   "night": "2026-11-25",
-   "start": "2026-11-25T23:59:00.000",
-   "end": "2026-11-26T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "night-sl4yer",
-     "name": "Night Sl4yer",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ltmg",
-     "name": "Ltmg",
-     "billing": "support"
-    },
-    {
-     "artist_id": "okulte",
-     "name": "Okulte",
-     "billing": "support"
-    }
-   ],
-   "genres": [],
-   "families": [],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2591193",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2591193"
-    }
-   ],
-   "interest": {
-    "score": 18,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Night Sl4yer (8)",
-     "lieu : Studio56 (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "b2693647be44",
-   "title": "PAGOS (PARIS TO LAGOS)",
-   "venue_id": "littleroom",
-   "night": "2026-11-25",
-   "start": "2026-11-25T23:45:00+01:00",
-   "end": "2026-11-26T05:00:00+01:00",
-   "lineup": [
-    {
-     "artist_id": "pagos-paris-to-lagos",
-     "name": "PAGOS (PARIS TO LAGOS)",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "electronic"
-   ],
-   "families": [],
-   "price_min": 0.0,
-   "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/qnxvgx-pagos-paris-to-lagos-25th-nov-littleroom-paris-tickets",
-   "event_url": "https://dice.fm/event/qnxvgx-pagos-paris-to-lagos-25th-nov-littleroom-paris-tickets",
-   "image": "https://dice-media.imgix.net/attachments/2026-11-22/e48edd4a-39f8-4d2e-a464-f1580adef5c0.jpg?rect=0%2C135%2C1080%2C1080",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "dice",
-     "url": "https://dice.fm/event/qnxvgx-pagos-paris-to-lagos-25th-nov-littleroom-paris-tickets"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : PAGOS (PARIS TO LAGOS) (8)",
-     "lieu : Littleroom (palier 1)"
-    ]
-   }
-  },
-  {
-   "id": "d79d59a69269",
-   "title": "PYGMENTS: Davera & In-Tan",
-   "venue_id": "la-gare-le-gore",
-   "night": "2026-11-25",
-   "start": "2026-11-25T23:59:00.000",
-   "end": "2026-11-26T06:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "davera",
-     "name": "Davera",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "in-tan",
-     "name": "In-Tan",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "house"
-   ],
-   "families": [
-    "Techno",
-    "House"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2577369",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2577369"
-    }
-   ],
-   "interest": {
-    "score": 12,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Davera (8)",
-     "lieu : La Gare / Le Gore (palier 1)"
-    ]
-   }
-  },
   {
    "id": "489631914bc1",
    "title": "3AM",
@@ -11821,6 +11344,49 @@
    }
   },
   {
+   "id": "c4b61d54314d",
+   "title": "MORNING DEVIANCE - BIG Official After Party",
+   "venue_id": "workshow",
+   "night": "2026-11-27",
+   "start": "2026-11-28T05:00:00.000",
+   "end": "2026-11-28T12:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "morning-deviance-big-official-after-party",
+     "name": "MORNING DEVIANCE - BIG Official After Party",
+     "billing": "headliner"
+    }
+   ],
+   "genres": [
+    "house",
+    "electro"
+   ],
+   "families": [
+    "House",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2590578",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2590578"
+    }
+   ],
+   "interest": {
+    "score": 12,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : MORNING DEVIANCE - BIG Official After Party (8)",
+     "lieu : Workshow (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "ed3c213f236c",
    "title": "NO PARKING ON THE DANCEFLOOR",
    "venue_id": "pamela-club",
@@ -13147,6 +12713,59 @@
    }
   },
   {
+   "id": "a5061535dda9",
+   "title": "Laps x Ambrio / Workshop #1",
+   "venue_id": "tba",
+   "night": "2026-11-28",
+   "start": "2026-11-28T14:00:00.000",
+   "end": "2026-11-28T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "laps",
+     "name": "Laps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ambrio",
+     "name": "Ambrio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "workshop-1",
+     "name": "Workshop #1",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "footwork"
+   ],
+   "families": [
+    "Électro & bass",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583960",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583960"
+    }
+   ],
+   "interest": {
+    "score": 13,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Laps (10)",
+     "lieu : TBA (palier 1)"
+    ]
+   }
+  },
+  {
    "id": "4deb4025ed62",
    "title": "Otter Space 3rd Anniversary: Umberto! , Marabou, Burachos",
    "venue_id": "42-marches",
@@ -13643,10 +13262,6 @@
     {
      "id": "ra",
      "url": "https://ra.co/events/2570596"
-    },
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2570596"
     }
    ],
    "interest": {
@@ -13687,10 +13302,6 @@
    "image": "",
    "status": "confirmed",
    "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2571637"
-    },
     {
      "id": "ra",
      "url": "https://ra.co/events/2571637"
@@ -16634,59 +16245,6 @@
    }
   },
   {
-   "id": "f7a800eb41dd",
-   "title": "AFTER O'CLOCK: Klaps, MZA, DIGEM0M0",
-   "venue_id": "glazart",
-   "night": "2026-12-05",
-   "start": "2026-12-05T06:00:00.000",
-   "end": "2026-12-05T16:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "klaps",
-     "name": "Klaps",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "mza",
-     "name": "MZA (FR)",
-     "billing": "support"
-    },
-    {
-     "artist_id": "dige-m0m0",
-     "name": "Digé m0m0",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "techno",
-    "garage"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2593591",
-   "event_url": "https://ra.co/events/2593591",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2593591"
-    }
-   ],
-   "interest": {
-    "score": 42,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Klaps (42)",
-     "lieu : Glazart (palier 2)"
-    ]
-   }
-  },
-  {
    "id": "627168c614c6",
    "title": "Guettapen Invites Mirage",
    "venue_id": "petit-bain",
@@ -16932,59 +16490,6 @@
    }
   },
   {
-   "id": "b22d64352c52",
-   "title": "Laps x Ambrio / Workshop #2",
-   "venue_id": "tba",
-   "night": "2026-12-05",
-   "start": "2026-12-05T14:00:00.000",
-   "end": "2026-12-05T18:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "klaps",
-     "name": "Klaps",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ambrio",
-     "name": "Ambrio",
-     "billing": "support"
-    },
-    {
-     "artist_id": "workshop-2",
-     "name": "Workshop #2",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "experimental",
-    "baile funk"
-   ],
-   "families": [
-    "Afro & latin",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2583963",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583963"
-    }
-   ],
-   "interest": {
-    "score": 36,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Klaps (42)",
-     "lieu : TBA (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "a45fc1841754",
    "title": "Reflect presents: Chippy Nonstop, Saligo, Sorun b2b V.I.E",
    "venue_id": "rex-club",
@@ -17163,6 +16668,59 @@
     "reasons": [
      "tête d'affiche : Decoder (26)",
      "lieu : essaim (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "f7a800eb41dd",
+   "title": "AFTER O'CLOCK: Klaps, MZA, DIGEM0M0",
+   "venue_id": "glazart",
+   "night": "2026-12-05",
+   "start": "2026-12-05T06:00:00.000",
+   "end": "2026-12-05T16:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "laps",
+     "name": "Laps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "mza",
+     "name": "MZA (FR)",
+     "billing": "support"
+    },
+    {
+     "artist_id": "dige-m0m0",
+     "name": "Digé m0m0",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "garage"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593591",
+   "event_url": "https://ra.co/events/2593591",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593591"
+    }
+   ],
+   "interest": {
+    "score": 19,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Laps (10)",
+     "lieu : Glazart (palier 2)"
     ]
    }
   },
@@ -17382,6 +16940,59 @@
     "reasons": [
      "tête d'affiche : YOUR LOCAL HOUSE CLUB (8)",
      "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "b22d64352c52",
+   "title": "Laps x Ambrio / Workshop #2",
+   "venue_id": "tba",
+   "night": "2026-12-05",
+   "start": "2026-12-05T14:00:00.000",
+   "end": "2026-12-05T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "laps",
+     "name": "Laps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ambrio",
+     "name": "Ambrio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "workshop-1",
+     "name": "Workshop #1",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "baile funk"
+   ],
+   "families": [
+    "Afro & latin",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583963",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583963"
+    }
+   ],
+   "interest": {
+    "score": 13,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Laps (10)",
+     "lieu : TBA (palier 1)"
     ]
    }
   },
@@ -20177,59 +19788,6 @@
    }
   },
   {
-   "id": "1bc738307a54",
-   "title": "Laps X Ambrio / Workshop #3",
-   "venue_id": "tba",
-   "night": "2026-12-12",
-   "start": "2026-12-12T14:00:00.000",
-   "end": "2026-12-12T18:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "klaps",
-     "name": "Klaps",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ambrio",
-     "name": "Ambrio",
-     "billing": "support"
-    },
-    {
-     "artist_id": "workshop-2",
-     "name": "Workshop #2",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "experimental",
-    "dub techno"
-   ],
-   "families": [
-    "Techno",
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2583965",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583965"
-    }
-   ],
-   "interest": {
-    "score": 36,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Klaps (42)",
-     "lieu : TBA (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "857dc626c2f2",
    "title": "Sacré présente: The Disco Express",
    "venue_id": "sacre",
@@ -20597,6 +20155,59 @@
     "reasons": [
      "tête d'affiche : YOUR LOCAL HOUSE CLUB (8)",
      "lieu : Badaboum (palier 2)"
+    ]
+   }
+  },
+  {
+   "id": "1bc738307a54",
+   "title": "Laps X Ambrio / Workshop #3",
+   "venue_id": "tba",
+   "night": "2026-12-12",
+   "start": "2026-12-12T14:00:00.000",
+   "end": "2026-12-12T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "laps",
+     "name": "Laps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ambrio",
+     "name": "Ambrio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "workshop-1",
+     "name": "Workshop #1",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "dub techno"
+   ],
+   "families": [
+    "Techno",
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583965",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583965"
+    }
+   ],
+   "interest": {
+    "score": 13,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Laps (10)",
+     "lieu : TBA (palier 1)"
     ]
    }
   },
@@ -21896,6 +21507,58 @@
    }
   },
   {
+   "id": "1f7273438b98",
+   "title": "Vanille, Hebi Snake B2b Jockey Narval & More: Taste",
+   "venue_id": "la-java",
+   "night": "2026-12-18",
+   "start": "2026-12-18T23:30:00.000",
+   "end": "2026-12-19T07:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "aymen",
+     "name": "Aymen",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "vanille",
+     "name": "Vanille",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "techno",
+    "electro"
+   ],
+   "families": [
+    "Techno",
+    "Électro & bass"
+   ],
+   "price_min": 14.0,
+   "currency": "CAD",
+   "ticket_url": "https://ra.co/events/2593614",
+   "event_url": "https://ra.co/events/2593614",
+   "image": "https://dice-media.imgix.net/attachments/2026-11-25/b35d7e3c-0972-4f45-a6c0-c0b4b7f7a5f5.jpg?rect=778%2C0%2C2730%2C2730",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2593614"
+    },
+    {
+     "id": "dice",
+     "url": "https://dice.fm/event/w83mrv-vanille-hebi-snake-b2b-jockey-narval-more-taste-18th-dec-la-java-paris-tickets"
+    }
+   ],
+   "interest": {
+    "score": 65,
+    "tier": 2,
+    "reasons": [
+     "tête d'affiche : Aymen (73)",
+     "lieu : La Java (palier 2)"
+    ]
+   }
+  },
+  {
    "id": "d2f6765cd5d8",
    "title": "Rex Club presents: Helena Hauff, The Hacker",
    "venue_id": "rex-club",
@@ -21986,49 +21649,6 @@
     "reasons": [
      "tête d'affiche : p-rallel (58)",
      "lieu : Sacré (palier 2)"
-    ]
-   }
-  },
-  {
-   "id": "1f7273438b98",
-   "title": "Vanille, Hebi Snake B2b Jockey Narval & More: Taste",
-   "venue_id": "la-java",
-   "night": "2026-12-18",
-   "start": "2026-12-18T23:30:00.000",
-   "end": "2026-12-19T07:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "vanille",
-     "name": "Vanille",
-     "billing": "headliner"
-    }
-   ],
-   "genres": [
-    "techno",
-    "electro"
-   ],
-   "families": [
-    "Techno",
-    "Électro & bass"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "https://ra.co/events/2593614",
-   "event_url": "https://ra.co/events/2593614",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2593614"
-    }
-   ],
-   "interest": {
-    "score": 52,
-    "tier": 1,
-    "reasons": [
-     "tête d'affiche : Vanille (55)",
-     "lieu : La Java (palier 2)"
     ]
    }
   },
@@ -23196,58 +22816,6 @@
    }
   },
   {
-   "id": "fe7f8b18ec9b",
-   "title": "Laps X Ambrio / Workshop #4",
-   "venue_id": "tba",
-   "night": "2026-12-19",
-   "start": "2026-12-19T14:00:00.000",
-   "end": "2026-12-19T18:00:00.000",
-   "lineup": [
-    {
-     "artist_id": "klaps",
-     "name": "Klaps",
-     "billing": "headliner"
-    },
-    {
-     "artist_id": "ambrio",
-     "name": "Ambrio",
-     "billing": "support"
-    },
-    {
-     "artist_id": "workshop-2",
-     "name": "Workshop #2",
-     "billing": "support"
-    }
-   ],
-   "genres": [
-    "experimental",
-    "classical"
-   ],
-   "families": [
-    "Expérimental"
-   ],
-   "price_min": null,
-   "currency": "CAD",
-   "ticket_url": "",
-   "event_url": "https://ra.co/events/2583970",
-   "image": "",
-   "status": "confirmed",
-   "sources": [
-    {
-     "id": "ra",
-     "url": "https://ra.co/events/2583970"
-    }
-   ],
-   "interest": {
-    "score": 36,
-    "tier": 0,
-    "reasons": [
-     "tête d'affiche : Klaps (42)",
-     "lieu : TBA (palier 1)"
-    ]
-   }
-  },
-  {
    "id": "55e87f61f28f",
    "title": "Club Humide - CLOSING 2026",
    "venue_id": "la-station-gare-des-mines",
@@ -23509,6 +23077,58 @@
     "reasons": [
      "tête d'affiche : Emi Ömar (14)",
      "lieu : La Rotonde Stalingrad (palier 1)"
+    ]
+   }
+  },
+  {
+   "id": "fe7f8b18ec9b",
+   "title": "Laps X Ambrio / Workshop #4",
+   "venue_id": "tba",
+   "night": "2026-12-19",
+   "start": "2026-12-19T14:00:00.000",
+   "end": "2026-12-19T18:00:00.000",
+   "lineup": [
+    {
+     "artist_id": "laps",
+     "name": "Laps",
+     "billing": "headliner"
+    },
+    {
+     "artist_id": "ambrio",
+     "name": "Ambrio",
+     "billing": "support"
+    },
+    {
+     "artist_id": "workshop-1",
+     "name": "Workshop #1",
+     "billing": "support"
+    }
+   ],
+   "genres": [
+    "experimental",
+    "classical"
+   ],
+   "families": [
+    "Expérimental"
+   ],
+   "price_min": null,
+   "currency": "CAD",
+   "ticket_url": "",
+   "event_url": "https://ra.co/events/2583970",
+   "image": "",
+   "status": "confirmed",
+   "sources": [
+    {
+     "id": "ra",
+     "url": "https://ra.co/events/2583970"
+    }
+   ],
+   "interest": {
+    "score": 13,
+    "tier": 0,
+    "reasons": [
+     "tête d'affiche : Laps (10)",
+     "lieu : TBA (palier 1)"
     ]
    }
   },
@@ -25690,16 +25310,16 @@
    }
   },
   {
-   "id": "f4bc889f70c4",
-   "title": "Roller Party w/ Electroller",
+   "id": "5512be2fbeb0",
+   "title": "Roller Party w/ ElectroRoller",
    "venue_id": "communale-saint-ouen",
    "night": "2027-01-17",
    "start": "2027-01-17T13:30:00+01:00",
    "end": "2027-01-17T17:30:00+01:00",
    "lineup": [
     {
-     "artist_id": "electroller",
-     "name": "Electroller",
+     "artist_id": "electroroller",
+     "name": "ElectroRoller",
      "billing": "headliner"
     }
    ],
@@ -25709,21 +25329,21 @@
    "families": [],
    "price_min": 12.0,
    "currency": "EUR",
-   "ticket_url": "https://dice.fm/event/x9voyk-roller-party-w-electroller-17th-jan-communale-saint-ouen-saint-ouen-sur-seine-tickets",
-   "event_url": "https://dice.fm/event/x9voyk-roller-party-w-electroller-17th-jan-communale-saint-ouen-saint-ouen-sur-seine-tickets",
+   "ticket_url": "https://dice.fm/event/x9voyk-roller-party-w-electroroller-17th-jan-communale-saint-ouen-saint-ouen-sur-seine-tickets",
+   "event_url": "https://dice.fm/event/x9voyk-roller-party-w-electroroller-17th-jan-communale-saint-ouen-saint-ouen-sur-seine-tickets",
    "image": "https://dice-media.imgix.net/attachments/2026-11-24/afa3d6ec-5e10-4eee-9b66-e494aae69b7d.jpg?rect=64%2C0%2C1662%2C1662",
    "status": "confirmed",
    "sources": [
     {
      "id": "dice",
-     "url": "https://dice.fm/event/x9voyk-roller-party-w-electroller-17th-jan-communale-saint-ouen-saint-ouen-sur-seine-tickets"
+     "url": "https://dice.fm/event/x9voyk-roller-party-w-electroroller-17th-jan-communale-saint-ouen-saint-ouen-sur-seine-tickets"
     }
    ],
    "interest": {
     "score": 12,
     "tier": 0,
     "reasons": [
-     "tête d'affiche : Electroller (8)",
+     "tête d'affiche : ElectroRoller (8)",
      "lieu : Communale Saint-Ouen (palier 1)"
     ]
    }
@@ -26488,10 +26108,10 @@
     }
    ],
    "interest": {
-    "score": 65,
+    "score": 68,
     "tier": 2,
     "reasons": [
-     "tête d'affiche : Julian Fijma (65)",
+     "tête d'affiche : Julian Fijma (69)",
      "lieu : Rex Club (palier 3)"
     ]
    }
@@ -27678,13 +27298,6 @@
  ],
  "announcements": [
   {
-   "id": "1c500d8a62ca",
-   "name": "Bob Sinclar",
-   "night": "2026-11-25",
-   "venue": "GATE CLUB PARIS",
-   "photo": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845"
-  },
-  {
    "id": "608ae06201f0",
    "name": "GEE LEE",
    "night": "2026-12-03",
@@ -27692,18 +27305,11 @@
    "photo": "https://i.scdn.co/image/ab6761610000f17884e05c5e17ea1e55cc206a78"
   },
   {
-   "id": "bc2025e892a7",
-   "name": "Bob Sinclar",
-   "night": "2026-12-16",
-   "venue": "GATE CLUB PARIS",
-   "photo": "https://i.scdn.co/image/ab6761610000f1789bf03e6d3ab7ceb543638845"
-  },
-  {
-   "id": "ee9d437e8cb7",
-   "name": "Etienne De Crecy",
-   "night": "2026-12-19",
-   "venue": "Rex Club",
-   "photo": "https://i.scdn.co/image/ab6761610000f178976162a7d8f6d64d20b9874f"
+   "id": "1f7273438b98",
+   "name": "Aymen",
+   "night": "2026-12-18",
+   "venue": "La Java",
+   "photo": "https://i.scdn.co/image/ab6761610000f1782765454887fd49a52c1f44c4"
   },
   {
    "id": "f45bdc5e167c",
@@ -27711,13 +27317,6 @@
    "night": "2027-01-30",
    "venue": "essaim",
    "photo": "https://i.scdn.co/image/ab6761610000f178ac726ae0d850d7d4f4dd694c"
-  },
-  {
-   "id": "c747d196d88b",
-   "name": "Ninajirachi",
-   "night": "2027-04-17",
-   "venue": "Le Bataclan",
-   "photo": "https://i.scdn.co/image/ab6761610000f1786363b3a1630b8811a4d3d718"
   },
   {
    "id": "9b99120b4805",
@@ -27747,21 +27346,6 @@
  "spotlight": [
   {
    "kind": "event",
-   "day": "MER 25 + MER 16 DEC",
-   "title": "Bob Sinclar",
-   "venue": "GATE CLUB PARIS",
-   "time": "21:00 → 03:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "DJ Daddy K",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb9bf03e6d3ab7ceb543638845",
-   "event_id": "1c500d8a62ca"
-  },
-  {
-   "kind": "event",
    "day": "VEN 27 NOV",
    "title": "horsegiirL",
    "venue": "Élysée Montmartre",
@@ -27774,21 +27358,6 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb1cae0772b061b2dbd838bba4",
    "event_id": "e352b6c34934"
-  },
-  {
-   "kind": "event",
-   "day": "VEN 27 NOV",
-   "title": "Aurelia",
-   "venue": "Poull",
-   "time": "19:00 → 04:00",
-   "tier": 2,
-   "reason": "",
-   "supports": "RORO, xea (1)",
-   "subtitle": "",
-   "footer": "",
-   "footer2": "",
-   "photo": "https://i.scdn.co/image/ab6761610000e5eb46d83df79a36e49f4a091f55",
-   "event_id": "73bb9c340455"
   },
   {
    "kind": "event",
@@ -27882,6 +27451,21 @@
   },
   {
    "kind": "event",
+   "day": "MER 16 DEC",
+   "title": "Bob Sinclar",
+   "venue": "GATE CLUB PARIS",
+   "time": "21:00 → 03:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb9bf03e6d3ab7ceb543638845",
+   "event_id": "bc2025e892a7"
+  },
+  {
+   "kind": "event",
    "day": "VEN 18 DEC",
    "title": "Etienne De Crecy",
    "venue": "104 CENTQUATRE",
@@ -27894,6 +27478,21 @@
    "footer2": "",
    "photo": "https://i.scdn.co/image/ab6761610000e5eb976162a7d8f6d64d20b9874f",
    "event_id": "0cf6d9d645a8"
+  },
+  {
+   "kind": "event",
+   "day": "VEN 18 DEC",
+   "title": "Aymen",
+   "venue": "La Java",
+   "time": "23:30 → 07:00",
+   "tier": 2,
+   "reason": "",
+   "supports": "Vanille",
+   "subtitle": "",
+   "footer": "",
+   "footer2": "",
+   "photo": "https://i.scdn.co/image/ab6761610000e5eb2765454887fd49a52c1f44c4",
+   "event_id": "1f7273438b98"
   },
   {
    "kind": "event",
